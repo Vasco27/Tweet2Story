@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     results_list = []
 
-    topic = "5811057c-6732-4b37-b04c-ddf0a75a7b51"
+    topic = "0b3bea50-3a2c-4d07-953e-45aca9988634"
     """
     0b3bea50-3a2c-4d07-953e-45aca9988634 - "Good" example (some overlaps)
     be8e1b0d-6512-495d-8b55-40b0320a513e - No entities recognized. Fails to tag time expressions on tweets
@@ -65,13 +65,20 @@ if __name__ == '__main__':
     # pprint(tt_topic[2], width=200)
     pprint(tt_topic[3])
 
-    tt_tweets = py_heideltime(
-        tweets_single_doc, date_granularity="full", document_type="colloquial"
-    )
-    data_row["tt_tweets"] = NoIndent(tt_tweets[0])
-    pprint(tt_tweets[0])
-    pprint(tt_tweets[1], width=200)
-    pprint(tt_tweets[3])
+    tweet_tt_list = []
+    for row in topic_data.itertuples():
+        tweet_time = pd.to_datetime(row[4]).date().isoformat()
+        tt_tweets = py_heideltime(
+            row[5], date_granularity="full", document_type="colloquial", document_creation_time=tweet_time
+        )
+        if len(tt_tweets[0]) != 0:
+            tweet_tt_list.append(tt_tweets[0])
+            pprint(tt_tweets[0])
+            pprint(tt_tweets[1], width=200)
+            pprint(tt_tweets[3])
+
+    tweet_tt_list = [item for sublist in tweet_tt_list for item in sublist]
+    data_row["tt_tweets"] = NoIndent(tweet_tt_list)
 
     # Safeguard for cases where the model does not find time entities
     metrics_schema = {
@@ -82,12 +89,12 @@ if __name__ == '__main__':
         "partial_recall": 0,
         "partial_F1": 0
     }
-    if len(tt_tweets[0]) != 0:
-        eval_schema = semeval_confusion_matrix(tt_topic[0], tt_tweets[0])
+    if len(tweet_tt_list) != 0:
+        eval_schema = semeval_confusion_matrix(tt_topic[0], tweet_tt_list)
         metrics_schema = semeval_metrics_computation(eval_schema, DECIMAL_FIGURES)
 
     data_row = {**data_row, **metrics_schema}
     results_list.append(data_row)
 
-    with open(results_dir + "tt_exp4.json", "w", encoding="utf-8") as f:
+    with open(results_dir + "tt_exp1.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))
