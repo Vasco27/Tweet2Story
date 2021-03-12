@@ -17,7 +17,7 @@ def compute_jaccard_index(topic_ents, tweets_ents, decimal_figures=3):
     return round(jaccard * 100, decimal_figures)
 
 
-def ner_confusion_matrix(topic_ner, tweets_ner, baseline="ner"):
+def semeval_confusion_matrix(topic_ner, tweets_ner, baseline="ner"):
     """
     Based in - http://www.davidsbatista.net/blog/2018/05/09/Named_Entity_Evaluation/
     This blog post shows how the International Workshop on Semantic Evaluation (SemEval) evaluates NER tasks.
@@ -175,3 +175,41 @@ def keyphrase_eval_metrics(ref_kw, hyp_kw, data_row=None, fill_results_dict=Fals
         return mean_rouge1p, mean_rouge1f, mean_R_precision
 
     return data_row
+
+
+def semeval_metrics_computation(eval_schema, decimal_figures=3):
+    COR = sum(eval_schema["metrics"][measure]["COR"] for measure in ["strict", "exact", "partial", "type"])
+    INC = sum(eval_schema["metrics"][measure]["INC"] for measure in ["strict", "exact", "partial", "type"])
+    PAR = sum(eval_schema["metrics"][measure]["PAR"] for measure in ["strict", "exact", "partial", "type"])
+    MIS = sum(eval_schema["metrics"][measure]["MIS"] for measure in ["strict", "exact", "partial", "type"])
+    SPU = sum(eval_schema["metrics"][measure]["SPU"] for measure in ["strict", "exact", "partial", "type"])
+
+    POS = COR + INC + PAR + MIS  # TP + FN
+    ACT = COR + INC + PAR + SPU  # TP + FP
+
+    # Exact match eval
+    exact_precision = COR / ACT
+    exact_recall = COR / POS
+    try:
+        exact_F1 = (2 * exact_precision * exact_recall) / (exact_precision + exact_recall)
+    except ZeroDivisionError:
+        exact_F1 = 0
+
+    # Partial match eval
+    partial_precision = (COR + 0.5 * PAR) / ACT  # TP / (TP + FP)
+    partial_recall = (COR + 0.5 * PAR) / POS  # TP / (TP + FP)
+    try:
+        partial_F1 = (2 * partial_precision * partial_recall) / (partial_precision + partial_recall)
+    except ZeroDivisionError:
+        partial_F1 = 0
+
+    metrics_schema = {
+        "exact_precision": round(exact_precision * 100, decimal_figures),
+        "exact_recall": round(exact_recall * 100, decimal_figures),
+        "exact_F1": round(exact_F1 * 100, decimal_figures),
+        "partial_precision": round(partial_precision * 100, decimal_figures),
+        "partial_recall": round(partial_recall * 100, decimal_figures),
+        "partial_F1": round(partial_F1 * 100, decimal_figures)
+    }
+
+    return metrics_schema

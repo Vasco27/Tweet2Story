@@ -4,7 +4,7 @@ import json
 
 # Custom utils
 from T2S.src.utils.data_utils import get_paths
-from T2S.src.utils.eval_utils import ner_confusion_matrix
+from T2S.src.utils.eval_utils import semeval_confusion_matrix, semeval_metrics_computation
 from T2S.src.utils.json_utils import MyEncoder, NoIndent
 
 # Spacy
@@ -82,35 +82,8 @@ if __name__ == '__main__':
     tw_ents = [X.text.lower() for X in doc_tweets.ents]
 
     # EVALUATION
-    eval_schema = ner_confusion_matrix(topic_ents_labels, tweets_ents_labels)
-    # todo: eval_utils function for computing confusion matrix metrics
-    COR = sum(eval_schema["metrics"][measure]["COR"] for measure in ["strict", "exact", "partial", "type"])
-    INC = sum(eval_schema["metrics"][measure]["INC"] for measure in ["strict", "exact", "partial", "type"])
-    PAR = sum(eval_schema["metrics"][measure]["PAR"] for measure in ["strict", "exact", "partial", "type"])
-    MIS = sum(eval_schema["metrics"][measure]["MIS"] for measure in ["strict", "exact", "partial", "type"])
-    SPU = sum(eval_schema["metrics"][measure]["SPU"] for measure in ["strict", "exact", "partial", "type"])
-
-    POS = COR + INC + PAR + MIS  # TP + FN
-    ACT = COR + INC + PAR + SPU  # TP + FP
-
-    # Exact match eval
-    exact_precision = COR / ACT
-    exact_recall = COR / POS
-    exact_F1 = (2 * exact_precision * exact_recall) / (exact_precision + exact_recall)
-
-    # Partial match eval
-    partial_precision = (COR + 0.5 * PAR) / ACT  # TP / (TP + FP)
-    partial_recall = (COR + 0.5 * PAR) / POS  # TP / (TP + FP)
-    partial_F1 = (2 * partial_precision * partial_recall) / (partial_precision + partial_recall)
-
-    metrics_schema = {
-        "exact_precision": round(exact_precision * 100, DECIMAL_FIGURES),
-        "exact_recall": round(exact_recall * 100, DECIMAL_FIGURES),
-        "exact_F1": round(exact_F1 * 100, DECIMAL_FIGURES),
-        "partial_precision": round(partial_precision * 100, DECIMAL_FIGURES),
-        "partial_recall": round(partial_recall * 100, DECIMAL_FIGURES),
-        "partial_F1": round(partial_F1 * 100, DECIMAL_FIGURES)
-    }
+    eval_schema = semeval_confusion_matrix(topic_ents_labels, tweets_ents_labels)
+    metrics_schema = semeval_metrics_computation(eval_schema, DECIMAL_FIGURES)
 
     data_row = {**data_row, **metrics_schema}
     results_list.append(data_row)
