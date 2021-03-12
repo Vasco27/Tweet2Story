@@ -1,0 +1,67 @@
+[
+    {
+        "topic":"8b31120e-d654-45b4-a5df-8fef674339d8",
+        "tweetID":638742673935855616,
+        "relevancy":1,
+        "tweets.created_at":"2015-01-09T15:58:15.000Z",
+        "tweets.full_text":"(today) MOVES-Metlife, Nomura, Credit Suisse, Macquarie   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/scoo.ps\/1hv7aZM']",
+        "tweets.user_name":"scoo_ps",
+        "tweets.followers_count":7273,
+        "topics.title":"Company Update (NYSE:MET): MetLife Increases Share Repurchase Authorization to $1 Billion"
+    },
+    {
+        "topic":"8b31120e-d654-45b4-a5df-8fef674339d8",
+        "tweetID":639400852747259905,
+        "relevancy":1,
+        "tweets.created_at":"2015-03-09T11:33:37.000Z",
+        "tweets.full_text":"MetLife Names Argonaut New Creative Agency    ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/dlvr.it\/C2zyDp']",
+        "tweets.user_name":"geoff_deweaver",
+        "tweets.followers_count":385074,
+        "topics.title":"Company Update (NYSE:MET): MetLife Increases Share Repurchase Authorization to $1 Billion"
+    },
+    {
+        "topic":"8b31120e-d654-45b4-a5df-8fef674339d8",
+        "tweetID":641355546629566464,
+        "relevancy":1,
+        "tweets.created_at":"2015-08-09T21:00:52.000Z",
+        "tweets.full_text":". closing #Somerset site; 136 could lose #jobs   ",
+        "tweets.hashtags":"['Somerset', 'jobs']",
+        "tweets.user_mentions":"['MetLife']",
+        "tweets.urls":"['http:\/\/bit.ly\/1NghRvv']",
+        "tweets.user_name":"NJBIZ",
+        "tweets.followers_count":18886,
+        "topics.title":"Company Update (NYSE:MET): MetLife Increases Share Repurchase Authorization to $1 Billion"
+    },
+    {
+        "topic":"8b31120e-d654-45b4-a5df-8fef674339d8",
+        "tweetID":646511344473149440,
+        "relevancy":2,
+        "tweets.created_at":"2015-09-23T02:28:10.000Z",
+        "tweets.full_text":"Metlife boosts share buyback program to $1 billion  #Finance.  ",
+        "tweets.hashtags":"['Finance']",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/dlvr.it\/CDtdr8']",
+        "tweets.user_name":"AsiaPacNews",
+        "tweets.followers_count":7866,
+        "topics.title":"Company Update (NYSE:MET): MetLife Increases Share Repurchase Authorization to $1 Billion"
+    },
+    {
+        "topic":"8b31120e-d654-45b4-a5df-8fef674339d8",
+        "tweetID":648622227383025664,
+        "relevancy":2,
+        "tweets.created_at":"2015-09-28T22:16:04.000Z",
+        "tweets.full_text":"Metlife Inc (MET) Stock Ready To Move Back Up - Rick Pendergraft:\u00a0Over the last two months, few stocks have been a...   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/ow.ly\/34LSxA']",
+        "tweets.user_name":"ETFDAILYNEWS",
+        "tweets.followers_count":9675,
+        "topics.title":"Company Update (NYSE:MET): MetLife Increases Share Repurchase Authorization to $1 Billion"
+    }
+]

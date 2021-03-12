@@ -1,0 +1,28 @@
+[
+    {
+        "topic":"7cd39dcf-be13-46a7-a6af-b1d55a42e9e9",
+        "tweetID":646273590153732096,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-22T10:43:25.000Z",
+        "tweets.full_text":"Office 365 Planner (codenamed Highlander) will be out to O365 First Release users next quarter. More on Planner:   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/www.zdnet.com\/article\/an-attempt-to-organize-microsofts-growing-list-of-organizing-tools\/']",
+        "tweets.user_name":"maryjofoley",
+        "tweets.followers_count":153975,
+        "topics.title":"Facilities Planner"
+    },
+    {
+        "topic":"7cd39dcf-be13-46a7-a6af-b1d55a42e9e9",
+        "tweetID":646453944701448192,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-22T22:40:05.000Z",
+        "tweets.full_text":"Microsoft announced Office Planner today. Find out what it is in our Office 2016 review:  via   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['markhachman']",
+        "tweets.urls":"['http:\/\/www.pcworld.com\/article\/2984992\/business-software\/microsoft-office-2016-review-its-all-about-collaboration.html']",
+        "tweets.user_name":"pcworld",
+        "tweets.followers_count":404236,
+        "topics.title":"Facilities Planner"
+    }
+]

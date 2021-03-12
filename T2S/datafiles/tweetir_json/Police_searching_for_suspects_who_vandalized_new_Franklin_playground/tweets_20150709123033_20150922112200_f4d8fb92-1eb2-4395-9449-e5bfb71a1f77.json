@@ -1,0 +1,80 @@
+[
+    {
+        "topic":"f4d8fb92-1eb2-4395-9449-e5bfb71a1f77",
+        "tweetID":640864733512507392,
+        "relevancy":1,
+        "tweets.created_at":"2015-07-09T12:30:33.000Z",
+        "tweets.full_text":"Vandals strike: Franklin police seek suspects who damaged Kaylas Krew Playground   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/to.fox6now.com\/1VIGpQQ']",
+        "tweets.user_name":"fox6now",
+        "tweets.followers_count":86707,
+        "topics.title":"Police searching for suspects who vandalized new Franklin playground"
+    },
+    {
+        "topic":"f4d8fb92-1eb2-4395-9449-e5bfb71a1f77",
+        "tweetID":641289289993555968,
+        "relevancy":2,
+        "tweets.created_at":"2015-08-09T16:37:35.000Z",
+        "tweets.full_text":"Franklin neighborhood evacuated, school locked down after incident: Police in Franklin are investigating an\u2026   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/boston.cityandpress.com\/node\/10141741']",
+        "tweets.user_name":"Boston_CP",
+        "tweets.followers_count":2897,
+        "topics.title":"Police searching for suspects who vandalized new Franklin playground"
+    },
+    {
+        "topic":"f4d8fb92-1eb2-4395-9449-e5bfb71a1f77",
+        "tweetID":643027288574005248,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-13T11:43:47.000Z",
+        "tweets.full_text":"Franklin Templeton sees record outflows   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/on.ft.com\/1NpOzL3']",
+        "tweets.user_name":"FinancialTimes",
+        "tweets.followers_count":6854195,
+        "topics.title":"Police searching for suspects who vandalized new Franklin playground"
+    },
+    {
+        "topic":"f4d8fb92-1eb2-4395-9449-e5bfb71a1f77",
+        "tweetID":643869961073655809,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-15T19:32:15.000Z",
+        "tweets.full_text":"Franklin County police search for robbery suspect   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/on.wgal.com\/1itmxDd']",
+        "tweets.user_name":"WGAL",
+        "tweets.followers_count":129211,
+        "topics.title":"Police searching for suspects who vandalized new Franklin playground"
+    },
+    {
+        "topic":"f4d8fb92-1eb2-4395-9449-e5bfb71a1f77",
+        "tweetID":645950121948000256,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-21T13:18:04.000Z",
+        "tweets.full_text":"Police looking for man who fired shots in Franklin   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/on.wlwt.com\/1gG7YdO']",
+        "tweets.user_name":"WLWT",
+        "tweets.followers_count":136513,
+        "topics.title":"Police searching for suspects who vandalized new Franklin playground"
+    },
+    {
+        "topic":"f4d8fb92-1eb2-4395-9449-e5bfb71a1f77",
+        "tweetID":646283298818408448,
+        "relevancy":2,
+        "tweets.created_at":"2015-09-22T11:22:00.000Z",
+        "tweets.full_text":"Excited to be at  in Franklin. The playground is looking good, but they need more help! Details on    ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['kaylaskrew', 'tmj4']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"bridgetshanahan",
+        "tweets.followers_count":2125,
+        "topics.title":"Police searching for suspects who vandalized new Franklin playground"
+    }
+]

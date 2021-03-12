@@ -1,0 +1,80 @@
+[
+    {
+        "topic":"9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "tweetID":639754816126894080,
+        "relevancy":2,
+        "tweets.created_at":"2015-04-09T11:00:08.000Z",
+        "tweets.full_text":"Seven months &amp; \u00a32800 to build but Shaminder Singhs tribute to Phillip Hughes is complete     ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['BBCSport']",
+        "tweets.urls":"['http:\/\/bbc.in\/1fYQDwi']",
+        "tweets.user_name":"TheEliselise",
+        "tweets.followers_count":2538,
+        "topics.title":"A stadium for Hughes"
+    },
+    {
+        "topic":"9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "tweetID":639760071875002368,
+        "relevancy":2,
+        "tweets.created_at":"2015-04-09T11:21:01.000Z",
+        "tweets.full_text":"Model cricket ground made in memory of batsman Phillip Hughes who was killed by a ball     ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/bbc.in\/1FnaYSA']",
+        "tweets.user_name":"BBCEngland",
+        "tweets.followers_count":111955,
+        "topics.title":"A stadium for Hughes"
+    },
+    {
+        "topic":"9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "tweetID":639761741862281216,
+        "relevancy":2,
+        "tweets.created_at":"2015-04-09T11:27:40.000Z",
+        "tweets.full_text":"Cricket fan hand-builds miniature stadium    ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['ETribuneSports']",
+        "tweets.urls":"['http:\/\/tribune.com.pk\/story\/950702\/tribute-to-phillip-hughes-cricket-fan-hand-builds-miniature-stadium\/']",
+        "tweets.user_name":"etribune",
+        "tweets.followers_count":996859,
+        "topics.title":"A stadium for Hughes"
+    },
+    {
+        "topic":"9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "tweetID":639761969260564480,
+        "relevancy":2,
+        "tweets.created_at":"2015-04-09T11:28:34.000Z",
+        "tweets.full_text":"Model cricket ground made in memory of batsman Phillip Hughes who was killed by a ball     ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['BBCEngland']",
+        "tweets.urls":"['http:\/\/bbc.in\/1FnaYSA']",
+        "tweets.user_name":"BBCNews",
+        "tweets.followers_count":11892616,
+        "topics.title":"A stadium for Hughes"
+    },
+    {
+        "topic":"9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "tweetID":639772931464130560,
+        "relevancy":2,
+        "tweets.created_at":"2015-04-09T12:12:07.000Z",
+        "tweets.full_text":"Tribute to Phillip Hughes: Cricket fan hand-builds miniature stadium  via   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['paknews']",
+        "tweets.urls":"['http:\/\/goo.gl\/fb\/fWlLjr']",
+        "tweets.user_name":"paknews",
+        "tweets.followers_count":71905,
+        "topics.title":"A stadium for Hughes"
+    },
+    {
+        "topic":"9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "tweetID":639787650233278464,
+        "relevancy":2,
+        "tweets.created_at":"2015-04-09T13:10:37.000Z",
+        "tweets.full_text":"Cricketer Phillip Hughes death inspired this fan to think very, very small    ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/www.mirror.co.uk\/news\/uk-news\/cricketer-phillip-hughes-death-inspires-6381508']",
+        "tweets.user_name":"DailyMirror",
+        "tweets.followers_count":1235556,
+        "topics.title":"A stadium for Hughes"
+    }
+]

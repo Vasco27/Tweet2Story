@@ -1,0 +1,28 @@
+[
+    {
+        "topic":"32023021-1141-4832-9939-c8442d505b34",
+        "tweetID":643499509188661248,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-14T19:00:13.000Z",
+        "tweets.full_text":"The Parade of Homes 2015 will showcase newer and larger homes in central Ohio.   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/wosu.pm\/1EY7sU6']",
+        "tweets.user_name":"wosunews",
+        "tweets.followers_count":12015,
+        "topics.title":"Perkins Eastman Celebrates Groundbreaking of Clark-Lindsey's Small Homes for Dementia Care"
+    },
+    {
+        "topic":"32023021-1141-4832-9939-c8442d505b34",
+        "tweetID":646354344829390848,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-22T16:04:19.000Z",
+        "tweets.full_text":"Ball says there is a big difference between long-term care homes and personal care homes. Opposes private long-term care. #nlpoli.  ",
+        "tweets.hashtags":"['nlpoli']",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"[]",
+        "tweets.user_name":"MikeConnors",
+        "tweets.followers_count":17855,
+        "topics.title":"Perkins Eastman Celebrates Groundbreaking of Clark-Lindsey's Small Homes for Dementia Care"
+    }
+]

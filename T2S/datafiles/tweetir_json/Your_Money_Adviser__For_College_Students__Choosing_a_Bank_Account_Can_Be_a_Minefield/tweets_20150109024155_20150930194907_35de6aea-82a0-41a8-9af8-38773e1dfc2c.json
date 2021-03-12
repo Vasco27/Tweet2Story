@@ -1,0 +1,54 @@
+[
+    {
+        "topic":"35de6aea-82a0-41a8-9af8-38773e1dfc2c",
+        "tweetID":638542270409646080,
+        "relevancy":1,
+        "tweets.created_at":"2015-01-09T02:41:55.000Z",
+        "tweets.full_text":"A better way to raise money for college! What students are doing #KDKA-TV News at 11.  ",
+        "tweets.hashtags":"['KDKA']",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"[]",
+        "tweets.user_name":"KDKA",
+        "tweets.followers_count":194442,
+        "topics.title":"Your Money Adviser: For College Students, Choosing a Bank Account Can Be a Minefield"
+    },
+    {
+        "topic":"35de6aea-82a0-41a8-9af8-38773e1dfc2c",
+        "tweetID":644858522753089536,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-18T13:00:27.000Z",
+        "tweets.full_text":"Now, high school students can earn money for college the easy way.   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/bit.ly\/1NBiKPz?utm_medium=social&utm_source=twitter_WDBJ7']",
+        "tweets.user_name":"WDBJ7",
+        "tweets.followers_count":124545,
+        "topics.title":"Your Money Adviser: For College Students, Choosing a Bank Account Can Be a Minefield"
+    },
+    {
+        "topic":"35de6aea-82a0-41a8-9af8-38773e1dfc2c",
+        "tweetID":646825672506261504,
+        "relevancy":2,
+        "tweets.created_at":"2015-09-23T23:17:12.000Z",
+        "tweets.full_text":"A2: We will work to help students understand how to minimize debt.  ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['HamptonforKy']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"WLKY",
+        "tweets.followers_count":126369,
+        "topics.title":"Your Money Adviser: For College Students, Choosing a Bank Account Can Be a Minefield"
+    },
+    {
+        "topic":"35de6aea-82a0-41a8-9af8-38773e1dfc2c",
+        "tweetID":649310021340102662,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-30T19:49:07.000Z",
+        "tweets.full_text":"On-campus residency requirements can be a burden for low-income college students.    ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/wpo.st\/W6Rd0']",
+        "tweets.user_name":"MWatkinsTrib",
+        "tweets.followers_count":5479,
+        "topics.title":"Your Money Adviser: For College Students, Choosing a Bank Account Can Be a Minefield"
+    }
+]

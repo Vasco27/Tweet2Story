@@ -1,0 +1,54 @@
+[
+    {
+        "topic":"6c3814a9-8e3b-4826-8472-13d6ec197c91",
+        "tweetID":641798596900323328,
+        "relevancy":2,
+        "tweets.created_at":"2015-10-09T02:21:24.000Z",
+        "tweets.full_text":"Actor Jason Clarke, who portrays climber Rob Hall, arrives at the #EverestMovie premiere in L.A.   ",
+        "tweets.hashtags":"['EverestMovie']",
+        "tweets.user_mentions":"['everestmovie']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"UniversalPics",
+        "tweets.followers_count":4427974,
+        "topics.title":"One-fingered climber nears Everest top"
+    },
+    {
+        "topic":"6c3814a9-8e3b-4826-8472-13d6ec197c91",
+        "tweetID":643691929948037120,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-15T07:44:49.000Z",
+        "tweets.full_text":"A critically-injured climber was airlifted to hospital after plunging 200ft from a Highland mountain.   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/fb.me\/3MSSFT7Jb']",
+        "tweets.user_name":"STVNews",
+        "tweets.followers_count":503829,
+        "topics.title":"One-fingered climber nears Everest top"
+    },
+    {
+        "topic":"6c3814a9-8e3b-4826-8472-13d6ec197c91",
+        "tweetID":648027864252583936,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-27T06:54:17.000Z",
+        "tweets.full_text":"Let each #journey become an #adventure and each adventure an #experience. Happy #WorldTourismDay   ",
+        "tweets.hashtags":"['journey', 'adventure', 'experience', 'WorldTourismDay']",
+        "tweets.user_mentions":"['MahindraAdvntr']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"anandmahindra",
+        "tweets.followers_count":8332386,
+        "topics.title":"One-fingered climber nears Everest top"
+    },
+    {
+        "topic":"6c3814a9-8e3b-4826-8472-13d6ec197c91",
+        "tweetID":648165943064068096,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-27T16:02:57.000Z",
+        "tweets.full_text":"Review - Blackwell 4: Deception is a great entry for  adventure series -    ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['WadjetEyeGames']",
+        "tweets.urls":"['http:\/\/www.148apps.com\/reviews\/blackwell-4-deception-review\/']",
+        "tweets.user_name":"148Apps",
+        "tweets.followers_count":49075,
+        "topics.title":"One-fingered climber nears Everest top"
+    }
+]

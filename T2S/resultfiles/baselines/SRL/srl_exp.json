@@ -1,0 +1,136 @@
+[
+    {
+        "topic": "5811057c-6732-4b37-b04c-ddf0a75a7b51",
+        "content": "EVIAN, France, Sept 13 AFP - New Zealands Lydia Ko wrote another chapter of golfing history on Sunday when she became the youngest winner of a womens major with a stunning final round 63 at the Evian Championship.   Sundays flawless eight-birdie round was the lowest score of the week and she finished on 268, 16 under par and six ahead of American Lexi Thompson (70). Chinas Feng Shanshan also shot 70 and was third on eight under.   Ko is 18 years 142 days - 171 days younger than Morgan Pressel when she won the 2007 Kraft Nabisco Championship.   Back in February, aged 17, Ko became the youngest player to claim the world No. 1 ranking, although the Evian victory still leaves her at No.2 behind South Koreas Inbee Park.   She also holds the record as the youngest winner on the LPGA Tour, the first of her nine wins coming as a 15-year-old amateur at the 2012 Canadian Open.   At Evian on Sunday Australias Minjee Lee (72) was tied for 11th, 12 shots behind the leader while Karrie Webb (72) was 19 shots back tied for 38th.   Ko, who finished second at Evian two years ago, was thrilled to achieve her dream of a first major title.   Overcome with emotion, she came close to tears after holing the last of her eight birdie putts on the 18th.   Its pretty amazing, she said.   This has been an awesome day and an unbelievable experience. Everyone has been asking me when I was going to win my fist major, and now its done. Its so hard to get your hands on the first one.   With a five-shot lead coming down the last, she was able to savour the experience and appreciate the crowd support.   Jason (her caddie) told me to enjoy the moment and thats when I could feel the tears coming. It was quite overwhelming and also a bit of a relief, she continued.   Winning a major at any age is special, but to become the youngest is pretty cool. Its also nice that it is over - no one will ask me about it again.   Ko started the final round two shots behind South Koreas Mi-Hyang Lee, who finished joint fourth with a 74, and was three behind Thompson after seven holes.   But she birdied four holes between the seventh and 12th to take the lead and edged three ahead when Thompson, over the back and in deep rough from the tee, took a double-bogey five at the short 14th.   The final few holes were a victory stroll. An up-and-down birdie at the long 15th stretched the lead to four, then it was five thanks to a 20-foot birdie putt at the 17th and six when she holed another 20-footer at the last.   Park, winner of two majors this season, had a fine final round of 68 to finish just inside the top ten on five under par. The South Korean won the Evian title in 2012, the year before it became a major.   This was Kos fourth win of the year and now she will spend a few weeks at her home with her family in Orlando, Florida, before heading for the LPGAs Asia swing next month.   And new targets   My next goal is the Olympics, she said after pocketing the 430,000 ($A684,500) winners cheque.   Rio is less than a year away and I really want to do it.   As soon as I knew golf was in the Olympics I wanted to be part of it and play for New Zealand. I love representing my country..  ",
+        "tweets": [
+            "Warner: PNM win a victory for ILP",
+            "Lydia Ko off to a solid start at Evian Championship",
+            "Lexi Thompson, Mi Hyang Lee tied for lead at Evian Championship",
+            "Lexi Thompson, Mi Hyang Lee tied for lead at Evian Championship",
+            "Lydia Ko intends to play her own game in final round at Evian Championship",
+            "Lydia Kos drawing on past experience in her bid to lift her first major trophy ahead of final round of Evian Championship at Lake Geneva..",
+            "Lydia Ko wins Evian Championship to become youngest major champion",
+            "Teenager Ko makes history with Evian win",
+            "Lydia Ko becomes youngest ever winner of a major at the Evian…  via",
+            "World No.2 Lydia Ko (18) became the youngest winner of a LPGA major with a 6-shot victory over Lexi Thompson at the Evian Championship.",
+            "Lydia Ko records first ever Major title overnight, youngest ever Major winner",
+            "Kiwi golfer  fired a bogey-free eight-under 63 to become the youngest winner of a womens major at the Evian Championship in France..",
+            "Commentary Box is on in 10 mins – Mike, Andrew and Scotty are talking Lydia Ko, RWC and more..",
+            "Teenager Ko makes history with Evian win",
+            "Lydia Ko takes scintillating major win in her stride",
+            "Teenager Lydia Ko makes history at Evian.  #golf",
+            "Lydia Ko says she was spurred on to her major triumph by a vocal young fan during the weekend",
+            "Ko wins Evian Championship, becomes youngest major champion: EVIAN-LES-BAINS, France -- With two holes left to...",
+            "18-year-old Lydia Ko wins Evian Championship to become youngest LPGA major champion.",
+            "Amazing teen golfer Lydia Ko hailed over major record",
+            "Ko makes history with Evian win",
+            "New Zealand golfer Lydia Ko already looking ahead to Rio Olympics after major success",
+            "Teenager Lydia Ko poised for golfing riches after Evian Championship win",
+            "Lydia Ko not even a mention.",
+            "win win.",
+            "Jason Days moved within 18 holes of the world number one ranking after another round in the red at the BMW Championship in Illinois..",
+            "a win is a win is a win.",
+            "If you think you can win, you can win. Faith is necessary to victory. - William Hazlitt #quote via",
+            "Win-win!."
+        ],
+        "nr_tweets": 29,
+        "topic_sentences_srl": {
+            "sentence1": [
+                "EVIAN , France , Sept 13 AFP - [ARG0: New Zealands Lydia Ko] [V: wrote] [ARG1: another chapter of golfing history] [ARGM-TMP: on Sunday] [ARGM-TMP: when she became the youngest winner of a womens major with a stunning final round 63 at the Evian Championship] .",
+                "EVIAN , France , Sept 13 AFP - New Zealands Lydia Ko wrote another chapter of [V: golfing] [ARG0: history] on Sunday when she became the youngest winner of a womens major with a stunning final round 63 at the Evian Championship .",
+                "EVIAN , France , Sept 13 AFP - New Zealands Lydia Ko wrote another chapter of golfing history on [ARGM-TMP: Sunday] [R-ARGM-TMP: when] [ARG1: she] [V: became] [ARG2: the youngest winner of a womens major] [ARGM-MNR: with a stunning final round 63 at the Evian Championship] ."
+            ]
+        },
+        "tweets_sentences_srl": {
+            "sentence1": [
+                [
+                    "Warner : PNM [V: win] [ARG1: a victory] [ARG2: for ILP] ."
+                ],
+                [],
+                [
+                    "[ARG0: Lexi Thompson , Mi Hyang Lee] [V: tied] [ARG2: for lead] [ARGM-LOC: at Evian Championship] ."
+                ],
+                [
+                    "[ARG0: Lexi Thompson , Mi Hyang Lee] [V: tied] [ARG2: for lead] [ARGM-LOC: at Evian Championship] ."
+                ],
+                [
+                    "[ARG0: Lydia Ko] [V: intends] [ARG1: to play her own game in final round at Evian Championship] .",
+                    "[ARG0: Lydia Ko] intends to [V: play] [ARG1: her own game] [ARGM-LOC: in final round at Evian Championship] ."
+                ],
+                [
+                    "[ARG0: Lydia Kos] [V: drawing] [ARG2: on past experience in her bid to lift her first major trophy ahead of final round of Evian Championship at Lake Geneva] ... Lydia Ko wins Evian Championship to become youngest major champion .",
+                    "[ARG0: Lydia Kos] drawing on past experience in her bid to [V: lift] [ARG1: her first major trophy] [ARGM-TMP: ahead of final round of Evian Championship at Lake Geneva] ... Lydia Ko wins Evian Championship to become youngest major champion .",
+                    "Lydia Kos drawing on past experience in her bid to lift her first major trophy ahead of final round of Evian Championship at Lake Geneva ... [ARG0: Lydia Ko] [V: wins] [ARG1: Evian Championship] [ARGM-PRP: to become youngest major champion] .",
+                    "Lydia Kos drawing on past experience in her bid to lift her first major trophy ahead of final round of Evian Championship at Lake Geneva ... [ARG1: Lydia Ko] wins Evian Championship to [V: become] [ARG2: youngest major champion] ."
+                ],
+                [
+                    "[ARG0: Teenager Ko] [V: makes] [ARG1: history] [ARGM-COM: with Evian win] ."
+                ],
+                [
+                    "[ARG1: Lydia Ko] [V: becomes] [ARG2: youngest ever winner of a major] [ARGM-LOC: at the Evian … via] ."
+                ],
+                [
+                    "[ARG1: World No.2 Lydia Ko ( 18 )] [V: became] [ARG2: the youngest winner of a LPGA major] [ARGM-MNR: with a 6 - shot victory over Lexi Thompson at the Evian Championship] .. Lydia Ko records first ever Major title overnight , youngest ever Major winner .",
+                    "World No.2 Lydia Ko ( 18 ) became the youngest winner of a LPGA major with a 6 - shot victory over Lexi Thompson at the Evian Championship .. [ARG0: Lydia Ko] [V: records] [ARG1: first ever Major title] [ARGM-TMP: overnight] , [ARGM-PRD: youngest ever Major winner] ."
+                ],
+                [
+                    "[ARG0: Kiwi golfer] [V: fired] [ARG1: a bogey - free eight - under 63] [ARGM-PRP: to become the youngest winner of a womens major at the Evian Championship in France] ... Commentary Box is on in 10 mins – Mike , Andrew and Scotty are talking Lydia Ko , RWC and more ... Teenager Ko makes history with Evian win .",
+                    "[ARG1: Kiwi golfer] fired a bogey - free eight - under 63 to [V: become] [ARG2: the youngest winner of a womens major at the Evian Championship in France] ... Commentary Box is on in 10 mins – Mike , Andrew and Scotty are talking Lydia Ko , RWC and more ... Teenager Ko makes history with Evian win .",
+                    "Kiwi golfer fired a bogey - free eight - under 63 to become the youngest winner of a womens major at the Evian Championship in France ... [ARG1: Commentary Box] [V: is] [ARG2: on] [ARGM-TMP: in 10 mins –] Mike , Andrew and Scotty are talking Lydia Ko , RWC and more ... Teenager Ko makes history with Evian win .",
+                    "Kiwi golfer fired a bogey - free eight - under 63 to become the youngest winner of a womens major at the Evian Championship in France ... Commentary Box is on in 10 mins – Mike , Andrew and Scotty [V: are] talking Lydia Ko , RWC and more ... Teenager Ko makes history with Evian win .",
+                    "Kiwi golfer fired a bogey - free eight - under 63 to become the youngest winner of a womens major at the Evian Championship in France ... Commentary Box is on in 10 mins – [ARG0: Mike , Andrew and Scotty] are [V: talking] [ARG1: Lydia Ko , RWC and more] ... Teenager Ko makes history with Evian win .",
+                    "Kiwi golfer fired a bogey - free eight - under 63 to become the youngest winner of a womens major at the Evian Championship in France ... Commentary Box is on in 10 mins – Mike , Andrew and Scotty are talking Lydia Ko , RWC and more ... [ARG0: Teenager Ko] [V: makes] [ARG1: history] [ARG2: with Evian win] ."
+                ],
+                [
+                    "[ARG0: Lydia Ko] [V: takes] [ARG1: scintillating major win] [ARG2: in her stride] .",
+                    "Lydia Ko takes [V: scintillating] [ARG1: major win] in her stride ."
+                ],
+                [
+                    "[ARG0: Teenager Lydia Ko] [V: makes] [ARG1: history] [ARGM-LOC: at Evian] ."
+                ],
+                [],
+                [
+                    "[ARG0: Lydia Ko] [V: says] [ARG1: she was spurred on to her major triumph by a vocal young fan during the weekend] .",
+                    "Lydia Ko says she [V: was] spurred on to her major triumph by a vocal young fan during the weekend .",
+                    "Lydia Ko says [ARG1: she] was [V: spurred] on [ARG2: to her major triumph] [ARG0: by a vocal young fan] [ARGM-TMP: during the weekend] ."
+                ],
+                [
+                    "[ARG0: Ko] [V: wins] [ARG1: Evian Championship] , becomes youngest major champion : EVIAN - LES - BAINS , France -- With two holes left to .... 18 - year - old Lydia Ko wins Evian Championship to become youngest LPGA major champion .. Amazing teen golfer Lydia Ko hailed over major record .",
+                    "[ARG1: Ko] wins Evian Championship , [V: becomes] [ARG2: youngest major champion] : EVIAN - LES - BAINS , France -- With two holes left to .... 18 - year - old Lydia Ko wins Evian Championship to become youngest LPGA major champion .. Amazing teen golfer Lydia Ko hailed over major record .",
+                    "Ko wins Evian Championship , becomes youngest major champion : EVIAN - LES - BAINS , France -- With [ARG1: two holes] [V: left] to .... 18 - year - old Lydia Ko wins Evian Championship to become youngest LPGA major champion .. Amazing teen golfer Lydia Ko hailed over major record .",
+                    "Ko wins Evian Championship , becomes youngest major champion : EVIAN - LES - BAINS , France -- With two holes left to .... [ARG0: 18 - year - old Lydia Ko] [V: wins] [ARG1: Evian Championship] [ARGM-PRP: to become youngest LPGA major champion] .. Amazing teen golfer Lydia Ko hailed over major record .",
+                    "Ko wins Evian Championship , becomes youngest major champion : EVIAN - LES - BAINS , France -- With two holes left to .... [ARG1: 18 - year - old Lydia Ko] wins Evian Championship to [V: become] [ARG2: youngest LPGA major champion] .. Amazing teen golfer Lydia Ko hailed over major record .",
+                    "Ko wins Evian Championship , becomes youngest major champion : EVIAN - LES - BAINS , France -- With two holes left to .... 18 - year - old Lydia Ko wins Evian Championship to become youngest LPGA major champion .. [ARG0: Amazing teen golfer Lydia Ko] [V: hailed] [ARG2: over major record] ."
+                ],
+                [
+                    "[ARG0: Ko] [V: makes] [ARG1: history] [ARGM-COM: with Evian win] ."
+                ],
+                [
+                    "[ARG0: New Zealand golfer Lydia Ko] [ARGM-TMP: already] [V: looking] [ARGM-DIR: ahead] [ARG1: to Rio Olympics] [ARGM-TMP: after major success] ."
+                ],
+                [
+                    "[ARG1: Teenager Lydia Ko] [V: poised] [ARG2: for golfing riches] [ARGM-TMP: after Evian Championship win] .",
+                    "[ARG0: Teenager Lydia Ko] poised for [V: golfing] [ARG1: riches] after Evian Championship win ."
+                ],
+                [
+                    "Lydia Ko not even a mention .. win win .. [ARG1: Jason Days] [V: moved] [ARGM-TMP: within 18 holes] [ARG2: of the world number one ranking] [ARGM-TMP: after another round in the red at the BMW Championship in Illinois] ... a win is a win is a win ..",
+                    "Lydia Ko not even a mention .. win win .. Jason Days moved within 18 holes of the [ARG1: world] [ARG2: number one] [V: ranking] after another round in the red at the BMW Championship in Illinois ... a win is a win is a win ..",
+                    "Lydia Ko not even a mention .. win win .. Jason Days moved within 18 holes of the world number one ranking after another round in the red at the BMW Championship in Illinois ... [ARG1: a win] [V: is] [ARG2: a win is a win] ..",
+                    "Lydia Ko not even a mention .. win win .. Jason Days moved within 18 holes of the world number one ranking after another round in the red at the BMW Championship in Illinois ... a win is [ARG1: a win] [V: is] [ARG2: a win] .."
+                ],
+                [
+                    "If [ARG0: you] [V: think] [ARG1: you can win] , you can win .",
+                    "If you think you [V: can] win , you can win .",
+                    "If you think [ARG0: you] [ARGM-MOD: can] [V: win] , you can win .",
+                    "If you think you can win , you [V: can] win .",
+                    "[ARGM-ADV: If you think you can win] , [ARG0: you] [ARGM-MOD: can] [V: win] ."
+                ],
+                [
+                    "[ARG1: Faith] [V: is] [ARG2: necessary to victory] ."
+                ],
+                [],
+                []
+            ]
+        }
+    }
+]

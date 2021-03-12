@@ -1,0 +1,41 @@
+[
+    {
+        "topic":"96dea64b-8da0-43d3-a15f-5ba682635881",
+        "tweetID":639555982406774784,
+        "relevancy":1,
+        "tweets.created_at":"2015-03-09T21:50:03.000Z",
+        "tweets.full_text":"Oil Company Agrees to Mackinac Straits Heavy Crude Oil Ban   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/dlvr.it\/C3DH1s']",
+        "tweets.user_name":"NorthvillePatch",
+        "tweets.followers_count":1555,
+        "topics.title":"Energen to Participate in Deutsche Bank Energy One-on-One Corporate Days"
+    },
+    {
+        "topic":"96dea64b-8da0-43d3-a15f-5ba682635881",
+        "tweetID":644183750020980736,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-16T16:19:09.000Z",
+        "tweets.full_text":"Tower Resources signs Cameroon oil and gas exploration deal: \u2026 gas exploration deal with the Cameroon government.\u2026   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/dlvr.it\/C9cmdS']",
+        "tweets.user_name":"cameroondaily",
+        "tweets.followers_count":685,
+        "topics.title":"Energen to Participate in Deutsche Bank Energy One-on-One Corporate Days"
+    },
+    {
+        "topic":"96dea64b-8da0-43d3-a15f-5ba682635881",
+        "tweetID":646441177722413056,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-22T21:49:21.000Z",
+        "tweets.full_text":"Oil company officials pleased with findings on crude oil volatility   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/kfgo.com\/news\/articles\/2015\/sep\/22\/oil-company-officials-pleased-with-findings-on-crude-oil-volatility\/']",
+        "tweets.user_name":"790KFGO",
+        "tweets.followers_count":10296,
+        "topics.title":"Energen to Participate in Deutsche Bank Energy One-on-One Corporate Days"
+    }
+]

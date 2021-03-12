@@ -1,0 +1,67 @@
+[
+    {
+        "topic":"9e3ed925-b3cd-4f10-a9b0-f0ae259563f1",
+        "tweetID":638810051591933952,
+        "relevancy":1,
+        "tweets.created_at":"2015-01-09T20:25:59.000Z",
+        "tweets.full_text":"Remember The #Rohingya \u2018Boat People\u2019 Crisis It\u2019s Going To Reemerge  #Myanmar #Burma.  ",
+        "tweets.hashtags":"['Rohingya', 'Myanmar', 'Burma']",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/www.rohingyablogger.com\/2015\/09\/remember-rohingya-boat-people-crisis.html']",
+        "tweets.user_name":"rohingyablogger",
+        "tweets.followers_count":19218,
+        "topics.title":"Why I'm Going to Burma (Myanmar)"
+    },
+    {
+        "topic":"9e3ed925-b3cd-4f10-a9b0-f0ae259563f1",
+        "tweetID":643783702175219712,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-15T13:49:30.000Z",
+        "tweets.full_text":"#LordsQs  Q referred to law in #Burma targeted directly at #AungSanSuuKyi to stop her becoming President.  ",
+        "tweets.hashtags":"['LordsQs', 'Burma', 'AungSanSuuKyi']",
+        "tweets.user_mentions":"['SueNyeLabour']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"LabourLordsUK",
+        "tweets.followers_count":27636,
+        "topics.title":"Why I'm Going to Burma (Myanmar)"
+    },
+    {
+        "topic":"9e3ed925-b3cd-4f10-a9b0-f0ae259563f1",
+        "tweetID":644935851923783680,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-18T18:07:44.000Z",
+        "tweets.full_text":"Why Im Going to Burma (Myanmar) - Huffington Post  #Burma.  ",
+        "tweets.hashtags":"['Burma']",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/bit.ly\/1gyd6AA']",
+        "tweets.user_name":"AungMoeWin",
+        "tweets.followers_count":9380,
+        "topics.title":"Why I'm Going to Burma (Myanmar)"
+    },
+    {
+        "topic":"9e3ed925-b3cd-4f10-a9b0-f0ae259563f1",
+        "tweetID":644938712887881728,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-18T18:19:06.000Z",
+        "tweets.full_text":"[via Google] Why Im Going to Burma (Myanmar) - Huffington Post: Why Im Going to Burma (Myanmar)Huffington Po...   ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/bit.ly\/1P8QP8w']",
+        "tweets.user_name":"naypyidawpost",
+        "tweets.followers_count":117485,
+        "topics.title":"Why I'm Going to Burma (Myanmar)"
+    },
+    {
+        "topic":"9e3ed925-b3cd-4f10-a9b0-f0ae259563f1",
+        "tweetID":646672794307026944,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-23T13:09:43.000Z",
+        "tweets.full_text":"On tonightss  bulletin: UN dictates staff travel restrictions to #Burma at election time.   ",
+        "tweets.hashtags":"['Burma']",
+        "tweets.user_mentions":"['DemocVoiceBurma']",
+        "tweets.urls":"['https:\/\/www.dvb.no\/?p=57551']",
+        "tweets.user_name":"DemocVoiceBurma",
+        "tweets.followers_count":316573,
+        "topics.title":"Why I'm Going to Burma (Myanmar)"
+    }
+]

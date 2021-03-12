@@ -1,0 +1,80 @@
+[
+    {
+        "topic":"011e98e2-0434-4004-b020-7a4a81e12d68",
+        "tweetID":639345127648051200,
+        "relevancy":1,
+        "tweets.created_at":"2015-03-09T07:52:11.000Z",
+        "tweets.full_text":"Police lining the station platform now. Protecting a train without migrants on. Looks like a domestic train on opposite platform.  ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"[]",
+        "tweets.user_name":"Georginatvprod",
+        "tweets.followers_count":5205,
+        "topics.title":"Graffiti-inspired site in Collingwood on track to showcase rooftop trains"
+    },
+    {
+        "topic":"011e98e2-0434-4004-b020-7a4a81e12d68",
+        "tweetID":642631085508177920,
+        "relevancy":1,
+        "tweets.created_at":"2015-12-09T09:29:24.000Z",
+        "tweets.full_text":"Reminder: No trains operating on SRT due to scheduled track work. Replacement buses operating..  ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"[]",
+        "tweets.user_name":"NEWSTALK1010",
+        "tweets.followers_count":57871,
+        "topics.title":"Graffiti-inspired site in Collingwood on track to showcase rooftop trains"
+    },
+    {
+        "topic":"011e98e2-0434-4004-b020-7a4a81e12d68",
+        "tweetID":644159171387092992,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-16T14:41:29.000Z",
+        "tweets.full_text":"Train service has resumed operations. Trains #423 and #424 are first trains to and from the Airport..  ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['SEPTA']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"PHLAirport",
+        "tweets.followers_count":26112,
+        "topics.title":"Graffiti-inspired site in Collingwood on track to showcase rooftop trains"
+    },
+    {
+        "topic":"011e98e2-0434-4004-b020-7a4a81e12d68",
+        "tweetID":646120634611826688,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-22T00:35:38.000Z",
+        "tweets.full_text":" The only information that I have is that theyre working on it and the trains should be running by the end of the year. *mh.  ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['Mallbro']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"calgarytransit",
+        "tweets.followers_count":123170,
+        "topics.title":"Graffiti-inspired site in Collingwood on track to showcase rooftop trains"
+    },
+    {
+        "topic":"011e98e2-0434-4004-b020-7a4a81e12d68",
+        "tweetID":646250840349519872,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-22T09:13:01.000Z",
+        "tweets.full_text":" We had a police request to stop trains. Trains are now back on the move..  ",
+        "tweets.hashtags":"[]",
+        "tweets.user_mentions":"['ptv_cwerwerd']",
+        "tweets.urls":"[]",
+        "tweets.user_name":"metrotrains",
+        "tweets.followers_count":265703,
+        "topics.title":"Graffiti-inspired site in Collingwood on track to showcase rooftop trains"
+    },
+    {
+        "topic":"011e98e2-0434-4004-b020-7a4a81e12d68",
+        "tweetID":649370949024935936,
+        "relevancy":1,
+        "tweets.created_at":"2015-09-30T23:51:13.000Z",
+        "tweets.full_text":"High priority to get on track   #Cranbourne #Melbourne #trains   ",
+        "tweets.hashtags":"['Cranbourne', 'Melbourne', 'trains']",
+        "tweets.user_mentions":"[]",
+        "tweets.urls":"['http:\/\/bit.ly\/1O3bQCR']",
+        "tweets.user_name":"LeaderOnline",
+        "tweets.followers_count":10879,
+        "topics.title":"Graffiti-inspired site in Collingwood on track to showcase rooftop trains"
+    }
+]
