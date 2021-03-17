@@ -1,6 +1,7 @@
 # Essentials
 import pandas as pd
 import json
+import time
 
 # Visualization
 from pprint import pprint
@@ -26,7 +27,7 @@ if __name__ == '__main__':
 
     results_list = []
 
-    topic = "0b3bea50-3a2c-4d07-953e-45aca9988634"
+    # topic = "0b3bea50-3a2c-4d07-953e-45aca9988634"
     """
     0b3bea50-3a2c-4d07-953e-45aca9988634 - "Good" example (some overlaps)
     be8e1b0d-6512-495d-8b55-40b0320a513e - No entities recognized. Fails to tag time expressions on tweets
@@ -39,62 +40,71 @@ if __name__ == '__main__':
     - Even when there is overlap with the topic, it's usually not significant.
     """
 
-    topic_data = tweetir_data[tweetir_data["topic"] == topic]
+    iteration, total_iterations = 1, topic_ids.shape[0]
+    for topic in topic_ids:
+        start = time.time()
+        print(f"Iteration {iteration} of {total_iterations}")
 
-    # Data on specific topic
-    topic_content = topic_data["topics.content"].unique()[0]
-    topic_date = topic_data["topics.published"].unique()[0]
-    topic_date = pd.to_datetime(topic_date).date().isoformat()
+        topic_data = tweetir_data[tweetir_data["topic"] == topic]
 
-    tweet_multi_doc = topic_data["tweets.full_text"].tolist()
-    tweets_single_doc = '\n'.join(tweet_multi_doc)
+        # Data on specific topic
+        topic_content = topic_data["topics.content"].unique()[0]
+        topic_date = topic_data["topics.published"].unique()[0]
+        topic_date = pd.to_datetime(topic_date).date().isoformat()
 
-    print(topic_date)
+        tweet_multi_doc = topic_data["tweets.full_text"].tolist()
+        tweets_single_doc = '\n'.join(tweet_multi_doc)
 
-    data_row = {
-        "topic": topic, "content": topic_content, "tweets": tweet_multi_doc, "nr_tweets": len(tweet_multi_doc),
-        "tt_topic": [], "tt_tweets": []
-    }
+        print(topic_date)
 
-    tt_topic = py_heideltime(
-        topic_content, date_granularity="full", document_type="news", document_creation_time=topic_date
-    )
-    data_row["tt_topic"] = NoIndent(tt_topic[0])
-    pprint(tt_topic[0])
-    # pprint(tt_topic[1], width=200)
-    # pprint(tt_topic[2], width=200)
-    pprint(tt_topic[3])
+        data_row = {
+            "topic": topic, "content": topic_content, "nr_tweets": len(tweet_multi_doc),
+            "tt_topic": [], "tt_tweets": []
+        }
 
-    tweet_tt_list = []
-    for row in topic_data.itertuples():
-        tweet_time = pd.to_datetime(row[4]).date().isoformat()
-        tt_tweets = py_heideltime(
-            row[5], date_granularity="full", document_type="colloquial", document_creation_time=tweet_time
+        tt_topic = py_heideltime(
+            topic_content, date_granularity="full", document_type="news", document_creation_time=topic_date
         )
-        if len(tt_tweets[0]) != 0:
-            tweet_tt_list.append(tt_tweets[0])
-            pprint(tt_tweets[0])
-            pprint(tt_tweets[1], width=200)
-            pprint(tt_tweets[3])
+        data_row["tt_topic"] = NoIndent(tt_topic[0])
+        # pprint(tt_topic[0])
+        # # pprint(tt_topic[1], width=200)
+        # # pprint(tt_topic[2], width=200)
+        pprint(tt_topic[3])
 
-    tweet_tt_list = [item for sublist in tweet_tt_list for item in sublist]
-    data_row["tt_tweets"] = NoIndent(tweet_tt_list)
+        tweet_tt_list = []
+        for row in topic_data.itertuples():
+            tweet_time = pd.to_datetime(row[4]).date().isoformat()
+            tt_tweets = py_heideltime(
+                row[5], date_granularity="full", document_type="colloquial", document_creation_time=tweet_time
+            )
+            if len(tt_tweets[0]) != 0:
+                tweet_tt_list.append(tt_tweets[0])
+                # pprint(tt_tweets[0])
+                # pprint(tt_tweets[1], width=200)
+                pprint(tt_tweets[3])
 
-    # Safeguard for cases where the model does not find time entities
-    metrics_schema = {
-        "exact_precision": 0,
-        "exact_recall": 0,
-        "exact_F1": 0,
-        "partial_precision": 0,
-        "partial_recall": 0,
-        "partial_F1": 0
-    }
-    if len(tweet_tt_list) != 0:
-        eval_schema = semeval_confusion_matrix(tt_topic[0], tweet_tt_list)
-        metrics_schema = semeval_metrics_computation(eval_schema, DECIMAL_FIGURES)
+        tweet_tt_list = [item for sublist in tweet_tt_list for item in sublist]
+        data_row["tt_tweets"] = NoIndent(tweet_tt_list)
 
-    data_row = {**data_row, **metrics_schema}
-    results_list.append(data_row)
+        # Safeguard for cases where the model does not find time entities
+        metrics_schema = {
+            "exact_precision": 0,
+            "exact_recall": 0,
+            "exact_F1": 0,
+            "partial_precision": 0,
+            "partial_recall": 0,
+            "partial_F1": 0
+        }
+        if len(tweet_tt_list) != 0:
+            eval_schema = semeval_confusion_matrix(tt_topic[0], tweet_tt_list)
+            metrics_schema = semeval_metrics_computation(eval_schema, DECIMAL_FIGURES)
 
-    with open(results_dir + "tt_exp1.json", "w", encoding="utf-8") as f:
+        data_row = {**data_row, **metrics_schema}
+        results_list.append(data_row)
+
+        end = time.time()
+        print(f"Iteration time {round(end - start, 2)} seconds")
+        iteration += 1
+
+    with open(results_dir + "tt_baselines.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))

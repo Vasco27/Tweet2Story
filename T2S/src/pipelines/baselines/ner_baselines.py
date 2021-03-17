@@ -2,13 +2,14 @@
 import pandas as pd
 import json
 from collections import namedtuple
+import time
 
 # Custom utils
 from T2S.src.utils.data_utils import get_paths
 from T2S.src.utils.eval_utils import semeval_confusion_matrix, semeval_metrics_computation
 from T2S.src.utils.json_utils import MyEncoder, NoIndent
 
-# Spacy
+# Named-Entity Recognition
 # from spacy import displacy  # Used for visualization (works better on notebooks)
 import en_core_web_trf
 
@@ -84,47 +85,49 @@ if __name__ == '__main__':
 
     iteration, total_iterations, no_entities = 1, tweetir_data["topic"].unique().shape[0], 0
     results_list = []
-    # for topic in tweetir_data["topic"].unique():
-    topic = "5811057c-6732-4b37-b04c-ddf0a75a7b51"
+    for topic in topic_ids:
+        # topic = "5811057c-6732-4b37-b04c-ddf0a75a7b51"
+        start = time.time()
 
-    data_row = {
-        "topic": topic, "content": topic_docs[24],
-        "ner_topic": [], "ner_tweets": []
-    }
+        # start = time.time()
+        print(f"Iteration {iteration} of {total_iterations}")
+        topic_data = tweetir_data[tweetir_data["topic"] == topic]
 
-    # start = time.time()
-    print(f"Iteration {iteration} of {total_iterations}")
-    topic_data = tweetir_data[tweetir_data["topic"] == topic]
+        # Data on specific topic
+        topic_content = topic_data["topics.content"].unique()[0]
+        tweet_multi_doc = topic_data["tweets.full_text"].tolist()
+        tweets_single_doc = '\n'.join(tweet_multi_doc)
 
-    # Data on specific topic
-    topic_content = topic_data["topics.content"].unique()[0]
-    tweet_multi_doc = topic_data["tweets.full_text"].tolist()
-    tweets_single_doc = '\n'.join(tweet_multi_doc)
+        data_row = {
+            "topic": topic, "content": topic_content, "nr_tweets": len(tweet_multi_doc),
+            "ner_topic": [], "ner_tweets": []
+        }
 
-    # Topic entity extraction
-    doc_topic = nlp(topic_content)
-    topic_ents = process_entity_list(doc_topic.ents)
-    topic_ents_labels = process_entity_label_list(doc_topic.ents)
-    data_row["ner_topic"] = NoIndent(list(topic_ents))
-    # pprint(topic_ents_labels)
+        # Topic entity extraction
+        doc_topic = nlp(topic_content)
+        topic_ents = process_entity_list(doc_topic.ents)
+        topic_ents_labels = process_entity_label_list(doc_topic.ents)
+        data_row["ner_topic"] = NoIndent(list(topic_ents))
+        # pprint(topic_ents_labels)
 
-    # Tweets entity extraction
-    doc_tweets = nlp(tweets_single_doc)
-    tweets_ents_labels = process_entity_label_list(doc_tweets.ents)
-    tweets_ner_list = compute_ner_weighted_recall(tweets_ents_labels, topic_content, tweets_single_doc)
-    data_row["ner_tweets"] = NoIndent(tweets_ner_list)
-    # pprint(tweets_ents_labels)
+        # Tweets entity extraction
+        doc_tweets = nlp(tweets_single_doc)
+        tweets_ents_labels = process_entity_label_list(doc_tweets.ents)
+        tweets_ner_list = compute_ner_weighted_recall(tweets_ents_labels, topic_content, tweets_single_doc)
+        data_row["ner_tweets"] = NoIndent(tweets_ner_list)
+        # pprint(tweets_ents_labels)
 
-    # EVALUATION
-    eval_schema = semeval_confusion_matrix(topic_ents_labels, tweets_ents_labels)
-    metrics_schema = semeval_metrics_computation(eval_schema, DECIMAL_FIGURES)
+        # EVALUATION
+        eval_schema = semeval_confusion_matrix(topic_ents_labels, tweets_ents_labels)
+        metrics_schema = semeval_metrics_computation(eval_schema, DECIMAL_FIGURES)
 
-    data_row = {**data_row, **metrics_schema}
-    results_list.append(data_row)
+        data_row = {**data_row, **metrics_schema}
 
-    with open(results_dir + "ner_exp.json", "w", encoding="utf-8") as f:
+        results_list.append(data_row)
+
+        iteration += 1
+        end = time.time()
+        print(f"Iteration time - {round(end - start, 2)} seconds.")
+
+    with open(results_dir + "ner_baselines.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))
-
-    # iteration += 1
-    # end = time.time()
-    # print(f"Iteration time - {round(end - start, 2)} seconds.")

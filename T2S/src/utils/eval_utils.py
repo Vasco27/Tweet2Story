@@ -87,7 +87,7 @@ def semeval_confusion_matrix(topic_ner, tweets_ner, baseline="ner"):
                 if tweet_labels[idx] == label:
                     eval_schema = increment_schema(eval_schema, strict="INC", partial="PAR", exact="INC", type_="COR")
                 # scenario VI -> partial entity - different label
-                elif topic_labels[idx] != label:
+                elif tweet_labels[idx] != label:
                     eval_schema = increment_schema(eval_schema, strict="INC", partial="PAR", exact="INC", type_="INC")
         # scenario III -> topic entity not predicted as tweet entity
         elif ent not in tweet_ents:
@@ -187,20 +187,28 @@ def semeval_metrics_computation(eval_schema, decimal_figures=3):
     POS = COR + INC + PAR + MIS  # TP + FN
     ACT = COR + INC + PAR + SPU  # TP + FP
 
-    # Exact match eval
-    exact_precision = COR / ACT
-    exact_recall = COR / POS
+    # Precision
+    try:
+        exact_precision = COR / ACT
+        partial_precision = (COR + 0.5 * PAR) / ACT  # TP / (TP + FP)
+    except ZeroDivisionError:
+        exact_precision = 0
+        partial_precision = 0
+
+    # Recall
+    try:
+        exact_recall = COR / POS
+        partial_recall = (COR + 0.5 * PAR) / POS  # TP / (TP + FP)
+    except ZeroDivisionError:
+        exact_recall = 0
+        partial_recall = 0
+
+    # F1 score
     try:
         exact_F1 = (2 * exact_precision * exact_recall) / (exact_precision + exact_recall)
-    except ZeroDivisionError:
-        exact_F1 = 0
-
-    # Partial match eval
-    partial_precision = (COR + 0.5 * PAR) / ACT  # TP / (TP + FP)
-    partial_recall = (COR + 0.5 * PAR) / POS  # TP / (TP + FP)
-    try:
         partial_F1 = (2 * partial_precision * partial_recall) / (partial_precision + partial_recall)
     except ZeroDivisionError:
+        exact_F1 = 0
         partial_F1 = 0
 
     metrics_schema = {
