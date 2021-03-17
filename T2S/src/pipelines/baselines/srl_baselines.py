@@ -12,6 +12,9 @@ from T2S.src.utils.data_utils import get_paths
 from allennlp.predictors.predictor import Predictor
 # Split text in sentences
 from nltk import tokenize
+# Lemmatization
+import en_core_web_trf
+nlp = en_core_web_trf.load()
 
 predictor = Predictor.from_path(
     "https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz"
@@ -40,18 +43,32 @@ if __name__ == '__main__':
 
     data_row = {
         "topic": topic, "content": topic_content, "tweets": tweet_multi_doc, "nr_tweets": len(tweet_multi_doc),
-        "topic_sentences_srl": {"sentence1": []}, "tweets_sentences_srl": {"sentence1": []}  # aplicar a varias sentences
+        "topic_sentences_srl": [], "tweets_sentences_srl": []  # aplicar a varias sentences
     }
 
-    result = predictor.predict_json(
-        {"sentence": topic_sentences[0]}
-    )
+    doc = nlp(topic_content)
 
-    # pprint(result, indent=2)
-    topic_sent = [frame["description"] for frame in result["verbs"]]
-    pprint(topic_sent, indent=2)
-    data_row["topic_sentences_srl"]["sentence1"] = topic_sent
+    sentence_nr = 0
+    topic_verbs = []
+    for topic_sentence in topic_sentences:
+        result = predictor.predict_json(
+            {"sentence": topic_sentence}
+        )
 
+        # pprint(result, indent=2)
+        topic_sent = [frame["description"] for frame in result["verbs"]]
+        verbs = [frame["verb"] for frame in result["verbs"]]
+        topic_verbs.append(verbs)
+        # pprint(topic_sent, indent=2)
+        data_row["topic_sentences_srl"].append(topic_sent)
+        sentence_nr += 1
+    # Topic lemmatization
+    topic_verbs = [item for sublist in topic_verbs for item in sublist]
+    topic_verbs_doc = nlp(' '.join(topic_verbs))
+    topic_lemma = [token.lemma_ for token in topic_verbs_doc]
+
+    sentence_nr = 0
+    tweets_verbs = []
     for tweet_sentence in tweet_sentences:
         result = predictor.predict_json(
             {"sentence": tweet_sentence}
@@ -59,8 +76,24 @@ if __name__ == '__main__':
 
         # pprint(result, indent=2)
         tweet_sent = [frame["description"] for frame in result["verbs"]]
+        verbs = [frame["verb"] for frame in result["verbs"]]
+        tweets_verbs.append(verbs)
         # pprint(tweet_sent, indent=2)
-        data_row["tweets_sentences_srl"]["sentence1"].append(tweet_sent)
+        data_row["tweets_sentences_srl"].append(tweet_sent)
+    # Tweets lemmatization
+    tweets_verbs = [item for sublist in tweets_verbs for item in sublist]
+    tweets_verbs_doc = nlp(' '.join(tweets_verbs))
+    tweets_lemma = [token.lemma_ for token in tweets_verbs_doc]
+
+    # Verb recall:
+    # SPU -> verb in tweets but not in topic
+    # MIS -> verb in topic but not in tweets
+    # COR -> verb in tweets and in topic
+    # Make Exact recall:
+    # POS = COR + MIS
+    # ACT = COR + SPU
+    # Precision = COR / ACT
+    # Recall = COR / POS
 
     results_list.append(data_row)
 

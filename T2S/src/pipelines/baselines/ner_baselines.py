@@ -12,8 +12,8 @@ from T2S.src.utils.json_utils import MyEncoder, NoIndent
 # Named-Entity Recognition
 # from spacy import displacy  # Used for visualization (works better on notebooks)
 import en_core_web_trf
-
 nlp = en_core_web_trf.load()
+
 DECIMAL_FIGURES = 3
 
 

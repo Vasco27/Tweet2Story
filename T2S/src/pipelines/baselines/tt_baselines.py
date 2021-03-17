@@ -69,7 +69,7 @@ if __name__ == '__main__':
         # pprint(tt_topic[0])
         # # pprint(tt_topic[1], width=200)
         # # pprint(tt_topic[2], width=200)
-        pprint(tt_topic[3])
+        # pprint(tt_topic[3])
 
         tweet_tt_list = []
         for row in topic_data.itertuples():
@@ -81,7 +81,7 @@ if __name__ == '__main__':
                 tweet_tt_list.append(tt_tweets[0])
                 # pprint(tt_tweets[0])
                 # pprint(tt_tweets[1], width=200)
-                pprint(tt_tweets[3])
+                # pprint(tt_tweets[3])
 
         tweet_tt_list = [item for sublist in tweet_tt_list for item in sublist]
         data_row["tt_tweets"] = NoIndent(tweet_tt_list)
