@@ -41,3 +41,12 @@ def topic_tweets_documents(data, concat_sep="\n"):
         tweets_texts.append(concat_tweets)
 
     return tweets_texts
+
+
+def flatten_list(list_to_flatten):
+    """
+    Simply flattens a list of nested lists.
+    :param list_to_flatten: list of nested lists to be flattened
+    :return: the flattened list
+    """
+    return [item for sublist in list_to_flatten for item in sublist]

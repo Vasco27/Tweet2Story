@@ -276,6 +276,10 @@
             ],
             [],
             []
-        ]
+        ],
+        "metrics": {
+            "verb_precision": 55.556,
+            "verb_recall": 32.051
+        }
     }
 ]

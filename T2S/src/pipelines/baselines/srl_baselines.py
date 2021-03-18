@@ -6,7 +6,7 @@ import json
 from pprint import pprint
 
 # Custom modules
-from T2S.src.utils.data_utils import get_paths
+from T2S.src.utils.data_utils import get_paths, flatten_list
 
 # SRL
 from allennlp.predictors.predictor import Predictor
@@ -19,6 +19,31 @@ nlp = en_core_web_trf.load()
 predictor = Predictor.from_path(
     "https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz"
 )
+
+DECIMAL_FIGURES = 3
+
+
+def verb_sem_eval(hyp_lemma, ref_lemma):
+    COR = sum(verb in ref_lemma for verb in hyp_lemma)
+    SPU = sum(verb not in ref_lemma for verb in hyp_lemma)
+    MIS = sum(verb not in hyp_lemma for verb in ref_lemma)
+
+    POS = COR + MIS
+    ACT = COR + SPU
+
+    precision = round(COR / ACT * 100, DECIMAL_FIGURES)
+    recall = round(COR / POS * 100, DECIMAL_FIGURES)
+
+    return precision, recall
+
+
+def make_verbs_lemma(verbs_nested_lists):
+    verbs_nested_lists = flatten_list(verbs_nested_lists)
+    verbs_doc = nlp(' '.join(verbs_nested_lists))
+    verbs_lemma = [token.lemma_ for token in verbs_doc]
+
+    return verbs_lemma
+
 
 if __name__ == '__main__':
     path_to_data, results_dir = get_paths()
@@ -43,57 +68,58 @@ if __name__ == '__main__':
 
     data_row = {
         "topic": topic, "content": topic_content, "tweets": tweet_multi_doc, "nr_tweets": len(tweet_multi_doc),
-        "topic_sentences_srl": [], "tweets_sentences_srl": []  # aplicar a varias sentences
+        "topic_sentences_srl": [], "tweets_sentences_srl": [],
+        "metrics": {
+            "verb_precision": -1.0, "verb_recall": -1.0
+        }
     }
 
-    doc = nlp(topic_content)
+    #######
+    # SRL #
+    #######
 
-    sentence_nr = 0
+    # Topic
     topic_verbs = []
     for topic_sentence in topic_sentences:
         result = predictor.predict_json(
             {"sentence": topic_sentence}
         )
 
-        # pprint(result, indent=2)
         topic_sent = [frame["description"] for frame in result["verbs"]]
         verbs = [frame["verb"] for frame in result["verbs"]]
         topic_verbs.append(verbs)
         # pprint(topic_sent, indent=2)
         data_row["topic_sentences_srl"].append(topic_sent)
-        sentence_nr += 1
-    # Topic lemmatization
-    topic_verbs = [item for sublist in topic_verbs for item in sublist]
-    topic_verbs_doc = nlp(' '.join(topic_verbs))
-    topic_lemma = [token.lemma_ for token in topic_verbs_doc]
 
-    sentence_nr = 0
+    # Topic lemmatization
+    topic_lemma = make_verbs_lemma(topic_verbs)
+
+    # Tweets
     tweets_verbs = []
     for tweet_sentence in tweet_sentences:
         result = predictor.predict_json(
             {"sentence": tweet_sentence}
         )
 
-        # pprint(result, indent=2)
         tweet_sent = [frame["description"] for frame in result["verbs"]]
         verbs = [frame["verb"] for frame in result["verbs"]]
         tweets_verbs.append(verbs)
         # pprint(tweet_sent, indent=2)
         data_row["tweets_sentences_srl"].append(tweet_sent)
-    # Tweets lemmatization
-    tweets_verbs = [item for sublist in tweets_verbs for item in sublist]
-    tweets_verbs_doc = nlp(' '.join(tweets_verbs))
-    tweets_lemma = [token.lemma_ for token in tweets_verbs_doc]
 
-    # Verb recall:
-    # SPU -> verb in tweets but not in topic
-    # MIS -> verb in topic but not in tweets
-    # COR -> verb in tweets and in topic
-    # Make Exact recall:
-    # POS = COR + MIS
-    # ACT = COR + SPU
-    # Precision = COR / ACT
-    # Recall = COR / POS
+    # Tweets lemmatization
+    tweets_lemma = make_verbs_lemma(tweets_verbs)
+
+    ##############
+    # Evaluation #
+    ##############
+
+    # Verb evaluation
+    verb_precision, verb_recall = verb_sem_eval(tweets_lemma, topic_lemma)
+    data_row["metrics"]["verb_precision"] = verb_precision
+    data_row["metrics"]["verb_recall"] = verb_recall
+
+    print(f"\nTopic vs Tweets verb recall is {verb_recall} %")
 
     results_list.append(data_row)
 
