@@ -22,6 +22,8 @@ from sumy.summarizers.lsa import LsaSummarizer
 # TextRank
 from sumy.summarizers.text_rank import TextRankSummarizer
 # Pre-trained models
+# Changed torch to 1.5.1 because of AllenNLP 1.0.0
+# Might cause conflicts since sentence-transformer uses torch>=1.6.0
 # T5
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 # BART

@@ -1,24 +1,45 @@
 # Essentials
 import pandas as pd
 import json
+import numpy as np
+import time
+
+# Turning off the GPU (use CPU instead)
+# import os
+# os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # Visualization
 from pprint import pprint
 
 # Custom modules
-from T2S.src.utils.data_utils import get_paths, flatten_list
+from T2S.src.utils.data_utils import get_paths, flatten_list, multiple_index_list, trim_whitespaces
+from T2S.src.utils.json_utils import NoIndent, MyEncoder
 
 # SRL
+# _jsonnet was really slowing down the process.
+# pip install jsonnetbin was perfect and cleared the error.
+# Performance is now at normal speed
 from allennlp.predictors.predictor import Predictor
 # Split text in sentences
 from nltk import tokenize
-# Lemmatization
+# co-reference resolution
+# import neuralcoref  # neuralcoref not compatible with spacy > 3.0.0
+
+# SPACY
 import en_core_web_trf
 nlp = en_core_web_trf.load()
 
+print("\nAllenNLP loading predictors...")
+start = time.time()
+# SRL
 predictor = Predictor.from_path(
     "https://storage.googleapis.com/allennlp-public-models/structured-prediction-srl-bert.2020.12.15.tar.gz"
 )
+# co-reference resolution
+model_url = 'https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz'
+predictor_cr = Predictor.from_path(model_url)  # load the model
+end = time.time()
+print(f"Computation time - {round(end - start, 2)} seconds")
 
 DECIMAL_FIGURES = 3
 
@@ -46,6 +67,7 @@ def make_verbs_lemma(verbs_nested_lists):
 
 
 if __name__ == '__main__':
+    print("\nProgram start...")
     path_to_data, results_dir = get_paths()
     results_dir = results_dir + "baselines/SRL/"
 
@@ -67,17 +89,70 @@ if __name__ == '__main__':
     tweet_sentences = tokenize.sent_tokenize(tweets_single_doc)
 
     data_row = {
-        "topic": topic, "content": topic_content, "tweets": tweet_multi_doc, "nr_tweets": len(tweet_multi_doc),
+        "topic": topic, "content": topic_content, "coref_content": None,
+        "tweets": tweet_multi_doc, "coref_tweets": None, "nr_tweets": len(tweet_multi_doc),
+        "topic_clusters": [], "tweets_clusters": [],
         "topic_sentences_srl": [], "tweets_sentences_srl": [],
         "metrics": {
-            "verb_precision": -1.0, "verb_recall": -1.0
+            "verb_precision": -1, "verb_recall": -1
         }
     }
+
+    ###########################
+    # Co-Reference Resolution #
+    ###########################
+
+    print("\nCo-Reference Resolution...")
+    start = time.time()
+    # Topic
+    # todo: script function to abstract from tweets and topics should return the coref_text and the cluster_list
+    #  to assign it to the data_row inside the main runtime
+    doc_topic = nlp(topic_content)
+    t_lemma = [token.lemma_ for token in doc_topic]
+    topic_coref_text = trim_whitespaces(t_lemma)
+
+    prediction = predictor_cr.predict(document=topic_coref_text)
+    topic_coref_text = predictor_cr.coref_resolved(topic_coref_text)
+    data_row["coref_content"] = topic_coref_text
+
+    cluster_list = []
+    for span in prediction["clusters"][0]:
+        start_idx = span[0]
+        end_idx = span[1]
+        indexes = np.arange(start_idx, end_idx+1).tolist()
+
+        word_span = multiple_index_list(prediction["document"], indexes)
+        cluster_list.append(' '.join(word_span))
+    data_row["topic_clusters"] = NoIndent(cluster_list)
+
+    # Tweets
+    doc_tweets = nlp(tweets_single_doc)
+    tw_lemma = [token.lemma_ for token in doc_tweets]
+    tweets_coref_text = trim_whitespaces(tw_lemma)
+
+    prediction = predictor_cr.predict(document=tweets_coref_text)
+    coref_tweets = predictor_cr.coref_resolved(tweets_coref_text)
+    data_row["coref_tweets"] = coref_tweets
+
+    cluster_list = []
+    for span in prediction["clusters"][0]:
+        start_idx = span[0]
+        end_idx = span[1]
+        indexes = np.arange(start_idx, end_idx + 1).tolist()
+
+        word_span = multiple_index_list(prediction["document"], indexes)
+        cluster_list.append(' '.join(word_span))
+    data_row["tweets_clusters"] = NoIndent(cluster_list)
+
+    end = time.time()
+    print(f"Computation time - {round(end - start, 2)} seconds")
 
     #######
     # SRL #
     #######
 
+    print("\nSemantic Role Labelling...")
+    start = time.time()
     # Topic
     topic_verbs = []
     for topic_sentence in topic_sentences:
@@ -110,10 +185,14 @@ if __name__ == '__main__':
     # Tweets lemmatization
     tweets_lemma = make_verbs_lemma(tweets_verbs)
 
+    end = time.time()
+    print(f"Computation time - {round(end - start, 2)} seconds")
+
     ##############
     # Evaluation #
     ##############
 
+    print("\nEvaluation...")
     # Verb evaluation
     verb_precision, verb_recall = verb_sem_eval(tweets_lemma, topic_lemma)
     data_row["metrics"]["verb_precision"] = verb_precision
@@ -123,5 +202,6 @@ if __name__ == '__main__':
 
     results_list.append(data_row)
 
-    with open(results_dir + "srl_exp.json", "w", encoding="utf-8") as f:
-        f.write(json.dumps(results_list, ensure_ascii=False, indent=4))
+    print("\nExporting to JSON...")
+    with open(results_dir + "srl_exp1.json", "w", encoding="utf-8") as f:
+        f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))
