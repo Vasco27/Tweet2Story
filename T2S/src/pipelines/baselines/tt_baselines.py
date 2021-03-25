@@ -27,7 +27,6 @@ if __name__ == '__main__':
 
     results_list = []
 
-    # topic = "0b3bea50-3a2c-4d07-953e-45aca9988634"
     """
     0b3bea50-3a2c-4d07-953e-45aca9988634 - "Good" example (some overlaps)
     be8e1b0d-6512-495d-8b55-40b0320a513e - No entities recognized. Fails to tag time expressions on tweets
@@ -42,6 +41,8 @@ if __name__ == '__main__':
 
     iteration, total_iterations = 1, topic_ids.shape[0]
     for topic in topic_ids:
+        # if topic != "5811057c-6732-4b37-b04c-ddf0a75a7b51":
+        #     continue
         start = time.time()
         print(f"Iteration {iteration} of {total_iterations}")
 
@@ -67,8 +68,8 @@ if __name__ == '__main__':
         )
         data_row["tt_topic"] = NoIndent(tt_topic[0])
         # pprint(tt_topic[0])
-        # # pprint(tt_topic[1], width=200)
-        # # pprint(tt_topic[2], width=200)
+        # pprint(tt_topic[1], width=200)
+        # pprint(tt_topic[2], width=200)
         # pprint(tt_topic[3])
 
         tweet_tt_list = []
@@ -106,5 +107,5 @@ if __name__ == '__main__':
         print(f"Iteration time {round(end - start, 2)} seconds")
         iteration += 1
 
-    with open(results_dir + "tt_baselines.json", "w", encoding="utf-8") as f:
+    with open(results_dir + "tt_baseline.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))

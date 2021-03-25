@@ -13,7 +13,7 @@ from pprint import pprint
 # Custom modules
 from T2S.src.utils.data_utils import get_paths, flatten_list, value_indexes_in_list, multiple_index_list, \
     trim_whitespaces
-from T2S.src.utils.json_utils import MyEncoder
+from T2S.src.utils.json_utils import NoIndent, MyEncoder
 
 # Evaluation
 from rouge_score import rouge_scorer
@@ -103,8 +103,10 @@ if __name__ == '__main__':
     tweet_sentences = tokenize.sent_tokenize(tweets_single_doc)
 
     data_row = {
-        "topic": topic, "coref_content": None, "coref_tweets": None, "nr_tweets": len(tweet_multi_doc),
+        "topic": topic, "coref_content": None,
+        "tweets_content": tweets_single_doc, "coref_tweets": None, "nr_tweets": len(tweet_multi_doc),
         "topic_clusters": [], "tweets_clusters": [], "topic_sentences_srl": [], "tweets_sentences_srl": [],
+        "tweets_verbs": [],
         "metrics": {
             "verb_precision": -1, "verb_recall": -1
         },
@@ -177,6 +179,7 @@ if __name__ == '__main__':
 
     # Tweets lemmatization
     tweets_verbs_lemma = make_verbs_lemma(tweets_verbs)
+    data_row["tweets_verbs"] = NoIndent(tweets_verbs_lemma)
 
     end = time.time()
     print(f"Computation time - {round(end - start, 2)} seconds")
