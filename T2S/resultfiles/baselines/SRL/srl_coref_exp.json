@@ -258,6 +258,63 @@
         "metrics": {
             "verb_precision": 58.537,
             "verb_recall": 35.821
+        },
+        "srl_metrics": {
+            "per_verb": {
+                "take": {
+                    "rouge1_precision": 0.05,
+                    "rouge1_recall": 0.022,
+                    "rouge1_f1": 0.03,
+                    "frequency": 2
+                },
+                "be": {
+                    "rouge1_precision": 0.076,
+                    "rouge1_recall": 0.061,
+                    "rouge1_f1": 0.057,
+                    "frequency": 132
+                },
+                "ranking": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "win": {
+                    "rouge1_precision": 0.114,
+                    "rouge1_recall": 0.11,
+                    "rouge1_f1": 0.098,
+                    "frequency": 28
+                },
+                "become": {
+                    "rouge1_precision": 0.352,
+                    "rouge1_recall": 0.437,
+                    "rouge1_f1": 0.302,
+                    "frequency": 24
+                },
+                "leave": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "play": {
+                    "rouge1_precision": 0.077,
+                    "rouge1_recall": 0.25,
+                    "rouge1_f1": 0.118,
+                    "frequency": 1
+                },
+                "say": {
+                    "rouge1_precision": 0.119,
+                    "rouge1_recall": 0.215,
+                    "rouge1_f1": 0.153,
+                    "frequency": 2
+                }
+            },
+            "global": {
+                "rouge1_precision": 0.115,
+                "rouge1_recall": 0.117,
+                "rouge1_f1": 0.094
+            }
         }
     }
 ]

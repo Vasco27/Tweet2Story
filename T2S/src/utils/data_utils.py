@@ -57,15 +57,22 @@ def flatten_list(list_to_flatten):
     return [item for sublist in list_to_flatten for item in sublist]
 
 
-def value_indexes_in_list(ref_list, value):
+def value_indexes_in_list(ref_list, value, negative_condition=False):
     """
-    Finds the indexes where a value is contained in a list.
+    Finds the indexes where a value or values are contained in a list.
 
     :param ref_list: the list from where to search the value
-    :param value: the value to search for within the list
+    :param value: the value or values to search for within the list (must be a list)
+    :param negative_condition: Whether to query the value through the logical negative
     :return: a list of indexes corresponding to the queried value
     """
-    return [idx for idx, val in enumerate(ref_list) if val == value]
+    if not isinstance(value, list):
+        raise ValueError(f"Parameter value must be of type list. Instead it was of type {type(value)}")
+
+    if negative_condition:
+        return [idx for idx, val in enumerate(ref_list) if val not in value]
+    else:
+        return [idx for idx, val in enumerate(ref_list) if val in value]
 
 
 def multiple_index_list(ref_list, indexes):

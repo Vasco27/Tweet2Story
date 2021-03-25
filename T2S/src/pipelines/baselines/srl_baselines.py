@@ -11,8 +11,12 @@ import time
 from pprint import pprint
 
 # Custom modules
-from T2S.src.utils.data_utils import get_paths, flatten_list
+from T2S.src.utils.data_utils import get_paths, flatten_list, value_indexes_in_list, multiple_index_list, \
+    trim_whitespaces
 from T2S.src.utils.json_utils import MyEncoder
+
+# Evaluation
+from rouge_score import rouge_scorer
 
 # SRL
 # _jsonnet was really slowing down the process.
@@ -42,6 +46,15 @@ DECIMAL_FIGURES = 3
 
 
 def verb_sem_eval(hyp_lemma, ref_lemma):
+    """
+    Evaluate hypothesis verbs vs. reference verbs in a SemEval13 style.
+    Precision -> 50% dos verbos que estão nos tweets, também estão no tópico
+    Recall -> 30% dos verbos que estão no tópico, também estão nos tweets
+
+    :param hyp_lemma: hypothesis verbs lemmatized
+    :param ref_lemma: reference verbs lemmatized
+    :return: precision and recall of verbs
+    """
     COR = sum(verb in ref_lemma for verb in hyp_lemma)
     SPU = sum(verb not in ref_lemma for verb in hyp_lemma)
     MIS = sum(verb not in hyp_lemma for verb in ref_lemma)
@@ -94,6 +107,9 @@ if __name__ == '__main__':
         "topic_clusters": [], "tweets_clusters": [], "topic_sentences_srl": [], "tweets_sentences_srl": [],
         "metrics": {
             "verb_precision": -1, "verb_recall": -1
+        },
+        "srl_metrics": {
+            "per_verb": {}, "global": {}
         }
     }
 
@@ -103,6 +119,7 @@ if __name__ == '__main__':
 
     print("\nCo-Reference Resolution...")
     start = time.time()
+
     # Topic
     topic_coref_text, topic_clusters_list = coref_with_lemma(topic_content)
     data_row["coref_content"] = topic_coref_text
@@ -122,14 +139,17 @@ if __name__ == '__main__':
 
     print("\nSemantic Role Labelling...")
     start = time.time()
+
     # Topic
     topic_coref_sentences = tokenize.sent_tokenize(topic_coref_text)
     topic_verbs = []
+    topic_results = []
     for topic_sentence in topic_coref_sentences:
         result = predictor.predict_json(
             {"sentence": topic_sentence}
         )
 
+        topic_results.append(result)
         topic_sent = [frame["description"] for frame in result["verbs"]]
         verbs = [frame["verb"] for frame in result["verbs"]]
         topic_verbs.append(verbs)
@@ -137,16 +157,18 @@ if __name__ == '__main__':
         data_row["topic_sentences_srl"].append(topic_sent)
 
     # Topic lemmatization
-    topic_lemma = make_verbs_lemma(topic_verbs)
+    topic_verbs_lemma = make_verbs_lemma(topic_verbs)
 
     # Tweets
     tweets_coref_sentences = tokenize.sent_tokenize(coref_tweets)
     tweets_verbs = []
+    tweets_results = []
     for tweet_sentence in tweets_coref_sentences:
         result = predictor.predict_json(
             {"sentence": tweet_sentence}
         )
 
+        tweets_results.append(result)
         tweet_sent = [frame["description"] for frame in result["verbs"]]
         verbs = [frame["verb"] for frame in result["verbs"]]
         tweets_verbs.append(verbs)
@@ -154,7 +176,7 @@ if __name__ == '__main__':
         data_row["tweets_sentences_srl"].append(tweet_sent)
 
     # Tweets lemmatization
-    tweets_lemma = make_verbs_lemma(tweets_verbs)
+    tweets_verbs_lemma = make_verbs_lemma(tweets_verbs)
 
     end = time.time()
     print(f"Computation time - {round(end - start, 2)} seconds")
@@ -164,12 +186,82 @@ if __name__ == '__main__':
     ##############
 
     print("\nEvaluation...")
+    start = time.time()
+
     # Verb evaluation
-    verb_precision, verb_recall = verb_sem_eval(tweets_lemma, topic_lemma)
+    verb_precision, verb_recall = verb_sem_eval(tweets_verbs_lemma, topic_verbs_lemma)
     data_row["metrics"]["verb_precision"] = verb_precision
     data_row["metrics"]["verb_recall"] = verb_recall
 
     print(f"\nTopic vs Tweets verb recall is {verb_recall} %")
+
+    # SRL Evaluation (compare arguments)
+    common_verbs = list(set(tw_verb for tw_verb in tweets_verbs_lemma if tw_verb in topic_verbs_lemma))
+    srl_eval_schema = {word: {"rouge1_precision": 0, "rouge1_recall": 0, "rouge1_f1": 0} for word in common_verbs}
+    common_verbs_count = {word: 0 for word in common_verbs}
+    global_precision, global_recall, global_f1, global_count = 0, 0, 0, 0
+
+    # for each tweet srl prediction result (each sentence)
+    for tweet_result in tweets_results:
+        # For each frame of the srl performed on the sentence
+        for tweet_frame in tweet_result["verbs"]:
+            tweet_verb = tweet_frame["verb"]
+
+            # Only continue if the verb is also in the topic
+            if tweet_verb in common_verbs:
+                # For each topic srl prediction result (each sentence)
+                for topic_result in topic_results:
+                    # For each frame of the srl performed on the sentence
+                    for topic_frame in topic_result["verbs"]:
+                        topic_verb = topic_frame["verb"]
+
+                        # Find the verb in common between the tweets and the topic
+                        if tweet_verb == topic_verb:
+                            rouge_s = rouge_scorer.RougeScorer(["rouge1"])
+
+                            non_arg_tags = ["B-V", "I-V", "O"]
+                            # topic
+                            indexes = value_indexes_in_list(topic_frame["tags"], non_arg_tags, negative_condition=True)
+                            w_list = multiple_index_list(topic_result["words"], indexes)
+                            if len(w_list) > 0:
+                                topic_args = trim_whitespaces(w_list)
+                            else:
+                                topic_args = ""
+
+                            # tweets
+                            indexes = value_indexes_in_list(tweet_frame["tags"], non_arg_tags, negative_condition=True)
+                            w_list = multiple_index_list(tweet_result["words"], indexes)
+                            if len(w_list) > 0:
+                                tweet_args = trim_whitespaces(w_list)
+                            else:
+                                tweet_args = ""
+
+                            scores = rouge_s.score(topic_args, tweet_args)
+                            srl_eval_schema[tweet_verb]["rouge1_precision"] += scores["rouge1"].precision
+                            srl_eval_schema[tweet_verb]["rouge1_recall"] += scores["rouge1"].recall
+                            srl_eval_schema[tweet_verb]["rouge1_f1"] += scores["rouge1"].fmeasure
+
+                            global_precision += scores["rouge1"].precision
+                            global_recall += scores["rouge1"].recall
+                            global_f1 += scores["rouge1"].fmeasure
+
+                            common_verbs_count[tweet_verb] += 1
+                            global_count += 1
+
+    for word, count in zip(common_verbs, common_verbs_count.values()):
+        for metric in ["rouge1_precision", "rouge1_recall", "rouge1_f1"]:
+            srl_eval_schema[word][metric] = round(srl_eval_schema[word][metric] / count, 3)
+            srl_eval_schema[word]["frequency"] = count
+
+    srl_global_metrics = {"rouge1_precision": round(global_precision / global_count, 3),
+                          "rouge1_recall": round(global_recall / global_count, 3),
+                          "rouge1_f1": round(global_f1 / global_count, 3)}
+
+    data_row["srl_metrics"]["per_verb"] = srl_eval_schema
+    data_row["srl_metrics"]["global"] = srl_global_metrics
+
+    end = time.time()
+    print(f"Computation time - {round(end - start, 2)} seconds")
 
     results_list.append(data_row)
 
