@@ -263,53 +263,229 @@
         },
         "srl_metrics": {
             "per_verb": {
-                "win": {
-                    "rouge1_precision": 0.114,
-                    "rouge1_recall": 0.11,
-                    "rouge1_f1": 0.098,
-                    "frequency": 28
-                },
-                "be": {
-                    "rouge1_precision": 0.076,
-                    "rouge1_recall": 0.061,
-                    "rouge1_f1": 0.057,
-                    "frequency": 132
-                },
-                "say": {
-                    "rouge1_precision": 0.119,
-                    "rouge1_recall": 0.215,
-                    "rouge1_f1": 0.153,
-                    "frequency": 2
-                },
-                "play": {
-                    "rouge1_precision": 0.077,
-                    "rouge1_recall": 0.25,
-                    "rouge1_f1": 0.118,
-                    "frequency": 1
+                "ranking": {
+                    "all_frames": {
+                        "rouge1_precision": 0.0,
+                        "rouge1_recall": 0.0,
+                        "rouge1_f1": 0.0,
+                        "frequency": 1
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "rouge1_precision": 0
+                        },
+                        "best_recall": {
+                            "rouge1_recall": 0
+                        },
+                        "best_f1": {
+                            "rouge1_f1": 0
+                        }
+                    }
                 },
                 "leave": {
-                    "rouge1_precision": 0.0,
-                    "rouge1_recall": 0.0,
-                    "rouge1_f1": 0.0,
-                    "frequency": 1
+                    "all_frames": {
+                        "rouge1_precision": 0.0,
+                        "rouge1_recall": 0.0,
+                        "rouge1_f1": 0.0,
+                        "frequency": 1
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "rouge1_precision": 0
+                        },
+                        "best_recall": {
+                            "rouge1_recall": 0
+                        },
+                        "best_f1": {
+                            "rouge1_f1": 0
+                        }
+                    }
                 },
-                "become": {
-                    "rouge1_precision": 0.352,
-                    "rouge1_recall": 0.437,
-                    "rouge1_f1": 0.302,
-                    "frequency": 24
+                "play": {
+                    "all_frames": {
+                        "rouge1_precision": 0.077,
+                        "rouge1_recall": 0.25,
+                        "rouge1_f1": 0.118,
+                        "frequency": 1
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "topic_args": "as soon as Ko know golf be in the Olympics [ARG0: Ko] want to be part of the Olympics and [V: play] [ARGM-ADV: for New Zealand] .",
+                            "tweet_args": "[ARG0: Lydia Ko] intend to [V: play] [ARG1: Lydia Ko 's own game] [ARGM-LOC: in final round] [ARGM-LOC: at Evian Championship] .",
+                            "rouge1_recall": 0.25,
+                            "rouge1_precision": 0.077,
+                            "rouge1_f1": 0.118
+                        },
+                        "best_recall": {
+                            "topic_args": "as soon as Ko know golf be in the Olympics [ARG0: Ko] want to be part of the Olympics and [V: play] [ARGM-ADV: for New Zealand] .",
+                            "tweet_args": "[ARG0: Lydia Ko] intend to [V: play] [ARG1: Lydia Ko 's own game] [ARGM-LOC: in final round] [ARGM-LOC: at Evian Championship] .",
+                            "rouge1_recall": 0.25,
+                            "rouge1_precision": 0.077,
+                            "rouge1_f1": 0.118
+                        },
+                        "best_f1": {
+                            "topic_args": "as soon as Ko know golf be in the Olympics [ARG0: Ko] want to be part of the Olympics and [V: play] [ARGM-ADV: for New Zealand] .",
+                            "tweet_args": "[ARG0: Lydia Ko] intend to [V: play] [ARG1: Lydia Ko 's own game] [ARGM-LOC: in final round] [ARGM-LOC: at Evian Championship] .",
+                            "rouge1_recall": 0.25,
+                            "rouge1_precision": 0.077,
+                            "rouge1_f1": 0.118
+                        }
+                    }
+                },
+                "say": {
+                    "all_frames": {
+                        "rouge1_precision": 0.119,
+                        "rouge1_recall": 0.215,
+                        "rouge1_f1": 0.153,
+                        "frequency": 2
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "topic_args": "[ARG1: the last of she eight birdie putt on the 18th pretty amazing] , [ARG0: Ko] [V: say] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: say] [ARG1: Lydia Ko be spur on to Lydia Ko 's major triumph by a vocal young fan during the weekend] .",
+                            "rouge1_recall": 0.231,
+                            "rouge1_precision": 0.143,
+                            "rouge1_f1": 0.176
+                        },
+                        "best_recall": {
+                            "topic_args": "[ARG1: the last of she eight birdie putt on the 18th pretty amazing] , [ARG0: Ko] [V: say] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: say] [ARG1: Lydia Ko be spur on to Lydia Ko 's major triumph by a vocal young fan during the weekend] .",
+                            "rouge1_recall": 0.231,
+                            "rouge1_precision": 0.143,
+                            "rouge1_f1": 0.176
+                        },
+                        "best_f1": {
+                            "topic_args": "[ARG1: the last of she eight birdie putt on the 18th pretty amazing] , [ARG0: Ko] [V: say] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: say] [ARG1: Lydia Ko be spur on to Lydia Ko 's major triumph by a vocal young fan during the weekend] .",
+                            "rouge1_recall": 0.231,
+                            "rouge1_precision": 0.143,
+                            "rouge1_f1": 0.176
+                        }
+                    }
                 },
                 "take": {
-                    "rouge1_precision": 0.05,
-                    "rouge1_recall": 0.022,
-                    "rouge1_f1": 0.03,
-                    "frequency": 2
+                    "all_frames": {
+                        "rouge1_precision": 0.05,
+                        "rouge1_recall": 0.022,
+                        "rouge1_f1": 0.03,
+                        "frequency": 2
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "topic_args": "but American Lexi Thompson ( 70 ) birdie four hole between seven hole and 12th to take the lead and edge three ahead [ARGM-TMP: when] [ARG0: American Lexi Thompson ( 70 )] , [ARG0: over the back and in deep rough from the tee] , [V: take] [ARG1: a double - bogey five] [ARGM-TMP: at the short 14th] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: take] [ARG1: scintillating major win] [ARG2: in Lydia Ko 's stride] .",
+                            "rouge1_recall": 0.043,
+                            "rouge1_precision": 0.1,
+                            "rouge1_f1": 0.061
+                        },
+                        "best_recall": {
+                            "topic_args": "but American Lexi Thompson ( 70 ) birdie four hole between seven hole and 12th to take the lead and edge three ahead [ARGM-TMP: when] [ARG0: American Lexi Thompson ( 70 )] , [ARG0: over the back and in deep rough from the tee] , [V: take] [ARG1: a double - bogey five] [ARGM-TMP: at the short 14th] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: take] [ARG1: scintillating major win] [ARG2: in Lydia Ko 's stride] .",
+                            "rouge1_recall": 0.043,
+                            "rouge1_precision": 0.1,
+                            "rouge1_f1": 0.061
+                        },
+                        "best_f1": {
+                            "topic_args": "but American Lexi Thompson ( 70 ) birdie four hole between seven hole and 12th to take the lead and edge three ahead [ARGM-TMP: when] [ARG0: American Lexi Thompson ( 70 )] , [ARG0: over the back and in deep rough from the tee] , [V: take] [ARG1: a double - bogey five] [ARGM-TMP: at the short 14th] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: take] [ARG1: scintillating major win] [ARG2: in Lydia Ko 's stride] .",
+                            "rouge1_recall": 0.043,
+                            "rouge1_precision": 0.1,
+                            "rouge1_f1": 0.061
+                        }
+                    }
                 },
-                "ranking": {
-                    "rouge1_precision": 0.0,
-                    "rouge1_recall": 0.0,
-                    "rouge1_f1": 0.0,
-                    "frequency": 1
+                "win": {
+                    "all_frames": {
+                        "rouge1_precision": 0.114,
+                        "rouge1_recall": 0.11,
+                        "rouge1_f1": 0.098,
+                        "frequency": 28
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "topic_args": "Ko be 18 year 142 day - 171 day young than Morgan Pressel [ARGM-TMP: when] [ARG0: Ko] [V: win] [ARG1: the 2007 Kraft Nabisco Championship] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: win] [ARG1: Evian Championship] , become young major champion : Evian Championship France -- with two hole leave to .... Lydia Ko win Evian Championship to become young LPGA major champion .. Lydia Ko hail over major record .",
+                            "rouge1_recall": 0.286,
+                            "rouge1_precision": 0.5,
+                            "rouge1_f1": 0.364
+                        },
+                        "best_recall": {
+                            "topic_args": "Ko be 18 year 142 day - 171 day young than Morgan Pressel [ARGM-TMP: when] [ARG0: Ko] [V: win] [ARG1: the 2007 Kraft Nabisco Championship] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: win] [ARG1: Evian Championship] , become young major champion : Evian Championship France -- with two hole leave to .... Lydia Ko win Evian Championship to become young LPGA major champion .. Lydia Ko hail over major record .",
+                            "rouge1_recall": 0.286,
+                            "rouge1_precision": 0.5,
+                            "rouge1_f1": 0.364
+                        },
+                        "best_f1": {
+                            "topic_args": "Ko be 18 year 142 day - 171 day young than Morgan Pressel [ARGM-TMP: when] [ARG0: Ko] [V: win] [ARG1: the 2007 Kraft Nabisco Championship] .",
+                            "tweet_args": "[ARG0: Lydia Ko] [V: win] [ARG1: Evian Championship] , become young major champion : Evian Championship France -- with two hole leave to .... Lydia Ko win Evian Championship to become young LPGA major champion .. Lydia Ko hail over major record .",
+                            "rouge1_recall": 0.286,
+                            "rouge1_precision": 0.5,
+                            "rouge1_f1": 0.364
+                        }
+                    }
+                },
+                "be": {
+                    "all_frames": {
+                        "rouge1_precision": 0.076,
+                        "rouge1_recall": 0.061,
+                        "rouge1_f1": 0.057,
+                        "frequency": 132
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "topic_args": "[ARG1: it] [V: be] [ARG2: quite overwhelming and also a bit of a relief] , Ko continue .",
+                            "tweet_args": "Lydia Ko not even a mention .. win win .. Jason Days move within 18 hole of the world number one ranking after another round in the red at the BMW Championship in Illinois ... [ARG1: a win] [V: be] [ARG2: a win] be a win .. if you think you can win , you can win .",
+                            "rouge1_recall": 0.2,
+                            "rouge1_precision": 0.5,
+                            "rouge1_f1": 0.286
+                        },
+                        "best_recall": {
+                            "topic_args": "[ARG1: Kothe Evian Championship] , [V: be] [ARG2: thrilled to achieve Ko 's dream of a first major title] .",
+                            "tweet_args": "Lydia Ko say [ARG1: Lydia Ko] [V: be] [ARG2: spur on to Lydia Ko 's major triumph by a vocal young fan] [ARGM-TMP: during the weekend] .",
+                            "rouge1_recall": 0.357,
+                            "rouge1_precision": 0.278,
+                            "rouge1_f1": 0.313
+                        },
+                        "best_f1": {
+                            "topic_args": "[ARG1: win a major at any age] [V: be] [ARG2: special] , but to become the young be pretty cool .",
+                            "tweet_args": "Lydia Ko not even a mention .. win win .. Jason Days move within 18 hole of the world number one ranking after another round in the red at the BMW Championship in Illinois ... [ARG1: a win] [V: be] [ARG2: a win] be a win .. if you think you can win , you can win .",
+                            "rouge1_recall": 0.286,
+                            "rouge1_precision": 0.5,
+                            "rouge1_f1": 0.364
+                        }
+                    }
+                },
+                "become": {
+                    "all_frames": {
+                        "rouge1_precision": 0.352,
+                        "rouge1_recall": 0.437,
+                        "rouge1_f1": 0.302,
+                        "frequency": 24
+                    },
+                    "best_frames": {
+                        "best_precision": {
+                            "topic_args": "EVIAN , France , Sept 13 AFP - New Zealands Lydia Ko write another chapter of golfing history on [ARGM-TMP: Sunday] [R-ARGM-TMP: when] [ARG1: Ko] [V: become] [ARG2: the young winner of a women major with a stunning final round 63 at the Evian Championship] .",
+                            "tweet_args": "[ARG1: Lydia Ko] fire a bogey - free eight - under 63 to [V: become] [ARG2: the young winner of a women major at Evian Championship] ... commentary Box be on in 10 min – Mike , Andrew and Scotty be talk Lydia Ko , RWC and more ... teenager Ko make history with Evian win .",
+                            "rouge1_recall": 0.55,
+                            "rouge1_precision": 0.917,
+                            "rouge1_f1": 0.687
+                        },
+                        "best_recall": {
+                            "topic_args": "EVIAN , France , Sept 13 AFP - New Zealands Lydia Ko write another chapter of golfing history on [ARGM-TMP: Sunday] [R-ARGM-TMP: when] [ARG1: Ko] [V: become] [ARG2: the young winner of a women major with a stunning final round 63 at the Evian Championship] .",
+                            "tweet_args": "[ARG1: Lydia Ko] fire a bogey - free eight - under 63 to [V: become] [ARG2: the young winner of a women major at Evian Championship] ... commentary Box be on in 10 min – Mike , Andrew and Scotty be talk Lydia Ko , RWC and more ... teenager Ko make history with Evian win .",
+                            "rouge1_recall": 0.55,
+                            "rouge1_precision": 0.917,
+                            "rouge1_f1": 0.687
+                        },
+                        "best_f1": {
+                            "topic_args": "EVIAN , France , Sept 13 AFP - New Zealands Lydia Ko write another chapter of golfing history on [ARGM-TMP: Sunday] [R-ARGM-TMP: when] [ARG1: Ko] [V: become] [ARG2: the young winner of a women major with a stunning final round 63 at the Evian Championship] .",
+                            "tweet_args": "[ARG1: Lydia Ko] fire a bogey - free eight - under 63 to [V: become] [ARG2: the young winner of a women major at Evian Championship] ... commentary Box be on in 10 min – Mike , Andrew and Scotty be talk Lydia Ko , RWC and more ... teenager Ko make history with Evian win .",
+                            "rouge1_recall": 0.55,
+                            "rouge1_precision": 0.917,
+                            "rouge1_f1": 0.687
+                        }
+                    }
                 }
             },
             "global": {

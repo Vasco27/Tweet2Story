@@ -200,7 +200,14 @@ if __name__ == '__main__':
 
     # SRL Evaluation (compare arguments)
     common_verbs = list(set(tw_verb for tw_verb in tweets_verbs_lemma if tw_verb in topic_verbs_lemma))
-    srl_eval_schema = {word: {"rouge1_precision": 0, "rouge1_recall": 0, "rouge1_f1": 0} for word in common_verbs}
+    srl_eval_schema = {
+        word: {
+            "all_frames": {"rouge1_precision": 0, "rouge1_recall": 0, "rouge1_f1": 0},
+            "best_frames": {"best_precision": {"rouge1_precision": 0}, "best_recall": {"rouge1_recall": 0},
+                            "best_f1": {"rouge1_f1": 0}}
+        } for word in common_verbs
+    }
+
     common_verbs_count = {word: 0 for word in common_verbs}
     global_precision, global_recall, global_f1, global_count = 0, 0, 0, 0
 
@@ -210,6 +217,7 @@ if __name__ == '__main__':
         for tweet_frame in tweet_result["verbs"]:
             tweet_verb = tweet_frame["verb"]
 
+            best_f1, best_precision = 0, 0
             # Only continue if the verb is also in the topic
             if tweet_verb in common_verbs:
                 # For each topic srl prediction result (each sentence)
@@ -240,9 +248,40 @@ if __name__ == '__main__':
                                 tweet_args = ""
 
                             scores = rouge_s.score(topic_args, tweet_args)
-                            srl_eval_schema[tweet_verb]["rouge1_precision"] += scores["rouge1"].precision
-                            srl_eval_schema[tweet_verb]["rouge1_recall"] += scores["rouge1"].recall
-                            srl_eval_schema[tweet_verb]["rouge1_f1"] += scores["rouge1"].fmeasure
+                            # Frame with best Rouge1 f-score
+                            if scores["rouge1"].fmeasure > srl_eval_schema[tweet_verb]["best_frames"]["best_f1"]["rouge1_f1"]:
+                                best_f1_row = {
+                                    "topic_args": topic_frame["description"], "tweet_args": tweet_frame["description"],
+                                    "rouge1_recall": round(scores["rouge1"].recall, DECIMAL_FIGURES),
+                                    "rouge1_precision": round(scores["rouge1"].precision, DECIMAL_FIGURES),
+                                    "rouge1_f1": round(scores["rouge1"].fmeasure, DECIMAL_FIGURES)
+                                }
+                                srl_eval_schema[tweet_verb]["best_frames"]["best_f1"] = best_f1_row
+
+                            # Frame with best Rouge1 precision
+                            if scores["rouge1"].precision > srl_eval_schema[tweet_verb]["best_frames"]["best_precision"]["rouge1_precision"]:
+                                best_precision_row = {
+                                    "topic_args": topic_frame["description"], "tweet_args": tweet_frame["description"],
+                                    "rouge1_recall": round(scores["rouge1"].recall, DECIMAL_FIGURES),
+                                    "rouge1_precision": round(scores["rouge1"].precision, DECIMAL_FIGURES),
+                                    "rouge1_f1": round(scores["rouge1"].fmeasure, DECIMAL_FIGURES)
+                                }
+                                srl_eval_schema[tweet_verb]["best_frames"]["best_precision"] = best_precision_row
+
+                                # Frame with best Rouge1 recall
+                                if scores["rouge1"].recall > srl_eval_schema[tweet_verb]["best_frames"]["best_recall"]["rouge1_recall"]:
+                                    best_recall_row = {
+                                        "topic_args": topic_frame["description"],
+                                        "tweet_args": tweet_frame["description"],
+                                        "rouge1_recall": round(scores["rouge1"].recall, DECIMAL_FIGURES),
+                                        "rouge1_precision": round(scores["rouge1"].precision, DECIMAL_FIGURES),
+                                        "rouge1_f1": round(scores["rouge1"].fmeasure, DECIMAL_FIGURES)
+                                    }
+                                    srl_eval_schema[tweet_verb]["best_frames"]["best_recall"] = best_recall_row
+
+                            srl_eval_schema[tweet_verb]["all_frames"]["rouge1_precision"] += scores["rouge1"].precision
+                            srl_eval_schema[tweet_verb]["all_frames"]["rouge1_recall"] += scores["rouge1"].recall
+                            srl_eval_schema[tweet_verb]["all_frames"]["rouge1_f1"] += scores["rouge1"].fmeasure
 
                             global_precision += scores["rouge1"].precision
                             global_recall += scores["rouge1"].recall
@@ -253,8 +292,8 @@ if __name__ == '__main__':
 
     for word, count in zip(common_verbs, common_verbs_count.values()):
         for metric in ["rouge1_precision", "rouge1_recall", "rouge1_f1"]:
-            srl_eval_schema[word][metric] = round(srl_eval_schema[word][metric] / count, 3)
-            srl_eval_schema[word]["frequency"] = count
+            srl_eval_schema[word]["all_frames"][metric] = round(srl_eval_schema[word]["all_frames"][metric] / count, 3)
+            srl_eval_schema[word]["all_frames"]["frequency"] = count
 
     srl_global_metrics = {"rouge1_precision": round(global_precision / global_count, 3),
                           "rouge1_recall": round(global_recall / global_count, 3),
