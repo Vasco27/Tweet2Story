@@ -1,5 +1,4 @@
 import pathlib
-import re
 
 
 def get_root_path():
@@ -45,71 +44,3 @@ def topic_tweets_documents(data, concat_sep="\n"):
         tweets_texts.append(concat_tweets)
 
     return tweets_texts
-
-
-def flatten_list(list_to_flatten):
-    """
-    Simply flattens a list of nested lists.
-
-    :param list_to_flatten: list of nested lists to be flattened
-    :return: the flattened list
-    """
-    return [item for sublist in list_to_flatten for item in sublist]
-
-
-def value_indexes_in_list(ref_list, value, negative_condition=False):
-    """
-    Finds the indexes where a value or values are contained in a list.
-
-    :param ref_list: the list from where to search the value
-    :param value: the value or values to search for within the list (must be a list)
-    :param negative_condition: Whether to query the value through the logical negative
-    :return: a list of indexes corresponding to the queried value
-    """
-    if not isinstance(value, list):
-        raise ValueError(f"Parameter value must be of type list. Instead it was of type {type(value)}")
-
-    if negative_condition:
-        return [idx for idx, val in enumerate(ref_list) if val not in value]
-    else:
-        return [idx for idx, val in enumerate(ref_list) if val in value]
-
-
-def multiple_index_list(ref_list, indexes):
-    """
-    Index a list with multiple item indexes.
-    Example: having indexes - [1, 2, 3] we want to access ref_list[1, 2, 3].
-
-    :param ref_list: list to index
-    :param indexes: indexes of values within the range of the list
-    :return: the values in the indexes within the list
-    """
-    return [ref_list[i] for i in indexes]
-
-
-def trim_whitespaces(text):
-    """
-    Trim whitespaces from an entire text or a list of words. Including whitespaces preceding punctuation.
-
-    :param text: str or list of str to trim
-    :return: str fully trimmed of whitespaces
-
-    Reference:
-    https://stackoverflow.com/questions/18878936/how-to-strip-whitespace-from-before-but-not-after-punctuation-in-python
-    """
-    # todo: Make util class to check for errors (function check_if_string_or_string_list, e.g.)
-    if not isinstance(text, (str, list)):
-        raise ValueError(f"Parameter text must be of type str or list. Instead it was {type(text)}")
-    if isinstance(text, list):
-        if len(text) <= 0:
-            raise ValueError(f"List must contain at least one value.")
-        if any(not isinstance(w, str) for w in text):
-            raise ValueError(f"List must contain only str values.")
-
-    if isinstance(text, list):
-        text = ' '.join(text)
-
-    temp_str = ' '.join(text.split())  # Trims whitespaces
-    normalized_text = re.sub(r'\s([?.!",](?:\s|$))', r'\1', temp_str)
-
-    return normalized_text

@@ -2,7 +2,7 @@
 import numpy as np
 
 # Custom modules
-from T2S.src.utils.data_utils import trim_whitespaces, multiple_index_list
+from T2S.src.utils.string_utils import trim_whitespaces, multiple_index_list
 from T2S.src.utils.json_utils import NoIndent
 
 # coref

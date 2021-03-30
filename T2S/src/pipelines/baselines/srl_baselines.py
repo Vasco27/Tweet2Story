@@ -11,9 +11,9 @@ import time
 from pprint import pprint
 
 # Custom modules
-from T2S.src.utils.data_utils import get_paths, flatten_list, value_indexes_in_list, multiple_index_list, \
-    trim_whitespaces
+from T2S.src.utils.data_utils import get_paths
 from T2S.src.utils.json_utils import NoIndent, MyEncoder
+from T2S.src.utils.string_utils import flatten_list, value_indexes_in_list, multiple_index_list, trim_whitespaces
 
 # Evaluation
 from rouge_score import rouge_scorer
@@ -138,6 +138,7 @@ if __name__ == '__main__':
     #######
     # SRL #
     #######
+    # todo: abstract SRL to coref_utils (maybe rename the module)
 
     print("\nSemantic Role Labelling...")
     start = time.time()

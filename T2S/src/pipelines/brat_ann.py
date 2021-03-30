@@ -1,11 +1,11 @@
 # Essentials
 import json
 import re
-from nltk.corpus import stopwords
 
 # Custom modules
-from T2S.src.utils.data_utils import get_paths, flatten_list, trim_whitespaces
+from T2S.src.utils.data_utils import get_paths
 from T2S.src.utils.json_utils import NoIndent, MyEncoder
+from T2S.src.utils.string_utils import trim_whitespaces, normalize_entities
 
 # Spacy - Named-Entity Recognition
 import en_core_web_trf
@@ -41,6 +41,7 @@ if __name__ == '__main__':
 
     clusters_annotations, clusters_ents = [], []
     for cluster in srl_data["tweets_clusters"]:
+        # Make a cluster set (eliminate duplicated corefs) ordered by the most common coref in the cluster
         cluster_set = sorted(set(cluster), key=cluster.count)[::-1]
         cluster_set = [trim_whitespaces(set_value) for set_value in cluster_set]
 
@@ -49,19 +50,25 @@ if __name__ == '__main__':
         clusters_ents.append(cluster_set)
 
         for cluster_value in cluster_set:
+
+            # Check if the tweets NER after applying the coref has a match for the cluster entity.
             cluster_ner = [label for ent, label in tweets_coref_ner if ent.lower() == cluster_value.lower()]
             if len(cluster_ner) > 0:
                 clusters_annotations.append((NoIndent(cluster_set), cluster_ner[0]))
                 break
 
+            # Check if the tweets NER without coref has a match for the cluster entity
             cluster_ner = [label for ent, label in tweets_ner if ent.lower() == cluster_value.lower()]
             if len(cluster_ner) > 0:
                 clusters_annotations.append((NoIndent(cluster_set), cluster_ner[0]))
                 break
 
+            # Check if the cluster value has a verb to classify the cluster entity as an event
             if any(word in srl_data["tweets_verbs"] for word in cluster_value.split()):
                 clusters_annotations.append((NoIndent(cluster_set), "EVENT"))
                 break
+
+            # todo: default value for when we can't classify the coref entity?
 
     data_row["coref_annotations"] = clusters_annotations
 
@@ -80,20 +87,15 @@ if __name__ == '__main__':
     #####################
     # Other annotations #
     #####################
-    stop_words = set(stopwords.words('english'))
-
-    # Normalize and split cluster entities to remove from the remaining entities
-    # todo: put this in a function at string utils
-    normalized_ents = flatten_list(clusters_ents)
-    normalized_ents = [ent.lower() for ent in normalized_ents]  # Lower case
-    normalized_ents = [re.sub(r"[^\w\s]", "", ent) for ent in normalized_ents]  # Remove punctuation
-    normalized_ents = flatten_list([ent.split() for ent in normalized_ents])  # Split words and flatten
-    normalized_ents = [ent for ent in normalized_ents if ent not in stop_words]  # Remove stopwords
+    normalized_ents = normalize_entities(clusters_ents)
 
     # remaining_ents = [(ent, label) for ent, label in tweets_ner if ent.lower() not in clusters_ents]
     remaining_ents = []
     for ent, label in tweets_ner:
+        # Normalize the entity - lower, remove punctuation and split the word
         normalized_ent = re.sub(r"[^\w\s]", "", ent.lower()).split()
+
+        # Check if the extracted entity was already classified by the coref/tt clusters
         if not any(word for word in normalized_ent if word in normalized_ents):
             remaining_ents.append((ent, label))
 
