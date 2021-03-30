@@ -105,8 +105,8 @@ if __name__ == '__main__':
     data_row = {
         "topic": topic, "coref_content": None,
         "tweets_content": tweets_single_doc, "coref_tweets": None, "nr_tweets": len(tweet_multi_doc),
-        "topic_clusters": [], "tweets_clusters": [], "topic_sentences_srl": [], "tweets_sentences_srl": [],
-        "tweets_verbs": [],
+        "topic_clusters": [], "topic_indexes": [], "tweets_clusters": [], "tweets_indexes": [],
+        "topic_sentences_srl": [], "tweets_sentences_srl": [], "tweets_verbs": [],
         "metrics": {
             "verb_precision": -1, "verb_recall": -1
         },
@@ -123,14 +123,16 @@ if __name__ == '__main__':
     start = time.time()
 
     # Topic
-    topic_coref_text, topic_clusters_list = coref_with_lemma(topic_content)
+    topic_coref_text, topic_clusters_list, topic_clusters_indexes = coref_with_lemma(topic_content)
     data_row["coref_content"] = topic_coref_text
     data_row["topic_clusters"] = topic_clusters_list
+    data_row["topic_indexes"] = topic_clusters_indexes
 
     # Tweets
-    coref_tweets, tweets_clusters_list = coref_with_lemma(tweets_single_doc)
+    coref_tweets, tweets_clusters_list, tweets_clusters_indexes = coref_with_lemma(tweets_single_doc)
     data_row["coref_tweets"] = coref_tweets
     data_row["tweets_clusters"] = tweets_clusters_list
+    data_row["tweets_indexes"] = tweets_clusters_indexes
 
     end = time.time()
     print(f"Computation time - {round(end - start, 2)} seconds")

@@ -25,15 +25,15 @@ def coref_with_lemma(text):
     prediction = predictor_cr.predict(document=topic_coref_text)
     topic_coref_text = predictor_cr.coref_resolved(topic_coref_text)
 
-    clusters_nouns_list = find_cluster_nouns(prediction)
+    clusters_nouns_list, cluster_indexes_list = find_cluster_nouns(prediction)
 
-    return topic_coref_text, clusters_nouns_list
+    return topic_coref_text, clusters_nouns_list, cluster_indexes_list
 
 
 def find_cluster_nouns(coref_prediction):
-    cluster_noun_list = []
+    cluster_noun_list, cluster_index_list = [], []
     for cluster in coref_prediction["clusters"]:
-        cluster_list = []
+        cluster_list, cluster_indexes = [], []
         for span in cluster:
             start_idx = span[0]
             end_idx = span[1]
@@ -41,6 +41,8 @@ def find_cluster_nouns(coref_prediction):
 
             word_span = multiple_index_list(coref_prediction["document"], indexes)
             cluster_list.append(' '.join(word_span))
+            cluster_indexes.append([start_idx, end_idx])
         cluster_noun_list.append(NoIndent(cluster_list))
+        cluster_index_list.append(NoIndent(cluster_indexes))
 
-    return cluster_noun_list
+    return cluster_noun_list, cluster_index_list
