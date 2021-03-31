@@ -1,7 +1,6 @@
 # Essentials
 import json
 import re
-from collections import namedtuple
 
 # Custom modules
 from T2S.src.utils.data_utils import get_paths
@@ -11,6 +10,52 @@ from T2S.src.utils.string_utils import trim_whitespaces, normalize_entities
 # Spacy - Named-Entity Recognition
 import en_core_web_trf
 nlp = en_core_web_trf.load()
+
+
+def clean_entities(entity_list):
+    # remove spaces around hyphens and parenthesis
+    re_special_ws = r'([ ](?=-)|(?<=-)[ ])|([ ](?=\))|(?<=\()[ ])'
+
+    if isinstance(entity_list, list):
+        ent_list = [trim_whitespaces(set_value) for set_value in entity_list]
+        ent_list = [re.sub(re_special_ws, '', value.lower()) for value in ent_list]
+    elif isinstance(entity_list, str):
+        ent_list = trim_whitespaces(entity_list)
+        ent_list = re.sub(re_special_ws, '', ent_list.lower())
+    else:
+        raise ValueError(f"Parameter entity_list must be of type list or str. Instead it was {type(entity_list)}.")
+
+    return ent_list
+
+
+def annotate_entity(ent_str, label, ent_id, mod_content):
+    """
+    Annotates entities (as text-bound annotations) according to the brat convention.
+
+    :param ent_str: the entity (as a string)
+    :param label: the label of the entity
+    :param ent_id: the id for the text-bound annotations
+    :param mod_content: tweets content modified with replaced entities
+    :return: the text-bound annotation for the entity in brat format and the newly modified tweets content
+    """
+    ent_id_str = "T" + str(ent_id)
+    ent_escape = ent_str.translate(str.maketrans({"-": r"\-", "]": r"\]", "^": r"\^", "$": r"\$", "*": r"\*",
+                                                  ".": r"\.", "(": r"\(", ")": r"\)"}))
+    c = re.search(r'({}|$)'.format(ent_escape), mod_content)
+    start_char = c.start()
+    end_char = c.end()
+
+    str_size = end_char - start_char
+    str_to_replace = "X" * str_size
+
+    # Modify the content to replace entity with placeholder
+    mod_content = mod_content.replace(ent_escape, str_to_replace, 1)
+
+    ann_line = f"{ent_id_str}\t{label} {start_char} {end_char}\t{ent_str}\n"
+    ent_id += 1
+
+    return ann_line, mod_content
+
 
 if __name__ == '__main__':
     # This is a test, using a test file with only one topic (the Lydia Ko golfing article)
@@ -88,7 +133,7 @@ if __name__ == '__main__':
     ####################
 
     time_refs = tt_data["tt_tweets"]
-    [t_ref.append("DATE") for t_ref in time_refs]
+    [t_ref.append("TIME_X3") for t_ref in time_refs]
 
     data_row["time_annotations"] = time_refs
 
@@ -118,36 +163,35 @@ if __name__ == '__main__':
     # Make brat file (.ann) #
     #########################
 
-    mod_content = srl_data["tweets_content"].lower()
+    mod_tweets_content = srl_data["tweets_content"].lower()
     text_bound_id = 1
     ann = ""
 
     # Algorithm for retrieving start and end char positions of named entities
     # Starting with the coref clusters entities
     for cluster, label in zip(srl_data["tweets_clusters"], clusters_labels):
-        cluster_data = [trim_whitespaces(set_value) for set_value in cluster]
-
-        # remove spaces around hyphens and parenthesis
-        re_special_ws = r'([ ](?=-)|(?<=-)[ ])|([ ](?=\))|(?<=\()[ ])'
-        cluster_data = [re.sub(re_special_ws, '', value.lower()) for value in cluster_data]
+        cluster_data = clean_entities(cluster)
 
         for cluster_value in cluster_data:
-            text_bound_id_str = "T" + str(text_bound_id)
-            cluster_value = cluster_value.translate(str.maketrans({"-": r"\-", "]": r"\]", "^": r"\^",
-                                                                   "$": r"\$", "*": r"\*", ".": r"\.",
-                                                                   "(": r"\(", ")": r"\)"}))
-            c = re.search(r'({}|$)'.format(cluster_value), mod_content)
-            start_char = c.start()
-            end_char = c.end()
-
-            str_size = end_char - start_char
-            str_to_replace = "X" * str_size
-
-            # Modify the content to replace entity with placeholder
-            mod_content = mod_content.replace(cluster_value, str_to_replace, 1)
-
-            ann = ann + f"{text_bound_id_str}\t{label} {start_char} {end_char}\t{cluster_value}\n"
+            ent_ann, mod_tweets_content = annotate_entity(cluster_value, label, text_bound_id, mod_tweets_content)
+            ann = ann + ent_ann
             text_bound_id += 1
+
+    # annotations for time references
+    for time_ref in time_refs:
+        time_ent = clean_entities(time_ref[1])
+
+        ent_ann, mod_tweets_content = annotate_entity(time_ent, time_ref[2], text_bound_id, mod_tweets_content)
+        ann = ann + ent_ann
+        text_bound_id += 1
+
+    # annotations for the remaining entities
+    for ent, label in remaining_ents:
+        ent = clean_entities(ent)
+
+        ent_ann, mod_tweets_content = annotate_entity(ent, label, text_bound_id, mod_tweets_content)
+        ann = ann + ent_ann
+        text_bound_id += 1
 
     ######################
     # Export annotations #

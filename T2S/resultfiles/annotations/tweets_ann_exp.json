@@ -2,7 +2,7 @@
     {
         "coref_annotations": [
             [
-                ["Evian Championship", "the Evian Championship in France", "EVIAN-LES-BAINS, France", "the Evian Championship"],
+                ["Evian Championship", "the Evian Championship", "the Evian Championship in France", "EVIAN-LES-BAINS, France"],
                 "EVENT"
             ],
             [
@@ -14,7 +14,7 @@
                 "PERSON"
             ],
             [
-                ["Lydia Ko", "her", "Ko", "teenager Lydia Ko", "amazing teen golfer Lydia Ko", "Lydia Kos", "teenager Ko", "18-year-old Lydia Ko", "she", "world no.2 Lydia Ko ( 18 )", "New Zealand golfer Lydia Ko", "Kiwi golfer"],
+                ["Lydia Ko", "her", "teenager Lydia Ko", "Ko", "she", "teenager Ko", "world no.2 Lydia Ko ( 18 )", "amazing teen golfer Lydia Ko", "Kiwi golfer", "18-year-old Lydia Ko", "New Zealand golfer Lydia Ko", "Lydia Kos"],
                 "PERSON"
             ],
             [
@@ -34,7 +34,7 @@
             [
                 "2015-W36-WE",
                 "the weekend",
-                "DATE"
+                "TIME_X3"
             ]
         ],
         "remaining_annotations": [

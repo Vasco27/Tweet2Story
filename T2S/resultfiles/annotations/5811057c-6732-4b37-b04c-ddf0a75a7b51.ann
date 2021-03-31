@@ -1,4 +1,3 @@
-
 T1	EVENT 68 86	evian championship
 T2	EVENT 133 151	evian championship
 T3	EVENT 198 216	evian championship
@@ -8,7 +7,7 @@ T6	EVENT 448 466	evian championship
 T7	EVENT 727 749	the evian championship
 T8	EVENT 929 961	the evian championship in france
 T9	EVENT 1312 1330	evian championship
-T10	EVENT 1365 1388	evian\-les\-bains, france
+T10	EVENT 1365 1388	evian-les-bains, france
 T11	EVENT 1445 1463	evian championship
 T12	EVENT 1730 1748	evian championship
 T13	PERSON 88 101	lexi thompson
@@ -25,7 +24,7 @@ T23	PERSON 350 353	her
 T24	PERSON 434 442	lydia ko
 T25	PERSON 502 513	teenager ko
 T26	PERSON 544 552	lydia ko
-T27	PERSON 615 639	world no\.2 lydia ko \(18\)
+T27	PERSON 615 639	world no.2 lydia ko (18)
 T28	PERSON 626 634	lydia ko
 T29	PERSON 831 842	kiwi golfer
 T30	PERSON 752 760	lydia ko
@@ -36,7 +35,7 @@ T34	PERSON 1105 1113	lydia ko
 T35	PERSON 1223 1226	she
 T36	PERSON 1245 1248	her
 T37	PERSON 1072 1074	ko
-T38	PERSON 1419 1439	18\-year\-old lydia ko
+T38	PERSON 1419 1439	18-year-old lydia ko
 T39	PERSON 1505 1533	amazing teen golfer lydia ko
 T40	PERSON 1215 1217	ko
 T41	PERSON 1593 1620	new zealand golfer lydia ko
@@ -50,3 +49,27 @@ T48	EVENT 2064 2064	evian win
 T49	EVENT 2064 2064	evian win
 T50	GPE 1382 1388	france
 T51	GPE 2064 2064	france
+T52	TIME_X3 1291 1302	the weekend
+T53	ORG 8 11	pnm
+T54	ORG 30 33	ilp
+T55	ORDINAL 354 359	first
+T56	FAC 419 430	lake geneva
+T57	ORG 672 676	lpga
+T58	CARDINAL 690 691	6
+T59	ORDINAL 769 774	first
+T60	EVENT 360 365	major
+T61	EVENT 486 491	major
+T62	CARDINAL 863 868	eight
+T63	CARDINAL 875 877	63
+T64	TIME 989 996	10 mins
+T65	PERSON 1001 1005	mike
+T66	PERSON 1007 1013	andrew
+T67	PERSON 1018 1024	scotty
+T68	ORG 1047 1050	rwc
+T69	QUANTITY 1397 1406	two holes
+T70	ORG 1483 1487	lpga
+T71	EVENT 1646 1658	rio olympics
+T72	PERSON 1794 1804	jason days
+T73	CARDINAL 1847 1850	one
+T74	GPE 1917 1925	illinois
+T75	PERSON 2027 2042	william hazlitt
