@@ -75,14 +75,18 @@ if __name__ == '__main__':
         tweet_tt_list = []
         for row in topic_data.itertuples():
             tweet_time = pd.to_datetime(row[4]).date().isoformat()
-            tt_tweets = py_heideltime(
-                row[5], date_granularity="full", document_type="colloquial", document_creation_time=tweet_time
-            )
-            if len(tt_tweets[0]) != 0:
-                tweet_tt_list.append(tt_tweets[0])
-                # pprint(tt_tweets[0])
-                # pprint(tt_tweets[1], width=200)
-                # pprint(tt_tweets[3])
+            try:
+                tt_tweets = py_heideltime(
+                    row[5], date_granularity="full", document_type="colloquial", document_creation_time=tweet_time
+                )
+                if len(tt_tweets[0]) != 0:
+                    tweet_tt_list.append(tt_tweets[0])
+                    # pprint(tt_tweets[0])
+                    # pprint(tt_tweets[1], width=200)
+                    # pprint(tt_tweets[3])
+            except IndexError:
+                print("Index error:\n")
+                pprint(row[5])
 
         tweet_tt_list = [item for sublist in tweet_tt_list for item in sublist]
         data_row["tt_tweets"] = NoIndent(tweet_tt_list)
