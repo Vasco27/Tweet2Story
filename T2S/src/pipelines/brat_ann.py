@@ -1,6 +1,7 @@
 # Essentials
 import json
 import re
+import pickle
 
 # Custom modules
 from T2S.src.utils.data_utils import get_paths
@@ -64,13 +65,41 @@ if __name__ == '__main__':
     tt_dir = results_dir + "baselines/TT/"
     ann_dir = results_dir + "annotations/"
 
-    with open(srl_dir + "srl_coref_exp.json") as f:
-        srl_data = json.load(f)[0]
-
-    with open(tt_dir + "tt_exp4.json") as f:
-        tt_data = json.load(f)[0]
-
     results_list = []
+
+    topic = "5811057c-6732-4b37-b04c-ddf0a75a7b51"
+    topic_dir = srl_dir + "all_topics/" + topic + "/"
+
+    ################################
+    # Read SRL/COREF/TT data files #
+    ################################
+
+    with open(topic_dir + "srl_coref.json") as f:
+        srl_data = json.load(f)
+
+    with open(topic_dir + "topic_srl.p", "rb") as f:
+        topic_srl = pickle.load(f)
+
+    with open(topic_dir + "topic_verbs.p", "rb") as f:
+        topic_verbs = pickle.load(f)
+
+    with open(topic_dir + "topic_verbs_lemma.p", "rb") as f:
+        topic_verbs_lemma = pickle.load(f)
+
+    with open(topic_dir + "tweets_srl.p", "rb") as f:
+        tweets_srl = pickle.load(f)
+
+    with open(topic_dir + "tweets_verbs.p", "rb") as f:
+        tweets_verbs = pickle.load(f)
+
+    with open(topic_dir + "tweets_verbs_lemma.p", "rb") as f:
+        tweets_verbs_lemma = pickle.load(f)
+
+    with open(tt_dir + "tt_baseline.json", encoding="utf-8") as f:
+        tt_data = json.load(f)
+
+    topic_tt_data = [data for data in tt_data if data["topic"] == topic]
+
     data_row = {
         "coref_annotations": None, "time_annotations": None, "remaining_annotations": None
     }
@@ -132,7 +161,7 @@ if __name__ == '__main__':
     # Date annotations #
     ####################
 
-    time_refs = tt_data["tt_tweets"]
+    time_refs = topic_tt_data["tt_tweets"]
     [t_ref.append("TIME_X3") for t_ref in time_refs]
 
     data_row["time_annotations"] = time_refs
