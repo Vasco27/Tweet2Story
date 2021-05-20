@@ -107,14 +107,14 @@ if __name__ == '__main__':
         doc_topic = nlp(topic_content)
         topic_ents = process_entity_list(doc_topic.ents)
         topic_ents_labels = process_entity_label_list(doc_topic.ents)
-        data_row["ner_topic"] = NoIndent(list(topic_ents))
+        # data_row["ner_topic"] = NoIndent(list(topic_ents))
         # pprint(topic_ents_labels)
 
         # Tweets entity extraction
         doc_tweets = nlp(tweets_single_doc)
         tweets_ents_labels = process_entity_label_list(doc_tweets.ents)
-        tweets_ner_list = compute_ner_weighted_recall(tweets_ents_labels, topic_content, tweets_single_doc)
-        data_row["ner_tweets"] = NoIndent(tweets_ner_list)
+        # tweets_ner_list = compute_ner_weighted_recall(tweets_ents_labels, topic_content, tweets_single_doc)
+        # data_row["ner_tweets"] = NoIndent(tweets_ner_list)
         # pprint(tweets_ents_labels)
 
         # EVALUATION
@@ -129,5 +129,12 @@ if __name__ == '__main__':
         end = time.time()
         print(f"Iteration time - {round(end - start, 2)} seconds.")
 
-    with open(results_dir + "ner_baselines.json", "w", encoding="utf-8") as f:
-        f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))
+    # with open(results_dir + "ner_baselines.json", "w", encoding="utf-8") as f:
+    #     f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))
+
+    print(sum(ner["exact_precision"] for ner in results_list))
+    print(sum(ner["exact_recall"] for ner in results_list))
+    print(sum(ner["exact_F1"] for ner in results_list))
+    print(sum(ner["partial_precision"] for ner in results_list))
+    print(sum(ner["partial_recall"] for ner in results_list))
+    print(sum(ner["partial_F1"] for ner in results_list))

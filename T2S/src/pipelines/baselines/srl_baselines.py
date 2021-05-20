@@ -320,8 +320,14 @@ if __name__ == '__main__':
 
         for word, count in zip(common_verbs, common_verbs_count.values()):
             for metric in ["rouge1_precision", "rouge1_recall", "rouge1_f1"]:
-                srl_eval_schema[word]["all_frames"][metric] = round(srl_eval_schema[word]["all_frames"][metric] / count, 3)
-                srl_eval_schema[word]["all_frames"]["frequency"] = count
+                try:
+                    srl_eval_schema[word]["all_frames"][metric] = round(
+                        srl_eval_schema[word]["all_frames"][metric] / count, 3
+                    )
+                    srl_eval_schema[word]["all_frames"]["frequency"] = count
+                except ZeroDivisionError:
+                    srl_eval_schema[word]["all_frames"][metric] = 0
+                    srl_eval_schema[word]["all_frames"]["frequency"] = 0
 
         if global_count != 0:
             srl_global_metrics = {"rouge1_precision": round(global_precision / global_count, 3),
