@@ -1,0 +1,124 @@
+{
+    "topic": "be94f275-223c-46bd-8efd-fafa03872368",
+    "coref_content": "SAN DIEGO, Sept. 2, 2015 /PRNewswire - USNewswire/ -- EvoNexus hold EvoNexus's big event of the year on August 27th to showcase several of EvoNexus's startup and introduce the entrepreneurial and technology community to the next wave of SAN DIEGO innovation. at its big event of the year startup currently incubate in EvoNexus present startup currently incubate in EvoNexus's company and product to an audience of SAN DIEGO entrepreneur, tech industry leader, media member, and investor. over 350 people attend its big event of the year, make its big event of the year one of the big Demo Days ever! Wrapify – the company that blend on - vehicle advertising, gps information, and crowdsourcing, and other computer technology to deliver outdoor advertising – be vote the winner of its big event of the year, narrowly edge out Crypteron in the close live vote in its big event of the year history! the prize for win be an invite to a vip dinner with 18 investor at Estancia, which take place immediately after its big event of the year at Radys School of Management at UCSD. its big event of the year attendee choose the winner of Demo Day in under two minute through a live mobile handset voting poll follow the final presentation. other highlight from its big event of the year : company present at its big event of the year be part of the 4 month EvoNexus accelerator program, EvoStart. startup participate in the 4 month EvoNexus accelerator program, EvoStart focus on create a minimum sellable product, validate startup participate in EvoStart's market, and provide a business model to customer. startup be also give access to domain expert mentor, weekly workshop, monthly check in, and various pitch practice. the framework of the 4 month EvoNexus accelerator program, EvoStart, as well as the success of the 4 month EvoNexus accelerator program, EvoStart, be what make EvoNexus the fast way for entrepreneur to launch entrepreneur's startup. about EvoNexus EvoNexus be a technology incubator for southern Californias startup and entrepreneurial community with location in SAN DIEGO and Irvine. EvoNexus empower motivated entrepreneur to turn motivated entrepreneur's transformative idea into fundable, commercially viable company, and leverage community resource to provide what entrepreneur need to be successful. for more information, visit Media contact Chris Norris 720 - 648 - 1473 cnorris@evonexus.org Marketing & communication Manager Kristen Long 858 - 768 - 5056 klong@evonexus.org Sr. Portfolio Manager, EvoNexus SAN DIEGO to view the original version on PR Newswire, visit : SOURCE EvoNexus.",
+    "tweets_content": "Israeli #biotechnology firm voted Among ‘Most Innovative #Startups’ Globally   via.\nSeven New Startups From Silicon Valleys Favorite New Demo Day  by.\nSeven New Startups From Silicon Valley’s Favorite New Demo Day.\nSan Diego tonight.\nEntrepreneur First Demo Day: Meet The Nine Startups That Presented (And Read Our Take).\n10 truly innovative auto startups.\n50 of the world’s best startups will demo &amp; you’ll get an exclusive chance to see the diversity in our tech startups!.\n10 truly innovative auto startups",
+    "coref_tweets": "israeli # biotechnology firm vote among ' most innovative # startup ' globally via. seven new startup from Silicon Valleys favorite new Demo Day by. seven new startup from Silicon Valleys's favorite new Demo Day. San Diego tonight. entrepreneur first Demo Day : meet the nine startup that present ( and read our take ). 10 truly innovative auto startup. 50 of the world ’s good startup will demo & amp ; you ’ll get an exclusive chance to see the diversity in our tech startup! . 10 truly innovative auto startup.",
+    "nr_tweets": 8,
+    "topic_clusters": [
+        ["EvoNexus", "its", "its", "EvoNexus", "EvoNexus", "EvoNexus", "EvoNexus", "EvoNexus", "EvoNexus", "EvoNexus", "EvoNexus"],
+        ["SAN DIEGO", "San Diego", "San Diego", "San Diego", "San Diego"],
+        ["its big event of the year", "EvoNexus Demo Day 10", "the standing room only event", "it", "Demo Day", "Demo Day", "the event", "Demo Day", "the event", "Demo Day"],
+        ["startup currently incubate in EvoNexus", "their"],
+        ["the winner of Demo Day", "the winner"],
+        ["the 4 month EvoNexus accelerator program , EvoStart", "EvoStart", "EvoStart", "the program"],
+        ["startup participate in EvoStart", "their"],
+        ["entrepreneur", "their"],
+        ["motivated entrepreneur", "their"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Silicon Valleys", "Silicon Valley \u2019s"],
+        ["10 truly innovative auto startup .", "10 truly innovative auto startup"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "SAN DIEGO , Sept. 2 , 2015 /PRNewswire - USNewswire/ -- [ARG0: EvoNexus] [V: hold] [ARG1: EvoNexus 's big event of the year] [ARGM-TMP: on August 27th] [ARGM-PRP: to showcase several of EvoNexus 's startup and introduce the entrepreneurial and technology community to the next wave of SAN DIEGO innovation] .",
+            "SAN DIEGO , Sept. 2 , 2015 /PRNewswire - USNewswire/ -- [ARG0: EvoNexus] hold EvoNexus 's big event of the year on August 27th to [V: showcase] [ARG1: several of EvoNexus 's startup] and introduce the entrepreneurial and technology community to the next wave of SAN DIEGO innovation .",
+            "SAN DIEGO , Sept. 2 , 2015 /PRNewswire - USNewswire/ -- [ARG0: EvoNexus] hold EvoNexus 's big event of the year on August 27th to showcase several of EvoNexus 's startup and [V: introduce] [ARG1: the entrepreneurial and technology community] [ARG2: to the next wave of SAN DIEGO innovation] ."
+        ],
+        [
+            "at its big event of the year [ARG1: startup] [ARGM-TMP: currently] [V: incubate] [ARGM-LOC: in EvoNexus] present startup currently incubate in EvoNexus 's company and product to an audience of SAN DIEGO entrepreneur , tech industry leader , media member , and investor .",
+            "at its big event of the year startup currently incubate in EvoNexus present startup [ARGM-TMP: currently] [V: incubate] [ARGM-LOC: in EvoNexus 's company] [ARG1: and product] [ARG2: to an audience of SAN DIEGO entrepreneur , tech industry leader , media member , and investor] ."
+        ],
+        [
+            "[ARG0: over 350 people] [V: attend] [ARG1: its big event of the year] , make its big event of the year one of the big Demo Days ever !",
+            "[ARG0: over 350 people] attend its big event of the year , [V: make] [ARG1: its big event of the year one of the big Demo Days ever] !"
+        ],
+        [
+            "Wrapify – [ARG0: the company] [R-ARG0: that] [V: blend] [ARG1: on - vehicle advertising , gps information , and crowdsourcing , and other computer technology] [ARGM-PRP: to deliver outdoor advertising – be vote the winner of its big event of the year , narrowly edge out Crypteron in the close live vote in its big event of the year history] !",
+            "Wrapify – the company that blend on - vehicle advertising , [V: gps] information , and crowdsourcing , and other computer technology to deliver outdoor advertising – be vote the winner of its big event of the year , narrowly edge out Crypteron in the close live vote in its big event of the year history !",
+            "Wrapify – the company that blend on - vehicle advertising , gps information , and [V: crowdsourcing] , and other computer technology to deliver outdoor advertising – be vote the winner of its big event of the year , narrowly edge out Crypteron in the close live vote in its big event of the year history !",
+            "Wrapify – [ARG0: the company] that blend on - vehicle advertising , gps information , and crowdsourcing , and other computer technology to [V: deliver] [ARG1: outdoor advertising] – be vote the winner of its big event of the year , narrowly edge out Crypteron in the close live vote in its big event of the year history !",
+            "[ARG1: Wrapify] – [ARG1: the company that blend on - vehicle advertising , gps information , and crowdsourcing , and other computer technology to deliver outdoor advertising] – [V: be] [ARG2: vote the winner of its big event of the year] , [ARGM-ADV: narrowly edge out Crypteron in the close live vote in its big event of the year history] !",
+            "Wrapify – the company that blend on - vehicle advertising , gps information , and crowdsourcing , and other computer technology to deliver outdoor advertising – be [V: vote] [ARG1: the winner of its big event of the year] , [ARGM-ADV: narrowly edge out Crypteron] [ARGM-ADV: in the close live vote in its big event of the year history] !",
+            "Wrapify – the company that blend on - vehicle advertising , gps information , and crowdsourcing , and other computer technology to deliver outdoor advertising – be vote the winner of its big event of the year , [ARGM-ADV: narrowly] [V: edge] out [ARG1: Crypteron] [ARGM-LOC: in the close live vote] [ARGM-LOC: in its big event of the year history] !"
+        ],
+        [
+            "[ARG1: the prize for win] [V: be] [ARG2: an invite to a vip dinner with 18 investor at Estancia , which take place immediately after its big event of the year at Radys School of Management at UCSD] .",
+            "the prize for win be an invite to [ARG1: a vip dinner with] 18 investor at [ARG1: Estancia] , [R-ARG1: which] [V: take] [ARG2: place] [ARGM-TMP: immediately after its big event of the year] [ARGM-LOC: at Radys School of Management at UCSD] ."
+        ],
+        [
+            "its [ARGM-PRD: big event of the year] [ARG0: attendee] [V: choose] [ARG1: the winner of Demo Day] [ARGM-TMP: in under two minute] [ARGM-MNR: through a live mobile handset voting poll] follow the final presentation .",
+            "[ARG1: its big event of the year attendee] choose the winner of Demo Day in under two minute through a live mobile handset voting poll [V: follow] [ARG2: the final presentation] ."
+        ],
+        [
+            "other highlight from its big event of the year : [ARG1: company present at its big event of the year] [V: be] [ARG2: part of the 4 month EvoNexus accelerator program , EvoStart] ."
+        ],
+        [
+            "[V: startup] participate in the 4 month EvoNexus accelerator program , EvoStart focus on create a minimum sellable product , validate startup participate in EvoStart 's market , and provide a business model to customer .",
+            "startup participate in the 4 month EvoNexus accelerator program , [ARG0: EvoStart] [V: focus] [ARG2: on create a minimum sellable product ,] validate startup participate in EvoStart 's market , and provide a business model to customer .",
+            "startup participate in the 4 month EvoNexus accelerator program , [ARG0: EvoStart] focus on [V: create] [ARG1: a minimum sellable product] , validate startup participate in EvoStart 's market , and provide a business model to customer .",
+            "startup participate in the 4 month EvoNexus accelerator program , [ARG0: EvoStart] focus on create a minimum sellable product , [V: validate] [ARG1: startup participate in EvoStart 's market] , and provide a business model to customer .",
+            "startup participate in the 4 month EvoNexus accelerator program , [ARG0: EvoStart] focus on create a minimum sellable product , validate startup participate in EvoStart 's market , and [V: provide] [ARG1: a business model] [ARG2: to customer] ."
+        ],
+        [
+            "startup [V: be] also give access to domain expert mentor , weekly workshop , monthly check in , and various pitch practice .",
+            "[ARG2: startup] be [ARGM-ADV: also] [V: give] [ARG1: access to domain expert mentor , weekly workshop , monthly check in , and various pitch practice] ."
+        ],
+        [
+            "[ARG1: the framework of the 4 month EvoNexus accelerator program , EvoStart , as well as the success of the 4 month EvoNexus accelerator program , EvoStart] , [V: be] [ARG2: what make EvoNexus the fast way for entrepreneur to launch entrepreneur 's startup] .",
+            "the framework of the 4 month EvoNexus accelerator program , EvoStart , as well as the success of the 4 month EvoNexus accelerator program , EvoStart , be [ARG0: what] [V: make] [ARG1: EvoNexus the fast way for entrepreneur to launch entrepreneur 's startup] .",
+            "the framework of the 4 month EvoNexus accelerator program , EvoStart , as well as the success of the 4 month EvoNexus accelerator program , EvoStart , be what make EvoNexus [ARGM-MNR: the fast way] for [ARG0: entrepreneur] to [V: launch] [ARG1: entrepreneur 's startup] .",
+            "the framework of the 4 month EvoNexus accelerator program , EvoStart , as well as the success of the 4 month EvoNexus accelerator program , EvoStart , be what make EvoNexus the fast way for entrepreneur to launch [ARG1: entrepreneur 's] [V: startup] ."
+        ],
+        [
+            "[ARGM-ADV: about EvoNexus] [ARG1: EvoNexus] [V: be] [ARG2: a technology incubator for southern Californias startup and entrepreneurial community with location in SAN DIEGO and Irvine] ."
+        ],
+        [
+            "EvoNexus empower motivated [ARG0: entrepreneur] to [V: turn] [ARG1: motivated entrepreneur 's transformative idea] [ARG2: into fundable , commercially viable company] , and leverage community resource to provide what entrepreneur need to be successful .",
+            "EvoNexus empower motivated entrepreneur to turn motivated entrepreneur 's transformative idea into fundable , commercially viable company , and leverage community resource to [V: provide] [ARG1: what entrepreneur need to be successful] .",
+            "EvoNexus empower motivated entrepreneur to turn motivated entrepreneur 's transformative idea into fundable , commercially viable company , and leverage community resource to provide [ARG1: what] [ARG0: entrepreneur] [V: need] [ARGM-PRP: to be successful] .",
+            "EvoNexus empower motivated entrepreneur to turn motivated entrepreneur 's transformative idea into fundable , commercially viable company , and leverage community resource to provide what [ARG1: entrepreneur] need to [V: be] [ARG2: successful] ."
+        ],
+        [
+            "[ARGM-PRP: for more information] , [V: visit] [ARG1: Media contact Chris Norris 720 - 648 - 1473 cnorris@evonexus.org Marketing & communication Manager Kristen Long 858 - 768 - 5056 klong@evonexus.org Sr] ."
+        ],
+        [
+            "[ARG0: Portfolio Manager , EvoNexus SAN DIEGO] to [V: view] [ARG1: the original version] [ARG2: on PR Newswire] , visit : SOURCE EvoNexus .",
+            "[ARG0: Portfolio Manager , EvoNexus SAN DIEGO] [ARGM-PRP: to view the original version on PR] [ARGM-DIS: Newswire] , [V: visit] : [ARG1: SOURCE EvoNexus] ."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [],
+        [],
+        [],
+        [],
+        [
+            "entrepreneur first Demo Day : [V: meet] [ARG1: the nine startup that present] ( and read our take ) .",
+            "entrepreneur first Demo Day : meet the nine startup that present ( and [V: read] [ARG1: our take] ) ."
+        ],
+        [],
+        [
+            "50 of the world ’s good startup [V: will] demo & amp ; you ’ll get an exclusive chance to see the diversity in our tech startup !",
+            "50 of the world ’s good startup will demo & amp ; [ARG1: you] [V: ’ll] get an exclusive chance to see the diversity in our tech startup !",
+            "50 of the world ’s good startup will demo & amp ; [ARG0: you] [ARGM-MOD: ’ll] [V: get] [ARG1: an exclusive chance to see the diversity in our tech startup] !",
+            "50 of the world ’s good startup will demo & amp ; you ’ll get an exclusive chance to [V: see] [ARG1: the diversity in our tech startup] !"
+        ],
+        [],
+        []
+    ],
+    "tweets_verbs": ["meet", "read", "will", "\u2019ll", "get", "see"],
+    "metrics": {
+        "verb_precision": 0.0,
+        "verb_recall": 0.0
+    },
+    "srl_metrics": {
+        "per_verb": {},
+        "global": {
+            "rouge1_precision": 0,
+            "rouge1_recall": 0,
+            "rouge1_f1": 0
+        }
+    }
+}

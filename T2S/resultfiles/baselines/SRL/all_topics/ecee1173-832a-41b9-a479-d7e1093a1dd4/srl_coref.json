@@ -1,0 +1,325 @@
+{
+    "topic": "ecee1173-832a-41b9-a479-d7e1093a1dd4",
+    "coref_content": "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be focus on the financial shock therapy the mining giant Glencore announce, with the aim of reduce the mining giant Glencore's $ 30bn ( £ 19bn ) debt mountain, include a right issue, dividend suspension and the mothballing of two large african mine. needless to say London be cock - a - hoop. however, the fate of the thousand of people employ at two large african mine, barely merit a mention. on the subject of two large african mine, the mining giant Glencore simply note\" an announcement make by the mining giant Glencore's majority own subsidiary Katanga Mining of a business review. the mining giant Glencore also inform investor that a similar process be under way at Mopani Copper. these, the mining giant Glencore explain, would involve the suspension of production\" for 18 month up until the completion of the expansionary and upgrade project\" . by mothball two large african mine and restrict the global supply of copper, the mining giant Glencore be hope to put a little life into the metal bomb - out price. the metal bomb - out price duly cheer up in London trading, as do the mining giant Glencore share, although opinion on the long - term outlook for both remain divided. cheer be a commodity that will be in short supply at two large african mine right now, but to what extent remain open to question. the work to expand and upgrade two large african mine, and the need to keep thing tick over until production be re - start, will limit the number of job loss. when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that when production be restart those make redundant could be re - hire. however, the fact remain those make redundant will be without income in the interim in part of the world where it wo nt be easy to find other employment at comparable rate of pay. those make redundant be the silent victim of the mining giant Glencore attempt to restore the fortune of the mining giant Glencore's wealthy manager and investor by polish the global price of copper. it be a brutal lesson in the reality of global capitalism and the price global capitalism exact from those at the bottom of the heap ; the people engage in the difficult, dirty and dangerous job of extract the raw material. the final number of those catch up in the mining giant Glencore financial squall be not yet know. the final number of those catch up in Glencores financial squall will probably only emerge follow a business review, while the story of those affect be all but certain to go unreported in much of the western media. the INDEPENDENT like we on Facebook connect with we on LinkedIn follow we on Twitter hungry for more business news sign up for we on Twitter's daily newsletter! .",
+    "tweets_content": "It is important that today, as in the past, the voice of faith continue to be heard, for it is a voice of fraternity and lov…..\nCiaz diesel hybrid another Maruti masterstroke. Great price (thanks to tax hybrid tax breaks) &amp; record efficiency..\nSo far on mines #ANCYL resolves that the state expedites the creation of the state owned mining company #SABCNews..\nThe fact is, we are engaged in a war of survival. The way to win it will be to focus on the global problem. - #Hoodw…..\nPIA-5/ALBAY: The Mines and Geosciences Bureau (MGB) Bicol annouced that the Philippine Society of Mining....\nBy and large, a major crux of the entire discussion was that in terms of its economy India is relatively untouched: Arun Jaitley..\nThis is also a triumph for those of us who represent the will to put politics at the service of the people.\nThe idea of #SANParksMAHALAWeek was conceived in SA in 2006 after  realising that a vast majority of SAfricans were not accessing the NPs..\nFarmer Focus: Goat milk bucking dairy price trend | #OrganicNews.\nGérard Mestrallet, Chairman, CEO  says we must get carbon price but also bigger investment in clean energy &amp; efficiency. #CWNYC.",
+    "coref_tweets": "it be important that today, as in the past, the voice of faith continue to be hear, for the voice of faith be a voice of fraternity and lov … .. Ciaz diesel hybrid another Maruti masterstroke. great price ( thank to tax hybrid tax break ) & amp ; record efficiency .. so far on mine # ANCYL resolve that the state expedite the creation of the state own mining company # SABCNews .. the fact be, we be engage in a war of survival. the way to win a war of survival will be to focus on the global problem. - # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large, a major crux of the entire discussion be that in term of the state's economy the state be relatively untouched : Arun Jaitley .. this be also a triumph for those of we who represent the will to put politic at the service of the people. the idea of # SANParksMAHALAWeek be conceive in SA in 2006 after realise that a vast majority of SAfricans be not access the NPs .. farmer focus : goat milk buck dairy price trend | # OrganicNews. Gérard Mestrallet, Chairman, CEO say we must get carbon price but also big investment in clean energy & amp ; efficiency. # CWNYC.",
+    "nr_tweets": 10,
+    "topic_clusters": [
+        ["the deluge of excitable coverage generate by the mining giant Glencore", "it"],
+        ["the mining giant Glencore", "the company", "its", "Glencore", "its", "it", "it", "the company", "Glencores", "the company", "Glencore", "Glencores", "its", "Glencores"],
+        ["London", "London", "London"],
+        ["two large african mine", "those two mine , in Zambia and the Democratic Republic of Congo", "those mine", "the two mine", "the two mine", "the mine"],
+        ["the metal bomb - out price", "the latter"],
+        ["I", "I"],
+        ["those make redundant", "they", "they"],
+        ["global capitalism", "it"],
+        ["the final number of those catch up in Glencores financial squall", "it"],
+        ["a business review", "the aforementioned business review"],
+        ["we on Twitter", "our"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["the voice of faith", "it"],
+        ["a war of survival", "it"],
+        ["the state", "its", "India"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "London - [V: be] [ARG1: I] [ARG2: alone] [ARG2: in] think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be focus on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain , include a right issue , dividend suspension and the mothballing of two large african mine .",
+            "London - be [ARG0: I] alone in [V: think] [ARG1: that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be focus on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain , include a right issue , dividend suspension and the mothballing of two large african mine] .",
+            "London - be I alone in think that there [V: be] [ARG1: a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore] be focus on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain , include a right issue , dividend suspension and the mothballing of two large african mine .",
+            "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore [ARG1: the vast majority of the deluge of excitable coverage generate by the mining giant Glencore] [V: be] [ARG2: focus on the financial shock therapy the mining giant Glencore announce] , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain , include a right issue , dividend suspension and the mothballing of two large african mine .",
+            "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be [V: focus] [ARG2: on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain] , include a right issue , dividend suspension and the mothballing of two large african mine .",
+            "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be focus on the financial shock therapy the mining giant Glencore announce , with the aim of [V: reduce] [ARG1: the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain] , include a right issue , dividend suspension and the mothballing of two large african mine .",
+            "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be focus on the financial shock therapy the mining giant Glencore announce , [ARGM-PRP: with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain] , [V: include] [ARG1: a right issue , dividend suspension and the mothballing of two large african mine] ."
+        ],
+        [
+            "needless to [V: say] [ARG1: London be cock - a - hoop] .",
+            "[ARGM-ADV: needless to say] [ARG1: London] [V: be] [ARG2: cock - a - hoop] ."
+        ],
+        [
+            "however , the fate of the thousand of people [V: employ] [ARGM-LOC: at two large african mine] , barely merit a mention .",
+            "[ARGM-DIS: however] , [ARG0: the fate of the thousand of people employ at two large african mine] , [ARGM-EXT: barely] [V: merit] [ARG1: a mention] ."
+        ],
+        [
+            "[ARGM-ADV: on the subject of two large african mine] , [ARG0: the mining giant Glencore] [ARGM-ADV: simply] [V: note] \" [ARG1: an announcement make by the mining giant Glencore 's majority own subsidiary Katanga Mining of a business review] .",
+            "on the subject of two large african mine , the mining giant Glencore simply note \" [ARG1: an announcement] [V: make] [ARG0: by the mining giant Glencore 's majority own subsidiary Katanga Mining of a] business review ."
+        ],
+        [
+            "[ARG0: the mining giant Glencore] [ARGM-DIS: also] [V: inform] [ARG1: investor] [ARG2: that a similar process be under way at Mopani Copper] .",
+            "the mining giant Glencore also inform investor that [ARG1: a similar process] [V: be] [ARG2: under way] [ARGM-LOC: at Mopani Copper] ."
+        ],
+        [
+            "[ARG1: these] , [ARG0: the mining giant Glencore] [V: explain] , [C-ARG1: would involve the suspension of production \" for 18 month up until the completion of the expansionary and upgrade project \"] .",
+            "these , the mining giant Glencore explain , [V: would] involve [ARG2: the suspension of production] \" for 18 month [ARG2: up until the completion of the expansionary and upgrade] project \" .",
+            "[ARG2: these] , the mining giant Glencore explain , [ARGM-MOD: would] [V: involve] [ARG1: the suspension of production \" for 18 month up until the completion of the expansionary and upgrade project \"] .",
+            "these , the mining giant Glencore explain , would involve the suspension of production \" for 18 month up until the completion of the expansionary and [V: upgrade] project \" ."
+        ],
+        [
+            "by mothball two large african mine and [V: restrict] [ARG1: the global supply of copper] , the mining giant Glencore be hope to put a little life into the metal bomb - out price .",
+            "[ARGM-MNR: by mothball two large african mine and restrict the global supply of copper] , [ARG1: the mining giant Glencore] [V: be] [ARG2: hope to put a little life into the metal bomb - out price] .",
+            "by mothball two large african mine and restrict the global supply of copper , [ARG0: the mining giant Glencore] be hope to [V: put] [ARG1: a little life] [ARG2: into the metal bomb - out price] ."
+        ],
+        [
+            "[ARG0: the metal bomb - out price] [ARGM-ADV: duly] [V: cheer] up [ARGM-LOC: in London trading] , [ARGM-ADV: as do the mining giant Glencore share] , [ARGM-ADV: although opinion on the long - term outlook for both remain divided] .",
+            "the metal bomb - out price duly cheer up in London trading , as [V: do] the mining giant Glencore share , although opinion on the long - term outlook for both remain divided .",
+            "the metal bomb - out price duly cheer up in London trading , as do the mining giant Glencore share , although [ARG1: opinion on the long - term outlook for both] [V: remain] [ARG3: divided] ."
+        ],
+        [
+            "[ARG1: cheer] [V: be] [ARG2: a commodity that will be in short supply at two large african mine right now , but to what extent remain open to question] .",
+            "cheer be a commodity that [V: will] be in short supply at two large african mine right now , but to what extent remain open to question .",
+            "cheer be [ARG1: a commodity] [R-ARG1: that] [ARGM-MOD: will] [V: be] [ARG2: in short supply] [ARGM-LOC: at two large african mine] [ARGM-TMP: right now] , but to what extent remain open to question .",
+            "cheer be a commodity that will be in short supply at two large african mine right now , but [ARGM-EXT: to what extent] [V: remain] [ARG3: open to question] ."
+        ],
+        [
+            "the work to [V: expand] and upgrade [ARG1: two large african mine] , and the need to keep thing tick over until production be re - start , will limit the number of job loss .",
+            "the work to expand and [V: upgrade] [ARG1: two large african mine] , and the need to keep thing tick over until production be re - start , will limit the number of job loss .",
+            "the work to expand and upgrade two large african mine , and the need to [V: keep] [ARG1: thing tick over] [ARGM-TMP: until production be re - start] , will limit the number of job loss .",
+            "the work to expand and upgrade two large african mine , and the need to keep [ARG1: thing] [V: tick] over until production be re - start , will limit the number of job loss .",
+            "the work to expand and upgrade two large african mine , and the need to keep thing tick over until production [V: be] [ARG2: re - start] , will limit the number of job loss .",
+            "the work to expand and upgrade two large african mine , and the need to keep thing tick over until [ARG1: production] be [ARGM-TMP: re] - [V: start] , will limit the number of job loss .",
+            "the work to expand and upgrade two large african mine , and the need to keep thing tick over until production be re - start , [V: will] limit the number of job loss .",
+            "[ARG0: the work to expand and upgrade two large african mine , and the need to keep thing tick over until production be re - start] , [ARGM-MOD: will] [V: limit] [ARG1: the number of job loss] ."
+        ],
+        [
+            "[ARGM-TMP: when] [ARG0: I] [V: contact] [ARG1: the mining giant Glencore] the mining giant Glencore be also at pain to stress that when production be restart those make redundant could be re - hire .",
+            "[ARGM-TMP: when I contact the mining giant Glencore] [ARG1: the mining giant Glencore] [V: be] [ARGM-ADV: also] [ARG2: at pain to stress that when production be restart those make redundant could be re - hire] .",
+            "when I contact the mining giant Glencore [ARG0: the mining giant Glencore] be also at pain to [V: stress] [ARG1: that when production be restart those make redundant could be re - hire] .",
+            "when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that when production [V: be] restart those make redundant could be re - hire .",
+            "when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that when production be restart those [V: make] [ARG1: redundant] could be re - hire .",
+            "when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that when production be restart those make redundant [V: could] be [ARG2: re] - hire .",
+            "when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that [ARGM-TMP: when production be restart] [ARG1: those make redundant] [ARGM-MOD: could] [V: be] [ARG2: re - hire] .",
+            "when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that when production be restart those make redundant [ARGM-MOD: could] be [V: re] - hire .",
+            "when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that when production be restart those make redundant could be re - hire .",
+            "when I contact the mining giant Glencore the mining giant Glencore be also at pain to stress that when production be restart those make redundant [ARGM-MOD: could] be [ARGM-TMP: re] - [V: hire] ."
+        ],
+        [
+            "[ARGM-DIS: however] , [ARG1: the fact] [V: remain] [C-ARG1: those make redundant] will be without income in the interim in part of the [ARG3: world where it wo nt be easy to find other employment at comparable rate of pay] .",
+            "however , the fact remain those [V: make] [ARG1: redundant] will be without income in the interim in part of the world where it wo nt be easy to find other employment at comparable rate of pay .",
+            "however , the fact remain those make redundant [V: will] be without income in the interim in part of the world where it wo nt be easy to find other employment at comparable rate of pay .",
+            "however , the fact remain [ARG1: those make redundant] [ARGM-MOD: will] [V: be] [ARG2: without income] [ARGM-LOC: in the interim in part of the world where it wo nt be easy to find other employment at comparable rate of pay] .",
+            "however , the fact remain those make redundant will be without income in the interim in part of the world where it [V: wo] nt be easy to find other [ARG1: employment at comparable rate of pay] .",
+            "however , the fact remain those make redundant will be without income in the interim in [ARGM-LOC: part of the world] [R-ARGM-LOC: where] it [ARGM-MOD: wo] [ARGM-NEG: nt] [V: be] [ARG2: easy] [ARG1: to find other employment at comparable rate of pay] .",
+            "however , the fact remain those make redundant will be without income in the interim in part of the world where it wo nt be easy to [V: find] [ARG1: other employment] [ARGM-MNR: at comparable rate of pay] ."
+        ],
+        [
+            "[ARG0: those] [V: make] [ARG1: redundant be the silent victim of the mining giant Glencore attempt to restore the fortune of the mining giant Glencore 's wealthy manager and investor by polish the global price of copper] .",
+            "those make redundant [V: be] [ARG2: the silent victim of the mining giant Glencore attempt to restore the fortune of the mining giant Glencore 's wealthy manager and investor by polish the global price of copper] .",
+            "those make redundant be the silent victim of the mining giant Glencore attempt to [V: restore] [ARG1: the fortune of the mining giant Glencore 's wealthy manager and investor] [ARGM-MNR: by polish the global price of copper] .",
+            "those make redundant be the silent victim of the mining giant Glencore attempt to restore the fortune of the mining giant Glencore 's wealthy manager and investor by [V: polish] [ARG1: the global price of copper] ."
+        ],
+        [
+            "[ARG1: it] [V: be] [ARG2: a brutal lesson in the reality of global capitalism and the price global capitalism exact from those at the bottom of the heap] ; the people engage in the difficult , dirty and dangerous job of extract the raw material .",
+            "it be a brutal lesson in the reality of global capitalism and the price global capitalism exact from those at the bottom of the heap ; [ARG0: the people] [V: engage] [ARG2: in the difficult , dirty and dangerous job of extract the raw material] .",
+            "it be a brutal lesson in the reality of global capitalism and the price global capitalism exact from those at the bottom of the heap ; the people engage in the difficult , dirty and dangerous job of [V: extract] [ARG1: the raw material] ."
+        ],
+        [
+            "[ARG1: the] final number of [ARG1: those] [V: catch] up [ARGM-LOC: in the mining giant Glencore financial squall] be not yet know .",
+            "[ARG1: the final number of those catch up in the mining giant Glencore financial squall] [V: be] [ARGM-NEG: not] [ARGM-TMP: yet] [ARG2: know] .",
+            "[ARG1: the final number of those catch up in the mining giant Glencore financial squall] be [ARGM-NEG: not] [ARGM-TMP: yet] [V: know] ."
+        ],
+        [
+            "the final number of [ARG1: those] [V: catch] up [ARGM-LOC: in Glencores financial squall] will probably only emerge follow a business review , while the story of those affect be all but certain to go unreported in much of the western media .",
+            "the final number of those catch up in Glencores financial squall [V: will] probably only emerge follow a business review , while the story of those affect be all but certain to go unreported in much of the western media .",
+            "[ARG0: the final number of those catch up in Glencores financial squall] [ARGM-MOD: will] [ARGM-ADV: probably] [ARGM-ADV: only] [V: emerge] follow a business review , [ARGM-ADV: while the story of those affect be all but certain to go unreported in much of the western media] .",
+            "the final number of those catch up in Glencores financial squall will probably only emerge [V: follow] [ARG2: a business review] , [ARGM-ADV: while the story of those affect be all but certain to go unreported in much of the western media] .",
+            "the final number of those catch up in Glencores financial squall will probably only emerge follow a business review , while the story of those [V: affect] be all but certain to go unreported in much of the western media .",
+            "the final number of those catch up in Glencores financial squall will probably only emerge follow a business review , while [ARG1: the story of those affect] [V: be] [ARG2: all but certain to go unreported in much of the western media] .",
+            "the final number of those catch up in Glencores financial squall will probably only emerge follow a business review , while [ARG1: the story of those] affect be all but certain to [V: go] [ARG2: unreported] [ARGM-LOC: in much of the western media] ."
+        ],
+        [
+            "the INDEPENDENT like we on Facebook [V: connect] [ARG1: with we] [ARGM-LOC: on LinkedIn] follow we on Twitter hungry for more business news sign up for we on Twitter 's daily newsletter !",
+            "[ARGM-PRD: the INDEPENDENT] like we on Facebook connect with we on LinkedIn [V: follow] [ARG2: we] [ARGM-LOC: on Twitter] [ARGM-PRD: hungry for more business news sign up for we on Twitter 's daily newsletter] !"
+        ],
+        []
+    ],
+    "tweets_sentences_srl": [
+        [
+            "it [V: be] [ARG2: important] [ARG1: that today , as in the past , the voice of faith continue to be hear , for the voice of faith be a voice of fraternity and lov … .. Ciaz diesel hybrid another Maruti masterstroke] .",
+            "it be important that [ARGM-TMP: today] , [ARGM-MNR: as in the past] , the voice of faith [V: continue] [ARG1: to be hear] , for the voice of faith be a voice of fraternity and lov … .. Ciaz diesel hybrid another Maruti masterstroke .",
+            "it be important that today , as in the past , the voice of faith continue to [V: be] hear , for the voice of faith be a voice of fraternity and lov … .. Ciaz diesel hybrid another Maruti masterstroke .",
+            "it be important that today , as in the past , [ARG1: the voice of faith] continue to be [V: hear] , for the voice of faith be a voice of fraternity and lov … .. Ciaz diesel hybrid another Maruti masterstroke .",
+            "it be important that today , as in the past , the voice of faith continue to be hear , for [ARG1: the voice of faith] [V: be] [ARG2: a voice of fraternity and lov … .. Ciaz diesel hybrid another Maruti masterstroke] .",
+            "it be important that today , as in the past , the voice of faith continue to be hear , for the voice of faith be a voice of fraternity and lov … .. Ciaz [ARG0: diesel] [V: hybrid] [ARG1: another Maruti masterstroke] ."
+        ],
+        [
+            "great price ( [V: thank] [ARG2: to tax hybrid tax break] ) & amp ; record efficiency .. so far on mine # ANCYL resolve that the state expedite the creation of the state own mining company # SABCNews .. the fact be , we be engage in a war of survival .",
+            "great price ( thank to [V: tax] [ARG3: hybrid tax break] ) & amp ; record efficiency .. so far on mine # ANCYL resolve that the state expedite the creation of the state own mining company # SABCNews .. the fact be , we be engage in a war of survival .",
+            "great price ( thank to tax hybrid tax break ) & amp ; record efficiency .. so far on mine # ANCYL resolve that [ARG0: the state] [V: expedite] [ARG1: the creation of the state own mining company # SABCNews] .. the fact be , we be engage in a war of survival .",
+            "great price ( thank to tax hybrid tax break ) & amp ; record efficiency .. so far on mine # ANCYL resolve that the state expedite the creation of the state own mining company # SABCNews .. [ARG1: the fact] [V: be] , [ARG2: we be engage in a war of survival] .",
+            "great price ( thank to tax hybrid tax break ) & amp ; record efficiency .. so far on mine # ANCYL resolve that the state expedite the creation of the state own mining company # SABCNews .. the fact be , [ARG1: we] [V: be] [ARG2: engage in a war of survival] ."
+        ],
+        [
+            "[ARGM-MNR: the way] to [V: win] [ARG1: a war of survival] will be to focus on the global problem .",
+            "the way to win a war of survival [V: will] be to focus on the global problem .",
+            "[ARG1: the way to win a war of survival] [ARGM-MOD: will] [V: be] [ARG2: to focus on the global problem] .",
+            "the way to win a war of survival will be to [V: focus] [ARG2: on the global problem] ."
+        ],
+        [
+            "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... [ARGM-ADV: by and large] , [ARG1: a major crux of the entire discussion] [V: be] [ARG2: that in term of the state 's economy the state be relatively untouched : Arun Jaitley] .. this be also a triumph for those of we who represent the will to put politic at the service of the people .",
+            "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that [ARGM-ADV: in term of the state 's economy] [ARG1: the state] [V: be] [ARG2: relatively untouched] : Arun Jaitley .. this be also a triumph for those of we who represent the will to put politic at the service of the people .",
+            "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that in term of the state 's economy the state be relatively untouched : Arun Jaitley .. [ARG1: this] [V: be] [ARGM-ADV: also] [ARG2: a triumph] [ARGM-ADV: for those of we who represent the will to put politic at the service of the people] .",
+            "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that in term of the state 's economy the state be relatively untouched : Arun Jaitley .. this be also a triumph for those of [ARG0: we] [R-ARG0: who] [V: represent] [ARG1: the will to put politic at the service of the people] .",
+            "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that in term of the state 's economy the state be relatively untouched : Arun Jaitley .. this be also a triumph for those of we who represent the will to [V: put] [ARG1: politic] [ARG2: at the service of the people] ."
+        ],
+        [
+            "[ARG1: the idea of # SANParksMAHALAWeek] [V: be] [ARG2: conceive in SA] [ARGM-TMP: in 2006] [ARGM-TMP: after realise that a vast majority of SAfricans be not access the NPs ..] farmer focus : goat milk buck dairy price trend | # OrganicNews .",
+            "the idea of # SANParksMAHALAWeek be conceive in SA in 2006 after [V: realise] [ARG1: that a vast majority of SAfricans be not access the NPs .. farmer focus : goat milk buck dairy price trend | # OrganicNews] .",
+            "the idea of # SANParksMAHALAWeek be conceive in SA in 2006 after realise that [ARG1: a vast majority of SAfricans] [V: be] not access the NPs .. farmer focus : goat milk buck dairy price trend | # OrganicNews .",
+            "the idea of # SANParksMAHALAWeek be conceive in SA in 2006 after realise that a vast majority of SAfricans be [ARGM-NEG: not] [V: access] [ARG1: the NPs] .. farmer focus : goat milk buck dairy price trend | # OrganicNews .",
+            "the idea of # SANParksMAHALAWeek be conceive in SA in 2006 after realise that a vast majority of SAfricans be not access the NPs .. farmer focus : [V: goat] [ARG2: milk] buck dairy price trend | # OrganicNews ."
+        ],
+        [
+            "Gérard [ARG0: Mestrallet] [ARG0: , Chairman , CEO] [V: say] [ARG1: we must get carbon price but also big investment in clean energy & amp ; efficiency] .",
+            "Gérard Mestrallet , Chairman , CEO say we [V: must] get carbon price but also big investment in clean energy & amp ; efficiency .",
+            "Gérard Mestrallet , Chairman , CEO say [ARG0: we] [ARGM-MOD: must] [V: get] [ARG1: carbon price but also big investment in clean energy & amp ; efficiency] ."
+        ],
+        []
+    ],
+    "tweets_verbs": ["be", "continue", "be", "hear", "be", "hybrid", "thank", "tax", "expedite", "be", "be", "win", "will", "be", "focus", "be", "be", "be", "represent", "put", "be", "realise", "be", "access", "goat", "say", "must", "get"],
+    "metrics": {
+        "verb_precision": 53.571,
+        "verb_recall": 23.81
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "put": {
+                "all_frames": {
+                    "rouge1_precision": 0.286,
+                    "rouge1_recall": 0.154,
+                    "rouge1_f1": 0.2,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "by mothball two large african mine and restrict the global supply of copper , [ARG0: the mining giant Glencore] be hope to [V: put] [ARG1: a little life] [ARG2: into the metal bomb - out price] .",
+                        "tweet_args": "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that in term of the state 's economy the state be relatively untouched : Arun Jaitley .. this be also a triumph for those of we who represent the will to [V: put] [ARG1: politic] [ARG2: at the service of the people] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.286,
+                        "rouge1_f1": 0.2
+                    },
+                    "best_recall": {
+                        "topic_args": "by mothball two large african mine and restrict the global supply of copper , [ARG0: the mining giant Glencore] be hope to [V: put] [ARG1: a little life] [ARG2: into the metal bomb - out price] .",
+                        "tweet_args": "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that in term of the state 's economy the state be relatively untouched : Arun Jaitley .. this be also a triumph for those of we who represent the will to [V: put] [ARG1: politic] [ARG2: at the service of the people] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.286,
+                        "rouge1_f1": 0.2
+                    },
+                    "best_f1": {
+                        "topic_args": "by mothball two large african mine and restrict the global supply of copper , [ARG0: the mining giant Glencore] be hope to [V: put] [ARG1: a little life] [ARG2: into the metal bomb - out price] .",
+                        "tweet_args": "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that in term of the state 's economy the state be relatively untouched : Arun Jaitley .. this be also a triumph for those of we who represent the will to [V: put] [ARG1: politic] [ARG2: at the service of the people] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.286,
+                        "rouge1_f1": 0.2
+                    }
+                }
+            },
+            "will": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.16,
+                    "rouge1_recall": 0.127,
+                    "rouge1_f1": 0.125,
+                    "frequency": 198
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "London - be I alone in think that there [V: be] [ARG1: a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore] be focus on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain , include a right issue , dividend suspension and the mothballing of two large african mine .",
+                        "tweet_args": "the idea of # SANParksMAHALAWeek be conceive in SA in 2006 after realise that [ARG1: a vast majority of SAfricans] [V: be] not access the NPs .. farmer focus : goat milk buck dairy price trend | # OrganicNews .",
+                        "rouge1_recall": 0.125,
+                        "rouge1_precision": 0.8,
+                        "rouge1_f1": 0.216
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: it] [V: be] [ARG2: a brutal lesson in the reality of global capitalism and the price global capitalism exact from those at the bottom of the heap] ; the people engage in the difficult , dirty and dangerous job of extract the raw material .",
+                        "tweet_args": "it [V: be] [ARG2: important] [ARG1: that today , as in the past , the voice of faith continue to be hear , for the voice of faith be a voice of fraternity and lov … .. Ciaz diesel hybrid another Maruti masterstroke] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.242,
+                        "rouge1_f1": 0.281
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: it] [V: be] [ARG2: a brutal lesson in the reality of global capitalism and the price global capitalism exact from those at the bottom of the heap] ; the people engage in the difficult , dirty and dangerous job of extract the raw material .",
+                        "tweet_args": "- # Hoodw … .. PIA-5 / ALBAY : the Mines and Geosciences Bureau ( MGB ) Bicol annouce that the Philippine Society of Mining .... by and large , a major crux of the entire discussion be that in term of the state 's economy the state be relatively untouched : Arun Jaitley .. [ARG1: this] [V: be] [ARGM-ADV: also] [ARG2: a triumph] [ARGM-ADV: for those of we who represent the will to put politic at the service of the people] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.381,
+                        "rouge1_f1": 0.356
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "focus": {
+                "all_frames": {
+                    "rouge1_precision": 0.5,
+                    "rouge1_recall": 0.083,
+                    "rouge1_f1": 0.143,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be [V: focus] [ARG2: on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain] , include a right issue , dividend suspension and the mothballing of two large african mine .",
+                        "tweet_args": "the way to win a war of survival will be to [V: focus] [ARG2: on the global problem] .",
+                        "rouge1_recall": 0.083,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_recall": {
+                        "topic_args": "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be [V: focus] [ARG2: on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain] , include a right issue , dividend suspension and the mothballing of two large african mine .",
+                        "tweet_args": "the way to win a war of survival will be to [V: focus] [ARG2: on the global problem] .",
+                        "rouge1_recall": 0.083,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_f1": {
+                        "topic_args": "London - be I alone in think that there be a huge and glaring omission from the deluge of excitable coverage generate by the mining giant Glencore the vast majority of the deluge of excitable coverage generate by the mining giant Glencore be [V: focus] [ARG2: on the financial shock therapy the mining giant Glencore announce , with the aim of reduce the mining giant Glencore 's $ 30bn ( £ 19bn ) debt mountain] , include a right issue , dividend suspension and the mothballing of two large african mine .",
+                        "tweet_args": "the way to win a war of survival will be to [V: focus] [ARG2: on the global problem] .",
+                        "rouge1_recall": 0.083,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.143
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.158,
+            "rouge1_recall": 0.124,
+            "rouge1_f1": 0.122
+        }
+    }
+}

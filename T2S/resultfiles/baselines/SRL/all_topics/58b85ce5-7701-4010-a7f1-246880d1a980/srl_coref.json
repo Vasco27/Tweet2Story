@@ -1,0 +1,245 @@
+{
+    "topic": "58b85ce5-7701-4010-a7f1-246880d1a980",
+    "coref_content": "publish on Monday 7th September 2015 Minister for Natural Resources, Joe McHugh, today welcome new job creation statistic show that Geoscience Ireland ( GI ) member company report the addition of 134 new job in the first six month of 2015. Geoscience Ireland ( GI ) be an integrate network of 25 company, bring expertise in water, mineral and infrastructure development to global client in over 50 country. launch in September 2012 as a government measure to help business win work in international market, Geoscience Ireland ( GI ) be support by the Geological Survey of Ireland and Enterprise Ireland. the positive job creation record by Geoscience Ireland ( GI ) member company be an important contributor to Ireland's export economy and demonstrate ability and capacity by irish professional geoscience service to win business in highly competitive market. recent project win include design and construction of 15 water supply scheme in Ethiopia fund by the European Investment Bank ; investigation for a 45 km water supply pipeline in Malawi fund by the World Bank ; Environmental Impact Statements for a marine terminal in California ; lining material for a ghanaian gold mine ; Waste Water Treatment plant in Turkey and revetment design for marine work in Bahrain. the addition of 134 new job in the first six month of 2015 be the large number of job create by Geoscience Ireland ( GI ) member company in a six month period and contrast with a reduction in job number of 32 report at 31st December 2014. the recovery in net job creation as at 30th June 2015 be account for by 1 ) continued growth in service provide for infrastructure development and extractive industry in the UK, the Gulf Region and Western Africa, and 2 ) partial reversal of layoff in late 2014 experience by service provider to the irish mining sector. Geoscience Ireland ( GI ) member company provide design, consultancy and contracting service to multilateral agency, government and the private sector. Geoscience Ireland ( GI ) member company employ almost 1,200 person and have a collective turnover of € 252 million in 2014, of which 64 % come from overseas business. comment on today welcome new job creation statistic, Minister for Natural Resources, Joe McHugh, say the necessary reduction in infrastructure spend in Ireland since 2009 highlight the importance of develop overseas market for irish professional geoscience service. about half of the 257 new job create by Geoscience Ireland ( GI ) member company since late 2014 be in international market. the continue success of Geoscience Ireland ( GI ) member company in create well pay sustainable job validate the support model provide by the Geological Survey of Ireland and Enterprise Ireland for these business. GSI plan to continue support for the Geoscience Ireland project into 2017. \" future event in which Geoscience Ireland ( GI ) member company will participate be the Trade Mission to Western Africa in November 2015 and the PDAC Convention in Canada in March 2016. note to editor for further information on Geoscience Ireland ( GI ), please see",
+    "tweets_content": "Intelling to create 250 jobs in Northern Ireland.\nNOW: Intl experience in managing oil &amp; gas resources. Converting natural resources into engine of development”  live.\nIreland is the top destination in the world by quality and value of investments -.\nTaoiseach - Together, we helped create 125,000 extra jobs since 2012. Together, we made Ireland Europe’s fastest growing economy.\nVedanta retrenches nearly 4,000 jobs in India since January.\nThe development is supported by the Department of Jobs, Enterprise and Innovation through IDA Ireland..\nOf  the judges said: A great example of how companies are thriving in providing for the sustainable economy” #rba15..\nSurely the future of Northern Ireland is for the people of Northern Ireland, not the people of Ireland, to decide..\nIBM to create 110 jobs in Ireland",
+    "coref_tweets": "intelle to create 250 job in Northern Ireland. now : intl experience in manage oil & amp ; gas resource. convert natural resource into engine of development\" live. Ireland be the top destination in the world by quality and value of investment -. Taoiseach - together, we helped create 125,000 extra job since 2012. together, we make Ireland Europe ’s fast grow economy. Vedanta retrench nearly 4,000 job in India since January. retrench be support by the Department of Jobs, Enterprise and Innovation through IDA Ireland .. of the judge say : a great example of how company be thrive in provide for the sustainable economy\" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland, not the people of Ireland, to decide .. IBM to create 110 job in Ireland",
+    "nr_tweets": 9,
+    "topic_clusters": [
+        ["2015", "2015"],
+        ["Geoscience Ireland ( GI )", "Geoscience Ireland ( GI )", "GI", "GI", "GI", "GI", "Geoscience Ireland ( GI )"],
+        ["Geoscience Ireland ( GI ) member company", "GI member company", "GI company", "the GI network of company", "the GI network of 25 company", "GI member company", "the Geoscience Ireland network of company", "GI company"],
+        ["Ireland", "Ireland \u2019s", "Ireland", "Ireland"],
+        ["the addition of 134 new job in the first six month of 2015", "this welcome development"],
+        ["today welcome new job creation statistic", "the job creation statistic"],
+        ["Minister for Natural Resources , Joe McHugh", "Minister McHugh"],
+        ["irish professional geoscience service", "professional geoscience service"],
+        ["late 2014", "late 2012"],
+        ["the Geological Survey of Ireland", "the Geological Survey of Ireland"],
+        ["Western Africa", "West Africa"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["we", "we"],
+        ["retrench", "the development"],
+        ["Northern Ireland", "Northern Ireland", "Northern Ireland"],
+        ["Ireland", "Ireland", "Ireland"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[V: publish] [ARGM-TMP: on Monday 7th September 2015] [ARG0: Minister for Natural Resources , Joe McHugh] , [ARGM-TMP: today] welcome new job creation statistic show that Geoscience Ireland ( GI ) member company report the addition of 134 new job in the first six month of 2015 .",
+            "publish on Monday 7th September 2015 Minister for Natural Resources , Joe McHugh , today [V: welcome] [ARG1: new job creation statistic show that Geoscience Ireland ( GI ) member company report the addition of 134 new job in the first six month of 2015] .",
+            "publish on Monday 7th September 2015 Minister for Natural Resources , Joe McHugh , today welcome new job creation statistic show that [ARG0: Geoscience Ireland ( GI ) member company] [V: report] [ARG1: the addition of 134 new job in the first six month of 2015] ."
+        ],
+        [
+            "[ARG1: Geoscience Ireland ( GI )] [V: be] [ARG2: an integrate network of 25 company] , bring expertise in water , mineral and infrastructure development to global client in over 50 country .",
+            "[ARG0: Geoscience Ireland ( GI )] be an integrate network of 25 company , [V: bring] [ARG1: expertise in water , mineral and infrastructure development] [ARG2: to global client in over 50 country] ."
+        ],
+        [
+            "launch in September 2012 as a government measure to [V: help] [ARG1: business win work in international market] , Geoscience Ireland ( GI ) be support by the Geological Survey of Ireland and Enterprise Ireland .",
+            "launch in September 2012 as a government measure to help [ARG0: business] [V: win] [ARG1: work] [ARGM-LOC: in international market] , Geoscience Ireland ( GI ) be support by the Geological Survey of Ireland and Enterprise Ireland .",
+            "[R-ARG1: launch in September 2012 as a government measure to help business win work in international market] , [ARG1: Geoscience Ireland ( GI )] [V: be] [ARG2: support by the Geological Survey of Ireland and Enterprise Ireland] ."
+        ],
+        [
+            "[ARG1: the positive job creation record by Geoscience Ireland ( GI ) member company] [V: be] [ARG2: an important contributor to Ireland 's export economy] and demonstrate ability and capacity by irish professional geoscience service to win business in highly competitive market .",
+            "[ARG0: the positive job creation record by Geoscience Ireland ( GI ) member company] be an important contributor to Ireland 's export economy and [V: demonstrate] [ARG1: ability and capacity by irish professional geoscience service to win business in highly competitive market] .",
+            "the positive job creation record by Geoscience Ireland ( GI ) member company be an important contributor to Ireland 's export economy and demonstrate ability and capacity by irish professional geoscience service to [V: win] [ARG1: business] [ARGM-LOC: in highly competitive market] ."
+        ],
+        [
+            "[ARG2: recent project win] [V: include] [ARG1: design and construction of 15 water supply scheme in Ethiopia fund by the European Investment Bank ; investigation for a 45 km water supply pipeline in Malawi fund by the World Bank ; Environmental Impact Statements for a marine terminal in California ; lining material for a ghanaian gold mine ; Waste Water Treatment plant in Turkey and revetment design for marine work in Bahrain] .",
+            "recent project win include design and construction of 15 water supply scheme in Ethiopia fund by the European Investment Bank ; investigation for a 45 km water supply pipeline in Malawi fund by the World Bank ; Environmental Impact Statements for a marine terminal in California ; lining material for a ghanaian gold mine ; Waste Water Treatment plant in Turkey and [V: revetment] design for marine work in Bahrain ."
+        ],
+        [
+            "[ARG1: the addition of 134 new job in the first six month of 2015] [V: be] [ARG2: the large number of job create by Geoscience Ireland ( GI ) member company in a six month period] and contrast with a reduction in job number of 32 report at 31st December 2014 . the recovery in net job creation as at 30th June 2015 be account for by 1 ) continued growth in service provide for infrastructure development and extractive industry in the UK , the Gulf Region and Western Africa , and 2 ) partial reversal of layoff in late 2014 experience by service provider to the irish mining sector .",
+            "the addition of 134 new job in the first six month of 2015 be the large number of job create by Geoscience Ireland ( GI ) member company in a six month period and contrast with a reduction in job number of 32 report at 31st December 2014 . [ARG1: the recovery in net job creation as at 30th June 2015] [V: be] [ARG2: account for by 1 )] continued growth in service provide for infrastructure development and extractive industry in the UK , the Gulf Region and Western Africa , and 2 ) partial reversal of layoff in late 2014 experience by service provider to the irish mining sector ."
+        ],
+        [
+            "[ARG0: Geoscience Ireland ( GI ) member company] [V: provide] [ARG1: design , consultancy and contracting service] [ARG2: to multilateral agency , government and the private sector] ."
+        ],
+        [
+            "[ARG0: Geoscience Ireland ( GI ) member company] [V: employ] [ARG1: almost 1,200 person] and have a collective turnover of € 252 million in 2014 , of which 64 % come from overseas business .",
+            "[ARG0: Geoscience Ireland ( GI ) member company] employ almost 1,200 person and [V: have] [ARG1: a collective turnover of € 252 million] [ARGM-TMP: in 2014] , [C-ARG1: of which 64 % come from overseas business] .",
+            "Geoscience Ireland ( GI ) member company employ almost 1,200 person and have a collective turnover of € 252 million in 2014 , of which [ARG1: 64 %] [V: come] [ARG2: from overseas business] ."
+        ],
+        [
+            "comment on today [V: welcome] [ARG1: new job creation statistic] , Minister for Natural Resources , Joe McHugh , say the necessary reduction in infrastructure spend in Ireland since 2009 highlight the importance of develop overseas market for irish professional geoscience service .",
+            "comment on today welcome new job creation statistic , [ARG0: Minister for Natural Resources , Joe McHugh] , [V: say] [ARG1: the necessary reduction in infrastructure spend in Ireland since 2009 highlight the importance of develop overseas market for irish professional geoscience service] .",
+            "comment on today welcome new job creation statistic , Minister for Natural Resources , Joe McHugh , say the necessary reduction in infrastructure spend in Ireland since 2009 highlight the importance of [V: develop] [ARG1: overseas market for irish professional geoscience service] ."
+        ],
+        [
+            "[ARG1: about half of the 257 new job create by Geoscience Ireland ( GI ) member company since late 2014] [V: be] [ARG2: in international market] ."
+        ],
+        [
+            "the continue success of Geoscience Ireland ( GI ) member company in [V: create] [ARG1: well pay sustainable job] validate the support model provide by the Geological Survey of Ireland and Enterprise Ireland for these business .",
+            "the continue success of Geoscience Ireland ( GI ) member company in create [ARGM-MNR: well] [V: pay] sustainable job validate the support model provide by the Geological Survey of Ireland and Enterprise Ireland for these business .",
+            "the continue success of Geoscience Ireland ( GI ) member company in create well pay sustainable job validate [ARG1: the support model] [V: provide] [ARG0: by the Geological Survey of Ireland and Enterprise Ireland] [ARG2: for these business] ."
+        ],
+        [
+            "[ARG0: GSI] plan to [V: continue] [ARG1: support for the Geoscience Ireland project] [ARGM-TMP: into 2017] . \""
+        ],
+        [
+            "future event in which Geoscience Ireland ( GI ) member company [V: will] participate be the Trade Mission to Western Africa in November 2015 and the PDAC Convention in Canada in March 2016 . note to editor for further information on Geoscience Ireland ( GI ) , please see",
+            "[ARGM-TMP: future event] [R-ARG1: in which] [ARG0: Geoscience Ireland ( GI ) member company] [ARGM-MOD: will] [V: participate] be the Trade Mission to Western Africa in November 2015 and the PDAC Convention in Canada in March 2016 . note to editor for further information on Geoscience Ireland ( GI ) , please see",
+            "[ARG1: future event in which Geoscience Ireland ( GI ) member company will participate] [V: be] [ARG2: the Trade Mission to Western Africa in November 2015 and the PDAC Convention in Canada in March 2016] . note to editor for further information on Geoscience Ireland ( GI ) , please see",
+            "future event in which Geoscience Ireland ( GI ) member company will participate be the Trade Mission to Western Africa in November 2015 and the PDAC Convention in Canada in March 2016 . [V: note] [ARG2: to editor] [ARGM-PRP: for further information on Geoscience Ireland ( GI )] , please see",
+            "future event in which Geoscience Ireland ( GI ) member company will participate be the Trade Mission to Western Africa in November 2015 and the PDAC Convention in Canada in March 2016 . note to [V: editor] [ARGM-PRP: for further information on Geoscience Ireland ( GI )] , please see",
+            "[ARGM-TMP: future event in which Geoscience Ireland ( GI ) member company will participate be the Trade Mission to Western Africa in November 2015 and the PDAC Convention in Canada in March 2016] . [ARGM-DIS: note to editor for further information on Geoscience Ireland ( GI )] , [ARGM-DIS: please] [V: see]"
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "intelle to [V: create] [ARG1: 250 job in Northern Ireland] ."
+        ],
+        [
+            "now : intl experience in [V: manage] [ARG1: oil & amp] ; gas resource ."
+        ],
+        [
+            "[V: convert] [ARG1: natural resource] [ARG2: into engine of development \"] [ARGM-MNR: live] ."
+        ],
+        [
+            "[ARG1: Ireland] [V: be] [ARG2: the top destination in the world] [ARGM-MNR: by quality and value of investment] - ."
+        ],
+        [
+            "Taoiseach - [ARGM-MNR: together] , [ARG0: we] [V: helped] [ARG1: create 125,000 extra job since 2012] . together , we make Ireland Europe ’s fast grow economy .",
+            "Taoiseach - together , we helped [V: create] [ARG1: 125,000 extra job] [ARGM-TMP: since 2012] . together , we make Ireland Europe ’s fast grow economy .",
+            "Taoiseach - together , we helped create 125,000 extra job since 2012 . [ARGM-MNR: together] , [ARG0: we] [V: make] [ARG1: Ireland Europe ’s fast grow economy] ."
+        ],
+        [
+            "[ARG0: Vedanta] [V: retrench] [ARG1: nearly 4,000 job in India] [ARGM-TMP: since January] ."
+        ],
+        [
+            "[ARG1: retrench] [V: be] [ARG2: support by the Department of Jobs , Enterprise and Innovation through IDA Ireland] .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland",
+            "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge [V: say] : [ARG1: a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland]",
+            "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge say : a great example of how company [V: be] thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland",
+            "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. [ARGM-ADV: surely] [ARG1: the future of Northern Ireland] [V: be] [ARG2: for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland]",
+            "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for [ARG0: the people of Northern Ireland , not the people of Ireland] , to [V: decide] .. IBM [ARG1: to create 110 job in Ireland]",
+            "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. [ARG0: IBM] to [V: create] [ARG1: 110 job] [ARGM-LOC: in Ireland]"
+        ]
+    ],
+    "tweets_verbs": ["create", "manage", "convert", "be", "help", "create", "make", "retrench", "be", "say", "be", "be", "decide", "create"],
+    "metrics": {
+        "verb_precision": 64.286,
+        "verb_recall": 28.125
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.206,
+                    "rouge1_recall": 0.158,
+                    "rouge1_f1": 0.169,
+                    "frequency": 28
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[R-ARG1: launch in September 2012 as a government measure to help business win work in international market] , [ARG1: Geoscience Ireland ( GI )] [V: be] [ARG2: support by the Geological Survey of Ireland and Enterprise Ireland] .",
+                        "tweet_args": "[ARG1: retrench] [V: be] [ARG2: support by the Department of Jobs , Enterprise and Innovation through IDA Ireland] .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland",
+                        "rouge1_recall": 0.241,
+                        "rouge1_precision": 0.538,
+                        "rouge1_f1": 0.333
+                    },
+                    "best_recall": {
+                        "topic_args": "[R-ARG1: launch in September 2012 as a government measure to help business win work in international market] , [ARG1: Geoscience Ireland ( GI )] [V: be] [ARG2: support by the Geological Survey of Ireland and Enterprise Ireland] .",
+                        "tweet_args": "[ARG1: retrench] [V: be] [ARG2: support by the Department of Jobs , Enterprise and Innovation through IDA Ireland] .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland",
+                        "rouge1_recall": 0.241,
+                        "rouge1_precision": 0.538,
+                        "rouge1_f1": 0.333
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: the addition of 134 new job in the first six month of 2015] [V: be] [ARG2: the large number of job create by Geoscience Ireland ( GI ) member company in a six month period] and contrast with a reduction in job number of 32 report at 31st December 2014 . the recovery in net job creation as at 30th June 2015 be account for by 1 ) continued growth in service provide for infrastructure development and extractive industry in the UK , the Gulf Region and Western Africa , and 2 ) partial reversal of layoff in late 2014 experience by service provider to the irish mining sector .",
+                        "tweet_args": "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. [ARGM-ADV: surely] [ARG1: the future of Northern Ireland] [V: be] [ARG2: for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland]",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.385,
+                        "rouge1_f1": 0.357
+                    }
+                }
+            },
+            "create": {
+                "all_frames": {
+                    "rouge1_precision": 0.189,
+                    "rouge1_recall": 0.25,
+                    "rouge1_f1": 0.215,
+                    "frequency": 3
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "the continue success of Geoscience Ireland ( GI ) member company in [V: create] [ARG1: well pay sustainable job] validate the support model provide by the Geological Survey of Ireland and Enterprise Ireland for these business .",
+                        "tweet_args": "intelle to [V: create] [ARG1: 250 job in Northern Ireland] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.222
+                    },
+                    "best_recall": {
+                        "topic_args": "the continue success of Geoscience Ireland ( GI ) member company in [V: create] [ARG1: well pay sustainable job] validate the support model provide by the Geological Survey of Ireland and Enterprise Ireland for these business .",
+                        "tweet_args": "intelle to [V: create] [ARG1: 250 job in Northern Ireland] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.222
+                    },
+                    "best_f1": {
+                        "topic_args": "the continue success of Geoscience Ireland ( GI ) member company in [V: create] [ARG1: well pay sustainable job] validate the support model provide by the Geological Survey of Ireland and Enterprise Ireland for these business .",
+                        "tweet_args": "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge say : a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. [ARG0: IBM] to [V: create] [ARG1: 110 job] [ARGM-LOC: in Ireland]",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.222
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.19,
+                    "rouge1_recall": 0.286,
+                    "rouge1_f1": 0.229,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "comment on today welcome new job creation statistic , [ARG0: Minister for Natural Resources , Joe McHugh] , [V: say] [ARG1: the necessary reduction in infrastructure spend in Ireland since 2009 highlight the importance of develop overseas market for irish professional geoscience service] .",
+                        "tweet_args": "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge [V: say] : [ARG1: a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland]",
+                        "rouge1_recall": 0.286,
+                        "rouge1_precision": 0.19,
+                        "rouge1_f1": 0.229
+                    },
+                    "best_recall": {
+                        "topic_args": "comment on today welcome new job creation statistic , [ARG0: Minister for Natural Resources , Joe McHugh] , [V: say] [ARG1: the necessary reduction in infrastructure spend in Ireland since 2009 highlight the importance of develop overseas market for irish professional geoscience service] .",
+                        "tweet_args": "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge [V: say] : [ARG1: a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland]",
+                        "rouge1_recall": 0.286,
+                        "rouge1_precision": 0.19,
+                        "rouge1_f1": 0.229
+                    },
+                    "best_f1": {
+                        "topic_args": "comment on today welcome new job creation statistic , [ARG0: Minister for Natural Resources , Joe McHugh] , [V: say] [ARG1: the necessary reduction in infrastructure spend in Ireland since 2009 highlight the importance of develop overseas market for irish professional geoscience service] .",
+                        "tweet_args": "retrench be support by the Department of Jobs , Enterprise and Innovation through IDA Ireland .. of the judge [V: say] : [ARG1: a great example of how company be thrive in provide for the sustainable economy \" # rba15 .. surely the future of Northern Ireland be for the people of Northern Ireland , not the people of Ireland , to decide .. IBM to create 110 job in Ireland]",
+                        "rouge1_recall": 0.286,
+                        "rouge1_precision": 0.19,
+                        "rouge1_f1": 0.229
+                    }
+                }
+            },
+            "help": {
+                "all_frames": {
+                    "rouge1_precision": 0,
+                    "rouge1_recall": 0,
+                    "rouge1_f1": 0,
+                    "frequency": 0
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.204,
+            "rouge1_recall": 0.171,
+            "rouge1_f1": 0.175
+        }
+    }
+}

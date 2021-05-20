@@ -1,0 +1,329 @@
+{
+    "topic": "b294ecd3-c838-4617-93d5-f99248aa096b",
+    "coref_content": "© provide by Bang Jessica Simpson insist Jessica Simpson and husband Eric Johnson have no plan to have any more child. Jessica Simpson would freak out if Jessica Simpson have more child. the Dukes of Hazzard star - who have three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson - insist Jessica Simpson have no plan to expand Jessica Simpson's family far in the future. Jessica Simpson say : no more kid on the horizon. no more kid on the horizon would freak Jessica Simpson out a little bit. however, the 35 - year - old beauty decision may leave three - year - old daughter Maxwell disappointed as three - year - old daughter Maxwell be obsess with baby, in particular three - year - old daughter Maxwell's aunt Ashlee Simpsons daughter Jagger, who be bear in July. Jessica Simpson tell Entertainment Tonight : her aunt Ashlee Simpsons daughter Jagger, who be bear in July just come over to see Jessica Simpson, three - year - old daughter Maxwell and two - year - old son Ace the other day and her aunt Ashlee Simpsons daughter Jagger, who be bear in July s so tiny and so sweet! and three - year - old daughter Maxwell be just obsessed! three - year - old daughter Maxwell have baby doll, three - year - old daughter Maxwell want to be a mom already. three - year - old daughter Maxwell s a care taker! Jessica Simpson also credit her aunt Ashlee Simpsons daughter Jagger, who be bear in July for help Jessica Simpson stay in shape. ask how Jessica Simpson keep Jessica Simpson trim figure, Jessica Simpson say : a lot of squat! a lot of push - up, get to keep these thing up. and run around with Jessica Simpson's kid. that be a diet in that. though Jessica Simpson have nt release new music since 2008, Jessica Simpson hint some new material may be on some new material's way soon. Jessica Simpson tease : Jessica Simpson feel like Jessica Simpson m at such a comfortable place to like open Jessica Simpson's heart and share so much with everybody. so, music make the most sense ..",
+    "tweets_content": "Jessica Simpson Gives an Update on Her Kids: Ace Is Pooping in the Grass and Maxwell Is Already Wearing Heels.\nSee what Jessica Simpson had to say about her former marriage to Nick Lachey.\nJessica Simpson says she would have a panic attack if she re-watched Newlyweds:.\nJessica Simpson says having more kids would ‘freak her out’ (via.\nJessica Simpson has THE most adorable little family:.\nAshlee Simpson shares first cute baby photo of her little girl:",
+    "coref_tweets": "Jessica Simpson give an update on Jessica Simpson's kid : ace be poope in the grass and Maxwell be already wear heel. see what Jessica Simpson have to say about Jessica Simpson's former marriage to Nick Lachey. Jessica Simpson say Jessica Simpson would have a panic attack if Jessica Simpson re - watch Newlyweds :. Jessica Simpson say have more kid would ' freak Jessica Simpson out ' ( via. Jessica Simpson have the most adorable little family :. Jessica Simpson share first cute baby photo of Jessica Simpson's little girl :",
+    "nr_tweets": 6,
+    "topic_clusters": [
+        ["Jessica Simpson", "she", "Jessica Simpson", "she", "she", "her", "she", "I", "Jessica", "I", "the singer - and - actress", "her", "she", "she", "her", "she", "my", "Jessica", "she", "she", "I", "I", "my"],
+        ["husband Eric Johnson", "husband Eric Johnson"],
+        ["no more kid on the horizon", "that"],
+        ["three - year - old daughter Maxwell", "Maxwell", "the youngster", "her", "Maxwell", "Maxwell", "she", "she", "She"],
+        ["her aunt Ashlee Simpsons daughter Jagger , who be bear in July", "Jagger", "she", "her kid"],
+        ["two - year - old son Ace", "Ace"],
+        ["that", "itself"],
+        ["some new material", "its"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Jessica Simpson", "her", "Jessica Simpson", "her", "Jessica Simpson", "she", "she", "Jessica Simpson", "she", "Jessica Simpson", "Ashlee Simpson", "her"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "© provide by Bang [ARG0: Jessica Simpson] [V: insist] [ARG1: Jessica Simpson and husband Eric Johnson have no plan to have any more child] .",
+            "© provide by Bang Jessica Simpson insist [ARG0: Jessica Simpson and husband Eric Johnson] [V: have] [ARG1: no plan to have any more child] .",
+            "© provide by Bang Jessica Simpson insist [ARG0: Jessica Simpson and husband Eric Johnson] have no plan to [V: have] [ARG1: any more child] ."
+        ],
+        [
+            "Jessica Simpson [V: would] freak out if Jessica Simpson have more child .",
+            "[ARG0: Jessica Simpson] [ARGM-MOD: would] [V: freak] out [ARGM-ADV: if Jessica Simpson have more child] .",
+            "Jessica Simpson would freak out if [ARG0: Jessica Simpson] [V: have] [ARG1: more child] ."
+        ],
+        [
+            "[ARG0: the Dukes of Hazzard star] - [R-ARG0: who] [V: have] [ARG1: three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson] - insist Jessica Simpson have no plan to expand Jessica Simpson 's family far in the future .",
+            "[ARG0: the Dukes of Hazzard star - who have three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson -] [V: insist] [ARG1: Jessica Simpson have no plan to expand Jessica Simpson 's family far in the future] .",
+            "the Dukes of Hazzard star - who have three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson - insist [ARG0: Jessica Simpson] [V: have] [ARG1: no plan to expand Jessica Simpson 's family far in the future] .",
+            "the Dukes of Hazzard star - who have three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson - insist [ARG0: Jessica Simpson] have no plan to [V: expand] [ARG1: Jessica Simpson 's family] [ARGM-TMP: far in the future] ."
+        ],
+        [
+            "[ARG0: Jessica Simpson] [V: say] : [ARG1: no more kid on the horizon] ."
+        ],
+        [
+            "[ARG0: no more kid on the horizon] [V: would] freak Jessica Simpson out a little bit .",
+            "[ARG0: no more kid on the horizon] [ARGM-MOD: would] [V: freak] [ARG1: Jessica Simpson] out [ARGM-EXT: a little bit] ."
+        ],
+        [
+            "however , the 35 - year - old beauty decision [V: may] leave three - year - old daughter Maxwell disappointed as three - year - old daughter Maxwell be obsess with baby , in particular three - year - old daughter Maxwell 's aunt Ashlee Simpsons daughter Jagger , who be bear in July .",
+            "[ARGM-DIS: however] , [ARG0: the 35 - year - old beauty decision] [ARGM-MOD: may] [V: leave] [ARG1: three - year - old daughter Maxwell] [ARG2: disappointed as three - year - old daughter Maxwell be obsess with baby , in particular three - year - old daughter Maxwell 's aunt Ashlee Simpsons daughter Jagger , who be bear in July] .",
+            "however , the 35 - year - old beauty decision may leave [ARG1: three - year - old daughter Maxwell] [V: disappointed] [ARGM-CAU: as three - year - old daughter Maxwell be obsess with baby , in particular three - year - old daughter Maxwell 's aunt Ashlee Simpsons daughter Jagger , who be bear in July] .",
+            "however , the 35 - year - old beauty decision may leave three - year - old daughter Maxwell disappointed as [ARG1: three - year - old daughter Maxwell] [V: be] [ARG2: obsess with baby] , in particular three - year - old daughter Maxwell 's aunt Ashlee Simpsons daughter Jagger , who be bear in July .",
+            "however , the 35 - year - old beauty decision may leave three - year - old daughter Maxwell disappointed as three - year - old daughter Maxwell be obsess with baby , in particular [ARG1: three - year - old daughter Maxwell 's aunt Ashlee Simpsons daughter Jagger] , [R-ARG1: who] [V: be] [ARG2: bear] [ARGM-TMP: in July] ."
+        ],
+        [
+            "[ARG0: Jessica Simpson] [V: tell] [ARG2: Entertainment] [ARGM-TMP: Tonight] : her aunt Ashlee Simpsons daughter Jagger , who be bear in July just come over to see Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace the other day and her aunt Ashlee Simpsons daughter Jagger , who be bear in July s so tiny and so sweet !",
+            "Jessica Simpson tell Entertainment Tonight : [ARG1: her aunt Ashlee Simpsons daughter Jagger] , [R-ARG1: who] [V: be] [ARG2: bear] [ARGM-TMP: in July] just come over to see Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace the other day and her aunt Ashlee Simpsons daughter Jagger , who be bear in July s so tiny and so sweet !",
+            "Jessica Simpson tell Entertainment Tonight : [ARG1: her aunt Ashlee Simpsons daughter Jagger , who be bear in July] [ARGM-ADV: just] [V: come] [ARGM-DIR: over] [ARGM-PRP: to see Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace the other day and her aunt Ashlee Simpsons daughter Jagger , who be bear in July s so tiny and so sweet] !",
+            "Jessica Simpson tell Entertainment Tonight : [ARG0: her aunt Ashlee Simpsons daughter Jagger , who be bear in July just] come over to [V: see] [ARG1: Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace] [ARGM-TMP: the other day] and [C-ARG1: her aunt Ashlee Simpsons daughter Jagger] , who be bear in July s so tiny and so sweet !",
+            "Jessica Simpson tell Entertainment Tonight : her aunt Ashlee Simpsons daughter Jagger , who be bear in July just come over to see Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace the other day and [ARG1: her aunt Ashlee Simpsons daughter Jagger] , [R-ARG1: who] [V: be] [ARG2: bear] [ARGM-TMP: in July] [ARG2: s so tiny and so sweet] !"
+        ],
+        [
+            "[ARGM-DIS: and] [ARG1: three - year - old daughter Maxwell] [V: be] [ARG2: just] [ARG2: obsessed] !",
+            "[ARGM-DIS: and] [ARG1: three - year - old daughter Maxwell] be [ARGM-ADV: just] [V: obsessed] !"
+        ],
+        [
+            "[ARG0: three - year - old daughter Maxwell] [V: have] [ARG1: baby doll] , three - year - old daughter Maxwell want to be a mom already .",
+            "three - year - old daughter Maxwell have baby doll , [ARG0: three - year - old daughter Maxwell] [V: want] [ARG1: to be a mom already] .",
+            "three - year - old daughter Maxwell have baby doll , [ARG1: three - year - old daughter Maxwell] want to [V: be] [ARG2: a mom] [ARGM-TMP: already] ."
+        ],
+        [
+            "[ARG1: three - year - old daughter Maxwell] [V: s] [ARG2: a care taker] !"
+        ],
+        [
+            "[ARG0: Jessica Simpson] [ARGM-DIS: also] [V: credit] [ARG1: her aunt Ashlee Simpsons daughter Jagger , who be bear in July for help Jessica Simpson stay in shape] .",
+            "Jessica Simpson also credit [ARG1: her aunt Ashlee Simpsons daughter Jagger] , [R-ARG1: who] [V: be] [ARG2: bear] [ARGM-TMP: in July] [ARGM-PRP: for help Jessica Simpson stay in shape] .",
+            "Jessica Simpson also credit her aunt Ashlee Simpsons daughter Jagger , who be bear in July for help [ARG1: Jessica Simpson] [V: stay] [ARG3: in shape] ."
+        ],
+        [
+            "[V: ask] [ARG1: how Jessica Simpson keep Jessica Simpson trim figure] , Jessica Simpson say : a lot of squat !",
+            "ask [ARGM-MNR: how] [ARG0: Jessica Simpson] [V: keep] [ARG1: Jessica Simpson trim figure] , Jessica Simpson say : a lot of squat !",
+            "ask how Jessica Simpson keep Jessica Simpson trim figure , [ARG0: Jessica Simpson] [V: say] : [ARG1: a lot of squat] !"
+        ],
+        [
+            "[ARG0: a lot of push -] up , [V: get] [ARG1: to keep these thing up] .",
+            "a lot of push - up , get to [V: keep] [ARG1: these thing up] ."
+        ],
+        [
+            "[ARGM-DIS: and] [V: run] [ARGM-DIR: around] [ARGM-MNR: with Jessica Simpson 's kid] ."
+        ],
+        [
+            "[ARG1: that] [V: be] [ARG2: a diet] [ARGM-ADV: in that] ."
+        ],
+        [
+            "though Jessica Simpson [V: have] nt release new music since 2008 , Jessica Simpson hint some new material may be on some new material 's way soon .",
+            "though [ARG0: Jessica Simpson] have [ARGM-NEG: nt] [V: release] [ARG1: new music] [ARGM-TMP: since 2008] , Jessica Simpson hint some new material may be on some new material 's way soon .",
+            "[ARGM-ADV: though Jessica Simpson have nt release new music since 2008] , [ARG0: Jessica Simpson] [V: hint] [ARG1: some new material may be on some new material 's way soon] .",
+            "though Jessica Simpson have nt release new music since 2008 , Jessica Simpson hint some new material [V: may] be on some new material 's way soon .",
+            "though Jessica Simpson have nt release new music since 2008 , Jessica Simpson hint [ARG1: some new material] [ARGM-MOD: may] [V: be] [ARG2: on some new material 's way] [ARGM-TMP: soon] ."
+        ],
+        [
+            "Jessica Simpson tease : [ARG0: Jessica Simpson] [V: feel] [ARG1: like Jessica Simpson m at such a comfortable place to like open Jessica Simpson 's heart and share so much with everybody] .",
+            "Jessica Simpson tease : Jessica Simpson feel like [ARG1: Jessica Simpson] [V: m] [ARG2: at such a comfortable place] [ARGM-PRP: to like open Jessica Simpson 's heart and share so much with everybody] .",
+            "Jessica Simpson tease : Jessica Simpson feel like Jessica Simpson m at such a comfortable place to [V: like] [ARG1: open Jessica Simpson 's heart] and share so much with everybody .",
+            "Jessica Simpson tease : Jessica Simpson feel like Jessica Simpson m at such a comfortable place to [ARGM-DIS: like] [V: open] [ARG1: Jessica Simpson 's heart] and share so much with everybody .",
+            "Jessica Simpson tease : Jessica Simpson feel like Jessica Simpson m at such a comfortable place to [ARGM-DIS: like] open Jessica Simpson 's heart and [V: share] [ARG1: so much] [ARG2: with everybody] ."
+        ],
+        [
+            "[ARGM-DIS: so] , [ARG0: music] [V: make] [ARG1: the most sense] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: Jessica Simpson] [V: give] [ARG1: an update on Jessica Simpson 's kid : ace be poope in the grass and Maxwell be already wear heel] .",
+            "Jessica Simpson give an update on Jessica Simpson 's kid : [ARG1: ace] [V: be] [ARG2: poope in the grass] and Maxwell be already wear heel .",
+            "Jessica Simpson give an update on Jessica Simpson 's kid : ace be poope in the grass and [ARG1: Maxwell] [V: be] [ARGM-TMP: already] [ARG2: wear heel] .",
+            "Jessica Simpson give an update on Jessica Simpson 's kid : ace be poope in the grass and [ARG0: Maxwell] be [ARGM-TMP: already] [V: wear] [ARG1: heel] ."
+        ],
+        [
+            "[V: see] [ARG1: what Jessica Simpson have to say about Jessica Simpson 's former marriage to Nick Lachey] .",
+            "see what Jessica Simpson [V: have] to say about Jessica Simpson 's former marriage to Nick Lachey .",
+            "see [ARG1: what] [ARG0: Jessica Simpson] have to [V: say] [ARG3: about Jessica Simpson 's former marriage to Nick Lachey] ."
+        ],
+        [
+            "[ARG0: Jessica Simpson] [V: say] [ARG1: Jessica Simpson would have a panic attack if Jessica Simpson re - watch Newlyweds] : .",
+            "Jessica Simpson say Jessica Simpson [V: would] have a panic attack if Jessica Simpson re - watch Newlyweds : .",
+            "Jessica Simpson say [ARG0: Jessica Simpson] [ARGM-MOD: would] [V: have] [ARG1: a panic attack] [ARGM-ADV: if Jessica Simpson re - watch Newlyweds] : .",
+            "Jessica Simpson say Jessica Simpson would have a panic attack if [ARG0: Jessica Simpson] [V: re] - watch Newlyweds : .",
+            "Jessica Simpson say Jessica Simpson would have a panic attack if Jessica Simpson re - watch Newlyweds : .",
+            "Jessica Simpson say Jessica Simpson would have a panic attack if [ARG0: Jessica Simpson] re - [V: watch] [ARG1: Newlyweds] : ."
+        ],
+        [
+            "[ARG0: Jessica Simpson] [V: say] [ARG1: have more kid would ' freak Jessica Simpson out] ' ( via .",
+            "Jessica Simpson say [V: have] [ARG1: more kid] would ' freak Jessica Simpson out ' ( via .",
+            "Jessica Simpson say have more kid [V: would] ' freak Jessica Simpson out ' ( via .",
+            "Jessica Simpson say [ARG0: have more kid] [ARGM-MOD: would] ' [V: freak] [ARG1: Jessica Simpson] out ' ( via ."
+        ],
+        [
+            "[ARG0: Jessica Simpson] [V: have] [ARG1: the most adorable little family] : ."
+        ],
+        []
+    ],
+    "tweets_verbs": ["give", "be", "be", "wear", "see", "have", "say", "say", "would", "have", "re", "-", "watch", "say", "have", "would", "freak", "have"],
+    "metrics": {
+        "verb_precision": 72.222,
+        "verb_recall": 32.5
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.139,
+                    "rouge1_recall": 0.1,
+                    "rouge1_f1": 0.101,
+                    "frequency": 28
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "the Dukes of Hazzard star - who have three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson - insist [ARG0: Jessica Simpson] [V: have] [ARG1: no plan to expand Jessica Simpson 's family far in the future] .",
+                        "tweet_args": "[ARG0: Jessica Simpson] [V: have] [ARG1: the most adorable little family] : .",
+                        "rouge1_recall": 0.286,
+                        "rouge1_precision": 0.571,
+                        "rouge1_f1": 0.381
+                    },
+                    "best_recall": {
+                        "topic_args": "the Dukes of Hazzard star - who have three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson - insist [ARG0: Jessica Simpson] [V: have] [ARG1: no plan to expand Jessica Simpson 's family far in the future] .",
+                        "tweet_args": "Jessica Simpson say [ARG0: Jessica Simpson] [ARGM-MOD: would] [V: have] [ARG1: a panic attack] [ARGM-ADV: if Jessica Simpson re - watch Newlyweds] : .",
+                        "rouge1_recall": 0.286,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.308
+                    },
+                    "best_f1": {
+                        "topic_args": "the Dukes of Hazzard star - who have three - year - old daughter Maxwell and two - year - old son Ace with husband Eric Johnson - insist [ARG0: Jessica Simpson] [V: have] [ARG1: no plan to expand Jessica Simpson 's family far in the future] .",
+                        "tweet_args": "[ARG0: Jessica Simpson] [V: have] [ARG1: the most adorable little family] : .",
+                        "rouge1_recall": 0.286,
+                        "rouge1_precision": 0.571,
+                        "rouge1_f1": 0.381
+                    }
+                }
+            },
+            "see": {
+                "all_frames": {
+                    "rouge1_precision": 0.133,
+                    "rouge1_recall": 0.059,
+                    "rouge1_f1": 0.082,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "Jessica Simpson tell Entertainment Tonight : [ARG0: her aunt Ashlee Simpsons daughter Jagger , who be bear in July just] come over to [V: see] [ARG1: Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace] [ARGM-TMP: the other day] and [C-ARG1: her aunt Ashlee Simpsons daughter Jagger] , who be bear in July s so tiny and so sweet !",
+                        "tweet_args": "[V: see] [ARG1: what Jessica Simpson have to say about Jessica Simpson 's former marriage to Nick Lachey] .",
+                        "rouge1_recall": 0.059,
+                        "rouge1_precision": 0.133,
+                        "rouge1_f1": 0.082
+                    },
+                    "best_recall": {
+                        "topic_args": "Jessica Simpson tell Entertainment Tonight : [ARG0: her aunt Ashlee Simpsons daughter Jagger , who be bear in July just] come over to [V: see] [ARG1: Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace] [ARGM-TMP: the other day] and [C-ARG1: her aunt Ashlee Simpsons daughter Jagger] , who be bear in July s so tiny and so sweet !",
+                        "tweet_args": "[V: see] [ARG1: what Jessica Simpson have to say about Jessica Simpson 's former marriage to Nick Lachey] .",
+                        "rouge1_recall": 0.059,
+                        "rouge1_precision": 0.133,
+                        "rouge1_f1": 0.082
+                    },
+                    "best_f1": {
+                        "topic_args": "Jessica Simpson tell Entertainment Tonight : [ARG0: her aunt Ashlee Simpsons daughter Jagger , who be bear in July just] come over to [V: see] [ARG1: Jessica Simpson , three - year - old daughter Maxwell and two - year - old son Ace] [ARGM-TMP: the other day] and [C-ARG1: her aunt Ashlee Simpsons daughter Jagger] , who be bear in July s so tiny and so sweet !",
+                        "tweet_args": "[V: see] [ARG1: what Jessica Simpson have to say about Jessica Simpson 's former marriage to Nick Lachey] .",
+                        "rouge1_recall": 0.059,
+                        "rouge1_precision": 0.133,
+                        "rouge1_f1": 0.082
+                    }
+                }
+            },
+            "would": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.125,
+                    "rouge1_recall": 0.059,
+                    "rouge1_f1": 0.077,
+                    "frequency": 18
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "three - year - old daughter Maxwell have baby doll , [ARG1: three - year - old daughter Maxwell] want to [V: be] [ARG2: a mom] [ARGM-TMP: already] .",
+                        "tweet_args": "Jessica Simpson give an update on Jessica Simpson 's kid : ace be poope in the grass and [ARG1: Maxwell] [V: be] [ARGM-TMP: already] [ARG2: wear heel] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.333
+                    },
+                    "best_recall": {
+                        "topic_args": "three - year - old daughter Maxwell have baby doll , [ARG1: three - year - old daughter Maxwell] want to [V: be] [ARG2: a mom] [ARGM-TMP: already] .",
+                        "tweet_args": "Jessica Simpson give an update on Jessica Simpson 's kid : ace be poope in the grass and [ARG1: Maxwell] [V: be] [ARGM-TMP: already] [ARG2: wear heel] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.333
+                    },
+                    "best_f1": {
+                        "topic_args": "three - year - old daughter Maxwell have baby doll , [ARG1: three - year - old daughter Maxwell] want to [V: be] [ARG2: a mom] [ARGM-TMP: already] .",
+                        "tweet_args": "Jessica Simpson give an update on Jessica Simpson 's kid : ace be poope in the grass and [ARG1: Maxwell] [V: be] [ARGM-TMP: already] [ARG2: wear heel] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.333
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.211,
+                    "rouge1_recall": 0.361,
+                    "rouge1_f1": 0.263,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: Jessica Simpson] [V: say] : [ARG1: no more kid on the horizon] .",
+                        "tweet_args": "[ARG0: Jessica Simpson] [V: say] [ARG1: have more kid would ' freak Jessica Simpson out] ' ( via .",
+                        "rouge1_recall": 0.5,
+                        "rouge1_precision": 0.4,
+                        "rouge1_f1": 0.444
+                    },
+                    "best_recall": {
+                        "topic_args": "ask how Jessica Simpson keep Jessica Simpson trim figure , [ARG0: Jessica Simpson] [V: say] : [ARG1: a lot of squat] !",
+                        "tweet_args": "[ARG0: Jessica Simpson] [V: say] [ARG1: Jessica Simpson would have a panic attack if Jessica Simpson re - watch Newlyweds] : .",
+                        "rouge1_recall": 0.5,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.286
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: Jessica Simpson] [V: say] : [ARG1: no more kid on the horizon] .",
+                        "tweet_args": "[ARG0: Jessica Simpson] [V: say] [ARG1: have more kid would ' freak Jessica Simpson out] ' ( via .",
+                        "rouge1_recall": 0.5,
+                        "rouge1_precision": 0.4,
+                        "rouge1_f1": 0.444
+                    }
+                }
+            },
+            "freak": {
+                "all_frames": {
+                    "rouge1_precision": 0.833,
+                    "rouge1_recall": 0.486,
+                    "rouge1_f1": 0.611,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: no more kid on the horizon] [ARGM-MOD: would] [V: freak] [ARG1: Jessica Simpson] out [ARGM-EXT: a little bit] .",
+                        "tweet_args": "Jessica Simpson say [ARG0: have more kid] [ARGM-MOD: would] ' [V: freak] [ARG1: Jessica Simpson] out ' ( via .",
+                        "rouge1_recall": 0.417,
+                        "rouge1_precision": 0.833,
+                        "rouge1_f1": 0.556
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: Jessica Simpson] [ARGM-MOD: would] [V: freak] out [ARGM-ADV: if Jessica Simpson have more child] .",
+                        "tweet_args": "Jessica Simpson say [ARG0: have more kid] [ARGM-MOD: would] ' [V: freak] [ARG1: Jessica Simpson] out ' ( via .",
+                        "rouge1_recall": 0.556,
+                        "rouge1_precision": 0.833,
+                        "rouge1_f1": 0.667
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: Jessica Simpson] [ARGM-MOD: would] [V: freak] out [ARGM-ADV: if Jessica Simpson have more child] .",
+                        "tweet_args": "Jessica Simpson say [ARG0: have more kid] [ARGM-MOD: would] ' [V: freak] [ARG1: Jessica Simpson] out ' ( via .",
+                        "rouge1_recall": 0.556,
+                        "rouge1_precision": 0.833,
+                        "rouge1_f1": 0.667
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.156,
+            "rouge1_recall": 0.12,
+            "rouge1_f1": 0.12
+        }
+    }
+}

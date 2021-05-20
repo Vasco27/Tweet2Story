@@ -1,0 +1,84 @@
+{
+    "topic": "7d81a98b-8483-4b4c-8c74-55d586f7d863",
+    "coref_content": "here, we report a self assemble homochiral metal organic framework [ cu1.5(h2ll - leu)(ac)h2o]n.2h2o ( 1 ) obtain from l - leucine derive ligand ( h4ll - leu ) and cu(ac)2∙h2o in 1:1 ratio. coordination - induce conformational change in l - leucine derive ligand ( h4ll - leu ) have be monitor by circular dichroism which have be far attest by synthesize leucine contain enantiomer h4ld - leu and leucine's cu(ii ) complex [ cu1.5(h2ld - leu)h2o]n.10h2o ( 2 ). structure determination reveal entirely different structure for homochiral mof ( 1 and 2 ) obtain from l-/ d - leucine derive enantiomer ligand under analogous reaction condition. far, structural dissimilarity in homochiral mof ( 1 and 2 ) have be judicially support by proton conductance study. 1 show high proton ( 10 - 5 s cm-1 ) conductance in comparison to 2 ( 10 - 6 s cm-1 ) due to dissimilar alignment of the hydrogen bond water molecule in hydrophilic pocket as well as crystal packing ..",
+    "tweets_content": "A new transgenic plant to produce biofuel: Triacylglycerols from plants can be used to produce environmentally....\nResearchers in Wales synthesize methanol from crude glycerin: Researchers from Cardiff Catalysis Institute in ...",
+    "coref_tweets": "a new transgenic plant to produce biofuel : triacylglycerol from plant can be use to produce environmentally .... researcher in Wales synthesize methanol from crude glycerin : Researchers from Cardiff Catalysis Institute in ...",
+    "nr_tweets": 2,
+    "topic_clusters": [
+        ["l - leucine derive ligand ( h4ll - leu )", "the ligand"],
+        ["leucine", "d - leucine", "its"],
+        ["homochiral mof ( 1 and 2 )", "these MOF \u2019"],
+        ["1", "MOF 1"],
+        ["2", "2"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARGM-LOC: here] , [ARG0: we] [V: report] [ARG1: a self assemble homochiral metal organic framework [ cu1.5(h2ll - leu)(ac)h2o]n.2h2o ( 1 ) obtain from l - leucine derive ligand ( h4ll - leu ) and cu(ac)2∙h2o in 1:1 ratio] .",
+            "here , we report a [ARG0: self] [V: assemble] [ARG1: homochiral] metal organic framework [ cu1.5(h2ll - leu)(ac)h2o]n.2h2o ( 1 ) obtain from l - leucine derive ligand ( h4ll - leu ) and cu(ac)2∙h2o in 1:1 ratio .",
+            "here , we report a self assemble homochiral metal organic framework [ cu1.5(h2ll - leu)(ac)h2o]n.2h2o ( 1 ) [V: obtain] [ARG2: from l - leucine derive ligand ( h4ll - leu] ) and cu(ac)2∙h2o in 1:1 ratio ."
+        ],
+        [
+            "coordination - induce conformational change in l - leucine derive ligand ( h4ll - leu ) [V: have] be monitor by circular dichroism which have be far attest by synthesize leucine contain enantiomer h4ld - leu and leucine 's cu(ii ) complex [ cu1.5(h2ld - leu)h2o]n.10h2o ( 2 ) .",
+            "coordination - induce conformational change in l - leucine derive ligand ( h4ll - leu ) have [V: be] monitor by circular dichroism which have be far attest by synthesize leucine contain enantiomer h4ld - leu and leucine 's cu(ii ) complex [ cu1.5(h2ld - leu)h2o]n.10h2o ( 2 ) .",
+            "coordination - induce conformational change in l - leucine derive ligand ( h4ll - leu ) have be monitor by circular dichroism which [V: have] be far attest by synthesize leucine contain enantiomer h4ld - leu and leucine 's cu(ii ) complex [ cu1.5(h2ld - leu)h2o]n.10h2o ( 2 ) .",
+            "coordination - induce conformational change in l - leucine derive ligand ( h4ll - leu ) have be monitor by [ARG1: circular dichroism] [R-ARG1: which] have [V: be] [ARG2: far attest] [ARGM-MNR: by synthesize leucine contain enantiomer h4ld - leu and leucine 's cu(ii ) complex [ cu1.5(h2ld - leu)h2o]n.10h2o ( 2 )] .",
+            "coordination - induce conformational change in l - leucine derive ligand ( h4ll - leu ) have be monitor by circular dichroism which have be far attest by synthesize leucine [V: contain] [ARG1: enantiomer h4ld - leu and leucine 's cu(ii ) complex [ cu1.5(h2ld - leu)h2o]n.10h2o ( 2 )] ."
+        ],
+        [
+            "[ARG0: structure determination] [V: reveal] [ARG1: entirely different structure for homochiral mof ( 1 and 2 ) obtain from l-/ d - leucine derive enantiomer ligand under analogous reaction condition] .",
+            "structure determination reveal entirely different structure for [ARG1: homochiral mof ( 1 and 2 )] [V: obtain] [ARG2: from l-/ d - leucine derive] enantiomer ligand under analogous reaction condition ."
+        ],
+        [
+            "far , structural dissimilarity in homochiral mof ( 1 and 2 ) [V: have] be judicially support by proton conductance study .",
+            "[ARGM-ADV: far] , structural dissimilarity in homochiral mof ( 1 and 2 ) have [V: be] judicially support by proton conductance study ."
+        ],
+        [
+            "[ARG0: 1] [V: show] [ARG1: high proton ( 10 - 5 s cm-1 ) conductance in comparison to 2 ( 10 - 6 s cm-1 ) due to dissimilar alignment of the hydrogen bond water molecule in hydrophilic pocket as well as crystal packing] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: a new transgenic plant] to [V: produce] [ARG1: biofuel] : triacylglycerol from plant can be use to produce environmentally .... researcher in Wales synthesize methanol from crude glycerin : Researchers from Cardiff Catalysis Institute in ...",
+            "a new transgenic plant to produce biofuel : triacylglycerol from plant [V: can] be use to produce environmentally .... researcher in Wales synthesize methanol from crude glycerin : Researchers from Cardiff Catalysis Institute in ...",
+            "a new transgenic plant to produce biofuel : [ARG1: triacylglycerol] from plant [ARGM-MOD: can] [V: be] use to produce environmentally .... researcher in Wales synthesize methanol from crude glycerin : Researchers from Cardiff Catalysis Institute in ...",
+            "a new transgenic plant to produce biofuel : [ARG1: triacylglycerol from plant] [ARGM-MOD: can] be [V: use] [ARG2: to produce environmentally] .... researcher in Wales synthesize methanol from crude glycerin : Researchers from Cardiff Catalysis Institute in ...",
+            "a new transgenic plant to produce biofuel : triacylglycerol from plant can be use to [V: produce] [ARGM-MNR: environmentally] .... researcher in Wales synthesize methanol from crude glycerin : Researchers from Cardiff Catalysis Institute in ..."
+        ]
+    ],
+    "tweets_verbs": ["produce", "can", "be", "use", "produce"],
+    "metrics": {
+        "verb_precision": 20.0,
+        "verb_recall": 9.091
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 3
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.0,
+            "rouge1_recall": 0.0,
+            "rouge1_f1": 0.0
+        }
+    }
+}

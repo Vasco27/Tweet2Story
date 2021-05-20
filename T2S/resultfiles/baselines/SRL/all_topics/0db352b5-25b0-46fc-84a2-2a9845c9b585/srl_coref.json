@@ -1,0 +1,166 @@
+{
+    "topic": "0db352b5-25b0-46fc-84a2-2a9845c9b585",
+    "coref_content": "company – transfer of share. the Chancery Division allow the claimant application for declaratory relief that, among other thing, a share transfer carry out by the first defendant, purportedly with the consent of the first defendant's father, the first claimant, have be fraudulent and should be set aside. have regard to the evidence, include expert evidence on the law of the Seychelles, the claimant be entitle to the relief seek ..",
+    "tweets_content": "From the archives: Refugee claimant jailed with no charge, no sentence, no oversight.\nFrom the archives: Refugee claimant jailed with no charge, no sentence, no oversight.\nFrom the archives: Refugee claimant jailed with no charge, no sentence, no oversight.\nThey do have an arguable case, you know...\nThe public breathed a sigh of relief and with the believe that the others would also soon be rescued moved on  #511DaysOfChibokGirlsAbduction..\nIf they had meant to scapegoat 1 Minister to save the rest of the 9, it would imply that somehow evidence on others was leaked #Egypt..\nThe application has not yet been processed, kindly indicate the date of application. ^EM..\nThat position assumes the others were electable. No evidence of that..\nWhew! Thats a relief. ;)..\nBanKiMoon: Four years of diplomatic paralysis by the Security Council and others have allowed the crisis to spin out of control..",
+    "coref_tweets": "from the archive : refugee claimant jail with no charge, no sentence, no oversight. from the archive : refugee claimant jail with no charge, no sentence, no oversight. from the archive : refugee claimant jail with no charge, no sentence, no oversight. they do have an arguable case, you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9, it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process, kindly indicate the date of application. ^EM .. that position assume the other be electable. no evidence of assume .. whew! that s a relief. ;) .. BanKiMoon : four year of diplomatic paralysis by the Security Council and other have allow the crisis to spin out of control ..",
+    "nr_tweets": 10,
+    "topic_clusters": [
+        ["the first defendant", "his"],
+        ["the claimant", "the claimant"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["the archive", "the archive", "the archive"],
+        ["they", "they"],
+        ["assume", "that"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [],
+        [
+            "[ARG0: the Chancery Division] [V: allow] [ARG1: the claimant application for declaratory relief that , among other thing , a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant , have be fraudulent and should be set aside] .",
+            "the Chancery Division allow the claimant application for declaratory relief that , among other thing , [ARG1: a share transfer] [V: carry] out [ARG0: by the first defendant] , [ARGM-MNR: purportedly with the consent of the first defendant 's father , the first claimant] , have be fraudulent and should be set aside .",
+            "the Chancery Division allow the claimant application for declaratory relief that , among other thing , a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant , [V: have] be fraudulent and should be set aside .",
+            "the Chancery Division allow the claimant application for declaratory relief that , [ARGM-ADV: among other thing] , [ARG1: a share transfer carry out by the first defendant , purportedly with] [ARGM-ADV: the consent of] [ARG1: the first defendant 's father ,] [ARGM-ADV: the first claimant] , have [V: be] [ARG2: fraudulent] and should be set aside .",
+            "the Chancery Division allow the claimant application for declaratory relief that , among other thing , a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant , have be fraudulent and [V: should] be set aside .",
+            "the Chancery Division allow the claimant application for declaratory relief that , among other thing , a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant , have be fraudulent and should [V: be] set aside .",
+            "the Chancery Division allow the claimant application for declaratory relief that , among other thing , [ARG1: a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant] , have be fraudulent and [ARGM-MOD: should] be [V: set] [ARG2: aside] ."
+        ],
+        [
+            "[V: have] [ARG1: regard to the evidence] , include expert evidence on the law of the Seychelles , the claimant be entitle to the relief seek ..",
+            "have regard to the evidence , [V: include] [ARG1: expert evidence on the law of the Seychelles] , the claimant be entitle to the relief seek ..",
+            "have regard to the evidence , include expert evidence on the law of the Seychelles , [ARG1: the claimant] [V: be] [ARG2: entitle to] the relief seek .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [],
+        [],
+        [],
+        [
+            "they [V: do] have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "[ARG0: they] do [V: have] [ARG1: an arguable case] , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , [ARG0: you] [V: know] ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... [ARG0: the public] [V: breathe] [ARG1: a sigh of relief] and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other [V: would] also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that [ARG1: the other] [ARGM-MOD: would] [ARGM-ADV: also] [ARGM-TMP: soon] [V: be] [ARG2: rescue move on # 511DaysOfChibokGirlsAbduction] .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they [V: have] mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if [ARG0: they] have [V: mean] [ARG1: to scapegoat 1 minister to save the rest of the 9] , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if [ARG0: they] have mean to [V: scapegoat] [ARG1: 1 minister] [ARGM-PRP: to save the rest of the 9] , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to [V: save] [ARG1: the rest of the 9] , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it [V: would] imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. [ARGM-ADV: if they have mean to scapegoat 1 minister to save the rest of the 9] , [ARG0: it] [ARGM-MOD: would] [V: imply] [ARG1: that somehow evidence on other be leak # Egypt .. the application have not yet be process] , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow [ARG1: evidence on other] [V: be] [ARG2: leak # Egypt] .. the application have not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application [V: have] not yet be process , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. [ARG1: the application] have [ARGM-NEG: not] [ARGM-TMP: yet] [V: be] [ARG2: process] , kindly indicate the date of application .",
+            "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that the other would also soon be rescue move on # 511DaysOfChibokGirlsAbduction .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , [ARGM-MNR: kindly] [V: indicate] [ARG1: the date of application] ."
+        ],
+        [
+            "^EM .. [ARG0: that position] [V: assume] [ARG1: the other be electable] .",
+            "^EM .. that position assume [ARG1: the other] [V: be] [ARG2: electable] ."
+        ],
+        [],
+        [
+            "[ARG1: that] [V: s] [ARG2: a relief] ."
+        ],
+        [
+            ";) .. BanKiMoon : four year of diplomatic paralysis by the Security Council and other [V: have] allow the crisis to spin out of control ..",
+            ";) .. BanKiMoon : [ARG0: four year of diplomatic paralysis by the Security Council and other] have [V: allow] [ARG1: the crisis to spin out of control] ..",
+            ";) .. BanKiMoon : four year of diplomatic paralysis by the Security Council and other have allow [ARG1: the crisis] to [V: spin] [ARGM-MNR: out of control] .."
+        ]
+    ],
+    "tweets_verbs": ["do", "have", "know", "breathe", "would", "be", "have", "mean", "scapegoat", "save", "would", "imply", "be", "have", "be", "indicate", "assume", "be", "s", "have", "allow", "spin"],
+    "metrics": {
+        "verb_precision": 40.909,
+        "verb_recall": 69.231
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 8
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.161,
+                    "rouge1_recall": 0.082,
+                    "rouge1_f1": 0.087,
+                    "frequency": 12
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "the Chancery Division allow the claimant application for declaratory relief that , [ARGM-ADV: among other thing] , [ARG1: a share transfer carry out by the first defendant , purportedly with] [ARGM-ADV: the consent of] [ARG1: the first defendant 's father ,] [ARGM-ADV: the first claimant] , have [V: be] [ARG2: fraudulent] and should be set aside .",
+                        "tweet_args": "^EM .. that position assume [ARG1: the other] [V: be] [ARG2: electable] .",
+                        "rouge1_recall": 0.077,
+                        "rouge1_precision": 0.667,
+                        "rouge1_f1": 0.138
+                    },
+                    "best_recall": {
+                        "topic_args": "the Chancery Division allow the claimant application for declaratory relief that , [ARGM-ADV: among other thing] , [ARG1: a share transfer carry out by the first defendant , purportedly with] [ARGM-ADV: the consent of] [ARG1: the first defendant 's father ,] [ARGM-ADV: the first claimant] , have [V: be] [ARG2: fraudulent] and should be set aside .",
+                        "tweet_args": "they do have an arguable case , you know ... the public breathe a sigh of relief and with the believe that [ARG1: the other] [ARGM-MOD: would] [ARGM-ADV: also] [ARGM-TMP: soon] [V: be] [ARG2: rescue move on # 511DaysOfChibokGirlsAbduction] .. if they have mean to scapegoat 1 minister to save the rest of the 9 , it would imply that somehow evidence on other be leak # Egypt .. the application have not yet be process , kindly indicate the date of application .",
+                        "rouge1_recall": 0.077,
+                        "rouge1_precision": 0.222,
+                        "rouge1_f1": 0.114
+                    },
+                    "best_f1": {
+                        "topic_args": "have regard to the evidence , include expert evidence on the law of the Seychelles , [ARG1: the claimant] [V: be] [ARG2: entitle to] the relief seek ..",
+                        "tweet_args": "^EM .. that position assume [ARG1: the other] [V: be] [ARG2: electable] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.286
+                    }
+                }
+            },
+            "allow": {
+                "all_frames": {
+                    "rouge1_precision": 0.389,
+                    "rouge1_recall": 0.163,
+                    "rouge1_f1": 0.23,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: the Chancery Division] [V: allow] [ARG1: the claimant application for declaratory relief that , among other thing , a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant , have be fraudulent and should be set aside] .",
+                        "tweet_args": ";) .. BanKiMoon : [ARG0: four year of diplomatic paralysis by the Security Council and other] have [V: allow] [ARG1: the crisis to spin out of control] ..",
+                        "rouge1_recall": 0.163,
+                        "rouge1_precision": 0.389,
+                        "rouge1_f1": 0.23
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: the Chancery Division] [V: allow] [ARG1: the claimant application for declaratory relief that , among other thing , a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant , have be fraudulent and should be set aside] .",
+                        "tweet_args": ";) .. BanKiMoon : [ARG0: four year of diplomatic paralysis by the Security Council and other] have [V: allow] [ARG1: the crisis to spin out of control] ..",
+                        "rouge1_recall": 0.163,
+                        "rouge1_precision": 0.389,
+                        "rouge1_f1": 0.23
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: the Chancery Division] [V: allow] [ARG1: the claimant application for declaratory relief that , among other thing , a share transfer carry out by the first defendant , purportedly with the consent of the first defendant 's father , the first claimant , have be fraudulent and should be set aside] .",
+                        "tweet_args": ";) .. BanKiMoon : [ARG0: four year of diplomatic paralysis by the Security Council and other] have [V: allow] [ARG1: the crisis to spin out of control] ..",
+                        "rouge1_recall": 0.163,
+                        "rouge1_precision": 0.389,
+                        "rouge1_f1": 0.23
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.111,
+            "rouge1_recall": 0.054,
+            "rouge1_f1": 0.061
+        }
+    }
+}

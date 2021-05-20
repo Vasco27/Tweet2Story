@@ -1,0 +1,66 @@
+{
+    "topic": "96dea64b-8da0-43d3-a15f-5ba682635881",
+    "coref_content": "Energen Corporation ( NYSE : EGN ) senior manager will meet with member of the investment community at the Deutsche Bank Energy one - on - one Corporate Days in Boston on September 29 - 30, 2015. associated meeting material will be available for view on Energen Corporation ( NYSE : EGN ) home page, begin Tuesday, September 29, at 1:00 p.m. ET. Energen Corporation ( NYSE : EGN ) be an oil and gas exploration and production company with headquarter in Birmingham, Alabama. at year - end 2014, Energen Corporation ( NYSE : EGN ) have 1.1 billion barrel of oil - equivalent prove, probable, and possible reserve and another 2.2 billion barrel of oil - equivalent contingent resource. these all - domestic reserve and resource be locate primarily in the Permian Basin in west Texas. for more information, go to view source version on businesswire Energen Corporation ( NYSE : EGN ) Julie S. Ryland, 205 - 326 - 8421.",
+    "tweets_content": "Oil Company Agrees to Mackinac Straits Heavy Crude Oil Ban.\nTower Resources signs Cameroon oil and gas exploration deal: … gas exploration deal with the Cameroon government.….\nOil company officials pleased with findings on crude oil volatility",
+    "coref_tweets": "oil company agree to Mackinac strait heavy crude oil ban. Tower Resources sign Cameroon oil and gas exploration deal : … gas exploration deal with Cameroon. …. oil company official pleased with finding on crude oil volatility",
+    "nr_tweets": 3,
+    "topic_clusters": [
+        ["Energen Corporation ( NYSE : EGN )", "Energens", "Energen Corporation", "the company", "Energen Corporation"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Cameroon", "the Cameroon government"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "Energen Corporation ( NYSE : EGN ) senior manager [V: will] meet with member of the investment community at the Deutsche Bank Energy one - on - one Corporate Days in Boston on September 29 - 30 , 2015 . associated meeting material will be available for view on Energen Corporation ( NYSE : EGN ) home page , begin Tuesday , September 29 , at 1:00 p.m.",
+            "[ARG0: Energen Corporation ( NYSE : EGN ) senior manager] [ARGM-MOD: will] [V: meet] [ARG1: with member of the investment community] [ARGM-LOC: at the Deutsche Bank Energy] [ARGM-MNR: one - on -] [ARGM-LOC: one Corporate Days] [ARGM-LOC: in Boston] [ARGM-TMP: on September 29 - 30 , 2015] . associated meeting material will be available for view on Energen Corporation ( NYSE : EGN ) home page , begin Tuesday , September 29 , at 1:00 p.m.",
+            "Energen Corporation ( NYSE : EGN ) senior manager will meet with member of the investment community at the Deutsche Bank Energy one - on - one Corporate Days in Boston on September 29 - 30 , 2015 . [V: associated] [ARG1: meeting material] will be available for view on Energen Corporation ( NYSE : EGN ) home page , begin Tuesday , September 29 , at 1:00 p.m.",
+            "Energen Corporation ( NYSE : EGN ) senior manager will meet with member of the investment community at the Deutsche Bank Energy one - on - one Corporate Days in Boston on September 29 - 30 , 2015 . associated meeting material [V: will] be available for view on Energen Corporation ( NYSE : EGN ) home page , begin Tuesday , September 29 , at 1:00 p.m.",
+            "Energen Corporation ( NYSE : EGN ) senior manager will meet with member of the investment community at the Deutsche Bank Energy one - on - one Corporate Days in Boston on September 29 - 30 , 2015 . [ARG1: associated meeting material] [ARGM-MOD: will] [V: be] [ARG2: available for view] [ARGM-LOC: on Energen Corporation ( NYSE : EGN ) home page] , begin Tuesday , September 29 , at 1:00 p.m.",
+            "Energen Corporation ( NYSE : EGN ) senior manager will meet with member of the investment community at the Deutsche Bank Energy one - on - one Corporate Days in Boston on September 29 - 30 , 2015 . associated meeting material will be available for view on Energen Corporation ( NYSE : EGN ) home page , [V: begin] [ARGM-TMP: Tuesday , September 29] , [ARGM-TMP: at 1:00 p.m.]"
+        ],
+        [],
+        [
+            "[ARG1: Energen Corporation ( NYSE : EGN )] [V: be] [ARG2: an oil and gas exploration and production company with headquarter in Birmingham , Alabama] ."
+        ],
+        [
+            "[ARGM-TMP: at year - end 2014] , [ARG0: Energen Corporation ( NYSE : EGN )] [V: have] [ARG1: 1.1 billion barrel of oil - equivalent prove , probable , and possible reserve and another 2.2 billion barrel of oil - equivalent contingent resource] ."
+        ],
+        [
+            "these all - domestic reserve and resource [V: be] locate primarily in the Permian Basin in west Texas .",
+            "[ARG1: these all - domestic reserve and resource] be [V: locate] [ARGM-LOC: primarily in the Permian Basin in west Texas] ."
+        ],
+        [
+            "[ARGM-PRP: for more information] , [V: go] [ARG4: to] view source version on businesswire Energen Corporation ( NYSE : EGN ) Julie S. Ryland , 205 - 326 - 8421 .",
+            "for more information , go to [V: view] [ARG1: source version] [ARG2: on businesswire Energen Corporation ( NYSE : EGN ) Julie S. Ryland , 205 - 326 - 8421] ."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: oil company] [V: agree] [ARG1: to Mackinac strait heavy crude oil ban] ."
+        ],
+        [
+            "[ARG0: Tower Resources] [V: sign] [ARG1: Cameroon oil and gas exploration deal] : … gas exploration deal with Cameroon ."
+        ],
+        [],
+        [
+            "[ARG1: oil company official] [V: pleased] [ARG2: with finding on crude oil volatility]",
+            "oil company official pleased with [V: finding] on [ARG1: crude oil volatility]"
+        ]
+    ],
+    "tweets_verbs": ["agree", "sign", "pleased", "find"],
+    "metrics": {
+        "verb_precision": 0.0,
+        "verb_recall": 0.0
+    },
+    "srl_metrics": {
+        "per_verb": {},
+        "global": {
+            "rouge1_precision": 0,
+            "rouge1_recall": 0,
+            "rouge1_f1": 0
+        }
+    }
+}

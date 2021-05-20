@@ -1,0 +1,140 @@
+{
+    "topic": "5d4e4fbf-b220-4f42-aed5-153725b27070",
+    "coref_content": "Delta State Governor Ifeanyi Okowa have call on oil company operate in Delta State to create employment for the people in oil company's host community to foster sustainable cooperation and conducive environment. speak on Monday in Asaba when the management of AGIP Oil Company Limited, lead by AGIP Oil Company Limited's General Manager, Palio Carnivale, pay Delta State Governor Ifeanyi Okowa a visit, Delta State Governor Ifeanyi Okowa say that AGIP Oil Company Limited ....",
+    "tweets_content": "Sector Update: Oil marketing companies will be positively impacted by drop in crude oil prices..\nUPDATED: MNR Authorizes Payments to the Exporting International Oil Companies.\nHave oil companies learnt from Niger Delta crisis  speaks to  #resourcepol.\nEfforts to indigenize oil and gas sector in turmoil: Efforts by government to ensure that the oil and gas sect....\nIts unfortunate that host communities of oil companies that are making profits live in this kind of situation..\nEvery society needs viable opposition - Governor Okowa -.\nOkowa tasks oil firms on employment -.\nOkowa tasks oil firms on employment -.\nOkowa tasks oil firms on employment -.\nIm not a go-slow Governor - Okowa -.\nIm not a go-slow Governor - Okowa -",
+    "coref_tweets": "sector update : oil marketing company will be positively impact by drop in crude oil price .. update : MNR authorize payment to the export International Oil Companies. have oil company learn from Niger Delta crisis speak to # resourcepol. effort to indigenize oil and gas sector in turmoil : effort by government to ensure that the oil and gas sect .... it unfortunate that host community of oil company that be make profit live in this kind of situation .. every society need viable opposition - Governor Okowa -. Okowa task oil firm on employment -. Okowa task oil firm on employment -. Okowa task oil firm on employment -. Governor Okowa m not a go - slow Governor - Governor Okowa -. Governor Okowa m not a go - slow Governor - Governor Okowa -",
+    "nr_tweets": 11,
+    "topic_clusters": [
+        ["Delta State", "the state"],
+        ["oil company", "their"],
+        ["AGIP Oil Company Limited", "its", "oil company"],
+        ["Delta State Governor Ifeanyi Okowa", "he", "Okowa"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Governor Okowa", "i", "Okowa", "i", "Okowa"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARG0: Delta State Governor Ifeanyi Okowa] [V: have] call on oil company operate in Delta State to create employment for the people in oil company 's host community to foster sustainable cooperation and conducive environment .",
+            "[ARG0: Delta State Governor Ifeanyi Okowa] have [V: call] on [ARG1: oil company] [ARG1: operate in Delta State] [ARG2: to create employment for the people in oil company 's host community to foster sustainable cooperation and conducive environment] .",
+            "Delta State Governor Ifeanyi Okowa have call on [ARG1: oil company] [V: operate] [ARGM-LOC: in Delta State] [ARGM-PRP: to create employment for the people in oil company 's host community to foster sustainable cooperation and conducive environment] .",
+            "Delta State Governor Ifeanyi Okowa have call on [ARG0: oil company] operate in Delta State to [V: create] [ARG1: employment] [ARG3: for the people in oil company 's host community] [ARGM-PRP: to foster sustainable cooperation and conducive environment] .",
+            "Delta State Governor Ifeanyi Okowa have call on oil company operate in Delta State to create employment for [ARG0: the people in oil company 's host community] to [V: foster] [ARG1: sustainable cooperation and conducive environment] ."
+        ],
+        [
+            "[V: speak] [ARGM-TMP: on Monday] [ARGM-LOC: in Asaba] [ARGM-TMP: when the management of AGIP Oil Company Limited , lead by AGIP Oil Company Limited 's General Manager , Palio Carnivale , pay Delta State Governor Ifeanyi Okowa a visit] , Delta State Governor Ifeanyi Okowa say that AGIP Oil Company Limited ....",
+            "speak on Monday in Asaba when [ARG1: the management of AGIP Oil Company Limited] , [V: lead] [ARG0: by AGIP Oil Company Limited 's General Manager , Palio Carnivale] , pay Delta State Governor Ifeanyi Okowa a visit , Delta State Governor Ifeanyi Okowa say that AGIP Oil Company Limited ....",
+            "speak on Monday in Asaba [ARGM-TMP: when] [ARG0: the management of AGIP Oil Company Limited , lead by AGIP Oil Company Limited 's General Manager , Palio Carnivale ,] [V: pay] [ARG2: Delta State Governor Ifeanyi Okowa] [ARG1: a visit] , Delta State Governor Ifeanyi Okowa say that AGIP Oil Company Limited ....",
+            "speak on Monday in Asaba when the management of AGIP Oil Company Limited , lead by AGIP Oil Company Limited 's General Manager , Palio Carnivale , pay Delta State Governor Ifeanyi Okowa a visit , [ARG0: Delta State Governor Ifeanyi Okowa] [V: say] [ARG1: that AGIP Oil Company Limited] ...."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "sector update : oil marketing company [V: will] be positively impact by drop in crude oil price .. update : MNR authorize payment to the export International Oil Companies .",
+            "sector update : oil marketing company will [V: be] positively impact by drop in crude oil price .. update : MNR authorize payment to the export International Oil Companies .",
+            "sector update : oil marketing company will be positively impact by drop in crude oil price .. update : [ARG0: MNR] [V: authorize] [ARG1: payment to the export International Oil Companies] ."
+        ],
+        [
+            "[V: have] [ARG1: oil company learn from Niger Delta crisis speak to # resourcepol] .",
+            "have [ARG0: oil company] [V: learn] [ARG2: from Niger Delta crisis] speak to # resourcepol .",
+            "have [ARG0: oil company] learn from Niger Delta crisis [V: speak] [ARG2: to # resourcepol] ."
+        ],
+        [
+            "effort to [V: indigenize] [ARG1: oil and gas sector] [ARGM-LOC: in turmoil] : effort by government to ensure that the oil and gas sect .... it unfortunate that host community of oil company that be make profit live in this kind of situation .. every society need viable opposition - Governor Okowa - .",
+            "effort to indigenize oil and gas sector in turmoil : effort by government to [V: ensure] [ARG1: that the oil and gas sect] .... it unfortunate that host community of oil company that be make profit live in this kind of situation .. every society need viable opposition - Governor Okowa - .",
+            "effort to indigenize oil and gas sector in turmoil : effort by government to ensure that the oil and gas sect .... it unfortunate that [ARG1: host community of oil company] [R-ARG1: that] [V: be] [ARG2: make profit] live in this kind of situation .. every society need viable opposition - Governor Okowa - .",
+            "effort to indigenize oil and gas sector in turmoil : effort by government to ensure that the oil and gas sect .... it unfortunate that [ARG0: host community of oil company] [R-ARG0: that] be [V: make] [ARG1: profit] live in this kind of situation .. every society need viable opposition - Governor Okowa - .",
+            "effort to indigenize oil and gas sector in turmoil : effort by government to ensure that the oil and gas sect .... it unfortunate that [ARG0: host community of oil company that be make profit] [V: live] [ARGM-LOC: in this kind of situation] .. every society need viable opposition - Governor Okowa - .",
+            "effort to indigenize oil and gas sector in turmoil : effort by government to ensure that the oil and gas sect .... it unfortunate that host community of oil company that be make profit live in this kind of situation .. [ARG0: every society] [V: need] [ARG1: viable opposition - Governor Okowa] - ."
+        ],
+        [],
+        [],
+        [],
+        [
+            "[ARG1: Governor Okowa] [V: m] [ARGM-NEG: not] [ARG2: a go - slow Governor -] Governor Okowa - .",
+            "Governor Okowa m not a [V: go] - [ARGM-MNR: slow] Governor - Governor Okowa - ."
+        ],
+        [
+            "[ARG1: Governor Okowa] [V: m] [ARGM-NEG: not] [ARG2: a go - slow Governor] - Governor Okowa -",
+            "Governor Okowa m not a [V: go] - [ARGM-MNR: slow] Governor - Governor Okowa -"
+        ]
+    ],
+    "tweets_verbs": ["will", "be", "authorize", "have", "learn", "speak", "indigenize", "ensure", "be", "make", "live", "need", "m", "go", "m", "go"],
+    "metrics": {
+        "verb_precision": 12.5,
+        "verb_recall": 22.222
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.1,
+                    "rouge1_recall": 0.2,
+                    "rouge1_f1": 0.133,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: Delta State Governor Ifeanyi Okowa] [V: have] call on oil company operate in Delta State to create employment for the people in oil company 's host community to foster sustainable cooperation and conducive environment .",
+                        "tweet_args": "[V: have] [ARG1: oil company learn from Niger Delta crisis speak to # resourcepol] .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.1,
+                        "rouge1_f1": 0.133
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: Delta State Governor Ifeanyi Okowa] [V: have] call on oil company operate in Delta State to create employment for the people in oil company 's host community to foster sustainable cooperation and conducive environment .",
+                        "tweet_args": "[V: have] [ARG1: oil company learn from Niger Delta crisis speak to # resourcepol] .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.1,
+                        "rouge1_f1": 0.133
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: Delta State Governor Ifeanyi Okowa] [V: have] call on oil company operate in Delta State to create employment for the people in oil company 's host community to foster sustainable cooperation and conducive environment .",
+                        "tweet_args": "[V: have] [ARG1: oil company learn from Niger Delta crisis speak to # resourcepol] .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.1,
+                        "rouge1_f1": 0.133
+                    }
+                }
+            },
+            "speak": {
+                "all_frames": {
+                    "rouge1_precision": 0.5,
+                    "rouge1_recall": 0.065,
+                    "rouge1_f1": 0.114,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[V: speak] [ARGM-TMP: on Monday] [ARGM-LOC: in Asaba] [ARGM-TMP: when the management of AGIP Oil Company Limited , lead by AGIP Oil Company Limited 's General Manager , Palio Carnivale , pay Delta State Governor Ifeanyi Okowa a visit] , Delta State Governor Ifeanyi Okowa say that AGIP Oil Company Limited ....",
+                        "tweet_args": "have [ARG0: oil company] learn from Niger Delta crisis [V: speak] [ARG2: to # resourcepol] .",
+                        "rouge1_recall": 0.065,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.114
+                    },
+                    "best_recall": {
+                        "topic_args": "[V: speak] [ARGM-TMP: on Monday] [ARGM-LOC: in Asaba] [ARGM-TMP: when the management of AGIP Oil Company Limited , lead by AGIP Oil Company Limited 's General Manager , Palio Carnivale , pay Delta State Governor Ifeanyi Okowa a visit] , Delta State Governor Ifeanyi Okowa say that AGIP Oil Company Limited ....",
+                        "tweet_args": "have [ARG0: oil company] learn from Niger Delta crisis [V: speak] [ARG2: to # resourcepol] .",
+                        "rouge1_recall": 0.065,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.114
+                    },
+                    "best_f1": {
+                        "topic_args": "[V: speak] [ARGM-TMP: on Monday] [ARGM-LOC: in Asaba] [ARGM-TMP: when the management of AGIP Oil Company Limited , lead by AGIP Oil Company Limited 's General Manager , Palio Carnivale , pay Delta State Governor Ifeanyi Okowa a visit] , Delta State Governor Ifeanyi Okowa say that AGIP Oil Company Limited ....",
+                        "tweet_args": "have [ARG0: oil company] learn from Niger Delta crisis [V: speak] [ARG2: to # resourcepol] .",
+                        "rouge1_recall": 0.065,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.114
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.3,
+            "rouge1_recall": 0.132,
+            "rouge1_f1": 0.124
+        }
+    }
+}

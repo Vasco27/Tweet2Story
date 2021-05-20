@@ -1,0 +1,248 @@
+{
+    "topic": "e2f6d043-d1b1-45d8-ae5e-34d03a081b18",
+    "coref_content": "InvestorsObserver issue critical PriceWatch Alerts for AAPL, UAL, WIN, HZNP and ALXN. to see what InvestorsObserver's analyst have discover about a particular stock, read the InvestorsObserver PriceWatch Alert by select the correspond link. ( note : you may have to copy the correspond link into your browser then press the [ enter ] key. ) AAPL : UAL : WIN : HZNP : ALXN : ( note : you may have to copy this link into your browser then press the [ enter ] key. ) Todays PriceWatch Alerts cover the following stock : AAPL, United Continental Holdings ( NYSE : UAL ), Windstream ( NASDAQ : WIN ), Horizon Pharma ( NASDAQ : HZNP ), Alexion Pharmaceuticals ( NASDAQ : ALXN ). InvestorsObserver PriceWatch Alerts contain concise, detailed strategy for each stock InvestorsObserver cover, include position protection tactic design to defend investor from potential market shift. while many other market report only provide stock news and opinion, InvestorsObserver offer strategy that can bulwark investment against uncertainty and increase chance of make a profit, even if a stock go down. InvestorsObserver go above and beyond typical market coverage, say Bobby Raines, Analyst at InvestorsObserver. trading expert and beginning investor alike can find value in InvestorsObservers PriceWatch Alerts. InvestorsObserver provide actionable strategy that protect investment with basic hedging tactic, along with a concise explanation of InvestorsObserver's technique. InvestorsObserver.com be an online newsletter which focus on the U.S. equity and option market. InvestorsObserver's analytical tool, screening technique, rigorous research method and commit staff provide solid information to help subscriber make the good possible investment decision. for more information go to all stock and option show be example only-- not recommendation to buy or sell. InvestorsObserver's pick do not represent a positive or negative outlook on any security. potential return do not take into account your trade size, brokerage commission or taxis -- expense that will affect actual investment return. stock and option involve risk, thus stock and option be not suitable for all investor. prior to buy or sell option, a person should request a copy of Characteristics and Risks of Standardized Options available at privacy policy available upon request. to view the original version on PR Newswire, visit : source InvestorsObserver",
+    "tweets_content": "Have been encouraging stock exchanges, MFs to undertake investor education: #SEBI Chairman UK Sinha..\nUS-based Alexion Pharmaceuticals has....\nAlso on the #RayDarcyShow,  has #PriceWatch and Daniel ODonnell chats about the launch of  on.\nWell done to your dad and co-workers!  We provide alerts on our incidents to keep public informed...\nIts price watch time with  on #RayDArcyShow now - email your queries pricewatch.\nStock Sinks on Companys First Investor Day $DISCA",
+    "coref_tweets": "have be encourage stock exchange, MFs to undertake investor education : # SEBI Chairman UK Sinha .. US - base Alexion Pharmaceuticals have .... also on the # RayDarcyShow, have # PriceWatch and Daniel ODonnell chat about the launch of on. well do to your dad and co - worker! we provide alert on we's incident to keep public informed ... its price watch time with on the # RayDarcyShow now - email your query pricewatch. stock sink on Companys first Investor day $ DISCA",
+    "nr_tweets": 6,
+    "topic_clusters": [
+        ["InvestorsObserver", "our", "InvestorsObservers", "InvestorsObservers", "we", "we", "we", "InvestorsObserver", "our", "we", "our", "our", "our"],
+        ["the correspond link", "this link"],
+        ["AAPL", "AAPL", "Apple ( NASDAQ : AAPL )"],
+        ["UAL", "UAL"],
+        ["WIN", "WIN"],
+        ["HZNP", "HZNP"],
+        ["ALXN", "ALXN"],
+        ["the [ enter ] key", "the [ enter ] key"],
+        ["InvestorsObservers PriceWatch Alerts", "our PriceWatch Alerts"],
+        ["stock and option", "they"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["we", "our"],
+        ["the # RayDarcyShow", "# RayDArcyShow"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [],
+        [
+            "to [V: see] [ARG1: what InvestorsObserver 's analyst have discover about a particular stock] , read the InvestorsObserver PriceWatch Alert by select the correspond link .",
+            "to see what [ARG0: InvestorsObserver 's analyst] [V: have] discover about a particular stock , read the InvestorsObserver PriceWatch Alert by select the correspond link .",
+            "to see [ARG1: what] [ARG0: InvestorsObserver 's analyst] have [V: discover] [ARGM-PRD: about a particular stock] , read the InvestorsObserver PriceWatch Alert by select the correspond link .",
+            "[ARGM-PRP: to see what InvestorsObserver 's analyst have discover about a particular stock] , [V: read] [ARG1: the InvestorsObserver PriceWatch Alert] [ARGM-MNR: by select the correspond link] .",
+            "to see what InvestorsObserver 's analyst have discover about a particular stock , read the InvestorsObserver PriceWatch Alert by [V: select] [ARG1: the correspond link] ."
+        ],
+        [
+            "( [V: note] : [ARG1: you may have to copy the correspond link into your browser then press the [ enter ] key] . )",
+            "( note : you [V: may] have to copy the correspond link into your browser then press the [ enter ] key . )",
+            "( note : you [ARGM-MOD: may] [V: have] to copy the correspond link into your browser then press the [ enter ] key . )",
+            "( note : [ARG0: you] may have to [V: copy] [ARG1: the correspond link into your browser] then press the [ enter ] key . )",
+            "( note : [ARG0: you] may have to copy the correspond link into your browser [ARGM-TMP: then] [V: press] [ARG1: the [ enter ] key] . )",
+            "( note : you may have to copy the correspond link into your browser then press the [ [V: enter] ] key . )"
+        ],
+        [
+            "AAPL : UAL : WIN : HZNP : ALXN : ( [V: note] : [ARG1: you may have to copy this link into your browser then press the [ enter ] key] . )",
+            "AAPL : UAL : WIN : HZNP : ALXN : ( note : you [V: may] have to copy this link into your browser then press the [ enter ] key . )",
+            "AAPL : UAL : WIN : HZNP : ALXN : ( note : you [ARGM-MOD: may] [V: have] to copy this link into your browser then press the [ enter ] key . )",
+            "AAPL : UAL : WIN : HZNP : ALXN : ( note : [ARG0: you] may have to [V: copy] [ARG1: this link into your browser] then press the [ enter ] key . )",
+            "AAPL : UAL : WIN : HZNP : ALXN : ( note : [ARG0: you] may have to copy this link into your browser [ARGM-TMP: then] [V: press] [ARG1: the [ enter ] key] . )",
+            "AAPL : UAL : WIN : HZNP : ALXN : ( note : you may have to copy this link into your browser then press the [ [V: enter] ] key . )"
+        ],
+        [
+            "[ARG2: Todays PriceWatch Alerts] [V: cover] [ARG1: the following stock : AAPL , United Continental Holdings ( NYSE : UAL ) , Windstream ( NASDAQ : WIN ) , Horizon Pharma ( NASDAQ : HZNP ) , Alexion Pharmaceuticals ( NASDAQ : ALXN )] .",
+            "Todays PriceWatch Alerts cover the [V: following] [ARG1: stock] : AAPL , United Continental Holdings ( NYSE : UAL ) , Windstream ( NASDAQ : WIN ) , Horizon Pharma ( NASDAQ : HZNP ) , Alexion Pharmaceuticals ( NASDAQ : ALXN ) ."
+        ],
+        [
+            "[ARG0: InvestorsObserver PriceWatch Alerts] [V: contain] [ARG1: concise , detailed strategy for each stock InvestorsObserver cover] , include position protection tactic design to defend investor from potential market shift .",
+            "[ARG2: InvestorsObserver PriceWatch Alerts] contain concise , detailed strategy for each stock InvestorsObserver cover , [V: include] [ARG1: position protection tactic design to defend investor from potential market shift] .",
+            "InvestorsObserver PriceWatch Alerts contain concise , detailed strategy for each stock InvestorsObserver cover , include position protection tactic design to [V: defend] [ARG1: investor] [ARG2: from potential market shift] ."
+        ],
+        [
+            "while [ARG0: many other market report] [ARGM-ADV: only] [V: provide] [ARG1: stock news and opinion] , InvestorsObserver offer strategy that can bulwark investment against uncertainty and increase chance of make a profit , even if a stock go down .",
+            "[ARGM-ADV: while many other market report only provide stock news and opinion] , [ARG0: InvestorsObserver] [V: offer] [ARG1: strategy that can bulwark investment against uncertainty and increase chance of make a profit , even if a stock go down] .",
+            "while many other market report only provide stock news and opinion , InvestorsObserver offer strategy that [V: can] bulwark investment against uncertainty and increase chance of make a profit , even if a stock go down .",
+            "while many other market report only provide stock news and opinion , InvestorsObserver offer [ARG0: strategy] [R-ARG0: that] [ARGM-MOD: can] [V: bulwark] [ARG1: investment] [ARG2: against uncertainty] and increase chance of make a profit , even if a stock go down .",
+            "while many other market report only provide stock news and opinion , InvestorsObserver offer [ARG0: strategy] [R-ARG0: that] [ARGM-MOD: can] bulwark investment against uncertainty and [V: increase] [ARG1: chance of make a profit] , [ARGM-ADV: even if a stock go down] .",
+            "while many other market report only provide stock news and opinion , InvestorsObserver offer strategy that can bulwark investment against uncertainty and increase chance of [V: make] [ARG1: a profit] , [ARGM-ADV: even] if a stock go down .",
+            "while many other market report only provide stock news and opinion , InvestorsObserver offer strategy that can bulwark investment against uncertainty and increase chance of make a profit , even if [ARG1: a stock] [V: go] [ARGM-DIR: down] ."
+        ],
+        [
+            "[ARG0: InvestorsObserver] [V: go] [ARG4: above and beyond typical market coverage] , say Bobby Raines , Analyst at InvestorsObserver .",
+            "[ARG1: InvestorsObserver go above and beyond typical market coverage] , [V: say] [ARG0: Bobby Raines , Analyst at InvestorsObserver] ."
+        ],
+        [
+            "trading expert and [V: beginning] [ARG1: investor] alike can find value in InvestorsObservers PriceWatch Alerts .",
+            "trading expert and beginning investor alike [V: can] find value in InvestorsObservers PriceWatch Alerts .",
+            "[ARG0: trading expert and beginning investor alike] [ARGM-MOD: can] [V: find] [ARG1: value] [ARGM-LOC: in InvestorsObservers PriceWatch Alerts] ."
+        ],
+        [
+            "[ARG0: InvestorsObserver] [V: provide] [ARG1: actionable strategy that protect investment with basic hedging tactic , along with a concise explanation of InvestorsObserver 's technique] .",
+            "InvestorsObserver provide [ARG3: actionable strategy] [R-ARG3: that] [V: protect] [ARG1: investment] [ARG3: with basic hedging tactic] , along with a concise explanation of InvestorsObserver 's technique ."
+        ],
+        [
+            "[ARG1: InvestorsObserver.com] [V: be] [ARG2: an online newsletter which focus on the U.S. equity and option market] .",
+            "InvestorsObserver.com be [ARG0: an online newsletter] [R-ARG0: which] [V: focus] [ARG2: on the U.S. equity and option market] ."
+        ],
+        [
+            "InvestorsObserver 's analytical tool , [V: screening] [ARG1: technique] , rigorous research method and commit staff provide solid information to help subscriber make the good possible investment decision .",
+            "InvestorsObserver 's analytical tool , screening technique , rigorous research method and [V: commit] [ARG1: staff] provide solid information to help subscriber make the good possible investment decision .",
+            "[ARG0: InvestorsObserver 's analytical tool , screening technique , rigorous research method and commit staff] [V: provide] [ARG1: solid information] [ARGM-PRP: to help subscriber make the good possible investment decision] .",
+            "InvestorsObserver 's analytical tool , screening technique , rigorous research method and commit staff provide solid information to [V: help] [ARG1: subscriber make the good possible investment decision] .",
+            "InvestorsObserver 's analytical tool , screening technique , rigorous research method and commit staff provide solid information to help [ARG0: subscriber] [V: make] [ARG1: the good possible investment decision] ."
+        ],
+        [
+            "[ARGM-DIS: for] [ARG1: more] information [V: go] [ARG2: to all stock] and option show be example only-- not recommendation to buy or sell .",
+            "[ARGM-PRP: for more information] go to all stock and option show [V: be] [ARG2: example] only-- not recommendation to buy or sell .",
+            "for more information go to all stock and option show be example only-- not recommendation to [V: buy] or sell .",
+            "for more information go to all stock and option show be example only-- not recommendation to buy or [V: sell] ."
+        ],
+        [
+            "InvestorsObserver 's pick [V: do] not represent a positive or negative outlook on any security .",
+            "[ARG0: InvestorsObserver 's pick] do [ARGM-NEG: not] [V: represent] [ARG1: a positive or negative outlook on any security] ."
+        ],
+        [
+            "potential return [V: do] not take into account your trade size , brokerage commission or taxis -- expense that will affect actual investment return .",
+            "[ARG0: potential return] do [ARGM-NEG: not] [V: take] [ARG2: into account] [ARG1: your trade size , brokerage commission or taxis -- expense that will affect actual investment return] .",
+            "potential return do not take into account your trade size , brokerage commission or taxis -- expense that [V: will] affect actual investment return .",
+            "potential return do not take into account your trade size , brokerage commission or taxis -- [ARG0: expense] [R-ARG0: that] [ARGM-MOD: will] [V: affect] [ARG1: actual investment return] ."
+        ],
+        [
+            "[ARG2: stock and option] [V: involve] [ARG1: risk] , thus stock and option be not suitable for all investor .",
+            "stock and option involve risk , [ARGM-DIS: thus] [ARG1: stock and option] [V: be] [ARGM-NEG: not] [ARG2: suitable for all investor] ."
+        ],
+        [
+            "prior to [V: buy] or sell option , a person should request a copy of Characteristics and Risks of Standardized Options available at privacy policy available upon request .",
+            "prior to buy or [V: sell] option , a person should request a copy of Characteristics and Risks of Standardized Options available at privacy policy available upon request .",
+            "prior to buy or sell option , a person [V: should] request a copy of Characteristics and Risks of Standardized Options available at privacy policy available upon request .",
+            "[ARGM-TMP: prior to buy or sell option] , [ARG0: a person] [ARGM-MOD: should] [V: request] [ARG1: a copy of Characteristics and Risks of Standardized Options available at privacy policy available upon request] ."
+        ],
+        [
+            "to [V: view] [ARG1: the original version] [ARG2: on PR Newswire] , visit : source InvestorsObserver",
+            "[ARGM-PRP: to view the original version on PR Newswire] , [V: visit] : [ARG1: source InvestorsObserver]"
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[V: have] be encourage stock exchange , MFs to undertake investor education : # SEBI Chairman UK Sinha ..",
+            "have [V: be] encourage stock exchange , MFs to undertake investor education : # SEBI Chairman UK Sinha ..",
+            "have be [V: encourage] [ARG1: stock exchange ,] [ARGM-DIS: MFs] [ARG2: to undertake investor education] : # SEBI Chairman UK Sinha ..",
+            "have be encourage stock exchange , [ARG0: MFs] to [V: undertake] [ARG1: investor education] : # SEBI Chairman UK Sinha .."
+        ],
+        [
+            "US - base Alexion Pharmaceuticals [V: have] .... also on the # RayDarcyShow , have # PriceWatch and Daniel ODonnell chat about the launch of on .",
+            "[ARG0: US - base Alexion Pharmaceuticals] have .... [ARGM-ADV: also] [ARGM-LOC: on the # RayDarcyShow] , [V: have] [ARG1: # PriceWatch and Daniel ODonnell chat about the launch of on] .",
+            "US - base Alexion Pharmaceuticals have .... also on the # RayDarcyShow , have [ARG0: # PriceWatch and Daniel ODonnell] [V: chat] [ARG1: about the launch of on] ."
+        ],
+        [
+            "[ARGM-DIS: well] [V: do] [ARG2: to your dad and co - worker] !"
+        ],
+        [
+            "[ARG0: we] [V: provide] [ARG1: alert on we 's incident] [ARGM-PRP: to keep public] [ARG1: informed ... its price watch time with on] the # RayDarcyShow now - email your query pricewatch .",
+            "we provide alert on we [V: 's] incident to keep public informed ... its price watch time with on the # RayDarcyShow now - email your query pricewatch .",
+            "we provide alert on we 's incident to [V: keep] public [ARG1: informed] ... its price watch time with on the # RayDarcyShow now - email your query pricewatch .",
+            "we provide alert on we 's incident to keep public informed ... its price watch time with on the # RayDarcyShow now - [V: email] [ARG2: your query pricewatch] ."
+        ],
+        []
+    ],
+    "tweets_verbs": ["have", "be", "encourage", "undertake", "have", "have", "chat", "do", "provide", "'s", "keep", "email"],
+    "metrics": {
+        "verb_precision": 50.0,
+        "verb_recall": 10.714
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 9
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 3
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "do": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "provide": {
+                "all_frames": {
+                    "rouge1_precision": 0.083,
+                    "rouge1_recall": 0.064,
+                    "rouge1_f1": 0.072,
+                    "frequency": 3
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: InvestorsObserver] [V: provide] [ARG1: actionable strategy that protect investment with basic hedging tactic , along with a concise explanation of InvestorsObserver 's technique] .",
+                        "tweet_args": "[ARG0: we] [V: provide] [ARG1: alert on we 's incident] [ARGM-PRP: to keep public] [ARG1: informed ... its price watch time with on] the # RayDarcyShow now - email your query pricewatch .",
+                        "rouge1_recall": 0.105,
+                        "rouge1_precision": 0.125,
+                        "rouge1_f1": 0.114
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: InvestorsObserver] [V: provide] [ARG1: actionable strategy that protect investment with basic hedging tactic , along with a concise explanation of InvestorsObserver 's technique] .",
+                        "tweet_args": "[ARG0: we] [V: provide] [ARG1: alert on we 's incident] [ARGM-PRP: to keep public] [ARG1: informed ... its price watch time with on] the # RayDarcyShow now - email your query pricewatch .",
+                        "rouge1_recall": 0.105,
+                        "rouge1_precision": 0.125,
+                        "rouge1_f1": 0.114
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: InvestorsObserver] [V: provide] [ARG1: actionable strategy that protect investment with basic hedging tactic , along with a concise explanation of InvestorsObserver 's technique] .",
+                        "tweet_args": "[ARG0: we] [V: provide] [ARG1: alert on we 's incident] [ARGM-PRP: to keep public] [ARG1: informed ... its price watch time with on] the # RayDarcyShow now - email your query pricewatch .",
+                        "rouge1_recall": 0.105,
+                        "rouge1_precision": 0.125,
+                        "rouge1_f1": 0.114
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.015,
+            "rouge1_recall": 0.011,
+            "rouge1_f1": 0.013
+        }
+    }
+}

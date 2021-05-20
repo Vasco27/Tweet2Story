@@ -1,0 +1,212 @@
+{
+    "topic": "23432c8f-b9a6-42ac-8d41-9375967c8c4c",
+    "coref_content": "Shawn Branch 91 - year - old woman may face charge on # Auschwitz action. former death camp worker accuse of complicity in the ... 3 hour ago 《 Këllý 》 rt @Y7News : a 91 - year - old woman who work at Auschwitz have be accuse of complicity in the murder of at least 260,000 Jews. 3 hour ago RedClover rt @Y7News : a 91 - year - old woman who work at Auschwitz have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews. 3 hour ago Nick Hansen rt @Y7News : a 91 - year - old woman who work at Auschwitz have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews. 4 hour ago 7News Yahoo7 a 91 - year - old woman who work at Auschwitz have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews. 4 hour ago.",
+    "tweets_content": "A 91-year-old German woman has been charged with 260,000 counts of accessory to murder for her role in Auschwitz.\nGermany charges 91-year-old woman over role at Auschwitz.\nAuschwitz allegations: 91-year-old charged with 260,000 counts of being an accessory to murder.\nA 91-year-old German woman has been charged with 260,000 counts of accessory to murder for her role in Auschwitz.\nAuschwitz: Woman, 91, accused of complicity in murder of 260,000 Jews.\nWoman, 91, charged over 260,000 Auschwitz deaths.\nA 91-year-old woman who worked at Auschwitz has been accused of complicity in the murders of at least 260,000 Jews..\nA 91-year-old woman is facing charges of 260,000 counts of Nazi crimes.\n91yo woman who worked at Auschwitz has been accused of complicity in the murders of at least 260,000 Jews:.\nGerman woman charged with aiding in Nazi death camp murders: A 91-year-old German woman has been charged with ....\n91-Year old woman charged with aiding in Nazi death camp murders.\nA 91-year-old woman has been charged with 60,000 counts of accessory to murder at Auschwitz:.\nA 91-year-old woman has been charged with 60,000 counts of accessory to murder at Auschwitz:.\n91-year-old German woman charged with 260,000 counts of accessory to murder at Auschwitz.\nWoman, 91, charged in 260,000 Auschwitz deaths..\nWoman, 91, accused of 200k Auschwitz deaths.\nA 91-year-old woman has been charged with 260,000 counts of accessory to murder at Auschwitz.\n",
+    "coref_tweets": "a 91 - year - old german woman have be charge with 260,000 count of accessory to murder for a 91 - year - old german woman's role in Auschwitz. Germany charge a 91 - year - old german woman over role at Auschwitz. Auschwitz allegation : a 91 - year - old german woman charge with 260,000 count of be an accessory to murder. a 91 - year - old german woman have be charge with 260,000 count of accessory to murder for her role in Auschwitz. Auschwitz : woman, 91, accuse of complicity in murder of 260,000 Jews. woman, 91, charge over 260,000 Auschwitz death. a 91 - year - old woman who work at Auschwitz have be accuse of complicity in murder of 260,000 Jews 260,000 Jews .. a 91 - year - old woman be face charge of 260,000 count of nazi crime. a 91 - year - old woman who work at Auschwitz have be accuse of complicity in murder of 260,000 Jews 260,000 Jews :. german woman charge with aid in nazi death camp murder : a 91 - year - old german woman have be charge with .... 91 - year old woman charge with aid in nazi death camp murder. a 91 - year - old woman have be charge with 60,000 count of accessory to murder at Auschwitz :. a 91 - year - old woman have be charge with 60,000 count of accessory to murder at Auschwitz :. 91 - year - old german woman charge with 260,000 count of accessory to murder at Auschwitz. woman, 91, charge in 260,000 Auschwitz death .. woman, 91, accuse of 200k Auschwitz death. a 91 - year - old woman have be charge with 260,000 count of accessory to murder at Auschwitz.",
+    "nr_tweets": 18,
+    "topic_clusters": [
+        ["Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz"],
+        ["a 91 - year - old woman who work at Auschwitz", "a 91 - year - old woman who work at Auschwitz", "a 91 - year - old woman who work at Auschwitz", "A 91 - year - old woman who work at Auschwitz"],
+        ["the murder of at least 260,000 Jews", "the murder of at least 260,000 Jews", "the murder of at least 260,000 Jews", "the murder of at least 260,000 Jews"],
+        ["at least 260,000 Jews", "at least 260,000 Jews", "at least 260,000 Jews", "at least 260,000 Jews"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["a 91 - year - old german woman", "her", "91 - year - old woman", "91 - year - old", "a 91 - year - old german woman", "her"],
+        ["Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz", "Auschwitz"],
+        ["her role in Auschwitz", "her role in Auschwitz"],
+        ["murder of 260,000 Jews", "the murder of at least 260,000 Jews", "the murder of at least 260,000 Jews"],
+        ["260,000 Jews", "at least 260,000 Jews", "at least 260,000 Jews"],
+        ["a 91 - year - old woman who work at Auschwitz", "91yo woman who work at Auschwitz"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "Shawn Branch 91 - year - old woman [V: may] face charge on # Auschwitz action .",
+            "[ARG0: Shawn Branch 91 - year - old woman] [ARGM-MOD: may] [V: face] [ARG1: charge] [ARGM-LOC: on # Auschwitz action] ."
+        ],
+        [
+            "former death camp worker accuse of complicity in the ... 3 hour ago 《 Këllý 》 rt @Y7News : [ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in the murder of at least 260,000 Jews .",
+            "former death camp worker accuse of complicity in the ... 3 hour ago 《 Këllý 》 rt @Y7News : a 91 - year - old woman who work at Auschwitz [V: have] be accuse of complicity in the murder of at least 260,000 Jews .",
+            "former death camp worker accuse of complicity in the ... 3 hour ago 《 Këllý 》 rt @Y7News : a 91 - year - old woman who work at Auschwitz have [V: be] accuse of complicity in the murder of at least 260,000 Jews ."
+        ],
+        [
+            "3 hour ago RedClover [V: rt] [ARG1: @Y7News] : a 91 - year - old woman who work at Auschwitz have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "3 hour ago RedClover rt @Y7News : [ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "3 hour ago RedClover rt @Y7News : a 91 - year - old woman who work at Auschwitz [V: have] be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "3 hour ago RedClover rt @Y7News : a 91 - year - old woman who work at Auschwitz have [V: be] accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews ."
+        ],
+        [
+            "[ARGM-TMP: 3 hour ago] [ARG0: Nick Hansen] [V: rt] [ARG1: @Y7News] : a 91 - year - old woman who work at Auschwitz have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "3 hour ago Nick Hansen rt @Y7News : [ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "3 hour ago Nick Hansen rt @Y7News : a 91 - year - old woman who work at Auschwitz [V: have] be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "3 hour ago Nick Hansen rt @Y7News : a 91 - year - old woman who work at Auschwitz have [V: be] accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews ."
+        ],
+        [
+            "4 hour ago 7News Yahoo7 [ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "4 hour ago 7News Yahoo7 a 91 - year - old woman who work at Auschwitz [V: have] be accuse of complicity in the murder of at least 260,000 Jewsat least 260,000 Jews .",
+            "4 hour ago 7News Yahoo7 [ARG1: a 91 - year - old woman who work at Auschwitz] have [V: be] [ARG2: accuse of complicity in the murder of at least 260,000 Jewsat] least 260,000 Jews ."
+        ],
+        []
+    ],
+    "tweets_sentences_srl": [
+        [
+            "a 91 - year - old german woman [V: have] be charge with 260,000 count of accessory to murder for a 91 - year - old german woman 's role in Auschwitz .",
+            "[ARG1: a 91 - year - old german woman] have [V: be] [ARG2: charge with 260,000 count of accessory to murder for a 91 - year - old german woman 's role in Auschwitz] .",
+            "[ARG2: a 91 - year - old german woman] have be [V: charge] [ARG1: with 260,000 count of accessory] [ARG2: to murder for a 91 - year - old german woman 's role in Auschwitz] .",
+            "a 91 - year - old german woman have be charge with 260,000 count of accessory to [V: murder] [ARGM-CAU: for a 91 - year - old german woman 's role in Auschwitz] ."
+        ],
+        [
+            "[ARG0: Germany] [V: charge] [ARG1: a 91 - year - old german woman] [ARG2: over role at Auschwitz] ."
+        ],
+        [
+            "Auschwitz allegation : a [ARG1: 91 - year - old german woman] [V: charge] [ARGM-ADJ: with 260,000] count of be an accessory to murder .",
+            "Auschwitz allegation : a 91 - year - old german woman charge with 260,000 count of [V: be] [ARG2: an accessory to murder] .",
+            "Auschwitz allegation : a 91 - year - old german woman charge with 260,000 count of be an accessory to [V: murder] ."
+        ],
+        [
+            "a 91 - year - old german woman [V: have] be charge with 260,000 count of accessory to murder for her role in Auschwitz .",
+            "[ARG1: a 91 - year - old german woman] have [V: be] [ARG2: charge with 260,000 count of accessory to murder for her role in Auschwitz] .",
+            "[ARG2: a 91 - year - old german woman] have be [V: charge] [ARG1: with 260,000 count of accessory to murder for her role in Auschwitz] .",
+            "a 91 - year - old german woman have be charge with 260,000 count of accessory to [V: murder] for her role in Auschwitz ."
+        ],
+        [],
+        [
+            "woman , 91 , [V: charge] [ARG1: over 260,000 Auschwitz death] ."
+        ],
+        [
+            "[ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in murder of 260,000 Jews 260,000 Jews .. a 91 - year - old woman be face charge of 260,000 count of nazi crime .",
+            "a 91 - year - old woman who work at Auschwitz [V: have] be accuse of complicity in murder of 260,000 Jews 260,000 Jews .. a 91 - year - old woman be face charge of 260,000 count of nazi crime .",
+            "a 91 - year - old woman who work at Auschwitz have [V: be] accuse of complicity in murder of 260,000 Jews 260,000 Jews .. a 91 - year - old woman be face charge of 260,000 count of nazi crime .",
+            "a 91 - year - old woman who work at Auschwitz have be accuse of complicity in murder of 260,000 Jews 260,000 Jews .. [ARG1: a 91 - year - old woman] [V: be] [ARG2: face charge of 260,000 count of nazi crime] ."
+        ],
+        [
+            "[ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in murder of 260,000 Jews 260,000 Jews : .",
+            "a 91 - year - old woman who work at Auschwitz [V: have] be accuse of complicity in murder of 260,000 Jews 260,000 Jews : .",
+            "a 91 - year - old woman who work at Auschwitz have [V: be] accuse of complicity in murder of 260,000 Jews 260,000 Jews : ."
+        ],
+        [
+            "german woman charge with aid in nazi death camp murder : a 91 - year - old german woman [V: have] be charge with .... 91 - year old woman charge with aid in nazi death camp murder .",
+            "german woman charge with aid in nazi death camp murder : [ARG1: a 91 - year - old german woman] have [V: be] [ARG2: charge with .... 91 - year old woman charge with aid in nazi death camp murder] .",
+            "german woman charge with aid in nazi death camp murder : [ARG1: a 91 - year - old german] woman have be [V: charge] [ARG2: with .... 91 - year old woman charge with aid in nazi death camp murder] ."
+        ],
+        [
+            "a 91 - year - old woman [V: have] be charge with 60,000 count of accessory to murder at Auschwitz : .",
+            "[ARG1: a 91 - year - old woman] have [V: be] [ARG2: charge with 60,000 count of accessory to murder at Auschwitz] : .",
+            "a 91 - year - old woman have be [V: charge] [ARG1: with 60,000 count of accessory to murder at Auschwitz] : .",
+            "a 91 - year - old woman have be charge with 60,000 count of accessory to [V: murder] [ARGM-LOC: at Auschwitz] : ."
+        ],
+        [
+            "a 91 - year - old woman [V: have] be charge with 60,000 count of accessory to murder at Auschwitz : .",
+            "[ARG1: a 91 - year - old woman] have [V: be] [ARG2: charge with 60,000 count of accessory to murder at Auschwitz] : .",
+            "a 91 - year - old woman have be [V: charge] [ARG1: with 60,000 count of accessory to murder at Auschwitz] : .",
+            "a 91 - year - old woman have be charge with 60,000 count of accessory to [V: murder] [ARGM-LOC: at Auschwitz] : ."
+        ],
+        [
+            "[ARG1: 91 - year - old] [ARG0: german] [ARG2: woman] [V: charge] [ARG1: with 260,000 count of accessory to murder at Auschwitz] .",
+            "91 - year - old german woman charge with 260,000 count of accessory to [V: murder] [ARGM-LOC: at Auschwitz] ."
+        ],
+        [],
+        [
+            "a 91 - year - old woman [V: have] be charge with 260,000 count of accessory to murder at Auschwitz .",
+            "[ARG1: a 91 - year - old woman] have [V: be] [ARG2: charge with 260,000 count of accessory to murder at Auschwitz] .",
+            "[ARG2: a] 91 - year - old woman have be [V: charge] [ARG1: with 260,000 count of accessory to murder at Auschwitz] .",
+            "a 91 - year - old woman have be charge with 260,000 count of accessory to [V: murder] [ARGM-LOC: at Auschwitz] ."
+        ]
+    ],
+    "tweets_verbs": ["have", "be", "charge", "murder", "charge", "charge", "be", "murder", "have", "be", "charge", "murder", "charge", "work", "have", "be", "be", "work", "have", "be", "have", "be", "charge", "have", "be", "charge", "murder", "have", "be", "charge", "murder", "charge", "murder", "have", "be", "charge", "murder"],
+    "metrics": {
+        "verb_precision": 54.054,
+        "verb_recall": 83.333
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 32
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.104,
+                    "rouge1_recall": 0.083,
+                    "rouge1_f1": 0.09,
+                    "frequency": 40
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "4 hour ago 7News Yahoo7 [ARG1: a 91 - year - old woman who work at Auschwitz] have [V: be] [ARG2: accuse of complicity in the murder of at least 260,000 Jewsat] least 260,000 Jews .",
+                        "tweet_args": "[ARG1: a 91 - year - old woman] have [V: be] [ARG2: charge with 260,000 count of accessory to murder at Auschwitz] .",
+                        "rouge1_recall": 0.524,
+                        "rouge1_precision": 0.688,
+                        "rouge1_f1": 0.595
+                    },
+                    "best_recall": {
+                        "topic_args": "4 hour ago 7News Yahoo7 [ARG1: a 91 - year - old woman who work at Auschwitz] have [V: be] [ARG2: accuse of complicity in the murder of at least 260,000 Jewsat] least 260,000 Jews .",
+                        "tweet_args": "[ARG1: a 91 - year - old german woman] have [V: be] [ARG2: charge with 260,000 count of accessory to murder for a 91 - year - old german woman 's role in Auschwitz] .",
+                        "rouge1_recall": 0.524,
+                        "rouge1_precision": 0.423,
+                        "rouge1_f1": 0.468
+                    },
+                    "best_f1": {
+                        "topic_args": "4 hour ago 7News Yahoo7 [ARG1: a 91 - year - old woman who work at Auschwitz] have [V: be] [ARG2: accuse of complicity in the murder of at least 260,000 Jewsat] least 260,000 Jews .",
+                        "tweet_args": "[ARG1: a 91 - year - old woman] have [V: be] [ARG2: charge with 260,000 count of accessory to murder at Auschwitz] .",
+                        "rouge1_recall": 0.524,
+                        "rouge1_precision": 0.688,
+                        "rouge1_f1": 0.595
+                    }
+                }
+            },
+            "work": {
+                "all_frames": {
+                    "rouge1_precision": 1.0,
+                    "rouge1_recall": 1.0,
+                    "rouge1_f1": 1.0,
+                    "frequency": 8
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "former death camp worker accuse of complicity in the ... 3 hour ago 《 Këllý 》 rt @Y7News : [ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in the murder of at least 260,000 Jews .",
+                        "tweet_args": "[ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in murder of 260,000 Jews 260,000 Jews .. a 91 - year - old woman be face charge of 260,000 count of nazi crime .",
+                        "rouge1_recall": 1.0,
+                        "rouge1_precision": 1.0,
+                        "rouge1_f1": 1.0
+                    },
+                    "best_recall": {
+                        "topic_args": "former death camp worker accuse of complicity in the ... 3 hour ago 《 Këllý 》 rt @Y7News : [ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in the murder of at least 260,000 Jews .",
+                        "tweet_args": "[ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in murder of 260,000 Jews 260,000 Jews .. a 91 - year - old woman be face charge of 260,000 count of nazi crime .",
+                        "rouge1_recall": 1.0,
+                        "rouge1_precision": 1.0,
+                        "rouge1_f1": 1.0
+                    },
+                    "best_f1": {
+                        "topic_args": "former death camp worker accuse of complicity in the ... 3 hour ago 《 Këllý 》 rt @Y7News : [ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in the murder of at least 260,000 Jews .",
+                        "tweet_args": "[ARG0: a 91 - year - old woman] [R-ARG0: who] [V: work] [ARGM-LOC: at Auschwitz] have be accuse of complicity in murder of 260,000 Jews 260,000 Jews .. a 91 - year - old woman be face charge of 260,000 count of nazi crime .",
+                        "rouge1_recall": 1.0,
+                        "rouge1_precision": 1.0,
+                        "rouge1_f1": 1.0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.152,
+            "rouge1_recall": 0.142,
+            "rouge1_f1": 0.145
+        }
+    }
+}

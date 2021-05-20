@@ -1,0 +1,338 @@
+{
+    "topic": "011e98e2-0434-4004-b020-7a4a81e12d68",
+    "coref_content": "it appear that a train could arrive on the platform, several metre above ground level. five year be a considerable amount of time to obtain planning permission. clarify a certain usage can be problematic. and when there be three train support on a rooftop, thing can get even more difficult. the design be conceive more like a bridge than a traditional building, architect Zvi Belling​, a director of ITN Architects, say. but have a variety of occupant throughout the design certainly stretch thing out, architect Zvi Belling​, a director of ITN Architects say. previously a 480 - square - metre vacant lot in Easey Street, Collingwood, Easey Street, Collingwood have be use by parking truck for many year. rather than a 480 - square - metre vacant lot in Easey Street, Collingwood, the Commercial 2 - zone plot remain vacant, architect Zvi Belling​, a director of ITN Architects have act as both architect and co - developer. we want to build on the street culture in the immediate area, a pocket of Collingwood that s a centre for graffiti artist not just in Melbourne, but in Australia, architect Zvi Belling​, a director of ITN Architects say. follow on from architect Zvi Belling​, a director of ITN Architects Hive apartment in Carlton, a concrete brutalist pile, the Easey Street, Collingwood development comprise office, hospitality business and cafe. occupy two street frontage, occupant and visitor can approach from the main street or from the lane behind. extend over five level, its not only the brutalist concrete facade that resonate, but the three train that appear to hover precariously on the rooftop. we be nt try to capture the idea of trainspotting. it be about engage with the graffiti culture, often associate with disused train, architect Zvi Belling​, a director of ITN Architects say. to locate disused train may take time for an architect, but ask a graffiti artist and there s an instant lead. we be direct to a man who have a collection of disused train which he purchase from the railway, say architect Zvi Belling​, a director of ITN Architects, who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop, but also anchor the three train that appear to hover precariously on the rooftop on the rooftop. the weight of each train require a different structural approach, architect Zvi Belling​, a director of ITN Architects say, point out the steel track below each train that have be cement into the roof foundation. while the rooftop highlight the graffiti culture associate with train, so do the ground floor cafe and building facade. the cafe, know as Zone one, share the train / graffiti culture. base on the zone - one yellow paper ticket, use prior to Myki, the cafe, know as Zone one feature graffiti - spray wall and seating that once would have grace the disuse Hitachi M - class train. even the bar at Zone one take the form of concrete track. Most of these train run from the 1970 through to the 1990, say architect Zvi Belling​, a director of ITN Architectsthe cafe, know as Zone onethe rooftop. other cue from the disuse Hitachi M - class train appear on the facade of the Easey Street development. the platform in the train station, for example, have be flip over to reveal the signage and tactile indicator ( advise traveller to stand behind the line ). and door to entrance have be customise use train track and sleeper. while the exterior be relatively free from graffiti, the interior be heavily cover with graffiti wall, as be the disuse Hitachi M - class train. the graffiti have be curate, architect Zvi Belling​, a director of ITN Architects say, point out the three layer of graffiti on one of the cafe wall. unlike the many passage, the office, vary in size from 40 square metre to 65 square metre, remain pristine white. some of the office have be design with balcony and galley - style kitchen, while other appear more robust, like the one at ground level that may be more conducive to a hospitality use or even for off - street car parking. while the outlook from the office be impressive, offer panoramic view of Melbourne skyline and environ, it the aspect from the train, one of which be currently use as a cafe, that draw the applause. complete with outdoor courtyard ( wedge between two train ), one could almost believe the disuse Hitachi M - class train be about to arrive on the platform, several metre above ground level. the story first appear on the Sydney Morning Herald ..",
+    "tweets_content": "Police lining the station platform now. Protecting a train without migrants on. Looks like a domestic train on opposite platform..\nReminder: No trains operating on SRT due to scheduled track work. Replacement buses operating...\nTrain service has resumed operations. Trains #423 and #424 are first trains to and from the Airport...\nThe only information that I have is that theyre working on it and the trains should be running by the end of the year. *mh..\nWe had a police request to stop trains. Trains are now back on the move...\nHigh priority to get on track   #Cranbourne #Melbourne #trains",
+    "coref_tweets": "Police line the station platform now. protect a train without migrant on. look like a domestic train on opposite platform .. reminder : no train operate on SRT due to schedule track work. replacement bus operate ... train service have resume operation. train # 423 and # 424 be first train to and from the Airport ... the only information that I have be that they re work on it and the train should be run by the end of the year. * mh .. we have a police request to stop train. train be now back on the move ... high priority to get on track # Cranbourne # Melbourne # train",
+    "nr_tweets": 6,
+    "topic_clusters": [
+        ["the design", "this building"],
+        ["architect Zvi Belling\u200b , a director of ITN Architects", "he", "Belling", "Belling", "Bellings", "Belling", "Belling", "he", "Belling , who restore the plaid - cover seat for the cafe , as well as for the bar that grace the rooftop", "Belling"],
+        ["Easey Street , Collingwood", "the Commercial 2 - zone plot", "Easey Street"],
+        ["a 480 - square - metre vacant lot in Easey Street , Collingwood , the Commercial 2 - zone plot", "the site"],
+        ["Collingwood", "Collingwood"],
+        ["the three train that appear to hover precariously on the rooftop", "the three train", "they"],
+        ["the cafe , know as Zone one", "the cafe", "the cafe"],
+        ["the rooftop", "the rooftop", "the rooftop"],
+        ["the disuse Hitachi M - class train", "the train", "the train on the rooftop", "the train"],
+        ["the Easey Street development", "the Easey Street development"],
+        ["the office", "these office", "the office"],
+        ["Melbourne", "Melbournes"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["train", "train"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "it [V: appear] [ARG1: that a train could arrive on the platform , several metre above ground level] .",
+            "it appear that a train [V: could] arrive on the platform , several metre above ground level .",
+            "it appear that [ARG1: a train] [ARGM-MOD: could] [V: arrive] [ARG4: on the platform , several metre above ground level] ."
+        ],
+        [
+            "[ARG1: five year] [V: be] [ARG2: a considerable amount of time to obtain planning permission] .",
+            "five year be a considerable amount of time to [V: obtain] [ARG1: planning permission] ."
+        ],
+        [
+            "[V: clarify] [ARG1: a certain usage] can be problematic .",
+            "clarify a certain usage [V: can] be problematic .",
+            "[ARG1: clarify a certain usage] [ARGM-MOD: can] [V: be] [ARG2: problematic] ."
+        ],
+        [
+            "and [ARGM-TMP: when] there [V: be] [ARG1: three train support] [ARGM-LOC: on a rooftop] , thing can get even more difficult .",
+            "and when there be three train support on a rooftop , thing [V: can] get even more difficult .",
+            "[ARGM-DIS: and] [ARGM-TMP: when there be three train support on a rooftop] , [ARG1: thing] [ARGM-MOD: can] [V: get] [ARG2: even more difficult] ."
+        ],
+        [
+            "[ARG1: the design] [V: be] [ARG2: conceive more like a bridge than a traditional building] , architect Zvi Belling​ , a director of ITN Architects , say .",
+            "[ARG1: the design be conceive more like a bridge than a traditional building] , [ARG0: architect Zvi Belling​ , a director of ITN Architects] , [V: say] ."
+        ],
+        [
+            "[ARGM-DIS: but] [V: have] [ARG1: a variety of occupant throughout the design] [ARGM-ADV: certainly stretch thing out] , architect Zvi Belling​ , a director of ITN Architects say .",
+            "[ARGM-DIS: but] have [ARG0: a variety of occupant throughout the design] [ARGM-ADV: certainly] [V: stretch] [ARG1: thing] out , architect Zvi Belling​ , a director of ITN Architects say .",
+            "[ARG1: but have a variety of occupant throughout the design certainly stretch thing out] , [ARG0: architect Zvi Belling​ , a director of ITN Architects] [V: say] ."
+        ],
+        [
+            "previously a 480 - square - metre vacant lot in Easey Street , Collingwood , Easey Street , Collingwood [V: have] be use by parking truck for many year .",
+            "previously a 480 - square - metre vacant lot in Easey Street , Collingwood , Easey Street , Collingwood have [V: be] use by parking truck for many year ."
+        ],
+        [
+            "[ARGM-ADV: rather than a 480 - square - metre vacant lot in Easey Street , Collingwood] , [ARG1: the Commercial 2 - zone plot] [V: remain] [ARG3: vacant] , architect Zvi Belling​ , a director of ITN Architects have act as both architect and co - developer .",
+            "rather than a 480 - square - metre vacant lot in Easey Street , Collingwood , the Commercial 2 - zone plot remain vacant , architect Zvi Belling​ , a director of ITN Architects [V: have] act as both architect and co - developer .",
+            "rather than a 480 - square - metre vacant lot in Easey Street , Collingwood , the Commercial 2 - zone plot remain vacant , [ARG0: architect Zvi Belling​ , a director of ITN Architects] have [V: act] [ARG1: as both architect and co - developer] ."
+        ],
+        [
+            "[ARG0: we] [V: want] [ARG1: to build on the street culture in the immediate area , a pocket of Collingwood that s a centre for graffiti artist not just in Melbourne , but in Australia] , architect Zvi Belling​ , a director of ITN Architects say .",
+            "[ARG0: we] want to [V: build] [ARGM-LOC: on the street culture] [ARGM-LOC: in the immediate area , a pocket of Collingwood that s a centre for graffiti artist not just in Melbourne , but in Australia] , architect Zvi Belling​ , a director of ITN Architects say .",
+            "we want to build on the street culture in the immediate area , a pocket of Collingwood [R-ARG1: that] [V: s] [ARG2: a centre for graffiti artist not just in Melbourne , but in Australia] , architect Zvi Belling​ , a director of ITN Architects say .",
+            "[ARG1: we want to build on the street culture in the immediate area , a pocket of Collingwood that s a centre for graffiti artist not just in Melbourne , but in Australia] , [ARG0: architect Zvi Belling​ , a director of ITN Architects] [V: say] ."
+        ],
+        [
+            "[V: follow] on [ARGM-DIR: from architect Zvi Belling​ , a director of ITN Architects Hive apartment in Carlton , a concrete brutalist pile] , the Easey Street , Collingwood development comprise office , hospitality business and cafe ."
+        ],
+        [
+            "[V: occupy] [ARG1: two street frontage] , occupant and visitor can approach from the main street or from the lane behind .",
+            "occupy two street frontage , occupant and visitor [V: can] approach from the main street or from the lane behind .",
+            "occupy two street frontage , [ARG1: occupant and visitor] [ARGM-MOD: can] [V: approach] [ARGM-DIR: from the main street or from the lane behind] ."
+        ],
+        [
+            "[V: extend] [ARG2: over five level] , [ARG1: its not only the brutalist concrete facade that resonate , but the three train that appear to hover precariously on the rooftop] .",
+            "extend over five level , its not only the brutalist concrete facade that resonate , but the three train that [V: appear] [ARG1: to hover precariously on the rooftop] .",
+            "extend over five level , its not only the brutalist concrete facade that resonate , but [ARG1: the three train] [R-ARG1: that] appear to [V: hover] [ARGM-MNR: precariously] [ARGM-LOC: on the rooftop] ."
+        ],
+        [
+            "we [V: be] nt try to capture the idea of trainspotting .",
+            "[ARG0: we] be [ARGM-NEG: nt] [V: try] [ARG1: to capture the idea of trainspotting] .",
+            "[ARG0: we] be nt try to [V: capture] [ARG1: the idea of trainspotting] ."
+        ],
+        [
+            "[ARG1: it] [V: be] [ARG2: about engage with the graffiti culture] , often associate with disused train , architect Zvi Belling​ , a director of ITN Architects say .",
+            "it be about engage with the graffiti culture , [ARGM-TMP: often] [V: associate] [ARG2: with disused train] , architect Zvi Belling​ , a director of ITN Architects say .",
+            "[ARG1: it be about engage with the graffiti culture , often associate with disused train] , [ARG0: architect Zvi Belling​ , a director of ITN Architects] [V: say] ."
+        ],
+        [
+            "to [V: locate] [ARG1: disused train] may take time for an architect , but ask a graffiti artist and there s an instant lead .",
+            "to locate disused train [V: may] take time for an architect , but ask a graffiti artist and there s an instant lead .",
+            "[ARG2: to locate disused train] [ARGM-MOD: may] [V: take] [ARG1: time] [ARG0: for an architect] , but ask a graffiti artist and there s an instant lead .",
+            "to locate disused train may take time for an architect , but [V: ask] [ARG2: a graffiti artist] and there s an instant lead .",
+            "to locate disused train may take time for an architect , but ask a graffiti artist and there [V: s] [ARG1: an instant lead] ."
+        ],
+        [
+            "[ARG1: we] [V: be] [ARG2: direct to a man who have a collection of disused train which he purchase from the railway] , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+            "we be direct to [ARG0: a man] [R-ARG0: who] [V: have] [ARG1: a collection of disused train which he purchase from the railway] , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+            "we be direct to a man who have a collection of [ARG1: disused train] [R-ARG1: which] [ARG0: he] [V: purchase] [ARG2: from the railway] , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , [V: say] [ARG0: architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop] .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , who [V: have] to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , [ARG0: who] have to [V: use] [ARG1: considerable ingenuity] [ARG2: not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop] .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , [ARG0: who] have to use considerable ingenuity not only to [V: crane] up [ARG1: the three train that appear to hover precariously on the rooftop] , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that [V: appear] [ARG1: to hover precariously on the rooftop] , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train [ARG1: that] appear to [V: hover] [ARGM-MNR: precariously] [ARGM-LOC: on the rooftop] , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , [ARG0: who] have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also [V: anchor] [ARG1: the three train that appear to hover precariously on the rooftop on the rooftop] .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor [ARG1: the three train] that [V: appear] [C-ARG1: to hover precariously on the rooftop on the rooftop] .",
+            "we be direct to a man who have a collection of disused train which he purchase from the railway , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train [ARG1: that] appear to [V: hover] [ARGM-MNR: precariously] [ARGM-LOC: on the rooftop] [ARGM-LOC: on the rooftop] ."
+        ],
+        [
+            "[ARG0: the weight of each train] [V: require] [ARG1: a different structural approach] , architect Zvi Belling​ , a director of ITN Architects say , point out the steel track below each train that have be cement into the roof foundation .",
+            "the weight of each train require a different structural approach , [ARG0: architect Zvi Belling​ , a director of ITN Architects] [V: say] , point out the steel track below each train that have be cement into the roof foundation .",
+            "the weight of each train require a different structural approach , [ARG0: architect Zvi Belling​] , a [ARG0: director of ITN] Architects say , [V: point] out [ARG1: the steel track below each train that have be cement into the roof foundation] .",
+            "the weight of each train require a different structural approach , architect Zvi Belling​ , a director of ITN Architects say , point out the steel track below each train that [V: have] be cement into the roof foundation .",
+            "the weight of each train require a different structural approach , architect Zvi Belling​ , a director of ITN Architects say , point out [ARG1: the steel track below each train] [R-ARG1: that] have [V: be] [ARG2: cement into the roof foundation] ."
+        ],
+        [
+            "while [ARG0: the rooftop] [V: highlight] [ARG1: the graffiti culture associate with train] , so do the ground floor cafe and building facade .",
+            "while the rooftop highlight the graffiti culture associate with train , so [V: do] [ARG0: the ground floor cafe and building facade] ."
+        ],
+        [
+            "[ARG1: the cafe] , [V: know] [ARG2: as Zone one] , share the train / graffiti culture .",
+            "[ARG0: the cafe , know as Zone one] , [V: share] [ARG1: the train / graffiti culture] ."
+        ],
+        [
+            "base on the zone - one yellow paper ticket , [V: use] [ARGM-TMP: prior to Myki] , the cafe , know as Zone one feature graffiti - spray wall and seating that once would have grace the disuse Hitachi M - class train .",
+            "base on the zone - one yellow paper ticket , use prior to Myki , the cafe , [V: know] [ARG2: as Zone one feature] graffiti - spray wall and seating that once would have grace the disuse Hitachi M - class train .",
+            "base on the zone - one yellow paper ticket , use prior to Myki , the cafe , know as Zone one feature graffiti - spray wall and seating that once would have grace the disuse Hitachi M - class train .",
+            "base on the zone - one yellow paper ticket , use prior to Myki , the cafe , know as Zone one feature graffiti - spray wall and seating that once would [V: have] grace the disuse Hitachi M - class train ."
+        ],
+        [
+            "[ARG0: even the bar at Zone one] [V: take] [ARG1: the form of concrete track] ."
+        ],
+        [
+            "[ARG1: Most of these train run from the 1970 through to the 1990] , [V: say] [ARG0: architect Zvi Belling​ , a director of ITN Architectsthe cafe , know as Zone onethe rooftop] .",
+            "Most of these train run from the 1970 through to the 1990 , say architect Zvi Belling​ , a director of ITN Architectsthe cafe , [V: know] [ARG2: as Zone onethe rooftop] ."
+        ],
+        [
+            "[ARG1: other cue from the disuse Hitachi M - class train] [V: appear] [ARGM-LOC: on the facade of the Easey Street development] ."
+        ],
+        [
+            "the platform in the train station , for example , [V: have] be flip over to reveal the signage and tactile indicator ( advise traveller to stand behind the line ) .",
+            "the platform in the train station , for example , have [V: be] flip over to reveal the signage and tactile indicator ( advise traveller to stand behind the line ) .",
+            "[ARG1: the platform in the train station] , [ARGM-DIS: for example] , have be [V: flip] [ARGM-DIR: over] [ARGM-PRP: to reveal the signage and tactile indicator ( advise traveller to stand behind the line )] .",
+            "the platform in the train station , for example , have be flip over to [V: reveal] [ARG1: the signage and tactile indicator ( advise traveller to stand behind the line )] .",
+            "the platform in the train station , for example , have be flip over to reveal the signage and tactile indicator ( [V: advise] [ARG1: traveller] [ARG2: to stand behind the line] ) .",
+            "the platform in the train station , for example , have be flip over to reveal the signage and tactile indicator ( advise [ARG1: traveller] to [V: stand] [ARG2: behind the line] ) ."
+        ],
+        [
+            "and door to entrance [V: have] be customise use train track and sleeper .",
+            "and [ARGM-LOC: door] to entrance have [V: be] customise use train track and sleeper ."
+        ],
+        [
+            "while [ARG1: the exterior] [V: be] [ARG2: relatively free from graffiti] , the interior be heavily cover with graffiti wall , as be the disuse Hitachi M - class train .",
+            "while the exterior be relatively free from graffiti , the interior [V: be] heavily cover with graffiti wall , as be the disuse Hitachi M - class train .",
+            "[ARGM-ADV: while the exterior be relatively free from graffiti] , [ARG1: the interior] be [ARGM-MNR: heavily] [V: cover] [ARG2: with graffiti wall] , [ARGM-ADV: as be the disuse Hitachi M - class train] .",
+            "while the exterior be relatively free from graffiti , the interior be heavily cover with graffiti wall , as [V: be] [ARG1: the disuse Hitachi M - class train] ."
+        ],
+        [
+            "the graffiti [V: have] be curate , architect Zvi Belling​ , a director of ITN Architects say , point out the three layer of graffiti on one of the cafe wall .",
+            "[ARG1: the graffiti] have [V: be] [ARG2: curate] , architect Zvi Belling​ , a director of ITN Architects say , point out the three layer of graffiti on one of the cafe wall .",
+            "the graffiti have be curate , [ARG0: architect Zvi Belling​ , a director of ITN Architects] [V: say] , point out the three layer of graffiti on one of the cafe wall .",
+            "the graffiti have be curate , [ARG0: architect Zvi Belling​] , a director of ITN Architects say , [V: point] out [ARG1: the three layer of graffiti on one of the cafe wall] ."
+        ],
+        [
+            "unlike the many passage , [ARG1: the office] , [V: vary] [ARG2: in size] [ARG2: from 40 square metre] [ARG4: to 65 square metre] , remain pristine white .",
+            "[ARGM-ADV: unlike the many passage] , [ARG1: the office] , vary in size from 40 square metre to 65 square metre , [V: remain] [ARG3: pristine white] ."
+        ],
+        [
+            "some of the office [V: have] be design with balcony and galley - style kitchen , while other appear more robust , like the one at ground level that may be more conducive to a hospitality use or even for off - street car parking .",
+            "[ARG1: some of the office] have [V: be] [ARG2: design with balcony and galley - style kitchen] , [ARGM-ADV: while other appear more robust , like the one at ground level that may be more conducive to a hospitality use or even for off - street car parking] .",
+            "some of the office have be design with balcony and galley - style kitchen , while other [V: appear] [ARG1: more robust] , [C-ARG1: like the one at ground level that may be more conducive to a hospitality use or even for off - street car parking] .",
+            "some of the office have be design with balcony and galley - style kitchen , while other appear more robust , like the one at ground level that [V: may] be more conducive to a hospitality use or even for off - street car parking .",
+            "some of the office have be design with balcony and galley - style kitchen , while other appear more robust , like [ARG1: the one at ground level] [R-ARG1: that] [ARGM-MOD: may] [V: be] [ARG2: more conducive to a hospitality use or even for off - street car parking] ."
+        ],
+        [
+            "while [ARG1: the outlook from the office] [V: be] [ARG2: impressive] , offer panoramic view of Melbourne skyline and environ , it the aspect from the train , one of which be currently use as a cafe , that draw the applause .",
+            "while the outlook from the office be impressive , [V: offer] [ARG1: panoramic view of Melbourne skyline and environ] , it the aspect from the train , one of which be currently use as a cafe , that draw the applause .",
+            "while the outlook from the office be impressive , offer panoramic view of Melbourne skyline and environ , it the aspect from the train , one of which [V: be] currently use as a cafe , that draw the applause .",
+            "while the outlook from the office be impressive , offer panoramic view of Melbourne skyline and environ , it the aspect from [R-ARG1: the train] , [ARG1: one of which] be [ARGM-TMP: currently] [V: use] [ARG2: as a cafe] , that draw the applause .",
+            "while the outlook from the office be impressive , offer panoramic view of Melbourne skyline and environ , it [ARG0: the aspect from the train , one of which be currently use as a cafe] , [R-ARG0: that] [V: draw] [ARG1: the applause] ."
+        ],
+        [
+            "complete with outdoor courtyard ( wedge between two train ) , one [V: could] almost believe the disuse Hitachi M - class train be about to arrive on the platform , several metre above ground level .",
+            "[ARGM-ADV: complete with outdoor courtyard ( wedge between two train )] , [ARG0: one] [ARGM-MOD: could] [ARGM-ADV: almost] [V: believe] [ARG1: the disuse Hitachi M - class train be about to arrive on the platform , several metre above ground level] .",
+            "complete with outdoor courtyard ( wedge between two train ) , one could almost believe [ARG1: the disuse Hitachi M - class train] [V: be] [ARG2: about to arrive on the platform , several metre above ground level] .",
+            "complete with outdoor courtyard ( wedge between two train ) , one could almost believe [ARG1: the disuse Hitachi M - class train] be about to [V: arrive] [ARG4: on the platform] , [ARG4: several metre above ground level] ."
+        ],
+        [
+            "[ARG1: the story] [ARGM-TMP: first] [V: appear] [ARGM-LOC: on the Sydney Morning Herald] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG2: Police] [V: line] [ARG1: the station platform] [ARGM-TMP: now] ."
+        ],
+        [
+            "[V: protect] [ARG1: a train without migrant on] ."
+        ],
+        [
+            "[V: look] [ARG1: like a domestic train on opposite platform] .. reminder : no train operate on SRT due to schedule track work .",
+            "look like a domestic train on opposite platform .. reminder : [ARG1: no train] [V: operate] [ARGM-LOC: on SRT] [ARGM-CAU: due to schedule track work] ."
+        ],
+        [
+            "[ARG1: replacement bus] [V: operate] ... train service have resume operation .",
+            "replacement bus operate ... train service [V: have] resume operation ."
+        ],
+        [
+            "[V: train] [ARG2: # 423 and # 424] be first train to and from the Airport ... the only information that I have be that they re work on it and the train should be run by the end of the year .",
+            "[ARG1: train # 423 and # 424] [V: be] [ARG2: first train to and from the Airport] ... the only information that I have be that they re work on it and the train should be run by the end of the year .",
+            "train # 423 and # 424 be first train to and from the Airport ... [ARG1: the only information] [R-ARG1: that] [ARG0: I] [V: have] be that they re work on it and the train should be run by the end of the year .",
+            "train # 423 and # 424 be first train to and from the Airport ... [ARG1: the only information that I have] [V: be] [ARG2: that they re work on it and the train should be run by the end of the year] .",
+            "train # 423 and # 424 be first train to and from the Airport ... the only information that I have be that [ARG0: they] [V: re] work on it and the train should be run by the end of the year .",
+            "train # 423 and # 424 be first train to and from the Airport ... the only information that I have be that they re work on it and the train [V: should] be run by the end of the year .",
+            "train # 423 and # 424 be first train to and from the Airport ... the only information that I have be that they re work on it and the train should [V: be] run by the end of the year .",
+            "train # 423 and # 424 be first train to and from the Airport ... the only information that I have be that they re work on it and [ARG1: the train] [ARGM-MOD: should] be [V: run] [ARGM-TMP: by the end of the year] ."
+        ],
+        [
+            "* [ARGM-DIS: mh] .. [ARG0: we] [V: have] [ARG1: a police request to stop train] .",
+            "* mh .. we have a police request to [V: stop] [ARG1: train] ."
+        ],
+        [
+            "[ARG1: train] [V: be] [ARGM-TMP: now] [ARG2: back on the move] ... high priority to get on track # Cranbourne # Melbourne # train",
+            "train be now back on the move ... high priority to [V: get] [ARG2: on track] # Cranbourne # Melbourne # train"
+        ]
+    ],
+    "tweets_verbs": ["line", "protect", "look", "operate", "operate", "have", "train", "be", "have", "be", "re", "should", "be", "run", "have", "stop", "be", "get"],
+    "metrics": {
+        "verb_precision": 44.444,
+        "verb_recall": 9.877
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.023,
+                    "rouge1_recall": 0.012,
+                    "rouge1_f1": 0.015,
+                    "frequency": 33
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "we be direct to [ARG0: a man] [R-ARG0: who] [V: have] [ARG1: a collection of disused train which he purchase from the railway] , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+                        "tweet_args": "* [ARGM-DIS: mh] .. [ARG0: we] [V: have] [ARG1: a police request to stop train] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.182
+                    },
+                    "best_recall": {
+                        "topic_args": "we be direct to [ARG0: a man] [R-ARG0: who] [V: have] [ARG1: a collection of disused train which he purchase from the railway] , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+                        "tweet_args": "* [ARGM-DIS: mh] .. [ARG0: we] [V: have] [ARG1: a police request to stop train] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.182
+                    },
+                    "best_f1": {
+                        "topic_args": "we be direct to [ARG0: a man] [R-ARG0: who] [V: have] [ARG1: a collection of disused train which he purchase from the railway] , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+                        "tweet_args": "* [ARGM-DIS: mh] .. [ARG0: we] [V: have] [ARG1: a police request to stop train] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.182
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.083,
+                    "rouge1_recall": 0.096,
+                    "rouge1_f1": 0.077,
+                    "frequency": 80
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "complete with outdoor courtyard ( wedge between two train ) , one could almost believe [ARG1: the disuse Hitachi M - class train] [V: be] [ARG2: about to arrive on the platform , several metre above ground level] .",
+                        "tweet_args": "[ARG1: train] [V: be] [ARGM-TMP: now] [ARG2: back on the move] ... high priority to get on track # Cranbourne # Melbourne # train",
+                        "rouge1_recall": 0.176,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.261
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: we] [V: be] [ARG2: direct to a man who have a collection of disused train which he purchase from the railway] , say architect Zvi Belling​ , a director of ITN Architects , who have to use considerable ingenuity not only to crane up the three train that appear to hover precariously on the rooftop , but also anchor the three train that appear to hover precariously on the rooftop on the rooftop .",
+                        "tweet_args": "[ARG1: train # 423 and # 424] [V: be] [ARG2: first train to and from the Airport] ... the only information that I have be that they re work on it and the train should be run by the end of the year .",
+                        "rouge1_recall": 0.222,
+                        "rouge1_precision": 0.364,
+                        "rouge1_f1": 0.276
+                    },
+                    "best_f1": {
+                        "topic_args": "while the exterior be relatively free from graffiti , the interior be heavily cover with graffiti wall , as [V: be] [ARG1: the disuse Hitachi M - class train] .",
+                        "tweet_args": "[ARG1: train] [V: be] [ARGM-TMP: now] [ARG2: back on the move] ... high priority to get on track # Cranbourne # Melbourne # train",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.333
+                    }
+                }
+            },
+            "get": {
+                "all_frames": {
+                    "rouge1_precision": 0.5,
+                    "rouge1_recall": 0.067,
+                    "rouge1_f1": 0.118,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARGM-DIS: and] [ARGM-TMP: when there be three train support on a rooftop] , [ARG1: thing] [ARGM-MOD: can] [V: get] [ARG2: even more difficult] .",
+                        "tweet_args": "train be now back on the move ... high priority to [V: get] [ARG2: on track] # Cranbourne # Melbourne # train",
+                        "rouge1_recall": 0.067,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.118
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARGM-DIS: and] [ARGM-TMP: when there be three train support on a rooftop] , [ARG1: thing] [ARGM-MOD: can] [V: get] [ARG2: even more difficult] .",
+                        "tweet_args": "train be now back on the move ... high priority to [V: get] [ARG2: on track] # Cranbourne # Melbourne # train",
+                        "rouge1_recall": 0.067,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.118
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARGM-DIS: and] [ARGM-TMP: when there be three train support on a rooftop] , [ARG1: thing] [ARGM-MOD: can] [V: get] [ARG2: even more difficult] .",
+                        "tweet_args": "train be now back on the move ... high priority to [V: get] [ARG2: on track] # Cranbourne # Melbourne # train",
+                        "rouge1_recall": 0.067,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.118
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.069,
+            "rouge1_recall": 0.071,
+            "rouge1_f1": 0.059
+        }
+    }
+}

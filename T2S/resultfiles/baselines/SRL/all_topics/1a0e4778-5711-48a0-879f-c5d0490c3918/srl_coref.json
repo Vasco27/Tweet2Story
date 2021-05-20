@@ -1,0 +1,269 @@
+{
+    "topic": "1a0e4778-5711-48a0-879f-c5d0490c3918",
+    "coref_content": ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce, a measure that the bill backer say will enhance public scrutiny of the deal. introduce by Senators Elizabeth Warren, D - Mass. and James Lankford, R - Okla., a measure that the bill backer say will enhance public scrutiny of the deal would require that federal enforcement agency disclose the true value of settlement reach with company to account for tax deduction and other credit that federal enforcement agency say reduce ....",
+    "tweets_content": "GOP leggies say their beliefs are not relevant to the bill, Dems say they are given that bill deals with family planning funding...\nTax and Superannuation Laws Amendment (2015 Measures No. 2) Bill has passed the #Senate without amendments..\n. The bipartisan bill... was drafted so that 60 votes would be required in the Senate....\nThe bipartisan bill... was drafted so that 60 votes would be required in the Senate....\nThe only people affected by todays proposed cuts to tax credits are families that are in work..\nAnd the bill that would have changed the system, #AB1200, died in the state Senate.. #KQEDPoliticalMuscle.\nI’m glad the Senate unanimously passed my Truth in Settlements Act for more transparency around gov settlements..\nLankford transparency bill clears Senate.\nJust a reminder that John Boehner didnt bring the Senate-passed bipartisan immigration bill to the floor last Congress...\nTune into the U.S. Senate floor session here:.\nSenate committee passes NUMS bill.\nHouse, Senate to send Obama temporary spending bill: A temporary funding measure that would keep the government….\n78-20, Senate passes govt funding bill (with Planned Parenthood money intact)...\n*SENATE PASSES SPENDING BILL TO AVOID U.S. GOVERNMENT SHUTDOWN..\nSenate passes bill to avert government shutdown, sends to House.\nSenate passes bill to avert government shutdown, sends to House.\nBREAKING: Senate passes spending bill to avoid govt shutdown, 78-20.-#AMR Staff..\nSenate passes spending bill to avoid govt shutdown, 78-20.-#AMR Staff..\nU.S. Senate approves temporary spending bill; House to follow.\nSenate has passed a bill that funds the govt through Dec., without defunding planned parenthood:",
+    "coref_tweets": "GOP leggie say GOP leggie's belief be not relevant to the bill, Dems say Dems be give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No. 2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system, # AB1200, die in the state Senate .. # KQEDPoliticalMuscle. I ’m glad the # Senate unanimously pass I's Truth in Settlements Act for more transparency around gov settlement .. Lankford transparency bill clear the # Senate. just a reminder that John Boehner did nt bring the the # Senate - pass bipartisan immigration bill to the floor last Congress ... tune into the the # Senate floor session here :. the # Senate committee pass NUMS bill. House, the # Senate to send Obama temporary spending bill : a temporary funding measure that would keep the government …. 78 - 20, the # Senate pass govt funding bill ( with Planned Parenthood money intact ) ... * the # Senate pass spend bill to avoid U.S. government shutdown .. the # Senate pass bill to avert government shutdown, send to House. the # Senate pass bill to avert government shutdown, send to House. break : the # Senate pass spending bill to avoid govt shutdown, 78 - 20.-#AMR staff .. the # Senate pass spending bill to avoid govt shutdown, 78 - 20.-#AMR Staff .. the # Senate approve spending bill to avoid govt shutdown ; House to follow. the # Senate have pass a bill that fund the govt through Dec., without defunde plan parenthood :",
+    "nr_tweets": 20,
+    "topic_clusters": [
+        ["a measure that the bill backer say will enhance public scrutiny of the deal", "the Truth in Settlements Act"],
+        ["federal enforcement agency", "federal agency", "they"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["GOP leggie", "their"],
+        ["Dems", "they"],
+        ["the bill", "that bill"],
+        ["the # Senate", "the Senate", "the Senate", "the Senate", "Senate", "Senate", "U.S. Senate", "Senate", "Senate", "Senate", "SENATE", "Senate", "Senate", "Senate", "Senate", "U.S. Senate", "Senate"],
+        ["the bipartisan bill", "the bipartisan bill"],
+        ["I", "my"],
+        ["House", "House", "House", "House"],
+        ["spending bill to avoid govt shutdown", "temporary spending bill"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            ", 6:19 pm ET ) -- the U.S. Senate [V: have] pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- [ARG0: the U.S. Senate] have [V: pass] [ARG1: a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal] .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass [ARG0: a bipartisan bill] that [ARGM-MOD: would] require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass [ARG0: a bipartisan bill] [R-ARG0: that] [ARGM-MOD: would] [V: require] [ARG2: federal enforcement agency] [ARG1: to account for tax break or other credit include in major settlement when they be publicly announce] , a measure that the bill backer say will enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require [ARG0: federal enforcement agency] to [V: account] [ARG1: for tax break or other credit] include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or [ARG1: other credit] [V: include] [ARG2: in major settlement] when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they [V: be] publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement [ARGM-TMP: when] [ARG1: they] be [ARGM-MNR: publicly] [V: announce] , a measure that the bill backer say will enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that [ARG0: the bill backer] [V: say] [ARG1: will enhance public scrutiny of the deal] .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say [V: will] enhance public scrutiny of the deal .",
+            ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , [ARG2: a measure] [R-ARG2: that] the bill backer say [ARGM-MOD: will] [V: enhance] [ARG1: public scrutiny of the deal] ."
+        ],
+        [
+            "[V: introduce] [ARG0: by Senators Elizabeth Warren , D - Mass.]"
+        ],
+        [
+            "and James Lankford , R - Okla. , a measure that [ARG0: the bill backer] [V: say] [ARG1: will enhance public scrutiny of the deal] would require that federal enforcement agency disclose the true value of settlement reach with company to account for tax deduction and other credit that federal enforcement agency say reduce ....",
+            "and James Lankford , R - Okla. , a measure that the bill backer say [V: will] enhance public scrutiny of the deal would require that federal enforcement agency disclose the true value of settlement reach with company to account for tax deduction and other credit that federal enforcement agency say reduce ....",
+            "and James Lankford , R - Okla. , [ARG2: a measure] [R-ARG2: that] the bill backer say [ARGM-MOD: will] [V: enhance] [ARG1: public scrutiny of the deal] would require that federal enforcement agency disclose the true value of settlement reach with company to account for tax deduction and other credit that federal enforcement agency say reduce ....",
+            "and James Lankford , R - Okla. , a measure that the bill backer say will enhance public scrutiny of the deal [V: would] require that federal enforcement agency disclose the true value of settlement reach with company to account for tax deduction and other credit that federal enforcement agency say reduce ....",
+            "[ARGM-DIS: and] [ARG0: James Lankford , R - Okla. ,] [ARG0: a measure that the bill backer say will enhance public scrutiny of the deal] [ARGM-MOD: would] [V: require] [ARG1: that federal enforcement agency disclose the true value of settlement reach with company to account for tax deduction and other credit that federal enforcement agency say reduce] ....",
+            "and James Lankford , R - Okla. , a measure that the bill backer say will enhance public scrutiny of the deal would require that [ARG0: federal enforcement agency] [V: disclose] [ARG1: the true value of settlement reach with company] [ARGM-PRP: to account for tax deduction and other credit that federal enforcement agency say reduce] ....",
+            "and James Lankford , R - Okla. , a measure that the bill backer say will enhance public scrutiny of the deal would require that federal enforcement agency disclose [ARG1: the true value of settlement] [V: reach] [ARGM-COM: with company] to account for tax deduction and other credit that federal enforcement agency say reduce ....",
+            "and James Lankford , R - Okla. , a measure that the bill backer say will enhance public scrutiny of the deal would require that federal enforcement agency disclose the true value of settlement reach with company to [V: account] [ARG1: for tax deduction and other credit that federal enforcement agency say reduce] ....",
+            "and James Lankford , R - Okla. , a measure that the bill backer say will enhance public scrutiny of the deal would require that federal enforcement agency disclose the true value of settlement reach with company to account for tax deduction and other credit that [ARG0: federal enforcement agency] [V: say] [ARG1: reduce] ....",
+            "and James Lankford , R - Okla. , a measure that the bill backer say will enhance public scrutiny of the deal would require that federal enforcement agency disclose the true value of settlement reach with company to account for [ARG1: tax deduction and other credit] [R-ARG1: that] federal enforcement agency say [V: reduce] ...."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: GOP leggie] [V: say] [ARG1: GOP leggie 's belief be not relevant to the bill , Dems say Dems be give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] .",
+            "GOP leggie say [ARG1: GOP leggie 's belief] [V: be] [ARGM-NEG: not] [ARG2: relevant to the bill] , Dems say Dems be give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No .",
+            "GOP leggie say GOP leggie 's belief be not relevant to the bill , [ARG0: Dems] [V: say] [ARG1: Dems be give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] .",
+            "GOP leggie say GOP leggie 's belief be not relevant to the bill , Dems say [ARG1: Dems] [V: be] [ARG2: give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] .",
+            "GOP leggie say GOP leggie 's belief be not relevant to the bill , Dems say Dems be [V: give] [ARG2: the bill] [ARG1: deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] .",
+            "GOP leggie say GOP leggie 's belief be not relevant to the bill , Dems say Dems be give [ARG0: the bill] [V: deal] [ARG1: with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] ."
+        ],
+        [
+            "2 ) bill [V: have] pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) [ARG0: bill] have [V: pass] [ARG1: the # Senate] [ARGM-MNR: without amendment] ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... [ARG1: the bipartisan bill] ... [V: be] [ARG2: draft] [ARGM-PRP: so that 60 vote would be require in the # Senate] .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote [V: would] be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that [ARG1: 60 vote] [ARGM-MOD: would] [V: be] [ARG2: require] in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... [ARG1: the bipartisan bill] ... [V: be] [ARG2: draft] [ARGM-PRP: so that 60 vote would be require in the # Senate] .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote [V: would] be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that [ARG1: 60 vote] [ARGM-MOD: would] [V: be] [ARG2: require in the # Senate] .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... [ARG1: the only people] [V: affect] [ARGM-TMP: by today] propose cut to tax credit be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose [V: cut] [ARGM-PRP: to tax credit] be family that be in work .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... [ARG1: the only people affect by today propose cut to tax credit] [V: be] [ARG2: family that be in work] .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be [ARG1: family] [R-ARG1: that] [V: be] [ARG2: in work] .. and the bill that would have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that [ARGM-MOD: would] have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that [ARGM-MOD: would] [V: have] change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and [ARG0: the bill] [R-ARG0: that] [ARGM-MOD: would] have [V: change] [ARG1: the system] , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+            "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and [ARG1: the bill that would have change the system , # AB1200] , [V: die] [ARGM-LOC: in the state Senate] .. [ARGM-PRD: #] [ARGM-ADV: KQEDPoliticalMuscle] ."
+        ],
+        [
+            "[ARG1: I] [V: ’] m glad the # Senate unanimously pass I 's Truth in Settlements Act for more transparency around gov settlement .. Lankford transparency bill clear the # Senate .",
+            "[ARG1: I] ’ [V: m] [ARG2: glad the # Senate unanimously pass I 's Truth in Settlements Act for more transparency around gov settlement .. Lankford transparency bill clear the # Senate] .",
+            "I ’ m glad [ARG0: the # Senate] [ARGM-MNR: unanimously] [V: pass] [ARG1: I 's Truth in Settlements Act] [ARGM-PRP: for more transparency around gov settlement] .. Lankford transparency bill clear the # Senate .",
+            "I ’ m glad the # Senate unanimously pass I 's Truth in Settlements Act for more transparency around gov settlement .. [ARG0: Lankford transparency bill] [V: clear] [ARG1: the # Senate] ."
+        ],
+        [
+            "just a reminder that John Boehner [V: did] nt bring the the # Senate - pass bipartisan immigration bill to the floor last Congress ... tune into the the # Senate floor session here : .",
+            "just a reminder that [ARG0: John Boehner] did [ARGM-NEG: nt] [V: bring] [ARG1: the the # Senate - pass bipartisan immigration bill] [ARG2: to the floor] [ARGM-TMP: last Congress] ... tune into the the # Senate floor session here : .",
+            "just a reminder that John Boehner did nt bring the the # [ARG0: Senate] - [V: pass] [ARG1: bipartisan immigration bill] to the floor last Congress ... tune into the the # Senate floor session here : ."
+        ],
+        [
+            "[ARG0: the # Senate committee] [V: pass] [ARG1: NUMS bill] ."
+        ],
+        [
+            "House , [ARG0: the # Senate] to [V: send] [ARG2: Obama] [ARG1: temporary spending bill : a temporary funding measure that would keep the government …] .",
+            "House , the # Senate to send Obama temporary spending bill : [ARG0: a temporary funding measure] that [V: would] keep the government … .",
+            "House , the # Senate to send Obama temporary spending bill : [ARG0: a temporary funding measure] [R-ARG0: that] [ARGM-MOD: would] [V: keep] [ARG1: the government] … ."
+        ],
+        [
+            "78 - 20 , the # Senate pass govt funding bill ( with Planned Parenthood money intact ) ... * the # Senate pass spend bill to [V: avoid] [ARG1: U.S. government shutdown] .. the # Senate pass bill to avert government shutdown , send to House .",
+            "78 - 20 , the # Senate pass govt funding bill ( with Planned Parenthood money intact ) ... * the # Senate pass spend bill to avoid U.S. government shutdown .. [ARG0: the # Senate pass bill] to [V: avert] [ARG1: government shutdown] , send to House .",
+            "78 - 20 , the # Senate pass govt funding bill ( with Planned Parenthood money intact ) ... * the # Senate pass spend bill to avoid U.S. government shutdown .. [ARG1: the # Senate pass bill to avert government] shutdown , [V: send] [ARG2: to House] ."
+        ],
+        [
+            "[ARG0: the # Senate pass bill] to [V: avert] [ARG1: government shutdown] , send to House .",
+            "[ARG1: the # Senate pass bill to avert government shutdown] , [V: send] [ARG2: to House] ."
+        ],
+        [
+            "[V: break] : the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR staff .. the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR Staff .. the # Senate approve spending bill to avoid govt shutdown ; House to follow .",
+            "break : [ARG0: the # Senate] [V: pass] [ARG1: spending bill to avoid govt shutdown] , 78 - 20.-#AMR staff .. the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR Staff .. the # Senate approve spending bill to avoid govt shutdown ; House to follow .",
+            "break : the # Senate pass spending bill to [V: avoid] [ARG1: govt shutdown] , 78 - 20.-#AMR staff .. the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR Staff .. the # Senate approve spending bill to avoid govt shutdown ; House to follow .",
+            "break : the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR staff .. [ARG0: the # Senate] [V: pass] [ARG1: spending bill] [ARGM-PRP: to avoid govt shutdown] , 78 - 20.-#AMR Staff .. the # Senate approve spending bill to avoid govt shutdown ; House to follow .",
+            "break : the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR staff .. the # Senate pass spending bill to [V: avoid] [ARG1: govt shutdown] , 78 - 20.-#AMR Staff .. the # Senate approve spending bill to avoid govt shutdown ; House to follow .",
+            "break : the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR staff .. the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR Staff .. [ARG0: the # Senate] [V: approve] [ARG1: spending bill to avoid govt shutdown] ; House to follow .",
+            "break : the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR staff .. the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR Staff .. the # Senate approve [ARG0: spending bill] to [V: avoid] [ARG1: govt shutdown] ; House to follow .",
+            "break : the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR staff .. the # Senate pass spending bill to avoid govt shutdown , 78 - 20.-#AMR Staff .. the # Senate approve spending bill to avoid govt shutdown ; [ARG0: House] to [V: follow] ."
+        ],
+        [
+            "the # Senate [V: have] pass a bill that fund the govt through Dec. , without defunde plan parenthood :",
+            "[ARG0: the # Senate] have [V: pass] [ARG1: a bill that fund the govt through Dec. , without defunde plan parenthood] :",
+            "the # Senate have pass [ARG0: a bill] [R-ARG0: that] [V: fund] [ARG1: the govt] [ARGM-TMP: through Dec.] , [ARGM-MNR: without defunde plan parenthood] :"
+        ]
+    ],
+    "tweets_verbs": ["say", "be", "say", "be", "give", "deal", "have", "pass", "be", "would", "be", "be", "would", "be", "affect", "cut", "be", "be", "would", "have", "change", "die", "'", "m", "pass", "clear", "do", "bring", "pass", "pass", "send", "would", "keep", "avoid", "avert", "send", "avert", "send", "break", "pass", "avoid", "pass", "avoid", "approve", "avoid", "follow", "have", "pass", "fund"],
+    "metrics": {
+        "verb_precision": 48.98,
+        "verb_recall": 63.158
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "pass": {
+                "all_frames": {
+                    "rouge1_precision": 0.54,
+                    "rouge1_recall": 0.094,
+                    "rouge1_f1": 0.155,
+                    "frequency": 7
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": ", 6:19 pm ET ) -- [ARG0: the U.S. Senate] have [V: pass] [ARG1: a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal] .",
+                        "tweet_args": "just a reminder that John Boehner did nt bring the the # [ARG0: Senate] - [V: pass] [ARG1: bipartisan immigration bill] to the floor last Congress ... tune into the the # Senate floor session here : .",
+                        "rouge1_recall": 0.068,
+                        "rouge1_precision": 0.75,
+                        "rouge1_f1": 0.125
+                    },
+                    "best_recall": {
+                        "topic_args": ", 6:19 pm ET ) -- [ARG0: the U.S. Senate] have [V: pass] [ARG1: a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal] .",
+                        "tweet_args": "just a reminder that John Boehner did nt bring the the # [ARG0: Senate] - [V: pass] [ARG1: bipartisan immigration bill] to the floor last Congress ... tune into the the # Senate floor session here : .",
+                        "rouge1_recall": 0.068,
+                        "rouge1_precision": 0.75,
+                        "rouge1_f1": 0.125
+                    },
+                    "best_f1": {
+                        "topic_args": ", 6:19 pm ET ) -- [ARG0: the U.S. Senate] have [V: pass] [ARG1: a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal] .",
+                        "tweet_args": "[ARG0: the # Senate] have [V: pass] [ARG1: a bill that fund the govt through Dec. , without defunde plan parenthood] :",
+                        "rouge1_recall": 0.136,
+                        "rouge1_precision": 0.429,
+                        "rouge1_f1": 0.207
+                    }
+                }
+            },
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 3
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "would": {
+                "all_frames": {
+                    "rouge1_precision": 0.156,
+                    "rouge1_recall": 0.062,
+                    "rouge1_f1": 0.081,
+                    "frequency": 8
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": ", 6:19 pm ET ) -- the U.S. Senate have pass [ARG0: a bipartisan bill] that [ARGM-MOD: would] require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+                        "tweet_args": "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that [ARGM-MOD: would] have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 1.0,
+                        "rouge1_f1": 0.4
+                    },
+                    "best_recall": {
+                        "topic_args": ", 6:19 pm ET ) -- the U.S. Senate have pass [ARG0: a bipartisan bill] that [ARGM-MOD: would] require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+                        "tweet_args": "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that [ARGM-MOD: would] have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 1.0,
+                        "rouge1_f1": 0.4
+                    },
+                    "best_f1": {
+                        "topic_args": ", 6:19 pm ET ) -- the U.S. Senate have pass [ARG0: a bipartisan bill] that [ARGM-MOD: would] require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that the bill backer say will enhance public scrutiny of the deal .",
+                        "tweet_args": "2 ) bill have pass the # Senate without amendment ... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the bipartisan bill ... be draft so that 60 vote would be require in the # Senate .... the only people affect by today propose cut to tax credit be family that be in work .. and the bill that [ARGM-MOD: would] have change the system , # AB1200 , die in the state Senate .. # KQEDPoliticalMuscle .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 1.0,
+                        "rouge1_f1": 0.4
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 8
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.094,
+                    "rouge1_recall": 0.233,
+                    "rouge1_f1": 0.132,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that [ARG0: the bill backer] [V: say] [ARG1: will enhance public scrutiny of the deal] .",
+                        "tweet_args": "GOP leggie say GOP leggie 's belief be not relevant to the bill , [ARG0: Dems] [V: say] [ARG1: Dems be give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] .",
+                        "rouge1_recall": 0.3,
+                        "rouge1_precision": 0.158,
+                        "rouge1_f1": 0.207
+                    },
+                    "best_recall": {
+                        "topic_args": ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that [ARG0: the bill backer] [V: say] [ARG1: will enhance public scrutiny of the deal] .",
+                        "tweet_args": "[ARG0: GOP leggie] [V: say] [ARG1: GOP leggie 's belief be not relevant to the bill , Dems say Dems be give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] .",
+                        "rouge1_recall": 0.4,
+                        "rouge1_precision": 0.125,
+                        "rouge1_f1": 0.19
+                    },
+                    "best_f1": {
+                        "topic_args": ", 6:19 pm ET ) -- the U.S. Senate have pass a bipartisan bill that would require federal enforcement agency to account for tax break or other credit include in major settlement when they be publicly announce , a measure that [ARG0: the bill backer] [V: say] [ARG1: will enhance public scrutiny of the deal] .",
+                        "tweet_args": "GOP leggie say GOP leggie 's belief be not relevant to the bill , [ARG0: Dems] [V: say] [ARG1: Dems be give the bill deal with family planning funding ... Tax and Superannuation Laws Amendment ( 2015 Measures No] .",
+                        "rouge1_recall": 0.3,
+                        "rouge1_precision": 0.158,
+                        "rouge1_f1": 0.207
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.175,
+            "rouge1_recall": 0.08,
+            "rouge1_f1": 0.079
+        }
+    }
+}

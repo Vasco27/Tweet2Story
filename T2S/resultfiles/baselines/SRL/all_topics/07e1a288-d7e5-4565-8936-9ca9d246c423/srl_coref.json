@@ -1,0 +1,251 @@
+{
+    "topic": "07e1a288-d7e5-4565-8936-9ca9d246c423",
+    "coref_content": "Sept. 12 - - Mens Wearhouse, a national clothing retailer, plan to open a new store in Grand Forks Columbia Mall this year. company spokeswoman Julie Town tell the Herald in June Mens Wearhouse, a national clothing retailer plan to open at the end of this year or in early 2016 somewhere on Columbia Road. company spokeswoman Julie Town confirm this week the location be Grand Forks Columbia Mall, with a tentative open date of Dec. 9. Mens Wearhouse, a national clothing retailer will occupy a 3,300 square - foot space next to Buckle in Grand Forks Columbia Mall, say Marianne Fasano, spokeswoman for the mall owner and operator GK Development. a new store will have an exterior entrance on the building east side. Mens Wearhouse, a national clothing retailer focus on men suit and other dress apparel, like tie, pant and accessory. Mens Wearhouse, a national clothing retailer's television commercial be famous for Mens Wearhouse, a national clothing retailer's now - oust founder tagline, you re go to like the way you look, I guarantee it. Mens Wearhouse, a national clothing retailer be found in 1973 and have more than 1,700 store, include location in Fargo and Bismarck. new coffee shop brew in Grand Forks Columbia Mall a coffee shop operator have take over for another in Grand Forks Columbia MallGrand Forks. Bully Brew Coffee House, which already have a location in the Valley Eldercare Center near Altru Hospital, open in the Coffee Companys former mall location early this summer. Bully Brew Coffee House, which already have a location in the Valley Eldercare Center near Altru Hospital hold a grand opening there Friday. owner Sandi Luck say new coffee shop brew in mall go through a remodel that provide a cozy spot where people may not expect to find one : a heavily - traffic shopping center. both location have very different target market, owner Sandi Luck say. Grand Forks Columbia Mall have a lot of traveler and shopper, but owner Sandi Luck also feel like Bully Brew Coffee House, which already have a location in the Valley Eldercare Center near Altru Hospital can support the local by have an area for small meeting. Bully Brew, which be locate next to JCPenney, be name after owner Sandi Luck English Bulldogs. owner Sandi Luck say Bully Brew Coffee House, which already have a location in the Valley Eldercare Center near Altru Hospital be keep Bully Brew Coffee House, which already have a location in the Valley Eldercare Center near Altru Hospital's 2100 S. Columbia Road location. job opening down, but not out the number of local job opening be down, but an employment official say business be still need plenty of worker. Grand Forks County have 308 few job in August compare to the same month last year, a 14 percent drop, accord to Job Service North Dakota. there be 21 percent few job opening statewide in that time period. still, Grand Forks have almost 2,200 open job last month, range from sale position, healthcare job, transportation work and other. it down a little, but there s still a lot of underlie strength that s show up in extreme interest in our job fair, say Keith Reitmeier, the manager of the local Job Service office. our be host our job fair Sept. 24 at the Alerus Center. employer like Alerus Financial, Altru Health System, American Crystal Sugar Co., Cirrus Aircraft and other have already sign up ..",
+    "tweets_content": "TRENDING: Top news stories of the hour at the Grand Forks Herald.\nAll the retailers. US stock movers: Barnes &amp; Noble, Quiksilver, Conns, Mens Wearhouse.\nWill this new venture bring ousted Mens Wearhouse founder George Zimmer sweet revenge.\nThe new business from Men’s Wearhouse founder George Zimmer that wants to change how you rent tuxedos.\nTurns out the guy I thought was Tommy Chong is just the CEO of Mens Wearhouse...\nSo  continues his roll of entertaining interviews with his chat with the Mens Wearhouse founder.\nMens Wearhouse founder looks to marry tech and tuxes.\nThe first commercial featured on CNN after the Pope leaves: Mens Wearhouse. #PopeInDC..\nAuthorities searching for robbery suspect in Grand Forks: GRAND FORKS, N.D. (AP) - Police in Grand Forks are s...",
+    "coref_tweets": "trend : top news story of the hour at the Grand Forks Herald. all the retailer. US stock mover : Barnes & amp ; Noble, Quiksilver, Conns, Mens Wearhouse. will this new venture bring oust Mens Wearhouse founder George Zimmer sweet revenge. this new venture Mens Wearhouse founder George Zimmer turn out the guy I think be Tommy Chong be just the CEO of Mens Wearhouse ... so continue his roll of entertain interview with his's chat with Mens Wearhouse founder George Zimmer. Mens Wearhouse founder George Zimmer look to marry tech and tux. the first commercial feature on CNN after the Pope leave : Mens Wearhouse. # PopeInDC .. authority search for robbery suspect in Grand Forks : Grand Forks ( AP ) - Police in Grand Forks be s ...",
+    "nr_tweets": 9,
+    "topic_clusters": [
+        ["Mens Wearhouse , a national clothing retailer", "Mens Wearhouse", "Mens Wearhouse", "Mens Wearhouse", "its", "its", "the retailer"],
+        ["this year", "this year"],
+        ["company spokeswoman Julie Town", "she"],
+        ["Grand Forks Columbia Mall", "the Columbia Mall", "the mall", "mall", "the Columbia Mall in Grand Forks", "the mall"],
+        ["a new store", "the store"],
+        ["Grand Forks", "Grand Forks"],
+        ["Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital", "Bully Brew", "we", "the Coffee Company", "its"],
+        ["new coffee shop brew in mall", "the new shop"],
+        ["owner Sandi Luck", "she", "I", "Lucks", "Luck"],
+        ["Columbia Road", "Columbia Road"],
+        ["our", "Job Service"],
+        ["our job fair", "a job fair"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Mens Wearhouse", "Mens Wearhouse", "Mens Wearhouse", "Mens Wearhouse"],
+        ["this new venture", "the new business from Men \u2019s Wearhouse founder George Zimmer that want to change how you rent tuxedo ."],
+        ["Mens Wearhouse founder George Zimmer", "Men \u2019s Wearhouse founder George Zimmer", "the Mens Wearhouse founder", "Mens Wearhouse founder"],
+        ["his", "his"],
+        ["Grand Forks", "Grand Forks", "GRAND FORKS , N.D."]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARGM-TMP: Sept.] 12 - - [ARG0: Mens Wearhouse , a national clothing retailer ,] [V: plan] [ARG1: to open a new store in Grand Forks Columbia Mall this year] .",
+            "Sept. 12 - - [ARG0: Mens Wearhouse , a national clothing retailer ,] plan to [V: open] [ARG1: a new store in Grand Forks Columbia Mall] [ARGM-TMP: this year] ."
+        ],
+        [
+            "[ARG0: company spokeswoman Julie Town] [V: tell] [ARG2: the Herald] [ARGM-TMP: in June] [ARG1: Mens Wearhouse , a national clothing retailer plan to open at the end of this year or in early 2016 somewhere on Columbia Road] .",
+            "company spokeswoman Julie Town tell the Herald in June Mens Wearhouse , [ARG1: a national clothing retailer] plan to [V: open] [ARGM-TMP: at the end of this year or in early 2016] [ARGM-LOC: somewhere on Columbia Road] ."
+        ],
+        [
+            "company spokeswoman Julie Town confirm this week [ARG1: the location] [V: be] [ARG2: Grand Forks Columbia Mall] , with a tentative open date of Dec. 9 ."
+        ],
+        [
+            "Mens Wearhouse , a national clothing retailer [V: will] occupy a 3,300 square - foot space next to Buckle in Grand Forks Columbia Mall , say Marianne Fasano , spokeswoman for the mall owner and operator GK Development .",
+            "[ARG0: Mens Wearhouse , a national clothing retailer] [ARGM-MOD: will] [V: occupy] [ARG1: a 3,300 square - foot space next to Buckle in Grand Forks Columbia Mall] , say Marianne Fasano , spokeswoman for the mall owner and operator GK Development .",
+            "[ARG1: Mens Wearhouse , a national clothing retailer will occupy a 3,300 square - foot space next to Buckle in Grand Forks Columbia Mall] , [V: say] [ARG0: Marianne Fasano , spokeswoman for the mall owner and operator GK Development] ."
+        ],
+        [
+            "a new store [V: will] have an exterior entrance on the building east side .",
+            "[ARG0: a new store] [ARGM-MOD: will] [V: have] [ARG1: an exterior entrance] [ARGM-LOC: on the building east side] ."
+        ],
+        [],
+        [
+            "Mens Wearhouse [,] [ARG1: a national clothing retailer 's television commercial] [V: be] [ARG2: famous for Mens Wearhouse , a national clothing retailer 's now - oust founder tagline] , you re go to like the way you look , I guarantee it .",
+            "Mens Wearhouse , a national clothing retailer 's television commercial be famous for Mens Wearhouse , a national clothing retailer 's now - oust founder tagline , you [V: re] go to like the way you look , I guarantee it .",
+            "Mens Wearhouse , a national clothing retailer 's television commercial be famous for Mens Wearhouse , a national clothing retailer 's now - oust founder tagline , you re [V: go] to like the way you look , I guarantee it .",
+            "Mens Wearhouse , a national clothing retailer 's television commercial be famous for Mens Wearhouse , a national clothing retailer 's now - oust founder tagline , you re go to like [ARGM-MNR: the way] [ARG0: you] [V: look] , I guarantee it .",
+            "Mens Wearhouse , a national clothing retailer 's television commercial be famous for Mens Wearhouse , a national clothing retailer 's now - oust founder tagline , you re go to like the way you look , [ARG0: I] [V: guarantee] [ARG1: it] ."
+        ],
+        [
+            "Mens Wearhouse , a national clothing retailer [V: be] found in 1973 and have more than 1,700 store , include location in Fargo and Bismarck .",
+            "Mens Wearhouse , [ARG1: a national clothing retailer] be [V: found] [ARGM-TMP: in 1973] and have more than 1,700 store , include location in Fargo and Bismarck .",
+            "[ARG0: Mens Wearhouse , a national clothing retailer] be found in 1973 and [V: have] [ARG1: more than 1,700 store] , include location in Fargo and Bismarck .",
+            "[ARG2: Mens Wearhouse , a national clothing retailer be found in 1973 and have more than 1,700 store ,] [V: include] [ARG1: location in Fargo and Bismarck] ."
+        ],
+        [
+            "[ARG0: new coffee shop] [V: brew] [ARGM-LOC: in Grand Forks Columbia Mall] a coffee shop operator have take over for another in Grand Forks Columbia MallGrand Forks .",
+            "new coffee shop brew in Grand Forks Columbia Mall a coffee shop operator [V: have] take over for another in Grand Forks Columbia MallGrand Forks .",
+            "[ARGM-LOC: new coffee shop brew in Grand Forks Columbia Mall] [ARG0: a coffee shop operator] have [V: take] over [ARGM-ADV: for another] [ARGM-LOC: in Grand Forks] [ARGM-ADV: Columbia MallGrand Forks] ."
+        ],
+        [
+            "[ARG0: Bully Brew Coffee House] , [R-ARG0: which] [ARGM-TMP: already] [V: have] [ARG1: a location in the Valley Eldercare Center near Altru Hospital] , open in the Coffee Companys former mall location early this summer ."
+        ],
+        [
+            "[ARG0: Bully Brew Coffee House] , [R-ARG0: which] [ARGM-TMP: already] [V: have] [ARG1: a location in the Valley Eldercare Center near Altru Hospital] hold a grand opening there Friday .",
+            "[ARG0: Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital] [V: hold] [ARG1: a grand opening] [ARGM-TMP: there] [ARGM-TMP: Friday] ."
+        ],
+        [
+            "[ARG0: owner Sandi Luck] [V: say] [ARG1: new coffee shop brew in mall go through a remodel that provide a cozy spot where people may not expect to find one : a heavily - traffic shopping center] .",
+            "owner Sandi Luck say [ARG1: new] [ARG0: coffee shop] [V: brew] [ARGM-LOC: in mall] go through a remodel that provide a cozy spot where people may not expect to find one : a heavily - traffic shopping center .",
+            "owner Sandi Luck say [ARG1: new coffee shop brew in mall] [V: go] [ARG2: through a remodel that provide a cozy spot where people may not expect to find one : a heavily - traffic shopping center] .",
+            "owner Sandi Luck say new coffee shop brew in mall go through [ARG0: a remodel] [R-ARG0: that] [V: provide] [ARG1: a cozy spot where people may not expect to find one : a heavily - traffic shopping center] .",
+            "owner Sandi Luck say new coffee shop brew in mall go through a remodel that provide a cozy spot where people [V: may] not expect to find one : a heavily - traffic shopping center .",
+            "owner Sandi Luck say new coffee shop brew in mall go through a remodel that provide a cozy spot where [ARG0: people] [ARGM-MOD: may] [ARGM-NEG: not] [V: expect] [ARG1: to find one] : a heavily - traffic shopping center .",
+            "owner Sandi Luck say new coffee shop brew in mall go through a remodel that provide [ARGM-LOC: a cozy spot] [R-ARGM-LOC: where] [ARG0: people] may not expect to [V: find] [ARG1: one] : a heavily - traffic shopping center ."
+        ],
+        [
+            "[ARG0: both location] [V: have] [ARG1: very different target market] , owner Sandi Luck say .",
+            "[ARG1: both location have very different target market] , [ARG0: owner Sandi Luck] [V: say] ."
+        ],
+        [
+            "[ARG0: Grand Forks Columbia Mall] [V: have] [ARG1: a lot of traveler and shopper] , but owner Sandi Luck also feel like Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital can support the local by have an area for small meeting .",
+            "Grand Forks Columbia Mall have a lot of traveler and shopper , but [ARG0: owner Sandi Luck] [ARGM-DIS: also] [V: feel] [ARG1: like Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital can support the local by have an area for small meeting] .",
+            "Grand Forks Columbia Mall have a lot of traveler and shopper , but owner Sandi Luck also feel like [ARG0: Bully Brew Coffee House] , [R-ARG0: which] [ARGM-TMP: already] [V: have] [ARG1: a location in the Valley Eldercare Center near Altru Hospital] can support the local by have an area for small meeting .",
+            "Grand Forks Columbia Mall have a lot of traveler and shopper , but owner Sandi Luck also feel like Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital [V: can] support the local by have an area for small meeting .",
+            "Grand Forks Columbia Mall have a lot of traveler and shopper , but owner Sandi Luck also feel like [ARG0: Bully Brew Coffee House] , which already have [ARG0: a location in the Valley Eldercare Center near Altru Hospital] [ARGM-MOD: can] [V: support] [ARG1: the local] [ARGM-MNR: by have an area for small meeting] .",
+            "Grand Forks Columbia Mall have a lot of traveler and shopper , but owner Sandi Luck also feel like [ARG0: Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near] Altru Hospital can support the local by [V: have] [ARG1: an area for small meeting] ."
+        ],
+        [
+            "Bully Brew , which [V: be] locate next to JCPenney , be name after owner Sandi Luck English Bulldogs .",
+            "[ARG1: Bully Brew , which be locate next to JCPenney ,] [V: be] [ARG2: name after owner Sandi Luck English Bulldogs] ."
+        ],
+        [
+            "[ARG0: owner Sandi Luck] [V: say] [ARG1: Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital be keep Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital 's 2100 S. Columbia Road location] .",
+            "owner Sandi Luck say [ARG0: Bully Brew Coffee House] , [R-ARG0: which] [ARGM-TMP: already] [V: have] [ARG1: a location in the Valley Eldercare Center near Altru Hospital] be keep Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital 's 2100 S. Columbia Road location .",
+            "owner Sandi Luck say [ARG1: Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital] [V: be] [ARG2: keep Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital 's 2100 S. Columbia Road location] .",
+            "owner Sandi Luck say Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital be [V: keep] [ARG1: Bully Brew Coffee House] , which already have a location in the Valley Eldercare Center near Altru Hospital 's 2100 S. Columbia Road location .",
+            "owner Sandi Luck say Bully Brew Coffee House , which already have a location in the Valley Eldercare Center near Altru Hospital be keep [ARG0: Bully Brew Coffee House] , [R-ARG0: which] [ARGM-TMP: already] [V: have] [ARG1: a location in the Valley Eldercare Center near Altru Hospital 's 2100 S. Columbia Road location] ."
+        ],
+        [
+            "job opening down , but [ARG1: not out] [ARG1: the number of local job opening] [V: be] [ARG2: down] , but an employment official say business be still need plenty of worker .",
+            "job opening down , but not out the number of local job opening be down , but [ARG0: an employment official] [V: say] [ARG1: business be still need plenty of worker] .",
+            "job opening down , but not out the number of local job opening be down , but an employment official say business [V: be] still need plenty of worker .",
+            "job opening down , but not out the number of local job opening be down , but an employment official say [ARG0: business] be [ARGM-TMP: still] [V: need] [ARG1: plenty of worker] ."
+        ],
+        [
+            "[ARG0: Grand Forks County] [V: have] [ARG1: 308 few job] [ARGM-TMP: in August] [ARGM-ADV: compare to the same month last year , a 14 percent drop , accord to Job Service North Dakota] .",
+            "Grand Forks County have [ARG1: 308 few job in August] [V: compare] [ARG2: to the same month last year , a 14 percent drop , accord to Job Service North Dakota] ."
+        ],
+        [
+            "there [V: be] [ARG1: 21 percent few job opening statewide] [ARGM-TMP: in that time period] ."
+        ],
+        [
+            "[ARGM-DIS: still] , [ARG0: Grand Forks] [V: have] [ARG1: almost 2,200 open job] [ARGM-TMP: last month] , [C-ARG1: range from sale position , healthcare job , transportation work and other] .",
+            "still , Grand Forks have almost 2,200 open job last month , [V: range] [ARG3: from sale position , healthcare job , transportation work and other] ."
+        ],
+        [
+            "it down a little , but there [V: s] [ARGM-TMP: still] [ARG1: a lot of underlie strength that s show up in extreme interest in our job fair] , say Keith Reitmeier , the manager of the local Job Service office .",
+            "it down a little , but there s still a lot of underlie strength that [V: s] show up in extreme interest in our job fair , say Keith Reitmeier , the manager of the local Job Service office .",
+            "it down a little , but there s still a lot of [ARG1: underlie strength] [R-ARG1: that] s [V: show] up [ARGM-LOC: in extreme interest in our job fair] , say Keith Reitmeier , the manager of the local Job Service office .",
+            "[ARG1: it down a little] , but there s still a lot of underlie strength that s show up in extreme interest in our job fair , [V: say] [ARG0: Keith Reitmeier , the manager of the local Job Service office] ."
+        ],
+        [
+            "our [V: be] [ARG2: host] our job fair Sept. 24 at the Alerus Center .",
+            "our be [V: host] our job fair Sept. 24 [ARGM-LOC: at the Alerus Center] ."
+        ],
+        [
+            "employer like Alerus Financial , Altru Health System , American Crystal Sugar Co. , Cirrus Aircraft and other [V: have] already sign up ..",
+            "[ARG1: employer like Alerus Financial , Altru Health System , American Crystal Sugar Co. , Cirrus Aircraft and other] have [ARGM-TMP: already] [V: sign] up .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [],
+        [],
+        [],
+        [
+            "[V: will] this new venture bring oust Mens Wearhouse founder George Zimmer sweet revenge .",
+            "[ARGM-MOD: will] [ARG0: this new venture] [V: bring] [ARG1: oust Mens Wearhouse founder George Zimmer sweet revenge] .",
+            "will this new venture bring [V: oust] [ARG1: Mens Wearhouse founder George Zimmer] sweet revenge ."
+        ],
+        [
+            "[ARG0: this new venture Mens Wearhouse founder George Zimmer] [V: turn] out [ARG1: the guy I think be Tommy Chong be just the CEO of Mens Wearhouse] ... so continue his roll of entertain interview with his 's chat with Mens Wearhouse founder George Zimmer .",
+            "this new venture Mens Wearhouse founder George Zimmer turn out the guy [ARG0: I] [V: think] [ARG1: be Tommy Chong be just the CEO of Mens Wearhouse] ... so continue his roll of entertain interview with his 's chat with Mens Wearhouse founder George Zimmer .",
+            "this new venture Mens Wearhouse founder George Zimmer turn out [ARG1: the guy] I think [V: be] [ARG2: Tommy Chong be just the CEO of Mens Wearhouse] ... so continue his roll of entertain interview with his 's chat with Mens Wearhouse founder George Zimmer .",
+            "this new venture Mens Wearhouse founder George Zimmer turn out the guy I think be [ARG1: Tommy Chong] [V: be] [ARG2: just the CEO of Mens Wearhouse] ... so continue his roll of entertain interview with his 's chat with Mens Wearhouse founder George Zimmer .",
+            "this new venture Mens Wearhouse founder George Zimmer turn out the guy I think be Tommy Chong be just the CEO of Mens Wearhouse ... so [V: continue] [ARG1: his roll of entertain interview with his 's chat with Mens Wearhouse founder George Zimmer] ."
+        ],
+        [
+            "[ARG0: Mens Wearhouse founder George Zimmer] [V: look] [ARG1: to marry tech and tux] .",
+            "[ARG1: Mens Wearhouse founder George Zimmer] look to [V: marry] [ARG2: tech and tux] ."
+        ],
+        [
+            "the first commercial feature on CNN after [ARG0: the Pope] [V: leave] : Mens Wearhouse ."
+        ],
+        [
+            "# PopeInDC .. authority search for robbery suspect in Grand Forks : [ARG1: Grand Forks ( AP ) - Police in Grand Forks] [V: be] [ARG2: s] ..."
+        ]
+    ],
+    "tweets_verbs": ["will", "bring", "oust", "turn", "think", "be", "be", "continue", "look", "marry", "leave", "be"],
+    "metrics": {
+        "verb_precision": 41.667,
+        "verb_recall": 8.929
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.074,
+                    "rouge1_recall": 0.055,
+                    "rouge1_f1": 0.057,
+                    "frequency": 30
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "Mens Wearhouse [,] [ARG1: a national clothing retailer 's television commercial] [V: be] [ARG2: famous for Mens Wearhouse , a national clothing retailer 's now - oust founder tagline] , you re go to like the way you look , I guarantee it .",
+                        "tweet_args": "this new venture Mens Wearhouse founder George Zimmer turn out the guy I think be [ARG1: Tommy Chong] [V: be] [ARG2: just the CEO of Mens Wearhouse] ... so continue his roll of entertain interview with his 's chat with Mens Wearhouse founder George Zimmer .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_recall": {
+                        "topic_args": "company spokeswoman Julie Town confirm this week [ARG1: the location] [V: be] [ARG2: Grand Forks Columbia Mall] , with a tentative open date of Dec. 9 .",
+                        "tweet_args": "this new venture Mens Wearhouse founder George Zimmer turn out [ARG1: the guy] I think [V: be] [ARG2: Tommy Chong be just the CEO of Mens Wearhouse] ... so continue his roll of entertain interview with his 's chat with Mens Wearhouse founder George Zimmer .",
+                        "rouge1_recall": 0.167,
+                        "rouge1_precision": 0.091,
+                        "rouge1_f1": 0.118
+                    },
+                    "best_f1": {
+                        "topic_args": "company spokeswoman Julie Town confirm this week [ARG1: the location] [V: be] [ARG2: Grand Forks Columbia Mall] , with a tentative open date of Dec. 9 .",
+                        "tweet_args": "# PopeInDC .. authority search for robbery suspect in Grand Forks : [ARG1: Grand Forks ( AP ) - Police in Grand Forks] [V: be] [ARG2: s] ...",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.286
+                    }
+                }
+            },
+            "will": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "look": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.067,
+            "rouge1_recall": 0.05,
+            "rouge1_f1": 0.052
+        }
+    }
+}

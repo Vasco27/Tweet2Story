@@ -1,0 +1,247 @@
+{
+    "topic": "32023021-1141-4832-9939-c8442d505b34",
+    "coref_content": "Green House home will be first of their kind in Champaign County Chicago, IL ( PRWEB ) September 28, 2015 last Thursday, September 24, in Urbana, IL, team member from the Chicago office of international design and architecture firm Perkins Eastman join leadership from Clark - Lindsey for the groundbreaking of Champaign County Chicago, IL's new small home for specialized dementia care — one devote to assist living and the other for skilled nursing care — that will follow the GREEN HOUSE ® model. each home will feature 12 private bedroom, individualized care from specially train caregiver, and home furnishing. team member from the Chicago office of international design and architecture firm Perkins Eastman international design and architecture firm Perkins Eastman be lead by Principal Jerry Walleck AIA and Associate Principal Ramu Ramachandran AIA, LEED AP, two key member of international design and architecture firm Perkins Eastman's renowned senior living practice area. Clark - Lindsey have partner with the Green House Project and international design and architecture firm Perkins Eastman to help usher in a new and superior standard of care for those suffer from Alzheimer ’s and dementia - relate illness. the introduction of their not only mark the Green House Project but also a major step forward for how Champaign County Chicago, IL provider and regulatory official be look to institute efficient and innovative care model for senior. Green House home be design to provide a personalized model of care within a real home setting, replete with an open kitchen, dining room and other common area, set their apart from the traditional institutional model that can resemble a hospital or nursing home. the new home, situate on a 10,000 sf footprint, will feature an architectural design where every inch of space have be carefully consider in order to transform the physical environment to feel more like home. from the outdoor courtyard, library and den area to the open kitchen provide home cook meal, these amenity encourage social contact among elder and caregiver. Green House home's design be tailor to maintain exist on - site tree as well as acknowledge the natural surrounding with respect to building proportion, scale and form, while also take full advantage of the expansive view of adjacent Meadowbrook Park. Clark - Lindsey be already know within the industry as a leader and innovator when it come to care, \" say Principal Jerry Walleck AIA, and Green House home be a continuation of that. Green House home will provide invaluable care and service to dementia resident and dementia resident's family, and it ’ an enormous privilege to have play Clark - Lindsey's part in make provide happen. \" Clark - Lindsey Village be found in 1978 and be the area ’s first and only CCRC. Clark - Lindsey Village be one of only eight certify Centers for Successful Aging in the U.S. in addition to Clark - Lindsey Village's forthcoming dementia care small home, Clark - Lindsey Village offer extensive independent living accommodation, as well as inpatient and outpatient therapy service, assist living and skilled nursing care at Clark - Lindsey Village's Meadowbrook Health Center. read full article the Green House Project be a radically new national model for skilled nursing care that return control, dignity and a sense of well - being to elder, elder's family and direct care staff. in the Green House Project, resident receive care in small, self - contain home organize to deliver individualized care and meaningful relationship between resident and care staff. about Perkins Eastman Perkins Eastman be among the top design and architecture firm in the world. with almost 950 employee in 14 location around the world, Perkins Eastman practice at every scale of the build environment. from niche building to complex project that enrich whole community, Perkins Eastman's portfolio reflect a dedication to progressive and inventive design that enhance the quality of the human experience. with work in 46 state and more than 40 country, the firm ’s portfolio include transportation and public infrastructure, high - end residential, commercial, hotel, retail, office building, corporate interior, school, hospital, museum, senior living, and public sector facility. Perkins Eastman provide award - win design through Perkins Eastman's office in North America ( New York, NY ; Boston, MA ; Charlotte, NC ; Chicago, IL ; Los Angeles, CA ; Pittsburgh, PA ; San Francisco, CA ; Stamford, CT ; Toronto, Canada ; and Washington, DC ) ; South America ( Guayaquil, Ecuador ) ; North Africa and Middle East ( Dubai, UAE ) ; and Asia ( Mumbai, India, and Shanghai, China ). image available. # # # for the original version on PRWeb visit :",
+    "tweets_content": "The Parade of Homes 2015 will showcase newer and larger homes in central Ohio..\nBall says there is a big difference between long-term care homes and personal care homes. Opposes private long-term care. #nlpoli.",
+    "coref_tweets": "the Parade of Homes 2015 will showcase new and large home in central Ohio .. Ball say there be a big difference between long - term care home and personal care home. oppose private long - term care. # nlpoli.",
+    "nr_tweets": 2,
+    "topic_clusters": [
+        ["IL", "IL"],
+        ["Champaign County Chicago , IL", "the CCRC \u2019s", "Champaign County", "Illinois"],
+        ["team member from the Chicago office of international design and architecture firm Perkins Eastman", "the Perkins Eastman design team"],
+        ["international design and architecture firm Perkins Eastman", "Perkins Eastman", "the firm \u2019s", "Perkins Eastman"],
+        ["Clark - Lindsey", "Clark - Lindsey", "Clark - Lindsey", "our"],
+        ["their", "these home", "they"],
+        ["the Green House Project", "the first Green House project in Champaign County", "the project \u2019s"],
+        ["Green House home", "Green House home", "the home '", "the new Green House home", "they"],
+        ["Principal Jerry Walleck AIA", "Jerry Walleck , the project \u2019s design lead"],
+        ["dementia resident", "their"],
+        ["provide", "that"],
+        ["Clark - Lindsey Village", "it", "its", "Clark - Lindsey Village", "its"],
+        ["elder", "their"],
+        ["the Green House Project", "the Green House model"],
+        ["Perkins Eastman", "Perkins Eastman", "Perkins Eastman", "the firm \u2019s", "the firm \u2019s", "Perkins Eastman", "its"],
+        ["the world", "the globe"],
+        ["the firm \u2019s portfolio", "the firm \u2019s portfolio"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "Green House home [V: will] be first of their kind in Champaign County Chicago , IL ( PRWEB ) September 28 , 2015 last Thursday , September 24 , in Urbana , IL , team member from the Chicago office of international design and architecture firm Perkins Eastman join leadership from Clark - Lindsey for the groundbreaking of Champaign County Chicago , IL 's new small home for specialized dementia care — one devote to assist living and the other for skilled nursing care — that will follow the GREEN HOUSE ® model .",
+            "[ARG1: Green House home] [ARGM-MOD: will] [V: be] [ARG2: first of their kind] [ARGM-LOC: in Champaign County Chicago , IL ( PRWEB )] [ARGM-TMP: September 28 , 2015] [ARGM-TMP: last Thursday , September 24] , [ARGM-LOC: in] Urbana , IL , team member from the Chicago office of international design and architecture firm Perkins Eastman join leadership from Clark - Lindsey for the groundbreaking of Champaign County Chicago , IL 's new small home for specialized dementia care — one devote to assist living and the other for skilled nursing care — that will follow the GREEN HOUSE ® model .",
+            "Green House home will be first of their kind in Champaign County Chicago , IL ( PRWEB ) September 28 , 2015 last Thursday , September 24 , in Urbana , IL , [ARG0: team member from the Chicago office of international design and architecture firm Perkins Eastman] [V: join] [ARG1: leadership from Clark - Lindsey] [ARGM-PRP: for the groundbreaking of Champaign County Chicago , IL 's new small home for specialized dementia care — one devote to assist living and the other for skilled nursing care — that will follow the GREEN HOUSE ® model] .",
+            "Green House home will be first of their kind in Champaign County Chicago , IL ( PRWEB ) September 28 , 2015 last Thursday , September 24 , in Urbana , IL , team member from the Chicago office of international design and architecture firm Perkins Eastman join leadership from Clark - Lindsey for the groundbreaking of Champaign County Chicago , IL 's new small home for specialized dementia care — [ARG0: one] devote to [V: assist] [ARG1: living] and the other for skilled nursing care — that will follow the GREEN HOUSE ® model .",
+            "Green House home will be first of their kind in Champaign County Chicago , IL ( PRWEB ) September 28 , 2015 last Thursday , September 24 , in Urbana , IL , team member from the Chicago office of international design and architecture firm Perkins Eastman join leadership from Clark - Lindsey for the groundbreaking of Champaign County Chicago , IL 's new small home for specialized dementia care — one devote to assist living and the other for skilled nursing care — that [V: will] follow the GREEN HOUSE ® model .",
+            "Green House home will be first of their kind in Champaign County Chicago , IL ( PRWEB ) September 28 , 2015 last Thursday , September 24 , in Urbana , IL , team member from the Chicago office of international design and architecture firm Perkins Eastman join leadership from Clark - Lindsey for the groundbreaking of Champaign County Chicago , IL 's new small home for specialized dementia care — one devote to assist living and the other for [ARG0: skilled nursing care —] [R-ARG0: that] [ARGM-MOD: will] [V: follow] [ARG1: the GREEN HOUSE ® model] ."
+        ],
+        [
+            "each home [V: will] feature 12 private bedroom , individualized care from specially train caregiver , and home furnishing .",
+            "[ARG0: each home] [ARGM-MOD: will] [V: feature] [ARG1: 12 private bedroom , individualized care from specially train caregiver , and home furnishing] ."
+        ],
+        [
+            "[ARG1: team member from the Chicago office of international design and architecture firm Perkins Eastman international design and architecture firm Perkins Eastman] [V: be] [ARG2: lead by Principal Jerry Walleck AIA and Associate Principal Ramu Ramachandran AIA , LEED AP , two key member of international design and architecture firm Perkins Eastman 's renowned senior living practice area] ."
+        ],
+        [
+            "[ARG0: Clark - Lindsey] [V: have] [ARG1: partner with the Green House Project and international design and architecture firm Perkins Eastman to help usher in a new and superior standard of care for those suffer from Alzheimer ’s and dementia - relate illness] .",
+            "Clark - Lindsey have partner with the Green House Project and international design and architecture firm Perkins Eastman to [V: help] [ARG1: usher in a new and superior standard of care for those suffer from Alzheimer ’s and dementia - relate illness] ."
+        ],
+        [
+            "[ARG0: the introduction of their] not only [V: mark] [ARG1: the Green House Project] but also a major step forward for how Champaign County Chicago , IL provider and regulatory official be look to institute efficient and innovative care model for senior .",
+            "the introduction of their not only mark the Green House Project but also a major step forward for how [ARG1: Champaign County Chicago , IL provider and regulatory official] [V: be] [ARG2: look to institute] efficient and innovative care model for senior .",
+            "the introduction of their not only mark the Green House Project but also a major step forward for [ARGM-MNR: how] [ARG0: Champaign County Chicago , IL provider and regulatory official] be [V: look] [ARG1: to institute efficient and innovative care model for senior] .",
+            "the introduction of their not only mark the Green House Project but also a major step forward for how [ARG0: Champaign County Chicago , IL provider and regulatory official] be look to [V: institute] [ARG1: efficient and innovative care model for senior] ."
+        ],
+        [
+            "[ARG1: Green House home] [V: be] [ARG2: design to provide a personalized model of care within a real home setting , replete with an open kitchen , dining room and other common area , set their apart from the traditional institutional model that can resemble a hospital or nursing home] .",
+            "[ARG0: Green House home] be design to [V: provide] [ARG1: a personalized model of care] [ARGM-LOC: within a real home setting , replete with an open kitchen , dining room and other common area] , [ARGM-PRD: set their apart from the traditional institutional model] [ARGM-LOC: that can resemble a hospital or nursing home] .",
+            "Green House home be design to provide a personalized model of care within a real home setting , replete with an open kitchen , dining room and other common area , [V: set] [ARG2: their apart from the traditional institutional model that can resemble a hospital or nursing home] .",
+            "Green House home be design to provide a personalized model of care within a real home setting , replete with an open kitchen , dining room and other common area , set their apart from the traditional institutional model that [V: can] resemble a hospital or nursing home .",
+            "Green House home be design to provide a personalized model of care within a real home setting , replete with an open kitchen , dining room and other common area , set their apart from [ARG1: the traditional institutional model] [R-ARG1: that] [ARGM-MOD: can] [V: resemble] [ARG2: a hospital or nursing home] ."
+        ],
+        [
+            "[ARG1: the new home] , [V: situate] [ARG2: on a 10,000 sf footprint] , will feature an architectural design where every inch of space have be carefully consider in order to transform the physical environment to feel more like home .",
+            "the new home , situate on a 10,000 sf footprint , [V: will] feature an architectural design where every inch of space have be carefully consider in order to transform the physical environment to feel more like home .",
+            "[ARG0: the new home] , [ARGM-PRD: situate on a 10,000 sf footprint] , [ARGM-MOD: will] [V: feature] [ARG1: an architectural design where every inch of space have be carefully consider in order to transform the physical environment to feel more like home] .",
+            "the new home , situate on a 10,000 sf footprint , will feature an architectural design where every inch of space [V: have] be carefully consider in order to transform the physical environment to feel more like home .",
+            "the new home , situate on a 10,000 sf footprint , will feature an architectural design where every inch of space have [V: be] carefully consider in order to transform the physical environment to feel more like home .",
+            "the new home , situate on a 10,000 sf footprint , will feature [ARGM-LOC: an architectural design] [R-ARGM-LOC: where] [ARG1: every inch of space] have be [ARGM-MNR: carefully] [V: consider] [ARGM-PRP: in order to transform the physical environment to feel more like home] .",
+            "the new home , situate on a 10,000 sf footprint , will feature an architectural design where every inch of space have be carefully consider in order to [V: transform] [ARG1: the physical environment] [ARGM-PRP: to feel more like home] .",
+            "the new home , situate on a 10,000 sf footprint , will feature an architectural design where every inch of space have be carefully consider in order to transform the physical environment to [V: feel] [ARG1: more like home] ."
+        ],
+        [
+            "[ARG0: from] [ARG0: the outdoor courtyard , library and den area to the open kitchen] [V: provide] [ARG1: home cook meal] , these amenity encourage social contact among elder and caregiver .",
+            "[ARGM-ADV: from the outdoor courtyard , library and den area to the open kitchen provide home cook meal] , [ARG0: these amenity] [V: encourage] [ARG1: social contact among elder and caregiver] ."
+        ],
+        [
+            "[ARG1: Green House home 's design] [V: be] [ARG2: tailor to maintain exist on - site tree as well as acknowledge the natural surrounding with respect to building proportion , scale and form , while also take full advantage of the expansive view of adjacent Meadowbrook Park] .",
+            "[ARG0: Green House home 's] design be tailor to [V: maintain] [ARG1: exist on - site tree] as well as acknowledge the natural surrounding with respect to building proportion , scale and form , while also take full advantage of the expansive view of adjacent Meadowbrook Park .",
+            "[ARG0: Green House home 's design] be tailor to maintain exist on - site tree as well as [V: acknowledge] [ARG1: the natural surrounding with respect to building proportion] [ARGM-MNR: , scale and form] , while also take full advantage of the expansive view of adjacent Meadowbrook Park .",
+            "Green House home 's design be tailor to maintain exist on - site tree as well as acknowledge [ARG1: the natural] [V: surrounding] [ARGM-ADV: with respect to building proportion , scale and form] , while also take full advantage of the expansive view of adjacent Meadowbrook Park .",
+            "[ARG0: Green House home 's design] be tailor to maintain exist on - site tree as well as acknowledge the natural surrounding with respect to building proportion , scale and form , while [ARGM-ADV: also] [V: take] [ARG1: full advantage] [ARG2: of the expansive view of adjacent Meadowbrook Park] ."
+        ],
+        [
+            "[ARG1: Clark - Lindsey] [V: be] [ARGM-TMP: already] [ARG2: know within the industry as a leader and innovator] [ARGM-TMP: when it come to care] , \" say Principal Jerry Walleck AIA , and Green House home be a continuation of that .",
+            "[ARG1: Clark - Lindsey] be [ARGM-TMP: already] [V: know] [ARGM-LOC: within the industry] [ARG2: as a leader and innovator] [ARGM-TMP: when it come to care] , \" say Principal Jerry Walleck AIA , and Green House home be a continuation of that .",
+            "Clark - Lindsey be already know within the industry as a leader and innovator [ARGM-TMP: when] it [V: come] [ARG2: to care] , \" say Principal Jerry Walleck AIA , and Green House home be a continuation of that .",
+            "Clark - Lindsey be already know within the industry as a leader and innovator when [ARG0: it] come to [V: care] , \" say Principal Jerry Walleck AIA , and Green House home be a continuation of that .",
+            "[ARG1: Clark - Lindsey be already know within the industry as a leader and innovator when it come to care] , \" [V: say] [ARG0: Principal Jerry Walleck AIA] , and Green House home be a continuation of that .",
+            "Clark - Lindsey be already know within the industry as a leader and innovator when it come to care , \" say Principal Jerry Walleck AIA , and [ARG1: Green House home] [V: be] [ARG2: a continuation of that] ."
+        ],
+        [
+            "Green House home [V: will] provide invaluable care and service to dementia resident and dementia resident 's family , and it ’ an enormous privilege to have play Clark - Lindsey 's part in make provide happen . \"",
+            "[ARG0: Green House home] [ARGM-MOD: will] [V: provide] [ARG1: invaluable care and service] [ARG2: to dementia resident and dementia resident 's family] , and it ’ an enormous privilege to have play Clark - Lindsey 's part in make provide happen . \"",
+            "Green House home will provide invaluable care and service to [V: dementia] [ARG1: resident and dementia resident 's family] , and it ’ an enormous privilege to have play Clark - Lindsey 's part in make provide happen . \"",
+            "Green House home will provide invaluable care and service to dementia resident and dementia resident 's family , and it [V: ’] [ARG1: an enormous privilege to have play Clark - Lindsey 's part in make provide happen] . \"",
+            "Green House home will provide invaluable care and service to dementia resident and dementia resident 's family , and it ’ an enormous privilege to [V: have] [ARG1: play Clark - Lindsey 's part in make provide happen] . \"",
+            "Green House home will provide invaluable care and service to dementia resident and dementia resident 's family , and it ’ an enormous privilege to have [V: play] [ARG1: Clark - Lindsey 's part in make provide happen] . \"",
+            "Green House home will provide invaluable care and service to dementia resident and dementia resident 's family , and it ’ an enormous privilege to have play Clark - Lindsey 's part in make [ARG1: provide] [V: happen] . \""
+        ],
+        [
+            "Clark - Lindsey Village [V: be] found in 1978 and be the area ’s first and only CCRC .",
+            "[ARG1: Clark - Lindsey Village] be [V: found] [ARGM-TMP: in 1978] and be the area ’s first and only CCRC .",
+            "[ARG1: Clark - Lindsey Village] be found in 1978 and [V: be] [ARG2: the area ’s first and only CCRC] ."
+        ],
+        [
+            "[ARG1: Clark - Lindsey Village] [V: be] [ARG2: one of only eight certify Centers for Successful Aging in the U.S. in addition to Clark - Lindsey Village 's forthcoming dementia care small home] , Clark - Lindsey Village offer extensive independent living accommodation , as well as inpatient and outpatient therapy service , assist living and skilled nursing care at Clark - Lindsey Village 's Meadowbrook Health Center .",
+            "Clark - Lindsey Village be one of only eight certify Centers for Successful Aging in the U.S. in addition to Clark - Lindsey Village 's forthcoming [ARG1: dementia] [V: care] small home , Clark - Lindsey Village offer extensive independent living accommodation , as well as inpatient and outpatient therapy service , assist living and skilled nursing care at Clark - Lindsey Village 's Meadowbrook Health Center .",
+            "Clark - Lindsey Village be one of only eight certify Centers for Successful Aging in the U.S. in addition to Clark - Lindsey Village 's forthcoming dementia care small home , [ARG0: Clark - Lindsey Village] [V: offer] [ARG1: extensive independent living accommodation , as well as inpatient and outpatient therapy service , assist living and skilled nursing care at Clark - Lindsey Village 's Meadowbrook Health Center] .",
+            "Clark - Lindsey Village be one of only eight certify Centers for Successful Aging in the U.S. in addition to Clark - Lindsey Village 's forthcoming dementia care small home , Clark - Lindsey Village offer extensive independent living accommodation , as well as inpatient and outpatient therapy service , [V: assist] [ARG1: living and skilled nursing care at Clark - Lindsey Village 's Meadowbrook Health Center] ."
+        ],
+        [
+            "[V: read] [ARG1: full article] the Green House Project be a radically new national model for skilled nursing care that return control , dignity and a sense of well - being to elder , elder 's family and direct care staff .",
+            "read full article [ARG1: the Green House Project] [V: be] [ARG2: a radically new national model for skilled nursing care that return control , dignity and a sense of well - being to elder , elder 's family and direct care staff] .",
+            "read full article the Green House Project be a radically new national model for [ARG0: skilled nursing care] [R-ARG0: that] [V: return] [ARG1: control , dignity and a sense of well - being] [ARG2: to elder , elder 's family and direct care staff] .",
+            "read full article the Green House Project be a radically new national model for skilled nursing care that return control , dignity and a sense of well - being to [V: elder] , elder 's family and direct care staff ."
+        ],
+        [
+            "[ARGM-LOC: in the Green House Project] , [ARG0: resident] [V: receive] [ARG1: care in small , self - contain home organize to deliver individualized care and meaningful relationship between resident and care staff] .",
+            "in the Green House Project , resident receive care in small , [ARG0: self] - [V: contain] home organize to deliver individualized care and meaningful relationship between resident and care staff .",
+            "in the Green House Project , [ARG0: resident] receive care in small , self - contain home organize to [V: deliver] [ARG1: individualized care and meaningful relationship between resident and care staff] ."
+        ],
+        [
+            "[ARGM-DIS: about] [ARG1: Perkins Eastman Perkins Eastman] [V: be] [ARG2: among the top design and architecture firm in the world] ."
+        ],
+        [],
+        [
+            "from niche building to [ARG0: complex project] [R-ARG0: that] [V: enrich] [ARG1: whole community] , Perkins Eastman 's portfolio reflect a dedication to progressive and inventive design that enhance the quality of the human experience .",
+            "[ARGM-ADV: from niche building to complex project that enrich whole community] , [ARG2: Perkins Eastman 's portfolio] [V: reflect] [ARG1: a dedication to progressive and inventive design that enhance the quality of the human experience] .",
+            "from niche building to complex project that enrich whole community , Perkins Eastman 's portfolio reflect a dedication to [ARG2: progressive and inventive design] [R-ARG2: that] [V: enhance] [ARG1: the quality of the human experience] ."
+        ],
+        [
+            "[ARGM-ADV: with work in 46 state and more than 40 country] , [ARG2: the firm ’s portfolio] [V: include] [ARG1: transportation and public infrastructure , high - end residential , commercial , hotel , retail , office building , corporate interior , school , hospital , museum , senior living , and public sector facility] ."
+        ],
+        [
+            "[ARG0: Perkins Eastman] [V: provide] [ARG1: award - win design] [ARGM-MNR: through Perkins Eastman 's office in North America ( New York , NY ; Boston , MA ; Charlotte , NC ; Chicago , IL ; Los Angeles , CA ; Pittsburgh , PA ; San Francisco , CA ; Stamford , CT ; Toronto , Canada ; and Washington , DC ) ; South America ( Guayaquil , Ecuador ) ; North Africa and Middle East ( Dubai , UAE ) ; and Asia ( Mumbai , India , and Shanghai , China )] ."
+        ],
+        [],
+        []
+    ],
+    "tweets_sentences_srl": [
+        [
+            "the Parade of Homes 2015 [V: will] showcase new and large home in central Ohio .. Ball say there be a big difference between long - term care home and personal care home .",
+            "[ARG0: the Parade of Homes 2015] [ARGM-MOD: will] [V: showcase] [ARG1: new and large home in central Ohio] .. Ball say there be a big difference between long - term care home and personal care home .",
+            "the Parade of Homes 2015 will showcase new and large home in central Ohio .. [Ball] [V: say] [ARG1: there be a big difference between long - term care home and personal care home] .",
+            "the Parade of Homes 2015 will showcase new and large home in central Ohio .. Ball say there [V: be] [ARG1: a big difference between long - term care home and personal care home] ."
+        ],
+        [
+            "[V: oppose] [ARG1: private long - term care] ."
+        ],
+        []
+    ],
+    "tweets_verbs": ["will", "showcase", "say", "be", "oppose"],
+    "metrics": {
+        "verb_precision": 60.0,
+        "verb_recall": 5.769
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.147,
+                    "rouge1_recall": 0.088,
+                    "rouge1_f1": 0.1,
+                    "frequency": 13
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG1: Green House home] [V: be] [ARG2: design to provide a personalized model of care within a real home setting , replete with an open kitchen , dining room and other common area , set their apart from the traditional institutional model that can resemble a hospital or nursing home] .",
+                        "tweet_args": "the Parade of Homes 2015 will showcase new and large home in central Ohio .. Ball say there [V: be] [ARG1: a big difference between long - term care home and personal care home] .",
+                        "rouge1_recall": 0.116,
+                        "rouge1_precision": 0.417,
+                        "rouge1_f1": 0.182
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: Green House home] [V: be] [ARG2: design to provide a personalized model of care within a real home setting , replete with an open kitchen , dining room and other common area , set their apart from the traditional institutional model that can resemble a hospital or nursing home] .",
+                        "tweet_args": "the Parade of Homes 2015 will showcase new and large home in central Ohio .. Ball say there [V: be] [ARG1: a big difference between long - term care home and personal care home] .",
+                        "rouge1_recall": 0.116,
+                        "rouge1_precision": 0.417,
+                        "rouge1_f1": 0.182
+                    },
+                    "best_f1": {
+                        "topic_args": "Clark - Lindsey be already know within the industry as a leader and innovator when it come to care , \" say Principal Jerry Walleck AIA , and [ARG1: Green House home] [V: be] [ARG2: a continuation of that] .",
+                        "tweet_args": "the Parade of Homes 2015 will showcase new and large home in central Ohio .. Ball say there [V: be] [ARG1: a big difference between long - term care home and personal care home] .",
+                        "rouge1_recall": 0.286,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.211
+                    }
+                }
+            },
+            "will": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 5
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.267,
+                    "rouge1_recall": 0.182,
+                    "rouge1_f1": 0.216,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG1: Clark - Lindsey be already know within the industry as a leader and innovator when it come to care] , \" [V: say] [ARG0: Principal Jerry Walleck AIA] , and Green House home be a continuation of that .",
+                        "tweet_args": "the Parade of Homes 2015 will showcase new and large home in central Ohio .. [Ball] [V: say] [ARG1: there be a big difference between long - term care home and personal care home] .",
+                        "rouge1_recall": 0.182,
+                        "rouge1_precision": 0.267,
+                        "rouge1_f1": 0.216
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: Clark - Lindsey be already know within the industry as a leader and innovator when it come to care] , \" [V: say] [ARG0: Principal Jerry Walleck AIA] , and Green House home be a continuation of that .",
+                        "tweet_args": "the Parade of Homes 2015 will showcase new and large home in central Ohio .. [Ball] [V: say] [ARG1: there be a big difference between long - term care home and personal care home] .",
+                        "rouge1_recall": 0.182,
+                        "rouge1_precision": 0.267,
+                        "rouge1_f1": 0.216
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: Clark - Lindsey be already know within the industry as a leader and innovator when it come to care] , \" [V: say] [ARG0: Principal Jerry Walleck AIA] , and Green House home be a continuation of that .",
+                        "tweet_args": "the Parade of Homes 2015 will showcase new and large home in central Ohio .. [Ball] [V: say] [ARG1: there be a big difference between long - term care home and personal care home] .",
+                        "rouge1_recall": 0.182,
+                        "rouge1_precision": 0.267,
+                        "rouge1_f1": 0.216
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.115,
+            "rouge1_recall": 0.07,
+            "rouge1_f1": 0.08
+        }
+    }
+}

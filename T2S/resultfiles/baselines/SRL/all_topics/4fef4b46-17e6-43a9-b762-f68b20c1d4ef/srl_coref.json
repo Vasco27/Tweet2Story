@@ -1,0 +1,395 @@
+{
+    "topic": "4fef4b46-17e6-43a9-b762-f68b20c1d4ef",
+    "coref_content": "inflation in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016, the countrys central bank say on Thursday, although the countrys central bank signal recent market turmoil may compel the countrys central bank to far raise interest rate. the countrys central bank keep the countrys central bank's benchmark interest rate unchanged at 14.25 percent brcbmp = ECI at a meeting last week, halt one of the world most aggressive rate - hike cycle as the economy sink into recession. in the countrys central bank's minute for a meeting, the countrys central bank say the countrys central bank's inflation forecast for 2016 have drop and be now around the official 4.5 percent target as the economy slump at a fast rate than anticipate. Brazil annual inflation rate be 9.53 percent in August, the government report on Thursday. still, the countrys central bank acknowledge that risk for that outlook have increase follow a recent currency sell - off, leave policymaker ready to act if 2016 expectation bounce back. the recent increase in risk premia, which have affect asset price, require monetary policy to remain vigilant against significant deviation of its inflation forecast for 2016 away from the official 4.5 percent target, the countrys central bank say. in recent week, Brazil currency brl= BRBY have fall to near record low as President Dilma Rousseff fail to plug a grow budget deficit. Brazil be downgrade to junk status by Standard & Poors late Wednesday, and investor fear other agency may follow suit in coming month. the countrys central bank also voice concern over Brazils public finance, say austerity will likely take long to help curb inflation after key budget target be loosen. Brazil economic downturn, Brazil's bad in 25 year, could nudge the countrys central bank in the opposite direction though. economist have be forecast policymaker will start to cut rate next year, take its benchmark interest rate to 12.00 percent at end-2016, accord to a weekly the countrys central bank survey. in the the countrys central bank view, Brazil ongoing adjustment could take long and be more intense than anticipate. gross domestic product be expect to shrink 2.4 percent in 2015, accord to economist in the the countrys central bank weekly poll. the countrys central bank will probably stay in waiting mode, watch the volatility in local market and the discussion on fiscal policy, say Carlos Kawall, chief economist at J.Safra in Sao Paulo. if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time, there be the risk interest rate will be increase again. ( additional reporting by Anthony Boadle ; edit by W Simon and Bernadette Baum ).",
+    "tweets_content": "Brazils central bank keeps key interest rate at 14.25%.\nThe last time the Federal Reserve raised its benchmark interest rate, there was no one to tweet about it  heavy..\nCentral bank leaves benchmark interest rate unchanged.\n➍ Brazils political crisis explained—but even if you get it, there are further complicating matters.  …..\nBrazils taxation without amelioration:.\nBrazil bans corporations from political donations amid corruption scandal.\n.\nBrazil Respite Seen Short Lived With Momentum Going Against Real.\nWhy Brazil Is Not Coming Back Anytime Soon (In 1 Depressing Chart).\nBrazil has cut 500,000 jobs since January. Another 2.5m will be shed before the end of 2016.\nBattling dysfunctional rates, credit &amp; currency #markets , central bank of #Brazil announced $3bn of direct &amp; indirect balance sheet support.",
+    "coref_tweets": "Brazils central bank keep key interest rate at 14.25 %. the last time the Federal Reserve raise key interest rate, there be no one to tweet about raise heavy .. Brazils central bank leave key interest rate unchanged. ➍ Brazils political crisis explain — but even if you get it, there be far complicate matter. … .. Brazils taxation without amelioration :. Brazils ban corporation from political donation amid corruption scandal. . Brazils respite see short live with momentum go against real. why Brazils be not come back anytime soon ( in 1 depress chart ). Brazils have cut 500,000 job since January. another 2.5 m will be shed before the end of 2016. battle dysfunctional rate, credit & amp ; currency # market, Brazils central bank announce $ 3bn of direct & amp ; indirect balance sheet support.",
+    "nr_tweets": 11,
+    "topic_clusters": [
+        ["the countrys central bank", "it", "it", "the central bank", "its", "its", "the bank", "its", "the bank", "the bank", "the central bank", "the central bank", "central bank", "bank", "bank", "the central bank", "we"],
+        ["a meeting", "that meeting"],
+        ["2016", "2016", "2016"],
+        ["the official 4.5 percent target", "the bank 4.5 percent target", "the target"],
+        ["the economy", "the economy"],
+        ["Brazil", "Brazils", "Brazils", "Brazil", "Brazils", "its", "Brazils"],
+        ["Thursday", "Thursday"],
+        ["its inflation forecast for 2016", "the projection"],
+        ["its benchmark interest rate", "the benchmark rate"],
+        ["the volatility in local market and the discussion on fiscal policy", "that"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["the Federal Reserve", "its"],
+        ["key interest rate", "its benchmark interest rate", "benchmark interest rate"],
+        ["raise", "it"],
+        ["Brazils central bank", "central bank", "central bank of # Brazil"],
+        ["Brazils", "Brazils", "brazil", "Brazil", "Brazil", "Brazil", "Brazil"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARG1: inflation in Brazil] [V: be] [ARG2: expect to slow to near the official 4.5 percent target by the end of 2016] , the countrys central bank say on Thursday , [ARGM-ADV: although] the countrys central bank signal recent market turmoil may compel the countrys central bank to far raise interest rate .",
+            "[ARG1: inflation in Brazil] be [V: expect] [C-ARG1: to slow to near the official 4.5 percent target by the end of 2016] , the countrys central bank say on Thursday , [ARGM-ADV: although the countrys central bank signal recent market turmoil may compel the countrys central bank to far raise interest rate] .",
+            "[ARG1: inflation in Brazil] be expect to [V: slow] [ARG4: to near the official 4.5 percent target] [ARGM-TMP: by the end of 2016] , the countrys central bank say on Thursday , although the countrys central bank signal recent market turmoil may compel the countrys central bank to far raise interest rate .",
+            "[ARG1: inflation] in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016 , [ARG0: the countrys central bank] [V: say] [ARGM-TMP: on Thursday] , although the countrys central bank signal recent market turmoil may compel the countrys central bank to far raise interest rate .",
+            "inflation in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016 , the countrys central bank say on Thursday , although the countrys central bank signal recent market turmoil [V: may] compel the countrys central bank to far raise interest rate .",
+            "inflation in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016 , the countrys central bank say on Thursday , although the countrys central bank signal [ARG0: recent market turmoil] [ARGM-MOD: may] [V: compel] [ARG1: the countrys central bank] [ARG2: to far raise interest rate] .",
+            "inflation in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016 , the countrys central bank say on Thursday , although the countrys central bank signal recent market turmoil may compel [ARG0: the countrys central bank] to [ARGM-ADV: far] [V: raise] [ARG1: interest rate] ."
+        ],
+        [
+            "[ARG0: the countrys central bank] [V: keep] the countrys central bank 's benchmark interest rate [ARG1: unchanged] [ARGM-LOC: at 14.25 percent brcbmp] = ECI [ARGM-LOC: at a meeting last week] , halt one of the world most aggressive rate - hike cycle as the economy sink into recession .",
+            "[ARG0: the countrys central bank] keep the countrys central bank 's benchmark interest rate unchanged at 14.25 percent brcbmp = ECI at a meeting last week , [V: halt] [ARG1: one of the world most aggressive rate - hike cycle] [ARGM-TMP: as the economy sink into recession] .",
+            "the countrys central bank keep the countrys central bank 's benchmark interest rate unchanged at 14.25 percent brcbmp = ECI at a meeting last week , halt one of the world most aggressive rate - hike cycle as [ARG1: the economy] [V: sink] [ARG4: into recession] ."
+        ],
+        [
+            "[ARGM-TMP: in the countrys central bank 's minute for a meeting] , [ARG0: the countrys central bank] [V: say] [ARG1: the countrys central bank 's inflation forecast for 2016 have drop and be now around the official 4.5 percent target as the economy slump at a fast rate than anticipate] .",
+            "in the countrys central bank 's minute for a meeting , the countrys central bank say the countrys central bank 's inflation forecast for 2016 [V: have] drop and be now around the official 4.5 percent target as the economy slump at a fast rate than anticipate .",
+            "in the countrys central bank 's minute for a meeting , the countrys central bank say [ARG1: the countrys central bank 's inflation forecast for 2016] have drop and [V: be] [ARGM-TMP: now] [ARG2: around the official 4.5 percent target] [ARGM-ADV: as the economy slump at a fast rate than anticipate] .",
+            "in the countrys central bank 's minute for a meeting , the countrys central bank say the countrys central bank 's inflation forecast for 2016 have drop and be now around the official 4.5 percent target as [ARG1: the economy] [V: slump] [ARG2: at a fast rate than anticipate] .",
+            "in the countrys central bank 's minute for a meeting , the countrys central bank say the countrys central bank 's inflation forecast for 2016 have drop and be now around the official 4.5 percent target as the economy slump at a fast rate than [V: anticipate] ."
+        ],
+        [
+            "Brazil [ARG1: annual inflation rate] [V: be] [ARG2: 9.53 percent] [ARGM-TMP: in August] , the government report on Thursday ."
+        ],
+        [
+            "[ARGM-DIS: still] , [ARG0: the countrys central bank] [V: acknowledge] [ARG1: that risk for that outlook have increase follow a recent currency sell - off , leave policymaker ready to act if 2016 expectation bounce back] .",
+            "still , the countrys central bank acknowledge that risk for that outlook [V: have] increase follow a recent currency sell - off , leave policymaker ready to act if 2016 expectation bounce back .",
+            "still , the countrys central bank acknowledge that [ARG1: risk for that outlook have increase] [V: follow] [ARG2: a recent currency sell - off] , leave policymaker ready to act if 2016 expectation bounce back .",
+            "still , the countrys central bank acknowledge that risk for that outlook have increase follow a recent currency sell - off , [V: leave] [ARG1: policymaker] [ARG2: ready to act if 2016 expectation bounce back] .",
+            "still , the countrys central bank acknowledge that risk for that outlook have increase follow a recent currency sell - off , leave [ARG0: policymaker] ready to [V: act] [ARGM-ADV: if 2016 expectation bounce back] .",
+            "still , the countrys central bank acknowledge that risk for that outlook have increase follow a recent currency sell - off , leave policymaker ready to act if [ARG1: 2016 expectation] [V: bounce] back ."
+        ],
+        [
+            "the recent increase in risk premia , which [V: have] affect asset price , require monetary policy to remain vigilant against significant deviation of its inflation forecast for 2016 away from the official 4.5 percent target , the countrys central bank say .",
+            "[ARG0: the recent increase in risk premia] , [R-ARG0: which] have [V: affect] [ARG1: asset price] , require monetary policy to remain vigilant against significant deviation of its inflation forecast for 2016 away from the official 4.5 percent target , the countrys central bank say .",
+            "[ARG0: the recent increase in risk premia , which have affect asset price ,] [V: require] [ARG1: monetary policy to remain vigilant against significant deviation of its inflation forecast for 2016 away from the official 4.5 percent target] , the countrys central bank say .",
+            "the recent increase in risk premia , which have affect asset price , require [ARG1: monetary policy] to [V: remain] [ARG3: vigilant against significant deviation of its inflation forecast for 2016 away from the official 4.5 percent target] , the countrys central bank say .",
+            "[ARG1: the recent increase in risk premia , which have affect asset price , require monetary policy to remain vigilant against significant deviation of its inflation forecast for 2016 away from the official 4.5 percent target] , [ARG0: the countrys central bank] [V: say] ."
+        ],
+        [
+            "in recent week , Brazil currency brl= BRBY [V: have] fall to near record low as President Dilma Rousseff fail to plug a grow budget deficit .",
+            "[ARGM-TMP: in recent week] , [ARG1: Brazil currency brl= BRBY] have [V: fall] [ARG4: to near record low] [ARGM-ADV: as President Dilma Rousseff fail to plug a grow budget deficit] .",
+            "in recent week , Brazil currency brl= BRBY have fall to near record low as [ARG1: President Dilma Rousseff] [V: fail] [ARG2: to plug a grow budget deficit] .",
+            "in recent week , Brazil currency brl= BRBY have fall to near record low as [ARG0: President Dilma Rousseff] fail to [V: plug] [ARG1: a grow budget deficit] ."
+        ],
+        [
+            "Brazil [V: be] downgrade to junk status by Standard & Poors late Wednesday , and investor fear other agency may follow suit in coming month .",
+            "[ARG1: Brazil] be [V: downgrade] [ARG4: to junk status] [ARG0: by Standard & Poors] [ARGM-TMP: late Wednesday] , and investor fear other agency may follow suit in coming month .",
+            "Brazil be downgrade to junk status by Standard & Poors late Wednesday , and [ARG0: investor] [V: fear] [ARG1: other agency may follow suit in coming month] .",
+            "Brazil be downgrade to junk status by Standard & Poors late Wednesday , and investor fear other agency [V: may] follow suit in coming month .",
+            "Brazil be downgrade to junk status by Standard & Poors late Wednesday , and investor fear [ARG0: other agency] [ARGM-MOD: may] [V: follow] suit [ARGM-TMP: in coming month] .",
+            "Brazil be downgrade to junk status by Standard & Poors late Wednesday , and investor fear other agency may follow suit in [V: coming] [ARG1: month] ."
+        ],
+        [
+            "[ARG0: the countrys central bank] [ARGM-DIS: also] [V: voice] [ARG1: concern over Brazils public finance] , say austerity will likely take long to help curb inflation after key budget target be loosen .",
+            "[ARG0: the countrys central bank] also voice concern over Brazils public finance , [V: say] [ARG1: austerity will likely take long to help curb inflation after key budget target be loosen] .",
+            "the countrys central bank also voice concern over Brazils public finance , say austerity [V: will] likely take long to help curb inflation after key budget target be loosen .",
+            "the countrys central bank also voice concern over Brazils public finance , say [ARG0: austerity] [ARGM-MOD: will] [ARGM-ADV: likely] [V: take] [ARG1: long] [ARGM-PNC: to help curb inflation after key budget target be loosen] .",
+            "the countrys central bank also voice concern over Brazils public finance , say [ARG0: austerity] will likely take long to [V: help] [ARG1: curb inflation after key budget target be loosen] .",
+            "the countrys central bank also voice concern over Brazils public finance , say [ARG0: austerity] will likely take long to help [V: curb] [ARG1: inflation] [ARGM-TMP: after key budget target be loosen] .",
+            "the countrys central bank also voice concern over Brazils public finance , say austerity will likely take long to help curb inflation after key budget target [V: be] loosen .",
+            "the countrys central bank also voice concern over Brazils public finance , say austerity will likely take long to help curb inflation after [ARG1: key budget target] be [V: loosen] ."
+        ],
+        [
+            "[ARG1: Brazil economic downturn , Brazil 's bad in 25 year ,] [V: could] nudge the countrys central bank in the opposite direction though .",
+            "[ARG0: Brazil economic downturn , Brazil 's bad in 25 year ,] [ARGM-MOD: could] [V: nudge] [ARG1: the countrys central bank] [ARGM-DIR: in the opposite direction] [ARGM-ADV: though] ."
+        ],
+        [
+            "economist [V: have] be forecast policymaker will start to cut rate next year , take its benchmark interest rate to 12.00 percent at end-2016 , accord to a weekly the countrys central bank survey .",
+            "[ARG1: economist] have [V: be] forecast policymaker will start to cut rate next year , take its benchmark interest rate to 12.00 percent at end-2016 , accord to a weekly the countrys central bank survey .",
+            "economist have be [V: forecast] [ARG1: policymaker will start to cut rate next year , take its benchmark interest rate to 12.00 percent at end-2016 , accord to a weekly the countrys central bank survey] .",
+            "economist have be forecast policymaker [V: will] start to cut rate next year , take its benchmark interest rate to 12.00 percent at end-2016 , accord to a weekly the countrys central bank survey .",
+            "economist have be forecast [ARG0: policymaker] [ARGM-MOD: will] [V: start] [ARG1: to cut rate next year , take its benchmark interest rate to 12.00 percent at end-2016 , accord to a weekly the countrys central bank survey] .",
+            "economist have be forecast [ARG0: policymaker] will start to [V: cut] [ARG1: rate] [ARGM-TMP: next year] , take its benchmark interest rate to 12.00 percent at end-2016 , accord to a weekly the countrys central bank survey .",
+            "economist have be forecast [ARG0: policymaker] [ARGM-MOD: will] start to cut rate next year , [V: take] [ARG1: its benchmark interest rate] [ARGM-GOL: to 12.00 percent] [ARGM-TMP: at end-2016] , accord to a weekly the countrys central bank survey ."
+        ],
+        [
+            "in the the countrys central bank view , Brazil ongoing adjustment [V: could] take long and be more intense than anticipate .",
+            "[ARGM-ADV: in the the countrys central bank view] , [ARG0: Brazil ongoing adjustment] [ARGM-MOD: could] [V: take] [ARG1: long] and be more intense than anticipate .",
+            "[ARGM-LOC: in the the countrys central bank view] , [ARG1: Brazil ongoing adjustment] [ARGM-MOD: could] take long and [V: be] [ARG2: more intense than anticipate] .",
+            "in the the countrys central bank view , Brazil ongoing adjustment could take long and be more intense than [V: anticipate] ."
+        ],
+        [
+            "[ARG1: gross domestic product] [V: be] expect to shrink 2.4 percent in 2015 , accord to economist in the the countrys central bank weekly poll .",
+            "[ARG1: gross domestic product] be [V: expect] [C-ARG1: to shrink 2.4 percent in 2015] , [ARGM-ADV: accord to economist in the the countrys central bank weekly poll] .",
+            "[ARG1: gross domestic product] be expect to [V: shrink] [ARG2: 2.4 percent] [ARGM-TMP: in 2015] , accord to economist in the the countrys central bank weekly poll .",
+            "gross domestic product be expect to shrink 2.4 percent in 2015 , accord to [V: economist] [ARGM-LOC: in the the countrys central bank weekly poll] ."
+        ],
+        [
+            "the countrys central bank [V: will] probably stay in waiting mode , watch the volatility in local market and the discussion on fiscal policy , say Carlos Kawall , chief economist at J.Safra in Sao Paulo .",
+            "[ARG1: the countrys central bank] [ARGM-MOD: will] [ARGM-ADV: probably] [V: stay] [ARG3: in waiting mode] , watch the volatility in local market and the discussion on fiscal policy , say Carlos Kawall , chief economist at J.Safra in Sao Paulo .",
+            "[ARG0: the countrys central bank] [ARGM-MOD: will] [ARGM-ADV: probably] stay in waiting mode , [V: watch] [ARG1: the volatility in local market and the discussion on fiscal policy] , say Carlos Kawall , chief economist at J.Safra in Sao Paulo .",
+            "the countrys central bank will probably stay in waiting mode , watch the volatility in local market and the discussion on fiscal policy , [V: say] [ARG0: Carlos Kawall , chief economist at J.Safra in Sao Paulo] ."
+        ],
+        [
+            "if the countrys central bank [V: do] nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there be the risk interest rate will be increase again .",
+            "if [ARG0: the countrys central bank] do [ARGM-NEG: nt] [V: see] [ARG1: improvement on the volatility in local market] and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there be the risk interest rate will be increase again .",
+            "if the countrys central bank do nt see improvement on the volatility in local market and [ARG1: the discussion on fiscal policy and the exchange rate] [V: remain] [ARG3: too weak] [ARGM-TMP: for a long time] , there be the risk interest rate will be increase again .",
+            "if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there [V: be] [ARG1: the risk interest rate] will be increase again .",
+            "if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there be the risk interest rate [V: will] be increase again .",
+            "if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there be [ARG1: the risk interest rate] [ARGM-MOD: will] [V: be] [ARG2: increase] [ARGM-TMP: again] .",
+            "if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there be [ARG1: the risk interest rate] [ARGM-MOD: will] be [V: increase] [ARGM-TMP: again] ."
+        ],
+        [
+            "( additional reporting by Anthony Boadle ; [V: edit] [ARG0: by W Simon and Bernadette Baum] ) ."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: Brazils central bank] [V: keep] [ARG1: key interest rate] [ARG2: at 14.25 %] ."
+        ],
+        [
+            "[ARGM-TMP: the last time] [ARG0: the Federal Reserve] [V: raise] [ARG1: key interest rate] , there be no one to tweet about raise heavy .. Brazils central bank leave key interest rate unchanged .",
+            "[ARGM-TMP: the last time the Federal Reserve raise key interest rate] , there [V: be] [ARG1: no one to tweet about raise heavy] .. Brazils central bank leave key interest rate unchanged .",
+            "the last time the Federal Reserve raise key interest rate , there be [ARG0: no one] to [V: tweet] [ARG1: about raise heavy] .. Brazils central bank leave key interest rate unchanged .",
+            "the last time the Federal Reserve raise key interest rate , there be [ARG0: no one] to tweet about [V: raise] [ARG1: heavy] .. Brazils central bank leave key interest rate unchanged .",
+            "the last time the Federal Reserve raise key interest rate , there be no one to tweet about raise heavy .. [ARG0: Brazils central bank] [V: leave] [ARG1: key interest rate] [ARG2: unchanged] ."
+        ],
+        [
+            "➍ [ARG0: Brazils political crisis] [V: explain] [ARG1: —] but even if you get it , there be far complicate matter .",
+            "➍ Brazils political crisis explain — but even if [ARG0: you] [V: get] [ARG1: it] , there be far complicate matter .",
+            "➍ Brazils political crisis explain — but [ARGM-ADV: even if you get it] , there [V: be] [ARG1: far complicate matter] ."
+        ],
+        [],
+        [],
+        [],
+        [
+            "[ARG0: Brazils respite] [V: see] [ARG1: short] [ARGM-MNR: live with momentum go against real] .",
+            "Brazils respite see short live with [ARG1: momentum] [V: go] [ARG2: against real] ."
+        ],
+        [
+            "why Brazils [V: be] not come back anytime soon ( in 1 depress chart ) .",
+            "[ARGM-CAU: why] [ARG1: Brazils] be [ARGM-NEG: not] [V: come] [ARGM-DIR: back] [ARGM-TMP: anytime soon] ( in 1 depress chart ) ."
+        ],
+        [
+            "Brazils [V: have] cut 500,000 job since January .",
+            "[ARG0: Brazils] have [V: cut] [ARG1: 500,000 job] [ARGM-TMP: since January] ."
+        ],
+        [
+            "another 2.5 m [V: will] be shed before the end of 2016 . battle dysfunctional rate , credit & amp ; currency # market , Brazils central bank announce $ 3bn of direct & amp ; indirect balance sheet support .",
+            "another 2.5 m will [V: be] shed before the end of 2016 . battle dysfunctional rate , credit & amp ; currency # market , Brazils central bank announce $ 3bn of direct & amp ; indirect balance sheet support .",
+            "[ARG1: another 2.5 m] [ARGM-MOD: will] be [V: shed] [ARGM-TMP: before the end of 2016] . battle dysfunctional rate , credit & amp ; currency # market , Brazils central bank announce $ 3bn of direct & amp ; indirect balance sheet support .",
+            "another 2.5 m will be shed before the end of 2016 . battle dysfunctional rate , credit & amp ; currency # market , [ARG0: Brazils central bank] [V: announce] [ARG1: $ 3bn of direct & amp] ; indirect balance sheet support ."
+        ]
+    ],
+    "tweets_verbs": ["keep", "raise", "be", "tweet", "raise", "leave", "explain", "get", "be", "see", "go", "be", "come", "have", "cut", "will", "be", "shed", "announce"],
+    "metrics": {
+        "verb_precision": 68.421,
+        "verb_recall": 20.968
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "keep": {
+                "all_frames": {
+                    "rouge1_precision": 0.556,
+                    "rouge1_recall": 0.333,
+                    "rouge1_f1": 0.417,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: the countrys central bank] [V: keep] the countrys central bank 's benchmark interest rate [ARG1: unchanged] [ARGM-LOC: at 14.25 percent brcbmp] = ECI [ARGM-LOC: at a meeting last week] , halt one of the world most aggressive rate - hike cycle as the economy sink into recession .",
+                        "tweet_args": "[ARG0: Brazils central bank] [V: keep] [ARG1: key interest rate] [ARG2: at 14.25 %] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.556,
+                        "rouge1_f1": 0.417
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: the countrys central bank] [V: keep] the countrys central bank 's benchmark interest rate [ARG1: unchanged] [ARGM-LOC: at 14.25 percent brcbmp] = ECI [ARGM-LOC: at a meeting last week] , halt one of the world most aggressive rate - hike cycle as the economy sink into recession .",
+                        "tweet_args": "[ARG0: Brazils central bank] [V: keep] [ARG1: key interest rate] [ARG2: at 14.25 %] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.556,
+                        "rouge1_f1": 0.417
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: the countrys central bank] [V: keep] the countrys central bank 's benchmark interest rate [ARG1: unchanged] [ARGM-LOC: at 14.25 percent brcbmp] = ECI [ARGM-LOC: at a meeting last week] , halt one of the world most aggressive rate - hike cycle as the economy sink into recession .",
+                        "tweet_args": "[ARG0: Brazils central bank] [V: keep] [ARG1: key interest rate] [ARG2: at 14.25 %] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.556,
+                        "rouge1_f1": 0.417
+                    }
+                }
+            },
+            "cut": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "leave": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "come": {
+                "all_frames": {
+                    "rouge1_precision": 0,
+                    "rouge1_recall": 0,
+                    "rouge1_f1": 0,
+                    "frequency": 0
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 5
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.022,
+                    "rouge1_recall": 0.042,
+                    "rouge1_f1": 0.026,
+                    "frequency": 40
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there be [ARG1: the risk interest rate] [ARGM-MOD: will] [V: be] [ARG2: increase] [ARGM-TMP: again] .",
+                        "tweet_args": "[ARGM-TMP: the last time the Federal Reserve raise key interest rate] , there [V: be] [ARG1: no one to tweet about raise heavy] .. Brazils central bank leave key interest rate unchanged .",
+                        "rouge1_recall": 0.429,
+                        "rouge1_precision": 0.176,
+                        "rouge1_f1": 0.25
+                    },
+                    "best_recall": {
+                        "topic_args": "if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there [V: be] [ARG1: the risk interest rate] will be increase again .",
+                        "tweet_args": "[ARGM-TMP: the last time the Federal Reserve raise key interest rate] , there [V: be] [ARG1: no one to tweet about raise heavy] .. Brazils central bank leave key interest rate unchanged .",
+                        "rouge1_recall": 0.75,
+                        "rouge1_precision": 0.176,
+                        "rouge1_f1": 0.286
+                    },
+                    "best_f1": {
+                        "topic_args": "if the countrys central bank do nt see improvement on the volatility in local market and the discussion on fiscal policy and the exchange rate remain too weak for a long time , there [V: be] [ARG1: the risk interest rate] will be increase again .",
+                        "tweet_args": "[ARGM-TMP: the last time the Federal Reserve raise key interest rate] , there [V: be] [ARG1: no one to tweet about raise heavy] .. Brazils central bank leave key interest rate unchanged .",
+                        "rouge1_recall": 0.75,
+                        "rouge1_precision": 0.176,
+                        "rouge1_f1": 0.286
+                    }
+                }
+            },
+            "will": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "see": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "raise": {
+                "all_frames": {
+                    "rouge1_precision": 0.167,
+                    "rouge1_recall": 0.214,
+                    "rouge1_f1": 0.188,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "inflation in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016 , the countrys central bank say on Thursday , although the countrys central bank signal recent market turmoil may compel [ARG0: the countrys central bank] to [ARGM-ADV: far] [V: raise] [ARG1: interest rate] .",
+                        "tweet_args": "[ARGM-TMP: the last time] [ARG0: the Federal Reserve] [V: raise] [ARG1: key interest rate] , there be no one to tweet about raise heavy .. Brazils central bank leave key interest rate unchanged .",
+                        "rouge1_recall": 0.429,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.375
+                    },
+                    "best_recall": {
+                        "topic_args": "inflation in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016 , the countrys central bank say on Thursday , although the countrys central bank signal recent market turmoil may compel [ARG0: the countrys central bank] to [ARGM-ADV: far] [V: raise] [ARG1: interest rate] .",
+                        "tweet_args": "[ARGM-TMP: the last time] [ARG0: the Federal Reserve] [V: raise] [ARG1: key interest rate] , there be no one to tweet about raise heavy .. Brazils central bank leave key interest rate unchanged .",
+                        "rouge1_recall": 0.429,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.375
+                    },
+                    "best_f1": {
+                        "topic_args": "inflation in Brazil be expect to slow to near the official 4.5 percent target by the end of 2016 , the countrys central bank say on Thursday , although the countrys central bank signal recent market turmoil may compel [ARG0: the countrys central bank] to [ARGM-ADV: far] [V: raise] [ARG1: interest rate] .",
+                        "tweet_args": "[ARGM-TMP: the last time] [ARG0: the Federal Reserve] [V: raise] [ARG1: key interest rate] , there be no one to tweet about raise heavy .. Brazils central bank leave key interest rate unchanged .",
+                        "rouge1_recall": 0.429,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.375
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.032,
+            "rouge1_recall": 0.045,
+            "rouge1_f1": 0.033
+        }
+    }
+}

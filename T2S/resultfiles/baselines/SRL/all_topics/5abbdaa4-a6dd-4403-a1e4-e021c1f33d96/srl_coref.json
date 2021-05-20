@@ -1,0 +1,230 @@
+{
+    "topic": "5abbdaa4-a6dd-4403-a1e4-e021c1f33d96",
+    "coref_content": "European Union ( EU ) regulator yesterday recommend approval of a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) that be gentle on a patient bone and kidney than an early version of the drug. a decision by the US Food and Drug Administration ( FDA ) be just around the corner. a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) combine elvitegravir, cobicistat, emtricitabine, and tenofovir alafenamide ( TAF ). the recipe match that for Stribild ( Gilead Sciences ), except that tenofovir alafenamide ( TAF ) replace the tenofovir disoproxil fumarate find in Stribild ( Gilead Sciences ). elvitegravir inhibit the hiv enzyme integrase, which in turn prevent the dna of hiv from integrate into the host genomic dna. cobicistat boost the effect of elvitegravir. both emtricitabine and tenofovir alafenamide ( TAF ) also work to prevent virus replication by inhibit an hiv enzyme call reverse transcriptase. a recent trial demonstrate that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) suppress hiv as well as Stribild ( Gilead Sciences ), but unlike Stribild ( Gilead Sciences ), a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) do not reduce a patient bone mineral density as much. a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) also do not have the renal toxicity associate with Stribild ( Gilead Sciences ). the well safety profile be chalk up to substitute tenofovir alafenamide ( TAF ) for the tenofovir disoproxil fumarate. nausea be the most common adverse effect for a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ), accord to a news release from the European Medicines Agency ( EMA ). the agency Committee for Medicinal Products for Human Use recommend that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) be indicate for treat adult and adolescent 12 year of age and old with a body weight of at least 35 kg who have hiv without any know mutation associate with resistance to emtricitabine or tenofovir. the Committee for Medicinal Products for Human Use recommendation now go to the European Commission, the European Unions executive branch, for final approval. More information on the committee action be available on the European Medicines Agency website. Gilead Sciences have ask the US Food and Drug Administration ( FDA ) also to approve a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ). a company spokesperson say a decision should come down in early November. Medscape Medical News © WebMD, LLC Heartwire © WebMD, LLC WebMD Health News © WebMD, LLC Reuters Health Information © send comment and news tip to news@medscape.net. cite this article :. Medscape. Sep 25, 2.",
+    "tweets_content": "THE Centre for Sexual Health and HIV AIDS Research on Monday revealed that least 20% of sex….\nPIA-13: The Food &amp; Drug Administration (FDA) in its Advisory No. 2015-062 warned the public against unregistered....\nSpecial Report: Best Face Forward: A new drug approved by the Food and Drug Administration (FDA) hopes to help….\nFor starters, HIV is different from AIDS. HIV is the virus. AIDS is a condition brought by HIV. #StayNegatHIVe..\nMonica Prasads book (Land of Too Much) makes a similar point in the intro, comparing the FDAs far stricter standards to EU drug regulators..\n.\nThe banal evil of drug pricing  a new  column by NATHAN GEFFEN.\nThe banal evil of drug pricing  a new column by  NATHAN GEFFEN.\nThat pharmaceutical CEO from earlier this week who got heat for raising the cost of a drug Hes not an anomaly..\nAnti-retroviral drugs a must in HIV cases, says WHO.\nAll people with #HIV should get anti-retroviral drugs:  by   via  #AIDS #TasP.",
+    "coref_tweets": "the Centre for Sexual Health and HIV AIDS Research on Monday reveal that least 20 % of sex …. PIA-13 : the Food & amp ; Drug Administration ( FDA ) in the Food & amp ; Drug Administration ( FDA )'s Advisory No. 2015 - 062 warn the public against unregistered .... special Report : good face forward : a new drug approve by the Food & amp ; Drug Administration ( FDA ) hope to help …. for starter, HIV be different from HIV AIDS. HIV be the virus. HIV AIDS be a condition bring by HIV. # StayNegatHIVe .. Monica Prasads book ( land of too Much ) make a similar point in the intro, compare the the Food & amp ; Drug Administration ( FDA ) far strict standard to EU drug regulator ... the banal evil of drug pricing a new column by NATHAN GEFFEN. the banal evil of drug pricing NATHAN GEFFENthat pharmaceutical ceo from early this week who get heat for raise the cost of a drug that pharmaceutical ceo from early this week who get heat for raise the cost of a drug s not an anomaly .. anti - retroviral drug a must in HIV case, say WHO. all people with HIV should get anti - retroviral drug : by via # HIV AIDS # TasP.",
+    "nr_tweets": 11,
+    "topic_clusters": [
+        ["a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )", "Genvoya", "Genvoya", "it", "Genvoya", "Genvoya", "Genvoya", "Genvoya"],
+        ["tenofovir alafenamide ( TAF )", "TAF", "TAF", "TAF"],
+        ["Stribild ( Gilead Sciences )", "the predecessor drug", "Stribild", "the other drug", "Stribild"],
+        ["elvitegravir", "Elvitegravir", "elvitegravir"],
+        ["hiv", "hiv-1", "the virus", "HIV", "HIV", "HIV-1"],
+        ["cobicistat", "Cobicistat"],
+        ["emtricitabine", "emtricitabine", "emtricitabine"],
+        ["the tenofovir disoproxil fumarate", "tenofovir disoproxil fumarate"],
+        ["Gilead Sciences", "Gilead Sciences"],
+        ["the US Food and Drug Administration ( FDA )", "the FDA"],
+        ["WebMD", "WebMD"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["the Food & amp ; Drug Administration ( FDA )", "its", "the Food and Drug Administration ( FDA )", "FDAs"],
+        ["HIV AIDS", "AIDS", "AIDS", "AIDS"],
+        ["HIV", "HIV", "HIV", "HIV", "# HIV"],
+        ["the banal evil of drug pricing", "the banal evil of drug pricing a new column by NATHAN GEFFEN ."],
+        ["NATHAN GEFFEN", "NATHAN GEFFEN"],
+        ["that pharmaceutical ceo from early this week who get heat for raise the cost of a drug", "He"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARG0: European Union ( EU ) regulator] [ARGM-TMP: yesterday] [V: recommend] [ARG1: approval of a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) that be gentle on a patient bone and kidney than an early version of the drug] .",
+            "European Union ( EU ) regulator yesterday recommend approval of [ARG1: a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] [R-ARG1: that] [V: be] [ARG2: gentle on a patient bone and kidney] [ARGM-PRD: than] [C-ARG2: an early version of the drug] ."
+        ],
+        [
+            "[ARG1: a decision by the US Food and Drug Administration ( FDA )] [V: be] [ARG2: just around the corner] ."
+        ],
+        [
+            "[ARG0: a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] [V: combine] [ARG1: elvitegravir , cobicistat , emtricitabine , and tenofovir alafenamide ( TAF )] ."
+        ],
+        [
+            "[ARG0: the recipe] [V: match] [ARG2: that for Stribild ( Gilead Sciences )] , [ARGM-ADV: except that tenofovir alafenamide ( TAF ) replace the tenofovir disoproxil fumarate find in Stribild ( Gilead Sciences )] .",
+            "the recipe match that for Stribild ( Gilead Sciences ) , except that [ARG2: tenofovir alafenamide ( TAF )] [V: replace] [ARG1: the tenofovir disoproxil fumarate find in Stribild ( Gilead Sciences )] .",
+            "the recipe match that for Stribild ( Gilead Sciences ) , except that tenofovir alafenamide ( TAF ) replace the tenofovir [V: disoproxil] [ARG1: fumarate] find in Stribild ( Gilead Sciences ) .",
+            "the recipe match that for Stribild ( Gilead Sciences ) , except that tenofovir alafenamide ( TAF ) replace [ARG1: the tenofovir disoproxil fumarate] [V: find] [ARGM-LOC: in Stribild ( Gilead] Sciences ) ."
+        ],
+        [
+            "[ARG0: elvitegravir] [V: inhibit] [ARG1: the hiv enzyme integrase , which in turn prevent the dna of hiv from integrate into the host genomic dna] .",
+            "elvitegravir inhibit [ARG0: the hiv enzyme integrase] , [R-ARG0: which] [ARGM-ADV: in turn] [V: prevent] [ARG1: the dna of hiv] [ARG2: from integrate into the host genomic dna] .",
+            "elvitegravir inhibit the hiv enzyme integrase , which in turn prevent the dna of hiv from [V: integrate] [ARG2: into the host genomic dna] ."
+        ],
+        [
+            "[ARG0: cobicistat] [V: boost] [ARG1: the effect of elvitegravir] ."
+        ],
+        [
+            "[ARG0: both emtricitabine and tenofovir alafenamide ( TAF )] [ARGM-DIS: also] [V: work] [ARG1: to prevent virus replication by inhibit an hiv enzyme call reverse transcriptase] .",
+            "[ARG0: both emtricitabine and tenofovir alafenamide ( TAF )] also work to [V: prevent] [ARG1: virus replication] [ARGM-MNR: by inhibit an hiv enzyme call reverse transcriptase] .",
+            "both emtricitabine and tenofovir alafenamide ( TAF ) also work to prevent virus replication by inhibit [ARG1: an hiv enzyme] [V: call] [ARG2: reverse transcriptase] ."
+        ],
+        [
+            "[ARG0: a recent trial] [V: demonstrate] [ARG1: that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) suppress hiv as well as Stribild ( Gilead Sciences ) , but unlike Stribild ( Gilead Sciences ) , a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) do not reduce a patient bone mineral density as much] .",
+            "a recent trial demonstrate that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) suppress hiv as well as Stribild ( Gilead Sciences ) , but unlike Stribild ( Gilead Sciences ) , a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) [V: do] not reduce a patient bone mineral density as much .",
+            "a recent trial demonstrate that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) suppress hiv as well as Stribild ( Gilead Sciences ) , but [ARGM-ADV: unlike Stribild ( Gilead Sciences )] , [ARG0: a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] do [ARGM-NEG: not] [V: reduce] [ARG1: a patient bone mineral density] [ARG2: as much] ."
+        ],
+        [
+            "a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) also [V: do] not have the renal toxicity associate with Stribild ( Gilead Sciences ) .",
+            "[ARG0: a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] [ARGM-DIS: also] do [ARGM-NEG: not] [V: have] [ARG1: the renal toxicity associate with Stribild ( Gilead Sciences )] ."
+        ],
+        [
+            "the well safety profile [V: be] chalk up to substitute tenofovir alafenamide ( TAF ) for the tenofovir disoproxil fumarate .",
+            "[ARG1: the well safety profile] be [V: chalk] up [ARGM-PRP: to substitute tenofovir alafenamide ( TAF ) for the tenofovir disoproxil fumarate] .",
+            "the well safety profile be chalk up to [V: substitute] [ARG1: tenofovir alafenamide ( TAF )] [ARG3: for the tenofovir disoproxil fumarate] .",
+            "the well safety profile be chalk up to substitute tenofovir alafenamide ( TAF ) for the tenofovir [V: disoproxil] [ARG1: fumarate] ."
+        ],
+        [
+            "[ARG1: nausea] [V: be] [ARG2: the most common adverse effect for a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) , accord to a news release from the European Medicines Agency ( EMA )] ."
+        ],
+        [
+            "[ARG0: the agency Committee for Medicinal Products for Human Use] [V: recommend] [ARG1: that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) be indicate for treat adult and adolescent 12 year of age and old with a body weight of at least 35 kg who have hiv without any know mutation associate with resistance to emtricitabine or tenofovir] .",
+            "the agency Committee for Medicinal Products for Human Use recommend that [ARG1: a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] [V: be] [ARG2: indicate for treat adult and adolescent 12 year of age and old with a body weight of at least 35 kg who have hiv without any know mutation associate with resistance to emtricitabine or tenofovir] .",
+            "the agency Committee for Medicinal Products for Human Use recommend that [ARG1: a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] be [V: indicate] [ARGM-PRP: for treat adult and adolescent 12 year of age and old with a body weight of at least 35 kg who have hiv without any know mutation associate with resistance to emtricitabine or tenofovir] .",
+            "the agency Committee for Medicinal Products for Human Use recommend that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) be indicate for [V: treat] [ARG1: adult and adolescent 12 year] [ARG2: of age and old with a body weight of at least 35 kg who have hiv without any know mutation associate with resistance to emtricitabine or tenofovir] .",
+            "the agency Committee for Medicinal Products for Human Use recommend that a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) be indicate for [ARG0: treat] [ARG0: adult and adolescent 12 year of age and old with a body weight of at least 35 kg] [R-ARG0: who] [V: have] [ARG1: hiv] [ARGM-MNR: without any know mutation associate with resistance to emtricitabine or tenofovir] ."
+        ],
+        [
+            "[ARG1: the Committee for Medicinal Products for Human Use recommendation] [ARGM-TMP: now] [V: go] [ARG2: to the European Commission , the European Unions executive branch ,] [ARGM-PRP: for final approval] ."
+        ],
+        [
+            "[ARG1: More information on the committee action] [V: be] [ARG2: available on the European Medicines Agency website] ."
+        ],
+        [
+            "Gilead Sciences [V: have] ask the US Food and Drug Administration ( FDA ) also to approve a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) .",
+            "[ARG0: Gilead Sciences] have [V: ask] [ARG2: the US Food and Drug Administration ( FDA )] [ARGM-ADV: also] [ARG1: to approve a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] .",
+            "Gilead Sciences have ask [ARG0: the US Food and Drug Administration ( FDA )] [ARGM-ADV: also] to [V: approve] [ARG1: a once - a - day anti - hiv cocktail call Genvoya] ( Gilead Sciences ) ."
+        ],
+        [
+            "[ARG0: a company spokesperson] [V: say] [ARG1: a decision should come down in early November] .",
+            "a company spokesperson say a decision [V: should] come down in early November .",
+            "a company spokesperson say [ARG1: a decision] [ARGM-MOD: should] [V: come] [ARGM-DIR: down] [ARGM-TMP: in early November] ."
+        ],
+        [
+            "Medscape Medical News © WebMD , LLC Heartwire © WebMD , LLC WebMD Health News © WebMD , LLC Reuters Health Information © [V: send] [ARG1: comment and news tip] [ARG2: to news@medscape.net] ."
+        ],
+        [
+            "[V: cite] [ARG1: this article] : ."
+        ],
+        [],
+        []
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: the Centre for Sexual Health and HIV AIDS Research] [ARGM-TMP: on Monday] [V: reveal] [ARG1: that least 20 % of sex …] ."
+        ],
+        [],
+        [
+            "[ARG0: 2015 - 062] [V: warn] [ARG2: the public] [ARG1: against unregistered] .... special Report : good face forward : a new drug approve by the Food & amp ; Drug Administration ( FDA ) hope to help … .",
+            "2015 - 062 warn the public against unregistered .... special Report : good face forward : a new drug approve by the Food & amp ; [ARG0: Drug Administration ( FDA )] [V: hope] [ARG1: to help …] .",
+            "2015 - 062 warn the public against unregistered .... special Report : good face forward : a new drug approve by the Food & amp ; [ARG0: Drug Administration ( FDA )] hope to [V: help] [ARG1: …] ."
+        ],
+        [
+            "[ARGM-ADV: for starter] , [ARG1: HIV] [V: be] [ARG2: different from HIV AIDS] ."
+        ],
+        [
+            "[ARG1: HIV] [V: be] [ARG2: the virus] ."
+        ],
+        [
+            "[ARG1: HIV AIDS] [V: be] [ARG2: a condition bring by HIV] .",
+            "HIV AIDS be [ARG1: a condition] [V: bring] [ARG0: by HIV] ."
+        ],
+        [
+            "# StayNegatHIVe .. [ARG0: Monica Prasads book ( land of too Much )] [V: make] [ARG1: a similar point] [ARGM-LOC: in the intro] , compare the the Food & amp ; Drug Administration ( FDA ) far strict standard to EU drug regulator ... the banal evil of drug pricing a new column by NATHAN GEFFEN .",
+            "# StayNegatHIVe .. Monica Prasads book ( land of too Much ) make a similar point in the intro , [V: compare] [ARG1: the the Food & amp ; Drug Administration ( FDA ) far strict standard] to EU drug regulator ... the banal evil of drug pricing a new column by NATHAN GEFFEN ."
+        ],
+        [
+            "the banal evil of drug pricing [ARG0: NATHAN GEFFENthat pharmaceutical ceo from early this week] [R-ARG0: who] [V: get] [ARG1: heat] [ARGM-PRP: for raise the cost of a drug] that pharmaceutical ceo from early this week who get heat for raise the cost of a drug s not an anomaly .. anti - retroviral drug a must in HIV case , say WHO .",
+            "the banal evil of drug pricing NATHAN GEFFENthat pharmaceutical ceo from early this week who get heat for [V: raise] [ARG1: the cost of a drug] that pharmaceutical ceo from early this week who get heat for raise the cost of a drug s not an anomaly .. anti - retroviral drug a must in HIV case , say WHO .",
+            "the banal evil of drug pricing NATHAN GEFFENthat pharmaceutical ceo from early this week who get heat for raise the cost of a drug that [ARG0: pharmaceutical ceo from early this week] [R-ARG0: who] [V: get] [ARG1: heat] [ARGM-PRP: for raise the cost of a drug s not an anomaly] .. anti - retroviral drug a must in HIV case , say WHO .",
+            "the banal evil of drug pricing NATHAN GEFFENthat pharmaceutical ceo from early this week who get heat for raise the cost of a drug that pharmaceutical ceo from early this week who get heat for [V: raise] [ARG1: the cost of a drug] s not an anomaly .. anti - retroviral drug a must in HIV case , say WHO .",
+            "the banal evil of drug pricing NATHAN GEFFENthat pharmaceutical ceo from early this week who get heat for raise the cost of a drug that pharmaceutical ceo from early this week who get heat for raise the cost of a [ARG1: drug] [V: s] [ARGM-NEG: not] [ARG2: an anomaly] .. anti - retroviral drug a must in HIV case , say WHO .",
+            "[ARG0: the banal evil of drug pricing] NATHAN GEFFENthat pharmaceutical ceo from early this week who get heat for raise the cost of a drug that pharmaceutical ceo from early this week who get heat for raise the cost of a drug s not an anomaly .. anti - retroviral drug a must in HIV case , [V: say] [ARG1: WHO] ."
+        ],
+        [
+            "all people with HIV [V: should] get anti - retroviral drug : by via # HIV AIDS # TasP.",
+            "[ARG0: all people with HIV] [ARGM-MOD: should] [V: get] [ARG1: anti - retroviral drug] : [ARGM-MNR: by via # HIV AIDS # TasP.]"
+        ]
+    ],
+    "tweets_verbs": ["reveal", "warn", "hope", "help", "be", "be", "be", "bring", "make", "compare", "get", "raise", "get", "raise", "s", "say", "should", "get"],
+    "metrics": {
+        "verb_precision": 27.778,
+        "verb_recall": 13.514
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.257,
+                    "rouge1_recall": 0.049,
+                    "rouge1_f1": 0.079,
+                    "frequency": 18
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "European Union ( EU ) regulator yesterday recommend approval of [ARG1: a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences )] [R-ARG1: that] [V: be] [ARG2: gentle on a patient bone and kidney] [ARGM-PRD: than] [C-ARG2: an early version of the drug] .",
+                        "tweet_args": "[ARG1: HIV] [V: be] [ARG2: the virus] .",
+                        "rouge1_recall": 0.077,
+                        "rouge1_precision": 0.667,
+                        "rouge1_f1": 0.138
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: nausea] [V: be] [ARG2: the most common adverse effect for a once - a - day anti - hiv cocktail call Genvoya ( Gilead Sciences ) , accord to a news release from the European Medicines Agency ( EMA )] .",
+                        "tweet_args": "[ARGM-ADV: for starter] , [ARG1: HIV] [V: be] [ARG2: different from HIV AIDS] .",
+                        "rouge1_recall": 0.103,
+                        "rouge1_precision": 0.429,
+                        "rouge1_f1": 0.167
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: a decision by the US Food and Drug Administration ( FDA )] [V: be] [ARG2: just around the corner] .",
+                        "tweet_args": "[ARG1: HIV AIDS] [V: be] [ARG2: a condition bring by HIV] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.286,
+                        "rouge1_f1": 0.19
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "should": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.231,
+            "rouge1_recall": 0.044,
+            "rouge1_f1": 0.071
+        }
+    }
+}

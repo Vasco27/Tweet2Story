@@ -1,0 +1,153 @@
+{
+    "topic": "1478bf7b-1c23-4235-9ed2-b8c287fc952c",
+    "coref_content": "2:01am EDT Inox Wind Ltd : have bag an order for a 100 mw wind power project at Lahori, in the state of Madhya Pradesh from Ostro Energy. say Ostro Energy be bake by Actis, a global pan - emerge maket private equity frim with $ 7.6 bln of fund under management ..",
+    "tweets_content": "just In: Inox Wind Bags 100 MW Order From Ostro Energy.\nInox Wind Says: Will Be Responsible For Entire Project Lifecycle.\nInox Wind Says: 100 MW Project Will Be A Part Of Inox Wind Park 200 MW Capacity At Lahori.\nINOXWIND - Inox Wind Bags 100 MW Order from OSTRO Energy.\nFirst On CNBC-TV18 Inox Wind: Have Bagged 100 MW Order From Ostro Energy.\nFirst On CNBC-TV18 Inox Wind: Order Book Increases To 1,250 MW Post Ostro Energy Order.\nFirst On CNBC-TV18 Inox Wind: Expect To Complete Ostro Energy Order By March 2016.\nFirst On CNBC-TV18 Inox Wind: 100 MW Order Bagged From Ostro Energy Is Worth Rs 600-650 Cr.\nDutch railway to run on 100% wind energy by 2018.\nInox Wind bags 100 MW power project from Ostro Energy.\nA 50 MW offshore wind energy project is currently on and under assessment: Piyush Goyal..\nOffshore Policy will open #opportunities in medium term: INOX Wind.\nDo not see #pilot project coming up before 3-5 years: INOX Wind.\njust In: Suzlon Energy Bags 105 MW Turnkey Orders: Suzlon Energy 20.70 Unch.\nInox Wind wins 50 mw Turnkey order from GMDC..",
+    "coref_tweets": "just in : Inox Wind bag 100 mw order from Ostro Energy. Inox Wind say : will be responsible for entire project lifecycle. Inox Wind say : 100 mw project will be a part of Inox Wind Park 200 mw capacity at Lahori. INOXWIND - Inox Wind bag 100 mw order from Ostro Energy. first on CNBC - TV18 Inox Wind : have bag 100 mw order from Ostro Energy. first on CNBC - TV18 Inox Wind : order book increase to 1,250 mw post Ostro Energy order. first on CNBC - TV18 Inox Wind : expect to complete Ostro Energy order by March 2016. first on CNBC - TV18 Inox Wind : 100 mw order bag from Ostro Energy be worth rs 600 - 650 cr. dutch railway to run on 100 % wind energy by 2018. Inox Wind bag 100 mw power project from Ostro Energy. a 50 mw offshore wind energy project be currently on and under assessment : Piyush Goyal .. offshore Policy will open # opportunity in medium term : Inox Wind. do not see # pilot project come up before 3 - 5 year : Inox Wind. just in : Suzlon Energy bag 105 mw turnkey order : Suzlon Energy 20.70 unch. Inox Wind win 50 mw turnkey order from GMDC ..",
+    "nr_tweets": 15,
+    "topic_clusters": [
+        ["Ostro Energy", "Ostro Energy"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Inox Wind", "Inox Wind", "Inox Wind", "Inox Wind", "Inox Wind", "Inox Wind", "Inox Wind", "Inox Wind", "INOX Wind", "INOX Wind", "Inox Wind"],
+        ["Ostro Energy", "OSTRO Energy", "Ostro Energy", "Ostro Energy", "Ostro Energy", "Ostro Energy", "Ostro Energy"],
+        ["CNBC - TV18", "CNBC - TV18", "CNBC - TV18", "CNBC - TV18"],
+        ["Suzlon Energy", "Suzlon Energy"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "2:01am EDT Inox Wind Ltd : [V: have] bag an order for a 100 mw wind power project at Lahori , in the state of Madhya Pradesh from Ostro Energy ."
+        ],
+        [
+            "[V: say] [ARG1: Ostro Energy be bake by Actis , a global pan - emerge maket private equity frim with $ 7.6 bln of fund under management] ..",
+            "say Ostro Energy [V: be] bake by Actis , a global pan - emerge maket private equity frim with $ 7.6 bln of fund under management .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [],
+        [
+            "[ARG0: Inox Wind] [V: say] : [ARG1: will be responsible for entire project lifecycle] .",
+            "Inox Wind say : [V: will] be responsible for entire project lifecycle .",
+            "Inox Wind say : [ARGM-MOD: will] [V: be] [ARG2: responsible for entire project lifecycle] ."
+        ],
+        [
+            "[ARG0: Inox Wind] [V: say] : [ARG1: 100 mw project will be a part of Inox Wind Park 200 mw capacity at Lahori] .",
+            "Inox Wind say : 100 mw project [V: will] be a part of Inox Wind Park 200 mw capacity at Lahori .",
+            "Inox Wind say : [ARG1: 100 mw project] [ARGM-MOD: will] [V: be] [ARG2: a part of Inox Wind Park 200 mw capacity at Lahori] ."
+        ],
+        [],
+        [
+            "first on CNBC - TV18 Inox Wind : [V: have] bag 100 mw order from Ostro Energy ."
+        ],
+        [
+            "first on CNBC - TV18 Inox Wind : order book increase to 1,250 mw [V: post] [ARG1: Ostro Energy order] ."
+        ],
+        [
+            "first [ARGM-LOC: on CNBC - TV18 Inox Wind] : [V: expect] [ARG1: to complete Ostro Energy order by March 2016] . first on CNBC - TV18 Inox Wind : 100 mw order bag from Ostro Energy be worth rs 600 - 650 cr .",
+            "first on CNBC - TV18 Inox Wind : expect to [V: complete] [ARG1: Ostro Energy order] [ARGM-TMP: by March 2016] . first on CNBC - TV18 Inox Wind : 100 mw order bag from Ostro Energy be worth rs 600 - 650 cr .",
+            "first on CNBC - TV18 Inox Wind : expect to complete Ostro Energy order by March 2016 . first on CNBC - TV18 Inox Wind : [ARG1: 100 mw order bag from Ostro Energy] [V: be] [ARG2: worth rs 600 - 650 cr] ."
+        ],
+        [
+            "[ARG1: dutch railway] to [V: run] [ARGM-MNR: on 100 % wind energy] [ARGM-TMP: by 2018] ."
+        ],
+        [],
+        [
+            "[ARG1: a 50 mw offshore wind energy project] [V: be] [ARGM-TMP: currently] [ARG2: on and under assessment] : Piyush Goyal .. offshore Policy will open # opportunity in medium term : Inox Wind .",
+            "a 50 mw offshore wind energy project be currently on and under assessment : Piyush Goyal .. offshore Policy [V: will] open # opportunity in medium term : Inox Wind .",
+            "a 50 mw offshore wind energy project be currently on and under assessment : Piyush Goyal .. [ARG0: offshore Policy] [ARGM-MOD: will] [V: open] [ARG1: # opportunity] [ARGM-TMP: in medium term] : [C-ARG1: Inox Wind] ."
+        ],
+        [
+            "[V: do] not see # pilot project come up before 3 - 5 year : Inox Wind .",
+            "do [ARGM-NEG: not] [V: see] [ARG1: # pilot project come up before 3 - 5 year : Inox Wind] .",
+            "do not see [ARG1: # pilot project] [V: come] up [ARGM-TMP: before 3 - 5 year] : Inox Wind ."
+        ],
+        [],
+        [
+            "[ARG0: Inox Wind] [V: win] [ARG1: 50 mw turnkey order] [ARG2: from GMDC] .."
+        ]
+    ],
+    "tweets_verbs": ["say", "will", "be", "say", "will", "be", "have", "post", "expect", "complete", "be", "run", "be", "will", "open", "do", "see", "come", "win"],
+    "metrics": {
+        "verb_precision": 36.842,
+        "verb_recall": 100.0
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.139,
+                    "rouge1_recall": 0.091,
+                    "rouge1_f1": 0.107,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[V: say] [ARG1: Ostro Energy be bake by Actis , a global pan - emerge maket private equity frim with $ 7.6 bln of fund under management] ..",
+                        "tweet_args": "[ARG0: Inox Wind] [V: say] : [ARG1: 100 mw project will be a part of Inox Wind Park 200 mw capacity at Lahori] .",
+                        "rouge1_recall": 0.136,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.15
+                    },
+                    "best_recall": {
+                        "topic_args": "[V: say] [ARG1: Ostro Energy be bake by Actis , a global pan - emerge maket private equity frim with $ 7.6 bln of fund under management] ..",
+                        "tweet_args": "[ARG0: Inox Wind] [V: say] : [ARG1: 100 mw project will be a part of Inox Wind Park 200 mw capacity at Lahori] .",
+                        "rouge1_recall": 0.136,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.15
+                    },
+                    "best_f1": {
+                        "topic_args": "[V: say] [ARG1: Ostro Energy be bake by Actis , a global pan - emerge maket private equity frim with $ 7.6 bln of fund under management] ..",
+                        "tweet_args": "[ARG0: Inox Wind] [V: say] : [ARG1: 100 mw project will be a part of Inox Wind Park 200 mw capacity at Lahori] .",
+                        "rouge1_recall": 0.136,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.15
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.04,
+            "rouge1_recall": 0.026,
+            "rouge1_f1": 0.031
+        }
+    }
+}

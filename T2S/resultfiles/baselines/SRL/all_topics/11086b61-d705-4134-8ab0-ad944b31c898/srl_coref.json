@@ -1,0 +1,140 @@
+{
+    "topic": "11086b61-d705-4134-8ab0-ad944b31c898",
+    "coref_content": "( MENAFN ) accord to its government, South Koreas export of agricultural product decline massively in August as oppose to last year figure. cargo of food and other farm product hit usd457.6 million in August, a 9.3 percent fall from the correspond month in 2014, strangely export to China be an exception. as to the reason behind this big cut, Japan be to blame as the korean foodstuff world single - large importer witness a huge decline in Japan's receive shipment. delivery to Japan drop 16 percent on - year to usd87.9 million in the cite month, while food export to Japan in the first eight month stumble 10.9 percent on - year ..",
+    "tweets_content": "South #Koreas Exports Fall Most Since 2009 in August  via  #economy..\nExports Fall for 8 Consecutive Months, Down 14.7% On Year in August.\nSouth Koreas exports plunged 14.7% in August from a year earlier #China.\nU.K. manufacturing growth slowed in August; export orders fell for 5th month.\nNext to devalue: South Korea..\nNigeria to export 68 crude oil cargoes next month -.\nNigeria to export 68 crude oil cargoes next month.\nS. Korean Shipbuilders Outperformed by China, Japan in August.\nS. Koreas auto exports shrink for 2nd straight month in August.\nExport-import gap up by Sh115bn.\n#ChinaTradeData: August exports fall 6.1% in Yuan terms YoY; imports fall 14.3% in Yuan terms YoY...\nMainland #Chinas imports, exports fall in August.\nChina Jan-Aug exports to South Korea down -0.1% y/y, imports from South Korea down -7.3%, trade deficit with South Korea down -15.9%...\nChinese exports were down 5.5 percent in August..\nThe US is officially importing deflation if you look at the import/export price numbers..\nChina August factory output up 6.1 percent year-on-year, below forecast  #Finance..\nAugust Trade Data Lathas Take: Export Decline Indicates Poor State Of Global Economy.\nUkrainian exports to #Russia have dropped to 2 percent, while exports to #China doubled to $889.7 million over the first 7…..\nIndonesias exports up 10 percent in August.\nDecline in Indian mackerel catch causing export losses.\nSingapores NODX falls 8.4% year-on-year in August: The decline in non-oil domestic exports is due to a contra....\nJapans export growth slows for a second month.\nTaiwans export orders expected to show drop for 5th straight month.\nOn the Export-Import Bank, the Numbers Come First.\nS. Koreas farm exports plunge 9.3 pct on-year in Aug..\nOn CNBC-TV18 JPMorgan Asset Mgmt: Indias Exports To China Lesser Than Other Asian Countries..\nJapan’s exports to China fell 9.2% in August from a year earlier | Read  at.\nEconomists Predict S. Korean Exports Likely to Fall 4-6% in 2015.\nU.S. #exports of agricultural and food products to #SaudiArabia in 2014 reached their highest levels at $1.37",
+    "coref_tweets": "South # Koreas export fall most since 2009 in August via # economy .. export fall for 8 consecutive month, down 14.7 % on year in August. South Koreas export plunge 14.7 % in August from a year early # China. U.K. manufacturing growth slow in August ; export order fall for 5th month. next to devalue : South # Koreas .. Nigeria to export 68 crude oil cargo next month -. Nigeria to export 68 crude oil cargo next month. S. Korean Shipbuilders outperform by China, Japan in August. S. Koreas auto export shrink for 2nd straight month in August. export - import gap up by sh115bn. # ChinaTradeData : August export fall 6.1 % in yuan term YoY ; import fall 14.3 % in yuan term YoY ... Mainland # Chinas import, export fall in August. China Jan - Aug export to South # Koreas down -0.1 % y / y, import from South # Koreas down -7.3 %, trade deficit with South # Koreas down -15.9 % ... chinese export be down 5.5 percent in August .. the US be officially import deflation if you look at the import / export price number .. China August factory output up 6.1 percent year - on - year, below forecast # finance .. August trade datum Lathas take : export decline indicate poor state of Global economy. ukrainian export to # Russia have drop to 2 percent, while export to China double to $ 889.7 million over the first 7 … .. Indonesias export up 10 percent in August. decline in indian mackerel catch cause export loss. Singapores NODX fall 8.4 % year - on - year in August : the decline in non - oil domestic export be due to a contra .... Japan export growth slow for a second month. Taiwans export order expect to show drop for 5th straight month. on the Export - Import Bank, the number come first. S. Koreas farm export plunge 9.3 pct on - year in August .. on CNBC - TV18 JPMorgan Asset Mgmt : Indias export to China less than other asian country .. Japan's export to China fall 9.2 % in August from a year early | read at. economist predict s. korean export likely to fall 4 - 6 % in 2015. U.S. # export of agricultural and food product to # SaudiArabia in 2014 reach their high level at $ 1.37",
+    "nr_tweets": 29,
+    "topic_clusters": [
+        ["August", "August"],
+        ["Japan", "its", "Japan", "Japan"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["August", "August", "August", "August", "August", "August", "August", "August", "August", "August", "August", "August", "August", "Aug", "August"],
+        ["South # Koreas", "South Korea", "South Korea", "South Korea", "South Korea"],
+        ["Nigeria", "Nigeria"],
+        ["next month", "next month"],
+        ["yuan term YoY", "yuan term YoY"],
+        ["China", "China", "China", "# China", "China", "China"],
+        ["Japan", "Japans", "Japan \u2019s"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "( MENAFN ) accord to its government , South Koreas export of agricultural product decline massively in August as [V: oppose] [ARG1: to last year figure] ."
+        ],
+        [
+            "[ARG0: cargo of food and other farm product] [V: hit] [ARG1: usd457.6 million] [ARGM-TMP: in August] , [ARGM-ADV: a 9.3 percent fall from the correspond month in 2014] , strangely export to China be an exception .",
+            "cargo of food and other farm product hit usd457.6 million in August , a 9.3 percent fall from the correspond month in 2014 , [ARGM-ADV: strangely] [ARG1: export to China] [V: be] [ARG2: an exception] ."
+        ],
+        [
+            "[ARGM-ADV: as to the reason behind this big cut] , [ARG1: Japan] [V: be] [ARG2: to blame] [ARGM-TMP: as the korean foodstuff world single - large importer witness a huge decline in Japan 's receive shipment] .",
+            "as to the reason behind this big cut , [ARG1: Japan] be to [V: blame] as the korean foodstuff world single - large importer witness a [ARGM-TMP: huge decline in Japan 's receive shipment] ."
+        ],
+        [
+            "[ARG1: delivery to Japan] [V: drop] [ARG2: 16 percent on - year] [ARG4: to usd87.9 million] [ARGM-TMP: in the cite month] , [ARGM-ADV: while food export to Japan in the first eight month stumble 10.9 percent on - year] ..",
+            "delivery to Japan drop 16 percent on - year to usd87.9 million in the cite month , while [ARG1: food export to Japan in the first eight month] [V: stumble] [ARG2: 10.9 percent on - year] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [],
+        [
+            "[ARG1: South Koreas export] [V: plunge] [ARG2: 14.7 %] [ARGM-TMP: in August] [ARG3: from a year early] # China ."
+        ],
+        [
+            "U.K. manufacturing growth slow in August ; [ARG1: export order] [V: fall] [ARGM-TMP: for 5th month] ."
+        ],
+        [
+            "[ARGM-TMP: next] to [V: devalue] : South # Koreas .. Nigeria to export 68 crude oil cargo next month - .",
+            "next to devalue : South # Koreas .. [ARG0: Nigeria] to [V: export] [ARG1: 68 crude oil cargo] [ARGM-TMP: next month] - ."
+        ],
+        [
+            "[ARG0: Nigeria] to [V: export] [ARG1: 68 crude oil cargo] [ARGM-TMP: next month] ."
+        ],
+        [],
+        [],
+        [],
+        [
+            "# ChinaTradeData : [ARG1: August export] [V: fall] [ARG2: 6.1 %] [ARGM-TMP: in yuan term YoY] ; import fall 14.3 % in yuan term YoY ... Mainland # Chinas import , export fall in August .",
+            "# ChinaTradeData : August export fall 6.1 % in yuan term YoY ; [ARG1: import] [V: fall] [ARG2: 14.3 %] [ARGM-TMP: in yuan term YoY] ... Mainland # Chinas import , export fall in August ."
+        ],
+        [
+            "China Jan - Aug export to South # Koreas down -0.1 % y / y , import from South # Koreas down -7.3 % , trade deficit with South # Koreas down -15.9 % ... [ARG1: chinese export] [V: be] [ARG2: down 5.5 percent] [ARGM-TMP: in August] .. the US be officially import deflation if you look at the import / export price number .. China August factory output up 6.1 percent year - on - year , below forecast # finance .. August trade datum Lathas take : export decline indicate poor state of Global economy .",
+            "China Jan - Aug export to South # Koreas down -0.1 % y / y , import from South # Koreas down -7.3 % , trade deficit with South # Koreas down -15.9 % ... chinese export be down 5.5 percent in August .. [ARG1: the US] [V: be] [ARGM-MNR: officially] [ARG2: import deflation] [ARGM-ADV: if you look at the import / export price number] .. China August factory output up 6.1 percent year - on - year , below forecast # finance .. August trade datum Lathas take : export decline indicate poor state of Global economy .",
+            "China Jan - Aug export to South # Koreas down -0.1 % y / y , import from South # Koreas down -7.3 % , trade deficit with South # Koreas down -15.9 % ... chinese export be down 5.5 percent in August .. the US be officially import deflation if [ARG0: you] [V: look] [ARG1: at the import / export price number] .. China August factory output up 6.1 percent year - on - year , below forecast # finance .. August trade datum Lathas take : export decline indicate poor state of Global economy .",
+            "China Jan - Aug export to South # Koreas down -0.1 % y / y , import from South # Koreas down -7.3 % , trade deficit with South # Koreas down -15.9 % ... chinese export be down 5.5 percent in August .. the US be officially import deflation if you look at the import / export price number .. China August factory output up 6.1 percent year - on - year , below forecast # finance .. [ARG1: August trade] [ARG0: datum Lathas] [V: take] : export decline indicate poor state of Global economy .",
+            "China Jan - Aug export to South # Koreas down -0.1 % y / y , import from South # Koreas down -7.3 % , trade deficit with South # Koreas down -15.9 % ... chinese export be down 5.5 percent in August .. the US be officially import deflation if you look at the import / export price number .. China August factory output up 6.1 percent year - on - year , below forecast # finance .. August trade datum Lathas take : [ARG0: export decline] [V: indicate] [ARG1: poor state of Global economy] ."
+        ],
+        [
+            "ukrainian export to # Russia [V: have] drop to 2 percent , while export to China double to $ 889.7 million over the first 7 … .. Indonesias export up 10 percent in August .",
+            "ukrainian export to # Russia have drop to 2 percent , while export to China double to $ 889.7 million over the first 7 … .. [ARG0: Indonesias] [V: export] [ARGM-MNR: up 10 percent] [ARGM-TMP: in August] ."
+        ],
+        [],
+        [
+            "Singapores NODX fall 8.4 % year - on - year in August : [ARG1: the decline in non - oil domestic export] [V: be] [ARG2: due to a contra] .... Japan export growth slow for a second month ."
+        ],
+        [
+            "[ARG0: Taiwans export order] [V: expect] [ARG1: to show drop for 5th straight month] .",
+            "[ARG0: Taiwans export order] expect to [V: show] [ARG1: drop for 5th straight month] ."
+        ],
+        [
+            "[ARGM-LOC: on the Export - Import Bank] , [ARG1: the number] [V: come] [ARGM-TMP: first] ."
+        ],
+        [
+            "S. Koreas farm export plunge 9.3 pct on - year in August .. on CNBC - TV18 JPMorgan Asset Mgmt : Indias export to China less than other asian country .. [ARG1: Japan 's export to China] [V: fall] [ARG2: 9.2 %] [ARGM-TMP: in August] [ARG3: from a year early] | read at .",
+            "S. Koreas farm export plunge 9.3 pct on - year in August .. on CNBC - TV18 JPMorgan Asset Mgmt : [ARG3: Indias export to China less than other asian country] .. [ARG1: Japan 's export to China] fall 9.2 % [ARG3: in August from a year early] | [V: read] [ARG2: at] ."
+        ],
+        [
+            "[ARG0: economist] [V: predict] [ARG1: s. korean export likely to fall 4 - 6 % in 2015] .",
+            "economist predict [ARG1: s. korean export] likely to [V: fall] [ARG2: 4 - 6 %] [ARGM-TMP: in 2015] ."
+        ],
+        [
+            "[ARG0: U.S. # export of agricultural and food product to # SaudiArabia] [ARGM-TMP: in 2014] [V: reach] [ARG1: their high level] [ARGM-EXT: at $ 1.37]"
+        ]
+    ],
+    "tweets_verbs": ["plunge", "fall", "devalue", "export", "export", "fall", "fall", "be", "be", "look", "take", "indicate", "have", "export", "be", "expect", "show", "come", "fall", "read", "predict", "fall", "reach"],
+    "metrics": {
+        "verb_precision": 13.043,
+        "verb_recall": 37.5
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.183,
+                    "rouge1_recall": 0.159,
+                    "rouge1_f1": 0.148,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARGM-ADV: as to the reason behind this big cut] , [ARG1: Japan] [V: be] [ARG2: to blame] [ARGM-TMP: as the korean foodstuff world single - large importer witness a huge decline in Japan 's receive shipment] .",
+                        "tweet_args": "Singapores NODX fall 8.4 % year - on - year in August : [ARG1: the decline in non - oil domestic export] [V: be] [ARG2: due to a contra] .... Japan export growth slow for a second month .",
+                        "rouge1_recall": 0.179,
+                        "rouge1_precision": 0.455,
+                        "rouge1_f1": 0.256
+                    },
+                    "best_recall": {
+                        "topic_args": "cargo of food and other farm product hit usd457.6 million in August , a 9.3 percent fall from the correspond month in 2014 , [ARGM-ADV: strangely] [ARG1: export to China] [V: be] [ARG2: an exception] .",
+                        "tweet_args": "Singapores NODX fall 8.4 % year - on - year in August : [ARG1: the decline in non - oil domestic export] [V: be] [ARG2: due to a contra] .... Japan export growth slow for a second month .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.182,
+                        "rouge1_f1": 0.235
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARGM-ADV: as to the reason behind this big cut] , [ARG1: Japan] [V: be] [ARG2: to blame] [ARGM-TMP: as the korean foodstuff world single - large importer witness a huge decline in Japan 's receive shipment] .",
+                        "tweet_args": "Singapores NODX fall 8.4 % year - on - year in August : [ARG1: the decline in non - oil domestic export] [V: be] [ARG2: due to a contra] .... Japan export growth slow for a second month .",
+                        "rouge1_recall": 0.179,
+                        "rouge1_precision": 0.455,
+                        "rouge1_f1": 0.256
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.183,
+            "rouge1_recall": 0.159,
+            "rouge1_f1": 0.148
+        }
+    }
+}

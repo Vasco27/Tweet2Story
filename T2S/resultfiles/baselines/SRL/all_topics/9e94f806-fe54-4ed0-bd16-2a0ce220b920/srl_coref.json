@@ -1,0 +1,246 @@
+{
+    "topic": "9e94f806-fe54-4ed0-bd16-2a0ce220b920",
+    "coref_content": "corporate hospitality spending be already up 12.4 per cent on last year show you ca nt keep corporate Australia away from corporate Australia's favourite party of the year. share price have tumble, the jobless rate have top 6 per cent and the mining boom be a distant spike in Gina Rineharts bank balance. but you still ca nt nt keep corporate Australia away from its favourite party of the year. the largesse on offer at the Melbourne Cup usually provide a good barometer of the mood of corporate Australia. in the wake of the GFC, the cutback be palpable. then Myer boss Bernie Brookes make Myer boss Bernie Brookes's executive team swap a fleet of private limo for a bus back to Myer. Emirates slash spending from almost $ 1500 a head to less than four figure. the Packer family private fund Ellerston pull out of the Birdcage altogether. but tough time in the economy ca nt keep the corporate away this year. in fact, just over a month out, sale have soar. the Victoria Racing Club say corporate hospitality spending be already up 12.4 per cent on last year. big gain have come from Emirates Cup Day and Crown Stakes day. we be just 33 day out from AAMI Victoria Derby Day and there s every indication be in for a big carnival, say the Victoria Racing Club chief executive Simon Love. sale be up across the board, with corporate hospitality up more than 12 per cent up on this time last year. global drink company Diageo be the only big player to withdraw from the Birdcage this year, with no Johnnie Walker marquee this year but Johnnie Walker marquee have quickly be snap up by radio giant Southern Cross Austereo. one in, one out and everyone fully expect global drink company Diageo back next year, say one racing industry insider. punter ticket sale soar too ticket sale have also soar, after a couple of quiet carnival. with soar come the big fashion spend. in each of the last two carnival, spending have be stagnant, with $ 31.4 million of attribute victorian sale on fashion item specifically to wear to Flemington. $ 31.4 million of attribute victorian sale on fashion item specifically to wear to Flemington include an estimate 5000 hat and fascinator, 61,000 dress, 59,000 pair of shoe and 30,000 handbag. man be spend big, too, with 17,000 shirt and 15,000 suit sell for the carnival last year. the data show the sale do nt all go to big marketer, such as Myer, but also benefit small boutique, milliner and shop. indeed, while Myer battle through tough time at the till, high - end Melbourne tailor Oscar Hunt have do so well a Sydney store be open last week. who say brick and mortar retail be dead southern - most charter among 50 country the overseas raid on this year now expand beyond the actual racetrack. on Saturday, 10 European - train horse arrive in Melbourne and go into quarantine. but the Victoria Racing Club be expect visitor in Melbourne from almost 50 different country, up from 43 last year. visitor in Melbourne from almost 50 different country, up from 43 last year do come with a warning. visitor in Melbourne from almost 50 different country, up from 43 last year include the first ever international passenger flight out of New Zealands southernmost city, Invercargill, and a place that be the butt of many a joke across the ditch. apparently the only other overseas destination you can get to from Invercargill Airport be Antarctica, as long as you be happy to stay for six month on a scientific expedition. the planeload of 180 Kiwi racing fan be actually a little brave - the planeload of 180 Kiwi racing fan have charter the flight to the Melbourne Cup as a day trip. the HECKLER it a bird. it a plane. its the Fiat Chrysler Flying Circus. big shout out to some regional plane spotter, who jot down detail of the Alfa Romeo aircraft allegedly pay for by Fiat Chrysler barnstorm near Mount Buffalo Airport on Friday afternoon. we be nt sure if the pilot and passenger be hole up at luxury retreat Villa Gusto, or the Freeburgh property own by the car company embattle former boss Clyde Campbell. but it nice to know the fly billboard be be notice. the story first appear on the Sydney Morning Herald ..",
+    "tweets_content": "The unemployment rate in August, 2015 was 7 per cent. A year ago it was 7 per cent. At Elxn41 it was 7.4%. At Elxn39 it was 6.6%..",
+    "coref_tweets": "the unemployment rate in August, 2015 be 7 per cent. a year ago the unemployment rate be 7 per cent. at Elxn41 the unemployment rate be 7.4 %. at Elxn41 the unemployment rate be 6.6 % ..",
+    "nr_tweets": 1,
+    "topic_clusters": [
+        ["corporate Australia", "its", "corporate Australia", "its", "corporate Australia"],
+        ["ca nt", "ca nt", "ca nt"],
+        ["nt", "nt"],
+        ["its favourite party of the year", "its favourite party of the year"],
+        ["Myer boss Bernie Brookes", "his"],
+        ["Myer", "the city", "Myer", "Myer"],
+        ["last year", "last year", "last year", "last year"],
+        ["the Victoria Racing Club", "VRC", "the VRC"],
+        ["the Birdcage", "the Birdcage"],
+        ["this year", "this year", "this carnival", "the carnival"],
+        ["Johnnie Walker marquee", "that spot"],
+        ["global drink company Diageo", "Diageo"],
+        ["soar", "that"],
+        ["$ 31.4 million of attribute victorian sale on fashion item specifically to wear to Flemington", "that figure"],
+        ["Melbourne", "Melbourne", "Melbourne"],
+        ["visitor in Melbourne from almost 50 different country , up from 43 last year", "that number", "it"],
+        ["the planeload of 180 Kiwi racing fan", "they"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["the unemployment rate", "it", "it", "it"],
+        ["Elxn41", "Elxn39"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARG1: corporate hospitality spending] [V: be] [ARGM-TMP: already] [ARG2: up 12.4 per cent on last year] show you ca nt keep corporate Australia away from corporate Australia 's favourite party of the year .",
+            "[ARG0: corporate hospitality spending be already up 12.4 per cent on last year] [V: show] [ARG1: you ca nt keep corporate Australia away from corporate Australia 's favourite party of the year] .",
+            "corporate hospitality spending be already up 12.4 per cent on last year show you [V: ca] nt keep corporate Australia away from corporate Australia 's favourite party of the year .",
+            "corporate hospitality spending be already up 12.4 per cent on last year show [ARG0: you] [ARGM-MOD: ca] [ARGM-NEG: nt] [V: keep] [ARG1: corporate Australia] [ARG2: away from corporate Australia 's favourite party of the year] ."
+        ],
+        [
+            "share price [V: have] tumble , the jobless rate have top 6 per cent and the mining boom be a distant spike in Gina Rineharts bank balance .",
+            "share price have tumble , [ARG0: the jobless rate] [V: have] [ARG1: top 6 per cent] and the mining boom be a distant spike in Gina Rineharts bank balance .",
+            "share price have tumble , the jobless rate have top 6 per cent and [ARG1: the mining boom] [V: be] [ARG2: a distant spike in Gina Rineharts bank balance] ."
+        ],
+        [
+            "but you still [V: ca] nt nt keep corporate Australia away from its favourite party of the year .",
+            "[ARGM-DIS: but] [ARG0: you] [ARGM-TMP: still] [ARGM-MOD: ca] nt [ARGM-NEG: nt] [V: keep] [ARG1: corporate Australia] [ARG2: away from its favourite party of the year] ."
+        ],
+        [
+            "[ARG0: the largesse on offer at the Melbourne Cup] [ARGM-TMP: usually] [V: provide] [ARG1: a good barometer of the mood of corporate Australia] ."
+        ],
+        [
+            "[ARGM-LOC: in the wake of the GFC] , [ARG1: the cutback] [V: be] [ARG2: palpable] ."
+        ],
+        [
+            "[ARGM-TMP: then] [ARG0: Myer boss Bernie Brookes] [V: make] [ARG1: Myer boss Bernie Brookes 's executive team swap a fleet of private limo for a bus back to Myer] .",
+            "then Myer boss Bernie Brookes make [ARG0: Myer boss Bernie Brookes 's executive team] [V: swap] [ARG1: a fleet of private limo] [ARG3: for a bus back to Myer] ."
+        ],
+        [
+            "[ARG0: Emirates] [V: slash] [ARG1: spending] [ARG3: from almost $ 1500 a head] [ARG4: to less than four figure] ."
+        ],
+        [
+            "[ARG0: the Packer family private fund Ellerston] [V: pull] out [ARG1: of the Birdcage] [ARGM-ADV: altogether] ."
+        ],
+        [
+            "but tough time in the economy [V: ca] nt keep the corporate away this year .",
+            "[ARGM-DIS: but] [ARG0: tough time in the economy] [ARGM-MOD: ca] [ARGM-NEG: nt] [V: keep] [ARG1: the corporate] away [ARGM-TMP: this year] ."
+        ],
+        [
+            "in fact , just over a month out , sale [V: have] soar .",
+            "[ARGM-DIS: in fact] , [ARGM-TMP: just over a month out] , [ARG1: sale] have [V: soar] ."
+        ],
+        [
+            "[ARG0: the Victoria Racing Club] [V: say] [ARG1: corporate hospitality spending be already up 12.4 per cent on last year] .",
+            "the Victoria Racing Club say [ARG1: corporate hospitality spending] [V: be] [ARGM-TMP: already] [ARG2: up 12.4 per cent] [ARGM-TMP: on last year] ."
+        ],
+        [
+            "big gain [V: have] come from Emirates Cup Day and Crown Stakes day .",
+            "[ARG1: big gain] have [V: come] [ARG2: from Emirates Cup Day and Crown Stakes day] ."
+        ],
+        [
+            "[ARG1: we] [V: be] [ARG2: just 33 day out from AAMI Victoria Derby Day] and there s every indication be in for a big carnival , say the Victoria Racing Club chief executive Simon Love .",
+            "we be just 33 day out from AAMI Victoria Derby Day and there [V: s] [ARG1: every indication be in for a big carnival] , say the Victoria Racing Club chief executive Simon Love .",
+            "we be just 33 day out from AAMI Victoria Derby Day and there s every indication [V: be] [ARG2: in for a big carnival] , say the Victoria Racing Club chief executive Simon Love .",
+            "we be just 33 day out from AAMI Victoria Derby Day and there s every indication be in for a big carnival , [V: say] [ARG0: the Victoria Racing Club chief executive Simon Love] ."
+        ],
+        [
+            "[ARG1: sale] [V: be] [ARG2: up] [ARGM-LOC: across the board] , [ARGM-ADV: with corporate hospitality up more than 12 per cent up on this time last year] ."
+        ],
+        [
+            "[ARG1: global drink company Diageo] [V: be] [ARG2: the only big player to withdraw from the Birdcage this year] , [ARGM-MNR: with no Johnnie Walker marquee this year] but Johnnie Walker marquee have quickly be snap up by radio giant Southern Cross Austereo .",
+            "global drink company Diageo be [ARG0: the only big player] to [V: withdraw] [ARG2: from the Birdcage] [ARGM-TMP: this year] , with no Johnnie Walker marquee this year but Johnnie Walker marquee have quickly be snap up by radio giant Southern Cross Austereo .",
+            "global drink company Diageo be the only big player to withdraw from the Birdcage this year , with no Johnnie Walker marquee this year but Johnnie Walker marquee [V: have] quickly be snap up by radio giant Southern Cross Austereo .",
+            "global drink company Diageo be the only big player to withdraw from the Birdcage this year , with no Johnnie Walker marquee this year but Johnnie Walker marquee have quickly [V: be] snap up by radio giant Southern Cross Austereo ."
+        ],
+        [
+            "one in , one out and [ARG0: everyone] [ARGM-EXT: fully] [V: expect] [ARG1: global drink company Diageo] [ARGM-TMP: back next year] , say one racing industry insider .",
+            "[ARG1: one in , one out and everyone fully expect global drink company Diageo back next year] , [V: say] [ARG0: one racing industry insider] .",
+            "one in , one out and everyone fully expect global drink company Diageo back next year , say one [V: racing] [ARG0: industry insider] ."
+        ],
+        [
+            "[ARG1: punter ticket sale] [V: soar] [ARGM-DIS: too] ticket sale have also soar , after a couple of quiet carnival .",
+            "punter ticket sale soar too ticket sale [V: have] also soar , after a couple of quiet carnival .",
+            "[ARG1: punter ticket sale soar too ticket sale] have [ARGM-DIS: also] [V: soar] , [ARGM-TMP: after a couple of quiet carnival] ."
+        ],
+        [
+            "[ARGM-ADV: with soar] [V: come] [ARG1: the big fashion spend] ."
+        ],
+        [
+            "in each of the last two carnival , spending [V: have] be stagnant , with $ 31.4 million of attribute victorian sale on fashion item specifically to wear to Flemington .",
+            "[ARGM-LOC: in each of the last two carnival] , [ARG1: spending] have [V: be] [ARG2: stagnant] , [ARGM-ADV: with $ 31.4 million of attribute victorian sale on fashion item specifically to wear to Flemington] .",
+            "in each of the last two carnival , spending have be stagnant , with $ 31.4 million of attribute victorian sale on [ARG1: fashion item] [ARGM-ADV: specifically] to [V: wear] [ARG2: to Flemington] ."
+        ],
+        [
+            "$ 31.4 million of attribute victorian sale on [ARG1: fashion item] [ARGM-ADV: specifically] to [V: wear] [ARG2: to Flemington] include an estimate 5000 hat and fascinator , 61,000 dress , 59,000 pair of shoe and 30,000 handbag .",
+            "[ARG2: $ 31.4 million of attribute victorian sale on fashion item specifically to wear to Flemington] [V: include] [ARG1: an estimate 5000 hat and fascinator , 61,000 dress , 59,000 pair of shoe and 30,000 handbag] ."
+        ],
+        [
+            "man [V: be] spend big , too , with 17,000 shirt and 15,000 suit sell for the carnival last year .",
+            "[ARG0: man] be [V: spend] [ARG3: big] , [ARGM-ADV: too] , [ARGM-MNR: with 17,000 shirt and 15,000 suit sell for the carnival last year] .",
+            "man be spend big , too , with [ARG1: 17,000 shirt and 15,000 suit] [V: sell] [ARG4: for the carnival] [ARGM-TMP: last year] ."
+        ],
+        [
+            "[ARG0: the data] [V: show] [ARG1: the sale do nt all go to big marketer , such as Myer , but also benefit small boutique , milliner and shop] .",
+            "the data show the sale [V: do] nt all go to big marketer , such as Myer , but also benefit small boutique , milliner and shop .",
+            "the data show [ARG1: the sale] do [ARGM-NEG: nt] all [V: go] [ARG2: to big marketer , such as Myer] , but also benefit small boutique , milliner and shop .",
+            "the data show [ARG0: the sale] do nt all go to big marketer , such as Myer , but [ARGM-ADV: also] [V: benefit] [ARG1: small boutique , milliner and shop] ."
+        ],
+        [
+            "indeed , while Myer battle through tough time at the till , high - end Melbourne tailor Oscar Hunt [V: have] do so well a Sydney store be open last week .",
+            "[ARGM-DIS: indeed] , [ARGM-TMP: while Myer battle through tough time at the till] , [ARG0: high - end Melbourne tailor Oscar Hunt] have [V: do] [ARGM-MNR: so well] [ARG1: a Sydney store be open last week] .",
+            "indeed , while Myer battle through tough time at the till , high - end Melbourne tailor Oscar Hunt have do so well [ARG1: a Sydney store] [V: be] [ARG2: open] [ARGM-TMP: last week] ."
+        ],
+        [
+            "[ARG0: who] [V: say] [ARG1: brick and mortar retail be dead southern - most charter among 50 country the overseas raid on this year now expand beyond the actual racetrack] .",
+            "who say [ARG1: brick and mortar retail] [V: be] [ARG2: dead southern - most charter among 50 country] the overseas raid on this year now expand beyond the actual racetrack .",
+            "who say brick and mortar retail be dead southern - most charter among 50 country [ARG1: the overseas raid on this year] [ARGM-TMP: now] [V: expand] [ARG2: beyond the actual racetrack] ."
+        ],
+        [
+            "[ARGM-TMP: on Saturday] , [ARG1: 10 European - train horse] arrive in Melbourne and [V: go] [ARG4: into quarantine] ."
+        ],
+        [
+            "[ARGM-DIS: but] [ARG1: the Victoria Racing Club] [V: be] [ARG2: expect visitor in Melbourne from almost 50 different country , up from 43 last year] .",
+            "[ARGM-DIS: but] the Victoria Racing Club be [V: expect] [ARG1: visitor in Melbourne from almost 50 different country , up from 43 last year] ."
+        ],
+        [
+            "visitor in Melbourne from almost 50 different country , up from 43 last year [V: do] come with a warning .",
+            "[ARG1: visitor in Melbourne from almost 50 different country , up from 43 last year] do [V: come] [ARGM-MNR: with a warning] ."
+        ],
+        [
+            "[ARG2: visitor in Melbourne from almost 50 different country , up from 43 last year] [V: include] [ARG1: the first ever international passenger flight out of New Zealands southernmost city , Invercargill , and a place that be the butt of many a joke across the ditch] .",
+            "visitor in Melbourne from almost 50 different country , up from 43 last year include the first ever international passenger flight out of New Zealands southernmost city , Invercargill , and [ARG1: a place] [R-ARG1: that] [V: be] [ARG2: the butt of many a joke across the ditch] ."
+        ],
+        [
+            "apparently the only other overseas destination you [V: can] get to from Invercargill Airport be Antarctica , as long as you be happy to stay for six month on a scientific expedition .",
+            "apparently the only other overseas destination [ARG1: you] [ARGM-MOD: can] [V: get] [ARG2: to] [ARGM-DIR: from Invercargill Airport] be Antarctica , as long as you be happy to stay for six month on a scientific expedition .",
+            "[ARGM-ADV: apparently] [ARG1: the only other overseas destination you can get to from Invercargill Airport] [V: be] [ARG2: Antarctica] , [ARGM-TMP: as long] [ARGM-ADV: as you be happy to stay for six month on a scientific expedition] .",
+            "apparently the only other overseas destination you can get to from Invercargill Airport be Antarctica , as long as [ARG1: you] [V: be] [ARG2: happy to stay for six month on a scientific expedition] .",
+            "apparently the only other overseas destination you can get to from Invercargill Airport be Antarctica , as long as [ARG1: you] be happy to [V: stay] [ARGM-TMP: for six month] [ARG3: on a scientific expedition] ."
+        ],
+        [
+            "[ARG1: the planeload of 180 Kiwi racing fan] [V: be] [ARGM-ADV: actually] [ARG2: a little brave] - the planeload of 180 Kiwi racing fan have charter the flight to the Melbourne Cup as a day trip .",
+            "the planeload of 180 Kiwi racing fan be actually a little brave - the planeload of 180 Kiwi [V: racing] [ARG0: fan] have charter the flight to the Melbourne Cup as a day trip .",
+            "the planeload of 180 Kiwi racing fan be actually a little brave - the planeload of 180 Kiwi racing fan [V: have] charter the flight to the Melbourne Cup as a day trip .",
+            "the planeload of 180 Kiwi racing fan be actually a little brave - [ARG0: the planeload of 180 Kiwi racing fan] have [V: charter] [ARG1: the flight to the Melbourne Cup] [ARG3: as a day trip] ."
+        ],
+        [],
+        [],
+        [],
+        [
+            "big shout out to [ARG0: some regional plane spotter] , [R-ARG0: who] [V: jot] down [ARG1: detail of the Alfa Romeo aircraft allegedly pay for by Fiat Chrysler barnstorm near Mount Buffalo Airport on Friday afternoon] .",
+            "big shout out to some regional plane spotter , who jot down detail of [ARG1: the Alfa Romeo aircraft] [ARGM-ADV: allegedly] [V: pay] [ARG3: for] [ARG0: by Fiat Chrysler barnstorm] near Mount Buffalo Airport [ARGM-TMP: on Friday afternoon] ."
+        ],
+        [
+            "[ARG1: we] [V: be] [ARG2: nt sure if the pilot and passenger be hole up at luxury retreat Villa Gusto , or the Freeburgh property own by the car company embattle former boss Clyde Campbell] .",
+            "we be nt sure if the pilot and passenger [V: be] hole up at luxury retreat Villa Gusto , or the Freeburgh property own by the car company embattle former boss Clyde Campbell .",
+            "we be nt sure if the pilot and passenger be hole up at luxury retreat Villa Gusto , or [ARG0: the Freeburgh property own by the car company] [V: embattle] [ARG1: former boss Clyde Campbell] ."
+        ],
+        [
+            "but it nice to [V: know] [ARG1: the fly billboard be be notice] .",
+            "but it nice to know [ARG1: the fly billboard] [V: be] [ARG2: be] [ARG2: notice] .",
+            "but it nice to know [ARG1: the fly billboard] be [V: be] [ARG2: notice] ."
+        ],
+        [
+            "[ARG1: the story] [ARGM-TMP: first] [V: appear] [ARGM-LOC: on the Sydney Morning Herald] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG1: the unemployment rate in August , 2015] [V: be] [ARG2: 7 per cent] ."
+        ],
+        [
+            "[ARGM-TMP: a year ago] [ARG1: the unemployment rate] [V: be] [ARG2: 7 per cent] ."
+        ],
+        [
+            "[ARGM-LOC: at Elxn41] [ARG1: the unemployment rate] [V: be] [ARG2: 7.4 %] ."
+        ],
+        [
+            "[ARGM-LOC: at Elxn41] [ARG1: the unemployment rate] [V: be] [ARG2: 6.6 %] .."
+        ]
+    ],
+    "tweets_verbs": ["be", "be", "be", "be"],
+    "metrics": {
+        "verb_precision": 100.0,
+        "verb_recall": 6.25
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.114,
+                    "rouge1_recall": 0.08,
+                    "rouge1_f1": 0.086,
+                    "frequency": 88
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG1: sale] [V: be] [ARG2: up] [ARGM-LOC: across the board] , [ARGM-ADV: with corporate hospitality up more than 12 per cent up on this time last year] .",
+                        "tweet_args": "[ARGM-TMP: a year ago] [ARG1: the unemployment rate] [V: be] [ARG2: 7 per cent] .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.444,
+                        "rouge1_f1": 0.276
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: corporate hospitality spending] [V: be] [ARGM-TMP: already] [ARG2: up 12.4 per cent on last year] show you ca nt keep corporate Australia away from corporate Australia 's favourite party of the year .",
+                        "tweet_args": "[ARGM-TMP: a year ago] [ARG1: the unemployment rate] [V: be] [ARG2: 7 per cent] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.286
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: corporate hospitality spending] [V: be] [ARGM-TMP: already] [ARG2: up 12.4 per cent on last year] show you ca nt keep corporate Australia away from corporate Australia 's favourite party of the year .",
+                        "tweet_args": "[ARGM-TMP: a year ago] [ARG1: the unemployment rate] [V: be] [ARG2: 7 per cent] .",
+                        "rouge1_recall": 0.25,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.286
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.114,
+            "rouge1_recall": 0.08,
+            "rouge1_f1": 0.086
+        }
+    }
+}

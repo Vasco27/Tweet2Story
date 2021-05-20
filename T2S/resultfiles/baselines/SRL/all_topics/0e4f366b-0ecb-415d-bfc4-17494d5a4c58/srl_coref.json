@@ -1,0 +1,179 @@
+{
+    "topic": "0e4f366b-0ecb-415d-bfc4-17494d5a4c58",
+    "coref_content": "BANGKOK, Thailand - the annual Asian Organic Gourmet Festival will take place in BANGKOK, Thailand, and the Riva Surya be put on the finish touch to the Riva Surya's exquisite menu for the annual Asian Organic Gourmet Festival. read more … BANGKOK, Thailand - the annual Asian Organic Gourmet Festival Thailand will take place in BANGKOK, Thailand, and the Riva Surya be put on the finishing touch to the Riva Surya's exquisite menu for the annual Asian Organic Gourmet Festival. a celebration of high - quality organic produce in modern asian cuisine will be the main focus of the annual Asian Organic Gourmet Festival exclusively present by high - profile asian chef. hold at the Riva Surya on the bank of the Chao Phraya River in BANGKOK, Thailand, the annual Asian Organic Gourmet Festival run from Friday to Sunday, October 2 - 4, 2015. guest chef be Bangkoks Sompong Suksuwan ( Four Seasons Bkk and the Berkeley ), Satawat Kunarasai ( Four Seasons, Shanghai, and the Pullman King Power ), and Surasing Viratsakul, aka Chef X\" - having graduate from culinary school, Surasing Viratsakul, aka Chef X\" learn Surasing Viratsakul, aka Chef X\"'s trade in England, Thailand, and with the Dusit Group in Dubai. Surasing Viratsakul, aka Chef X\" say that the real x\" factor be as a result of understand the importance of Surasing Viratsakul, aka Chef X\"'s profession and express Surasing Viratsakul, aka Chef X\"'s enthusiasm to every customer. guest chef will present guest chef's own 3- and 4 - course organic menu for both lunch and dinner along with daily cooking demonstration. organic product will be available for sale to all health - conscious visitor at the farmer ' market from Friday to Sunday, October 2 - 4, from 0900 - 1900 hour, along with organic farm produce from Thailand's Royal Projects. the Riva Surya be an elegant modern 68 - room boutique hotel in BANGKOK, Thailand. the riverside swimming pool feature an extensive outdoor cocktail / dining area and be recently include in the 10 Best Riverside Dining Venues in BANGKOK, Thailand. the Riva Surya be locate close to the Grand Palace, Wat Pho, and Wat Arun in BANGKOK, Thailand's h ….",
+    "tweets_content": "Think you can take the heat The Gekikara Gourmet Festival starts tomorrow:.\nht…..\nToronto: Asian Films Flavor Festival.\nPhantom Gourmet Food Festival on Lansdowne #phantomgourmet #phantomgourmetfoodfestival #fenway.\nWake up to organic with an organic breakfast! #OrganicSeptember.\nDelighted to be sharing some updates from 4th Annual Asia Pacific Ritz-Carlton Food&amp;Wine Festival at The Ritz-Carlton, #Tokyo,starting today..\nExplore the 4th Annual Ritz-Carlton Asia Pacific Food&amp;Wine Festival at The Ritz-Carlton, #Tokyo.\nIt’s been wonderful tweeting from The Ritz-Carlton, #Tokyo for the 1st day of the 4th Annual Ritz-Carlton Asia Pacific Food&amp;Wine Festival..\nDover gears up for Apple Harvest Festival",
+    "coref_tweets": "think you can take the heat the Gekikara Gourmet Festival start tomorrow :. ht … .. Toronto : Asian Films Flavor Festival. Phantom Gourmet Food Festival on Lansdowne # phantomgourmet # phantomgourmetfoodfestival # fenway. wake up to organic with an organic breakfast! # OrganicSeptember. delighted to be share some update from 4th Annual Asia Pacific Ritz - Carlton Food&amp;Wine Festival at the Ritz - Carlton, # Tokyo, start today .. explore the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton, # Tokyo. it ’s be wonderful tweet from the Ritz - Carlton, # Tokyo for the 1st day of the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton, # Tokyo .. Dover gear up for Apple Harvest Festival",
+    "nr_tweets": 9,
+    "topic_clusters": [
+        ["BANGKOK , Thailand", "Bangkok", "Bangkok", "Bangkok", "Bangkok", "Bangkok", "Bangkok \u2019s"],
+        ["the Riva Surya", "its", "the Riva Surya", "its", "the Riva Surya", "the hotel"],
+        ["the annual Asian Organic Gourmet Festival", "this year festival", "the annual Asian Organic Gourmet Festival", "this year festival", "this year \u2019s festival", "the event"],
+        ["BANGKOK , Thailand - the annual Asian Organic Gourmet Festival", "BANGKOK , Thailand -", "BANGKOK , Thailand - the annual Asian Organic Gourmet Festival"],
+        ["Thailand", "Thailand", "Thailand", "Thailand \u2019s"],
+        ["Surasing Viratsakul , aka Chef X \"", "he", "his", "he", "his", "his"],
+        ["guest chef", "their"],
+        ["Friday", "Friday"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Ritz - Carlton", "Ritz - Carlton"],
+        ["the Ritz - Carlton", "the Ritz - Carlton", "the Ritz - Carlton", "Ritz - Carlton"],
+        ["the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo", "the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "BANGKOK , Thailand - the annual Asian Organic Gourmet Festival [V: will] take place in BANGKOK , Thailand , and the Riva Surya be put on the finish touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+            "BANGKOK , Thailand - [ARG1: the annual Asian Organic Gourmet Festival] [ARGM-MOD: will] [V: take] [ARG2: place] [ARGM-LOC: in BANGKOK , Thailand] , and the Riva Surya be put on the finish touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+            "BANGKOK , Thailand - the annual Asian Organic Gourmet Festival will take place in BANGKOK , Thailand , and the Riva Surya [V: be] put on the finish touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+            "BANGKOK , Thailand - the annual Asian Organic Gourmet Festival will take place in BANGKOK , Thailand , and [ARG1: the Riva Surya] be [V: put] [ARG2: on the finish touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival] ."
+        ],
+        [
+            "[V: read] [ARG3: more …] [ARG1: BANGKOK , Thailand - the annual Asian Organic Gourmet Festival Thailand will take place in BANGKOK] , Thailand , and the Riva Surya be put on the finishing touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+            "read more … BANGKOK , Thailand - the annual Asian Organic Gourmet Festival Thailand [V: will] take place in BANGKOK , Thailand , and the Riva Surya be put on the finishing touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+            "read more … BANGKOK , Thailand - [ARG1: the annual Asian Organic Gourmet Festival Thailand] [ARGM-MOD: will] [V: take] [ARG2: place] [ARGM-LOC: in BANGKOK , Thailand] , and the Riva Surya be put on the finishing touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+            "read more … BANGKOK , Thailand - the annual Asian Organic Gourmet Festival Thailand will take place in BANGKOK , Thailand , and the Riva Surya [V: be] put on the finishing touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+            "read more … BANGKOK , Thailand - the annual Asian Organic Gourmet Festival Thailand will take place in BANGKOK , Thailand , and [ARG1: the Riva Surya] be [V: put] [ARG2: on the finishing touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival] ."
+        ],
+        [
+            "a celebration of high - quality organic produce in modern asian cuisine [V: will] be the main focus of the annual Asian Organic Gourmet Festival exclusively present by high - profile asian chef .",
+            "[ARG1: a celebration of high - quality organic produce in modern asian cuisine] [ARGM-MOD: will] [V: be] [ARG2: the main focus of the annual Asian Organic Gourmet Festival exclusively present by high - profile asian chef] ."
+        ],
+        [
+            "[V: hold] [ARGM-LOC: at the Riva Surya] [ARGM-LOC: on the bank of the Chao Phraya River in BANGKOK , Thailand] , the annual Asian Organic Gourmet Festival run from Friday to Sunday , October 2 - 4 , 2015 . guest chef be Bangkoks Sompong Suksuwan ( Four Seasons Bkk and the Berkeley ) , Satawat Kunarasai ( Four Seasons , Shanghai , and the Pullman King Power ) , and Surasing Viratsakul , aka Chef X \" - having graduate from culinary school , Surasing Viratsakul , aka Chef X \" learn Surasing Viratsakul , aka Chef X \" 's trade in England , Thailand , and with the Dusit Group in Dubai .",
+            "[R-ARG1: hold at the Riva Surya on the bank of the Chao Phraya River in BANGKOK , Thailand] , [ARG1: the annual Asian Organic Gourmet Festival] [V: run] [ARGM-TMP: from Friday to Sunday , October 2 - 4 , 2015] . guest chef be Bangkoks Sompong Suksuwan ( Four Seasons Bkk and the Berkeley ) , Satawat Kunarasai ( Four Seasons , Shanghai , and the Pullman King Power ) , and Surasing Viratsakul , aka Chef X \" - having graduate from culinary school , Surasing Viratsakul , aka Chef X \" learn Surasing Viratsakul , aka Chef X \" 's trade in England , Thailand , and with the Dusit Group in Dubai .",
+            "hold at the Riva Surya on the bank of the Chao Phraya River in BANGKOK , Thailand , the annual Asian Organic Gourmet Festival run from Friday to Sunday , October 2 - 4 , 2015 . [ARG1: guest chef] [V: be] [ARG2: Bangkoks Sompong Suksuwan ( Four Seasons Bkk and the Berkeley ) , Satawat Kunarasai ( Four Seasons , Shanghai , and the Pullman King Power )] , and Surasing Viratsakul , aka Chef X \" - having graduate from culinary school , Surasing Viratsakul , aka Chef X \" learn Surasing Viratsakul , aka Chef X \" 's trade in England , Thailand , and with the Dusit Group in Dubai .",
+            "hold at the Riva Surya on the bank of the Chao Phraya River in BANGKOK , Thailand , the annual Asian Organic Gourmet Festival run from Friday to Sunday , October 2 - 4 , 2015 . guest chef be Bangkoks Sompong Suksuwan ( Four Seasons Bkk and the Berkeley ) , Satawat Kunarasai ( Four Seasons , Shanghai , and the Pullman King Power ) , and Surasing Viratsakul , aka Chef X \" - [V: having] graduate from culinary school , Surasing Viratsakul , aka Chef X \" learn Surasing Viratsakul , aka Chef X \" 's trade in England , Thailand , and with the Dusit Group in Dubai .",
+            "hold at the Riva Surya on the bank of the Chao Phraya River in BANGKOK , Thailand , the annual Asian Organic Gourmet Festival run from Friday to Sunday , October 2 - 4 , 2015 . guest chef be Bangkoks Sompong Suksuwan ( Four Seasons Bkk and the Berkeley ) , Satawat Kunarasai ( Four Seasons , Shanghai , and the Pullman King Power ) , and Surasing Viratsakul , aka Chef X \" - having graduate from culinary school , [ARG0: Surasing Viratsakul] , [ARG0: aka Chef X] \" [V: learn] [ARG1: Surasing Viratsakul , aka Chef X \" 's trade in England , Thailand , and with the Dusit Group in Dubai] ."
+        ],
+        [
+            "[V: Surasing] [ARG1: Viratsakul , aka Chef X \"] say that the real x \" factor be as a result of understand the importance of Surasing Viratsakul , aka Chef X \" 's profession and express Surasing Viratsakul , aka Chef X \" 's enthusiasm to every customer .",
+            "[ARG0: Surasing Viratsakul , aka Chef X \"] [V: say] [ARG1: that the real x \" factor be as a result of understand the importance of Surasing Viratsakul , aka Chef X \" 's profession and express Surasing Viratsakul , aka Chef X \" 's enthusiasm to every customer] .",
+            "Surasing Viratsakul , aka Chef X \" say that [ARG1: the real x \" factor] [V: be] [ARG2: as a result of understand the importance of Surasing Viratsakul , aka Chef X \" 's profession and express Surasing Viratsakul , aka Chef X \" 's enthusiasm to every customer] .",
+            "Surasing Viratsakul , aka Chef X \" say that the real x \" factor be as a result of [V: understand] [ARG1: the importance of Surasing Viratsakul , aka Chef X \" 's profession] and express Surasing Viratsakul , aka Chef X \" 's enthusiasm to every customer .",
+            "Surasing Viratsakul , aka Chef X \" say that the real x \" factor be as a result of understand the importance of Surasing Viratsakul , aka Chef X \" 's profession and [V: express] [ARG1: Surasing Viratsakul , aka Chef X \" 's enthusiasm] [ARG2: to every customer] ."
+        ],
+        [
+            "guest chef [V: will] present guest chef 's own 3- and 4 - course organic menu for both lunch and dinner along with daily cooking demonstration .",
+            "[ARG0: guest chef] [ARGM-MOD: will] [V: present] [ARG1: guest chef 's own 3- and 4 - course organic menu for both lunch and dinner] [ARGM-ADV: along with daily cooking demonstration] ."
+        ],
+        [
+            "[ARG1: organic product] [V: will] be [ARG2: available] for sale to all health - conscious visitor at the farmer ' market from Friday to Sunday , October 2 - 4 , from 0900 - 1900 hour , along with organic farm produce from Thailand 's Royal Projects .",
+            "[ARG1: organic product] [ARGM-MOD: will] [V: be] [ARG2: available for sale to all health - conscious visitor at the farmer ' market from Friday to Sunday , October 2 - 4 , from 0900 - 1900 hour] , [ARGM-COM: along with organic farm produce from Thailand 's Royal Projects] ."
+        ],
+        [
+            "[ARG1: the Riva Surya] [V: be] [ARG2: an elegant modern 68 - room boutique hotel in BANGKOK , Thailand] ."
+        ],
+        [
+            "[ARG0: the riverside swimming pool] [V: feature] [ARG1: an extensive outdoor cocktail / dining area] and be recently include in the 10 Best Riverside Dining Venues in BANGKOK , Thailand .",
+            "the riverside swimming pool feature an extensive outdoor cocktail / dining area and [V: be] recently include in the 10 Best Riverside Dining Venues in BANGKOK , Thailand .",
+            "[ARG1: the riverside swimming pool] feature an extensive outdoor cocktail / dining area and be [ARGM-TMP: recently] [V: include] [ARG2: in the 10 Best Riverside Dining Venues in BANGKOK , Thailand] ."
+        ],
+        [
+            "the Riva Surya [V: be] locate close to the Grand Palace , Wat Pho , and Wat Arun in BANGKOK , Thailand 's h … ."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[V: think] [ARG1: you can take the heat the Gekikara Gourmet Festival start tomorrow] : .",
+            "think you [V: can] take the heat the Gekikara Gourmet Festival start tomorrow : .",
+            "think [ARG0: you] [ARGM-MOD: can] [V: take] [ARG1: the heat] the Gekikara Gourmet Festival [ARGM-TMP: start tomorrow] : .",
+            "think you can take the heat [ARG1: the Gekikara Gourmet Festival] [V: start] [ARGM-TMP: tomorrow] : ."
+        ],
+        [],
+        [
+            "Phantom Gourmet Food Festival on Lansdowne # [V: phantomgourmet] # phantomgourmetfoodfestival # fenway ."
+        ],
+        [
+            "[V: wake] up to organic [ARGM-MNR: with an organic breakfast] !"
+        ],
+        [],
+        [
+            "[V: delighted] [ARG0: to be share some update from 4th Annual Asia Pacific Ritz - Carlton Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo , start today .. explore the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo] .",
+            "delighted to [V: be] share some update from 4th Annual Asia Pacific Ritz - Carlton Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo , start today .. explore the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .",
+            "delighted to be [V: share] [ARG1: some update from 4th Annual Asia Pacific Ritz - Carlton Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo] , start today .. explore the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .",
+            "delighted to be share some update from 4th Annual Asia Pacific Ritz - Carlton Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo , [V: start] [ARGM-TMP: today] .. explore the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .",
+            "delighted to be share some update from 4th Annual Asia Pacific Ritz - Carlton Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo , start today .. [V: explore] [ARG1: the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo] ."
+        ],
+        [
+            "it [V: ’s] be wonderful tweet from the Ritz - Carlton , # Tokyo for the 1st day of the 4th Annual Ritz - Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .. Dover gear up for Apple Harvest Festival",
+            "[ARG1: it] [ARGM-MOD: ’s] [V: be] [ARG2: wonderful] [ARGM-DIS: tweet] from the Ritz - Carlton , # Tokyo [ARGM-TMP: for the 1st day of the 4th Annual Ritz -] Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .. Dover gear up for Apple Harvest Festival"
+        ]
+    ],
+    "tweets_verbs": ["think", "can", "take", "start", "phantomgourmet", "wake", "delighted", "be", "share", "start", "explore", "\u2019", "be"],
+    "metrics": {
+        "verb_precision": 23.077,
+        "verb_recall": 13.636
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.06,
+                    "rouge1_recall": 0.029,
+                    "rouge1_f1": 0.038,
+                    "frequency": 18
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG1: a celebration of high - quality organic produce in modern asian cuisine] [ARGM-MOD: will] [V: be] [ARG2: the main focus of the annual Asian Organic Gourmet Festival exclusively present by high - profile asian chef] .",
+                        "tweet_args": "[ARG1: it] [ARGM-MOD: ’s] [V: be] [ARG2: wonderful] [ARGM-DIS: tweet] from the Ritz - Carlton , # Tokyo [ARGM-TMP: for the 1st day of the 4th Annual Ritz -] Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .. Dover gear up for Apple Harvest Festival",
+                        "rouge1_recall": 0.138,
+                        "rouge1_precision": 0.308,
+                        "rouge1_f1": 0.19
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: a celebration of high - quality organic produce in modern asian cuisine] [ARGM-MOD: will] [V: be] [ARG2: the main focus of the annual Asian Organic Gourmet Festival exclusively present by high - profile asian chef] .",
+                        "tweet_args": "[ARG1: it] [ARGM-MOD: ’s] [V: be] [ARG2: wonderful] [ARGM-DIS: tweet] from the Ritz - Carlton , # Tokyo [ARGM-TMP: for the 1st day of the 4th Annual Ritz -] Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .. Dover gear up for Apple Harvest Festival",
+                        "rouge1_recall": 0.138,
+                        "rouge1_precision": 0.308,
+                        "rouge1_f1": 0.19
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: a celebration of high - quality organic produce in modern asian cuisine] [ARGM-MOD: will] [V: be] [ARG2: the main focus of the annual Asian Organic Gourmet Festival exclusively present by high - profile asian chef] .",
+                        "tweet_args": "[ARG1: it] [ARGM-MOD: ’s] [V: be] [ARG2: wonderful] [ARGM-DIS: tweet] from the Ritz - Carlton , # Tokyo [ARGM-TMP: for the 1st day of the 4th Annual Ritz -] Carlton Asia Pacific Food&amp;Wine Festival at the Ritz - Carlton , # Tokyo .. Dover gear up for Apple Harvest Festival",
+                        "rouge1_recall": 0.138,
+                        "rouge1_precision": 0.308,
+                        "rouge1_f1": 0.19
+                    }
+                }
+            },
+            "take": {
+                "all_frames": {
+                    "rouge1_precision": 0.167,
+                    "rouge1_recall": 0.087,
+                    "rouge1_f1": 0.114,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "BANGKOK , Thailand - [ARG1: the annual Asian Organic Gourmet Festival] [ARGM-MOD: will] [V: take] [ARG2: place] [ARGM-LOC: in BANGKOK , Thailand] , and the Riva Surya be put on the finish touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+                        "tweet_args": "think [ARG0: you] [ARGM-MOD: can] [V: take] [ARG1: the heat] the Gekikara Gourmet Festival [ARGM-TMP: start tomorrow] : .",
+                        "rouge1_recall": 0.091,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.118
+                    },
+                    "best_recall": {
+                        "topic_args": "BANGKOK , Thailand - [ARG1: the annual Asian Organic Gourmet Festival] [ARGM-MOD: will] [V: take] [ARG2: place] [ARGM-LOC: in BANGKOK , Thailand] , and the Riva Surya be put on the finish touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+                        "tweet_args": "think [ARG0: you] [ARGM-MOD: can] [V: take] [ARG1: the heat] the Gekikara Gourmet Festival [ARGM-TMP: start tomorrow] : .",
+                        "rouge1_recall": 0.091,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.118
+                    },
+                    "best_f1": {
+                        "topic_args": "BANGKOK , Thailand - [ARG1: the annual Asian Organic Gourmet Festival] [ARGM-MOD: will] [V: take] [ARG2: place] [ARGM-LOC: in BANGKOK , Thailand] , and the Riva Surya be put on the finish touch to the Riva Surya 's exquisite menu for the annual Asian Organic Gourmet Festival .",
+                        "tweet_args": "think [ARG0: you] [ARGM-MOD: can] [V: take] [ARG1: the heat] the Gekikara Gourmet Festival [ARGM-TMP: start tomorrow] : .",
+                        "rouge1_recall": 0.091,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.118
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.071,
+            "rouge1_recall": 0.035,
+            "rouge1_f1": 0.046
+        }
+    }
+}

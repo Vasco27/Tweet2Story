@@ -1,0 +1,369 @@
+{
+    "topic": "4e74bbed-b449-48a8-a71c-f70499105289",
+    "coref_content": "a video have be release show the moment a man in China use a broom to save a toddler leave precariously dangle from a window. a man in China, tell China Central Television that a man in China hear a toddler scream for help whilst walk in the street below and notice that a toddler be hang from a window. a man in China enter the building and whilst lean out of a nearby window use a mop to support a toddler and make sure a toddler do not fall to a toddler's death. a man in China then have to hold a mop out for a toddler for almost 20 minute before the childs parent be able to pull a toddler back inside the building. a toddler be report to have become stuck in the metal bar surround a window. a toddler be say to have suffer no injury from the moment a man in China use a broom to save a toddler leave precariously dangle from a window. one resident tell China Central Television, one resident think a man in China's brave and courageous action be worthy of praise ..",
+    "tweets_content": "Hero climbs outside 4th-floor window to rescue a dangling child... using only a mop.\nMan uses broom to save toddler dangling from her neck out of window.\nMan uses mop to save girl dangling from 4th-floor window.\n#HERO Saves #toddler Dangling From 4th-Floor Window Using Only A Mop.\n#HERO Saves #toddler Dangling From 4th-Floor Window Using Only A Mop.\nMan uses mop to save girl dangling from 4th-floor window: A man in China was able to use a mop to help save a girl….\nMUST SEE: Man saves child hanging from apartment window several stories up -.\nMan dies after plunging from fourth floor window in Aberdeen.\nA man has died after plunging from a fourth floor window in Aberdeen city centre..\nToddler died after hanging himself on cord of window blind, inquest finds.\nToddler falls from 3rd-story window, suffers a broken jaw.\nToddler breaks jaw in fall from St. Joseph 3rd-floor window..\nToddler hospitalized after falling from an East Hartford apartment window, police said",
+    "coref_tweets": "hero climb outside 4th - floor window to rescue a dangle child ... use only a mop. man use broom to save toddler dangle from a dangle child's neck out of window. man use mop to save girl dangle from 4th - floor window. # HERO save # toddler dangle from 4th - floor window use only a mop. # HERO save # toddler dangle from 4th - floor window use only a mop. man use mop to save girl dangle from 4th - floor window : a man in China be able to use a mop to help save a girl …. must see : man save child hang from apartment window several story up -. man die after plunge from fourth floor window in Aberdeen. a man have die after plunge from a fourth floor window in Aberdeen city centre .. Toddler die after hang Toddler on cord of window blind, inquest find. Toddler fall from 3rd - story window, suffer a break jaw. Toddler break jaw in fall from St. Joseph 3rd - floor window .. Toddler hospitalize after fall from an East Hartford apartment window, police say",
+    "nr_tweets": 13,
+    "topic_clusters": [
+        ["a man in China", "Wang Baoping or Shandong province", "he", "Mr Wang", "he", "his"],
+        ["a toddler", "the young girl", "she", "the toddler", "she", "her", "the girl", "she", "the girl", "her", "she"],
+        ["a window", "a fourth - floor apartment window", "her apartment window"],
+        ["a mop", "the mop"],
+        ["the building", "the building"],
+        ["the moment a man in China use a broom to save a toddler leave precariously dangle from a window", "the incident"],
+        ["China Central Television", "China Central Television"],
+        ["one resident", "I"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["a dangle child", "her"],
+        ["4th - floor window", "4th - floor window", "4th - floor window", "4th - floor window", "4th - floor window"],
+        ["only a mop", "only a mop"],
+        ["Toddler", "himself"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "a video [V: have] be release show the moment a man in China use a broom to save a toddler leave precariously dangle from a window .",
+            "[ARG1: a video] have [V: be] [ARG2: release] show the moment a man in China use a broom to save a toddler leave precariously dangle from a window .",
+            "[ARG0: a video] have be [ARG0: release] [V: show] [ARG1: the moment a man in China use a broom to save a toddler leave precariously dangle from a window] .",
+            "a video have be release show [ARGM-TMP: the moment] [ARG0: a man in China] [V: use] [ARG1: a broom] [ARG2: to save a toddler leave precariously dangle from a window] .",
+            "a video have be release show the moment [ARG0: a man in China] use a broom to [V: save] [ARG1: a toddler leave precariously dangle from a window] .",
+            "a video have be release show the moment a man in China use a broom to save [ARG0: a toddler] [V: leave] [ARGM-MNR: precariously] [ARG1: dangle from a window] ."
+        ],
+        [
+            "[ARG0: a man in China] , [V: tell] [ARG2: China Central Television] [ARG1: that a man in China hear a toddler scream for help whilst walk in the street below and notice that a toddler be hang from a window] .",
+            "a man in China , tell China Central Television that [ARG0: a man in China] [V: hear] [ARG1: a toddler scream for help] [ARGM-TMP: whilst walk in the street below and notice that a toddler be hang from a window] .",
+            "a man in China , tell China Central Television that a man in China hear a toddler scream for help whilst [V: walk] [ARGM-LOC: in the street] [ARGM-GOL: below] and notice that a toddler be hang from a window .",
+            "a man in China , tell China Central Television that [ARG0: a man in China] hear a toddler scream for help whilst walk in the street below and [V: notice] [ARG1: that a toddler be hang from a window] .",
+            "a man in China , tell China Central Television that a man in China hear a toddler scream for help whilst walk in the street below and notice that a toddler [V: be] hang from a window .",
+            "a man in China , tell China Central Television that a man in China hear a toddler scream for help whilst walk in the street below and notice that [ARG1: a toddler] be [V: hang] [ARG2: from a window] ."
+        ],
+        [
+            "[ARG0: a man in China] [V: enter] [ARG1: the building] and whilst lean out of a nearby window use a mop to support a toddler and make sure a toddler do not fall to a toddler 's death .",
+            "a man in China enter the building and whilst [V: lean] [ARG2: out of a nearby window] use a mop to support a toddler and make sure a toddler do not fall to a toddler 's death .",
+            "[ARG0: a man in China] enter the building and [ARGM-TMP: whilst lean out of a nearby window] [V: use] [ARG1: a mop] [ARG2: to support a toddler and make sure a toddler do not fall to a toddler 's death] .",
+            "[ARG0: a man in China] enter the building and whilst lean out of a nearby window use a mop to [V: support] [ARG1: a toddler] and make sure a toddler do not fall to a toddler 's death .",
+            "[ARG0: a man in China] enter the building and whilst lean out of a nearby window use a mop to support a toddler and [V: make] [ARG1: sure a toddler do not fall to a toddler 's death] .",
+            "a man in China enter the building and whilst lean out of a nearby window use a mop to support a toddler and make sure a toddler [V: do] not fall to a toddler 's death .",
+            "a man in China enter the building and whilst lean out of a nearby window use a mop to support a toddler and make sure [ARG1: a toddler] do [ARGM-NEG: not] [V: fall] [ARG4: to a toddler 's death] ."
+        ],
+        [
+            "a man in China then [V: have] to hold a mop out for a toddler for almost 20 minute before the childs parent be able to pull a toddler back inside the building .",
+            "[ARG0: a man in China] then have to [V: hold] [ARG1: a mop out] [ARGM-ADV: for a toddler] [ARGM-TMP: for almost 20 minute] [ARGM-TMP: before the childs parent be able to pull a toddler back inside the building] .",
+            "a man in China then have to hold a mop out for a toddler for almost 20 minute before [ARG1: the childs parent] [V: be] [ARG2: able to pull a toddler back inside the building] .",
+            "a man in China then have to hold a mop out for a toddler for almost 20 minute before [ARG0: the childs parent] be able to [V: pull] [ARG1: a toddler] [ARG2: back inside the building] ."
+        ],
+        [
+            "[ARG1: a toddler] [V: be] [ARG2: report] to have become stuck in the metal bar surround a window .",
+            "a toddler be report to [V: have] become stuck in the metal bar surround a window .",
+            "[ARG1: a toddler be] report to have [V: become] [ARG2: stuck in the metal bar surround a window] .",
+            "a toddler be report to have become stuck in [ARG1: the metal bar] [V: surround] [ARG2: a window] ."
+        ],
+        [
+            "a toddler [V: be] say to have suffer no injury from the moment a man in China use a broom to save a toddler leave precariously dangle from a window .",
+            "[ARG1: a toddler] be [V: say] [C-ARG1: to have suffer no injury from the moment a man in China use a broom to save a toddler leave precariously dangle from a window] .",
+            "a toddler be say to [V: have] suffer no injury from the moment a man in China use a broom to save a toddler leave precariously dangle from a window .",
+            "[ARG0: a toddler] be say to have [V: suffer] [ARG1: no injury] [ARGM-TMP: from the moment a man in China use a broom to save a toddler leave precariously dangle from a window] .",
+            "a toddler be say to have suffer no injury from [ARGM-TMP: the moment] [ARG0: a man in China] [V: use] [ARG1: a broom] [ARG2: to save a toddler leave precariously dangle from a window] .",
+            "a toddler be say to have suffer no injury from the moment [ARG0: a man in China] use a broom to [V: save] [ARG1: a toddler leave precariously dangle from a window] .",
+            "a toddler be say to have suffer no injury from the moment a man in China use a broom to save [ARG0: a toddler] [V: leave] [ARGM-MNR: precariously] [ARG1: dangle from a window] ."
+        ],
+        [
+            "[ARG0: one resident] [V: tell] [ARG2: China Central Television] , one resident think a man in China 's brave and courageous action be worthy of praise ..",
+            "one resident tell China Central Television , [ARG0: one resident] [V: think] [ARG1: a man in China 's brave and courageous action be worthy of praise] ..",
+            "one resident tell China Central Television , one resident think [ARG1: a man in China 's brave and courageous action] [V: be] [ARG2: worthy of praise] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: hero] climb outside 4th - floor window to [V: rescue] [ARG1: a dangle child] ... use only a mop .",
+            "[ARG0: hero] climb outside 4th - floor window to rescue a dangle child ... [V: use] [ARG1: only a mop] ."
+        ],
+        [
+            "[ARG0: man] [V: use] [ARG1: broom] [ARG2: to save toddler dangle from a dangle child 's neck out of window] .",
+            "[ARG0: man] use broom to [V: save] [ARG1: toddler dangle] [ARG2: from a dangle child 's neck out of window] ."
+        ],
+        [
+            "[ARG0: man] [V: use] [ARG1: mop] [ARG2: to save girl dangle from 4th - floor window] .",
+            "[ARG0: man] use mop to [V: save] [ARG1: girl dangle] [ARG2: from 4th - floor window] ."
+        ],
+        [
+            "# [ARGM-DIS: HERO] [V: save] [ARG1: # toddler dangle] [ARG2: from 4th - floor window] [ARGM-MNR: use only a mop] .",
+            "# [ARGM-DIS: HERO] save # toddler dangle from 4th - floor window [V: use] [ARG1: only a mop] ."
+        ],
+        [
+            "# [ARGM-DIS: HERO] [V: save] [ARG1: # toddler dangle] [ARG2: from 4th - floor window] [ARGM-MNR: use only a mop] .",
+            "# [ARGM-DIS: HERO] save # toddler dangle from 4th - floor window [V: use] [ARG1: only a mop] ."
+        ],
+        [
+            "[ARG0: man] [V: use] [ARG1: mop] [ARG2: to save girl dangle from 4th - floor window] : a man in China be able to use a mop to help save a girl … .",
+            "[ARG0: man] use mop to [V: save] [ARG1: girl dangle] [ARG2: from 4th - floor window] : a man in China be able to use a mop to help save a girl … .",
+            "man use mop to save girl dangle from 4th - floor window : [ARG1: a man in China] [V: be] [ARG2: able to use a mop to help save a girl …] .",
+            "man use mop to save girl dangle from 4th - floor window : [ARG0: a man in China] be able to [V: use] [ARG1: a mop] [ARG2: to help save a girl …] .",
+            "man use mop to save girl dangle from 4th - floor window : [ARG0: a man in China] be able to use a mop to [V: help] [ARG1: save a girl …] .",
+            "man use mop to save girl dangle from 4th - floor window : [ARG0: a man in China] be able to use a mop to help [V: save] [ARG1: a girl] … ."
+        ],
+        [
+            "[V: must] see : man save child hang from apartment window several story up - .",
+            "[ARGM-MOD: must] [V: see] : [ARG1: man save child hang from apartment window several story up] - .",
+            "must see : [ARG0: man] [V: save] [ARG1: child] hang from apartment window several story up - .",
+            "must see : [ARG1: man save child] [V: hang] [ARG2: from apartment window] [ARGM-MNR: several story up] - ."
+        ],
+        [
+            "[ARG1: man] [V: die] [ARGM-TMP: after plunge from fourth floor window in Aberdeen] ."
+        ],
+        [
+            "a man [V: have] die after plunge from a fourth floor window in Aberdeen city centre .. Toddler die after hang Toddler on cord of window blind , inquest find .",
+            "[ARG1: a man] have [V: die] [ARGM-TMP: after plunge from a fourth floor window in Aberdeen city centre] .. Toddler die after hang Toddler on cord of window blind , inquest find .",
+            "a man have die after plunge from a fourth floor window in Aberdeen city centre .. [ARG1: Toddler] [V: die] [ARGM-TMP: after hang Toddler on cord of window blind] , inquest find .",
+            "a man have die after plunge from a fourth floor window in Aberdeen city centre .. Toddler die after [V: hang] [ARG1: Toddler] [ARG2: on cord of window blind] , inquest find ."
+        ],
+        [
+            "[ARG1: Toddler] [V: fall] [ARG3: from 3rd - story window] , suffer a break jaw .",
+            "[ARGM-DIS: Toddler] fall from 3rd - story window , [V: suffer] [ARG1: a break jaw] ."
+        ],
+        [
+            "[ARG0: Toddler] [V: break] [ARG1: jaw] [ARGM-TMP: in fall] [ARG3: from St. Joseph 3rd - floor window] .. Toddler hospitalize after fall from an East Hartford apartment window , police say",
+            "Toddler break jaw in fall from St. Joseph 3rd - floor window .. Toddler hospitalize after fall from an East Hartford apartment window , [ARG0: police] [V: say]"
+        ]
+    ],
+    "tweets_verbs": ["rescue", "use", "use", "save", "use", "save", "save", "use", "save", "use", "use", "save", "be", "use", "help", "save", "must", "see", "save", "hang", "die", "have", "die", "die", "hang", "fall", "suffer", "break", "say"],
+    "metrics": {
+        "verb_precision": 72.414,
+        "verb_recall": 53.846
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "suffer": {
+                "all_frames": {
+                    "rouge1_precision": 0.5,
+                    "rouge1_recall": 0.083,
+                    "rouge1_f1": 0.143,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: a toddler] be say to have [V: suffer] [ARG1: no injury] [ARGM-TMP: from the moment a man in China use a broom to save a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "[ARGM-DIS: Toddler] fall from 3rd - story window , [V: suffer] [ARG1: a break jaw] .",
+                        "rouge1_recall": 0.083,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: a toddler] be say to have [V: suffer] [ARG1: no injury] [ARGM-TMP: from the moment a man in China use a broom to save a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "[ARGM-DIS: Toddler] fall from 3rd - story window , [V: suffer] [ARG1: a break jaw] .",
+                        "rouge1_recall": 0.083,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: a toddler] be say to have [V: suffer] [ARG1: no injury] [ARGM-TMP: from the moment a man in China use a broom to save a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "[ARGM-DIS: Toddler] fall from 3rd - story window , [V: suffer] [ARG1: a break jaw] .",
+                        "rouge1_recall": 0.083,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.143
+                    }
+                }
+            },
+            "save": {
+                "all_frames": {
+                    "rouge1_precision": 0.555,
+                    "rouge1_recall": 0.357,
+                    "rouge1_f1": 0.416,
+                    "frequency": 14
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "a toddler be say to have suffer no injury from the moment [ARG0: a man in China] use a broom to [V: save] [ARG1: a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "man use mop to save girl dangle from 4th - floor window : [ARG0: a man in China] be able to use a mop to help [V: save] [ARG1: a girl] … .",
+                        "rouge1_recall": 0.417,
+                        "rouge1_precision": 0.833,
+                        "rouge1_f1": 0.556
+                    },
+                    "best_recall": {
+                        "topic_args": "a video have be release show the moment [ARG0: a man in China] use a broom to [V: save] [ARG1: a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "[ARG0: man] use broom to [V: save] [ARG1: toddler dangle] [ARG2: from a dangle child 's neck out of window] .",
+                        "rouge1_recall": 0.5,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.5
+                    },
+                    "best_f1": {
+                        "topic_args": "a video have be release show the moment [ARG0: a man in China] use a broom to [V: save] [ARG1: a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "man use mop to save girl dangle from 4th - floor window : [ARG0: a man in China] be able to use a mop to help [V: save] [ARG1: a girl] … .",
+                        "rouge1_recall": 0.417,
+                        "rouge1_precision": 0.833,
+                        "rouge1_f1": 0.556
+                    }
+                }
+            },
+            "hang": {
+                "all_frames": {
+                    "rouge1_precision": 0.278,
+                    "rouge1_recall": 0.4,
+                    "rouge1_f1": 0.325,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "a man in China , tell China Central Television that a man in China hear a toddler scream for help whilst walk in the street below and notice that [ARG1: a toddler] be [V: hang] [ARG2: from a window] .",
+                        "tweet_args": "a man have die after plunge from a fourth floor window in Aberdeen city centre .. Toddler die after [V: hang] [ARG1: Toddler] [ARG2: on cord of window blind] , inquest find .",
+                        "rouge1_recall": 0.4,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.364
+                    },
+                    "best_recall": {
+                        "topic_args": "a man in China , tell China Central Television that a man in China hear a toddler scream for help whilst walk in the street below and notice that [ARG1: a toddler] be [V: hang] [ARG2: from a window] .",
+                        "tweet_args": "must see : [ARG1: man save child] [V: hang] [ARG2: from apartment window] [ARGM-MNR: several story up] - .",
+                        "rouge1_recall": 0.4,
+                        "rouge1_precision": 0.222,
+                        "rouge1_f1": 0.286
+                    },
+                    "best_f1": {
+                        "topic_args": "a man in China , tell China Central Television that a man in China hear a toddler scream for help whilst walk in the street below and notice that [ARG1: a toddler] be [V: hang] [ARG2: from a window] .",
+                        "tweet_args": "a man have die after plunge from a fourth floor window in Aberdeen city centre .. Toddler die after [V: hang] [ARG1: Toddler] [ARG2: on cord of window blind] , inquest find .",
+                        "rouge1_recall": 0.4,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.364
+                    }
+                }
+            },
+            "use": {
+                "all_frames": {
+                    "rouge1_precision": 0.482,
+                    "rouge1_recall": 0.217,
+                    "rouge1_f1": 0.283,
+                    "frequency": 21
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "a toddler be say to have suffer no injury from [ARGM-TMP: the moment] [ARG0: a man in China] [V: use] [ARG1: a broom] [ARG2: to save a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "man use mop to save girl dangle from 4th - floor window : [ARG0: a man in China] be able to [V: use] [ARG1: a mop] [ARG2: to help save a girl …] .",
+                        "rouge1_recall": 0.444,
+                        "rouge1_precision": 0.727,
+                        "rouge1_f1": 0.552
+                    },
+                    "best_recall": {
+                        "topic_args": "a video have be release show [ARGM-TMP: the moment] [ARG0: a man in China] [V: use] [ARG1: a broom] [ARG2: to save a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "[ARG0: man] [V: use] [ARG1: broom] [ARG2: to save toddler dangle from a dangle child 's neck out of window] .",
+                        "rouge1_recall": 0.5,
+                        "rouge1_precision": 0.6,
+                        "rouge1_f1": 0.545
+                    },
+                    "best_f1": {
+                        "topic_args": "a video have be release show [ARGM-TMP: the moment] [ARG0: a man in China] [V: use] [ARG1: a broom] [ARG2: to save a toddler leave precariously dangle from a window] .",
+                        "tweet_args": "man use mop to save girl dangle from 4th - floor window : [ARG0: a man in China] be able to [V: use] [ARG1: a mop] [ARG2: to help save a girl …] .",
+                        "rouge1_recall": 0.444,
+                        "rouge1_precision": 0.727,
+                        "rouge1_f1": 0.552
+                    }
+                }
+            },
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "fall": {
+                "all_frames": {
+                    "rouge1_precision": 0.2,
+                    "rouge1_recall": 0.125,
+                    "rouge1_f1": 0.154,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "a man in China enter the building and whilst lean out of a nearby window use a mop to support a toddler and make sure [ARG1: a toddler] do [ARGM-NEG: not] [V: fall] [ARG4: to a toddler 's death] .",
+                        "tweet_args": "[ARG1: Toddler] [V: fall] [ARG3: from 3rd - story window] , suffer a break jaw .",
+                        "rouge1_recall": 0.125,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.154
+                    },
+                    "best_recall": {
+                        "topic_args": "a man in China enter the building and whilst lean out of a nearby window use a mop to support a toddler and make sure [ARG1: a toddler] do [ARGM-NEG: not] [V: fall] [ARG4: to a toddler 's death] .",
+                        "tweet_args": "[ARG1: Toddler] [V: fall] [ARG3: from 3rd - story window] , suffer a break jaw .",
+                        "rouge1_recall": 0.125,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.154
+                    },
+                    "best_f1": {
+                        "topic_args": "a man in China enter the building and whilst lean out of a nearby window use a mop to support a toddler and make sure [ARG1: a toddler] do [ARGM-NEG: not] [V: fall] [ARG4: to a toddler 's death] .",
+                        "tweet_args": "[ARG1: Toddler] [V: fall] [ARG3: from 3rd - story window] , suffer a break jaw .",
+                        "rouge1_recall": 0.125,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.154
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.107,
+                    "rouge1_recall": 0.208,
+                    "rouge1_f1": 0.129,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "one resident tell China Central Television , one resident think [ARG1: a man in China 's brave and courageous action] [V: be] [ARG2: worthy of praise] ..",
+                        "tweet_args": "man use mop to save girl dangle from 4th - floor window : [ARG1: a man in China] [V: be] [ARG2: able to use a mop to help save a girl …] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.286,
+                        "rouge1_f1": 0.308
+                    },
+                    "best_recall": {
+                        "topic_args": "one resident tell China Central Television , one resident think [ARG1: a man in China 's brave and courageous action] [V: be] [ARG2: worthy of praise] ..",
+                        "tweet_args": "man use mop to save girl dangle from 4th - floor window : [ARG1: a man in China] [V: be] [ARG2: able to use a mop to help save a girl …] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.286,
+                        "rouge1_f1": 0.308
+                    },
+                    "best_f1": {
+                        "topic_args": "one resident tell China Central Television , one resident think [ARG1: a man in China 's brave and courageous action] [V: be] [ARG2: worthy of praise] ..",
+                        "tweet_args": "man use mop to save girl dangle from 4th - floor window : [ARG1: a man in China] [V: be] [ARG2: able to use a mop to help save a girl …] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.286,
+                        "rouge1_f1": 0.308
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.396,
+            "rouge1_recall": 0.236,
+            "rouge1_f1": 0.27
+        }
+    }
+}

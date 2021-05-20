@@ -1,0 +1,140 @@
+{
+    "topic": "35de6aea-82a0-41a8-9af8-38773e1dfc2c",
+    "coref_content": "it be important for student to clearly understand the term of any account student be offer, and to make sure student ’re use any account they be offer in a way that minimize fee ..",
+    "tweets_content": "A better way to raise money for college! What students are doing #KDKA-TV News at 11..\nNow, high school students can earn money for college the easy way..\nA2: We will work to help students understand how to minimize debt..\nOn-campus residency requirements can be a burden for low-income college students.",
+    "coref_tweets": "a well way to raise money for college! what student be do # KDKA - TV News at 11 .. now, high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. on - campus residency requirement can be a burden for low - income college student.",
+    "nr_tweets": 4,
+    "topic_clusters": [
+        ["student", "they", "they"],
+        ["any account they be offer", "it"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "it [V: be] [ARG2: important] [ARG1: for student to clearly understand the term of any account student be offer , and to make sure student ’re use any account they be offer in a way that minimize fee] ..",
+            "it be important for [ARG0: student] to [ARGM-MNR: clearly] [V: understand] [ARG1: the term of any account student be offer] , and to make sure student ’re use any account they be offer in a way that minimize fee ..",
+            "it be important for student to clearly understand the term of any account [ARG1: student] [V: be] [ARG2: offer] , and to make sure student ’re use any account they be offer in a way that minimize fee ..",
+            "it be important for [ARG0: student] to clearly understand the term of any account student be offer , and to [V: make] [ARG1: sure student ’re use any account they be offer in a way that minimize fee] ..",
+            "it be important for student to clearly understand the term of any account student be offer , and to make sure [ARG0: student] [V: ’re] use any account they be offer in a way that minimize fee ..",
+            "it be important for student to clearly understand the term of any account student be offer , and to make sure [ARG0: student ’re] [V: use] [ARG1: any account they be offer] [ARGM-MNR: in a way that minimize fee] ..",
+            "it be important for student to clearly understand the term of any account student be offer , and to make sure student ’re use any account they [V: be] offer in a way that minimize fee ..",
+            "it be important for student to clearly understand the term of any account student be offer , and to make sure student ’re use [ARG1: any account] [ARG1: they] be [V: offer] [ARGM-MNR: in a way that minimize fee] ..",
+            "it be important for student to clearly understand the term of any account student be offer , and to make sure student ’re use any account they be offer in [ARG0: a way] [R-ARG0: that] [V: minimize] [ARG1: fee] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARGM-MNR: a well way] to [V: raise] [ARG1: money for college] !"
+        ],
+        [
+            "[ARG1: what student] [V: be] [ARG2: do # KDKA - TV News at 11] .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be [V: do] [ARG1: # KDKA - TV News] [ARGM-TMP: at 11] .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student [V: can] earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. [ARGM-TMP: now] , [ARG0: high school student] [ARGM-MOD: can] [V: earn] [ARG1: money] [ARG3: for college] [ARGM-MNR: the easy way] .. a2 : we will work to help student understand how to minimize debt .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we [V: will] work to help student understand how to minimize debt .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : [ARG0: we] [ARGM-MOD: will] [V: work] [ARG1: to help student understand how to minimize debt] .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : [ARG0: we] will work to [V: help] [ARG1: student understand how to minimize debt] .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help [ARG0: student] [V: understand] [ARG1: how to minimize debt] .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand [ARGM-MNR: how] to [V: minimize] [ARG1: debt] .. on - campus residency requirement can be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. on - campus residency requirement [V: can] be a burden for low - income college student .",
+            "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. [ARG1: on - campus residency requirement] [ARGM-MOD: can] [V: be] [ARG2: a burden for low - income college student] ."
+        ]
+    ],
+    "tweets_verbs": ["raise", "be", "do", "can", "earn", "will", "work", "help", "understand", "minimize", "can", "be"],
+    "metrics": {
+        "verb_precision": 33.333,
+        "verb_recall": 50.0
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "minimize": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.097,
+                    "rouge1_recall": 0.188,
+                    "rouge1_f1": 0.088,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "it [V: be] [ARG2: important] [ARG1: for student to clearly understand the term of any account student be offer , and to make sure student ’re use any account they be offer in a way that minimize fee] ..",
+                        "tweet_args": "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. [ARG1: on - campus residency requirement] [ARGM-MOD: can] [V: be] [ARG2: a burden for low - income college student] .",
+                        "rouge1_recall": 0.094,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.136
+                    },
+                    "best_recall": {
+                        "topic_args": "it [V: be] [ARG2: important] [ARG1: for student to clearly understand the term of any account student be offer , and to make sure student ’re use any account they be offer in a way that minimize fee] ..",
+                        "tweet_args": "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. [ARG1: on - campus residency requirement] [ARGM-MOD: can] [V: be] [ARG2: a burden for low - income college student] .",
+                        "rouge1_recall": 0.094,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.136
+                    },
+                    "best_f1": {
+                        "topic_args": "it be important for student to clearly understand the term of any account [ARG1: student] [V: be] [ARG2: offer] , and to make sure student ’re use any account they be offer in a way that minimize fee ..",
+                        "tweet_args": "[ARG1: what student] [V: be] [ARG2: do # KDKA - TV News at 11] .. now , high school student can earn money for college the easy way .. a2 : we will work to help student understand how to minimize debt .. on - campus residency requirement can be a burden for low - income college student .",
+                        "rouge1_recall": 0.5,
+                        "rouge1_precision": 0.125,
+                        "rouge1_f1": 0.2
+                    }
+                }
+            },
+            "understand": {
+                "all_frames": {
+                    "rouge1_precision": 0.2,
+                    "rouge1_recall": 0.1,
+                    "rouge1_f1": 0.133,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "it be important for [ARG0: student] to [ARGM-MNR: clearly] [V: understand] [ARG1: the term of any account student be offer] , and to make sure student ’re use any account they be offer in a way that minimize fee ..",
+                        "tweet_args": "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help [ARG0: student] [V: understand] [ARG1: how to minimize debt] .. on - campus residency requirement can be a burden for low - income college student .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.133
+                    },
+                    "best_recall": {
+                        "topic_args": "it be important for [ARG0: student] to [ARGM-MNR: clearly] [V: understand] [ARG1: the term of any account student be offer] , and to make sure student ’re use any account they be offer in a way that minimize fee ..",
+                        "tweet_args": "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help [ARG0: student] [V: understand] [ARG1: how to minimize debt] .. on - campus residency requirement can be a burden for low - income college student .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.133
+                    },
+                    "best_f1": {
+                        "topic_args": "it be important for [ARG0: student] to [ARGM-MNR: clearly] [V: understand] [ARG1: the term of any account student be offer] , and to make sure student ’re use any account they be offer in a way that minimize fee ..",
+                        "tweet_args": "what student be do # KDKA - TV News at 11 .. now , high school student can earn money for college the easy way .. a2 : we will work to help [ARG0: student] [V: understand] [ARG1: how to minimize debt] .. on - campus residency requirement can be a burden for low - income college student .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.2,
+                        "rouge1_f1": 0.133
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.098,
+            "rouge1_recall": 0.153,
+            "rouge1_f1": 0.083
+        }
+    }
+}

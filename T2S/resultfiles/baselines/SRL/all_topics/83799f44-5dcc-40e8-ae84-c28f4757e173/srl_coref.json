@@ -1,0 +1,297 @@
+{
+    "topic": "83799f44-5dcc-40e8-ae84-c28f4757e173",
+    "coref_content": "Fortinet − a global leader in high - performance cybersecurity solution − announce enhancement to Fortinet − a global leader in high - performance cybersecurity solution's cloud - base FortiCloud management system and a new line of cloud - manage wireless access point ( APs ), continue Fortinet − a global leader in high - performance cybersecurity solution's strategic investment and momentum in the secure wireless networking market. Fortinet − a global leader in high - performance cybersecurity solution's FortiAP - S series\" wireless lan ( WLAN ) ap be the most secure cloud - manage enterprise Wi - Fi product on the market, feature Fortinet − a global leader in high - performance cybersecurity solution's cybersecurity technology run directly on Fortinet ’s FortiAP - S series\" wireless lan ( WLAN ) ap and the late s ecurity update from Fortinet − a global leader in high - performance cybersecurity solution's industry - lead FortiGuard Labs Threat Intelligence team. now organization no long need to sacrifice security when opt to manage organization's enterprise wireless lan from the cloud. distribute organization face many challenge as distribute organization deploy and manage a wireless LAN solution for distribute organization's customer and employee. current enterprise WLAN solution often require complex architecture to segment guest and internal network, while demand extra hardware like separate WLAN controller and security appliance. while emerge cloud - manage Wi - Fi vendor have help to reduce the complexity and management issue associate with deploy wireless network, move WLAN control into the cloud have introduce security challenge that have yet to be address until now. Fortinet ’s FortiAP - S series\" wireless lan ( WLAN ) ap empower organization to forego separate WLAN controller without expose the network to cyber - threat. every FortiAP - S series access point be centrally manage through its cloud - base FortiCloud management system, enable effortless Wi - Fi network deployment and management, increase security, visibility and control, and reduce overall infrastructure complexity. this make it easy for organization to implement and manage a secure Wi - fi network, while the scalability of cloud management make the solution ideal for distribute enterprise that may have thousand of site. Fortinet ’s FortiAP - S series\" wireless lan ( WLAN ) ap be load with advanced security feature like intrusion prevention, web filtering, rouge AP detection, antivirus security protection, granular application control and more, all run directly on Fortinet ’s FortiAP - S series\" wireless lan ( WLAN ) ap. advanced security feature like intrusion prevention, web filtering, rouge AP detection, antivirus security protection, granular application control and more be all back by Fortinet ’s industry - lead FortiGuard Labs Threat Intelligence team to ensure each FortiAP - S be protect against the very late advanced threat, in real - time. this sophisticated level of hardware and software integration be only make possible by Fortinet − a global leader in high - performance cybersecurity solution's expertise and dedication to high - performance security engineering and research. Fortinet ’s FortiAP - S series\" wireless lan ( WLAN ) ap combine the flexibility of cloud management, the late generation of wireless access point technology and the prove security of FortiGuard, all form a secure wireless architecture for enterprise access network, \" say Rajesh Maurya, Country Manager, India & SAARC at Fortinet − a global leader in high - performance cybersecurity solution ..",
+    "tweets_content": "ETTelecom | Oracle launches new enterprise-grade flash storage system.\n. acquires  to advance identity and security in the cloud:.\nETTelecom | Lifesize launches Lifesize Cloud Amplify service.\nDeploy a #golang photo archive in the cloud.\nSophos Cloud helps you manage endpoint security and mobile devices from one unified cloud console. Learn more:.\nWhy it is essential to add the ‘S’ of security to Cloud, Analytics, Mobile and Social.\nGoogle Launches Cloud Dataproc, A Managed Spark And Hadoop Big Data Service  by.\nGoogle Launches Cloud Dataproc, A Managed Spark And Hadoop Big Data Service (.\nCloud, mobility, analytics, social, AI, unified communications, digital design, n wireless comm have redefined architecture of organizations..\nCoding In The Cloud Era Demands A Structural Rethink To Bake In Security And Privacy.\nCoding in the cloud era demands a structural rethink to bake in security and privacy.\nOracle Launches SOA Cloud Service and API Manager Cloud Service",
+    "coref_tweets": "ETTelecom | Oracle launch new enterprise - grade flash storage system. . acquire to advance identity and security in the cloud :. ETTelecom | Lifesize launch Lifesize Cloud Amplify service. deploy a # golang photo archive in the cloud. Sophos Cloud help you manage endpoint security and mobile device from one unify cloud console. learn more :. why it be essential to add the ‘s ' of security to Cloud, Analytics, Mobile and Social. Google launch Cloud Dataproc, a manage spark and Hadoop big datum service by. Google launch Cloud Dataproc, a manage spark and Hadoop big Data service (. Cloud, mobility, analytic, social, ai, unified communication, digital design, n wireless comm have redefine architecture of organization .. coding in the the cloud era demand a structural rethink to bake in security and privacy. coding in the cloud era demand a structural rethink to bake in security and privacy. Oracle launch SOA Cloud service and API Manager Cloud service",
+    "nr_tweets": 12,
+    "topic_clusters": [
+        ["Fortinet \u2212 a global leader in high - performance cybersecurity solution", "its", "the company \u2019s", "Fortinet \u2019s", "Fortinet \u2019s", "Fortinet \u2019s", "Fortinet \u2019s", "Fortinet \u2019s", "Fortinet \u2019s", "Fortinet"],
+        ["Fortinet \u2019s FortiAP - S series \" wireless lan ( WLAN ) ap", "the AP", "Fortinet \u2019s new FortiAP - S series of wireless access point", "the FortiAP - S series ap", "the access point", "Fortinet \u2019s new FortiAP - S series"],
+        ["organization", "their"],
+        ["distribute organization", "they", "their"],
+        ["WLAN", "WLAN", "WLAN"],
+        ["its cloud - base FortiCloud management system", "the cloud - base FortiCloud management system"],
+        ["advanced security feature like intrusion prevention , web filtering , rouge AP detection , antivirus security protection , granular application control and more", "these feature"],
+        ["Fortinet \u2019s industry - lead FortiGuard Labs Threat Intelligence team", "FortiGuard Labs ' industry - lead threat intelligence"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["the cloud", "the cloud", "cloud"],
+        ["Google", "Google"],
+        ["Hadoop", "Hadoop"],
+        ["the cloud era", "the cloud era"],
+        ["Oracle", "Oracle"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "Fortinet − a global leader in high - performance cybersecurity solution − announce enhancement to Fortinet − a global leader in high - performance cybersecurity solution 's cloud - base FortiCloud management system and a new line of [ARG0: cloud] - [V: manage] wireless access point ( APs ) , continue Fortinet − a global leader in high - performance cybersecurity solution 's strategic investment and momentum in the secure wireless networking market .",
+            "[ARG0: Fortinet − a global leader in high - performance cybersecurity solution −] announce enhancement to Fortinet − a global leader in high - performance cybersecurity solution 's cloud - base FortiCloud management system and a new line of cloud - manage wireless access point ( APs ) , [V: continue] [ARG1: Fortinet − a global leader in high - performance cybersecurity solution 's strategic investment and momentum in the secure wireless networking market] ."
+        ],
+        [
+            "Fortinet − a global leader in high - performance cybersecurity [ARG1: solution 's FortiAP - S series \" wireless lan ( WLAN ) ap] [V: be] [ARG2: the most secure cloud - manage enterprise Wi - Fi product on the market] , feature Fortinet − a global leader in high - performance cybersecurity solution 's cybersecurity technology run directly on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap and the late s ecurity update from Fortinet − a global leader in high - performance cybersecurity solution 's industry - lead FortiGuard Labs Threat Intelligence team .",
+            "[ARG0: Fortinet − a global leader in high - performance cybersecurity solution 's FortiAP - S series \" wireless lan ( WLAN ) ap be the most secure cloud - manage enterprise Wi - Fi product on the market ,] [V: feature] [ARG1: Fortinet − a global leader in high - performance cybersecurity solution 's cybersecurity technology run directly on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap and the late s ecurity update from Fortinet − a global leader in high - performance cybersecurity solution 's industry - lead FortiGuard Labs Threat Intelligence team] .",
+            "Fortinet − a global leader in high - performance cybersecurity solution 's FortiAP - S series \" wireless lan ( WLAN ) ap be the most secure cloud - manage enterprise Wi - Fi product on the market , feature Fortinet − a global leader in [ARG1: high - performance cybersecurity solution 's cybersecurity technology] [V: run] [ARGM-MNR: directly] [ARG2: on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap] and the late s ecurity update from Fortinet − a global leader in high - performance cybersecurity solution 's industry - lead FortiGuard Labs Threat Intelligence team ."
+        ],
+        [
+            "now [ARG0: organization] no long need to [V: sacrifice] [ARG1: security] [ARGM-TMP: when opt to manage organization 's enterprise wireless lan from the cloud] .",
+            "now [ARG0: organization] no long need to sacrifice security when opt to [V: manage] [ARG1: organization 's enterprise wireless lan] [ARGM-MNR: from the cloud] ."
+        ],
+        [
+            "[V: distribute] [ARG1: organization] face many challenge as distribute organization deploy and manage a wireless LAN solution for distribute organization 's customer and employee .",
+            "[ARG0: distribute organization] [V: face] [ARG1: many challenge] [ARGM-TMP: as distribute organization deploy and manage a wireless LAN solution for distribute organization 's customer and employee] .",
+            "distribute organization face many challenge as [ARG0: distribute organization] [V: deploy] and manage [ARG1: a wireless LAN solution for distribute organization 's customer and employee] .",
+            "distribute organization face many challenge as [ARG0: distribute organization] deploy and [V: manage] [ARG1: a wireless LAN solution for distribute organization 's customer and employee] ."
+        ],
+        [
+            "[ARG0: current enterprise WLAN solution] [ARGM-TMP: often] [V: require] [ARG1: complex architecture] [ARGM-PRP: to segment guest and internal network] , [ARGM-ADV: while demand extra hardware like separate WLAN controller and security appliance] .",
+            "[ARG0: current enterprise WLAN solution] often require complex architecture to segment guest and internal network , while [V: demand] [ARG1: extra hardware like separate WLAN controller and security appliance] ."
+        ],
+        [
+            "while [V: emerge] [ARG0: cloud - manage Wi - Fi vendor] have help to reduce the complexity and management issue associate with deploy wireless network , move WLAN control into the cloud have introduce security challenge that have yet to be address until now .",
+            "while emerge cloud - manage Wi - Fi vendor [V: have] help to reduce the complexity and management issue associate with deploy wireless network , move WLAN control into the cloud have introduce security challenge that have yet to be address until now .",
+            "while emerge cloud - manage Wi - Fi vendor have help to [V: reduce] [ARG1: the complexity and management issue associate with deploy wireless network] , move WLAN control into the cloud have introduce security challenge that have yet to be address until now .",
+            "while emerge cloud - manage Wi - Fi vendor have help to reduce the complexity and management issue associate with [V: deploy] [ARG1: wireless network] , move WLAN control into the cloud have introduce security challenge that have yet to be address until now .",
+            "while emerge cloud - manage Wi - Fi vendor have help to reduce the complexity and management issue associate with deploy wireless network , [V: move] [ARG1: WLAN control] [ARG2: into the cloud] have introduce security challenge that have yet to be address until now .",
+            "while emerge cloud - manage Wi - Fi vendor have help to reduce the complexity and management issue associate with deploy wireless network , move WLAN control into the cloud [V: have] introduce security challenge that have yet to be address until now .",
+            "[ARGM-ADV: while emerge cloud - manage Wi - Fi vendor have help to reduce the complexity and management issue associate with deploy wireless network] , move WLAN control into the cloud have [V: introduce] [ARG1: security challenge that have yet to be address until now] .",
+            "while emerge cloud - manage Wi - Fi vendor have help to reduce the complexity and management issue associate with deploy wireless network , move WLAN control into the cloud have introduce security challenge that [V: have] yet to be address until now .",
+            "while emerge cloud - manage Wi - Fi vendor have help to reduce the complexity and management issue associate with deploy wireless network , move WLAN control into the cloud have introduce security challenge [ARG1: that] have yet to [V: be] [ARG2: address] [ARGM-TMP: until now] ."
+        ],
+        [
+            "Fortinet ’s [ARG0: FortiAP - S series] \" [ARG0: wireless lan ( WLAN] ) [V: ap] [ARG1: empower organization] to forego separate WLAN controller without expose the network to cyber - threat .",
+            "[ARG0: Fortinet ’s FortiAP - S series] \" wireless lan ( WLAN ) ap empower organization to [V: forego] [ARG1: separate WLAN controller] [ARGM-ADV: without expose the network to cyber - threat] .",
+            "Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap empower organization to forego separate WLAN controller without [V: expose] [ARG1: the network] [ARG2: to cyber - threat] ."
+        ],
+        [
+            "every FortiAP - S series access point [V: be] centrally manage through its cloud - base FortiCloud management system , enable effortless Wi - Fi network deployment and management , increase security , visibility and control , and reduce overall infrastructure complexity .",
+            "[ARG1: every FortiAP - S series access point] be [ARGM-MNR: centrally] [V: manage] [ARGM-MNR: through its cloud - base FortiCloud management system] , enable effortless Wi - Fi network deployment and management , increase security , visibility and control , and reduce overall infrastructure complexity .",
+            "[ARG0: every FortiAP - S series access point] be centrally manage through its cloud - base FortiCloud management system , [V: enable] [ARG1: effortless Wi - Fi network deployment and management] , increase security , visibility and control , and reduce overall infrastructure complexity .",
+            "[ARG0: every FortiAP - S series access point] be centrally manage through its cloud - base FortiCloud management system , enable effortless Wi - Fi network deployment and management , [V: increase] [ARG1: security , visibility and control] , and reduce overall infrastructure complexity .",
+            "[ARG0: every FortiAP - S series access point] be centrally manage through its cloud - base FortiCloud management system , enable effortless Wi - Fi network deployment and management , increase security , visibility and control , and [V: reduce] [ARG1: overall infrastructure complexity] ."
+        ],
+        [
+            "[ARG0: this] [V: make] [ARG1: it easy for organization to implement and manage a secure Wi - fi network] , [ARGM-ADV: while the scalability of cloud management make the solution ideal for distribute enterprise that may have thousand of site] .",
+            "this make it easy for [ARG0: organization] to [V: implement] and manage [ARG1: a secure Wi - fi network] , while the scalability of cloud management make the solution ideal for distribute enterprise that may have thousand of site .",
+            "this make it easy for [ARG0: organization] to implement and [V: manage] [ARG1: a secure Wi - fi network] , while the scalability of cloud management make the solution ideal for distribute enterprise that may have thousand of site .",
+            "this make it easy for organization to implement and manage a secure Wi - fi network , while [ARG0: the scalability of cloud management] [V: make] [ARG1: the solution ideal for distribute enterprise that may have thousand of site] .",
+            "this make it easy for organization to implement and manage a secure Wi - fi network , while the scalability of cloud management make the solution ideal for distribute enterprise that [V: may] have thousand of site .",
+            "this make it easy for organization to implement and manage a secure Wi - fi network , while the scalability of cloud management make the solution ideal for [ARG0: distribute enterprise] [R-ARG0: that] [ARGM-MOD: may] [V: have] [ARG1: thousand of site] ."
+        ],
+        [
+            "[ARG1: Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap] [V: be] [ARG2: load with advanced security feature like intrusion prevention , web filtering , rouge AP detection , antivirus security protection , granular application control and more] , all run directly on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap .",
+            "[ARG1: Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap be] load with advanced security [ARG1: feature like intrusion prevention , web filtering , rouge AP detection , antivirus security protection , granular application control and more] , [R-ARG1: all] [V: run] [ARGM-MNR: directly] [ARG4: on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap] ."
+        ],
+        [
+            "[ARG1: advanced security feature like intrusion prevention , web filtering , rouge AP detection , antivirus security protection , granular] application control and more [V: be] all back [ARG2: by Fortinet ’s industry - lead FortiGuard Labs Threat Intelligence team] to ensure each FortiAP - S be protect against the very late advanced threat , in real - time .",
+            "advanced security feature like intrusion prevention , web filtering , rouge AP detection , antivirus security protection , granular application control and more be all back by Fortinet ’s industry - lead FortiGuard Labs Threat Intelligence team to [V: ensure] [ARG1: each FortiAP - S be protect against the very late advanced threat , in real - time] .",
+            "advanced security feature like intrusion prevention , web filtering , rouge AP detection , antivirus security protection , granular application control and more be all back by Fortinet ’s industry - lead FortiGuard Labs Threat Intelligence team to ensure each FortiAP - S [V: be] protect against the very late advanced threat , in real - time ."
+        ],
+        [
+            "this sophisticated level of hardware and software integration [V: be] only make possible by Fortinet − a global leader in high - performance cybersecurity solution 's expertise and dedication to high - performance security engineering and research .",
+            "this sophisticated level of hardware and software integration be [ARGM-ADV: only] [V: make] [ARG1: possible] [ARG0: by Fortinet − a global leader in high - performance cybersecurity solution 's expertise and dedication to high - performance security engineering and research] ."
+        ],
+        [
+            "[ARG0: Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap] [V: combine] [ARG1: the flexibility of cloud management , the late generation of wireless access point technology and the prove security of FortiGuard] , all form a secure wireless architecture for enterprise access network , \" say Rajesh Maurya , Country Manager , India & SAARC at Fortinet − a global leader in high - performance cybersecurity solution ..",
+            "[ARG0: Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap] combine the flexibility of cloud management , the late generation of wireless access point technology and the prove security of FortiGuard , [R-ARG0: all] [V: form] [ARG1: a secure wireless architecture for enterprise access network] , \" say Rajesh Maurya , Country Manager , India & SAARC at Fortinet − a global leader in high - performance cybersecurity solution ..",
+            "[ARG1: Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap combine the flexibility of cloud management , the late generation of wireless access point technology and the prove security of FortiGuard , all form a secure wireless architecture for enterprise access network] , \" [V: say] [ARG0: Rajesh Maurya , Country Manager , India & SAARC at Fortinet − a global leader in high - performance cybersecurity solution] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARG0: ETTelecom | Oracle] [V: launch] [ARG1: new enterprise - grade flash storage system] ."
+        ],
+        [],
+        [
+            "[V: acquire] [ARG3: to advance identity and security in the cloud] : .",
+            "acquire to [V: advance] [ARG1: identity and security] [ARGM-LOC: in the cloud] : ."
+        ],
+        [],
+        [
+            "[V: deploy] [ARG1: a # golang photo archive] [ARGM-LOC: in the cloud] ."
+        ],
+        [
+            "[ARG0: Sophos Cloud] [V: help] [ARG1: you manage endpoint security and mobile device from one unify cloud console] .",
+            "Sophos Cloud help [ARG0: you] [V: manage] [ARG1: endpoint security and mobile device] [ARGM-DIR: from one unify cloud console] ."
+        ],
+        [
+            "[V: learn] [ARG1: more] : ."
+        ],
+        [
+            "[ARGM-CAU: why] it [V: be] [ARG2: essential] [ARG1: to add the ‘s ' of security to Cloud , Analytics , Mobile and Social] .",
+            "why it be essential to [V: add] [ARG1: the ‘s ' of security] [ARG2: to Cloud , Analytics , Mobile and Social] ."
+        ],
+        [],
+        [],
+        [
+            "[ARG0: Cloud , mobility , analytic , social , ai , unified communication , digital design] , n wireless comm [V: have] redefine architecture of organization .. coding in the the cloud era demand a structural rethink to bake in security and privacy .",
+            "[ARG0: Cloud , mobility , analytic , social , ai , unified communication , digital design , n wireless comm] have [V: redefine] [ARG1: architecture of organization] .. coding in the the cloud era demand a structural rethink to bake in security and privacy .",
+            "Cloud , mobility , analytic , social , ai , unified communication , digital design , n wireless comm have redefine architecture of organization .. [V: coding] [ARGM-TMP: in the the cloud era] demand a structural rethink to bake in security and privacy .",
+            "Cloud , mobility , analytic , social , ai , unified communication , digital design , n wireless comm have redefine architecture of organization .. [ARG0: coding in the the cloud era] [V: demand] [ARG1: a structural rethink to bake in security and privacy] .",
+            "Cloud , mobility , analytic , social , ai , unified communication , digital design , n wireless comm have redefine architecture of organization .. coding in the the cloud era demand a structural rethink to [V: bake] in [ARG1: security and privacy] ."
+        ],
+        [
+            "[V: coding] [ARGM-TMP: in the cloud era] demand a structural rethink to bake in security and privacy .",
+            "[ARG0: coding in the cloud era] [V: demand] [ARG1: a structural rethink to bake in security and privacy] .",
+            "coding in the cloud era demand a structural rethink to [V: bake] in [ARG1: security and privacy] ."
+        ],
+        []
+    ],
+    "tweets_verbs": ["launch", "acquire", "advance", "deploy", "help", "manage", "learn", "be", "add", "have", "redefine", "coding", "demand", "bake", "coding", "demand", "bake"],
+    "metrics": {
+        "verb_precision": 35.294,
+        "verb_recall": 18.182
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "demand": {
+                "all_frames": {
+                    "rouge1_precision": 0.138,
+                    "rouge1_recall": 0.154,
+                    "rouge1_f1": 0.146,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: current enterprise WLAN solution] often require complex architecture to segment guest and internal network , while [V: demand] [ARG1: extra hardware like separate WLAN controller and security appliance] .",
+                        "tweet_args": "[ARG0: coding in the cloud era] [V: demand] [ARG1: a structural rethink to bake in security and privacy] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.148
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: current enterprise WLAN solution] often require complex architecture to segment guest and internal network , while [V: demand] [ARG1: extra hardware like separate WLAN controller and security appliance] .",
+                        "tweet_args": "Cloud , mobility , analytic , social , ai , unified communication , digital design , n wireless comm have redefine architecture of organization .. [ARG0: coding in the the cloud era] [V: demand] [ARG1: a structural rethink to bake in security and privacy] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.133,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: current enterprise WLAN solution] often require complex architecture to segment guest and internal network , while [V: demand] [ARG1: extra hardware like separate WLAN controller and security appliance] .",
+                        "tweet_args": "[ARG0: coding in the cloud era] [V: demand] [ARG1: a structural rethink to bake in security and privacy] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.148
+                    }
+                }
+            },
+            "deploy": {
+                "all_frames": {
+                    "rouge1_precision": 0.071,
+                    "rouge1_recall": 0.038,
+                    "rouge1_f1": 0.05,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "distribute organization face many challenge as [ARG0: distribute organization] [V: deploy] and manage [ARG1: a wireless LAN solution for distribute organization 's customer and employee] .",
+                        "tweet_args": "[V: deploy] [ARG1: a # golang photo archive] [ARGM-LOC: in the cloud] .",
+                        "rouge1_recall": 0.077,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.1
+                    },
+                    "best_recall": {
+                        "topic_args": "distribute organization face many challenge as [ARG0: distribute organization] [V: deploy] and manage [ARG1: a wireless LAN solution for distribute organization 's customer and employee] .",
+                        "tweet_args": "[V: deploy] [ARG1: a # golang photo archive] [ARGM-LOC: in the cloud] .",
+                        "rouge1_recall": 0.077,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.1
+                    },
+                    "best_f1": {
+                        "topic_args": "distribute organization face many challenge as [ARG0: distribute organization] [V: deploy] and manage [ARG1: a wireless LAN solution for distribute organization 's customer and employee] .",
+                        "tweet_args": "[V: deploy] [ARG1: a # golang photo archive] [ARGM-LOC: in the cloud] .",
+                        "rouge1_recall": 0.077,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.1
+                    }
+                }
+            },
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "manage": {
+                "all_frames": {
+                    "rouge1_precision": 0.091,
+                    "rouge1_recall": 0.274,
+                    "rouge1_f1": 0.106,
+                    "frequency": 5
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "now [ARG0: organization] no long need to sacrifice security when opt to [V: manage] [ARG1: organization 's enterprise wireless lan] [ARGM-MNR: from the cloud] .",
+                        "tweet_args": "Sophos Cloud help [ARG0: you] [V: manage] [ARG1: endpoint security and mobile device] [ARGM-DIR: from one unify cloud console] .",
+                        "rouge1_recall": 0.222,
+                        "rouge1_precision": 0.182,
+                        "rouge1_f1": 0.2
+                    },
+                    "best_recall": {
+                        "topic_args": "Fortinet − a global leader in high - performance cybersecurity solution − announce enhancement to Fortinet − a global leader in high - performance cybersecurity solution 's cloud - base FortiCloud management system and a new line of [ARG0: cloud] - [V: manage] wireless access point ( APs ) , continue Fortinet − a global leader in high - performance cybersecurity solution 's strategic investment and momentum in the secure wireless networking market .",
+                        "tweet_args": "Sophos Cloud help [ARG0: you] [V: manage] [ARG1: endpoint security and mobile device] [ARGM-DIR: from one unify cloud console] .",
+                        "rouge1_recall": 1.0,
+                        "rouge1_precision": 0.091,
+                        "rouge1_f1": 0.167
+                    },
+                    "best_f1": {
+                        "topic_args": "now [ARG0: organization] no long need to sacrifice security when opt to [V: manage] [ARG1: organization 's enterprise wireless lan] [ARGM-MNR: from the cloud] .",
+                        "tweet_args": "Sophos Cloud help [ARG0: you] [V: manage] [ARG1: endpoint security and mobile device] [ARGM-DIR: from one unify cloud console] .",
+                        "rouge1_recall": 0.222,
+                        "rouge1_precision": 0.182,
+                        "rouge1_f1": 0.2
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.082,
+                    "rouge1_recall": 0.046,
+                    "rouge1_f1": 0.059,
+                    "frequency": 7
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG1: Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap] [V: be] [ARG2: load with advanced security feature like intrusion prevention , web filtering , rouge AP detection , antivirus security protection , granular application control and more] , all run directly on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap .",
+                        "tweet_args": "[ARGM-CAU: why] it [V: be] [ARG2: essential] [ARG1: to add the ‘s ' of security to Cloud , Analytics , Mobile and Social] .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.214,
+                        "rouge1_f1": 0.136
+                    },
+                    "best_recall": {
+                        "topic_args": "Fortinet − a global leader in high - performance cybersecurity [ARG1: solution 's FortiAP - S series \" wireless lan ( WLAN ) ap] [V: be] [ARG2: the most secure cloud - manage enterprise Wi - Fi product on the market] , feature Fortinet − a global leader in high - performance cybersecurity solution 's cybersecurity technology run directly on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap and the late s ecurity update from Fortinet − a global leader in high - performance cybersecurity solution 's industry - lead FortiGuard Labs Threat Intelligence team .",
+                        "tweet_args": "[ARGM-CAU: why] it [V: be] [ARG2: essential] [ARG1: to add the ‘s ' of security to Cloud , Analytics , Mobile and Social] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.214,
+                        "rouge1_f1": 0.171
+                    },
+                    "best_f1": {
+                        "topic_args": "Fortinet − a global leader in high - performance cybersecurity [ARG1: solution 's FortiAP - S series \" wireless lan ( WLAN ) ap] [V: be] [ARG2: the most secure cloud - manage enterprise Wi - Fi product on the market] , feature Fortinet − a global leader in high - performance cybersecurity solution 's cybersecurity technology run directly on Fortinet ’s FortiAP - S series \" wireless lan ( WLAN ) ap and the late s ecurity update from Fortinet − a global leader in high - performance cybersecurity solution 's industry - lead FortiGuard Labs Threat Intelligence team .",
+                        "tweet_args": "[ARGM-CAU: why] it [V: be] [ARG2: essential] [ARG1: to add the ‘s ' of security to Cloud , Analytics , Mobile and Social] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.214,
+                        "rouge1_f1": 0.171
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.072,
+            "rouge1_recall": 0.104,
+            "rouge1_f1": 0.067
+        }
+    }
+}

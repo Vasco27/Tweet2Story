@@ -1,0 +1,280 @@
+{
+    "topic": "4433ef79-ce00-4ef3-b93d-f5d38901007d",
+    "coref_content": "in order to see the content of this page, you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie\" option Windows Phone • open Settings • check the allow cookie on my phone\" option • press back button to continue browse.",
+    "tweets_content": "Hmm okay. Can you check your network settings and see what your NAT setting is set to ^JZ..\nHello Calid! B! Please over the icon of the game, press Option button&gt; Select check for update...\nthe cache and cookies on your web browser ^SB..\nYep! Check power settings to enable instant on:  Then tap the power button to shutdown. ^CW..\nHi,for gprs you can use the option of disabling mobile data from your phone,for mms you can disable mms settings on your phone....\nSetting up a perimeter #roc..\nDoes 3D Touch have your dream Control Center tap to jump to WiFi Settings!..\nOh no, Oscar! Open Camera and tap Menu&gt;Settings&gt;General Settings&gt; Reset to Default, and then go to the phone Settings&gt;Apps&gt;..\nSetting alarm for  buildup...\nTap the hamburger in upper right, scroll to Switch Teams or go to Settings &gt; Teams. Both screens have add a team option...\nThanks for sharing this info! Do your console setting match the recommended settings on   ^EZ..\nHi, to enable the service from the Home screen,  -go to Settings.  -Tap the More tab.  -Tap Application Manager......\nGlad to help. On Safe Mode, select option 4 Restore Default Settings:.\nHello Mathias. On Safe Mode, select option 2 Restore Default Settings:.\nGlad to help. On Safe Mode, select option 2 Restore Default Settings:.\nKindly set Safaricom APN /settings as default on your device, then restart your phone to resolve this issue ^MW..\nI see, with the Internet Explore app, if you press the View button, see option to check the Recent tab for history ^RZ..\nTry clearing the cache/cookies...\nGlad to help. On Safe Mode, select option 4 Restore Default Settings:.\nIts in additional settings!.\nyou can dim the light in the  option screen. Hold the PS button longer...\n...(Your Network)&gt; Configure Network&gt; Additional Settings&gt; Advanced Settings. Hopefully that helps! ^AD.",
+    "coref_tweets": "hmm okay. can you check your network setting and see what your nat setting be set to ^JZ .. hello Calid! B! please over the icon of the game, press option button&gt ; select check for update ... the cache and cookie on your web browser ^SB .. yep! check power setting to enable instant on : then tap the power button to shutdown. ^CW .. hi, for gpr you can use the option of disable mobile datum from your phone, for mm you can disable mm setting on your phone .... set up a perimeter # roc .. do 3D Touch have your dream Control Center tap to jump to wifi setting! .. oh no, Oscar! open camera and tap menu&gt;settings&gt;general settings&gt ; reset to Default, and then go to the phone settings&gt;apps&gt ; .. set alarm for buildup ... tap the hamburger in upper right, scroll to Switch Teams or go to Settings & gt ; Teams. both screen have add a team option ... thank for share this info! do your console setting match the recommend setting on ^EZ .. hi, to enable the service from the home screen, -go to setting. -tap the More tab. -tap Application Manager ...... glad to help. on Safe Mode, select option 4 restore default setting :. hello Mathias. on Safe Mode, select option 2 restore default setting :. glad to help. on Safe Mode, select option 2 restore default setting :. kindly set Safaricom APN /setting as default on your device, then restart your phone to resolve this issue ^MW .. I see, with the Internet Explore app, if you press the view button, see option to check the recent tab for history ^rz .. try clear the cache / cookie ... glad to help. on Safe Mode, select option 4 restore default setting :. it in additional setting! . you can dim the light in the option screen. hold the ps button long ... ... ( your network)&gt ; configure network&gt ; additional settings&gt ; advanced setting. hopefully that help! ^AD.",
+    "nr_tweets": 22,
+    "topic_clusters": [],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["mm", "mms"],
+        ["Safe Mode", "Safe Mode", "Safe Mode", "Safe Mode"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "in order to [V: see] [ARG1: the content of this page] , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+            "in order to see the content of this page , you [V: will] need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+            "[ARGM-PRP: in order to see the content of this page] , [ARG0: you] [ARGM-MOD: will] [V: need] [ARG1: to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse] .",
+            "in order to see the content of this page , [ARG0: you] will need to [V: enable] [ARG2: your cookie] [ARGM-MNR: by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse] .",
+            "in order to see the content of this page , you will need to enable your cookie by [V: follow] [ARG1: these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse] .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone [V: •] [ARG2: open Settings • touch on Safari] • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • [V: select] [ARGM-TMP: always] [ARG1: Android] • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • [V: press] [ARG1: the menu button] • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on [V: setting] • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • [V: check] [ARG1: the accept cookie \" option Windows Phone] • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • [V: check] [ARG1: the allow cookie on my phone \"] option • press back button to continue browse .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to [V: continue] [ARG1: browse] .",
+            "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue [V: browse] ."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [],
+        [
+            "[V: can] you check your network setting and see what your nat setting be set to ^JZ .. hello Calid !",
+            "[ARGM-MOD: can] [ARG0: you] [V: check] [ARG1: your network setting] and see what your nat setting be set to ^JZ .. hello Calid !",
+            "can you check [ARG0: your] [ARG1: network] [V: setting] and see what your nat setting be set to ^JZ .. hello Calid !",
+            "[ARGM-MOD: can] [ARG0: you] check your network setting and [V: see] [ARG1: what your nat setting be set to ^JZ] .. [ARG1: hello Calid] !",
+            "can you check your network setting and see what [ARG0: your nat] [V: setting] be set to ^JZ .. hello Calid !",
+            "can you check your network setting and see what your nat setting [V: be] set to ^JZ .. hello Calid !",
+            "can you check your network setting and see what [ARG1: your nat setting] be [V: set] [ARG2: to ^JZ] .. hello Calid !"
+        ],
+        [],
+        [],
+        [
+            "[V: check] [ARG1: power setting] [ARGM-PRP: to enable instant on] : then tap the power button to shutdown .",
+            "check power setting to [V: enable] [ARG1: instant on] : then tap the power button to shutdown .",
+            "check power setting to enable instant on : [ARGM-TMP: then] [V: tap] [ARG1: the power button] [ARGM-PRP: to shutdown] .",
+            "check power setting to enable instant on : then tap the power button to [V: shutdown] ."
+        ],
+        [
+            "^CW .. hi , for gpr you [V: can] use the option of disable mobile datum from your phone , for mm you can disable mm setting on your phone .... set up a perimeter # roc .. do 3D Touch have your dream Control Center tap to jump to wifi setting !",
+            "^CW .. [ARGM-DIS: hi] , [ARGM-PRP: for gpr] [ARG0: you] [ARGM-MOD: can] [V: use] [ARG1: the option of disable mobile datum from your phone] , for mm you can disable mm setting on your phone .... set up a perimeter # roc .. do 3D Touch have your dream Control Center tap to jump to wifi setting !",
+            "^CW .. hi , for gpr you can use the option of disable mobile datum from your phone , for mm you [V: can] disable mm setting on your phone .... set up a perimeter # roc .. do 3D Touch have your dream Control Center tap to jump to wifi setting !",
+            "^CW .. hi , for gpr you can use the option of disable mobile datum from your phone , for mm [ARG0: you] [ARGM-MOD: can] [V: disable] [ARG1: mm setting on your phone] .... set up a perimeter # roc .. do 3D Touch have your dream Control Center tap to jump to wifi setting !",
+            "^CW .. hi , for gpr you can use the option of disable mobile datum from your phone , for mm you can disable mm [V: setting] [ARG2: on your phone] .... set up a perimeter # roc .. do 3D Touch have your dream Control Center tap to jump to wifi setting !",
+            "^CW .. hi , for gpr you can use the option of disable mobile datum from your phone , for mm you can disable mm setting on your phone .... [V: set] up [ARG1: a perimeter # roc] .. do 3D Touch have your dream Control Center tap to jump to wifi setting !",
+            "^CW .. hi , for gpr you can use the option of disable mobile datum from your phone , for mm you can disable mm setting on your phone .... set up a perimeter # roc .. [V: do] 3D Touch have your dream Control Center tap to jump to wifi setting !",
+            "^CW .. hi , for gpr you can use the option of disable mobile datum from your phone , for mm you can disable mm setting on your phone .... set up a perimeter # roc .. do [ARG0: 3D Touch] [V: have] [ARG1: your dream Control Center tap] [ARGM-PRP: to jump to wifi setting] !",
+            "^CW .. hi , for gpr you can use the option of disable mobile datum from your phone , for mm you can disable mm setting on your phone .... set up a perimeter # roc .. do 3D Touch have your dream Control Center tap to [V: jump] [ARGM-DIR: to wifi setting] !"
+        ],
+        [],
+        [
+            "open camera and [V: tap] [ARG1: menu&gt;settings&gt;general settings&gt] ; reset to Default , and then go to the phone settings&gt;apps&gt ; .. set alarm for buildup ... tap the hamburger in upper right , scroll to Switch Teams or go to Settings & gt ; Teams .",
+            "open camera and tap menu&gt;settings&gt;general settings&gt ; [V: reset] [ARG2: to Default] , and then go to the phone settings&gt;apps&gt ; .. set alarm for buildup ... tap the hamburger in upper right , scroll to Switch Teams or go to Settings & gt ; Teams .",
+            "open camera and tap menu&gt;settings&gt;general settings&gt ; reset to Default , and [ARGM-TMP: then] [V: go] [ARG4: to the phone settings&gt;apps&gt] ; .. set alarm for buildup ... tap the hamburger in upper right , scroll to Switch Teams or go to Settings & gt ; Teams .",
+            "open camera and tap menu&gt;settings&gt;general settings&gt ; reset to Default , and then go to the phone settings&gt;apps&gt ; .. [V: set] [ARG1: alarm for buildup] ... tap the hamburger in upper right , scroll to Switch Teams or go to Settings & gt ; Teams .",
+            "open camera and tap menu&gt;settings&gt;general settings&gt ; reset to Default , and then go to the phone settings&gt;apps&gt ; .. set alarm for buildup ... [V: tap] [ARG1: the hamburger] [ARGM-LOC: in upper right] , scroll to Switch Teams or go to Settings & gt ; Teams .",
+            "open camera and tap menu&gt;settings&gt;general settings&gt ; reset to Default , and then go to the phone settings&gt;apps&gt ; .. set alarm for buildup ... tap the hamburger in upper right , scroll to Switch Teams or [V: go] [ARG4: to Settings & gt ; Teams] ."
+        ],
+        [
+            "both screen [V: have] add a team option ... thank for share this info !",
+            "[ARG0: both screen] have [V: add] [ARG1: a team option] ... thank for share this info !",
+            "both screen have add a team option ... [V: thank] [ARG2: for share this info] !"
+        ],
+        [
+            "[V: do] your console setting match the recommend setting on ^EZ .. hi , to enable the service from the home screen , -go to setting .",
+            "do [ARG0: your console] [V: setting] match the recommend setting on ^EZ .. hi , to enable the service from the home screen , -go to setting .",
+            "do [ARG0: your console setting] [V: match] [ARG1: the recommend setting on ^EZ] .. [ARGM-DIS: hi] , [ARGM-PRP: to enable the service from the home screen ,] -go [to setting] .",
+            "do your console setting match the [ARGM-ADJ: recommend] [V: setting] [ARG2: on ^EZ] .. hi , to enable the service from the home screen , -go to setting .",
+            "do your console setting match the recommend setting on ^EZ .. hi , to [V: enable] [ARG1: the service from the home screen] , -go to setting .",
+            "do your console setting match the recommend setting on ^EZ .. hi , to enable the service from the home screen , -go to [V: setting] ."
+        ],
+        [],
+        [
+            "-tap [Application Manager] ...... glad to [V: help] ."
+        ],
+        [],
+        [],
+        [],
+        [
+            "glad to [V: help] ."
+        ],
+        [],
+        [
+            "[ARGM-MNR: kindly] [V: set] [ARG1: Safaricom APN /setting] [ARG2: as default on your device] , then restart your phone to resolve this issue ^MW ..",
+            "[ARGM-ADV: kindly] set Safaricom APN /setting as default on your device , [ARGM-TMP: then] [V: restart] [ARG1: your phone] [ARGM-PRP: to resolve this issue ^MW] ..",
+            "kindly set Safaricom APN /setting as default on your device , then restart your phone to [V: resolve] [ARG1: this issue] [ARGM-DIS: ^MW] .."
+        ],
+        [
+            "[ARG0: I] [V: see] , with the Internet Explore app , if you press the view button , see option to check the recent tab for history ^rz .. try clear the cache / cookie ... glad to help .",
+            "I see , with the Internet Explore app , if [ARG0: you] [V: press] [ARG1: the view button] , see option to check the recent tab for history ^rz .. try clear the cache / cookie ... glad to help .",
+            "I see , [ARGM-ADV: with the Internet Explore app] , [ARGM-ADV: if you press the view button] , [V: see] [ARG1: option to check the recent tab for history ^rz] .. try clear the cache / cookie ... glad to help .",
+            "I see , with the Internet Explore app , if you press the view button , see option to [V: check] [ARG1: the recent tab for history ^rz] .. try clear the cache / cookie ... glad to help .",
+            "I see , with the Internet Explore app , if you press the view button , see option to check the recent tab for history ^rz .. [V: try] [ARG1: clear the cache / cookie] ... [ARGM-PRD: glad to help] .",
+            "I see , with the Internet Explore app , if you press the view button , see option to check the recent tab for history ^rz .. try clear the cache / cookie ... glad to [V: help] ."
+        ],
+        [],
+        [],
+        [],
+        [
+            "you [V: can] dim the light in the option screen .",
+            "[ARG0: you] [ARGM-MOD: can] [V: dim] [ARG1: the light in the option screen] ."
+        ],
+        [
+            "[V: hold] [ARG1: the ps button] [ARGM-TMP: long] ... ... ( your network)&gt ; configure network&gt ; additional settings&gt ; advanced setting .",
+            "hold the [ARG1: ps] [V: button] long ... ... ( your network)&gt ; configure network&gt ; additional settings&gt ; advanced setting ."
+        ],
+        [
+            "[ARGM-ADV: hopefully] that [V: help] !"
+        ],
+        []
+    ],
+    "tweets_verbs": ["can", "check", "setting", "see", "setting", "be", "set", "check", "enable", "tap", "shutdown", "can", "use", "can", "disable", "setting", "set", "do", "have", "jump", "tap", "reset", "go", "set", "tap", "go", "have", "add", "thank", "do", "setting", "match", "setting", "enable", "setting", "help", "help", "set", "restart", "resolve", "see", "press", "see", "check", "try", "help", "can", "dim", "hold", "button", "help"],
+    "metrics": {
+        "verb_precision": 29.412,
+        "verb_recall": 68.182
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "enable": {
+                "all_frames": {
+                    "rouge1_precision": 0.417,
+                    "rouge1_recall": 0.028,
+                    "rouge1_f1": 0.052,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "in order to see the content of this page , [ARG0: you] will need to [V: enable] [ARG2: your cookie] [ARGM-MNR: by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse] .",
+                        "tweet_args": "check power setting to [V: enable] [ARG1: instant on] : then tap the power button to shutdown .",
+                        "rouge1_recall": 0.019,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.036
+                    },
+                    "best_recall": {
+                        "topic_args": "in order to see the content of this page , [ARG0: you] will need to [V: enable] [ARG2: your cookie] [ARGM-MNR: by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse] .",
+                        "tweet_args": "check power setting to [V: enable] [ARG1: instant on] : then tap the power button to shutdown .",
+                        "rouge1_recall": 0.019,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.036
+                    },
+                    "best_f1": {
+                        "topic_args": "in order to see the content of this page , [ARG0: you] will need to [V: enable] [ARG2: your cookie] [ARGM-MNR: by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse] .",
+                        "tweet_args": "do your console setting match the recommend setting on ^EZ .. hi , to [V: enable] [ARG1: the service from the home screen] , -go to setting .",
+                        "rouge1_recall": 0.038,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.068
+                    }
+                }
+            },
+            "setting": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "press": {
+                "all_frames": {
+                    "rouge1_precision": 0.5,
+                    "rouge1_recall": 0.667,
+                    "rouge1_f1": 0.571,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • [V: press] [ARG1: the menu button] • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+                        "tweet_args": "I see , with the Internet Explore app , if [ARG0: you] [V: press] [ARG1: the view button] , see option to check the recent tab for history ^rz .. try clear the cache / cookie ... glad to help .",
+                        "rouge1_recall": 0.667,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.571
+                    },
+                    "best_recall": {
+                        "topic_args": "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • [V: press] [ARG1: the menu button] • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+                        "tweet_args": "I see , with the Internet Explore app , if [ARG0: you] [V: press] [ARG1: the view button] , see option to check the recent tab for history ^rz .. try clear the cache / cookie ... glad to help .",
+                        "rouge1_recall": 0.667,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.571
+                    },
+                    "best_f1": {
+                        "topic_args": "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • [V: press] [ARG1: the menu button] • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+                        "tweet_args": "I see , with the Internet Explore app , if [ARG0: you] [V: press] [ARG1: the view button] , see option to check the recent tab for history ^rz .. try clear the cache / cookie ... glad to help .",
+                        "rouge1_recall": 0.667,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.571
+                    }
+                }
+            },
+            "check": {
+                "all_frames": {
+                    "rouge1_precision": 0.083,
+                    "rouge1_recall": 0.083,
+                    "rouge1_f1": 0.083,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • [V: check] [ARG1: the allow cookie on my phone \"] option • press back button to continue browse .",
+                        "tweet_args": "[V: check] [ARG1: power setting] [ARGM-PRP: to enable instant on] : then tap the power button to shutdown .",
+                        "rouge1_recall": 0.167,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.167
+                    },
+                    "best_recall": {
+                        "topic_args": "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • [V: check] [ARG1: the allow cookie on my phone \"] option • press back button to continue browse .",
+                        "tweet_args": "[V: check] [ARG1: power setting] [ARGM-PRP: to enable instant on] : then tap the power button to shutdown .",
+                        "rouge1_recall": 0.167,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.167
+                    },
+                    "best_f1": {
+                        "topic_args": "in order to see the content of this page , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • [V: check] [ARG1: the allow cookie on my phone \"] option • press back button to continue browse .",
+                        "tweet_args": "[V: check] [ARG1: power setting] [ARGM-PRP: to enable instant on] : then tap the power button to shutdown .",
+                        "rouge1_recall": 0.167,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.167
+                    }
+                }
+            },
+            "see": {
+                "all_frames": {
+                    "rouge1_precision": 0.017,
+                    "rouge1_recall": 0.067,
+                    "rouge1_f1": 0.027,
+                    "frequency": 3
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "in order to [V: see] [ARG1: the content of this page] , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+                        "tweet_args": "I see , [ARGM-ADV: with the Internet Explore app] , [ARGM-ADV: if you press the view button] , [V: see] [ARG1: option to check the recent tab for history ^rz] .. try clear the cache / cookie ... glad to help .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.05,
+                        "rouge1_f1": 0.08
+                    },
+                    "best_recall": {
+                        "topic_args": "in order to [V: see] [ARG1: the content of this page] , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+                        "tweet_args": "I see , [ARGM-ADV: with the Internet Explore app] , [ARGM-ADV: if you press the view button] , [V: see] [ARG1: option to check the recent tab for history ^rz] .. try clear the cache / cookie ... glad to help .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.05,
+                        "rouge1_f1": 0.08
+                    },
+                    "best_f1": {
+                        "topic_args": "in order to [V: see] [ARG1: the content of this page] , you will need to enable your cookie by follow these step : iPhone • open Settings • touch on Safari • touch on Accept cookie • select always Android • press the menu button • tap on More • tap on setting • check the accept cookie \" option Windows Phone • open Settings • check the allow cookie on my phone \" option • press back button to continue browse .",
+                        "tweet_args": "I see , [ARGM-ADV: with the Internet Explore app] , [ARGM-ADV: if you press the view button] , [V: see] [ARG1: option to check the recent tab for history ^rz] .. try clear the cache / cookie ... glad to help .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.05,
+                        "rouge1_f1": 0.08
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.105,
+            "rouge1_recall": 0.079,
+            "rouge1_f1": 0.07
+        }
+    }
+}

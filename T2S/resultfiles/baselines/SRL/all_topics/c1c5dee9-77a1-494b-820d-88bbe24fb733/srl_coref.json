@@ -1,0 +1,224 @@
+{
+    "topic": "c1c5dee9-77a1-494b-820d-88bbe24fb733",
+    "coref_content": "this past year animated feature be the main focus from the festival. the big event run from October 22 through October 31. a trio of recent japanese film may also be join within the competition section, the festival's primary attraction, and will also be test together with 13 other film from around the globe — select from some 1,400 record. of 10 film to become feature within the Asia Future section, half be direct by woman, coordinator state. other programme range from the work of youthful company director from Asia and also the Middle East. Tokyo, japan ( AFP ) – Homegrown movie come in focus in the Tokyo, japan Worldwide Film Festival the following month because the Tokyo, japan Worldwide Film Festival remember the Tokyo, japan Worldwide Film Festival's 28th anniversary, coordinator state Tuesday. the Tokyo, japan Worldwide Film Festival will showcase popular japanese horror movie direct by Hideo Nakata, most widely know abroad for that 1998 cult horror film Ring\" . some classic japanese film for example Went\" direct by legendary filmmaker Akira Kurosawa be go to be test inside a high - definition 4 k format. film feature actor Ken Takakura, who perform a difficult detective in Ridley Scott ’s black Rain\" , may also be among individual test. popular japanese horror movie direct by Hideo Nakata, most widely know abroad for that 1998 cult horror film Ring\" appear first on News List Online ..",
+    "tweets_content": "Zurich Film Festival: Christoph Waltz to Head Filmmaker Award Jury.\nThe Complete Guide to Wuzhen Theatre Festival: - The 3rd Wuzhen Theatre Festival will be held from October 15t....\nRabin film wont end conspiracies theories but it does highlight hate campaign, filmmaker….\nFilmmaker #ManiRatnams next film to be shot in sync sound.\nSyrian Film Cherry Messages wins award of the best film in #Alexandria Film Festival.\nAlgonquin filmmaker to premier short film at TIFF opening night - APTN National News.\nToronto International Film Festival showing film shot in #NewLondon by #Wallingford filmmaker.\n. talking with filmmaker Joe Swanberg about Chicago and his latest film, Digging for Fire..\nPay Attention to the Emergency Kanji - Savvy Tokyo.\nThe 5 Most-Anticipated Films Premiering at the Toronto Film Festival!.\n105 movies from 29 countries to enliven Balinale Film Festival.\nCheck Out These New, Standout Gay Films from the Toronto International Film Festival  #TIFF.\nHappy to be at the opening of the 35th Atlantic Film Festival this evening! A vibrant score of films to come this wk..\nThe 10 best films to book at London Film Festival:.\nHorror Idyll declared best feature film of Slovenian Film Festival..\nShooting a short film with film director  on HIV Aids. #passion #film #acting.\nContemporary films from Uzbekistan at a film festival in Washington. Highlights from the Voice of America.\nNYFF: Ten Movies to look forward to at the 2015 New York Film Festival -.\nThe 10 Most Anticipated Films of the 2015 New York Film Festival.\nOutstanding film...\nJapanese filmmaker to direct a film in Nepal - Kathmandu Post.\nTokyo film festival to focus on homegrown movies: TOKYO, Sept 29 — Homegrown movies will be in focus at the To....\nSome of my favorite  films are Claudine, A Piece of the Action and Star Wars!..\nMilwaukee Film Festival - Former federal agent turns filmmaker to explore homelessness in Milwaukee.\nTokyo International Film Festival showcases classic anime, J-horror and yakuza films",
+    "coref_tweets": "Zurich Film Festival : Christoph Waltz to head Filmmaker Award jury. the Complete Guide to Wuzhen Theatre Festival : - the 3rd Wuzhen Theatre Festival will be hold from October 15 t .... Rabin film wo nt end conspiracy theory but Rabin film do highlight hate campaign, filmmaker …. filmmaker # ManiRatnams next film to be shoot in sync sound. Syrian Film Cherry Messages win award of the good film in # Alexandria Film Festival. algonquin filmmaker to premier short film at TIFF opening night - APTN National News. Toronto International Film Festival show film shoot in # NewLondon by # Wallingford filmmaker. . talk with filmmaker Joe Swanberg about Chicago and filmmaker Joe Swanberg's late film, dig for Fire .. pay attention to the emergency Kanji - Savvy Tokyo. the 5 most - anticipate film premiere at Toronto International Film Festival! . 105 movie from 29 country to enliven Balinale Film Festival. check out these new, Standout Gay Films from TIFF. happy to be at the opening of the 35th Atlantic Film Festival this evening! a vibrant score of film to come this wk .. the 10 good film to book at London Film Festival :. horror Idyll declare good feature film of Slovenian Film Festival .. shoot a short film with film director on HIV Aids. # passion # film # acting. contemporary film from Uzbekistan at a film festival in Washington. highlight from the Voice of America. NYFF : ten movie to look forward to at the 2015 New York Film Festival -. the 10 most anticipated film of the 2015 New York Film Festival. outstanding film ... japanese filmmaker to direct a film in Nepal - Kathmandu Post. Tokyo film festival to focus on homegrown movie : TOKYO, Sept 29 — homegrown movie will be in focus at the To .... some of my favorite film be Claudine, a Piece of the Action and Star Wars! .. Milwaukee Film Festival - former federal agent turn filmmaker to explore homelessness in Milwaukee. Toronto International Film Festival showcase classic anime, j - horror and yakuza film",
+    "nr_tweets": 25,
+    "topic_clusters": [
+        ["the festival", "the festival \u2019s"],
+        ["Asia", "Asia"],
+        ["japan", "japan"],
+        ["the Tokyo , japan Worldwide Film Festival", "the event", "its", "the festival"],
+        ["coordinator state", "coordinator state"],
+        ["popular japanese horror movie direct by Hideo Nakata , most widely know abroad for that 1998 cult horror film Ring \"", "Consumer Discretionary Arts & amplifier Entertainment horror movie Hideo Nakata japanese film the post"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Rabin film", "it"],
+        ["filmmaker Joe Swanberg", "his"],
+        ["Toronto International Film Festival", "the Toronto Film Festival", "Tokyo International Film Festival"],
+        ["TIFF", "the Toronto International Film Festival # TIFF"],
+        ["the 2015 New York Film Festival", "the 2015 New York Film Festival"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "this past year [V: animated] [ARG1: feature] be the main focus from the festival .",
+            "[ARG1: this past year animated feature] [V: be] [ARG2: the main focus from the festival] ."
+        ],
+        [
+            "[ARG1: the big event] [V: run] [ARGM-TMP: from October 22 through October 31] . a trio of recent japanese film may also be join within the competition section , the festival 's primary attraction , and will also be test together with 13 other film from around the globe — select from some 1,400 record .",
+            "the big event run from October 22 through October 31 . a trio of recent japanese film [V: may] also be join within the competition section , the festival 's primary attraction , and will also be test together with 13 other film from around the globe — select from some 1,400 record .",
+            "the big event run from October 22 through October 31 . a trio of recent japanese film may also [V: be] join within the competition section , the festival 's primary attraction , and will also be test together with 13 other film from around the globe — select from some 1,400 record .",
+            "the big event run from October 22 through October 31 . a trio of recent japanese film may also be join within the competition section , the festival 's primary attraction , and [V: will] also be test together with 13 other film from around the globe — select from some 1,400 record .",
+            "the big event run from October 22 through October 31 . a trio of recent japanese film may also be join within the competition section , the festival 's primary attraction , and [ARGM-MOD: will] also [V: be] test together with 13 other film from around the globe — select from some 1,400 record ."
+        ],
+        [
+            "of [ARG1: 10 film] to [V: become] [ARG2: feature within the Asia Future section] , half be direct by woman , coordinator state .",
+            "of 10 film to become feature within the Asia Future section , half [V: be] direct by woman , coordinator state ."
+        ],
+        [],
+        [
+            "[ARG1: Tokyo , japan ( AFP ) – Homegrown movie] [V: come] [ARG2: in focus] [ARGM-LOC: in the Tokyo , japan Worldwide Film Festival] [ARGM-TMP: the following month] [ARGM-CAU: because the Tokyo , japan Worldwide Film Festival remember the Tokyo , japan Worldwide Film Festival 's 28th anniversary ,] coordinator state Tuesday .",
+            "Tokyo , japan ( AFP ) – Homegrown movie come in focus in the Tokyo , japan Worldwide Film Festival the following month because [ARG0: the Tokyo , japan Worldwide Film Festival] [V: remember] [ARG1: the Tokyo , japan Worldwide Film Festival 's 28th anniversary] , coordinator state Tuesday ."
+        ],
+        [
+            "the Tokyo , japan Worldwide Film Festival [V: will] showcase popular japanese horror movie direct by Hideo Nakata , most widely know abroad for that 1998 cult horror film Ring \" .",
+            "[ARG0: the Tokyo , japan Worldwide Film Festival] [ARGM-MOD: will] [V: showcase] [ARG1: popular japanese horror movie direct by Hideo Nakata , most widely know abroad for that 1998 cult horror film Ring \"] .",
+            "the Tokyo , japan Worldwide Film Festival will showcase popular japanese horror movie direct by Hideo Nakata , [ARGM-ADV: most widely] [V: know] [ARGM-LOC: abroad] [ARG2: for] that 1998 cult horror film Ring \" ."
+        ],
+        [
+            "some classic japanese film for example Went \" direct by legendary filmmaker Akira Kurosawa [V: be] go to be test inside a high - definition 4 k format .",
+            "some classic japanese film for example Went \" direct by legendary filmmaker Akira Kurosawa be [V: go] [ARG2: to be test inside a high - definition 4 k format] .",
+            "some classic japanese film for example Went \" direct by legendary filmmaker Akira Kurosawa be go to [V: be] test inside a high - definition 4 k format ."
+        ],
+        [
+            "[ARG0: film feature actor Ken Takakura] , [R-ARG0: who] [V: perform] [ARG1: a difficult detective] [ARGM-LOC: in Ridley Scott ’s black Rain \"] , may also be among individual test .",
+            "film feature actor Ken Takakura , who perform a difficult detective in Ridley Scott ’s black Rain \" , [V: may] also be among individual test .",
+            "[ARG1: film feature actor Ken Takakura , who perform a difficult detective in Ridley Scott ’s black Rain \"] , [ARGM-MOD: may] [ARGM-DIS: also] [V: be] [ARG2: among individual test] ."
+        ],
+        [
+            "[ARG1: popular] japanese horror movie direct by Hideo Nakata , [ARGM-EXT: most widely] [V: know] [ARGM-LOC: abroad] for that 1998 cult horror film Ring \" appear first on News List Online ..",
+            "[ARG1: popular japanese horror movie direct by Hideo Nakata , most widely know abroad for that 1998 cult horror film Ring] \" [V: appear] [ARGM-TMP: first] [ARGM-LOC: on News List] [ARGM-LOC: Online] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "Zurich Film Festival : [ARG0: Christoph Waltz] to [V: head] [ARG1: Filmmaker Award jury] ."
+        ],
+        [
+            "the Complete Guide to Wuzhen Theatre Festival : - the 3rd Wuzhen Theatre Festival [V: will] be hold from October 15 t .... Rabin film wo nt end conspiracy theory but Rabin film do highlight hate campaign , filmmaker … .",
+            "the Complete Guide to Wuzhen Theatre Festival : - the 3rd Wuzhen Theatre Festival will [V: be] hold from October 15 t .... Rabin film wo nt end conspiracy theory but Rabin film do highlight hate campaign , filmmaker … .",
+            "the Complete Guide to Wuzhen Theatre Festival : - the 3rd Wuzhen Theatre Festival will be hold from October 15 t .... [ARG0: Rabin film] [V: wo] [ARGM-NEG: nt] [ARG1: end conspiracy theory] but Rabin film do highlight hate campaign , filmmaker … .",
+            "the Complete Guide to Wuzhen Theatre Festival : - the 3rd Wuzhen Theatre Festival will be hold from October 15 t .... [ARG0: Rabin film] [ARGM-MOD: wo] [ARGM-NEG: nt] [V: end] [ARG1: conspiracy theory] but Rabin film do highlight hate campaign , filmmaker … .",
+            "the Complete Guide to Wuzhen Theatre Festival : - the 3rd Wuzhen Theatre Festival will be hold from October 15 t .... Rabin film wo nt end conspiracy theory but Rabin film [V: do] highlight hate campaign , filmmaker … .",
+            "the Complete Guide to Wuzhen Theatre Festival : - the 3rd Wuzhen Theatre Festival will be hold from October 15 t .... Rabin film wo nt end conspiracy theory but [ARG0: Rabin film] do [V: highlight] [ARG1: hate campaign , filmmaker …] ."
+        ],
+        [
+            "[ARG1: filmmaker # ManiRatnams next film] to [V: be] [ARG2: shoot in sync sound] ."
+        ],
+        [
+            "[ARG0: Syrian Film Cherry Messages] [V: win] [ARG1: award of the good film] [ARGM-LOC: in # Alexandria Film Festival] ."
+        ],
+        [
+            "[ARG0: algonquin filmmaker] to [V: premier] [ARG1: short film] [ARGM-LOC: at TIFF opening night] - APTN National News .",
+            "algonquin filmmaker to premier short film at TIFF [V: opening] [ARGM-TMP: night] - APTN National News ."
+        ],
+        [
+            "[ARG0: Toronto International Film Festival] [V: show] [ARG1: film shoot in # NewLondon by # Wallingford filmmaker] ."
+        ],
+        [],
+        [
+            "[V: talk] [ARG2: with filmmaker Joe Swanberg] [ARG1: about Chicago and filmmaker Joe Swanberg 's late film , dig for Fire] .. pay attention to the emergency Kanji - Savvy Tokyo .",
+            "talk with filmmaker Joe Swanberg about Chicago and filmmaker Joe Swanberg 's late film , [V: dig] [ARG2: for Fire] .. pay attention to the emergency Kanji - Savvy Tokyo .",
+            "talk with filmmaker Joe Swanberg about Chicago and filmmaker Joe Swanberg 's late film , dig for Fire .. [V: pay] [ARG1: attention] [ARG2: to the emergency Kanji - Savvy Tokyo] ."
+        ],
+        [
+            "the 5 [ARGM-ADJ: most] - [V: anticipate] film premiere at Toronto International Film Festival !"
+        ],
+        [],
+        [
+            "105 movie from 29 country to [V: enliven] [ARG1: Balinale Film Festival] ."
+        ],
+        [
+            "[V: check] out [ARG1: these new , Standout Gay Films] [ARGM-DIR: from TIFF] ."
+        ],
+        [
+            "happy to [V: be] [ARG2: at the opening of the 35th Atlantic Film Festival this evening] !"
+        ],
+        [
+            "[ARG1: a vibrant score] of film to [V: come] [ARG2: this wk] .. the 10 good film to book at London Film Festival : ."
+        ],
+        [
+            "[ARG0: horror Idyll] [V: declare] [ARG1: good feature film of Slovenian Film Festival] .. shoot a short film with film director on HIV Aids .",
+            "horror Idyll declare good feature film of Slovenian Film Festival .. [V: shoot] [ARG1: a short film] [ARGM-MNR: with film director on HIV Aids] ."
+        ],
+        [
+            "# passion # film # [V: acting] ."
+        ],
+        [],
+        [],
+        [
+            "NYFF : ten movie to [V: look] forward [ARG1: to] [ARGM-LOC: at the 2015 New York Film Festival] - ."
+        ],
+        [
+            "the 10 most [V: anticipated] [ARG1: film] of the 2015 New York Film Festival ."
+        ],
+        [
+            "outstanding film ... [ARG0: japanese filmmaker] to [V: direct] [ARG1: a film] [ARGM-LOC: in Nepal - Kathmandu Post] ."
+        ],
+        [
+            "[ARGM-LOC: Tokyo film festival] to [V: focus] [ARG2: on homegrown movie] : TOKYO , Sept 29 — homegrown movie will be in focus at the To .... some of my favorite film be Claudine , a Piece of the Action and Star Wars !",
+            "Tokyo film festival to focus on homegrown movie : TOKYO , Sept 29 — homegrown movie [V: will] be in focus at the To .... some of my favorite film be Claudine , a Piece of the Action and Star Wars !",
+            "Tokyo film festival to focus on homegrown movie : TOKYO , Sept 29 — [ARG1: homegrown movie] [ARGM-MOD: will] [V: be] [ARG2: in focus at the] To .... some of my favorite film be Claudine , a Piece of the Action and Star Wars !",
+            "Tokyo film festival to focus on homegrown movie : TOKYO , Sept 29 — homegrown movie will be in focus at the To .... [ARG1: some of my favorite film] [V: be] [ARG2: Claudine , a Piece of the Action and Star Wars] !"
+        ],
+        [
+            ".. Milwaukee Film Festival - [ARG0: former federal agent turn filmmaker] to [V: explore] [ARG1: homelessness in Milwaukee] ."
+        ],
+        []
+    ],
+    "tweets_verbs": ["head", "will", "be", "wo", "end", "do", "highlight", "be", "win", "premier", "opening", "show", "talk", "dig", "pay", "anticipate", "enliven", "check", "be", "come", "declare", "shoot", "acting", "look", "anticipated", "direct", "focus", "will", "be", "be", "explore"],
+    "metrics": {
+        "verb_precision": 25.806,
+        "verb_recall": 40.0
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.043,
+                    "rouge1_recall": 0.055,
+                    "rouge1_f1": 0.037,
+                    "frequency": 35
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG1: this past year animated feature] [V: be] [ARG2: the main focus from the festival] .",
+                        "tweet_args": "happy to [V: be] [ARG2: at the opening of the 35th Atlantic Film Festival this evening] !",
+                        "rouge1_recall": 0.364,
+                        "rouge1_precision": 0.364,
+                        "rouge1_f1": 0.364
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG1: this past year animated feature] [V: be] [ARG2: the main focus from the festival] .",
+                        "tweet_args": "happy to [V: be] [ARG2: at the opening of the 35th Atlantic Film Festival this evening] !",
+                        "rouge1_recall": 0.364,
+                        "rouge1_precision": 0.364,
+                        "rouge1_f1": 0.364
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: this past year animated feature] [V: be] [ARG2: the main focus from the festival] .",
+                        "tweet_args": "happy to [V: be] [ARG2: at the opening of the 35th Atlantic Film Festival this evening] !",
+                        "rouge1_recall": 0.364,
+                        "rouge1_precision": 0.364,
+                        "rouge1_f1": 0.364
+                    }
+                }
+            },
+            "will": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "come": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.037,
+            "rouge1_recall": 0.048,
+            "rouge1_f1": 0.033
+        }
+    }
+}

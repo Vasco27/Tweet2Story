@@ -1,0 +1,197 @@
+{
+    "topic": "515400c5-967c-47ce-9028-f46ffa6d2370",
+    "coref_content": "on Friday, the Department of Law file a draft of felony charge against three business, and that too when the state be only two month away from finish regulation for the state's commercial marijuana sale. the court will decide whether three business have break the law by sell marijuana in the last few month or not. however, both side have allege that publicity be play a part in the case. the Department of Law have file 16 felony and six more misdemeanor against Anchorage - base Alaska Cannabis Club and Absolutely Chronic Deliveries Company, and also Discreet Deliveries, which have a number of location from Fairbanks down to the Kenai Peninsula. as per a draft of felony charge, undercover agent buy marijuana from each business on multiple occasion since the beginning of the year. the individual felony charge be for each sale of over an ounce. John Skidmore, head of the Department of Law's Criminal Division, say that though regulation be still be write, the state's rule on sale be clear. John Skidmore, head of the Law Department ’s Criminal Division say that it ’ not legal to sell marijuana in the state so far. in November, when voter approve Ballot Measure two, Ballot Measure two set up a framework for create a regulate industry. John Skidmore, head of the Law Department ’s Criminal Division add that but, they be not there yet. accord to John Skidmore, head of the Law Department ’s Criminal Division, three business have a high profile due to which three business draw investigator. John Skidmore, head of the Law Department ’s Criminal Division say, you have several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage. John Skidmore, head of the Law Department ’s Criminal Division think some of several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage have try to make public point about conduct in which some of they be engage\" . check out More news from Telecom Sector : : Pharmaceutical Sector : : Auto Sector : : Infrastructure : : Real Estate.",
+    "tweets_content": "Possessing marijuana can be a felony under federal law; outrageously, trafficking guns is not..\nDobson says all of the charges against Lonna and Chris are felony charges..\nDrug charges filed against owners of marijuana-related businesses.\nCharges reduced for six Washington minors hit with felony marijuana possession -  #marijuana #thepotblog..\nOwners of marijuana-related businesses, groups face felony drug charges.\nAs felony charges on #marijuana bizs rain down, both State and those charged say its all about publicity.\nThree facing felony charges in Glenwood shooting",
+    "coref_tweets": "possess marijuana can be a felony under federal law ; outrageously, traffic gun be not .. Dobson say all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business. charge reduce for six Washington minor hit with felony marijuana possession - # marijuana # thepotblog .. owner of marijuana - relate business face felony drug charge. as felony charge on # marijuana biz rain down, both State and those charge say its all about publicity. three face felony charge in Glenwood shooting",
+    "nr_tweets": 7,
+    "topic_clusters": [
+        ["the state", "Alaska \u2019s", "state \u2019s", "the state of Alaska"],
+        ["three business", "the three operator", "all three company", "they"],
+        ["the Department of Law", "the department", "the Law Department \u2019s"],
+        ["a draft of felony charge", "the charging document"],
+        ["John Skidmore , head of the Law Department \u2019s Criminal Division", "Skidmore", "he", "Skidmore", "Skidmore", "I"],
+        ["Ballot Measure two", "it"],
+        ["several entity here that do n\u2019t take any sort of effort to hide or conceal activity in which they be engage", "they", "they"],
+        ["some of they", "they"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["owner of marijuana - relate business", "owner of marijuana - relate business , group"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARGM-TMP: on Friday] , [ARG0: the Department of Law] [V: file] [ARG1: a draft of felony charge against three business] , and that too when the state be only two month away from finish regulation for the state 's commercial marijuana sale .",
+            "on Friday , the Department of Law file a draft of felony charge against three business , and that too [ARGM-TMP: when] [ARG1: the state] [V: be] [ARG2: only two month away from finish regulation for the state 's commercial marijuana sale] ."
+        ],
+        [
+            "the court [V: will] decide whether three business have break the law by sell marijuana in the last few month or not .",
+            "[ARG0: the court] [ARGM-MOD: will] [V: decide] [ARG1: whether three business have break the law by sell marijuana in the last few month or not] .",
+            "the court will decide whether [ARG0: three business] [V: have] [ARG1: break the law by sell marijuana in the last few month] or not .",
+            "the court will decide whether [ARG0: three business] have [V: break] [ARG1: the law] [ARGM-MNR: by sell marijuana in the last few month] or not ."
+        ],
+        [
+            "however , both side [V: have] allege that publicity be play a part in the case .",
+            "however , both side have allege that [ARG1: publicity] [V: be] [ARG2: play a part in the case] .",
+            "however , both side have allege that [ARG0: publicity] be [V: play] [ARG1: a part] [ARGM-LOC: in the case] ."
+        ],
+        [
+            "the Department of Law [V: have] file 16 felony and six more misdemeanor against Anchorage - base Alaska Cannabis Club and Absolutely Chronic Deliveries Company , and also Discreet Deliveries , which have a number of location from Fairbanks down to the Kenai Peninsula .",
+            "[ARG0: the Department of Law] have [V: file] [ARG1: 16 felony and six more misdemeanor] [ARG3: against Anchorage - base Alaska Cannabis Club and Absolutely Chronic Deliveries Company , and also Discreet Deliveries , which have a number of location from Fairbanks down to the Kenai Peninsula] .",
+            "the Department of Law have file 16 felony and six more misdemeanor against Anchorage - base Alaska Cannabis Club and Absolutely Chronic Deliveries Company , and also [ARG0: Discreet Deliveries] , [R-ARG0: which] [V: have] [ARG1: a number of location from Fairbanks down to the Kenai Peninsula] ."
+        ],
+        [
+            "[ARGM-ADV: as per a draft of felony charge] , [ARG0: undercover agent] [V: buy] [ARG1: marijuana] [ARG2: from each business] [ARGM-TMP: on multiple occasion] [ARGM-TMP: since the beginning of the year] ."
+        ],
+        [
+            "[ARG1: the individual felony charge] [V: be] [ARG2: for each sale of over an ounce] ."
+        ],
+        [
+            "[ARG0: John Skidmore , head of the Department of Law 's Criminal Division ,] [V: say] [ARG1: that though regulation be still be write , the state 's rule on sale be clear] .",
+            "John Skidmore , head of the Department of Law 's Criminal Division , say that though [ARG1: regulation] [V: be] [ARGM-TMP: still] [ARG2: be write] , the state 's rule on sale be clear .",
+            "John Skidmore , head of the Department of Law 's Criminal Division , say that though regulation be still [V: be] [ARG2: write] , the state 's rule on sale be clear .",
+            "John Skidmore , head of the Department of Law 's Criminal Division , say that [ARGM-ADV: though regulation be still be write] , [ARG1: the state 's rule on sale] [V: be] [ARG2: clear] ."
+        ],
+        [
+            "[ARG0: John Skidmore , head of the Law Department ’s Criminal Division] [V: say] [ARG1: that it ’ not legal to sell marijuana in the state so far] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say that it [V: ’] [ARGM-NEG: not] [ARG2: legal] [ARG1: to sell marijuana in the state] [ARGM-TMP: so far] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say that it ’ not legal to [V: sell] [ARG1: marijuana] [ARGM-LOC: in the state] so far ."
+        ],
+        [
+            "in November , when [ARG0: voter] [V: approve] [ARG1: Ballot] Measure two , Ballot Measure two set up a framework for create a regulate industry .",
+            "[ARGM-TMP: in November] , [ARGM-TMP: when voter approve Ballot Measure two] , [ARG0: Ballot Measure two] [V: set] up [ARG1: a framework for create a regulate industry] .",
+            "in November , when voter approve Ballot Measure two , Ballot Measure two set up a framework for [V: create] [ARG1: a regulate industry] ."
+        ],
+        [
+            "[ARG0: John Skidmore , head of the Law Department ’s Criminal Division] [V: add] [ARG1: that but , they be not there yet] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division add that [ARGM-DIS: but] , [ARG1: they] [V: be] [ARGM-NEG: not] [ARG2: there] [ARGM-TMP: yet] ."
+        ],
+        [
+            "[ARGM-ADV: accord to John Skidmore , head of the Law Department ’s Criminal Division ,] [ARG0: three business] [V: have] [ARG1: a high profile] [ARGM-CAU: due to which three business draw investigator] ."
+        ],
+        [
+            "[ARG0: John Skidmore , head of the Law Department ’s Criminal Division] [V: say] , [ARG1: you have several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , [ARG0: you] [V: have] [ARG1: several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that [V: do] n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have [ARG0: several entity here] [R-ARG0: that] do [ARGM-NEG: n’t] [V: take] [ARG1: any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to [V: hide] or conceal [ARG1: activity] [ARGM-LOC: in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to hide or [V: conceal] [ARG1: activity] [ARGM-LOC: in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that [V: do] n’t take any sort of effort to hide or conceal activity in which they be engage be engage .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to hide or conceal activity in which [ARG0: several entity here] [R-ARG0: that] do [ARGM-NEG: n’t] [V: take] [ARG1: any sort of effort to hide or conceal activity in which they be engage be engage] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to [V: hide] or conceal [ARG1: activity] [ARGM-LOC: in which they be engage be] engage .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or [V: conceal] [ARG1: activity in which they be engage be engage] .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or conceal activity in which [ARG1: they] [V: be] [ARG2: engage] be engage .",
+            "John Skidmore , head of the Law Department ’s Criminal Division say , you have several entity here that do n’t take any sort of effort to hide or conceal activity [ARGM-LOC: in which] [ARG1: several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage] [V: be] [ARG2: engage] ."
+        ],
+        [
+            "[ARG0: John Skidmore , head of the Law Department ’s Criminal Division] [V: think] [ARG1: some of several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage have try to make public point about conduct in which some of they be engage] \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think some of several entity here that [V: do] n’t take any sort of effort to hide or conceal activity in which they be engage have try to make public point about conduct in which some of they be engage \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think some of [ARG0: several entity here] [R-ARG0: that] do [ARGM-NEG: n’t] [V: take] [ARG1: any sort of effort to hide or conceal activity in which they be engage] have try to make public point about conduct in which some of they be engage \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think some of several entity here that do n’t take any sort of effort to [V: hide] or conceal [ARG1: activity in which they be engage] have try to make public point about conduct in which some of they be engage \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think some of several entity here that do n’t take any sort of effort to hide or [V: conceal] [ARG1: activity in which they be engage] have try to make public point about conduct in which some of they be engage \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think some of several entity here that do n’t take any sort of effort to hide or conceal activity [ARGM-LOC: in] which [ARG1: they] [V: be] [ARG2: engage] have try to make public point about conduct in which some of they be engage \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think some of several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage [V: have] try to make public point about conduct in which some of they be engage \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think [ARG0: some of several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage] have [V: try] [ARG1: to make public point about conduct in which some of they be engage] \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think [ARG0: some of several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage] have try to [V: make] [ARG1: public point about conduct in which some of they be engage] \" .",
+            "John Skidmore , head of the Law Department ’s Criminal Division think some of several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage have try to make public point about [R-ARGM-LOC: conduct] [ARGM-LOC: in which] [ARG1: some of they] [V: be] [ARG2: engage] \" ."
+        ],
+        [
+            "[V: check] out [ARG1: More news from Telecom Sector : : Pharmaceutical Sector : : Auto Sector : : Infrastructure : : Real Estate] ."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "possess marijuana [V: can] be a felony under federal law ; outrageously , traffic gun be not .. Dobson say all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business .",
+            "[ARG1: possess marijuana] [ARGM-MOD: can] [V: be] [ARG2: a felony] [ARGM-LOC: under federal law] ; outrageously , traffic gun be not .. Dobson say all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business .",
+            "possess marijuana can be a felony under federal law ; [ARGM-MNR: outrageously] , [ARG1: traffic gun] [V: be] [ARGM-NEG: not] .. Dobson say all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business .",
+            "possess marijuana can be a felony under federal law ; outrageously , traffic gun be not .. [ARG0: Dobson] [V: say] [ARG1: all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business] .",
+            "possess marijuana can be a felony under federal law ; outrageously , traffic gun be not .. Dobson say [ARG1: all of the charge against Lonna and Chris] [V: be] [ARG2: felony charge .. drug charge file against owner of marijuana - relate business] ."
+        ],
+        [
+            "[ARG1: charge] [V: reduce] [ARG4: for six Washington minor hit with felony marijuana possession - # marijuana # thepotblog] .. owner of marijuana - relate business face felony drug charge .",
+            "charge reduce for [ARG1: six Washington minor] [V: hit] [ARG2: with felony marijuana possession - # marijuana # thepotblog] .. owner of marijuana - relate business face felony drug charge ."
+        ],
+        [
+            "[ARGM-ADV: as felony charge on # marijuana biz rain down] , [ARG0: both State and those charge] [V: say] [ARG1: its all about publicity] ."
+        ],
+        [
+            "three face felony charge in [ARGM-LOC: Glenwood] [V: shooting]"
+        ]
+    ],
+    "tweets_verbs": ["can", "be", "be", "say", "be", "reduce", "hit", "say", "shooting"],
+    "metrics": {
+        "verb_precision": 55.556,
+        "verb_recall": 12.195
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.035,
+                    "rouge1_recall": 0.042,
+                    "rouge1_f1": 0.036,
+                    "frequency": 33
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "John Skidmore , head of the Law Department ’s Criminal Division add that [ARGM-DIS: but] , [ARG1: they] [V: be] [ARGM-NEG: not] [ARG2: there] [ARGM-TMP: yet] .",
+                        "tweet_args": "possess marijuana can be a felony under federal law ; [ARGM-MNR: outrageously] , [ARG1: traffic gun] [V: be] [ARGM-NEG: not] .. Dobson say all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.222
+                    },
+                    "best_recall": {
+                        "topic_args": "John Skidmore , head of the Law Department ’s Criminal Division add that [ARGM-DIS: but] , [ARG1: they] [V: be] [ARGM-NEG: not] [ARG2: there] [ARGM-TMP: yet] .",
+                        "tweet_args": "possess marijuana can be a felony under federal law ; [ARGM-MNR: outrageously] , [ARG1: traffic gun] [V: be] [ARGM-NEG: not] .. Dobson say all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business .",
+                        "rouge1_recall": 0.2,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.222
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG1: the individual felony charge] [V: be] [ARG2: for each sale of over an ounce] .",
+                        "tweet_args": "possess marijuana can be a felony under federal law ; outrageously , traffic gun be not .. Dobson say [ARG1: all of the charge against Lonna and Chris] [V: be] [ARG2: felony charge .. drug charge file against owner of marijuana - relate business] .",
+                        "rouge1_recall": 0.364,
+                        "rouge1_precision": 0.211,
+                        "rouge1_f1": 0.267
+                    }
+                }
+            },
+            "say": {
+                "all_frames": {
+                    "rouge1_precision": 0.127,
+                    "rouge1_recall": 0.088,
+                    "rouge1_f1": 0.102,
+                    "frequency": 6
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: John Skidmore , head of the Law Department ’s Criminal Division] [V: say] , [ARG1: you have several entity here that do n’t take any sort of effort to hide or conceal activity in which several entity here that do n’t take any sort of effort to hide or conceal activity in which they be engage be engage] .",
+                        "tweet_args": "possess marijuana can be a felony under federal law ; outrageously , traffic gun be not .. [ARG0: Dobson] [V: say] [ARG1: all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business] .",
+                        "rouge1_recall": 0.073,
+                        "rouge1_precision": 0.19,
+                        "rouge1_f1": 0.105
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: John Skidmore , head of the Department of Law 's Criminal Division ,] [V: say] [ARG1: that though regulation be still be write , the state 's rule on sale be clear] .",
+                        "tweet_args": "possess marijuana can be a felony under federal law ; outrageously , traffic gun be not .. [ARG0: Dobson] [V: say] [ARG1: all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.19,
+                        "rouge1_f1": 0.17
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: John Skidmore , head of the Department of Law 's Criminal Division ,] [V: say] [ARG1: that though regulation be still be write , the state 's rule on sale be clear] .",
+                        "tweet_args": "possess marijuana can be a felony under federal law ; outrageously , traffic gun be not .. [ARG0: Dobson] [V: say] [ARG1: all of the charge against Lonna and Chris be felony charge .. drug charge file against owner of marijuana - relate business] .",
+                        "rouge1_recall": 0.154,
+                        "rouge1_precision": 0.19,
+                        "rouge1_f1": 0.17
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.049,
+            "rouge1_recall": 0.049,
+            "rouge1_f1": 0.046
+        }
+    }
+}

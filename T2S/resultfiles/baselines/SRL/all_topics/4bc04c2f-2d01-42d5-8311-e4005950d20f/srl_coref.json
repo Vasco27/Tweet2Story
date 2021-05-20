@@ -1,0 +1,277 @@
+{
+    "topic": "4bc04c2f-2d01-42d5-8311-e4005950d20f",
+    "coref_content": "even as BJP struggle to combat derisive nomenclature give by political rival in the poll - bind Bihar, party Gaya MP Hari Manjhi have come out with another damaging name for BJP : Baura Jayewala Party, or a party prone to craziness. other have call BJP Bharat Jalao Party, Bharatiya Jumla Party and Barka Jhuttha Party. prior to the arrival of Union HRD minister Smriti Irani to lay the stone Central University of South Bihar on the Magadh University campus on Monday afternoon, party Gaya MP Hari Manjhi and RLSP MLC Sanjeev Shyam Singh be engage in a friendly repartee. in half jest, RLSP MLC Sanjeev Shyam Singh say BJP have marginalize BJP and make it a BJP, not NDA, campaign. party Gaya MP Hari Manjhi, to the embarrassment of other party man, include Gurua MLA Surendra Sinha, reply, Ee Baura Jayewala Party hai. the MP far say if BJP could show the door to an old ally like Shiv Sena in Maharashtra during the last assembly election, the less say about other partner the well. unlike RLSP, Shiv Sena belong to the same Parivar ( family ), say the BJP MP in half Magahi and half Hindi. party Gaya, entertain those sit in the front row at the Directorate of Distance Education Auditorium ..",
+    "tweets_content": "Reform Party may need to change their name to Re-Form Party. #sgelections #GE2015.\nShivambu: Deputy Speaker, please do not allow this racist party (the DA) to refer to us as the nasty party...\n#Parly Tempers flaring; DA refers to #EFF as the nasty party, EFF calls #DA the racist party, motions of condolence fall by wayside GD..\nWith the #DA referring to the #EFF as a nasty party &amp; EFF calling the DA a racist party perhaps the gloves are really off in Opposition...\nBJP is the most casteist party in the country. Why did BJP go to Mufti in J&amp;K: KC Tyagi, Rajya Sabha MP, JD(U) #BattlegroundBihar.\nSince 1964, the Republican Party has become, in effect, a white party..\nBJP is the same party that objected to Manmohan Singh reporting to Sonia Gandhi:  #TTP..\nBJP President Amit Shah holds Janata Darbar at party office in Delhi..\nBJP President Shri  holds Janata Darbar at BJP HQ in New Delhi..\nElection after election, the people of MP are reposing faith in the #BJP. I congratulate the party-workers for it: PM #Modi in #Bhopal..\nWrong to think, as many do, that the only alternative to Party X is Party Y. The alternative is better Party X (and better Party…..\nChirag Paswan: Still in alliance with BJP, HAM, RLSP.  #BattleForBihar..\n#NewsAlert: BJP CEC meeting underway at party headquarters in Delhi...\nReservation row: Shiv Sena supports Mohan Bhagwat, takes a dig at BJP.\nthe irony is he came from a minimal government tea party style party called the reform party..\nBJP denies its party member RK Singhs statement suggesting BJP giving Bihar tickets to criminals #BiharElections2015..\nBJP terms party MP R.K Singhs allegation that money has changed hands for tickets in #BiharPolls as baseless...\n( has since apologised for those comments about the only MP in the party hes bankrolling).",
+    "coref_tweets": "Reform Party may need to change their name to Re - Form Party. # sgelection # GE2015. Shivambu : Shivambu, please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party, # EFF call this racist party ( the DA ) the racist party, motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country. why do BJP go to Mufti in J&amp;K : KC Tyagi, Rajya Sabha MP, JD(U ) # BattlegroundBihar. since 1964, the Republican Party have become, in effect, a white party .. BJP be the same party that object to Manmohan Singh report to Sonia Gandhi : # TTP .. BJP President Amit Shah hold Janata Darbar at party office in Delhi .. BJP President Shri hold Janata Darbar at BJP HQ in Delhi .. election after election, the people of BJP be repose faith in BJP. I congratulate the party - worker for it : PM # Modi in # Bhopal .. wrong to think, as many do, that the only alternative to Party X be Party Y. the only alternative to Party X be well Party X ( and well Party … .. Chirag Paswan : still in alliance with BJP, HAM, RLSP. # BattleForBihar .. # newsalert : BJP CEC meeting underway at party headquarters in Delhi ... reservation row : Shiv Sena support Manmohan Singh, take a dig at BJP. the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ).",
+    "nr_tweets": 18,
+    "topic_clusters": [
+        ["BJP", "the organization", "it", "the BJP", "the alliance partner", "BJP", "BJP"],
+        ["party Gaya MP Hari Manjhi", "Manjhi", "Manjhi"],
+        ["RLSP MLC Sanjeev Shyam Singh", "Singh"],
+        ["RLSP", "RLSP"],
+        ["Shiv Sena", "Shiv Sena"],
+        ["party Gaya", "the MP , who early hit the headline for practice quackery even after be elect to the Lok Sabha in 2009 parliamentary election"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["Shivambu", "Deputy Speaker"],
+        ["this racist party ( the DA )", "DA", "# DA", "the # DA", "the DA"],
+        ["# EFF", "EFF", "the # EFF", "EFF"],
+        ["BJP", "BJP", "BJP", "BJP", "BJP", "BJP", "MP", "the # BJP", "BJP", "BJP", "BJP", "BJP", "its", "BJP", "the party he", "the party he s"],
+        ["Delhi", "New Delhi", "Delhi"],
+        ["the only alternative to Party X", "the alternative"],
+        ["Manmohan Singh", "Mohan Bhagwat", "he"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "even as [ARG0: BJP] struggle to [V: combat] [ARG1: derisive nomenclature give by political rival in the poll - bind Bihar] , party Gaya MP Hari Manjhi have come out with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness .",
+            "even as BJP struggle to combat [ARG1: derisive nomenclature] [V: give] [ARG0: by political rival in the poll - bind Bihar] , party Gaya MP Hari Manjhi have come out with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness .",
+            "even as BJP struggle to combat derisive nomenclature give by political rival in the poll - bind Bihar , party Gaya MP Hari Manjhi [V: have] come out with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness .",
+            "[ARGM-ADV: even as BJP struggle to combat derisive nomenclature give by political rival in the poll - bind Bihar] , [ARG1: party Gaya MP Hari Manjhi] have [V: come] out [ARG2: with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness] ."
+        ],
+        [
+            "other [V: have] call BJP Bharat Jalao Party , Bharatiya Jumla Party and Barka Jhuttha Party .",
+            "[ARG0: other] have [V: call] [ARG1: BJP] [ARG2: Bharat Jalao Party , Bharatiya Jumla Party and Barka Jhuttha Party] ."
+        ],
+        [
+            "prior to the arrival of [ARG0: Union HRD minister Smriti Irani] to [V: lay] [ARG1: the stone Central University of South Bihar] [ARG2: on the Magadh University campus] [ARGM-TMP: on Monday afternoon] , party Gaya MP Hari Manjhi and RLSP MLC Sanjeev Shyam Singh be engage in a friendly repartee .",
+            "[ARGM-TMP: prior to the arrival of Union HRD minister Smriti Irani to lay the stone Central University of South Bihar on the Magadh University campus on Monday afternoon] , [ARG1: party Gaya MP Hari Manjhi and RLSP MLC Sanjeev Shyam Singh] [V: be] [ARG2: engage in a friendly repartee] ."
+        ],
+        [
+            "[ARGM-ADV: in half jest] , [ARG0: RLSP MLC Sanjeev Shyam Singh] [V: say] [ARG1: BJP have marginalize BJP and make it a BJP , not NDA , campaign] .",
+            "in half jest , RLSP MLC Sanjeev Shyam Singh say BJP [V: have] marginalize BJP and make it a BJP , not NDA , campaign .",
+            "in half jest , RLSP MLC Sanjeev Shyam Singh say [ARG0: BJP] have [V: marginalize] [ARG1: BJP] and make it a BJP , not NDA , campaign .",
+            "in half jest , RLSP MLC Sanjeev Shyam Singh say [ARG0: BJP] have marginalize BJP and [V: make] [ARG1: it a BJP , not NDA , campaign] ."
+        ],
+        [
+            "[ARG2: party Gaya MP Hari Manjhi , to the embarrassment of other party man] , [V: include] [ARG1: Gurua MLA Surendra Sinha , reply , Ee Baura Jayewala Party hai] ."
+        ],
+        [
+            "[ARG0: the MP] [ARGM-ADV: far] [V: say] [ARG1: if BJP could show the door to an old ally like Shiv Sena in Maharashtra during the last assembly election , the less say about other partner the well] .",
+            "the MP far say if BJP [V: could] show the door to an old ally like Shiv Sena in Maharashtra during the last assembly election , the less say about other partner the well .",
+            "the MP far say if [ARG0: BJP] [ARGM-MOD: could] [V: show] [ARG1: the door] [ARG2: to an old ally like Shiv Sena in Maharashtra] [ARGM-TMP: during the last assembly election] , the less say about other partner the well ."
+        ],
+        [
+            "[ARGM-ADV: unlike RLSP] , [ARG0: Shiv Sena] [V: belong] [ARG1: to the same Parivar ( family )] , say the BJP MP in half Magahi and half Hindi .",
+            "unlike RLSP , Shiv Sena belong to the same Parivar ( family ) , [V: say] [ARG0: the BJP MP in half Magahi and half Hindi] ."
+        ],
+        [
+            "party Gaya , [V: entertain] [ARG1: those sit] in the front row at the Directorate of Distance Education Auditorium ..",
+            "party Gaya , entertain [ARG1: those] [V: sit] [ARG2: in the front row] [ARGM-LOC: at the Directorate of Distance Education Auditorium] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "Reform Party [V: may] need to change their name to Re - Form Party .",
+            "[ARG0: Reform Party] [ARGM-MOD: may] [V: need] [ARG1: to change their name to Re - Form Party] .",
+            "[ARG0: Reform Party] may need to [V: change] [ARG1: their name] [ARG2: to Re - Form Party] ."
+        ],
+        [],
+        [
+            "Shivambu : Shivambu , please [V: do] not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+            "[ARGM-DIS: Shivambu] : [ARGM-DIS: Shivambu] , [ARGM-DIS: please] do [ARGM-NEG: not] [V: allow] [ARG1: this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall] by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+            "Shivambu : Shivambu , please do not allow [ARG0: this racist party ( the DA )] to [V: refer] [ARG1: to we] [ARG2: as the nasty party ... # parly temper flare] ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+            "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; [ARG0: this racist party ( the DA )] [V: refer] [ARG1: to # EFF] [ARG2: as the nasty party] , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+            "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF [V: call] [ARG1: this racist party] [ARG2: ( the DA )] [ARG2: the racist party] , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+            "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. [ARGM-MNR: with this racist party ( the DA] ) [V: refer] [ARG1: to # EFF] [ARG2: as a nasty party & amp] ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+            "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF [V: call] [ARG1: this racist party ( the DA )] [ARG2: a racist party] perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+            "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party [ARGM-ADV: perhaps] [ARG1: the glove] [V: be] [ARG2: really] [ARG2: off in Opposition] ... BJP be the most casteist party in the country .",
+            "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... [ARG1: BJP] [V: be] [ARG2: the most casteist party in the country] ."
+        ],
+        [
+            "why [V: do] BJP go to Mufti in J&amp;K : KC Tyagi , Rajya Sabha MP , JD(U ) # BattlegroundBihar .",
+            "[ARGM-CAU: why] do [ARG0: BJP] [V: go] [ARG4: to Mufti] [ARGM-LOC: in J&amp;K : KC Tyagi , Rajya Sabha MP , JD(U )] # BattlegroundBihar ."
+        ],
+        [
+            "since 1964 , the Republican Party [V: have] become , in effect , a white party .. BJP be the same party that object to Manmohan Singh report to Sonia Gandhi : # TTP .. BJP President Amit Shah hold Janata Darbar at party office in Delhi .. BJP President Shri hold Janata Darbar at BJP HQ in Delhi .. election after election , the people of BJP be repose faith in BJP .",
+            "[ARGM-TMP: since 1964] , [ARG1: the Republican Party] have [V: become] , [ARGM-ADV: in effect] , [ARG2: a white party] .. BJP be the same party that object to Manmohan Singh report to Sonia Gandhi : # TTP .. BJP President Amit Shah hold Janata Darbar at party office in Delhi .. BJP President Shri hold Janata Darbar at BJP HQ in Delhi .. election after election , the people of BJP be repose faith in BJP .",
+            "since 1964 , the Republican Party have become , in effect , a white party .. [ARG1: BJP] [V: be] [ARG2: the same party that object to Manmohan Singh report to Sonia Gandhi] : # TTP .. BJP President Amit Shah hold Janata Darbar at party office in Delhi .. BJP President Shri hold Janata Darbar at BJP HQ in Delhi .. election after election , the people of BJP be repose faith in BJP .",
+            "since 1964 , the Republican Party have become , in effect , a white party .. BJP be [ARG0: the same party] [R-ARG0: that] [V: object] [ARG1: to Manmohan Singh report to Sonia Gandhi] : # TTP .. BJP President Amit Shah hold Janata Darbar at party office in Delhi .. BJP President Shri hold Janata Darbar at BJP HQ in Delhi .. election after election , the people of BJP be repose faith in BJP .",
+            "since 1964 , the Republican Party have become , in effect , a white party .. BJP be the same party that object to Manmohan Singh report to Sonia Gandhi : # TTP .. [ARG0: BJP President Amit Shah] [V: hold] [ARG1: Janata Darbar] [ARGM-LOC: at party office in Delhi] .. BJP President Shri hold Janata Darbar at BJP HQ in Delhi .. election after election , the people of BJP be repose faith in BJP .",
+            "since 1964 , the Republican Party have become , in effect , a white party .. BJP be the same party that object to Manmohan Singh report to Sonia Gandhi : # TTP .. BJP President Amit Shah hold Janata Darbar at party office in Delhi .. [ARG0: BJP President Shri] [V: hold] [ARG1: Janata Darbar] [ARGM-LOC: at BJP HQ in Delhi] .. election after election , the people of BJP be repose faith in BJP .",
+            "since 1964 , the Republican Party have become , in effect , a white party .. BJP be the same party that object to Manmohan Singh report to Sonia Gandhi : # TTP .. BJP President Amit Shah hold Janata Darbar at party office in Delhi .. BJP President Shri hold Janata Darbar at BJP HQ in Delhi .. election after election , the people of BJP [V: be] repose faith in BJP ."
+        ],
+        [
+            "[ARG0: I] [V: congratulate] [ARG1: the party - worker] [ARG2: for it] : PM # Modi in # Bhopal .. wrong to think , as many do , that the only alternative to Party X be Party Y. the only alternative to Party X be well Party X ( and well Party … .. Chirag Paswan : still in alliance with BJP , HAM , RLSP .",
+            "I congratulate the party - worker for it : PM # [V: Modi] [ARGM-LOC: in # Bhopal] .. wrong to think , as many do , that the only alternative to Party X be Party Y. the only alternative to Party X be well Party X ( and well Party … .. Chirag Paswan : still in alliance with BJP , HAM , RLSP .",
+            "I congratulate the party - worker for it : PM # Modi in # Bhopal .. wrong to [V: think] , [ARGM-ADV: as many do] , [ARG1: that the only alternative to Party X be Party Y. the only alternative to Party X be well Party X ( and well Party …] .. Chirag Paswan : still in alliance with BJP , HAM , RLSP .",
+            "I congratulate the party - worker for it : PM # Modi in # Bhopal .. wrong to think , as many [V: do] , that the only alternative to Party X be Party Y. the only alternative to Party X be well Party X ( and well Party … .. Chirag Paswan : still in alliance with BJP , HAM , RLSP .",
+            "I congratulate the party - worker for it : PM # Modi in # Bhopal .. wrong to think , as many do , that [ARG1: the only alternative to Party X] [V: be] [ARG2: Party Y.] the only alternative to Party X be well Party X ( and well Party … .. Chirag Paswan : still in alliance with BJP , HAM , RLSP .",
+            "I congratulate the party - worker for it : PM # Modi in # Bhopal .. wrong to think , as many do , that the only alternative to Party X be Party Y. [ARG1: the only alternative to Party X] [V: be] [ARG2: well Party X ( and well Party …] .. Chirag Paswan : still in alliance with BJP , HAM , RLSP .",
+            "I congratulate the party - worker for it : PM # Modi in # Bhopal .. wrong to think , as many do , that the only alternative to Party X be Party Y. the only alternative to Party X be well Party X ( and well Party … .. [V: Chirag] [ARG1: Paswan] : still in alliance with BJP , HAM , RLSP ."
+        ],
+        [
+            "# BattleForBihar .. # newsalert : [ARG0: BJP CEC] [V: meeting] [ARG2: underway] [ARGM-LOC: at party headquarters in Delhi] ... reservation row : Shiv Sena support Manmohan Singh , take a dig at BJP .",
+            "# BattleForBihar .. # newsalert : BJP CEC meeting underway at party headquarters in Delhi ... reservation row : [ARG0: Shiv Sena support Manmohan Singh] , [V: take] [ARG1: a dig] [ARG2: at BJP] ."
+        ],
+        [
+            "[ARG1: the irony] [V: be] [ARG2: Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll )] .",
+            "[ARG1: the] irony be [ARG1: Manmohan Singh] [V: come] [ARG2: from a minimal government tea party style party call the reform party] .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+            "the irony be Manmohan Singh come from a minimal government tea party style party [V: call] [ARG1: the reform party] .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+            "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. [ARG0: BJP] [V: deny] [ARG1: BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless] ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+            "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny [ARG0: BJP] 's party member RK Singhs [statement] [V: suggest] [ARG1: BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP] R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+            "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest [ARG0: BJP] [V: give] [ARG1: Bihar ticket] [ARG2: to criminal # BiharElections2015] .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+            "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to [V: criminal] # [ARG1: BiharElections2015] .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+            "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money [V: have] change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+            "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( [V: have] since apologise for those comment about the only mp in BJP bankroll ) ."
+        ]
+    ],
+    "tweets_verbs": ["may", "need", "change", "do", "allow", "refer", "refer", "call", "refer", "call", "be", "be", "do", "go", "have", "become", "be", "object", "hold", "hold", "be", "congratulate", "Modi", "think", "do", "be", "be", "Chirag", "meeting", "take", "be", "come", "call", "deny", "suggest", "give", "criminal", "have", "have"],
+    "metrics": {
+        "verb_precision": 38.462,
+        "verb_recall": 53.571
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "come": {
+                "all_frames": {
+                    "rouge1_precision": 0.333,
+                    "rouge1_recall": 0.135,
+                    "rouge1_f1": 0.192,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARGM-ADV: even as BJP struggle to combat derisive nomenclature give by political rival in the poll - bind Bihar] , [ARG1: party Gaya MP Hari Manjhi] have [V: come] out [ARG2: with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness] .",
+                        "tweet_args": "[ARG1: the] irony be [ARG1: Manmohan Singh] [V: come] [ARG2: from a minimal government tea party style party call the reform party] .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+                        "rouge1_recall": 0.135,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.192
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARGM-ADV: even as BJP struggle to combat derisive nomenclature give by political rival in the poll - bind Bihar] , [ARG1: party Gaya MP Hari Manjhi] have [V: come] out [ARG2: with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness] .",
+                        "tweet_args": "[ARG1: the] irony be [ARG1: Manmohan Singh] [V: come] [ARG2: from a minimal government tea party style party call the reform party] .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+                        "rouge1_recall": 0.135,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.192
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARGM-ADV: even as BJP struggle to combat derisive nomenclature give by political rival in the poll - bind Bihar] , [ARG1: party Gaya MP Hari Manjhi] have [V: come] out [ARG2: with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness] .",
+                        "tweet_args": "[ARG1: the] irony be [ARG1: Manmohan Singh] [V: come] [ARG2: from a minimal government tea party style party call the reform party] .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+                        "rouge1_recall": 0.135,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.192
+                    }
+                }
+            },
+            "have": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 9
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "give": {
+                "all_frames": {
+                    "rouge1_precision": 0.167,
+                    "rouge1_recall": 0.1,
+                    "rouge1_f1": 0.125,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "even as BJP struggle to combat [ARG1: derisive nomenclature] [V: give] [ARG0: by political rival in the poll - bind Bihar] , party Gaya MP Hari Manjhi have come out with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness .",
+                        "tweet_args": "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest [ARG0: BJP] [V: give] [ARG1: Bihar ticket] [ARG2: to criminal # BiharElections2015] .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.125
+                    },
+                    "best_recall": {
+                        "topic_args": "even as BJP struggle to combat [ARG1: derisive nomenclature] [V: give] [ARG0: by political rival in the poll - bind Bihar] , party Gaya MP Hari Manjhi have come out with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness .",
+                        "tweet_args": "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest [ARG0: BJP] [V: give] [ARG1: Bihar ticket] [ARG2: to criminal # BiharElections2015] .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.125
+                    },
+                    "best_f1": {
+                        "topic_args": "even as BJP struggle to combat [ARG1: derisive nomenclature] [V: give] [ARG0: by political rival in the poll - bind Bihar] , party Gaya MP Hari Manjhi have come out with another damaging name for BJP : Baura Jayewala Party , or a party prone to craziness .",
+                        "tweet_args": "the irony be Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest [ARG0: BJP] [V: give] [ARG1: Bihar ticket] [ARG2: to criminal # BiharElections2015] .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+                        "rouge1_recall": 0.1,
+                        "rouge1_precision": 0.167,
+                        "rouge1_f1": 0.125
+                    }
+                }
+            },
+            "call": {
+                "all_frames": {
+                    "rouge1_precision": 0.278,
+                    "rouge1_recall": 0.139,
+                    "rouge1_f1": 0.178,
+                    "frequency": 3
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: other] have [V: call] [ARG1: BJP] [ARG2: Bharat Jalao Party , Bharatiya Jumla Party and Barka Jhuttha Party] .",
+                        "tweet_args": "the irony be Manmohan Singh come from a minimal government tea party style party [V: call] [ARG1: the reform party] .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll ) .",
+                        "rouge1_recall": 0.083,
+                        "rouge1_precision": 0.333,
+                        "rouge1_f1": 0.133
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: other] have [V: call] [ARG1: BJP] [ARG2: Bharat Jalao Party , Bharatiya Jumla Party and Barka Jhuttha Party] .",
+                        "tweet_args": "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF [V: call] [ARG1: this racist party] [ARG2: ( the DA )] [ARG2: the racist party] , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+                        "rouge1_recall": 0.167,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.2
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: other] have [V: call] [ARG1: BJP] [ARG2: Bharat Jalao Party , Bharatiya Jumla Party and Barka Jhuttha Party] .",
+                        "tweet_args": "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF [V: call] [ARG1: this racist party] [ARG2: ( the DA )] [ARG2: the racist party] , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... BJP be the most casteist party in the country .",
+                        "rouge1_recall": 0.167,
+                        "rouge1_precision": 0.25,
+                        "rouge1_f1": 0.2
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.29,
+                    "rouge1_recall": 0.093,
+                    "rouge1_f1": 0.123,
+                    "frequency": 7
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARGM-TMP: prior to the arrival of Union HRD minister Smriti Irani to lay the stone Central University of South Bihar on the Magadh University campus on Monday afternoon] , [ARG1: party Gaya MP Hari Manjhi and RLSP MLC Sanjeev Shyam Singh] [V: be] [ARG2: engage in a friendly repartee] .",
+                        "tweet_args": "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... [ARG1: BJP] [V: be] [ARG2: the most casteist party in the country] .",
+                        "rouge1_recall": 0.093,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.157
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARGM-TMP: prior to the arrival of Union HRD minister Smriti Irani to lay the stone Central University of South Bihar on the Magadh University campus on Monday afternoon] , [ARG1: party Gaya MP Hari Manjhi and RLSP MLC Sanjeev Shyam Singh] [V: be] [ARG2: engage in a friendly repartee] .",
+                        "tweet_args": "Shivambu : Shivambu , please do not allow this racist party ( the DA ) to refer to we as the nasty party ... # parly temper flare ; this racist party ( the DA ) refer to # EFF as the nasty party , # EFF call this racist party ( the DA ) the racist party , motion of condolence fall by wayside GD .. with this racist party ( the DA ) refer to # EFF as a nasty party & amp ; # EFF call this racist party ( the DA ) a racist party perhaps the glove be really off in Opposition ... [ARG1: BJP] [V: be] [ARG2: the most casteist party in the country] .",
+                        "rouge1_recall": 0.093,
+                        "rouge1_precision": 0.5,
+                        "rouge1_f1": 0.157
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARGM-TMP: prior to the arrival of Union HRD minister Smriti Irani to lay the stone Central University of South Bihar on the Magadh University campus on Monday afternoon] , [ARG1: party Gaya MP Hari Manjhi and RLSP MLC Sanjeev Shyam Singh] [V: be] [ARG2: engage in a friendly repartee] .",
+                        "tweet_args": "[ARG1: the irony] [V: be] [ARG2: Manmohan Singh come from a minimal government tea party style party call the reform party .. BJP deny BJP 's party member RK Singhs statement suggest BJP give Bihar ticket to criminal # BiharElections2015 .. BJP term party MP R.K Singhs allegation that money have change hand for ticket in # BiharPolls as baseless ... ( have since apologise for those comment about the only mp in BJP bankroll )] .",
+                        "rouge1_recall": 0.233,
+                        "rouge1_precision": 0.152,
+                        "rouge1_f1": 0.183
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.16,
+            "rouge1_recall": 0.062,
+            "rouge1_f1": 0.082
+        }
+    }
+}

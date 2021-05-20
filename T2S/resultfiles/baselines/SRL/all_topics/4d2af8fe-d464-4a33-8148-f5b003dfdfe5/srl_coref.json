@@ -1,0 +1,95 @@
+{
+    "topic": "4d2af8fe-d464-4a33-8148-f5b003dfdfe5",
+    "coref_content": "1 view comment the Commercial Bank of Ethiopia ( CBE ) be set to open 500 branch in the GTP ii period, Fana Broadcasting Corporate report. accord to Yisak Mengesha, Business Development Head at the Commercial Bank of Ethiopia ( CBE ), tell Ethiopian Press Agency that the Commercial Bank of Ethiopia ( CBE ) plan to open 100 branch a year. for the come five year the Commercial Bank of Ethiopia ( CBE ) plan to increase the number of branch to 1,470 and the Commercial Bank of Ethiopia ( CBE )'s client to 20 million, from 970 branch and 11 million client, Yisak Mengesha, Business Development Head at CBE add. the expansion of the Commercial Bank of Ethiopia ( CBE )'s service aim at develop the culture of saving and investment in Ethiopia, Yisak Mengesha, Business Development Head at CBE note. source : Fana Broadcasting Corporate vote for this article tag as : no tag for this article about the author : webby Z.",
+    "tweets_content": "CBEs cumulative gross profits during GTP I reachs 42.8b Br..\nCommercial Bank of Dubai shareholders reject $750m Tier 1 bond plan.\nWith 109 new branches last year, CBE expanding at faster rate than any other bank in #Ethiopia.\nCommercial Bank International plans to raise funds for expansion.\nRead about trends in bank charters and branches on our On the Economy blog.\nBank charters and branches are both on the decline.\nBanks closing branches as customers go digital: Banks have trimmed the number of physical branches in the past...",
+    "coref_tweets": "CBEs cumulative gross profit during gtp i reach 42.8b Br .. CBEs shareholder reject $ 750 m tier 1 bond plan. with 109 new branch last year, CBEs expand at fast rate than any other bank in # Ethiopia. Commercial Bank International plan to raise fund for expansion. read about trend in bank charter and branch on our on the economy blog. bank charter and branch be both on the decline. bank close branch as customer go digital : bank have trim the number of physical branch in the past ...",
+    "nr_tweets": 7,
+    "topic_clusters": [
+        ["the Commercial Bank of Ethiopia ( CBE )", "CBE", "CBE", "CBE", "its", "the bank \u2019s"],
+        ["Yisak Mengesha , Business Development Head at CBE", "he", "Yisak"],
+        ["Fana Broadcasting", "Fana Broadcasting"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["CBEs", "Commercial Bank of Dubai", "CBE"],
+        ["bank", "bank"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "1 view comment the Commercial Bank of Ethiopia ( CBE ) [V: be] set to open 500 branch in the GTP ii period , Fana Broadcasting Corporate report .",
+            "1 view comment [ARG1: the Commercial Bank of Ethiopia ( CBE )] be [V: set] [ARG2: to open 500 branch in the GTP ii period] , Fana Broadcasting Corporate report .",
+            "1 view comment [ARG0: the Commercial Bank of Ethiopia ( CBE )] be set to [V: open] [ARG1: 500 branch] [ARGM-TMP: in the GTP ii period] , Fana Broadcasting Corporate report ."
+        ],
+        [
+            "[ARG0: accord to Yisak Mengesha , Business Development Head at the Commercial Bank of Ethiopia ( CBE )] , [V: tell] [ARG2: Ethiopian Press Agency] [ARG1: that the Commercial Bank of Ethiopia ( CBE ) plan to open 100 branch a year] .",
+            "accord to Yisak Mengesha , Business Development Head at the Commercial Bank of Ethiopia ( CBE ) , tell Ethiopian Press Agency that [ARG0: the Commercial Bank of Ethiopia ( CBE )] plan to [V: open] [ARG1: 100 branch a year] ."
+        ],
+        [
+            "for the come five year [ARG0: the Commercial Bank of Ethiopia ( CBE )] plan to [V: increase] [ARG1: the number of branch] [ARG4: to 1,470] and the Commercial Bank of Ethiopia ( CBE ) 's client to 20 million , from 970 branch and 11 million client , Yisak Mengesha , Business Development Head at CBE add .",
+            "for the come five year the Commercial Bank of Ethiopia ( CBE ) plan to increase the number of branch to 1,470 and the Commercial Bank of Ethiopia ( CBE ) 's client to 20 million , from 970 branch and 11 million client , [ARG0: Yisak Mengesha , Business Development Head at CBE] [V: add] ."
+        ],
+        [
+            "the expansion of the Commercial Bank of Ethiopia ( CBE ) 's service aim at [V: develop] [ARG1: the culture of saving and investment in Ethiopia] , Yisak Mengesha , Business Development Head at CBE note ."
+        ],
+        [
+            "source : Fana Broadcasting Corporate vote for this article [V: tag] [ARG2: as : no tag for this article about the author : webby Z.]"
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "CBEs cumulative gross profit during gtp [ARG0: i] [V: reach] [ARG1: 42.8b Br ..] CBEs shareholder reject $ 750 m tier 1 bond plan .",
+            "CBEs cumulative gross profit during gtp i reach 42.8b Br .. [ARG0: CBEs shareholder] [V: reject] [ARG1: $ 750 m tier 1 bond plan] ."
+        ],
+        [
+            "[ARGM-ADV: with 109 new branch last year] , [ARG1: CBEs] [V: expand] [ARG2: at fast rate than any other bank in # Ethiopia] ."
+        ],
+        [
+            "[ARG0: Commercial Bank International] plan to [V: raise] [ARG1: fund for expansion] ."
+        ],
+        [
+            "[V: read] [ARG3: about trend in bank charter] [ARG1: and branch] [ARGM-LOC: on our on the economy blog] ."
+        ],
+        [
+            "[ARG1: bank charter and branch] [V: be] both [ARG2: on the decline] ."
+        ],
+        [
+            "bank close branch as [ARG1: customer] [V: go] [ARG2: digital] : bank have trim the number of physical branch in the past ...",
+            "bank close branch as customer go digital : bank [V: have] trim the number of physical branch in the past ...",
+            "bank close branch as customer go digital : [ARG0: bank] have [V: trim] [ARG1: the number of physical branch] [ARGM-TMP: in the past] ..."
+        ]
+    ],
+    "tweets_verbs": ["reach", "reject", "expand", "raise", "read", "be", "go", "have", "trim"],
+    "metrics": {
+        "verb_precision": 11.111,
+        "verb_recall": 11.111
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.0,
+            "rouge1_recall": 0.0,
+            "rouge1_f1": 0.0
+        }
+    }
+}

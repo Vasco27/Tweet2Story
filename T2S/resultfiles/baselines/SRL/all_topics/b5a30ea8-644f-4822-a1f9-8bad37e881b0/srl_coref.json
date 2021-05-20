@@ -1,0 +1,231 @@
+{
+    "topic": "b5a30ea8-644f-4822-a1f9-8bad37e881b0",
+    "coref_content": "for veterinarian Anton Lim and veterinarian Anton Lim's family, provide even the most basic need to disadvantaged people be enough to bring disadvantaged people hope for a well future. Jollibee entertain the community during the outreach program in Barangay Matiang, Bocaue, Bulacan. veterinarian Anton Lim, have be active in various charitable initiative since 2010, help to address the prevalent need of the less fortunate in society. recently, the Yellow Boat of Hope Foundation partner with Project PEARLS ( Peace Education Aspiration Respect Love Smiles ) of Melissa Villa - Wilcox, an overseas - base worker from San Jose, California, to donate bag and school supply to more than 300 kid in Barangay Matiang, Bocaue, BulacanBocaue, BulacanBulacan. his family be relocate from a slum community in Tondo, Manila. his family Melissa Villa - Wilcox, an overseas - base worker from San Jose, California be among the past recipient of the Jollibee Family Values Awards, Jollibee's annual recognition for exemplary Filipino family. more than 300 kid receive backpack fill with school supply. more than 300 kid be also treat to Jollibee snack in the Jolly Joy Box. give the kid school bag be just the first step in help boost the morale of more than 300 kid and keep more than 300 kid's dream of a well education within reach. the kid school bag ’ more than just a bag. the kid school bag ’ a symbol of where you put your pencil and notebook, and the kid school bag represent hope, \" say veterinarian Anton Lim. we just do n’t come here and give bag, we also encourage more than 300 kid to study hard because study ’ the only way our country will move forward. \" the Yellow Boat of Hope Foundation start in Layag - Layag, a mangrove village in Zamboanga City where child brave the river water just to reach school. the Yellow Boat of Hope Foundation provide boat to ferry the student to school and to enable his family to earn a living through fishing. Project P.E.A.R.L.S., on the other hand, be establish in the Philippines and the US in 2008 by Melissa Villa - Wilcox, an overseas - base worker from San Jose, California, to develop outreach program and gather volunteer to help the poor of the poor. Melissa Villa - Wilcox, an overseas - base worker from San Jose, California's husband, Cliff, and her husband, Cliff, and their daughter Francesca's daughter Francesca help in the fund - raise event and in develop educational program while Melissa Villa - Wilcox, an overseas - base worker from San Jose, California's brother, Juan, oversee all local operation in the Philippines. the group have work hard to relocate the community away from Barangay Ulingan in Tondo, Manila where factory threaten the health of the child. scholarship grant be also provide by the Yellow Boat of Hope Foundation for the affect student ..",
+    "tweets_content": "PM: This investment is helping the world’s poorest and most vulnerable people to build a better life. #UNGA..\n#job Director of Development, Gifts-In-Kind (Employment: Full time) - Project HOPE #Millwood #VA  #jobs..\nEvery year, thousands of students receive scholarships from people they never knew..\nWatch here Kennedy Odede, the founder of Shining Hope for Communities   #SABCNEWS..\nI would like to congratulate the Foundation in meeting the education needs of deserving children through the Student Aid Programme...\nTo promote economic and social development and the advancement and empowerment of disadvantaged people and communities. #NDPvision2030.",
+    "coref_tweets": "pm : this investment be help the world ’s poor and most vulnerable people to build a well life. # UNGA .. # job Director of Development, Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year, thousand of student receive scholarship from people thousand of student never know .. watch here Kennedy Odede, the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede, the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community. # NDPvision2030.",
+    "nr_tweets": 6,
+    "topic_clusters": [
+        ["veterinarian Anton Lim", "his", "Lim , who head the Yellow Boat of Hope Foundation", "Lim", "Lim"],
+        ["disadvantaged people", "they"],
+        ["the Yellow Boat of Hope Foundation", "the Foundation", "the Yellow Boat of Hope Foundation", "the foundation", "the organization"],
+        ["Barangay Matiang , Bocaue , Bulacan", "Barangay Matiang in Bocaue , Bulacan"],
+        ["Bocaue , Bulacan", "Bocaue , Bulacan"],
+        ["Bulacan", "Bulacan"],
+        ["his family", "the family", "the family of Lim and Villa - Wilcox", "the family"],
+        ["Melissa Villa - Wilcox , an overseas - base worker from San Jose , California", "Villa - Wilcox", "Wilcox", "her", "her"],
+        ["Jollibee", "Jollibee \u2019s", "Jollibee"],
+        ["more than 300 kid", "the kid", "they", "the youngster", "their", "they"],
+        ["the kid school bag", "it", "it", "that"],
+        ["we", "we"],
+        ["study", "that"],
+        ["her husband , Cliff , and their daughter Francesca", "their"],
+        ["the Philippines", "the Philippines"],
+        ["Tondo , Manila", "Tondo"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["thousand of student", "they"],
+        ["Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS ..", "I"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARG2: for veterinarian Anton Lim and veterinarian Anton Lim 's family] , [V: provide] [ARG1: even the most basic need to disadvantaged people be enough to bring disadvantaged people hope for a well future] .",
+            "for veterinarian Anton Lim and veterinarian Anton Lim 's family , provide even the most basic need to disadvantaged people [V: be] [ARG2: enough to bring disadvantaged people hope for a well future] .",
+            "for veterinarian Anton Lim and veterinarian Anton Lim 's family , provide even the most basic need to disadvantaged people be enough to [V: bring] [ARG1: disadvantaged people hope for a well future] .",
+            "for veterinarian Anton Lim and veterinarian Anton Lim 's family , provide even the most basic need to disadvantaged people be enough to bring disadvantaged people [V: hope] [ARG1: for a well future] ."
+        ],
+        [
+            "[ARG0: Jollibee] [V: entertain] [ARG1: the community] [ARGM-TMP: during the outreach program in Barangay Matiang , Bocaue , Bulacan] ."
+        ],
+        [
+            "veterinarian Anton Lim , [V: have] be active in various charitable initiative since 2010 , help to address the prevalent need of the less fortunate in society .",
+            "[ARG1: veterinarian Anton Lim] , have [V: be] [ARG2: active in various charitable initiative] [ARGM-TMP: since 2010] , help to address the prevalent need of the less fortunate in society .",
+            "[ARG0: veterinarian Anton Lim] , have be active in various charitable initiative since 2010 , [V: help] [ARG1: to address the prevalent need of the less fortunate in society] .",
+            "[ARG0: veterinarian Anton Lim] , have be active in various charitable initiative since 2010 , help to [V: address] [ARG1: the prevalent need of the less fortunate in society] ."
+        ],
+        [
+            "recently , [ARG0: the Yellow Boat of Hope Foundation partner with Project PEARLS ( Peace Education Aspiration Respect Love Smiles ) of Melissa Villa - Wilcox , an overseas - base worker from San Jose , California ,] to [V: donate] [ARG1: bag and school supply] [ARG2: to more than 300 kid in Barangay Matiang , Bocaue , BulacanBocaue , BulacanBulacan] ."
+        ],
+        [
+            "his family [V: be] relocate from a slum community in Tondo , Manila ."
+        ],
+        [
+            "[ARG1: his family Melissa Villa - Wilcox , an overseas - base worker from San Jose , California] [V: be] [ARG2: among the past recipient of the Jollibee Family Values Awards , Jollibee 's annual recognition for exemplary Filipino family] ."
+        ],
+        [
+            "[ARG0: more than 300 kid] [V: receive] [ARG1: backpack fill with school supply] ."
+        ],
+        [
+            "more than 300 kid [V: be] also treat to Jollibee snack in the Jolly Joy Box .",
+            "[ARG1: more than 300 kid] be [ARGM-ADV: also] [V: treat] [ARG2: to Jollibee snack in the Jolly Joy Box] ."
+        ],
+        [
+            "[V: give] [ARG2: the kid] [ARG1: school bag] be just the first step in help boost the morale of more than 300 kid and keep more than 300 kid 's dream of a well education within reach .",
+            "give the kid school bag [V: be] [ARG2: just the first step in help boost the morale of more than 300 kid and keep more than 300 kid 's dream of a well education within reach] .",
+            "give the kid school bag be just the first step in help [V: boost] [ARG1: the morale of more than 300 kid] and keep more than 300 kid 's dream of a well education within reach .",
+            "give the kid school bag be just the first step in help boost the morale of more than 300 kid and [V: keep] [ARG1: more than 300 kid 's dream of a well education] [ARG2: within reach] ."
+        ],
+        [],
+        [
+            "the kid school bag ’ a symbol of [ARG2: where] [ARG0: you] [V: put] [ARG1: your pencil and notebook] , and the kid school bag represent hope , \" say veterinarian Anton Lim .",
+            "the kid school bag ’ a symbol of where you put your pencil and notebook , and [ARG0: the kid school bag] [V: represent] [ARG1: hope] , \" say veterinarian Anton Lim .",
+            "[ARG1: the kid school bag ’ a symbol of where you put your pencil and notebook , and the kid school bag represent hope] , \" [V: say] [ARG0: veterinarian Anton Lim] ."
+        ],
+        [
+            "we just [V: do] n’t come here and give bag , we also encourage more than 300 kid to study hard because study ’ the only way our country will move forward . \"",
+            "[ARG1: we] [ARGM-ADV: just] do [ARGM-NEG: n’t] [V: come] [ARG4: here] and give bag , we also encourage more than 300 kid to study hard because study ’ the only way our country will move forward . \"",
+            "[ARG0: we] [ARGM-ADV: just] do [ARGM-NEG: n’t] come here and [V: give] [ARG1: bag] , we also encourage more than 300 kid to study hard because study ’ the only way our country will move forward . \"",
+            "we just do n’t come here and give bag , [ARG0: we] [ARGM-DIS: also] [V: encourage] [ARG1: more than 300 kid] [ARG2: to study hard] [ARGM-CAU: because study ’ the only way our country will move forward] . \"",
+            "we just do n’t come here and give bag , we also encourage [ARG0: more than 300 kid] to [V: study] [ARGM-MNR: hard] because study ’ the only way our country will move forward . \"",
+            "we just do n’t come here and give bag , we also encourage more than 300 kid to study hard because study ’ the only way our country [V: will] move forward . \"",
+            "we just do n’t come here and give bag , we also encourage more than 300 kid to study hard because study ’ the only way [ARG1: our country] [ARGM-MOD: will] [V: move] [ARGM-DIR: forward] . \""
+        ],
+        [
+            "[ARG1: the Yellow Boat of Hope Foundation] [V: start] [ARGM-LOC: in Layag - Layag , a mangrove village in Zamboanga City where child brave the river water just to reach school] .",
+            "the Yellow Boat of Hope Foundation start in Layag - Layag , [ARGM-LOC: a mangrove village in Zamboanga City] [R-ARGM-LOC: where] [ARG0: child] [V: brave] [ARG1: the river water] [ARGM-PRP: just to reach school] .",
+            "the Yellow Boat of Hope Foundation start in Layag - Layag , a mangrove village in Zamboanga City where [ARG0: child] brave the river water [ARGM-ADV: just] to [V: reach] [ARG1: school] ."
+        ],
+        [
+            "[ARG0: the Yellow Boat of Hope Foundation] [V: provide] [ARG1: boat] [ARGM-PRP: to ferry the student to school and to enable his family to earn a living through fishing] .",
+            "the Yellow Boat of Hope Foundation provide [ARG3: boat] to [V: ferry] [ARG1: the student] [ARG3: to school] and to enable his family to earn a living through fishing .",
+            "the Yellow Boat of Hope Foundation provide boat to ferry the student to school and to [V: enable] [ARG2: his family] [ARG1: to earn a living through fishing] .",
+            "the Yellow Boat of Hope Foundation provide boat to ferry the student to school and to enable [ARG0: his family] to [V: earn] [ARG1: a living] [ARG2: through fishing] ."
+        ],
+        [
+            "[ARG1: Project P.E.A.R.L.S.] , [ARGM-DIS: on the other hand] , [V: be] [ARG2: establish in the Philippines and the US in 2008 by Melissa Villa - Wilcox , an] overseas - base worker from San Jose , California , [ARGM-PRP: to] develop outreach program and gather volunteer to help the poor of the poor .",
+            "Project P.E.A.R.L.S. , on the other hand , be establish in the Philippines and the US in 2008 by Melissa Villa - Wilcox , an overseas - base worker from San Jose , California , to [V: develop] [ARG1: outreach program] and gather volunteer to help the poor of the poor .",
+            "Project P.E.A.R.L.S. , on the other hand , be establish in the Philippines and the US in 2008 by Melissa Villa - Wilcox , an overseas - base worker from San Jose , California , to develop outreach program and [V: gather] [ARG1: volunteer to help the poor of the poor] .",
+            "Project P.E.A.R.L.S. , on the other hand , be establish in the Philippines and the US in 2008 by Melissa Villa - Wilcox , an overseas - base worker from San Jose , California , to develop outreach program and gather [ARG0: volunteer] to [V: help] [ARG1: the poor of the poor] ."
+        ],
+        [
+            "[ARG0: Melissa Villa - Wilcox , an overseas - base worker from San Jose , California 's husband , Cliff , and her husband , Cliff , and their daughter Francesca 's daughter Francesca] help in the fund - raise event and in [V: develop] [ARG1: educational program] while Melissa Villa - Wilcox , an overseas - base worker from San Jose , California 's brother , Juan , oversee all local operation in the Philippines .",
+            "Melissa Villa - Wilcox , an overseas - base worker from San Jose , California 's husband , Cliff , and her husband , Cliff , and their daughter Francesca 's daughter Francesca help in the fund - raise event and in develop educational program while [ARG0: Melissa Villa - Wilcox , an overseas - base worker from San Jose , California 's brother , Juan] , [V: oversee] [ARG1: all local operation in the Philippines] ."
+        ],
+        [
+            "the group [V: have] work hard to relocate the community away from Barangay Ulingan in Tondo , Manila where factory threaten the health of the child .",
+            "[ARG0: the group] have work hard to [V: relocate] [ARG1: the community] [ARGM-DIR: away from Barangay Ulingan in Tondo , Manila where factory threaten the health of the child] .",
+            "the group have work hard to relocate the community away from [ARGM-LOC: Barangay Ulingan in Tondo , Manila] [R-ARGM-LOC: where] [ARG0: factory] [V: threaten] [ARG2: the health of the child] ."
+        ],
+        [
+            "scholarship grant [V: be] also provide by the Yellow Boat of Hope Foundation for the affect student ..",
+            "[ARG1: scholarship grant] be [ARGM-ADV: also] [V: provide] [ARG0: by the Yellow Boat of Hope Foundation] [ARG2: for the affect student] .."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [
+            "[ARGM-DIS: pm] : [ARG1: this investment] [V: be] [ARG2: help the world ’s poor and most vulnerable people to build a well life] .",
+            "[ARGM-DIS: pm] : this investment be [V: help] [ARG2: the world ’s poor and most vulnerable people] [ARG1: to build a well life] .",
+            "pm : this investment be help [ARG0: the world ’s poor and most vulnerable people] to [V: build] [ARG1: a well life] ."
+        ],
+        [
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. [ARGM-TMP: every year] , [ARG0: thousand of student] [V: receive] [ARG1: scholarship] [ARG2: from people thousand of student never know] .. watch here Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from [ARG0: people] [ARG0: thousand of student] [ARGM-NEG: never] [V: know] .. watch here Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. [V: watch] [ARGM-LOC: here] [ARG1: Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme] ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here Kennedy Odede , the founder of [V: Shining] [ARG1: Hope] for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of [V: Shining] [ARG1: Hope] for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here [ARG0: Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS] .. [ARGM-MOD: would] [V: like] [ARG1: to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community] .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here [ARG0: Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS] .. [ARG0: Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS] .. would like to [V: congratulate] [ARG1: the Foundation] [ARGM-PRP: in meet the education need of deserving child through the Student Aid Programme ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community] .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in [V: meet] [ARG1: the education need of deserving child through the Student Aid Programme] ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of [V: deserving] [ARG1: child] [ARGM-MNR: through the Student Aid Programme] ... to promote economic and social development and the advancement and empowerment of disadvantaged people and community .",
+            "# UNGA .. # job Director of Development , Gifts - in - kind ( employment : full time ) - Project HOPE # Millwood # VA # job .. every year , thousand of student receive scholarship from people thousand of student never know .. watch here Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. Kennedy Odede , the founder of Shining Hope for Communities # SABCNEWS .. would like to congratulate the Foundation in meet the education need of deserving child through the Student Aid Programme ... to [V: promote] [ARG1: economic and social development and the advancement and empowerment of disadvantaged people and community] ."
+        ],
+        []
+    ],
+    "tweets_verbs": ["be", "help", "build", "receive", "know", "watch", "Shining", "Shining", "would", "like", "congratulate", "meet", "deserving", "promote"],
+    "metrics": {
+        "verb_precision": 21.429,
+        "verb_recall": 7.692
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.125,
+                    "rouge1_recall": 0.109,
+                    "rouge1_f1": 0.11,
+                    "frequency": 8
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "give the kid school bag [V: be] [ARG2: just the first step in help boost the morale of more than 300 kid and keep more than 300 kid 's dream of a well education within reach] .",
+                        "tweet_args": "[ARGM-DIS: pm] : [ARG1: this investment] [V: be] [ARG2: help the world ’s poor and most vulnerable people to build a well life] .",
+                        "rouge1_recall": 0.214,
+                        "rouge1_precision": 0.353,
+                        "rouge1_f1": 0.267
+                    },
+                    "best_recall": {
+                        "topic_args": "for veterinarian Anton Lim and veterinarian Anton Lim 's family , provide even the most basic need to disadvantaged people [V: be] [ARG2: enough to bring disadvantaged people hope for a well future] .",
+                        "tweet_args": "[ARGM-DIS: pm] : [ARG1: this investment] [V: be] [ARG2: help the world ’s poor and most vulnerable people to build a well life] .",
+                        "rouge1_recall": 0.4,
+                        "rouge1_precision": 0.235,
+                        "rouge1_f1": 0.296
+                    },
+                    "best_f1": {
+                        "topic_args": "for veterinarian Anton Lim and veterinarian Anton Lim 's family , provide even the most basic need to disadvantaged people [V: be] [ARG2: enough to bring disadvantaged people hope for a well future] .",
+                        "tweet_args": "[ARGM-DIS: pm] : [ARG1: this investment] [V: be] [ARG2: help the world ’s poor and most vulnerable people to build a well life] .",
+                        "rouge1_recall": 0.4,
+                        "rouge1_precision": 0.235,
+                        "rouge1_f1": 0.296
+                    }
+                }
+            },
+            "help": {
+                "all_frames": {
+                    "rouge1_precision": 0.143,
+                    "rouge1_recall": 0.238,
+                    "rouge1_f1": 0.171,
+                    "frequency": 2
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: veterinarian Anton Lim] , have be active in various charitable initiative since 2010 , [V: help] [ARG1: to address the prevalent need of the less fortunate in society] .",
+                        "tweet_args": "[ARGM-DIS: pm] : this investment be [V: help] [ARG2: the world ’s poor and most vulnerable people] [ARG1: to build a well life] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: veterinarian Anton Lim] , have be active in various charitable initiative since 2010 , [V: help] [ARG1: to address the prevalent need of the less fortunate in society] .",
+                        "tweet_args": "[ARGM-DIS: pm] : this investment be [V: help] [ARG2: the world ’s poor and most vulnerable people] [ARG1: to build a well life] .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.143
+                    },
+                    "best_f1": {
+                        "topic_args": "Project P.E.A.R.L.S. , on the other hand , be establish in the Philippines and the US in 2008 by Melissa Villa - Wilcox , an overseas - base worker from San Jose , California , to develop outreach program and gather [ARG0: volunteer] to [V: help] [ARG1: the poor of the poor] .",
+                        "tweet_args": "[ARGM-DIS: pm] : this investment be [V: help] [ARG2: the world ’s poor and most vulnerable people] [ARG1: to build a well life] .",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.2
+                    }
+                }
+            },
+            "receive": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.117,
+            "rouge1_recall": 0.122,
+            "rouge1_f1": 0.111
+        }
+    }
+}

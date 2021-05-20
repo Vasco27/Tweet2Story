@@ -1,0 +1,276 @@
+{
+    "topic": "3a87affa-bcb1-46ad-a999-4a1e03869477",
+    "coref_content": "two confirm bachelor be sit and talk. their conversation drift from politics to cooking. I get a cookbook once, say the first, but I could never do anything with a cookbook. too much fancy cooking in a cookbook, eh ask the second. you say it. every one of the recipe begin the same way - take a clean dish and ....",
+    "tweets_content": ".\nI  Cooking for  ones..\nCooking the Books: Sugar and warming spices make everything nice in new cookbook    #life.\nAre you doing any weekend cooking or need a potluck dish for Labor Day  Try one of my super delicious clean....\nPM to a kid who won cooking contest: how come you got interest in cooking what is your favourite dish.\nWhat’s your favorite game day recipe Be a part of our annual Game Day Favorites Cookbook and submit your recipes to ..\nI know the difference between cooking” and house fire.” I wish my smoke alarm did, too...\nI LIKE COOKING..\nFinally a non working Sunday!! Cooking frm Zarine Khans cookbook.. Really great recipes.. N some ingredients arent banned as yet!..\nCooking up breakfast.\nNever leave a pan unattended whilst cooking. It only takes a second to cause an accident...\nI must bring a beef roast to someone tonight. I lack the wisdom of those with Jewish moms. cooking it like my Appalachian ppl do 4 squirrels..\nI smell what youre cooking. And I dig it...\nIn which  answers two cooking questions I wondered about but never asked:.\nWhats cooking..\non food blogs and cooking sites, seeing but the effort is worth it means I close the page..\nZarine Khan and her new cookbook — cooking secrets, family and more..\nwhich recipe you cooking up next..\nno recipe.  Her cooking is all in her mind...\nthen how do you diss it before you watch it the way I see it, the cooking is only incidental +..\n",
+    "coref_tweets": ". I cook for one .. cook the book : sugar and warm spice make everything nice in the book. be you do any weekend cooking or need a potluck dish for Labor Day try one of I's super delicious clean .... pm to a kid who win cooking contest : how come a kid who win cooking contest get interest in cook what be a kid who win cooking contest's favourite dish. what ’ a kid who win cooking contest's favorite game day recipe be a part of our annual Game Day Favorites Cookbook and submit a kid who win cooking contest's recipe to .. I know the difference between cooking\" and house fire. \" I wish I's smoke alarm do, too ... I like cook .. finally a non work Sunday! ! cook frm Zarine Khans cookbook .. really great recipe .. n some ingredient be nt ban as yet! .. cook up breakfast. never leave a pan unattended whilst cook. it only take a second to cause an accident ... I must bring a beef roast to someone tonight. I lack the wisdom of those with jewish mom. cook a beef roast like I's appalachian ppl do 4 squirrel .. I smell what you re cook. and I dig it ... in which answer two cooking question I wonder about but never ask :. what s cooking .. on food blog and cooking site, see but the effort be worth it mean I close the page .. Zarine Khans and Zarine Khans cookbook .. which recipe you cook up next .. no recipe. Zarine Khans's cooking be all in Zarine Khans's mind ... then how do you diss it before you watch it the way I see it, her cooking be only incidental + ..",
+    "nr_tweets": 21,
+    "topic_clusters": [
+        ["I", "I"],
+        ["a cookbook", "it", "it"]
+    ],
+    "topic_indexes": [],
+    "tweets_clusters": [
+        ["the book", "new cookbook # life"],
+        ["I", "my", "I", "I", "my", "I"],
+        ["a kid who win cooking contest", "you", "your", "your", "your"],
+        ["I", "I", "my", "I", "I", "I", "I", "I"],
+        ["a beef roast", "it"],
+        ["Zarine Khans", "Zarine Khan", "her", "her", "her"],
+        ["Zarine Khans cookbook", "her new cookbook \u2014 cooking secret , family and more"],
+        ["it", "it"],
+        ["her cooking", "the cooking"]
+    ],
+    "tweets_indexes": [],
+    "topic_sentences_srl": [
+        [
+            "[ARG1: two confirm bachelor] [V: be] [ARG2: sit and talk] .",
+            "two confirm bachelor be [V: sit] and talk .",
+            "two confirm bachelor be sit and [V: talk] ."
+        ],
+        [],
+        [
+            "[ARG0: I] [V: get] [ARG1: a cookbook] [ARGM-TMP: once] , [C-ARG1: say the first] , but I could never do anything with a cookbook .",
+            "I get a cookbook once , [V: say] [ARG1: the first] , but I could never do anything with a cookbook .",
+            "I get a cookbook once , say the first , but I [V: could] never do anything with a cookbook .",
+            "I get a cookbook once , say the first , but [ARG0: I] [ARGM-MOD: could] [ARGM-NEG: never] [V: do] [ARG1: anything] [ARG2: with a cookbook] ."
+        ],
+        [
+            "too much fancy cooking in a cookbook , [ARGM-DIS: eh] [V: ask] [ARG1: the second] ."
+        ],
+        [
+            "[ARG0: you] [V: say] [ARG1: it] ."
+        ],
+        [
+            "[ARG1: every one of the recipe] [V: begin] [ARGM-MNR: the same way] - take a clean dish and ....",
+            "every one of the recipe begin the same way - [V: take] [ARG1: a clean dish] and ...."
+        ]
+    ],
+    "tweets_sentences_srl": [
+        [],
+        [
+            "[ARG0: I] [V: cook] [ARGM-GOL: for one] .. cook the book : sugar and warm spice make everything nice in the book .",
+            "[ARG0: I] cook for one .. [V: cook] [ARG1: the book] : sugar and warm spice make everything nice in the book .",
+            "I cook for one .. cook the book : [ARG0: sugar and warm spice] [V: make] [ARG1: everything nice in the book] ."
+        ],
+        [
+            "[V: be] [ARG1: you] [ARG2: do any weekend cooking or need a potluck dish for Labor Day] try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come a kid who win cooking contest get interest in cook what be a kid who win cooking contest 's favourite dish .",
+            "be [ARG0: you] [V: do] [ARG1: any weekend cooking] or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come a kid who win cooking contest get interest in cook what be a kid who win cooking contest 's favourite dish .",
+            "be [ARG0: you] do any weekend cooking or [V: need] [ARG1: a potluck dish for Labor Day] try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come a kid who win cooking contest get interest in cook what be a kid who win cooking contest 's favourite dish .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day [V: try] [ARG1: one of I 's super delicious clean] .... pm [ARG2: to a kid who win cooking contest] : how come a kid who win cooking contest get interest in cook what be a kid who win cooking contest 's favourite dish .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day try one of [ARG1: I] [V: 's] [ARG2: super delicious] clean .... pm to a kid who win cooking contest : how come a kid who win cooking contest get interest in cook what be a kid who win cooking contest 's favourite dish .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to [ARG0: a kid] [R-ARG0: who] [V: win] [ARG1: cooking contest] : how come a kid who win cooking contest get interest in cook what be a kid who win cooking contest 's favourite dish .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : [ARGM-MNR: how] [V: come] [ARG1: a kid who win cooking contest get interest in cook what be a kid who win cooking contest 's favourite dish] .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come [ARG0: a kid] [R-ARG0: who] [V: win] [ARG1: cooking contest] get interest in cook what be a kid who win cooking contest 's favourite dish .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come [ARG0: a kid who win cooking contest] [V: get] [ARG1: interest in cook] what be a kid who win cooking contest 's favourite dish .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come a kid who win cooking contest get interest in cook [R-ARG1: what] [V: be] [ARG2: a kid who win cooking contest 's favourite dish] .",
+            "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come a kid who win cooking contest get interest in cook what be [ARG0: a kid] [R-ARG0: who] [V: win] [ARG1: cooking contest 's favourite dish] ."
+        ],
+        [
+            "what ’ [ARG0: a kid] [R-ARG0: who] [V: win] [ARG1: cooking contest 's favorite game day recipe] be a part of our annual Game Day Favorites Cookbook and submit a kid who win cooking contest 's recipe to ..",
+            "what ’ [ARG1: a kid who win cooking contest 's favorite game day recipe] [V: be] [ARG2: a part of our annual Game Day Favorites Cookbook] and submit a kid who win cooking contest 's recipe to ..",
+            "what ’ [ARG0: a kid who win cooking contest 's favorite game day recipe] be a part of our annual Game Day Favorites Cookbook and [V: submit] [ARG1: a kid who win cooking contest 's recipe] [ARG3: to] ..",
+            "what ’ a kid who win cooking contest 's favorite game day recipe be a part of our annual Game Day Favorites Cookbook and submit [ARG0: a kid] [R-ARG0: who] [V: win] [ARG1: cooking contest 's recipe] to .."
+        ],
+        [
+            "[ARG0: I] [V: know] [ARG1: the difference between cooking \" and house fire] . \""
+        ],
+        [
+            "[ARG0: I] [V: wish] [ARG1: I 's smoke alarm do , too] ...",
+            "I wish I 's [ARG0: smoke alarm] [V: do] , too ..."
+        ],
+        [
+            "[ARG0: I] [V: like] [ARG1: cook] .. finally a non work Sunday !",
+            "[ARG0: I] like [V: cook] .. finally a non work Sunday !"
+        ],
+        [],
+        [
+            "[V: cook] frm [ARG1: Zarine Khans cookbook .. really great recipe] .. n some ingredient be nt ban as yet !",
+            "cook frm [ARG0: Zarine Khans] [V: cookbook] .. really great recipe .. n some ingredient be nt ban as yet !",
+            "cook frm Zarine Khans cookbook .. really great recipe .. n [ARG1: some ingredient] [V: be] nt ban as yet !"
+        ],
+        [
+            ".. [V: cook] up [ARG1: breakfast] ."
+        ],
+        [
+            "[ARGM-NEG: never] [V: leave] [ARG1: a pan] [ARGM-PRD: unattended] [ARGM-TMP: whilst cook] ."
+        ],
+        [
+            "it [ARGM-ADV: only] [V: take] [ARG1: a second] [ARG0: to cause an accident] ...",
+            "it only take a second to [V: cause] [ARG1: an accident] ..."
+        ],
+        [
+            "I [V: must] bring a beef roast to someone tonight .",
+            "[ARG0: I] [ARGM-MOD: must] [V: bring] [ARG1: a beef roast] [ARG2: to someone] [ARGM-TMP: tonight] ."
+        ],
+        [
+            "[ARG0: I] [V: lack] [ARG1: the wisdom of those with jewish mom] ."
+        ],
+        [
+            "[V: cook] [ARG1: a beef roast] [ARGM-MNR: like I 's appalachian ppl do 4 squirrel] ..",
+            "cook a beef roast like I 's appalachian ppl [V: do] [ARG1: 4 squirrel] .."
+        ],
+        [
+            "[ARG0: I] [V: smell] [ARG1: what you re cook] .",
+            "I smell what [ARG1: you] [V: re] [ARG2: cook] .",
+            "I smell [ARG1: what] [ARG0: you] re [V: cook] ."
+        ],
+        [
+            "[ARGM-DIS: and] [ARG0: I] [V: dig] [ARG1: it] ... [ARGM-ADV: in which answer two cooking question I wonder about but never ask] : .",
+            "and [ARG0: I] dig it ... [ARGM-LOC: in which] [V: answer] [ARG1: two cooking question I wonder about] but never ask : .",
+            "and I dig it ... in which answer two cooking question [ARG0: I] [V: wonder] [ARG1: about] but never ask : .",
+            "and I dig it ... in which answer [ARG1: two cooking question] I wonder about but [ARGM-NEG: never] [V: ask] : ."
+        ],
+        [
+            "what [V: s] cooking .. on food blog and cooking site , see but the effort be worth it mean I close the page .. Zarine Khans and Zarine Khans cookbook .. which recipe you cook up next .. no recipe .",
+            "[ARG0: what] s [V: cooking] .. on food blog and cooking site , see but the effort be worth it mean I close the page .. Zarine Khans and Zarine Khans cookbook .. which recipe you cook up next .. no recipe .",
+            "what s cooking .. on food blog and cooking site , [V: see] but the effort be worth it mean I close the page .. Zarine Khans and Zarine Khans cookbook .. which recipe you cook up next .. no recipe .",
+            "what s cooking .. on food blog and cooking site , see but [ARG1: the effort] [V: be] [ARG2: worth it] mean I close the page .. Zarine Khans and Zarine Khans cookbook .. which recipe you cook up next .. no recipe .",
+            "what s cooking .. on food blog and cooking site , see but [ARG0: the effort be worth it] [V: mean] [ARG1: I close the page .. Zarine Khans and Zarine Khans cookbook .. which recipe you cook up next .. no recipe] .",
+            "what s cooking .. on food blog and cooking site , see but the effort be worth it mean [ARG0: I] [V: close] [ARG1: the page .. Zarine Khans and Zarine Khans cookbook .. which recipe you cook up next] .. [ARGM-PRD: no recipe] .",
+            "what s cooking .. on food blog and cooking site , see but the effort be worth it mean I close the page .. [ARG0: Zarine Khans and Zarine Khans] [V: cookbook] .. which recipe you cook up next .. no recipe .",
+            "what s cooking .. on food blog and cooking site , see but the effort be worth it mean I close the page .. Zarine Khans and Zarine Khans cookbook .. [ARG0: which] [V: recipe] [ARGM-ADJ: you cook up next] .. no recipe .",
+            "what s cooking .. on food blog and cooking site , see but the effort be worth it mean I close the page .. Zarine Khans and Zarine Khans cookbook .. [ARG1: which recipe] [ARG0: you] [V: cook] up [ARGM-TMP: next] .. no recipe ."
+        ],
+        [
+            "[ARG1: Zarine Khans 's cooking] [V: be] [ARGM-EXT: all] [ARG2: in Zarine Khans 's mind] ... then how do you diss it before you watch it the way I see it , her cooking be only incidental + ..",
+            "Zarine Khans 's cooking be all in Zarine Khans 's mind ... then how [V: do] you diss it before you watch it the way I see it , her cooking be only incidental + ..",
+            "Zarine Khans 's cooking be all in Zarine Khans 's mind ... then [ARGM-MNR: how] do [ARG0: you] [V: diss] [ARG1: it] [ARGM-TMP: before you watch it the way I see it] , her cooking be only incidental + ..",
+            "Zarine Khans 's cooking be all in Zarine Khans 's mind ... then how do you diss it before [ARG0: you] [V: watch] [ARG1: it] [ARGM-MNR: the way I see it] , her cooking be only incidental + ..",
+            "Zarine Khans 's cooking be all in Zarine Khans 's mind ... then how do you diss it before you watch it [ARGM-MNR: the way] [ARG0: I] [V: see] [ARG1: it] , her cooking be only incidental + ..",
+            "Zarine Khans 's cooking be all in Zarine Khans 's mind ... then how do you diss it before you watch it the way I see it , [ARG1: her cooking] [V: be] [ARG2: only incidental +] .."
+        ]
+    ],
+    "tweets_verbs": ["cook", "cook", "make", "be", "do", "need", "try", "'", "win", "come", "win", "get", "be", "win", "win", "be", "submit", "win", "know", "wish", "do", "like", "cook", "cook", "cookbook", "be", "cook", "leave", "take", "cause", "must", "bring", "lack", "cook", "do", "smell", "re", "cook", "dig", "answer", "wonder", "ask", "s", "cook", "see", "be", "mean", "close", "cookbook", "recipe", "cook", "be", "do", "diss", "watch", "see", "be"],
+    "metrics": {
+        "verb_precision": 24.561,
+        "verb_recall": 70.0
+    },
+    "srl_metrics": {
+        "per_verb": {
+            "do": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 4
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "get": {
+                "all_frames": {
+                    "rouge1_precision": 0.111,
+                    "rouge1_recall": 0.143,
+                    "rouge1_f1": 0.125,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "[ARG0: I] [V: get] [ARG1: a cookbook] [ARGM-TMP: once] , [C-ARG1: say the first] , but I could never do anything with a cookbook .",
+                        "tweet_args": "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come [ARG0: a kid who win cooking contest] [V: get] [ARG1: interest in cook] what be a kid who win cooking contest 's favourite dish .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.111,
+                        "rouge1_f1": 0.125
+                    },
+                    "best_recall": {
+                        "topic_args": "[ARG0: I] [V: get] [ARG1: a cookbook] [ARGM-TMP: once] , [C-ARG1: say the first] , but I could never do anything with a cookbook .",
+                        "tweet_args": "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come [ARG0: a kid who win cooking contest] [V: get] [ARG1: interest in cook] what be a kid who win cooking contest 's favourite dish .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.111,
+                        "rouge1_f1": 0.125
+                    },
+                    "best_f1": {
+                        "topic_args": "[ARG0: I] [V: get] [ARG1: a cookbook] [ARGM-TMP: once] , [C-ARG1: say the first] , but I could never do anything with a cookbook .",
+                        "tweet_args": "be you do any weekend cooking or need a potluck dish for Labor Day try one of I 's super delicious clean .... pm to a kid who win cooking contest : how come [ARG0: a kid who win cooking contest] [V: get] [ARG1: interest in cook] what be a kid who win cooking contest 's favourite dish .",
+                        "rouge1_recall": 0.143,
+                        "rouge1_precision": 0.111,
+                        "rouge1_f1": 0.125
+                    }
+                }
+            },
+            "take": {
+                "all_frames": {
+                    "rouge1_precision": 0.143,
+                    "rouge1_recall": 0.333,
+                    "rouge1_f1": 0.2,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "topic_args": "every one of the recipe begin the same way - [V: take] [ARG1: a clean dish] and ....",
+                        "tweet_args": "it [ARGM-ADV: only] [V: take] [ARG1: a second] [ARG0: to cause an accident] ...",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.2
+                    },
+                    "best_recall": {
+                        "topic_args": "every one of the recipe begin the same way - [V: take] [ARG1: a clean dish] and ....",
+                        "tweet_args": "it [ARGM-ADV: only] [V: take] [ARG1: a second] [ARG0: to cause an accident] ...",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.2
+                    },
+                    "best_f1": {
+                        "topic_args": "every one of the recipe begin the same way - [V: take] [ARG1: a clean dish] and ....",
+                        "tweet_args": "it [ARGM-ADV: only] [V: take] [ARG1: a second] [ARG0: to cause an accident] ...",
+                        "rouge1_recall": 0.333,
+                        "rouge1_precision": 0.143,
+                        "rouge1_f1": 0.2
+                    }
+                }
+            },
+            "be": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 7
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            },
+            "ask": {
+                "all_frames": {
+                    "rouge1_precision": 0.0,
+                    "rouge1_recall": 0.0,
+                    "rouge1_f1": 0.0,
+                    "frequency": 1
+                },
+                "best_frames": {
+                    "best_precision": {
+                        "rouge1_precision": 0
+                    },
+                    "best_recall": {
+                        "rouge1_recall": 0
+                    },
+                    "best_f1": {
+                        "rouge1_f1": 0
+                    }
+                }
+            }
+        },
+        "global": {
+            "rouge1_precision": 0.018,
+            "rouge1_recall": 0.034,
+            "rouge1_f1": 0.023
+        }
+    }
+}
