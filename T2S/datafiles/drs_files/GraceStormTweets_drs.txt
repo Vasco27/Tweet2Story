@@ -1,0 +1,144 @@
+» EVENTS
+# E1 (forms) -> a
+# FOL:  exists Occurrence Past Pos Present a.(event(a) & eventClass(a,Occurrence) & Tense(a,Present) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(location,T3) & relationRole(theme,T1) & relationRole(location,T3) & Time(a,Past))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Present), Polarity(a,Pos), relationRole(theme,T1), relationRole(location,T3), relationRole(theme,T1), relationRole(location,T3), Time(a,Past)]) 
+
+# E2 (missed) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & relationRole(experiencer,T4) & relationRole(theme,E3) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), relationRole(experiencer,T4), relationRole(theme,E3), Factuality(b,Factual)]) 
+
+# E3 (formation) -> c
+# FOL:  exists Factual Occurrence Pos c.(event(c) & eventClass(c,Occurrence) & Polarity(c,Pos) & relationRole(theme,T7) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Polarity(c,Pos), relationRole(theme,T7), Factuality(c,Factual)]) 
+
+# E4 (Still WAY out) -> d
+# FOL:  exists Factual Pos Present State d.(event(d) & eventClass(d,State) & Tense(d,Present) & Polarity(d,Pos) & Time(d,Present) & relationRole(location,T10) & relationRole(location,T11) & relationRole(theme,T7) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,State), Tense(d,Present), Polarity(d,Pos), Time(d,Present), relationRole(location,T10), relationRole(location,T11), relationRole(theme,T7), Factuality(d,Factual)]) 
+
+# E5 (stronger) -> e
+# FOL:  exists Factual Occurrence Pos e.(event(e) & eventClass(e,Occurrence) & Polarity(e,Pos) & relationRole(theme,T12) & relationRole(theme,T14) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Polarity(e,Pos), relationRole(theme,T12), relationRole(theme,T14), Factuality(e,Factual)]) 
+
+# E6 (To strengthen) -> f
+# FOL:  exists Factual Future Infinitive Non_Factual Occurrence Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Infinitive) & Polarity(f,Pos) & Time(f,Future) & occursBefore(f,g) & relationRole(experiencer,T12) & Factuality(f,Non_Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Infinitive), Polarity(f,Pos), Time(f,Future), occursBefore(f,g), relationRole(experiencer,T12), Factuality(f,Non_Factual)]) 
+
+# E7 (weaken) -> g
+# FOL:  exists Factual Future Infinitive Non_Factual Occurrence Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Infinitive) & Polarity(g,Pos) & Time(g,Future) & occursAfter(g,f) & relationRole(experiencer,T12) & relationRole(instrument,T46) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Infinitive), Polarity(g,Pos), Time(g,Future), occursAfter(g,f), relationRole(experiencer,T12), relationRole(instrument,T46), Factuality(g,Non_Factual)]) 
+
+# E8 (No threat) -> h
+# FOL:  exists Factual Neg State h.(event(h) & eventClass(h,State) & Polarity(h,Neg) & relationRole(goal,T19) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,State), Polarity(h,Neg), relationRole(goal,T19), Factuality(h,Factual)]) 
+
+# E9 (is strengthening) -> i
+# FOL:  exists Factual Occurrence Pos Present i.(event(i) & eventClass(i,Occurrence) & Tense(i,Present) & Polarity(i,Pos) & Time(i,Present) & relationRole(experiencer,T21) & relationRole(theme,T23) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Present), Polarity(i,Pos), Time(i,Present), relationRole(experiencer,T21), relationRole(theme,T23), Factuality(i,Factual)]) 
+
+# E10 (is expected) -> j
+# FOL:  exists Factual Occurrence Pos Present j.(event(j) & eventClass(j,Occurrence) & Tense(j,Present) & Polarity(j,Pos) & Time(j,Present) & relationRole(theme,T24) & relationRole(theme,E11) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Present), Polarity(j,Pos), Time(j,Present), relationRole(theme,T24), relationRole(theme,E11), Factuality(j,Factual)]) 
+
+# E11 (to weaken) -> k
+# FOL:  exists Factual Future Infinitive Occurrence Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Infinitive) & Polarity(k,Pos) & Time(k,Future) & relationRole(theme,T27) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Infinitive), Polarity(k,Pos), Time(k,Future), relationRole(theme,T27), Factuality(k,Factual)]) 
+
+# E12 (Says) -> l
+# FOL:  exists Factual Occurrence Past Present l.(event(l) & eventClass(l,Occurrence) & Tense(l,Present) & Time(l,Past) & relationRole(agent,T28) & relationRole(theme,E13) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Present), Time(l,Past), relationRole(agent,T28), relationRole(theme,E13), Factuality(l,Factual)]) 
+
+# E13 (packing) -> m
+# FOL:  exists Factual Pos PresPart Present State m.(event(m) & eventClass(m,State) & Tense(m,PresPart) & Polarity(m,Pos) & Time(m,Present) & relationRole(theme,T30) & relationRole(theme,T32) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,State), Tense(m,PresPart), Polarity(m,Pos), Time(m,Present), relationRole(theme,T30), relationRole(theme,T32), Factuality(m,Factual)]) 
+
+# E14 (packing) -> n
+# FOL:  exists Occurrence Pos PresPart Present n.(event(n) & eventClass(n,Occurrence) & Tense(n,PresPart) & Polarity(n,Pos) & relationRole(theme,T33) & relationRole(theme,T35) & Time(n,Present))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,PresPart), Polarity(n,Pos), relationRole(theme,T33), relationRole(theme,T35), Time(n,Present)]) 
+
+# E15 (will likely dissipate) -> o
+# FOL:  exists Factual Future Future1 Non_Factual Occurrence Pos o.(event(o) & eventClass(o,Occurrence) & Tense(o,Future1) & Polarity(o,Pos) & Time(o,Future) & relationRole(experiencer,T36) & relationRole(location,T47) & Factuality(o,Non_Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Future1), Polarity(o,Pos), Time(o,Future), relationRole(experiencer,T36), relationRole(location,T47), Factuality(o,Non_Factual)]) 
+
+# E16 (is likely) -> p
+# FOL:  exists Factual Past Past1 Pos Present State p.(event(p) & eventClass(p,State) & Tense(p,Past1) & Polarity(p,Pos) & Time(p,Present) & relationRole(theme,T38) & relationRole(theme,E17) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,State), Tense(p,Past1), Polarity(p,Pos), Time(p,Present), relationRole(theme,T38), relationRole(theme,E17), Factuality(p,Factual)]) 
+
+# E17 (to weaken) -> q
+# FOL:  exists Factual Future Infinitive Non_Factual Occurrence Pos q.(event(q) & eventClass(q,Occurrence) & Tense(q,Infinitive) & Polarity(q,Pos) & Time(q,Future) & relationRole(theme,T41) & Factuality(q,Non_Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Infinitive), Polarity(q,Pos), Time(q,Future), relationRole(theme,T41), Factuality(q,Non_Factual)]) 
+
+# E18 (to reaching) -> r
+# FOL:  exists Factual Future Non_Factual Occurrence Pos PresPart r.(event(r) & eventClass(r,Occurrence) & Tense(r,PresPart) & Polarity(r,Pos) & Time(r,Future) & relationRole(location,T43) & relationRole(theme,T38) & Factuality(r,Non_Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,PresPart), Polarity(r,Pos), Time(r,Future), relationRole(location,T43), relationRole(theme,T38), Factuality(r,Non_Factual)]) 
+
+» ACTORS
+# T10 -> Atlantic
+# T11 -> over 2000 mi east of Lesser Antilles
+# T12 -> #Grace
+# T21 -> T.S. #Grace
+# T24 -> the system
+# T27 -> the extended forecast
+# T30 -> Tropical Storm Grace
+# T32 -> wind gusts of 58 mph
+# T33 -> Tropical Storm Grace
+# T35 -> wind gusts of 58 mph
+# T36 -> Tropical Storm #Grace
+# T38 -> #Grace
+# T41 -> a tropical rainstorm
+# T43 -> the Lesser Antilles
+# T47 -> east of the Lesser Antilles
+# T7 -> Tropical Storm #Grace
+# T4 -> I
+# T19 -> US
+# T28 -> Scott Fisher
+# T14 -> 45 mph winds
+# T1 -> ropical Storm Grace
+# T23 -> 50 mph winds
+# T3 -> eastern Atlantic
+# T46 -> shear
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - location - T3
+# E2 - experiencer - T4
+# E2 - theme - E3
+# E3 - theme - T7
+# E4 - location - T10
+# E4 - location - T11
+# E4 - theme - T7
+# E1 - theme - T1
+# E1 - location - T3
+# E5 - theme - T12
+# E5 - theme - T14
+# E6 - experiencer - T12
+# E7 - experiencer - T12
+# E7 - instrument - T46
+# E8 - goal - T19
+# E9 - experiencer - T21
+# E9 - theme - T23
+# E10 - theme - T24
+# E10 - theme - E11
+# E11 - theme - T27
+# E12 - agent - T28
+# E12 - theme - E13
+# E13 - theme - T30
+# E13 - theme - T32
+# E14 - theme - T33
+# E14 - theme - T35
+# E15 - experiencer - T36
+# E15 - location - T47
+# E16 - theme - T38
+# E16 - theme - E17
+# E17 - theme - T41
+# E18 - location - T43
+# E18 - theme - T38
+# T11 - partOf - T10
+# T12 - objIdentity - T7
+# T21 - objIdentity - T12
+# T24 - objIdentity - T21
+# T30 - objIdentity - T21
+# T35 - objIdentity - T32
+# T33 - objIdentity - T30
+# T36 - objIdentity - T33
+# T38 - objIdentity - T36
+# T47 - partOf - T43
