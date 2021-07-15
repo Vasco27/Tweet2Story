@@ -1,9 +1,11 @@
 # Essentials
 import pandas as pd
+import os
 import json
 import time
 import warnings
 from collections import namedtuple
+from pathlib import Path
 
 # Keyword extraction methods
 import spacy
@@ -20,7 +22,6 @@ from keybert import KeyBERT
 # from pprint import pprint
 
 # Custom utils
-from T2S.src.utils.data_utils import get_paths, topic_tweets_documents, get_root_path
 from T2S.src.utils.eval_utils import compute_jaccard_index, keyphrase_eval_metrics
 from T2S.src.utils.json_utils import NoIndent, MyEncoder
 
@@ -30,12 +31,18 @@ spacy.load("en_core_web_sm")
 
 BASELINES = ["TFIDF", "RAKE", "YAKE", "TextRank", "TopicRank", "KeyBert"]
 ROUGE_METRICS = ["rouge1"]
-METRICS = ["precision", "jaccard", "rouge1_precision", "rouge1_fscore", "R_precision"]
+METRICS = ["precision", "recall", "jaccard", "rouge1_precision", "rouge1_fscore", "R_precision"]
 
 DECIMAL_FIGURES = 3
 TOP_N_KEYWORDS = 10
 MAX_KEYWORDS = 3
 MIN_KEYWORDS = 1
+
+ROOT_DIR = os.path.join(Path(__file__).parent.parent.parent.parent)
+RESULTS_DIR = os.path.join(ROOT_DIR, "resultfiles", "baselines", "keyword_extraction")
+TWEETS_DIR = os.path.join(ROOT_DIR, "resultfiles", "tweets_final")
+NEWS_DIR = os.path.join(ROOT_DIR, "resultfiles", "news_final")
+TEMP_DIR = os.path.join(ROOT_DIR, "datafiles", "temp")
 
 
 def make_tfidf_matrix(docs, topic_ids, max_df=0.95, min_df=0.00):
@@ -79,6 +86,10 @@ def evaluate_baseline(ref_kw_freq, hyp_kw_freq, fill_results_dict=False, base_na
     precision = sum(t_key in hyp_kw for t_key in ref_kw) / len(ref_kw)
     precision = round(precision * 100, DECIMAL_FIGURES)
 
+    # recall - how many kw from the news were actual retrieved by the tweets
+    recall = sum(h_key in ref_kw for h_key in hyp_kw) / len(ref_kw)
+    recall = round(recall * 100, DECIMAL_FIGURES)
+
     # Jaccard index between two sets of keywords
     jaccard = compute_jaccard_index(set(ref_kw), set(hyp_kw), DECIMAL_FIGURES)
 
@@ -87,6 +98,7 @@ def evaluate_baseline(ref_kw_freq, hyp_kw_freq, fill_results_dict=False, base_na
         data_row["baselines"][base_name]["topic_keywords"]["kw_list"] = NoIndent(ref_kw)
         data_row["baselines"][base_name]["tweets_keywords"]["kw_list"] = NoIndent(hyp_kw_freq)
         data_row["baselines"][base_name]["metrics"]["precision"] = precision
+        data_row["baselines"][base_name]["metrics"]["recall"] = recall
         data_row["baselines"][base_name]["metrics"]["jaccard"] = jaccard
 
         keyphrase_eval_metrics(ref_kw, hyp_kw, data_row, fill_results_dict=fill_results_dict, base_name=base_name,
@@ -136,16 +148,16 @@ def nr_keywords_in_text(keywords, text, ref_text):
 
 
 if __name__ == '__main__':
-    path_to_data, results_dir = get_paths()
-    results_dir = results_dir + "baselines/keyword_extraction/"
-    root_dir = get_root_path()
-    temp_dir = root_dir + "datafiles/temp/"
-
-    tweetir_data = pd.read_csv(path_to_data)
-    topic_ids = tweetir_data["topic"].unique()
-
-    tweet_docs = topic_tweets_documents(tweetir_data)
-    topic_docs = tweetir_data["topics.content"].unique().tolist()
+    tweet_docs, topic_docs, topic_ids = [], [], []
+    for filename in os.listdir(NEWS_DIR):
+        topic_id = filename.split(".")[0]
+        topic_ids.append(topic_id)
+        with open(os.path.join(NEWS_DIR, filename), "r", encoding="utf-8") as f:
+            news = f.readlines()
+        with open(os.path.join(TWEETS_DIR, filename), "r", encoding="utf-8") as f:
+            tweets = f.readlines()
+        topic_docs.append(''.join(news))
+        tweet_docs.append(''.join(tweets))
 
     topics_tfidf_matrix = make_tfidf_matrix(topic_docs, topic_ids)
     tweets_tfidf_matrix = make_tfidf_matrix(tweet_docs, topic_ids)
@@ -164,121 +176,116 @@ if __name__ == '__main__':
 
     key_bert = KeyBERT('distilbert-base-nli-mean-tokens')
 
-    iteration, total_iterations = 1, topic_ids.shape[0]
+    iteration, total_iterations = 1, len(topic_ids)
     # Begin topic cycle
-    for topic, idx in zip(topic_ids, range(topic_ids.shape[0])):
+    for filename in os.listdir(NEWS_DIR):
         start = time.time()
-        print(f"Iteration {iteration} of {total_iterations}\nTopic - {topic}")
+        topic_id = filename.split(".")[0]
+        with open(os.path.join(NEWS_DIR, filename), "r", encoding="utf-8") as f:
+            news = f.readlines()
+        with open(os.path.join(TWEETS_DIR, filename), "r", encoding="utf-8") as f:
+            tweets = f.readlines()
+
+        n_tweets = len(tweets)
+        news = ''.join(news)
+        tweets = ''.join(tweets)
+
+        print(f"Iteration {iteration} of {total_iterations}\nTopic - {topic_id}")
 
         # structure resultfiles for json dump
-        data_row = {
-            "topic": None, "content": None, "nr_tweets": None,
-            "baselines": {
-                base: {"topic_keywords": {"kw_list": []}, "tweets_keywords": {"kw_list": []},
-                       "metrics": {"precision": -1, "jaccard": -1, "rouge1_precision": -1,
-                                   "rouge1_fscore": -1, "R_precision": -1}} for base in BASELINES
-            }
-        }
-
-        # topic datafiles
-        # topic = "5811057c-6732-4b37-b04c-ddf0a75a7b51"
-        topic_data = tweetir_data[tweetir_data["topic"] == topic]
-        data_row["topic"] = topic
-        topic_content = topic_docs[idx]
-        data_row["content"] = topic_content
-
-        # tweets datafiles
-        tweet_multi_doc = topic_data["tweets.full_text"].tolist()
-        tweets_single_doc = '\n'.join(tweet_multi_doc)
-        data_row["nr_tweets"] = len(tweet_multi_doc)
+        data_row = {"topic": topic_id, "content": news, "nr_tweets": n_tweets, "baselines": {
+            base: {"topic_keywords": {"kw_list": []}, "tweets_keywords": {"kw_list": []},
+                   "metrics": {"precision": -1, "recall": -1, "jaccard": -1, "rouge1_precision": -1,
+                               "rouge1_fscore": -1, "R_precision": -1}} for base in BASELINES
+        }}
 
         # print("\nTOPIC CONTENT:")
         # pprint(re.sub("[ ]{2,}", "\n", topics_content), width=200)
 
         # print("\nTWEETS RELATED TO THE TOPIC:")
-        # pprint(tweets_single_doc, width=200)
+        # pprint(tweets, width=200)
 
         # Topic TF-IDF matrix and top 10 keywords
-        topic_tfidf_matrix = topics_tfidf_matrix.loc[topic]
+        topic_tfidf_matrix = topics_tfidf_matrix.loc[topic_id]
         topic_keywords = topic_tfidf_matrix.nlargest(TOP_N_KEYWORDS)
         t_keys = topic_keywords.index.tolist()
-        t_kw_freq = nr_keywords_in_text(t_keys, topic_content, topic_content)
+        t_kw_freq = nr_keywords_in_text(t_keys, news, news)
 
         # Tweet TF-IDF matrix and top 10 keywords
-        tweets_keywords = tweets_tfidf_matrix.loc[topic].nlargest(TOP_N_KEYWORDS)
+        tweets_keywords = tweets_tfidf_matrix.loc[topic_id].nlargest(TOP_N_KEYWORDS)
         tw_keys = tweets_keywords.index.tolist()
-        tw_kw_freq = nr_keywords_in_text(tw_keys, topic_content, tweets_single_doc)
+        tw_kw_freq = nr_keywords_in_text(tw_keys, news, tweets)
 
         # Evaluate baseline with given metrics and fill the resultfiles dict
         evaluate_baseline(t_kw_freq, tw_kw_freq, fill_results_dict=True, base_name="TFIDF")
 
         # RAKE
-        r.extract_keywords_from_text(topic_content)
+        r.extract_keywords_from_text(news)
         topic_keywords = r.get_ranked_phrases()
         t_keys = topic_keywords[:TOP_N_KEYWORDS]
-        t_kw_freq = nr_keywords_in_text(t_keys, topic_content, topic_content)
+        t_kw_freq = nr_keywords_in_text(t_keys, news, news)
 
-        r.extract_keywords_from_text(tweets_single_doc)
+        r.extract_keywords_from_text(tweets)
         tweets_keywords = r.get_ranked_phrases()
         tw_keys = tweets_keywords[:TOP_N_KEYWORDS]
-        tw_kw_freq = nr_keywords_in_text(tw_keys, topic_content, tweets_single_doc)
+        tw_kw_freq = nr_keywords_in_text(tw_keys, news, tweets)
 
         evaluate_baseline(t_kw_freq, tw_kw_freq, fill_results_dict=True, base_name="RAKE")
 
         # YAKE!
         # The lower the score, the more relevant the keywords
-        topic_keywords = yake.extract_keywords(topic_content)
+        topic_keywords = yake.extract_keywords(news)
         t_keys = [kw for kw, _ in topic_keywords]
-        t_kw_freq = nr_keywords_in_text(t_keys, topic_content, topic_content)
+        t_kw_freq = nr_keywords_in_text(t_keys, news, news)
 
-        tweets_keywords = yake.extract_keywords(tweets_single_doc)
+        tweets_keywords = yake.extract_keywords(tweets)
         tw_keys = [kw for kw, _ in tweets_keywords]
-        tw_kw_freq = nr_keywords_in_text(tw_keys, topic_content, tweets_single_doc)
+        tw_kw_freq = nr_keywords_in_text(tw_keys, news, tweets)
 
         evaluate_baseline(t_kw_freq, tw_kw_freq, fill_results_dict=True, base_name="YAKE")
 
         # TextRank
         # words=20 to take approximately 20 keywords (not certain) | split to force kw into a list
         try:
-            topic_keywords = TextRank_kw(topic_content, words=TOP_N_KEYWORDS, language="english", split=True)
+            topic_keywords = TextRank_kw(news, words=TOP_N_KEYWORDS, language="english", split=True)
             t_keys = topic_keywords[:TOP_N_KEYWORDS]
-            t_kw_freq = nr_keywords_in_text(t_keys, topic_content, topic_content)
+            t_kw_freq = nr_keywords_in_text(t_keys, news, news)
         except IndexError:
             warnings.warn("Topic has less than 10 keywords")
-            topic_keywords = TextRank_kw(topic_content, words=1, language="english", split=True)
+            topic_keywords = TextRank_kw(news, words=1, language="english", split=True)
             t_keys = topic_keywords
-            t_kw_freq = nr_keywords_in_text(t_keys, topic_content, topic_content)
+            t_kw_freq = nr_keywords_in_text(t_keys, news, news)
 
         try:
-            tweets_keywords = TextRank_kw(tweets_single_doc, words=TOP_N_KEYWORDS, language="english", split=True)
+            tweets_keywords = TextRank_kw(tweets, words=TOP_N_KEYWORDS, language="english", split=True)
             tw_keys = tweets_keywords[:TOP_N_KEYWORDS]
-            tw_kw_freq = nr_keywords_in_text(tw_keys, topic_content, tweets_single_doc)
+            tw_kw_freq = nr_keywords_in_text(tw_keys, news, tweets)
         except IndexError:
             warnings.warn("Tweets has less than 10 keywords")
-            tweets_keywords = TextRank_kw(tweets_single_doc, words=1, language="english", split=True)
+            tweets_keywords = TextRank_kw(tweets, words=1, language="english", split=True)
             tw_keys = tweets_keywords
-            tw_kw_freq = nr_keywords_in_text(tw_keys, topic_content, tweets_single_doc)
+            tw_kw_freq = nr_keywords_in_text(tw_keys, news, tweets)
 
         evaluate_baseline(t_kw_freq, tw_kw_freq, fill_results_dict=True, base_name="TextRank")
 
         # TopicRank
-        t_keys = topic_rank_kw_extraction(temp_dir + "topic_content_temp.txt", topic_content)
-        t_kw_freq = nr_keywords_in_text(t_keys, topic_content, topic_content)
+        t_keys = topic_rank_kw_extraction(os.path.join(TEMP_DIR, "news_temp.txt"), news)
+        t_kw_freq = nr_keywords_in_text(t_keys, news, news)
 
-        tw_keys = topic_rank_kw_extraction(temp_dir + "tweets_content_temp.txt", tweets_single_doc)
-        tw_kw_freq = nr_keywords_in_text(tw_keys, topic_content, tweets_single_doc)
+        tw_keys = topic_rank_kw_extraction(os.path.join(TEMP_DIR, "news_temp.txt"), tweets)
+        tw_kw_freq = nr_keywords_in_text(tw_keys, news, tweets)
 
         evaluate_baseline(t_kw_freq, tw_kw_freq, fill_results_dict=True, base_name="TopicRank")
 
         # Pre-trained KeyBert
-        topic_keywords = key_bert.extract_keywords(topic_content, top_n=TOP_N_KEYWORDS, keyphrase_ngram_range=(1, 2))
+        topic_keywords = key_bert.extract_keywords(news, top_n=TOP_N_KEYWORDS, keyphrase_ngram_range=(1, 2))
         t_keys = [kw for kw, _ in topic_keywords]
-        t_kw_freq = nr_keywords_in_text(t_keys, topic_content, topic_content)
+        t_kw_freq = nr_keywords_in_text(t_keys, news, news)
 
-        tweets_keywords = key_bert.extract_keywords(tweets_single_doc, top_n=TOP_N_KEYWORDS,
+        tweets_keywords = key_bert.extract_keywords(tweets, top_n=TOP_N_KEYWORDS,
                                                     keyphrase_ngram_range=(1, 2))
         tw_keys = [kw for kw, score in tweets_keywords]
-        tw_kw_freq = nr_keywords_in_text(tw_keys, topic_content, tweets_single_doc)
+        tw_kw_freq = nr_keywords_in_text(tw_keys, news, tweets)
 
         evaluate_baseline(t_kw_freq, tw_kw_freq, fill_results_dict=True, base_name="KeyBert")
 
@@ -288,8 +295,8 @@ if __name__ == '__main__':
         print(f"Iteration time - {round(end - start, 2)} seconds.")
         iteration += 1
 
-    print(f"JSON keyword extraction file exported to - {results_dir + 'keywords_extraction_baselines.json'}")
-    with open(results_dir + "keywords_extraction_baselines.json", "w", encoding="utf-8") as file:
+    print(f"JSON keyword extraction file exported to - {os.path.join(RESULTS_DIR, 'keywords_extraction_baselines.json')}")
+    with open(os.path.join(RESULTS_DIR, 'keywords_extraction_baselines.json'), "w", encoding="utf-8") as file:
         file.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))
 
     # CALCULATE THE MEAN FOR EACH METRIC IN EACH BASELINE (for later visualization)
@@ -308,5 +315,5 @@ if __name__ == '__main__':
     results_mean_df["total_topics"] = [total_iterations] * results_mean_df.shape[0]
 
     print(f"Mean results for keyword extraction evaluation metrics exported to - "
-          f"{results_dir + 'mean_kw_baselines.csv'}")
-    results_mean_df.to_csv(results_dir + "mean_kw_baselines.csv")
+          f"{os.path.join(RESULTS_DIR, 'mean_kw_baselines.csv')}")
+    results_mean_df.to_csv(os.path.join(RESULTS_DIR, 'mean_kw_baselines.csv'))

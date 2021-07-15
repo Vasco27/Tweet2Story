@@ -3,6 +3,9 @@ import pandas as pd
 import re
 import json
 import time
+import os
+from pathlib import Path
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # nlp utils
 import nltk
@@ -15,17 +18,16 @@ from T2S.src.utils.sum_base_utils import SummarizerHelper
 
 nltk.download("punkt")
 
+ROOT_DIR = os.path.join(Path(__file__).parent.parent.parent.parent)
+RESULTS_DIR = os.path.join(ROOT_DIR, "resultfiles", "baselines", "summarization")
+TWEETS_DIR = os.path.join(ROOT_DIR, "resultfiles", "tweets_final")
+NEWS_DIR = os.path.join(ROOT_DIR, "resultfiles", "news_final")
+
 
 def sum_base_pipeline(topic, tweets, topics, baseline="LexRank", base_type="multi_doc", summarizer=None, tokenizer=None,
                       sum_size=(2, 3), max_len_inp=(300, 512), min_len_sum=(60, 100), max_len_sum=(180, 300),
                       len_pen=(4.0, 6.0)):
-    if base_type == "multi_doc":
-        if baseline == "LexRank":
-            tweet_summary = SUMMARIZERS.multi_doc_sum(SUMMARIZERS.multi_lr_tweet_sum, tweets, sum_size=sum_size[0])
-            topic_summary = SUMMARIZERS.multi_doc_sum(SUMMARIZERS.multi_lr_topic_sum, topics, sum_size=sum_size[1])
-        else:
-            raise ValueError(f"baseline for type {base_type} must be one of {utils.BASELINES_MULTI_DOC}")
-    elif base_type == "single_doc":
+    if base_type == "single_doc":
         if baseline in ["LexRank", "LSA", "TextRank"]:
             tweet_summary = SUMMARIZERS.single_doc_sum(summarizer, tweets, sum_size=sum_size[0])
             topic_summary = SUMMARIZERS.single_doc_sum(summarizer, topics, sum_size=sum_size[1])
@@ -41,72 +43,56 @@ def sum_base_pipeline(topic, tweets, topics, baseline="LexRank", base_type="mult
     else:
         raise ValueError(f"baseline type must be one of {utils.BASELINE_TYPES}. Instead it was {base_type}.")
 
-    scores = SUMMARIZERS.scorer.score(tweet_summary, topic_summary)
+    scores = SUMMARIZERS.scorer.score(topic_summary, tweet_summary)
     return {"topic": topic, "topic_summary": topic_summary, "tweets_summary": tweet_summary, "metrics": scores}
 
 
 if __name__ == '__main__':
-    # working directory
-    path_to_data, results_dir = get_paths()
-    results_dir = results_dir + "baselines/sumarization/"
-
-    print(f"\nReading data from {path_to_data}...\n")
-    tweetir_data = pd.read_csv(path_to_data)
-
-    metrics = ["rouge1", "rouge2", "rougeL", "rougeLsum"]
-
     # Define summarizers
+    metrics = ["rouge1", "rouge2", "rougeL", "rougeLsum"]
     print("\nDefining summarizers (from SummarizerHelper)...")
-    SUMMARIZERS = SummarizerHelper(tweetir_data["tweets.full_text"], tweetir_data["topics.content"].unique(),
-                                   rouge_metrics=metrics, lang="english")
+    SUMMARIZERS = SummarizerHelper(rouge_metrics=metrics, lang="english")
 
     # make main loop
-    topics = tweetir_data["topic"].unique()
     results = {"LexRank": [], "LSA": [], "TextRank": [], "T5": [], "BART": []}
     iteration = 1
-    total_iterations = topics.shape[0]
-    for topic in topics:
+    total_iterations = len(os.listdir(NEWS_DIR))
+    for filename in os.listdir(NEWS_DIR):
         start = time.time()
+        topic_id = filename.split(".")[0]
+        with open(os.path.join(NEWS_DIR, filename), "r", encoding="utf-8") as f:
+            news = f.readlines()
+        with open(os.path.join(TWEETS_DIR, filename), "r", encoding="utf-8") as f:
+            tweets = f.readlines()
+
+        news = ''.join(news)
+        tweets = ''.join(tweets)
         print(f"Iteration {iteration} of {total_iterations}")
-        topic_data = tweetir_data[tweetir_data["topic"] == topic]
-
-        # Tweets
-        tweet_multi_doc = topic_data["tweets.full_text"].tolist()
-        tweets_single_doc = ' '.join(tweet_multi_doc)
-
-        # Topics
-        topic_single_doc = topic_data["topics.content"].unique().tolist()[0]
-        topic_multi_doc = re.split(r'[.?!][.?!\s]{2}', topic_single_doc)  # could try with nltk.sent_tokenize()
-
-        # Multi-doc LexRank
-        multi_doc = sum_base_pipeline(topic, tweet_multi_doc, topic_multi_doc, baseline="LexRank",
-                                      base_type="multi_doc", sum_size=(2, 3))
 
         # Single-doc LexRank
-        single_doc = sum_base_pipeline(topic, tweets_single_doc, topic_single_doc, baseline="LexRank",
+        single_doc = sum_base_pipeline(topic_id, tweets, news, baseline="LexRank",
                                        base_type="single_doc", summarizer=SUMMARIZERS.lr_sum, sum_size=(2, 3))
-
-        results["LexRank"].append({"single_document": single_doc, "multi_document": multi_doc})
+        results["LexRank"].append({"single_document": single_doc})
 
         # Single-doc LSA
-        single_doc = sum_base_pipeline(topic, tweets_single_doc, topic_single_doc, baseline="LSA",
+        single_doc = sum_base_pipeline(topic_id, tweets, news, baseline="LSA",
                                        base_type="single_doc", summarizer=SUMMARIZERS.lsa_sum, sum_size=(2, 3))
         results["LSA"].append({"single_document": single_doc})
 
         # Single-doc TextRank
-        single_doc = sum_base_pipeline(topic, tweets_single_doc, topic_single_doc, baseline="TextRank",
+        single_doc = sum_base_pipeline(topic_id, tweets, news, baseline="TextRank",
                                        base_type="single_doc", summarizer=SUMMARIZERS.tr_sum, sum_size=(2, 3))
         results["TextRank"].append({"single_document": single_doc})
 
         # Single-doc T5
-        single_doc = sum_base_pipeline(topic, tweets_single_doc, topic_single_doc, baseline="T5",
+        single_doc = sum_base_pipeline(topic_id, tweets, news, baseline="T5",
                                        base_type="single_doc", summarizer=SUMMARIZERS.t5_sum_model,
                                        tokenizer=SUMMARIZERS.t5_sum_tokenizer, max_len_inp=(300, 512),
                                        min_len_sum=(60, 100), max_len_sum=(180, 300), len_pen=(4.0, 6.0))
         results["T5"].append({"single_document": single_doc})
 
         # Single-doc BART
-        single_doc = sum_base_pipeline(topic, tweets_single_doc, topic_single_doc, baseline="BART",
+        single_doc = sum_base_pipeline(topic_id, tweets, news, baseline="BART",
                                        base_type="single_doc", summarizer=SUMMARIZERS.bart_sum_model,
                                        tokenizer=SUMMARIZERS.bart_tokenizer, max_len_inp=(300, 512),
                                        min_len_sum=(60, 100), max_len_sum=(180, 300), len_pen=(4.0, 6.0))
@@ -117,11 +103,15 @@ if __name__ == '__main__':
         print(f"Iteration time - {round(end - start, 2)} seconds.")
 
     # Dump json with all summaries and metrics for every topic
-    print(f"\nDumping results to json file {results_dir + 'sum_baselines_ext.json'}...")
-    with open(results_dir + "sum_baselines_ext.json", "w") as f:
-        json.dump(results, f, indent=4)
+    # print(f"\nDumping results to json file {results_dir + 'sum_baselines_ext.json'}...")
+    # with open(results_dir + "sum_baselines_ext.json", "w") as f:
+    #     json.dump(results, f, indent=4)
 
     # Calculate mean resultfiles
-    print(f"\nCalculating mean scores and exporting to file {results_dir + 'mean_sum_baselines_fscores.csv'}...")
+    print(f"\nCalculating mean fscores and exporting to file {os.path.join(RESULTS_DIR, 'mean_sum_baselines_fscores.csv')}...")
     mean_f1_df = utils.calculate_mean_scores(results, metrics, base_type="single_doc", score="F1", decimal_fields=3)
-    mean_f1_df.to_csv(results_dir + "mean_sum_baselines_fscores.csv")
+    mean_f1_df.to_csv(os.path.join(RESULTS_DIR, 'mean_sum_baselines_fscores.csv'))
+
+    print(f"\nCalculating mean recall and exporting to file {os.path.join(RESULTS_DIR, 'mean_sum_baselines_recall.csv')}...")
+    mean_recall_df = utils.calculate_mean_scores(results, metrics, base_type="single_doc", score="recall", decimal_fields=3)
+    mean_recall_df.to_csv(os.path.join(RESULTS_DIR, 'mean_sum_baselines_recall.csv'))

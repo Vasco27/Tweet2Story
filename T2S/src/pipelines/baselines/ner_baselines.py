@@ -3,11 +3,11 @@ import pandas as pd
 import json
 from collections import namedtuple
 import time
+import os
+from pathlib import Path
 
 # Custom utils
-from T2S.src.utils.data_utils import get_paths
 from T2S.src.utils.eval_utils import semeval_confusion_matrix, semeval_metrics_computation
-from T2S.src.utils.json_utils import MyEncoder, NoIndent
 
 # Named-Entity Recognition
 # from spacy import displacy  # Used for visualization (works better on notebooks)
@@ -15,6 +15,11 @@ import en_core_web_trf
 nlp = en_core_web_trf.load()
 
 DECIMAL_FIGURES = 3
+
+ROOT_DIR = os.path.join(Path(__file__).parent.parent.parent.parent)
+results_path = os.path.join(ROOT_DIR, "resultfiles", "baselines", "NER")
+TWEETS_DIR = os.path.join(ROOT_DIR, "resultfiles", "tweets_final")
+NEWS_DIR = os.path.join(ROOT_DIR, "resultfiles", "news_final")
 
 
 def process_entity_list(ents):
@@ -72,46 +77,39 @@ def compute_ner_weighted_recall(ents_labels, text, ref_text):
 
 
 if __name__ == '__main__':
-    path_to_data, results_dir = get_paths()
-    results_dir = results_dir + "baselines/NER/"
-
-    tweetir_data = pd.read_csv(path_to_data)
-    topic_ids = tweetir_data["topic"].unique()
-
-    topic_docs = tweetir_data["topics.content"].unique().tolist()
-
     # named tuple for keyword representation in json
     NamedEntity = namedtuple("NE", ["entity", "label", "w_recall"])
 
-    iteration, total_iterations, no_entities = 1, tweetir_data["topic"].unique().shape[0], 0
+    iteration, total_iterations, no_entities = 1, len(os.listdir(NEWS_DIR)), 0
     results_list = []
-    for topic in topic_ids:
-        # topic = "5811057c-6732-4b37-b04c-ddf0a75a7b51"
+    for filename in os.listdir(NEWS_DIR):
         start = time.time()
+        with open(os.path.join(NEWS_DIR, filename), "r", encoding="utf-8") as f:
+            news = f.readlines()
+
+        with open(os.path.join(TWEETS_DIR, filename), "r", encoding="utf-8") as f:
+            tweets = f.readlines()
 
         # start = time.time()
         print(f"Iteration {iteration} of {total_iterations}")
-        topic_data = tweetir_data[tweetir_data["topic"] == topic]
-
-        # Data on specific topic
-        topic_content = topic_data["topics.content"].unique()[0]
-        tweet_multi_doc = topic_data["tweets.full_text"].tolist()
-        tweets_single_doc = '\n'.join(tweet_multi_doc)
 
         data_row = {
-            "topic": topic, "content": topic_content, "nr_tweets": len(tweet_multi_doc),
-            "ner_topic": [], "ner_tweets": []
+            "topic": filename.split(".")[0], "nr_tweets": len(tweets)
+            # "ner_topic": [], "ner_tweets": []
         }
 
+        news = ''.join(news)
+        tweets = ''.join(tweets)
+
         # Topic entity extraction
-        doc_topic = nlp(topic_content)
+        doc_topic = nlp(news)
         topic_ents = process_entity_list(doc_topic.ents)
         topic_ents_labels = process_entity_label_list(doc_topic.ents)
         # data_row["ner_topic"] = NoIndent(list(topic_ents))
         # pprint(topic_ents_labels)
 
         # Tweets entity extraction
-        doc_tweets = nlp(tweets_single_doc)
+        doc_tweets = nlp(tweets)
         tweets_ents_labels = process_entity_label_list(doc_tweets.ents)
         # tweets_ner_list = compute_ner_weighted_recall(tweets_ents_labels, topic_content, tweets_single_doc)
         # data_row["ner_tweets"] = NoIndent(tweets_ner_list)
@@ -132,9 +130,18 @@ if __name__ == '__main__':
     # with open(results_dir + "ner_baselines.json", "w", encoding="utf-8") as f:
     #     f.write(json.dumps(results_list, cls=MyEncoder, ensure_ascii=False, indent=4))
 
-    print(sum(ner["exact_precision"] for ner in results_list))
-    print(sum(ner["exact_recall"] for ner in results_list))
-    print(sum(ner["exact_F1"] for ner in results_list))
-    print(sum(ner["partial_precision"] for ner in results_list))
-    print(sum(ner["partial_recall"] for ner in results_list))
-    print(sum(ner["partial_F1"] for ner in results_list))
+    total = len(results_list)
+    mean_results = {
+        "topic": "mean", "nr_tweets": int(sum([ner["nr_tweets"] for ner in results_list]) / total),
+        "exact_precision": round(sum([ner["exact_precision"] for ner in results_list]) / total, 2),
+        "exact_recall": round(sum([ner["exact_recall"] for ner in results_list]) / total, 2),
+        "exact_F1": round(sum([ner["exact_F1"] for ner in results_list]) / total, 2),
+        "partial_precision": round(sum([ner["partial_precision"] for ner in results_list]) / total, 2),
+        "partial_recall": round(sum([ner["partial_recall"] for ner in results_list]) / total, 2),
+        "partial_F1": round(sum([ner["partial_F1"] for ner in results_list]) / total, 2)
+    }
+    print(json.dumps(mean_results, indent=4))
+    results_list.append(mean_results)
+    results = pd.DataFrame(results_list)
+
+    results.to_csv(os.path.join(results_path, "NER_results.csv"), index=False)

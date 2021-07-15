@@ -151,17 +151,24 @@ def keyphrase_eval_metrics(ref_kw, hyp_kw, data_row=None, fill_results_dict=Fals
         rouge_metrics = ["rouge1"]
     rouge_s = rouge_scorer.RougeScorer(rouge_metrics)
 
-    sum_rouge1p, sum_rouge1f, sum_R_precision, total = 0, 0, 0, len(ref_kw) * len(hyp_kw)
+    sum_rouge1p, sum_rouge1f, sum_R_precision, total = 0, 0, 0, len(ref_kw)
     for t_key in ref_kw:
+        max_rougef, max_rougep, max_r = 0, 0, 0
         for tw_key in hyp_kw:
-            key_ref = t_key.split(" ")
-            key_hyp = tw_key.split(" ")
-            r_precision = sum(t_key in key_ref for t_key in key_hyp) / max(len(key_hyp), len(key_ref))
-
             scores = rouge_s.score(t_key, tw_key)
-            sum_rouge1p += scores["rouge1"].precision
-            sum_rouge1f += scores["rouge1"].fmeasure
-            sum_R_precision += r_precision
+            new_rouge = scores["rouge1"].fmeasure
+            if new_rouge > max_rougef:
+                max_rougef = new_rouge
+                max_rougep = scores["rouge1"].precision
+
+                key_ref = t_key.split(" ")
+                key_hyp = tw_key.split(" ")
+                r_precision = sum(t_key in key_ref for t_key in key_hyp) / max(len(key_hyp), len(key_ref))
+                max_r = r_precision
+
+        sum_rouge1f += max_rougef
+        sum_rouge1p += max_rougep
+        sum_R_precision += max_r
 
     mean_rouge1p = round((sum_rouge1p / total) * 100, decimal_figures)
     mean_rouge1f = round((sum_rouge1f / total) * 100, decimal_figures)

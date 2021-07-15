@@ -138,7 +138,7 @@ if __name__ == '__main__':
         start = time.time()
 
         # Topic
-        topic_coref_text, topic_clusters_list, _ = coref_with_lemma(topic_content)
+        topic_coref_text, topic_clusters_list, topic_cluster_indexes = coref_with_lemma(topic_content)
         data_row["coref_content"] = topic_coref_text
         data_row["topic_clusters"] = topic_clusters_list
 

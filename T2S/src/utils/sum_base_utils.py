@@ -3,6 +3,8 @@ import pandas as pd
 import re
 import numpy as np
 import warnings
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 # nlp utils
 import nltk
@@ -41,21 +43,13 @@ SCORES = ["precision", "recall", "F1"]
 
 
 class SummarizerHelper:
-    def __init__(self, tweets, topics, rouge_metrics=None, lang="english"):
+    def __init__(self, rouge_metrics=None, lang="english"):
         if rouge_metrics is None:
             rouge_metrics = ['rouge1', 'rougeL', 'rougeLsum']
             warnings.warn(f"Rouge metrics not defined, using default metrics {rouge_metrics}.")
 
         self.LANGUAGE = lang
         stemmer = Stemmer(self.LANGUAGE)
-        self.tweet_docs = tweets.apply(str.strip).tolist()
-        self.topic_docs = pd.Series(topics).apply(lambda x: re.split(r'[.?!][.?!\s]{2}', x.strip())).explode()
-        self.topic_docs = self.topic_docs.apply(str.strip).tolist()
-
-        # MODELS
-        # multi-doc LexRank
-        self.multi_lr_tweet_sum = LexRank(self.tweet_docs, stopwords=STOPWORDS['en'])  # always in english
-        self.multi_lr_topic_sum = LexRank(self.topic_docs, stopwords=STOPWORDS['en'])
 
         # single-doc LexRank
         self.lr_sum = LexRankSummarizer(stemmer)
