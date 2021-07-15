@@ -1,2 +1,17 @@
 # Copyrighted files
 resources/
+
+# notebooks
+notebooks/
+
+# useless data files
+datafiles/test_files/
+datafiles/tweetir_json/
+datafiles/tweetir_json.zip
+
+# result files
+resultfiles/news_files.zip
+
+# large files
+*.props
+*.tmp
