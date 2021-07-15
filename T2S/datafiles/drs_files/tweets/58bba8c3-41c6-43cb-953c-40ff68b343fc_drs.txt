@@ -1,0 +1,101 @@
+» EVENTS
+# E1 (takes) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T13) & relationRole(theme,T1) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T13), relationRole(theme,T1), Factuality(a,Factual)]) 
+
+# E2 (have you been) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T1) & relationRole(theme,T12) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T1), relationRole(theme,T12), Factuality(b,Factual)]) 
+
+# E3 (wish we had) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T20) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T20), Factuality(c,Factual)]) 
+
+# E4 (live ‚Ä¶) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T14) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T14), Factuality(d,Factual)]) 
+
+# E5 (said what ll you have i said) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T16) & relationRole(theme,T18) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T16), relationRole(theme,T18), Factuality(e,Factual)]) 
+
+# E6 (laughed served) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T17) & relationRole(theme,T19) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T17), relationRole(theme,T19), Factuality(f,Factual)]) 
+
+# E7 (whampstead) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T24) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T24), Factuality(g,Factual)]) 
+
+# E8 (cuts cooked dinners bread amp drinks) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(location,T25) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(location,T25), Factuality(h,Factual)]) 
+
+# E9 (ask) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T26) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T26), Factuality(i,Factual)]) 
+
+# E10 (is) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T6) & relationRole(theme,T27) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T6), relationRole(theme,T27), Factuality(j,Factual)]) 
+
+# E11 (s) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T28) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T28), Factuality(k,Factual)]) 
+
+# E12 (deli) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T28) & relationRole(location,T29) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T28), relationRole(location,T29), Factuality(l,Factual)]) 
+
+# E13 (still piling) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T7) & relationRole(theme,T30) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T7), relationRole(theme,T30), Factuality(m,Factual)]) 
+
+» ACTORS
+# T1 -> westmidlands
+# T11 -> delis in the westmidlands
+# T12 -> these
+# T13 -> food blogger wordinvegways
+# T14 -> i
+# T15 -> i
+# T16 -> the deli deli guy
+# T17 -> he
+# T18 -> a bacon and egg on a bagel
+# T19 -> it
+# T28 -> a smoke house
+# T29 -> in dahisar
+# T30 -> the pastrami high
+# T27 -> right about the greek deli
+# T25 -> in neasdenshoppingcentre amazing choice of cold
+# T20 -> a deli like this
+# T24 -> its continental deli
+# T7 -> domand deli
+# T26 -> questions
+# T6 -> byrontau byron
+
+» RELATIONS
+# E1 - theme - T13
+# E1 - theme - T1
+# E2 - theme - T1
+# E2 - theme - T12
+# E3 - theme - T20
+# E4 - theme - T14
+# E5 - theme - T16
+# E5 - theme - T18
+# E6 - theme - T17
+# E6 - theme - T19
+# E7 - theme - T24
+# E8 - location - T25
+# E9 - theme - T26
+# E10 - theme - T6
+# E10 - theme - T27
+# E11 - theme - T28
+# E12 - theme - T28
+# E12 - location - T29
+# E13 - theme - T7
+# E13 - theme - T30
+# T11 - objIdentity - T12
+# T13 - objIdentity - T14
+# T14 - objIdentity - T15
+# T16 - objIdentity - T17
+# T18 - objIdentity - T19

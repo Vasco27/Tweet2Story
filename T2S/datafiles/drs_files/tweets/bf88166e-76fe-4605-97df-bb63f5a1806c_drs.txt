@@ -1,0 +1,235 @@
+» EVENTS
+# E1 (says) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T52) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T52), Factuality(a,Factual)]) 
+
+# E2 (found) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T52) & relationRole(theme,T53) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T52), relationRole(theme,T53), Factuality(b,Factual)]) 
+
+# E3 (arrive) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T54) & relationRole(theme,T16) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T54), relationRole(theme,T16), Factuality(c,Factual)]) 
+
+# E4 (after crossing) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T16) & relationRole(theme,T2) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T16), relationRole(theme,T2), Factuality(d,Factual)]) 
+
+# E5 (missing) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(location,T17) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(location,T17), Factuality(e,Factual)]) 
+
+# E6 (is searching) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T18) & relationRole(theme,T55) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T18), relationRole(theme,T55), Factuality(f,Factual)]) 
+
+# E7 (went missing) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T24) & relationRole(location,T24) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T24), relationRole(location,T24), Factuality(g,Factual)]) 
+
+# E8 (have been rescued) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T56) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T56), Factuality(h,Factual)]) 
+
+# E9 (are feared missing) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T25) & relationRole(time,T57) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T25), relationRole(time,T57), Factuality(i,Factual)]) 
+
+# E10 (carrying them sank) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T30) & relationRole(location,T19) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T30), relationRole(location,T19), Factuality(j,Factual)]) 
+
+# E11 (missing) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T27) & relationRole(time,T58) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T27), relationRole(time,T58), Factuality(k,Factual)]) 
+
+# E12 (sinks) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T28) & relationRole(location,T20) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T28), relationRole(location,T20), Factuality(l,Factual)]) 
+
+# E13 (says) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(location,T20) & relationRole(theme,T8) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(location,T20), relationRole(theme,T8), Factuality(m,Factual)]) 
+
+# E14 (missing) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T60) & relationRole(location,T61) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T60), relationRole(location,T61), Factuality(n,Factual)]) 
+
+# E15 (boat sinking) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(location,T61) & relationRole(location,T31) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(location,T61), relationRole(location,T31), Factuality(o,Factual)]) 
+
+# E16 (trying to reach greece drown) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T62) & relationRole(location,T10) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T62), relationRole(location,T10), Factuality(p,Factual)]) 
+
+# E17 (say) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T63) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T63), Factuality(q,Factual)]) 
+
+# E18 (took) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T64) & relationRole(theme,T65) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T64), relationRole(theme,T65), Factuality(r,Factual)]) 
+
+# E19 (rescued) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T67) & relationRole(theme,T68) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T67), relationRole(theme,T68), Factuality(s,Factual)]) 
+
+# E20 (missing) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T68) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T68), Factuality(t,Factual)]) 
+
+# E21 (die) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T23) & relationRole(time,T33) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T23), relationRole(time,T33), Factuality(u,Factual)]) 
+
+# E22 (including children have died) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T41) & relationRole(time,T69) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T41), relationRole(time,T69), Factuality(v,Factual)]) 
+
+# E23 (collided) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T42) & relationRole(location,T14) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T42), relationRole(location,T14), Factuality(w,Factual)]) 
+
+# E24 (hits) -> x
+# FOL:  exists Factual Occurrence Pos Pres x.(event(x) & eventClass(x,Occurrence) & Tense(x,Pres) & Polarity(x,Pos) & relationRole(theme,T70) & relationRole(theme,T46) & Factuality(x,Factual))
+# DRS:  ([x],[event(x), eventClass(x,Occurrence), Tense(x,Pres), Polarity(x,Pos), relationRole(theme,T70), relationRole(theme,T46), Factuality(x,Factual)]) 
+
+» ACTORS
+# T10 -> turkey
+# T12 -> turkey
+# T13 -> turkey
+# T14 -> turkey
+# T16 -> a greek island
+# T17 -> greek island
+# T18 -> greek island of lesbos
+# T19 -> the greek island of lesbos
+# T20 -> the greek island of lesbos
+# T21 -> greek coastguard
+# T22 -> greek coastguard
+# T23 -> coast guard
+# T24 -> 26 migrants who went missing off the coast of lesbos
+# T25 -> 26 migrants
+# T26 -> them
+# T27 -> at least 26 migrants
+# T28 -> their
+# T29 -> a dinghy
+# T3 -> turkey
+# T30 -> a dinghy carrying them
+# T31 -> the coast of
+# T32 -> coast of turkey
+# T33 -> the turkish coast
+# T34 -> the coast of turkey
+# T35 -> migrant boat
+# T36 -> migrant boat
+# T37 -> migrant boat
+# T38 -> ferry off turkey
+# T39 -> ferry off turkey
+# T40 -> ferry off
+# T41 -> at least 13 migrants including children
+# T42 -> their
+# T43 -> 13
+# T44 -> dinghy
+# T45 -> their dinghy
+# T46 -> inflatable dinghy
+# T47 -> ferry
+# T48 -> a ferry
+# T49 -> ferry
+# T52 -> newborn migrant boy
+# T61 -> in new
+# T68 -> 13
+# T8 -> coast guard
+# T58 -> after
+# T70 -> six refugee children among 13 dead
+# T53 -> dead
+# T54 -> migrants
+# T55 -> for
+# T64 -> accident
+# T1 -> greek
+# T62 -> thirteen migrants
+# T56 -> 20 others
+# T67 -> 20
+# T50 -> lesbos
+# T51 -> lesbos
+# T60 -> refugees
+# T69 -> after
+# T2 -> the aegean sea
+# T63 -> turkish media
+# T57 -> after
+# T65 -> place
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T52
+# E2 - theme - T52
+# E2 - theme - T53
+# E3 - theme - T54
+# E3 - theme - T16
+# E4 - theme - T16
+# E4 - theme - T2
+# E5 - location - T17
+# E6 - theme - T18
+# E6 - theme - T55
+# E7 - theme - T24
+# E7 - location - T24
+# E8 - theme - T56
+# E9 - theme - T25
+# E9 - time - T57
+# E10 - theme - T30
+# E10 - location - T19
+# E11 - theme - T27
+# E11 - time - T58
+# E12 - theme - T28
+# E12 - location - T20
+# E13 - location - T20
+# E13 - theme - T8
+# E14 - theme - T60
+# E14 - location - T61
+# E15 - location - T61
+# E15 - location - T31
+# E16 - theme - T62
+# E16 - location - T10
+# E17 - theme - T63
+# E18 - theme - T64
+# E18 - theme - T65
+# E19 - theme - T67
+# E19 - theme - T68
+# E20 - theme - T68
+# E21 - theme - T23
+# E21 - time - T33
+# E22 - theme - T41
+# E22 - time - T69
+# E23 - theme - T42
+# E23 - location - T14
+# E24 - theme - T70
+# E24 - theme - T46
+# T16 - objIdentity - T17
+# T17 - objIdentity - T18
+# T18 - objIdentity - T19
+# T19 - objIdentity - T20
+# T21 - objIdentity - T22
+# T22 - objIdentity - T8
+# T8 - objIdentity - T23
+# T24 - objIdentity - T25
+# T25 - objIdentity - T26
+# T26 - objIdentity - T27
+# T27 - objIdentity - T28
+# T29 - objIdentity - T30
+# T31 - objIdentity - T32
+# T32 - objIdentity - T33
+# T33 - objIdentity - T34
+# T3 - objIdentity - T10
+# T10 - objIdentity - T12
+# T12 - objIdentity - T13
+# T13 - objIdentity - T14
+# T35 - objIdentity - T36
+# T36 - objIdentity - T37
+# T38 - objIdentity - T39
+# T39 - objIdentity - T40
+# T41 - objIdentity - T42
+# T42 - objIdentity - T43
+# T44 - objIdentity - T45
+# T45 - objIdentity - T46
+# T47 - objIdentity - T48
+# T48 - objIdentity - T49
+# T50 - objIdentity - T51

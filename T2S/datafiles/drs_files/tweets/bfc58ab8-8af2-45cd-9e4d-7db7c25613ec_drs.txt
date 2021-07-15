@@ -1,0 +1,140 @@
+» EVENTS
+# E1 (cancel planned) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E2 (gives) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T22) & relationRole(theme,T35) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T22), relationRole(theme,T35), Factuality(b,Factual)]) 
+
+# E3 (give) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T6) & relationRole(theme,T7) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T6), relationRole(theme,T7), Factuality(c,Factual)]) 
+
+# E4 (chanting) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T39) & relationRole(theme,T40) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T39), relationRole(theme,T40), Factuality(d,Factual)]) 
+
+# E5 (sporting) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T9) & relationRole(theme,T41) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T9), relationRole(theme,T41), Factuality(e,Factual)]) 
+
+# E6 (speaking) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T24) & relationRole(theme,T12) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T24), relationRole(theme,T12), Factuality(f,Factual)]) 
+
+# E7 (trump greeting) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T13) & relationRole(theme,T43) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T13), relationRole(theme,T43), Factuality(g,Factual)]) 
+
+# E8 (billed) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T26) & relationRole(theme,T44) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T26), relationRole(theme,T44), Factuality(h,Factual)]) 
+
+# E9 (turned to be) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(location,T45) & relationRole(theme,T46) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(location,T45), relationRole(theme,T46), Factuality(i,Factual)]) 
+
+# E10 (d a thunk it) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T46) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T46), Factuality(j,Factual)]) 
+
+# E11 (was billed) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T47) & relationRole(theme,T48) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T47), relationRole(theme,T48), Factuality(k,Factual)]) 
+
+# E12 (hangs) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T15) & relationRole(theme,T49) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T15), relationRole(theme,T49), Factuality(l,Factual)]) 
+
+» ACTORS
+# T1 -> san pedro
+# T13 -> donald trump
+# T14 -> the uss iowa
+# T16 -> san pedro
+# T18 -> donald trump
+# T19 -> uss iowa
+# T2 -> donald trump
+# T20 -> san pedro
+# T21 -> uss iowa
+# T22 -> trump
+# T23 -> trump
+# T24 -> donald trump
+# T25 -> his
+# T26 -> trumps
+# T27 -> trump
+# T28 -> donaldtrump
+# T29 -> trump
+# T3 -> uss iowa
+# T30 -> trump
+# T31 -> uss iowa
+# T32 -> retired battleship uss iowa
+# T33 -> the uss iowa
+# T34 -> battleship
+# T35 -> national security speech
+# T36 -> his speech on the uss iowa
+# T37 -> national security speech aboard battleship
+# T38 -> trumps speech on uss iowa
+# T46 -> about trump instead who
+# T6 -> donald trump
+# T45 -> in la
+# T43 -> supporters
+# T12 -> southern california
+# T39 -> protesters
+# T7 -> uss iowa
+# T48 -> as a national security speech from donaldtrump wraps up with a promise for national security specifics‚Ä¶
+# T47 -> what
+# T49 -> on the fence
+# T41 -> a red make america great
+# T9 -> donald trump
+# T44 -> foreign policy speech
+# T15 -> donald trumps speech
+# T40 -> dumb the trump
+
+» RELATIONS
+# E1 - theme - T3
+# E2 - theme - T22
+# E2 - theme - T35
+# E3 - theme - T6
+# E3 - theme - T7
+# E4 - theme - T39
+# E4 - theme - T40
+# E5 - theme - T9
+# E5 - theme - T41
+# E6 - theme - T24
+# E6 - theme - T12
+# E7 - theme - T13
+# E7 - theme - T43
+# E8 - theme - T26
+# E8 - theme - T44
+# E9 - location - T45
+# E9 - theme - T46
+# E10 - theme - T46
+# E11 - theme - T47
+# E11 - theme - T48
+# E12 - theme - T15
+# E12 - theme - T49
+# T2 - objIdentity - T22
+# T22 - objIdentity - T6
+# T6 - objIdentity - T23
+# T23 - objIdentity - T24
+# T24 - objIdentity - T13
+# T13 - objIdentity - T25
+# T25 - objIdentity - T26
+# T26 - objIdentity - T27
+# T27 - objIdentity - T28
+# T28 - objIdentity - T29
+# T29 - objIdentity - T18
+# T18 - objIdentity - T30
+# T3 - objIdentity - T31
+# T31 - objIdentity - T32
+# T32 - objIdentity - T33
+# T33 - objIdentity - T14
+# T14 - objIdentity - T34
+# T34 - objIdentity - T19
+# T19 - objIdentity - T21
+# T35 - objIdentity - T36
+# T36 - objIdentity - T37
+# T37 - objIdentity - T38
+# T1 - objIdentity - T16
+# T16 - objIdentity - T20

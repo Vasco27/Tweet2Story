@@ -1,0 +1,13 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+obama administration - planning - obama administration,obama administration - believes - russian,0.737,0.485,0.555,0.333
+military officials - direct talks - military officials,military officials - talks to begin - soon,0.806,0.615,0.64,0.429
+russia - military-to-military discussions - us,russian - re open - coordination russian us military,0.786,0.468,0.636,0.133
+russia - burgeoning role - russia,russian - re open - coordination russian us military,0.799,0.507,0.779,0.0
+syria - military buildup - russia,syria - could take - place,0.755,0.403,0.508,0.333
+syria - worsening crisis - syria,syria - could take - place,0.721,0.405,0.46,0.333
+secretary state john kerry - told - reporters,secretary state john kerry - says russia proposed - u russia,0.76,0.508,0.562,0.333
+secretary state john kerry - told - london,secretary state john kerry - says russia proposed - u russia,0.757,0.619,0.483,0.333
+president barack obama - believes - president barack obama,obama administration - believes - russian,0.803,0.717,0.671,0.3
+russian foreign minister sergey lavrov - broached - idea,russian foreign minister sergey lavrov - enhanced - russian military buildup,0.729,0.427,0.65,0.333
+kerry - phone call - russian foreign minister sergey lavrov,secretary state john kerry - raises - russian foreign minister sergey lavrov,0.779,0.634,0.693,0.467
+reporters - told - london,lavrov - says - russian,0.656,0.298,0.151,0.0

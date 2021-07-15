@@ -1,0 +1,35 @@
+» EVENTS
+# E1 (authorizes) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T2) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T2), Factuality(a,Factual)]) 
+
+# E2 (exporting) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T2) & relationRole(theme,T3) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T2), relationRole(theme,T3), Factuality(b,Factual)]) 
+
+# E3 (needs) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T4) & relationRole(theme,T5) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T4), relationRole(theme,T5), Factuality(c,Factual)]) 
+
+# E4 (m not a go) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T6) & relationRole(theme,T7) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T6), relationRole(theme,T7), Factuality(d,Factual)]) 
+
+» ACTORS
+# T2 -> payments to the
+# T7 -> slow governor okowa
+# T6 -> i
+# T3 -> international oil companies
+# T5 -> viable opposition governor okowa
+# T4 -> every society
+# T1 -> mnr
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T2
+# E2 - theme - T2
+# E2 - theme - T3
+# E3 - theme - T4
+# E3 - theme - T5
+# E4 - theme - T6
+# E4 - theme - T7

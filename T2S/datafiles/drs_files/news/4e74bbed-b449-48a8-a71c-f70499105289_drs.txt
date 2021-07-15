@@ -1,0 +1,181 @@
+» EVENTS
+# E1 (has been released) -> a
+# FOL:  exists a.(relationRole(patient,T19) & event(a))
+# DRS:  ([a],[relationRole(patient,T19), event(a)]) 
+
+# E2 (showing) -> b
+# FOL:  exists b.(relationRole(theme,E3) & relationRole(cause,T19) & event(b))
+# DRS:  ([b],[relationRole(theme,E3), relationRole(cause,T19), event(b)]) 
+
+# E3 (used) -> c
+# FOL:  exists c.(relationRole(agent,T20) & relationRole(instrument,T22) & relationRole(purpose,E4) & event(c))
+# DRS:  ([c],[relationRole(agent,T20), relationRole(instrument,T22), relationRole(purpose,E4), event(c)]) 
+
+# E4 (to save) -> d
+# FOL:  exists d.(relationRole(beneficiary,T23) & relationRole(agent,T20) & event(d))
+# DRS:  ([d],[relationRole(beneficiary,T23), relationRole(agent,T20), event(d)]) 
+
+# E5 (left) -> e
+# FOL:  exists e.(relationRole(pivot,T23) & relationRole(theme,E6) & event(e))
+# DRS:  ([e],[relationRole(pivot,T23), relationRole(theme,E6), event(e)]) 
+
+# E6 (dangling) -> f
+# FOL:  exists f.(relationRole(location,T24) & event(f))
+# DRS:  ([f],[relationRole(location,T24), event(f)]) 
+
+# E7 (heard) -> g
+# FOL:  exists g.(relationRole(agent,T26) & relationRole(theme,E8) & event(g))
+# DRS:  ([g],[relationRole(agent,T26), relationRole(theme,E8), event(g)]) 
+
+# E8 (screaming) -> h
+# FOL:  exists h.(relationRole(agent,T27) & relationRole(purpose,E9) & event(h))
+# DRS:  ([h],[relationRole(agent,T27), relationRole(purpose,E9), event(h)]) 
+
+# E9 (help) -> i
+# FOL:  exists i.event(i)
+# DRS:  ([i],[event(i)]) 
+
+# E10 (walking) -> j
+# FOL:  exists j.(relationRole(agent,T26) & relationRole(location,T28) & event(j))
+# DRS:  ([j],[relationRole(agent,T26), relationRole(location,T28), event(j)]) 
+
+# E11 (noticed) -> k
+# FOL:  exists k.(relationRole(agent,T26) & relationRole(theme,E12) & event(k))
+# DRS:  ([k],[relationRole(agent,T26), relationRole(theme,E12), event(k)]) 
+
+# E12 (hanging) -> l
+# FOL:  exists l.(relationRole(pivot,T29) & relationRole(location,T30) & event(l))
+# DRS:  ([l],[relationRole(pivot,T29), relationRole(location,T30), event(l)]) 
+
+# E13 (entered) -> m
+# FOL:  exists m.(relationRole(agent,T31) & relationRole(location,T32) & event(m))
+# DRS:  ([m],[relationRole(agent,T31), relationRole(location,T32), event(m)]) 
+
+# E14 (used) -> n
+# FOL:  exists n.(relationRole(theme,T35) & relationRole(agent,T31) & relationRole(purpose,E15) & event(n))
+# DRS:  ([n],[relationRole(theme,T35), relationRole(agent,T31), relationRole(purpose,E15), event(n)]) 
+
+# E15 (to support) -> o
+# FOL:  exists o.(relationRole(theme,T36) & event(o))
+# DRS:  ([o],[relationRole(theme,T36), event(o)]) 
+
+# E16 (make sure) -> p
+# FOL:  exists p.(relationRole(theme,E17) & relationRole(agent,T31) & event(p))
+# DRS:  ([p],[relationRole(theme,E17), relationRole(agent,T31), event(p)]) 
+
+# E17 (did not fall) -> q
+# FOL:  exists q.(relationRole(patient,T37) & relationRole(result,E18) & event(q))
+# DRS:  ([q],[relationRole(patient,T37), relationRole(result,E18), event(q)]) 
+
+# E18 (death) -> r
+# FOL:  exists r.(relationRole(patient,T38) & event(r))
+# DRS:  ([r],[relationRole(patient,T38), event(r)]) 
+
+# E19 (leaning out) -> s
+# FOL:  exists s.(relationRole(agent,T31) & relationRole(location,T34) & event(s))
+# DRS:  ([s],[relationRole(agent,T31), relationRole(location,T34), event(s)]) 
+
+# E20 (to hold) -> t
+# FOL:  exists t.(relationRole(agent,T40) & relationRole(theme,T42) & event(t))
+# DRS:  ([t],[relationRole(agent,T40), relationRole(theme,T42), event(t)]) 
+
+# E21 (to pull) -> u
+# FOL:  exists u.(relationRole(finalLocation,T48) & relationRole(patient,T47) & event(u))
+# DRS:  ([u],[relationRole(finalLocation,T48), relationRole(patient,T47), event(u)]) 
+
+# E22 (were able) -> v
+# FOL:  exists v.(relationRole(agent,T45) & relationRole(theme,E21) & event(v))
+# DRS:  ([v],[relationRole(agent,T45), relationRole(theme,E21), event(v)]) 
+
+# E23 (told) -> w
+# FOL:  exists w.(relationRole(agent,T39) & relationRole(goal,T25) & relationRole(theme,E7) & event(w))
+# DRS:  ([w],[relationRole(agent,T39), relationRole(goal,T25), relationRole(theme,E7), event(w)]) 
+
+» ACTORS
+# T19 -> A video
+# T20 -> a man
+# T22 -> a broom
+# T23 -> a toddler
+# T24 -> a window
+# T26 -> he
+# T27 -> the young girl
+# T29 -> she
+# T30 -> a fourth-floor apartment window
+# T31 -> Mr Wang
+# T32 -> the building
+# T34 -> nearby window
+# T35 -> a mop
+# T36 -> the toddler
+# T37 -> she
+# T38 -> her
+# T39 -> Wang Baoping
+# T40 -> He
+# T42 -> the mop
+# T43 -> the girl
+# T47 -> her
+# T48 -> back inside the building
+# T45 -> the childs parents
+# T28 -> the street below
+# T25 -> China Central Television
+
+» RELATIONS
+# E1 - patient - T19
+# E2 - theme - E3
+# E3 - agent - T20
+# E3 - instrument - T22
+# E3 - purpose - E4
+# E4 - beneficiary - T23
+# E4 - agent - T20
+# E5 - pivot - T23
+# E5 - theme - E6
+# E6 - location - T24
+# E2 - cause - T19
+# E23 - agent - T39
+# E23 - goal - T25
+# E23 - theme - E7
+# E7 - agent - T26
+# E7 - theme - E8
+# E8 - agent - T27
+# E8 - purpose - E9
+# E10 - agent - T26
+# E10 - location - T28
+# E11 - agent - T26
+# E11 - theme - E12
+# E12 - pivot - T29
+# E12 - location - T30
+# E13 - agent - T31
+# E13 - location - T32
+# E19 - agent - T31
+# E19 - location - T34
+# E14 - theme - T35
+# E14 - agent - T31
+# E14 - purpose - E15
+# E15 - theme - T36
+# E16 - theme - E17
+# E16 - agent - T31
+# E17 - patient - T37
+# E17 - result - E18
+# E18 - patient - T38
+# E20 - agent - T40
+# E20 - theme - T42
+# E22 - agent - T45
+# E22 - theme - E21
+# E21 - finalLocation - T48
+# E21 - patient - T47
+# T39 - objIdentity - T20
+# T26 - objIdentity - T39
+# T27 - objIdentity - T23
+# T29 - objIdentity - T27
+# T30 - objIdentity - T24
+# T31 - objIdentity - T26
+# T30 - partOf - T32
+# T34 - partOf - T32
+# T35 - objIdentity - T22
+# T36 - objIdentity - T29
+# T37 - objIdentity - T36
+# T38 - objIdentity - T37
+# T40 - objIdentity - T31
+# T42 - objIdentity - T35
+# T43 - objIdentity - T38
+# T47 - objIdentity - T43
+# T48 - partOf - T32

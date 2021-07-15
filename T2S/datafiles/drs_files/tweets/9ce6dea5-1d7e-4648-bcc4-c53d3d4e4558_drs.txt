@@ -1,0 +1,72 @@
+» EVENTS
+# E1 (build shaminder singhs) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), Factuality(a,Factual)]) 
+
+# E2 (is) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T1) & relationRole(theme,T11) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T1), relationRole(theme,T11), Factuality(b,Factual)]) 
+
+# E3 (made) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T12) & relationRole(purpose,T13) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T12), relationRole(purpose,T13), Factuality(c,Factual)]) 
+
+# E4 (was killed) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T14) & relationRole(theme,T15) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T14), relationRole(theme,T15), Factuality(d,Factual)]) 
+
+# E5 (hand builds) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T16) & relationRole(theme,T7) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T16), relationRole(theme,T7), Factuality(e,Factual)]) 
+
+# E6 (hand builds) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T9) & relationRole(theme,T8) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T9), relationRole(theme,T8), Factuality(f,Factual)]) 
+
+# E7 (inspired) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T5) & relationRole(theme,T10) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T5), relationRole(theme,T10), Factuality(g,Factual)]) 
+
+# E8 (think) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T18) & relationRole(theme,T19) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T18), relationRole(theme,T19), Factuality(h,Factual)]) 
+
+» ACTORS
+# T1 -> phillip hughes
+# T10 -> this fan
+# T3 -> phillip hughes
+# T4 -> phillip hughes
+# T5 -> cricketer phillip hughes
+# T7 -> miniature stadium
+# T8 -> miniature stadium
+# T9 -> cricket fan
+# T11 -> complete
+# T19 -> very, very small
+# T13 -> in memory of
+# T15 -> by a ball
+# T14 -> who
+# T16 -> cricket fan
+# T12 -> model cricket ground
+# T18 -> to
+
+» RELATIONS
+# E1 - theme - T1
+# E2 - theme - T1
+# E2 - theme - T11
+# E3 - theme - T12
+# E3 - purpose - T13
+# E4 - theme - T14
+# E4 - theme - T15
+# E5 - theme - T16
+# E5 - theme - T7
+# E6 - theme - T9
+# E6 - theme - T8
+# E7 - theme - T5
+# E7 - theme - T10
+# E8 - theme - T18
+# E8 - theme - T19
+# T1 - objIdentity - T3
+# T3 - objIdentity - T4
+# T4 - objIdentity - T5
+# T7 - objIdentity - T8
+# T9 - objIdentity - T10

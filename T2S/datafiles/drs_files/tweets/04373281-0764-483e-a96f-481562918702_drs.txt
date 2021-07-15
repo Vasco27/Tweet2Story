@@ -1,0 +1,119 @@
+» EVENTS
+# E1 (takes) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T2) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T2), Factuality(a,Factual)]) 
+
+# E2 (faces) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T3) & relationRole(theme,T36) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T3), relationRole(theme,T36), Factuality(b,Factual)]) 
+
+# E3 (promotes) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T11) & relationRole(theme,T31) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T11), relationRole(theme,T31), Factuality(c,Factual)]) 
+
+# E4 (sees) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T13) & relationRole(theme,T38) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T13), relationRole(theme,T38), Factuality(d,Factual)]) 
+
+# E5 (really enjoyed) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T14) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T14), Factuality(e,Factual)]) 
+
+# E6 (is) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T14) & relationRole(theme,T39) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T14), relationRole(theme,T39), Factuality(f,Factual)]) 
+
+# E7 (loved) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T33) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T33), Factuality(g,Factual)]) 
+
+# E8 (demonstrating) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T25) & relationRole(theme,T41) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T25), relationRole(theme,T41), Factuality(h,Factual)]) 
+
+# E9 (do nt necessarily have to be beating) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T42) & relationRole(theme,T43) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T42), relationRole(theme,T43), Factuality(i,Factual)]) 
+
+# E10 (is farken) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T35) & relationRole(theme,T46) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T35), relationRole(theme,T46), Factuality(j,Factual)]) 
+
+# E11 (is) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T34) & relationRole(theme,T17) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T34), relationRole(theme,T17), Factuality(k,Factual)]) 
+
+» ACTORS
+# T1 -> sicario
+# T10 -> thriller sicario
+# T11 -> emily blunt
+# T13 -> emily blunt
+# T14 -> sicario emily blunt
+# T16 -> sicario
+# T2 -> emily blunt
+# T21 -> emily blunt
+# T22 -> emily blunt
+# T23 -> emily blunt
+# T24 -> emily blunt
+# T25 -> emily blunt
+# T26 -> emily blunt
+# T27 -> emily blunts
+# T28 -> sicario
+# T29 -> sicario
+# T30 -> sicario
+# T31 -> sicario
+# T32 -> sicario
+# T33 -> sicario
+# T34 -> sicario
+# T35 -> the movie sicario
+# T8 -> emily blunt
+# T43 -> people
+# T46 -> cool
+# T17 -> emily
+# T42 -> women in action movies
+# T3 -> kimmel emily blunt sicario americanhero
+# T38 -> worst of the war on drugs
+# T36 -> tough questions
+# T39 -> fantastic
+# T41 -> that
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T2
+# E2 - theme - T3
+# E2 - theme - T36
+# E3 - theme - T11
+# E3 - theme - T31
+# E4 - theme - T13
+# E4 - theme - T38
+# E5 - theme - T14
+# E6 - theme - T14
+# E6 - theme - T39
+# E7 - theme - T33
+# E8 - theme - T25
+# E8 - theme - T41
+# E9 - theme - T42
+# E9 - theme - T43
+# E10 - theme - T35
+# E10 - theme - T46
+# E11 - theme - T34
+# E11 - theme - T17
+# T2 - objIdentity - T21
+# T21 - objIdentity - T22
+# T22 - objIdentity - T23
+# T23 - objIdentity - T8
+# T8 - objIdentity - T11
+# T11 - objIdentity - T13
+# T13 - objIdentity - T24
+# T24 - objIdentity - T25
+# T25 - objIdentity - T26
+# T26 - objIdentity - T27
+# T1 - objIdentity - T28
+# T28 - objIdentity - T29
+# T29 - objIdentity - T30
+# T30 - objIdentity - T31
+# T31 - objIdentity - T32
+# T32 - objIdentity - T33
+# T33 - objIdentity - T34
+# T34 - objIdentity - T16
+# T10 - objIdentity - T35

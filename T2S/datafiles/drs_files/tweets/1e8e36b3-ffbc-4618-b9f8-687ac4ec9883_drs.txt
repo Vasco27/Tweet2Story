@@ -1,0 +1,160 @@
+» EVENTS
+# E1 (sentenced) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T22) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T22), Factuality(a,Factual)]) 
+
+# E2 (is) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T24) & relationRole(theme,T25) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T24), relationRole(theme,T25), Factuality(b,Factual)]) 
+
+# E3 (does nt count) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T26) & relationRole(manner,T27) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T26), relationRole(manner,T27), Factuality(c,Factual)]) 
+
+# E4 (is) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T28) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T28), Factuality(d,Factual)]) 
+
+# E5 (may have) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T30) & relationRole(theme,T31) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T30), relationRole(theme,T31), Factuality(e,Factual)]) 
+
+# E6 (thought you knew about addiction is) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T33) & relationRole(theme,T34) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T33), relationRole(theme,T34), Factuality(f,Factual)]) 
+
+# E7 (is lying) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T35) & relationRole(theme,T36) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T35), relationRole(theme,T36), Factuality(g,Factual)]) 
+
+# E8 (walk in milford brings) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T7) & relationRole(theme,T38) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T7), relationRole(theme,T38), Factuality(h,Factual)]) 
+
+# E9 (know i have) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T15) & relationRole(theme,T41) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T15), relationRole(theme,T41), Factuality(i,Factual)]) 
+
+# E10 (is) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T17) & relationRole(theme,T42) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T17), relationRole(theme,T42), Factuality(j,Factual)]) 
+
+# E11 (must treat) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T43) & relationRole(theme,T18) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T43), relationRole(theme,T18), Factuality(k,Factual)]) 
+
+# E12 (says addiction is) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T9) & relationRole(theme,T45) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T9), relationRole(theme,T45), Factuality(l,Factual)]) 
+
+# E13 (have elevated) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T20) & relationRole(theme,T46) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T20), relationRole(theme,T46), Factuality(m,Factual)]) 
+
+# E14 (is) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T47) & relationRole(theme,T48) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T47), relationRole(theme,T48), Factuality(n,Factual)]) 
+
+# E15 (are trying to break) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T50) & relationRole(theme,T51) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T50), relationRole(theme,T51), Factuality(o,Factual)]) 
+
+# E16 (ended) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T52) & relationRole(theme,T53) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T52), relationRole(theme,T53), Factuality(p,Factual)]) 
+
+# E17 (are) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T54) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T54), Factuality(q,Factual)]) 
+
+# E18 (brings) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T10) & relationRole(theme,T57) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T10), relationRole(theme,T57), Factuality(r,Factual)]) 
+
+# E19 (explain) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T11) & relationRole(theme,T12) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T11), relationRole(theme,T12), Factuality(s,Factual)]) 
+
+» ACTORS
+# T15 -> i
+# T16 -> i
+# T17 -> drug and alcohol addiction
+# T18 -> it
+# T19 -> ex coach
+# T20 -> i
+# T21 -> my
+# T9 -> clinton
+# T28 -> internet addiction
+# T25 -> addiction iamtriple angiemartinez
+# T10 -> taraconner
+# T51 -> from brokenaddiction
+# T1 -> ex princeton
+# T48 -> that addiction
+# T46 -> to the top tier of my campaign
+# T54 -> you
+# T24 -> addiction
+# T38 -> awareness
+# T53 -> in a lonely death
+# T33 -> you
+# T34 -> wrong
+# T43 -> we
+# T12 -> the united states
+# T11 -> harvard
+# T57 -> awareness
+# T50 -> you
+# T35 -> your government
+# T42 -> a disease not a moral failing‚Äî
+# T31 -> an underage gambling problem
+# T36 -> to you
+# T45 -> an issue
+# T52 -> heroin addiction
+# T27 -> lol
+# T7 -> matt
+# T47 -> what
+# T30 -> professional video gaming
+# T41 -> a faux fur addiction
+# T22 -> to 5 years
+# T26 -> that
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T22
+# E2 - theme - T24
+# E2 - theme - T25
+# E3 - theme - T26
+# E3 - manner - T27
+# E4 - theme - T28
+# E5 - theme - T30
+# E5 - theme - T31
+# E6 - theme - T33
+# E6 - theme - T34
+# E7 - theme - T35
+# E7 - theme - T36
+# E8 - theme - T7
+# E8 - theme - T38
+# E9 - theme - T15
+# E9 - theme - T41
+# E10 - theme - T17
+# E10 - theme - T42
+# E11 - theme - T43
+# E11 - theme - T18
+# E12 - theme - T9
+# E12 - theme - T45
+# E13 - theme - T20
+# E13 - theme - T46
+# E14 - theme - T47
+# E14 - theme - T48
+# E15 - theme - T50
+# E15 - theme - T51
+# E16 - theme - T52
+# E16 - theme - T53
+# E17 - theme - T54
+# E18 - theme - T10
+# E18 - theme - T57
+# E19 - theme - T11
+# E19 - theme - T12
+# T15 - objIdentity - T16
+# T17 - objIdentity - T18
+# T19 - objIdentity - T9
+# T9 - objIdentity - T20
+# T20 - objIdentity - T21

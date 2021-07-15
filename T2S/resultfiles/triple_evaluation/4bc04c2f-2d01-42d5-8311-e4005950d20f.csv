@@ -1,0 +1,25 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+bjp - struggles - bjp,bjp - s bankrolling - bjp,0.855,0.748,0.758,0.667
+bjp - prone - bjp,bjp - s bankrolling - bjp,0.873,0.715,0.787,0.667
+bjp - has marginalized - alliance partners,bjp - holds - janata darbar,0.747,0.474,0.587,0.333
+bjp - made it - bjp,bjp - s bankrolling - bjp,0.865,0.747,0.762,0.667
+bjp - campaign - bjp,bjp - s bankrolling - bjp,0.86,0.775,0.762,0.667
+party - has come out - organization,racist party - refer - party,0.704,0.415,0.48,0.222
+party men - embarrassment - party men,racist party - refer - party,0.721,0.489,0.646,0.389
+political rivals - given - pollbound bihar,alternative - is - better party,0.704,0.252,0.372,0.0
+mp hari manjhi - has come out - party,alternative party x - is - party,0.764,0.568,0.598,0.333
+mp hari manjhi - has come out - organization,republican party - has become - effect,0.695,0.329,0.398,0.095
+others - have called it - bjp,arron banks - has since apologised - bjp,0.771,0.58,0.579,0.333
+hrd minister - arrival - magadh university campus,amp eff - calls - da racist party,0.658,0.221,0.301,0.0
+hrd minister - to lay - stone,reform party - may need to change - name,0.68,0.302,0.539,0.083
+hrd minister - to lay - central university south bihar,reform party - may need to change - name,0.672,0.312,0.541,0.083
+hrd minister - to lay - magadh university campus,deputy speaker - please do not allow - racist party,0.669,0.38,0.403,0.0
+stone - to lay - central university south bihar,alternative - is - better party,0.689,0.182,0.294,0.0
+stone - to lay - magadh university campus,alternative - is - better party,0.681,0.145,0.279,0.0
+central university south bihar - to lay - magadh university campus,reform party - may need to change - name,0.68,0.329,0.554,0.083
+mp hari manjhi - were engaged - mlc sanjeev shyam singh,bjp - holds - janata darbar,0.66,0.386,0.259,0.0
+mlc sanjeev shyam singh - said - mlc sanjeev shyam singh,bjp - holds - janata darbar,0.662,0.397,0.267,0.0
+mla surendra sinha - including - mla surendra sinha,alternative - is - better party,0.649,0.109,0.365,0.0
+mp hari manjhi - replied - bjp,arron banks - has since apologised - bjp,0.752,0.558,0.638,0.333
+mp - hit - headlines,rlsp - singhs - allegation,0.657,0.081,0.41,0.0
+mp - being elected - lok sabha,bjp - holds - janata darbar,0.66,0.436,0.345,0.0

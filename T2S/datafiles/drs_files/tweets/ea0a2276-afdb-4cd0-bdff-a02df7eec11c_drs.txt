@@ -1,0 +1,95 @@
+» EVENTS
+# E1 (mean) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T15) & relationRole(theme,T16) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T15), relationRole(theme,T16), Factuality(a,Factual)]) 
+
+# E2 (saying higher ups cooked) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T16) & relationRole(theme,T10) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T16), relationRole(theme,T10), Factuality(b,Factual)]) 
+
+# E3 (would be) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T17) & relationRole(theme,T18) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T17), relationRole(theme,T18), Factuality(c,Factual)]) 
+
+# E4 (accuse) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T8) & relationRole(theme,T9) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T8), relationRole(theme,T9), Factuality(d,Factual)]) 
+
+# E5 (manipulating) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T19) & relationRole(theme,T20) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T19), relationRole(theme,T20), Factuality(e,Factual)]) 
+
+# E6 (understate) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(purpose,T21) & relationRole(theme,T22) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(purpose,T21), relationRole(theme,T22), Factuality(f,Factual)]) 
+
+# E7 (was recast) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T2) & relationRole(theme,T23) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T2), relationRole(theme,T23), Factuality(g,Factual)]) 
+
+# E8 (may be fabricating) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T13) & relationRole(theme,T12) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T13), relationRole(theme,T12), Factuality(h,Factual)]) 
+
+# E9 (trained syria rebels gave) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T24) & relationRole(theme,T25) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T24), relationRole(theme,T25), Factuality(i,Factual)]) 
+
+# E10 (confirms) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T6) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T6), Factuality(j,Factual)]) 
+
+# E11 (has called) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T7) & relationRole(theme,T27) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T7), relationRole(theme,T27), Factuality(k,Factual)]) 
+
+» ACTORS
+# T10 -> the islamic state
+# T11 -> islamic state
+# T12 -> the islamic state
+# T13 -> the us military
+# T14 -> its
+# T16 -> 50 intelligence analysts
+# T8 -> 50 us intelligence analysts
+# T9 -> their
+# T6 -> pentagon
+# T27 -> for a renewe
+# T22 -> the isis threat
+# T21 -> in order to
+# T19 -> of
+# T24 -> us
+# T20 -> reports
+# T17 -> that
+# T15 -> i
+# T23 -> as rosy
+# T25 -> ammo equipment
+# T2 -> us
+# T7 -> barack obama
+# T18 -> systematic
+
+» RELATIONS
+# E1 - theme - T15
+# E1 - theme - T16
+# E2 - theme - T16
+# E2 - theme - T10
+# E3 - theme - T17
+# E3 - theme - T18
+# E4 - theme - T8
+# E4 - theme - T9
+# E5 - theme - T19
+# E5 - theme - T20
+# E6 - purpose - T21
+# E6 - theme - T22
+# E7 - theme - T2
+# E7 - theme - T23
+# E8 - theme - T13
+# E8 - theme - T12
+# E9 - theme - T24
+# E9 - theme - T25
+# E10 - theme - T6
+# E11 - theme - T7
+# E11 - theme - T27
+# T8 - objIdentity - T9
+# T10 - objIdentity - T11
+# T11 - objIdentity - T12
+# T13 - objIdentity - T14

@@ -1,0 +1,56 @@
+» EVENTS
+# E1 (supports) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T2) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T2), Factuality(a,Factual)]) 
+
+# E2 (would ban) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T10) & relationRole(theme,T6) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T10), relationRole(theme,T6), Factuality(b,Factual)]) 
+
+# E3 (is) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T7) & relationRole(theme,T12) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T7), relationRole(theme,T12), Factuality(c,Factual)]) 
+
+# E4 (dragging) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T8) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T8), Factuality(d,Factual)]) 
+
+# E5 (says he would sign) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T3) & relationRole(theme,T4) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T3), relationRole(theme,T4), Factuality(e,Factual)]) 
+
+# E6 (ban) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T4) & relationRole(theme,T11) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T4), relationRole(theme,T11), Factuality(f,Factual)]) 
+
+» ACTORS
+# T10 -> ohio bill that would ban abortions for down syndrome
+# T11 -> ohios bill to ban abortion in cases of down syndrome
+# T3 -> john kasich
+# T4 -> ohios
+# T5 -> down syndrome
+# T6 -> down syndrome
+# T7 -> down syndrome
+# T8 -> down syndrome
+# T9 -> he
+# T2 -> ohio
+# T1 -> sarah palin
+# T12 -> no reason for an abortion
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T2
+# E2 - theme - T10
+# E2 - theme - T6
+# E3 - theme - T7
+# E3 - theme - T12
+# E4 - theme - T8
+# E5 - theme - T3
+# E5 - theme - T4
+# E6 - theme - T4
+# E6 - theme - T11
+# T5 - objIdentity - T6
+# T6 - objIdentity - T7
+# T7 - objIdentity - T8
+# T3 - objIdentity - T9
+# T10 - objIdentity - T11

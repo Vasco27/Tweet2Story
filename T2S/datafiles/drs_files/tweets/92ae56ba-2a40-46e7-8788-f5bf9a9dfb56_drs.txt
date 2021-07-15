@@ -1,0 +1,149 @@
+» EVENTS
+# E1 (continues) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T32) & relationRole(theme,T33) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T32), relationRole(theme,T33), Factuality(a,Factual)]) 
+
+# E2 (are) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T15) & relationRole(theme,T28) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T15), relationRole(theme,T28), Factuality(b,Factual)]) 
+
+# E3 (shot killed) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T19) & relationRole(theme,T21) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T19), relationRole(theme,T21), Factuality(c,Factual)]) 
+
+# E4 (killed) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T20) & relationRole(location,T4) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T20), relationRole(location,T4), Factuality(d,Factual)]) 
+
+# E5 (identified) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(location,T4) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(location,T4), Factuality(e,Factual)]) 
+
+# E6 (are searching) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T5) & relationRole(theme,T34) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T5), relationRole(theme,T34), Factuality(f,Factual)]) 
+
+# E7 (suspected of gunning down) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T22) & relationRole(theme,T22) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T22), relationRole(theme,T22), Factuality(g,Factual)]) 
+
+# E8 (have intensified) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T26) & relationRole(theme,T23) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T26), relationRole(theme,T23), Factuality(h,Factual)]) 
+
+# E9 (may show) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T35) & relationRole(theme,T24) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T35), relationRole(theme,T24), Factuality(i,Factual)]) 
+
+# E10 (killing) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T8) & relationRole(cause,T36) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T8), relationRole(cause,T36), Factuality(j,Factual)]) 
+
+# E11 (suspected of killing) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T25) & relationRole(theme,T25) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T25), relationRole(theme,T25), Factuality(k,Factual)]) 
+
+# E12 (spark) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T37) & relationRole(theme,T38) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T37), relationRole(theme,T38), Factuality(l,Factual)]) 
+
+# E13 (are still searching for the remaining) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T41) & relationRole(theme,T42) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T41), relationRole(theme,T42), Factuality(m,Factual)]) 
+
+# E14 (involved) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T43) & relationRole(theme,T44) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T43), relationRole(theme,T44), Factuality(n,Factual)]) 
+
+# E15 (blames) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T11) & relationRole(theme,T12) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T11), relationRole(theme,T12), Factuality(o,Factual)]) 
+
+» ACTORS
+# T10 -> the fox lake
+# T15 -> our
+# T16 -> our
+# T18 -> fox lake
+# T19 -> officer
+# T20 -> officer shot killed in fox lake ill
+# T21 -> three suspects at large
+# T22 -> 3 men suspected of gunning down a veteran police lieutenant
+# T23 -> the suspects in the murder of a fox lake police officer
+# T24 -> 3 suspects in fox lake cop killing
+# T25 -> three men suspected of killing
+# T26 -> police
+# T27 -> their
+# T28 -> the murder of one of their police officers this morning
+# T29 -> the murder of a fox lake police officer
+# T3 -> fox lake ill
+# T4 -> fox lake ill
+# T6 -> fox lake ill
+# T7 -> fox lake
+# T8 -> fox lake
+# T9 -> fox lake ill
+# T5 -> il
+# T34 -> for
+# T32 -> manhunt
+# T12 -> obama
+# T17 -> their
+# T11 -> scott walker
+# T44 -> in the shooting of two officers
+# T43 -> a gang
+# T33 -> 3 police helicopters now on scene
+# T37 -> attacks on officers
+# T42 -> members of
+# T2 -> the fox lake il police department
+# T30 -> one of their police officers
+# T38 -> fear
+# T31 -> a fox lake police officer
+# T41 -> police
+# T36 -> as the manhunt for
+# T35 -> home video
+
+» RELATIONS
+# E1 - theme - T32
+# E1 - theme - T33
+# E2 - theme - T15
+# E2 - theme - T28
+# E3 - theme - T19
+# E3 - theme - T21
+# E4 - theme - T20
+# E4 - location - T4
+# E5 - location - T4
+# E6 - theme - T5
+# E6 - theme - T34
+# E7 - theme - T22
+# E7 - theme - T22
+# E8 - theme - T26
+# E8 - theme - T23
+# E9 - theme - T35
+# E9 - theme - T24
+# E10 - theme - T8
+# E10 - cause - T36
+# E11 - theme - T25
+# E11 - theme - T25
+# E12 - theme - T37
+# E12 - theme - T38
+# E13 - theme - T41
+# E13 - theme - T42
+# E14 - theme - T43
+# E14 - theme - T44
+# E15 - theme - T11
+# E15 - theme - T12
+# T15 - objIdentity - T16
+# T2 - objIdentity - T17
+# T18 - objIdentity - T3
+# T3 - objIdentity - T4
+# T4 - objIdentity - T6
+# T6 - objIdentity - T7
+# T7 - objIdentity - T8
+# T8 - objIdentity - T9
+# T9 - objIdentity - T10
+# T19 - objIdentity - T20
+# T21 - objIdentity - T22
+# T22 - objIdentity - T23
+# T23 - objIdentity - T24
+# T24 - objIdentity - T25
+# T26 - objIdentity - T27
+# T28 - objIdentity - T29
+# T30 - objIdentity - T31

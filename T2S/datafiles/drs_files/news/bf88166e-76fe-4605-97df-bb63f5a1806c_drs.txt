@@ -1,0 +1,227 @@
+» EVENTS
+# E1 (died) -> a
+# FOL:  exists a.(relationRole(patient,T30) & relationRole(location,T31) & relationRole(reason,E3) & event(a))
+# DRS:  ([a],[relationRole(patient,T30), relationRole(location,T31), relationRole(reason,E3), event(a)]) 
+
+# E2 (carrying) -> b
+# FOL:  exists b.(relationRole(theme,T33) & relationRole(patient,T67) & relationRole(finalLocation,T34) & event(b))
+# DRS:  ([b],[relationRole(theme,T33), relationRole(patient,T67), relationRole(finalLocation,T34), event(b)]) 
+
+# E3 (collided) -> c
+# FOL:  exists c.(relationRole(theme,T33) & relationRole(patient,T35) & event(c))
+# DRS:  ([c],[relationRole(theme,T33), relationRole(patient,T35), event(c)]) 
+
+# E4 (reported) -> d
+# FOL:  exists d.(relationRole(agent,T36) & relationRole(theme,E1) & event(d))
+# DRS:  ([d],[relationRole(agent,T36), relationRole(theme,E1), event(d)]) 
+
+# E5 (were) -> e
+# FOL:  exists e.(relationRole(pivot,T37) & relationRole(theme,T38) & event(e))
+# DRS:  ([e],[relationRole(pivot,T37), relationRole(theme,T38), event(e)]) 
+
+# E6 (accident) -> f
+# FOL:  exists f.(relationRole(cause,T38) & event(f))
+# DRS:  ([f],[relationRole(cause,T38), event(f)]) 
+
+# E7 (involving) -> g
+# FOL:  exists g.(relationRole(cause,E6) & relationRole(theme,T39) & event(g))
+# DRS:  ([g],[relationRole(cause,E6), relationRole(theme,T39), event(g)]) 
+
+# E8 (carrying) -> h
+# FOL:  exists h.(relationRole(theme,T39) & relationRole(patient,T40) & relationRole(initialLocation,T41) & relationRole(finalLocation,T42) & event(h))
+# DRS:  ([h],[relationRole(theme,T39), relationRole(patient,T40), relationRole(initialLocation,T41), relationRole(finalLocation,T42), event(h)]) 
+
+# E9 (reported) -> i
+# FOL:  exists i.(relationRole(agent,T43) & relationRole(theme,E5) & event(i))
+# DRS:  ([i],[relationRole(agent,T43), relationRole(theme,E5), event(i)]) 
+
+# E10 (rescued) -> j
+# FOL:  exists j.(relationRole(patient,T44) & event(j))
+# DRS:  ([j],[relationRole(patient,T44), event(j)]) 
+
+# E11 (were missing) -> k
+# FOL:  exists k.(relationRole(pivot,T45) & event(k))
+# DRS:  ([k],[relationRole(pivot,T45), event(k)]) 
+
+# E12 (added) -> l
+# FOL:  exists l.(relationRole(source,E13) & relationRole(theme,E10) & event(l))
+# DRS:  ([l],[relationRole(source,E13), relationRole(theme,E10), event(l)]) 
+
+# E13 (report) -> m
+# FOL:  exists m.event(m)
+# DRS:  ([m],[event(m)]) 
+
+# E14 (There was) -> n
+# FOL:  exists n.(relationRole(theme,E15) & event(n))
+# DRS:  ([n],[relationRole(theme,E15), event(n)]) 
+
+# E15 (no information) -> o
+# FOL:  exists o.(relationRole(theme,T46) & event(o))
+# DRS:  ([o],[relationRole(theme,T46), event(o)]) 
+
+# E16 (said) -> p
+# FOL:  exists p.(relationRole(agent,T54) & relationRole(theme,E17) & event(p))
+# DRS:  ([p],[relationRole(agent,T54), relationRole(theme,E17), event(p)]) 
+
+# E17 (rescued) -> q
+# FOL:  exists q.(relationRole(agent,T55) & relationRole(patient,T56) & event(q))
+# DRS:  ([q],[relationRole(agent,T55), relationRole(patient,T56), event(q)]) 
+
+# E18 (spotted) -> r
+# FOL:  exists r.(relationRole(patient,T56) & relationRole(location,T57) & relationRole(agent,T58) & event(r))
+# DRS:  ([r],[relationRole(patient,T56), relationRole(location,T57), relationRole(agent,T58), event(r)]) 
+
+# E19 (deployed) -> s
+# FOL:  exists s.(relationRole(patient,T58) & relationRole(agent,T59) & event(s))
+# DRS:  ([s],[relationRole(patient,T58), relationRole(agent,T59), event(s)]) 
+
+# E20 (said) -> t
+# FOL:  exists t.(relationRole(agent,T60) & relationRole(theme,E21) & event(t))
+# DRS:  ([t],[relationRole(agent,T60), relationRole(theme,E21), event(t)]) 
+
+# E21 (had been) -> u
+# FOL:  exists u.(relationRole(pivot,T61) & relationRole(location,T62) & event(u))
+# DRS:  ([u],[relationRole(pivot,T61), relationRole(location,T62), event(u)]) 
+
+# E22 (died) -> v
+# FOL:  exists v.(relationRole(patient,T63) & relationRole(setting,E23) & event(v))
+# DRS:  ([v],[relationRole(patient,T63), relationRole(setting,E23), event(v)]) 
+
+# E23 (attempted crossing) -> w
+# FOL:  exists w.(relationRole(initialLocation,T64) & relationRole(finalLocation,T65) & event(w))
+# DRS:  ([w],[relationRole(initialLocation,T64), relationRole(finalLocation,T65), event(w)]) 
+
+# E24 (sinking) -> x
+# FOL:  exists x.event(x)
+# DRS:  ([x],[event(x)]) 
+
+# E25 (was the second) -> y
+# FOL:  exists y.(relationRole(theme,E24) & relationRole(location,T48) & event(y))
+# DRS:  ([y],[relationRole(theme,E24), relationRole(location,T48), event(y)]) 
+
+# E26 (reporting) -> z
+# FOL:  exists z.(relationRole(agent,T49) & relationRole(theme,T50) & event(z))
+# DRS:  ([z],[relationRole(agent,T49), relationRole(theme,T50), event(z)]) 
+
+# E27 (feared missing) -> aa
+# FOL:  exists aa.(relationRole(pivot,T50) & relationRole(initialLocation,T51) & event(aa))
+# DRS:  ([aa],[relationRole(pivot,T50), relationRole(initialLocation,T51), event(aa)]) 
+
+# E28 (got into trouble) -> ab
+# FOL:  exists ab.(relationRole(patient,T52) & relationRole(location,T53) & event(ab))
+# DRS:  ([ab],[relationRole(patient,T52), relationRole(location,T53), event(ab)]) 
+
+» ACTORS
+# T30 -> migrants
+# T31 -> off the coast
+# T32 -> Turkey
+# T33 -> the inflatable dinghy
+# T34 -> Greece
+# T35 -> a ferry
+# T36 -> Turkish media
+# T37 -> Four children
+# T38 -> the victims
+# T39 -> a boat
+# T40 -> 46 migrants
+# T42 -> the Greek island of Lesbos
+# T44 -> Twenty people
+# T45 -> 13 people
+# T46 -> he nationalities
+# T47 -> the migrants
+# T48 -> the Aegean Sea
+# T49 -> the Greek coastguard
+# T50 -> two dozen
+# T51 -> a boat
+# T52 -> that
+# T53 -> Lesbos
+# T54 -> The coastguard
+# T55 -> it
+# T56 -> 20 people
+# T57 -> the water
+# T58 -> a helicopter
+# T60 -> the survivors
+# T61 -> 26 people
+# T62 -> the boat
+# T64 -> Turkey
+# T65 -> Greece
+# T67 -> them
+# T43 -> Dogan news agency
+# T63 -> a five-year-old Syrian girl
+# T59 -> EU border agency Frontex
+# T41 -> northwestern Turkish port of Canakkale
+
+» RELATIONS
+# E1 - patient - T30
+# E1 - location - T31
+# E1 - reason - E3
+# E2 - theme - T33
+# E2 - patient - T67
+# E2 - finalLocation - T34
+# E3 - theme - T33
+# E3 - patient - T35
+# T36 - agent - E4
+# E4 - theme - E1
+# E5 - pivot - T37
+# E5 - theme - T38
+# E6 - cause - T38
+# E7 - cause - E6
+# E7 - theme - T39
+# E8 - theme - T39
+# E8 - patient - T40
+# E8 - initialLocation - T41
+# E8 - finalLocation - T42
+# E9 - agent - T43
+# E9 - theme - E5
+# E10 - patient - T44
+# E11 - pivot - T45
+# E12 - source - E13
+# E12 - theme - E10
+# E14 - theme - E15
+# E15 - theme - T46
+# E25 - theme - E24
+# E25 - location - T48
+# E26 - agent - T49
+# E26 - theme - T50
+# E27 - pivot - T50
+# E27 - initialLocation - T51
+# E28 - patient - T52
+# E28 - location - T53
+# E16 - agent - T54
+# E16 - theme - E17
+# E17 - agent - T55
+# E17 - patient - T56
+# E18 - patient - T56
+# E18 - location - T57
+# E18 - agent - T58
+# E19 - patient - T58
+# E19 - agent - T59
+# E20 - agent - T60
+# E20 - theme - E21
+# E21 - pivot - T61
+# E21 - location - T62
+# E22 - patient - T63
+# E22 - setting - E23
+# E23 - initialLocation - T64
+# E23 - finalLocation - T65
+# T31 - partOf - T32
+# T37 - subSet - T38
+# T37 - subSet - T30
+# T39 - objIdentity - T33
+# T38 - objIdentity - T30
+# T38 - memberOf - T40
+# T42 - partOf - T34
+# T44 - subSet - T40
+# T45 - refDisjunct - T44
+# T45 - subSet - T40
+# T46 - partOf - T47
+# T47 - objIdentity - T40
+# T52 - objIdentity - T51
+# T53 - partOf - T34
+# T54 - objIdentity - T49
+# T55 - objIdentity - T54
+# T57 - objIdentity - T48
+# T60 - objIdentity - T56
+# T61 - refDisjunct - T56
+# T62 - objIdentity - T51
+# T65 - objIdentity - T34
+# T67 - objIdentity - T30

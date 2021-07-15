@@ -1,0 +1,39 @@
+» EVENTS
+# E1 (meet) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T5) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T5), Factuality(a,Factual)]) 
+
+# E2 (presented read) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T6) & relationRole(theme,T7) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T6), relationRole(theme,T7), Factuality(b,Factual)]) 
+
+# E3 (will demo you ‚Äôll get) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T8) & relationRole(theme,T9) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T8), relationRole(theme,T9), Factuality(c,Factual)]) 
+
+# E4 (see) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T9) & relationRole(theme,T10) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T9), relationRole(theme,T10), Factuality(d,Factual)]) 
+
+» ACTORS
+# T9 -> an exclusive chance to
+# T8 -> 50 of the world‚Äôs best startups
+# T5 -> the nine startups
+# T1 -> silicon valleys
+# T10 -> the diversity in our tech startups
+# T6 -> that
+# T4 -> seven new startups from silicon valley‚Äôs favorite new demo day.
+# T2 -> silicon valley‚Äôs
+# T3 -> seven new startups from silicon valleys favorite new demo day by
+# T7 -> our take
+
+» RELATIONS
+# E1 - theme - T5
+# E2 - theme - T6
+# E2 - theme - T7
+# E3 - theme - T8
+# E3 - theme - T9
+# E4 - theme - T9
+# E4 - theme - T10
+# T3 - objIdentity - T4
+# T1 - objIdentity - T2

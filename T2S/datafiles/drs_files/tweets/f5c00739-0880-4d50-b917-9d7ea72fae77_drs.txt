@@ -1,0 +1,163 @@
+» EVENTS
+# E1 (fought) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T51) & relationRole(location,T52) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T51), relationRole(location,T52), Factuality(a,Factual)]) 
+
+# E2 (rising) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(time,T1) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(time,T1), Factuality(b,Factual)]) 
+
+# E3 (remains) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T2) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T2), Factuality(c,Factual)]) 
+
+# E4 (lie) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T54) & relationRole(theme,T55) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T54), relationRole(theme,T55), Factuality(d,Factual)]) 
+
+# E5 (are lying) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T3) & relationRole(manner,T58) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T3), relationRole(manner,T58), Factuality(e,Factual)]) 
+
+# E6 (were) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T60) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T60), Factuality(f,Factual)]) 
+
+# E7 (are due to lie) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T6) & relationRole(theme,T36) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T6), relationRole(theme,T36), Factuality(g,Factual)]) 
+
+# E8 (collins barracks cork awaiting) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T7) & relationRole(theme,T8) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T7), relationRole(theme,T8), Factuality(h,Factual)]) 
+
+# E9 (remains) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T9) & relationRole(theme,T10) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T9), relationRole(theme,T10), Factuality(i,Factual)]) 
+
+# E10 (executed) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T10) & relationRole(theme,T11) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T10), relationRole(theme,T11), Factuality(j,Factual)]) 
+
+# E11 (criticises) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T15) & relationRole(theme,T16) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T15), relationRole(theme,T16), Factuality(k,Factual)]) 
+
+# E12 (remains) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T18) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T18), Factuality(l,Factual)]) 
+
+# E13 (begins) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T45) & relationRole(theme,T46) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T45), relationRole(theme,T46), Factuality(m,Factual)]) 
+
+# E14 (laid to rest) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T20) & relationRole(location,T41) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T20), relationRole(location,T41), Factuality(n,Factual)]) 
+
+# E15 (beginning) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T21) & relationRole(theme,T48) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T21), relationRole(theme,T48), Factuality(o,Factual)]) 
+
+» ACTORS
+# T10 -> collins barracks cork 1916
+# T16 -> thomas kent
+# T17 -> thomas kents
+# T18 -> thomas kent
+# T2 -> thomas kent
+# T20 -> thomas kent
+# T26 -> remains of thomas kent
+# T27 -> the remains of thomas kent
+# T28 -> the remains of commandant thomas kent
+# T29 -> remains of thomas kent
+# T3 -> thomas kent
+# T30 -> thomas kents remains
+# T31 -> remains of executed rebel thomas kent
+# T32 -> remains of thomas kent
+# T33 -> commandant thomas kent
+# T34 -> executed rebel thomas kent
+# T35 -> executed 1916 rebel thomas kent
+# T36 -> collins barracks where the remains of commandant thomas kent are due to lie in repose
+# T37 -> collins barracks cork
+# T38 -> collins barracks
+# T39 -> state funeral
+# T4 -> collins barracks cork
+# T40 -> state funeral for executed 1916 rebel thomas kent.
+# T41 -> state funeral
+# T42 -> the state funeral of
+# T45 -> taoiseach endakennytd
+# T46 -> his
+# T47 -> taoiseach endakennytd
+# T48 -> his
+# T9 -> thomas kents
+# T58 -> in state
+# T21 -> endakennytd
+# T60 -> in
+# T49 -> castlelyons church
+# T6 -> thomas kent
+# T19 -> castlelyons church
+# T11 -> thomas kent
+# T44 -> castlelyons
+# T52 -> in the british army
+# T8 -> thomas kent
+# T1 -> easter 1916
+# T43 -> castlelyons
+# T15 -> elliott
+# T51 -> who
+# T7 -> garrison church collins barracks
+# T55 -> in repose
+# T54 -> to
+
+» RELATIONS
+# E1 - theme - T51
+# E1 - location - T52
+# E2 - time - T1
+# E3 - theme - T2
+# E4 - theme - T54
+# E4 - theme - T55
+# E5 - theme - T3
+# E5 - manner - T58
+# E6 - theme - T60
+# E7 - theme - T6
+# E7 - theme - T36
+# E8 - theme - T7
+# E8 - theme - T8
+# E9 - theme - T9
+# E9 - theme - T10
+# E10 - theme - T10
+# E10 - theme - T11
+# E11 - theme - T15
+# E11 - theme - T16
+# E12 - theme - T18
+# E13 - theme - T45
+# E13 - theme - T46
+# E14 - theme - T20
+# E14 - location - T41
+# E15 - theme - T21
+# E15 - theme - T48
+# T26 - objIdentity - T27
+# T27 - objIdentity - T28
+# T28 - objIdentity - T29
+# T29 - objIdentity - T30
+# T30 - objIdentity - T31
+# T31 - objIdentity - T32
+# T2 - objIdentity - T3
+# T3 - objIdentity - T33
+# T33 - objIdentity - T9
+# T9 - objIdentity - T34
+# T34 - objIdentity - T35
+# T35 - objIdentity - T16
+# T16 - objIdentity - T17
+# T17 - objIdentity - T18
+# T18 - objIdentity - T20
+# T4 - objIdentity - T36
+# T36 - objIdentity - T37
+# T37 - objIdentity - T38
+# T39 - objIdentity - T40
+# T40 - objIdentity - T41
+# T41 - objIdentity - T42
+# T43 - objIdentity - T44
+# T45 - objIdentity - T46
+# T46 - objIdentity - T47
+# T47 - objIdentity - T48
+# T19 - objIdentity - T49

@@ -1,0 +1,15 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+palin - said - palin,palin - supports - ohio legislature,0.735,0.512,0.472,0.333
+palin - blamed - palin,palin - supports - ohio legislature,0.723,0.514,0.447,0.333
+palin - comments - palin,palin - supports - ohio legislature,0.756,0.491,0.522,0.333
+syndrome - prenatal diagnosis - 60  90,syndrome - dragging - syndrome,0.693,0.356,0.483,0.333
+ohio legislature - considers - bill,palin - supports - ohio legislature,0.652,0.396,0.331,0.0
+syndrome - involving - syndrome,syndrome - dragging - syndrome,0.862,0.749,0.784,0.667
+kasich - opposes - kasich,kasich - says he would sign - ohios,0.758,0.127,0.48,0.333
+kasich - has not yet commented - bill,kasich - says he would sign - ohios,0.772,0.184,0.527,0.333
+son - has - syndrome,ohios bill ban abortion cases syndrome - would ban - syndrome,0.771,0.479,0.567,0.333
+particular issue - touches - close home,ohios bill ban abortion cases syndrome - would ban - syndrome,0.635,0.189,0.363,0.0
+termination rates - review - united states,ohios bill ban abortion cases syndrome - would ban - syndrome,0.624,0.214,0.333,0.0
+international society prenatal diagnosis - conducted - international society prenatal diagnosis,ohios bill ban abortion cases syndrome - would ban - syndrome,0.695,0.328,0.345,0.0
+bill - would prohibit - bill,ohios bill ban abortion cases syndrome - would ban - syndrome,0.711,0.485,0.485,0.206
+mother - life - mother,syndrome - is - reason abortion,0.634,0.239,0.345,0.0

@@ -1,0 +1,122 @@
+» EVENTS
+# E1 (were doing everything we can to be) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T15) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T15), Factuality(a,Factual)]) 
+
+# E2 (have questioned) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T9) & relationRole(theme,T16) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T9), relationRole(theme,T16), Factuality(b,Factual)]) 
+
+# E3 (resting) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T17) & relationRole(theme,T18) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T17), relationRole(theme,T18), Factuality(c,Factual)]) 
+
+# E4 (should be changed) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(location,T1) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(location,T1), Factuality(d,Factual)]) 
+
+# E5 (resting) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T10) & relationRole(theme,T19) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T10), relationRole(theme,T19), Factuality(e,Factual)]) 
+
+# E6 (rest) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(manner,T20) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(manner,T20), Factuality(f,Factual)]) 
+
+# E7 (says) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(purpose,T21) & relationRole(theme,T2) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(purpose,T21), relationRole(theme,T2), Factuality(g,Factual)]) 
+
+# E8 (s) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T22) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T22), Factuality(h,Factual)]) 
+
+# E9 (gaining continuity than resting players says) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T22) & relationRole(theme,T3) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T22), relationRole(theme,T3), Factuality(i,Factual)]) 
+
+# E10 (is rolling) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T23) & relationRole(path,T24) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T23), relationRole(path,T24), Factuality(j,Factual)]) 
+
+# E11 (resting) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T27) & relationRole(theme,T28) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T27), relationRole(theme,T28), Factuality(k,Factual)]) 
+
+# E12 (resting players is interesting i would nt be) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T29) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T29), Factuality(l,Factual)]) 
+
+# E13 (come out) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T31) & relationRole(time,T32) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T31), relationRole(time,T32), Factuality(m,Factual)]) 
+
+# E14 (says he has been vindicated for resting) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T4) & relationRole(theme,T34) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T4), relationRole(theme,T34), Factuality(n,Factual)]) 
+
+# E15 (says the crows will not copy) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T6) & relationRole(theme,T35) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T6), relationRole(theme,T35), Factuality(o,Factual)]) 
+
+» ACTORS
+# T10 -> the crows
+# T11 -> the hawks
+# T12 -> the crows
+# T13 -> he
+# T14 -> adelaide fc coach scott camporeale
+# T2 -> scott camporeale
+# T22 -> more value for the hawks in
+# T4 -> brad scott
+# T9 -> the crows
+# T18 -> players
+# T32 -> next very flat
+# T6 -> adelaide fc
+# T35 -> the eagles tactics against
+# T29 -> surprised
+# T3 -> clarko
+# T21 -> for crows
+# T15 -> in the best shape for the first week of finals
+# T31 -> many
+# T23 -> a decent crowd
+# T20 -> not best
+# T28 -> 9 players
+# T17 -> rules around
+# T1 -> the afl season
+# T16 -> whether
+# T24 -> into etihadstadiumau
+# T27 -> the nmfcofficial
+# T19 -> players
+# T34 -> players
+
+» RELATIONS
+# E1 - theme - T15
+# E2 - theme - T9
+# E2 - theme - T16
+# E3 - theme - T17
+# E3 - theme - T18
+# E4 - location - T1
+# E5 - theme - T10
+# E5 - theme - T19
+# E6 - manner - T20
+# E7 - purpose - T21
+# E7 - theme - T2
+# E8 - theme - T22
+# E9 - theme - T22
+# E9 - theme - T3
+# E10 - theme - T23
+# E10 - path - T24
+# E11 - theme - T27
+# E11 - theme - T28
+# E12 - theme - T29
+# E13 - theme - T31
+# E13 - time - T32
+# E14 - theme - T4
+# E14 - theme - T34
+# E15 - theme - T6
+# E15 - theme - T35
+# T9 - objIdentity - T10
+# T10 - objIdentity - T11
+# T11 - objIdentity - T12
+# T4 - objIdentity - T13
+# T2 - objIdentity - T14

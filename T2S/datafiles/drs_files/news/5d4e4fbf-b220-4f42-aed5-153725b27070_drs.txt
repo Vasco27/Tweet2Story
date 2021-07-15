@@ -1,0 +1,54 @@
+» EVENTS
+# E1 (has called) -> a
+# FOL:  exists a.(relationRole(agent,T1) & relationRole(goal,T3) & event(a))
+# DRS:  ([a],[relationRole(agent,T1), relationRole(goal,T3), event(a)]) 
+
+# E2 (operating) -> b
+# FOL:  exists b.(relationRole(agent,T3) & relationRole(location,T5) & event(b))
+# DRS:  ([b],[relationRole(agent,T3), relationRole(location,T5), event(b)]) 
+
+# E3 (to create) -> c
+# FOL:  exists c.(relationRole(agent,T3) & relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(agent,T3), relationRole(theme,E4), event(c)]) 
+
+# E4 (employment) -> d
+# FOL:  exists d.(relationRole(beneficiary,T8) & relationRole(purpose,E8) & event(d))
+# DRS:  ([d],[relationRole(beneficiary,T8), relationRole(purpose,E8), event(d)]) 
+
+# E5 (sustainable cooperation) -> e
+# FOL:  exists e.event(e)
+# DRS:  ([e],[event(e)]) 
+
+# E6 (conducive environment) -> f
+# FOL:  exists f.event(f)
+# DRS:  ([f],[event(f)]) 
+
+# E7 (Speaking) -> g
+# FOL:  exists g.event(g)
+# DRS:  ([g],[event(g)]) 
+
+# E8 (foster) -> h
+# FOL:  exists h.(relationRole(theme,E5) & relationRole(theme,E6) & relationRole(cause,E4) & event(h))
+# DRS:  ([h],[relationRole(theme,E5), relationRole(theme,E6), relationRole(cause,E4), event(h)]) 
+
+» ACTORS
+# T15 -> host communities
+# T3 -> oil companies
+# T5 -> the state
+# T8 -> the people
+# T1 -> Delta State Governor Ifeanyi Okowa
+
+» RELATIONS
+# E1 - agent - T1
+# E1 - goal - T3
+# E2 - agent - T3
+# E2 - location - T5
+# E3 - agent - T3
+# E3 - theme - E4
+# E4 - beneficiary - T8
+# E8 - theme - E5
+# E8 - theme - E6
+# E4 - purpose - E8
+# E8 - cause - E4
+# T8 - partOf - T15
+# T15 - partOf - T5

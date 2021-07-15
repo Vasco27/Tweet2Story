@@ -1,0 +1,73 @@
+» EVENTS
+# E1 (met) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T11) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T11), Factuality(a,Factual)]) 
+
+# E2 (s) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T11) & relationRole(theme,T11) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T11), relationRole(theme,T11), Factuality(b,Factual)]) 
+
+# E3 (undecided) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T14) & relationRole(theme,T3) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T14), relationRole(theme,T3), Factuality(c,Factual)]) 
+
+# E4 (undecided) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T4) & relationRole(theme,T16) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T4), relationRole(theme,T16), Factuality(d,Factual)]) 
+
+# E5 (talking) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T17) & relationRole(theme,T18) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T17), relationRole(theme,T18), Factuality(e,Factual)]) 
+
+# E6 (is looking) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T19) & relationRole(theme,T20) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T19), relationRole(theme,T20), Factuality(f,Factual)]) 
+
+# E7 (will be increased) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T21) & relationRole(theme,T22) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T21), relationRole(theme,T22), Factuality(g,Factual)]) 
+
+# E8 (s) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T23) & relationRole(theme,T24) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T23), relationRole(theme,T24), Factuality(h,Factual)]) 
+
+# E9 (increase) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T24) & relationRole(theme,T25) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T24), relationRole(theme,T25), Factuality(i,Factual)]) 
+
+» ACTORS
+# T11 -> a new hampshire voter whos undecided between caaaaaahly and caaaahson
+# T12 -> the undecided voter
+# T24 -> the best way to
+# T21 -> voter turnout
+# T3 -> brainard
+# T4 -> powell
+# T22 -> from the 2013 municipal election
+# T18 -> on the post election performance evaluation on voter educatn amp publicity
+# T23 -> what
+# T16 -> tarullo unlikely 1 3
+# T25 -> voter turnout
+# T17 -> voter education expert jideojong
+# T14 -> fischer
+# T19 -> it
+# T20 -> like
+
+» RELATIONS
+# E1 - theme - T11
+# E2 - theme - T11
+# E2 - theme - T11
+# E3 - theme - T14
+# E3 - theme - T3
+# E4 - theme - T4
+# E4 - theme - T16
+# E5 - theme - T17
+# E5 - theme - T18
+# E6 - theme - T19
+# E6 - theme - T20
+# E7 - theme - T21
+# E7 - theme - T22
+# E8 - theme - T23
+# E8 - theme - T24
+# E9 - theme - T24
+# E9 - theme - T25
+# T11 - objIdentity - T12

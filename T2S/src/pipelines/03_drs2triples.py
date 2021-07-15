@@ -219,15 +219,7 @@ def triples_evaluation(model, news_triples, tweets_triples, model_names):
     return pd.DataFrame(tnews_scores)
 
 
-def main(tweets_file, news_file, verbose=True):
-    t_actors, t_non_ev_rels, t_ev_rels = parser.get_graph_data(tweets_file)
-    tweets_kg = pd.DataFrame(t_ev_rels, columns=["edge1", "node", "edge2"])
-    t_actors = {key: val.lower() for key, val in t_actors.items()}
-
-    n_actors, n_non_ev_rels, n_ev_rels = parser.get_graph_data(news_file)
-    news_kg = pd.DataFrame(n_ev_rels, columns=["edge1", "node", "edge2"])
-    n_actors = {key: val.lower() for key, val in n_actors.items()}
-
+def main(n_actors, news_kg, t_actors, tweets_kg, verbose=True):
     print("\n1. REMOVING STOPWORDS...")
     n_actors, news_kg = remove_stopwords(n_actors, news_kg)
     t_actors, tweets_kg = remove_stopwords(t_actors, tweets_kg)
@@ -282,9 +274,15 @@ def main(tweets_file, news_file, verbose=True):
 
     start = time.time()
     paired_KG_evaluation = pd.DataFrame()
+    non_paired_KG = pd.DataFrame()
     for cluster in paired_clusters.itertuples():
         news_triples = news_kg[news_kg["edge1"] == cluster.news_key]
         tweets_triples = tweets_kg[tweets_kg["edge1"] == cluster.tweets_key]
+        if tweets_triples.shape[0] == 0:
+            tweets_triples = tweets_kg[tweets_kg["edge2"] == cluster.tweets_key]
+        if tweets_triples.shape[0] == 0:
+            non_paired_KG = non_paired_KG.append(tweets_triples, ignore_index=True)
+            continue
         paired_KG_evaluation = paired_KG_evaluation.append(
             triples_evaluation(model, news_triples, tweets_triples, model_names),
             ignore_index=True)
@@ -298,7 +296,7 @@ def main(tweets_file, news_file, verbose=True):
 
     # non paired KG evaluation (triples da notícia para os quais não encontro semelhantes nos tweets)
     print("\nNON PAIRED CLUSTERS TRIPLES EVALUATION...")
-    non_paired_KG = news_kg[~news_kg["edge1"].isin(paired_clusters["news_key"])]
+    non_paired_KG = non_paired_KG.append(news_kg[~news_kg["edge1"].isin(paired_clusters["news_key"])], ignore_index=True)
     non_paired_KG_evaluation = triples_evaluation(model, non_paired_KG, tweets_kg, model_names)
     print(non_paired_KG_evaluation)
 
@@ -333,8 +331,18 @@ if __name__ == '__main__':
             print(f"No tweet file -> {tweet_file}")
             continue
         news_file = os.path.join(news_drs_dir, filename)
-        evaluation_df, metrics = main(tweet_file, news_file, verbose=True)
+
+        tweets_actors, _, tweets_events = parser.get_graph_data(tweet_file)
+        tweets_kg = pd.DataFrame(tweets_events, columns=["edge1", "node", "edge2"])
+        tweets_actors = {key: val.lower() for key, val in tweets_actors.items()}
+
+        news_actors, _, news_events = parser.get_graph_data(news_file)
+        news_kg = pd.DataFrame(news_events, columns=["edge1", "node", "edge2"])
+        news_actors = {key: val.lower() for key, val in news_actors.items()}
+
+        evaluation_df, metrics = main(news_actors, news_kg, tweets_actors, tweets_kg, verbose=True)
         metrics["topic"] = topic_name
+        metrics["n_triples"] = tweets_kg.shape[0]
 
         results_list.append(metrics)
         evaluation_df.to_csv(os.path.join(results_path, topic_name+".csv"), index=False)

@@ -1,0 +1,253 @@
+» EVENTS
+# E1 (doesnt feel) -> a
+# FOL:  exists a.(relationRole(pivot,T2) & relationRole(theme,E2) & event(a))
+# DRS:  ([a],[relationRole(pivot,T2), relationRole(theme,E2), event(a)]) 
+
+# E2 (cheated) -> b
+# FOL:  exists b.event(b)
+# DRS:  ([b],[event(b)]) 
+
+# E3 (says) -> c
+# FOL:  exists c.(relationRole(agent,T2) & relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(agent,T2), relationRole(theme,E4), event(c)]) 
+
+# E4 (wouldnt deploy) -> d
+# FOL:  exists d.(relationRole(agent,T69) & relationRole(theme,E5) & event(d))
+# DRS:  ([d],[relationRole(agent,T69), relationRole(theme,E5), event(d)]) 
+
+# E5 (controversial tactic) -> e
+# FOL:  exists e.(relationRole(pivot,T40) & relationRole(theme,E6) & event(e))
+# DRS:  ([e],[relationRole(pivot,T40), relationRole(theme,E6), event(e)]) 
+
+# E6 (resting) -> f
+# FOL:  exists f.(relationRole(agent,T40) & relationRole(patient,T41) & event(f))
+# DRS:  ([f],[relationRole(agent,T40), relationRole(patient,T41), event(f)]) 
+
+# E7 (are resting) -> g
+# FOL:  exists g.(relationRole(pivot,T42) & relationRole(patient,T43) & event(g))
+# DRS:  ([g],[relationRole(pivot,T42), relationRole(patient,T43), event(g)]) 
+
+# E8 (result) -> h
+# FOL:  exists h.event(h)
+# DRS:  ([h],[event(h)]) 
+
+# E9 (are sweating on) -> i
+# FOL:  exists i.(relationRole(pivot,T45) & relationRole(purpose,E8) & relationRole(theme,E10) & event(i))
+# DRS:  ([i],[relationRole(pivot,T45), relationRole(purpose,E8), relationRole(theme,E10), event(i)]) 
+
+# E10 (finals campaign) -> j
+# FOL:  exists j.(relationRole(pivot,T46) & event(j))
+# DRS:  ([j],[relationRole(pivot,T46), event(j)]) 
+
+# E11 (said) -> k
+# FOL:  exists k.(relationRole(agent,T64) & relationRole(theme,E12) & event(k))
+# DRS:  ([k],[relationRole(agent,T64), relationRole(theme,E12), event(k)]) 
+
+# E12 (placed) -> l
+# FOL:  exists l.(relationRole(agent,T71) & relationRole(theme,E13) & event(l))
+# DRS:  ([l],[relationRole(agent,T71), relationRole(theme,E13), event(l)]) 
+
+# E13 (higher priority) -> m
+# FOL:  exists m.(relationRole(theme,E14) & event(m))
+# DRS:  ([m],[relationRole(theme,E14), event(m)]) 
+
+# E14 (synergy) -> n
+# FOL:  exists n.(relationRole(pivot,T66) & event(n))
+# DRS:  ([n],[relationRole(pivot,T66), event(n)]) 
+
+# E15 (resting) -> o
+# FOL:  exists o.(relationRole(patient,T67) & relationRole(agent,T64) & event(o))
+# DRS:  ([o],[relationRole(patient,T67), relationRole(agent,T64), event(o)]) 
+
+# E16 (final round fixture) -> p
+# FOL:  exists p.(relationRole(source,T11) & relationRole(goal,T44) & event(p))
+# DRS:  ([p],[relationRole(source,T11), relationRole(goal,T44), event(p)]) 
+
+# E17 (win) -> q
+# FOL:  exists q.(relationRole(agent,T47) & event(q))
+# DRS:  ([q],[relationRole(agent,T47), event(q)]) 
+
+# E18 (could host) -> r
+# FOL:  exists r.(relationRole(agent,T48) & relationRole(theme,E19) & event(r))
+# DRS:  ([r],[relationRole(agent,T48), relationRole(theme,E19), event(r)]) 
+
+# E19 (home elimination final) -> s
+# FOL:  exists s.event(s)
+# DRS:  ([s],[event(s)]) 
+
+# E20 (mass resting) -> t
+# FOL:  exists t.event(t)
+# DRS:  ([t],[event(t)]) 
+
+# E21 (expected) -> u
+# FOL:  exists u.(relationRole(pivot,T50) & relationRole(theme,E22) & event(u))
+# DRS:  ([u],[relationRole(pivot,T50), relationRole(theme,E22), event(u)]) 
+
+# E22 (to lose) -> v
+# FOL:  exists v.event(v)
+# DRS:  ([v],[event(v)]) 
+
+# E23 (costing) -> w
+# FOL:  exists w.(relationRole(beneficiary,T51) & relationRole(theme,E24) & relationRole(cause,E22) & event(w))
+# DRS:  ([w],[relationRole(beneficiary,T51), relationRole(theme,E24), relationRole(cause,E22), event(w)]) 
+
+# E24 (home play-off) -> x
+# FOL:  exists x.event(x)
+# DRS:  ([x],[event(x)]) 
+
+# E25 (ensuring) -> y
+# FOL:  exists y.(relationRole(theme,E26) & relationRole(cause,E22) & event(y))
+# DRS:  ([y],[relationRole(theme,E26), relationRole(cause,E22), event(y)]) 
+
+# E26 (play) -> z
+# FOL:  exists z.(relationRole(agent,T52) & relationRole(location,T53) & relationRole(setting,E27) & event(z))
+# DRS:  ([z],[relationRole(agent,T52), relationRole(location,T53), relationRole(setting,E27), event(z)]) 
+
+# E27 (finals) -> aa
+# FOL:  exists aa.event(aa)
+# DRS:  ([aa],[event(aa)]) 
+
+# E28 (are in place) -> ab
+# FOL:  exists ab.(relationRole(pivot,T55) & event(ab))
+# DRS:  ([ab],[relationRole(pivot,T55), event(ab)]) 
+
+# E29 (will deal with) -> ac
+# FOL:  exists ac.(relationRole(agent,T56) & relationRole(theme,T49) & event(ac))
+# DRS:  ([ac],[relationRole(agent,T56), relationRole(theme,T49), event(ac)]) 
+
+# E30 (is) -> ad
+# FOL:  exists ad.(relationRole(pivot,T70) & event(ad))
+# DRS:  ([ad],[relationRole(pivot,T70), event(ad)]) 
+
+# E31 (told) -> ae
+# FOL:  exists ae.(relationRole(agent,T57) & relationRole(goal,T58) & relationRole(theme,E28) & event(ae))
+# DRS:  ([ae],[relationRole(agent,T57), relationRole(goal,T58), relationRole(theme,E28), event(ae)]) 
+
+# E32 (prepared) -> af
+# FOL:  exists af.(relationRole(agent,T60) & relationRole(theme,E33) & event(af))
+# DRS:  ([af],[relationRole(agent,T60), relationRole(theme,E33), event(af)]) 
+
+# E33 (travel) -> ag
+# FOL:  exists ag.(relationRole(finalLocation,T61) & relationRole(purpose,E34) & event(ag))
+# DRS:  ([ag],[relationRole(finalLocation,T61), relationRole(purpose,E34), event(ag)]) 
+
+# E34 (match) -> ah
+# FOL:  exists ah.(relationRole(theme,T63) & event(ah))
+# DRS:  ([ah],[relationRole(theme,T63), event(ah)]) 
+
+# E35 (has) -> ai
+# FOL:  exists ai.(relationRole(theme,E21) & relationRole(pivot,T50) & relationRole(cause,E20) & event(ai))
+# DRS:  ([ai],[relationRole(theme,E21), relationRole(pivot,T50), relationRole(cause,E20), event(ai)]) 
+
+» ACTORS
+# T1 -> Adelaide
+# T11 -> AFL
+# T2 -> coach Scott Camporeale
+# T40 -> North Melbournes
+# T41 -> players
+# T42 -> The Roos
+# T43 -> nine star players
+# T45 -> the Crows
+# T46 -> their
+# T47 -> the Kangaroos
+# T48 -> Adelaide
+# T49 -> it
+# T50 -> North
+# T51 -> the Crows
+# T52 -> the Roos
+# T53 -> Melbourne
+# T55 -> The rules
+# T56 -> we
+# T57 -> Camporeale
+# T59 -> his
+# T60 -> team
+# T61 -> Geelong
+# T63 -> the Cats
+# T64 -> Camporeale
+# T65 -> his
+# T66 -> team
+# T69 -> he
+# T70 -> it
+# T71 -> he
+# T67 -> players
+# T44 -> Richmond
+# T58 -> reporters
+
+» RELATIONS
+# E1 - pivot - T2
+# E1 - theme - E2
+# E3 - agent - T2
+# E3 - theme - E4
+# E4 - agent - T69
+# E4 - theme - E5
+# E5 - pivot - T40
+# E5 - theme - E6
+# E6 - agent - T40
+# E6 - patient - T41
+# E7 - pivot - T42
+# E7 - patient - T43
+# E16 - source - T11
+# E16 - goal - T44
+# E9 - pivot - T45
+# E9 - purpose - E8
+# E9 - theme - E10
+# E10 - pivot - T46
+# E17 - agent - T47
+# E18 - agent - T48
+# E18 - theme - E19
+# E35 - theme - E21
+# E35 - pivot - T50
+# E35 - cause - E20
+# E21 - pivot - T50
+# E21 - theme - E22
+# E23 - beneficiary - T51
+# E23 - theme - E24
+# E25 - theme - E26
+# E26 - agent - T52
+# E26 - location - T53
+# E26 - setting - E27
+# E23 - cause - E22
+# E25 - cause - E22
+# E28 - pivot - T55
+# E29 - agent - T56
+# E29 - theme - T49
+# E30 - pivot - T70
+# E31 - agent - T57
+# E31 - goal - T58
+# E31 - theme - E28
+# E32 - agent - T60
+# E32 - theme - E33
+# E33 - finalLocation - T61
+# E33 - purpose - E34
+# E34 - theme - T63
+# E11 - agent - T64
+# E11 - theme - E12
+# E12 - agent - T71
+# E12 - theme - E13
+# E13 - theme - E14
+# E14 - pivot - T66
+# E15 - patient - T67
+# E15 - agent - T64
+# T2 - partOf - T1
+# T41 - partOf - T40
+# T43 - partOf - T42
+# T46 - objIdentity - T45
+# T47 - objIdentity - T42
+# T48 - objIdentity - T1
+# T50 - objIdentity - T47
+# T51 - objIdentity - T45
+# T52 - objIdentity - T50
+# T42 - objIdentity - T40
+# T42 - partOf - T11
+# T56 - objIdentity - T52
+# T57 - objIdentity - T2
+# T59 - objIdentity - T57
+# T59 - partOf - T60
+# T60 - objIdentity - T52
+# T64 - objIdentity - T57
+# T65 - objIdentity - T64
+# T66 - objIdentity - T60
+# T69 - objIdentity - T2
+# T49 - objIdentity - T55
+# T70 - objIdentity - T49
+# T71 - objIdentity - T64

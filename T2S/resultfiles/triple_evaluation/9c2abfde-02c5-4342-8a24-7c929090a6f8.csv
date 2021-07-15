@@ -1,0 +1,23 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+carson - is - wellknown politician,carson - is - person,0.882,0.781,0.767,0.5
+carson - is - author,carson - is - person,0.882,0.765,0.722,0.5
+carson - is - neurosurgeon,carson - is - person,0.84,0.742,0.852,0.5
+carson - retired - johns hopkins,carson - grows - louder,0.761,0.399,0.439,0.333
+carson - made - headlines,carson - would make - good republican presidential candidate,0.78,0.604,0.692,0.333
+carson - announced - carson,carson - interviewing - carson,0.856,0.718,0.73,0.667
+carson - was running - carson,carson - outcry - carson,0.88,0.715,0.717,0.667
+carson - was awarded - presidential medal freedom,carson - would make - good republican presidential candidate,0.831,0.641,0.66,0.429
+carson - was awarded - president george w bush,carson - was meant to be - first surgeon,0.81,0.6,0.626,0.417
+carson - work - carson,carson - interviewing - carson,0.888,0.762,0.742,0.667
+carson - views - carson,carson - interviewing - carson,0.881,0.696,0.907,0.667
+carson - speeches - carson,carson - interviewing - carson,0.903,0.737,0.742,0.667
+carson - have solidified - popular conservative figure,carson - would make - good republican presidential candidate,0.825,0.632,0.641,0.333
+first surgeon - was - carson,carson - was meant to be - first surgeon,0.65,0.337,0.6,0.095
+first surgeon - to successfully separate - conjoined twins,carson - was meant to be - first surgeon,0.642,0.291,0.506,0.074
+presidential medal freedom - was awarded - president george w bush,san francisco - to discuss why he believes he should win - presidential medal freedom,0.679,0.307,0.411,0.0
+wellknown politician - is - author,carson - is - person,0.756,0.475,0.569,0.167
+wellknown politician - is - neurosurgeon,ben carson - is - san francisco,0.725,0.419,0.573,0.167
+author - is - neurosurgeon,ben carson - is - san francisco,0.683,0.419,0.549,0.167
+republican - nomination - republican,carson - would make - good republican presidential candidate,0.655,0.408,0.6,0.133
+conjoined twins - joined - head,pretty - ve met who has separated conjoined twins joined - headlines,0.727,0.303,0.7,0.061
+popular conservative figure - politics - popular conservative figure,ben carson - is gaining - political ground,0.697,0.209,0.368,0.0

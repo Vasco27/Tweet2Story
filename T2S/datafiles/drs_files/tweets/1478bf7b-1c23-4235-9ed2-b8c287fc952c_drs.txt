@@ -1,0 +1,63 @@
+» EVENTS
+# E1 (will be) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T17) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T17), Factuality(a,Factual)]) 
+
+# E2 (will be) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T15) & relationRole(theme,T18) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T15), relationRole(theme,T18), Factuality(b,Factual)]) 
+
+# E3 (have bagged) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T3) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T3), Factuality(c,Factual)]) 
+
+# E4 (expect to complete) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T5) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T5), Factuality(d,Factual)]) 
+
+# E5 (bagged) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T11) & relationRole(theme,T6) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T11), relationRole(theme,T6), Factuality(e,Factual)]) 
+
+# E6 (is) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T6) & relationRole(theme,T20) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T6), relationRole(theme,T20), Factuality(f,Factual)]) 
+
+» ACTORS
+# T1 -> ostro energy
+# T10 -> 100 mw order
+# T11 -> 100 mw order bagged from ostro energy
+# T12 -> ostro energy
+# T15 -> 100 mw project
+# T16 -> 100 mw power project
+# T4 -> ostro energy
+# T5 -> ostro energy
+# T6 -> ostro energy
+# T7 -> ostro energy
+# T9 -> 100 mw order
+# T17 -> responsible for entire project lifecycle
+# T3 -> 100 mw
+# T18 -> a part of inox wind park 200 mw capacity at lahori
+# T13 -> inox wind
+# T14 -> inox wind
+# T20 -> worth rs 600 650 cr
+
+» RELATIONS
+# E1 - theme - T17
+# E2 - theme - T15
+# E2 - theme - T18
+# E3 - theme - T3
+# E4 - theme - T5
+# E5 - theme - T11
+# E5 - theme - T6
+# E6 - theme - T6
+# E6 - theme - T20
+# T9 - objIdentity - T10
+# T10 - objIdentity - T11
+# T1 - objIdentity - T4
+# T4 - objIdentity - T12
+# T12 - objIdentity - T5
+# T5 - objIdentity - T6
+# T6 - objIdentity - T7
+# T13 - objIdentity - T14
+# T15 - objIdentity - T16

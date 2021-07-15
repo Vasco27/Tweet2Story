@@ -1,0 +1,245 @@
+» EVENTS
+# E1 (did say he was running) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T33) & relationRole(theme,T62) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T33), relationRole(theme,T62), Factuality(a,Factual)]) 
+
+# E2 (head start) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T62) & relationRole(theme,T63) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T62), relationRole(theme,T63), Factuality(b,Factual)]) 
+
+# E3 (speak) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T1) & relationRole(time,T64) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T1), relationRole(time,T64), Factuality(c,Factual)]) 
+
+# E4 (is) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T5) & relationRole(theme,T6) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T5), relationRole(theme,T6), Factuality(d,Factual)]) 
+
+# E5 (to discuss why he believes he should win) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T6) & relationRole(theme,T67) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T6), relationRole(theme,T67), Factuality(e,Factual)]) 
+
+# E6 (interviewing) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T7) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T7), Factuality(f,Factual)]) 
+
+# E7 (is) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T38) & relationRole(theme,T69) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T38), relationRole(theme,T69), Factuality(g,Factual)]) 
+
+# E8 (ve met who has separated conjoined twins joined) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T55) & relationRole(location,T70) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T55), relationRole(location,T70), Factuality(h,Factual)]) 
+
+# E9 (is gaining) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T8) & relationRole(theme,T71) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T8), relationRole(theme,T71), Factuality(i,Factual)]) 
+
+# E10 (shows) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T11) & relationRole(theme,T73) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T11), relationRole(theme,T73), Factuality(j,Factual)]) 
+
+# E11 (discusses politics i m) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T14) & relationRole(theme,T75) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T14), relationRole(theme,T75), Factuality(k,Factual)]) 
+
+# E12 (was meant to be) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T42) & relationRole(theme,T76) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T42), relationRole(theme,T76), Factuality(l,Factual)]) 
+
+# E13 (thought ben carson was sleep inducing) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T78) & relationRole(time,T79) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T78), relationRole(time,T79), Factuality(m,Factual)]) 
+
+# E14 (rose) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T44) & relationRole(location,T81) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T44), relationRole(location,T81), Factuality(n,Factual)]) 
+
+# E15 (successfully separate conjoined twins mistake) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T82) & relationRole(theme,T17) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T82), relationRole(theme,T17), Factuality(o,Factual)]) 
+
+# E16 (is reason bush awarded) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T84) & relationRole(theme,T57) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T84), relationRole(theme,T57), Factuality(p,Factual)]) 
+
+# E17 (celebrated) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T21) & relationRole(theme,T46) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T21), relationRole(theme,T46), Factuality(q,Factual)]) 
+
+# E18 (was asked if islam was) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T22) & relationRole(theme,T86) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T22), relationRole(theme,T86), Factuality(r,Factual)]) 
+
+# E19 (replied it was) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T48) & relationRole(theme,T87) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T48), relationRole(theme,T87), Factuality(s,Factual)]) 
+
+# E20 (would make) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T49) & relationRole(theme,T88) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T49), relationRole(theme,T88), Factuality(t,Factual)]) 
+
+# E21 (outcry) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T50) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T50), Factuality(u,Factual)]) 
+
+# E22 (grows) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T50) & relationRole(theme,T89) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T50), relationRole(theme,T89), Factuality(v,Factual)]) 
+
+# E23 (blames) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T25) & relationRole(theme,T59) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T25), relationRole(theme,T59), Factuality(w,Factual)]) 
+
+# E24 (blames) -> x
+# FOL:  exists Factual Occurrence Pos Pres x.(event(x) & eventClass(x,Occurrence) & Tense(x,Pres) & Polarity(x,Pos) & relationRole(theme,T26) & relationRole(theme,T60) & Factuality(x,Factual))
+# DRS:  ([x],[event(x), eventClass(x,Occurrence), Tense(x,Pres), Polarity(x,Pos), relationRole(theme,T26), relationRole(theme,T60), Factuality(x,Factual)]) 
+
+# E25 (visiting) -> y
+# FOL:  exists Factual Occurrence Pos Pres y.(event(y) & eventClass(y,Occurrence) & Tense(y,Pres) & Polarity(y,Pos) & relationRole(theme,T28) & relationRole(theme,T29) & Factuality(y,Factual))
+# DRS:  ([y],[event(y), eventClass(y,Occurrence), Tense(y,Pres), Polarity(y,Pos), relationRole(theme,T28), relationRole(theme,T29), Factuality(y,Factual)]) 
+
+» ACTORS
+# T1 -> ben carson
+# T13 -> ben carson
+# T14 -> ben carson
+# T15 -> ben carson
+# T26 -> carson
+# T33 -> he
+# T34 -> he
+# T35 -> dr ben carson
+# T36 -> he
+# T37 -> he
+# T38 -> he
+# T39 -> republican presidential candidate dr ben carson
+# T40 -> dr ben carson
+# T41 -> detroit native dr ben carson
+# T42 -> he
+# T43 -> his
+# T44 -> he
+# T45 -> republican presidential candidate ben carson
+# T46 -> his
+# T47 -> republican presidential candidate ben carson
+# T48 -> he
+# T49 -> he
+# T50 -> republican presidential candidate
+# T51 -> republican presidential hopeful carson
+# T52 -> republican presidential candidate ben carson
+# T53 -> republican presidential hopeful carson
+# T54 -> pretty
+# T55 -> i
+# T56 -> ben one nation carson.
+# T57 -> me
+# T59 -> p c culture
+# T6 -> san francisco
+# T60 -> pc culture
+# T62 -> for president its a
+# T7 -> ben carson
+# T23 -> islam
+# T70 -> at the head
+# T78 -> i
+# T8 -> ben carson
+# T76 -> a surgeon
+# T86 -> consistent with the us constitution
+# T28 -> carson
+# T73 -> early momentum in republican presidential campaign
+# T81 -> in the polls but jee‚Ä¶
+# T67 -> the republican presidential nomination
+# T69 -> the only person
+# T11 -> detroit
+# T82 -> first person
+# T64 -> sept 17
+# T22 -> ben carson
+# T21 -> ben carson
+# T84 -> foreign policy advice
+# T63 -> on diplomacy
+# T17 -> donald trump
+# T79 -> during the last debate
+# T75 -> more and more convinced
+# T87 -> not
+# T71 -> political ground
+# T5 -> ben carson
+# T89 -> louder
+# T29 -> n carolina
+# T88 -> a good republican presidential candidate
+# T25 -> carson
+# T58 -> it
+
+» RELATIONS
+# E1 - theme - T33
+# E1 - theme - T62
+# E2 - theme - T62
+# E2 - theme - T63
+# E3 - theme - T1
+# E3 - time - T64
+# E4 - theme - T5
+# E4 - theme - T6
+# E5 - theme - T6
+# E5 - theme - T67
+# E6 - theme - T7
+# E7 - theme - T38
+# E7 - theme - T69
+# E8 - theme - T55
+# E8 - location - T70
+# E9 - theme - T8
+# E9 - theme - T71
+# E10 - theme - T11
+# E10 - theme - T73
+# E11 - theme - T14
+# E11 - theme - T75
+# E12 - theme - T42
+# E12 - theme - T76
+# E13 - theme - T78
+# E13 - time - T79
+# E14 - theme - T44
+# E14 - location - T81
+# E15 - theme - T82
+# E15 - theme - T17
+# E16 - theme - T84
+# E16 - theme - T57
+# E17 - theme - T21
+# E17 - theme - T46
+# E18 - theme - T22
+# E18 - theme - T86
+# E19 - theme - T48
+# E19 - theme - T87
+# E20 - theme - T49
+# E20 - theme - T88
+# E21 - theme - T50
+# E22 - theme - T50
+# E22 - theme - T89
+# E23 - theme - T25
+# E23 - theme - T59
+# E24 - theme - T26
+# E24 - theme - T60
+# E25 - theme - T28
+# E25 - theme - T29
+# T33 - objIdentity - T34
+# T1 - objIdentity - T35
+# T35 - objIdentity - T36
+# T36 - objIdentity - T37
+# T37 - objIdentity - T7
+# T7 - objIdentity - T38
+# T38 - objIdentity - T39
+# T39 - objIdentity - T40
+# T40 - objIdentity - T41
+# T41 - objIdentity - T13
+# T13 - objIdentity - T14
+# T14 - objIdentity - T42
+# T42 - objIdentity - T15
+# T15 - objIdentity - T43
+# T43 - objIdentity - T44
+# T44 - objIdentity - T45
+# T45 - objIdentity - T46
+# T46 - objIdentity - T47
+# T47 - objIdentity - T48
+# T48 - objIdentity - T49
+# T49 - objIdentity - T50
+# T50 - objIdentity - T51
+# T51 - objIdentity - T26
+# T26 - objIdentity - T52
+# T52 - objIdentity - T53
+# T54 - objIdentity - T55
+# T56 - objIdentity - T57
+# T23 - objIdentity - T58
+# T59 - objIdentity - T60

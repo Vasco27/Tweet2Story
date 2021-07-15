@@ -1,0 +1,5 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+delta state governor ifeanyi okowa - has called - oil companies,every society - needs - delta state governor ifeanyi okowa,0.654,0.292,0.387,0.0
+oil companies - operating - state,payments - exporting - oil companies,0.648,0.258,0.514,0.0
+oil companies - to create - oil companies,payments - exporting - oil companies,0.772,0.505,0.616,0.333
+people - employment - people,payments - exporting - oil companies,0.671,0.209,0.378,0.0

@@ -1,0 +1,204 @@
+» EVENTS
+# E1 (show) -> a
+# FOL:  exists a.(relationRole(agent,T32) & relationRole(location,T33) & event(a))
+# DRS:  ([a],[relationRole(agent,T32), relationRole(location,T33), event(a)]) 
+
+# E2 (is sold out) -> b
+# FOL:  exists b.(relationRole(pivot,E1) & event(b))
+# DRS:  ([b],[relationRole(pivot,E1), event(b)]) 
+
+# E3 (don't have a problem) -> c
+# FOL:  exists c.(relationRole(pivot,T34) & relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(pivot,T34), relationRole(theme,E4), event(c)]) 
+
+# E4 (anti-Williams protest) -> d
+# FOL:  exists d.event(d)
+# DRS:  ([d],[event(d)]) 
+
+# E5 (expected) -> e
+# FOL:  exists e.(relationRole(pivot,E4) & event(e))
+# DRS:  ([e],[relationRole(pivot,E4), event(e)]) 
+
+# E6 (respect) -> f
+# FOL:  exists f.(relationRole(pivot,T35) & relationRole(theme,T36) & event(f))
+# DRS:  ([f],[relationRole(pivot,T35), relationRole(theme,T36), event(f)]) 
+
+# E7 (want) -> g
+# FOL:  exists g.(relationRole(pivot,T38) & relationRole(theme,E8) & event(g))
+# DRS:  ([g],[relationRole(pivot,T38), relationRole(theme,E8), event(g)]) 
+
+# E8 (to attend) -> h
+# FOL:  exists h.(relationRole(agent,T38) & relationRole(theme,E9) & event(h))
+# DRS:  ([h],[relationRole(agent,T38), relationRole(theme,E9), event(h)]) 
+
+# E9 (concert) -> i
+# FOL:  exists i.event(i)
+# DRS:  ([i],[event(i)]) 
+
+# E10 (protest) -> j
+# FOL:  exists j.event(j)
+# DRS:  ([j],[event(j)]) 
+
+# E11 (follows) -> k
+# FOL:  exists k.(relationRole(theme,E10) & relationRole(theme,E12) & event(k))
+# DRS:  ([k],[relationRole(theme,E10), relationRole(theme,E12), event(k)]) 
+
+# E12 (ruling) -> l
+# FOL:  exists l.(relationRole(agent,T39) & relationRole(goal,T41) & event(l))
+# DRS:  ([l],[relationRole(agent,T39), relationRole(goal,T41), event(l)]) 
+
+# E13 (wanted) -> m
+# FOL:  exists m.(relationRole(pivot,T42) & relationRole(theme,E14) & event(m))
+# DRS:  ([m],[relationRole(pivot,T42), relationRole(theme,E14), event(m)]) 
+
+# E14 (to allow) -> n
+# FOL:  exists n.(relationRole(patient,T43) & relationRole(setting,E15) & event(n))
+# DRS:  ([n],[relationRole(patient,T43), relationRole(setting,E15), event(n)]) 
+
+# E15 (protest) -> o
+# FOL:  exists o.event(o)
+# DRS:  ([o],[event(o)]) 
+
+# E16 (ruled in favour) -> p
+# FOL:  exists p.(relationRole(agent,T44) & relationRole(beneficiary,T45) & event(p))
+# DRS:  ([p],[relationRole(agent,T44), relationRole(beneficiary,T45), event(p)]) 
+
+# E17 (wanted) -> q
+# FOL:  exists q.(relationRole(pivot,T46) & relationRole(theme,E18) & event(q))
+# DRS:  ([q],[relationRole(pivot,T46), relationRole(theme,E18), event(q)]) 
+
+# E18 (allowed) -> r
+# FOL:  exists r.(relationRole(patient,T47) & event(r))
+# DRS:  ([r],[relationRole(patient,T47), event(r)]) 
+
+# E19 (opposes) -> s
+# FOL:  exists s.(relationRole(agent,T52) & relationRole(theme,T53) & relationRole(reason,E20) & event(s))
+# DRS:  ([s],[relationRole(agent,T52), relationRole(theme,T53), relationRole(reason,E20), event(s)]) 
+
+# E20 (relationship) -> t
+# FOL:  exists t.(relationRole(pivot,T54) & relationRole(partner,T55) & event(t))
+# DRS:  ([t],[relationRole(pivot,T54), relationRole(partner,T55), event(t)]) 
+
+# E21 (says) -> u
+# FOL:  exists u.(relationRole(agent,T31) & relationRole(theme,E22) & event(u))
+# DRS:  ([u],[relationRole(agent,T31), relationRole(theme,E22), event(u)]) 
+
+# E22 (sells) -> v
+# FOL:  exists v.(relationRole(agent,T56) & relationRole(theme,T57) & relationRole(initialLocation,T58) & event(v))
+# DRS:  ([v],[relationRole(agent,T56), relationRole(theme,T57), relationRole(initialLocation,T58), event(v)]) 
+
+# E23 (said) -> w
+# FOL:  exists w.(relationRole(agent,T49) & relationRole(theme,E24) & event(w))
+# DRS:  ([w],[relationRole(agent,T49), relationRole(theme,E24), event(w)]) 
+
+# E24 (had had a meeting) -> x
+# FOL:  exists x.(relationRole(agent,T66) & relationRole(partner,T50) & relationRole(partner,T51) & relationRole(purpose,E25) & event(x))
+# DRS:  ([x],[relationRole(agent,T66), relationRole(partner,T50), relationRole(partner,T51), relationRole(purpose,E25), event(x)]) 
+
+# E25 (to discuss) -> y
+# FOL:  exists y.(relationRole(theme,E26) & event(y))
+# DRS:  ([y],[relationRole(theme,E26), event(y)]) 
+
+# E26 (increased security) -> z
+# FOL:  exists z.event(z)
+# DRS:  ([z],[event(z)]) 
+
+# E27 (said) -> aa
+# FOL:  exists aa.(relationRole(agent,T62) & relationRole(theme,E1) & event(aa))
+# DRS:  ([aa],[relationRole(agent,T62), relationRole(theme,E1), event(aa)]) 
+
+# E28 (protest) -> ab
+# FOL:  exists ab.(relationRole(agent,T63) & relationRole(goal,T64) & event(ab))
+# DRS:  ([ab],[relationRole(agent,T63), relationRole(goal,T64), event(ab)]) 
+
+» ACTORS
+# T32 -> Pharrell Williams
+# T33 -> GrandWest
+# T36 -> the rights
+# T37 -> people
+# T38 -> who
+# T39 -> Judge Siraj Desai's
+# T40 -> Western Cape High Court
+# T41 -> the City
+# T42 -> which
+# T43 -> 150 people
+# T45 -> BDS
+# T46 -> which
+# T47 -> 16 000 people
+# T48 -> City
+# T49 -> spokesperson Priya Reddy
+# T50 -> the police
+# T51 -> other roleplayers
+# T53 -> Williams
+# T54 -> his
+# T55 -> Woolworths
+# T56 -> the store
+# T57 -> products
+# T58 -> Israeli
+# T61 -> Big Concerts
+# T62 -> managing director Justin van Wyk
+# T66 -> it
+# T31 -> The movement
+# T34 -> organisers
+# T52 -> BDS
+# T63 -> he Boycott Divestment and Sanctions (BDS) movement
+# T35 -> protesters
+# T64 -> the US artist
+# T44 -> The judge
+
+» RELATIONS
+# E1 - agent - T32
+# E1 - location - T33
+# E2 - pivot - E1
+# E3 - pivot - T34
+# E3 - theme - E4
+# E5 - pivot - E4
+# E6 - pivot - T35
+# E6 - theme - T36
+# E7 - pivot - T38
+# E7 - theme - E8
+# E8 - agent - T38
+# E8 - theme - E9
+# E27 - agent - T62
+# E27 - theme - E1
+# E28 - agent - T63
+# E28 - goal - T64
+# E11 - theme - E10
+# E11 - theme - E12
+# E12 - agent - T39
+# E12 - goal - T41
+# E13 - pivot - T42
+# E13 - theme - E14
+# E14 - patient - T43
+# E14 - setting - E15
+# E16 - agent - T44
+# E16 - beneficiary - T45
+# E17 - pivot - T46
+# E17 - theme - E18
+# E18 - patient - T47
+# E23 - agent - T49
+# E23 - theme - E24
+# E24 - agent - T66
+# E24 - partner - T50
+# E24 - partner - T51
+# E24 - purpose - E25
+# E25 - theme - E26
+# E19 - agent - T52
+# E19 - theme - T53
+# E19 - reason - E20
+# E20 - pivot - T54
+# E20 - partner - T55
+# E21 - agent - T31
+# E21 - theme - E22
+# E22 - agent - T56
+# E22 - theme - T57
+# E22 - initialLocation - T58
+# T39 - partOf - T40
+# T42 - objIdentity - T41
+# T46 - objIdentity - T45
+# T49 - partOf - T48
+# T36 - partOf - T37
+# T38 - objIdentity - T37
+# T62 - partOf - T61
+# T66 - objIdentity - T48
+# T54 - objIdentity - T53

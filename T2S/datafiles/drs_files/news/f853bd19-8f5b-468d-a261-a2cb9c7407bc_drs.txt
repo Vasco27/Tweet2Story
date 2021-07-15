@@ -1,0 +1,212 @@
+» EVENTS
+# E1 (has) -> a
+# FOL:  exists a.(relationRole(pivot,T43) & relationRole(theme,T44) & event(a))
+# DRS:  ([a],[relationRole(pivot,T43), relationRole(theme,T44), event(a)]) 
+
+# E2 (touches) -> b
+# FOL:  exists b.(relationRole(theme,T45) & relationRole(location,T46) & event(b))
+# DRS:  ([b],[relationRole(theme,T45), relationRole(location,T46), event(b)]) 
+
+# E3 (There is) -> c
+# FOL:  exists c.(relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(theme,E4), event(c)]) 
+
+# E4 (fear) -> d
+# FOL:  exists d.(relationRole(theme,E16) & event(d))
+# DRS:  ([d],[relationRole(theme,E16), event(d)]) 
+
+# E5 (said) -> e
+# FOL:  exists e.(relationRole(agent,T47) & relationRole(theme,E3) & event(e))
+# DRS:  ([e],[relationRole(agent,T47), relationRole(theme,E3), event(e)]) 
+
+# E6 (blamed) -> f
+# FOL:  exists f.(relationRole(agent,T55) & relationRole(patient,E7) & relationRole(theme,E8) & event(f))
+# DRS:  ([f],[relationRole(agent,T55), relationRole(patient,E7), relationRole(theme,E8), event(f)]) 
+
+# E7 (cultural acceptance) -> g
+# FOL:  exists g.event(g)
+# DRS:  ([g],[event(g)]) 
+
+# E8 (prevalence) -> h
+# FOL:  exists h.(relationRole(theme,E9) & relationRole(setting,E23) & event(h))
+# DRS:  ([h],[relationRole(theme,E9), relationRole(setting,E23), event(h)]) 
+
+# E9 (abortions) -> i
+# FOL:  exists i.event(i)
+# DRS:  ([i],[event(i)]) 
+
+# E10 (comments) -> j
+# FOL:  exists j.(relationRole(agent,T56) & event(j))
+# DRS:  ([j],[relationRole(agent,T56), event(j)]) 
+
+# E11 (come) -> k
+# FOL:  exists k.(relationRole(theme,E10) & relationRole(setting,E12) & event(k))
+# DRS:  ([k],[relationRole(theme,E10), relationRole(setting,E12), event(k)]) 
+
+# E12 (considers) -> l
+# FOL:  exists l.(relationRole(agent,T57) & relationRole(theme,T58) & event(l))
+# DRS:  ([l],[relationRole(agent,T57), relationRole(theme,T58), event(l)]) 
+
+# E13 (would prohibit) -> m
+# FOL:  exists m.(relationRole(theme,E14) & relationRole(cause,T59) & relationRole(setting,E24) & event(m))
+# DRS:  ([m],[relationRole(theme,E14), relationRole(cause,T59), relationRole(setting,E24), event(m)]) 
+
+# E14 (abortions) -> n
+# FOL:  exists n.event(n)
+# DRS:  ([n],[event(n)]) 
+
+# E15 (involving) -> o
+# FOL:  exists o.(relationRole(pivot,E24) & relationRole(theme,T60) & event(o))
+# DRS:  ([o],[relationRole(pivot,E24), relationRole(theme,T60), event(o)]) 
+
+# E16 (unknown) -> p
+# FOL:  exists p.event(p)
+# DRS:  ([p],[event(p)]) 
+
+# E17 (prenatal diagnosis) -> q
+# FOL:  exists q.(relationRole(theme,T49) & relationRole(amount,T48) & event(q))
+# DRS:  ([q],[relationRole(theme,T49), relationRole(amount,T48), event(q)]) 
+
+# E18 (result) -> r
+# FOL:  exists r.(relationRole(theme,E17) & relationRole(result,E19) & event(r))
+# DRS:  ([r],[relationRole(theme,E17), relationRole(result,E19), event(r)]) 
+
+# E19 (abortion) -> s
+# FOL:  exists s.event(s)
+# DRS:  ([s],[event(s)]) 
+
+# E20 (conducted) -> t
+# FOL:  exists t.(relationRole(theme,E22) & relationRole(agent,T53) & event(t))
+# DRS:  ([t],[relationRole(theme,E22), relationRole(agent,T53), event(t)]) 
+
+# E21 (according) -> u
+# FOL:  exists u.(relationRole(pivot,E22) & event(u))
+# DRS:  ([u],[relationRole(pivot,E22), event(u)]) 
+
+# E22 (review) -> v
+# FOL:  exists v.(relationRole(theme,T50) & relationRole(location,T51) & event(v))
+# DRS:  ([v],[relationRole(theme,T50), relationRole(location,T51), event(v)]) 
+
+# E23 (such cases) -> w
+# FOL:  exists w.event(w)
+# DRS:  ([w],[event(w)]) 
+
+# E24 (cases) -> x
+# FOL:  exists x.event(x)
+# DRS:  ([x],[event(x)]) 
+
+# E25 (opposes) -> y
+# FOL:  exists y.(relationRole(pivot,T1) & relationRole(theme,E31) & event(y))
+# DRS:  ([y],[relationRole(pivot,T1), relationRole(theme,E31), event(y)]) 
+
+# E26 (cases of rape) -> z
+# FOL:  exists z.event(z)
+# DRS:  ([z],[event(z)]) 
+
+# E27 (incest) -> aa
+# FOL:  exists aa.event(aa)
+# DRS:  ([aa],[event(aa)]) 
+
+# E28 (preserve) -> ab
+# FOL:  exists ab.(relationRole(theme,E29) & event(ab))
+# DRS:  ([ab],[relationRole(theme,E29), event(ab)]) 
+
+# E29 (life) -> ac
+# FOL:  exists ac.(relationRole(pivot,T2) & event(ac))
+# DRS:  ([ac],[relationRole(pivot,T2), event(ac)]) 
+
+# E30 (has not yet commented) -> ad
+# FOL:  exists ad.(relationRole(agent,T1) & relationRole(theme,T3) & event(ad))
+# DRS:  ([ad],[relationRole(agent,T1), relationRole(theme,T3), event(ad)]) 
+
+# E31 (abortion) -> ae
+# FOL:  exists ae.(relationRole(setting,E32) & event(ae))
+# DRS:  ([ae],[relationRole(setting,E32), event(ae)]) 
+
+# E32 (except) -> af
+# FOL:  exists af.(relationRole(theme,E26) & relationRole(theme,E27) & relationRole(theme,E28) & event(af))
+# DRS:  ([af],[relationRole(theme,E26), relationRole(theme,E27), relationRole(theme,E28), event(af)]) 
+
+» ACTORS
+# T1 -> who
+# T2 -> the mother
+# T3 -> the bill
+# T38 -> vice presidential nominee
+# T39 -> Palin
+# T40 -> GOP
+# T41 -> whose
+# T42 -> son
+# T43 -> Trig
+# T47 -> Palin
+# T48 -> Between 60% and 90%
+# T49 -> Down syndrome
+# T50 -> termination rates
+# T51 -> the United States
+# T55 -> Palin
+# T56 -> Palin
+# T57 -> the Ohio legislature
+# T58 -> a bill
+# T59 -> that
+# T61 -> Kasich
+# T62 -> 2016 presidential hopeful
+# T53 -> the International Society for Prenatal Diagnosis
+# T45 -> this particular issue
+# T60 -> Down syndrome
+# T44 -> Down syndrome
+# T46 -> close to home
+
+» RELATIONS
+# E1 - pivot - T43
+# E1 - theme - T44
+# E2 - theme - T45
+# E2 - location - T46
+# E3 - theme - E4
+# E4 - theme - E16
+# E5 - agent - T47
+# E5 - theme - E3
+# E17 - theme - T49
+# E17 - amount - T48
+# E18 - theme - E17
+# E18 - result - E19
+# E21 - pivot - E22
+# E22 - theme - T50
+# E22 - location - T51
+# E20 - theme - E22
+# E20 - agent - T53
+# E6 - agent - T55
+# E6 - patient - E7
+# E8 - theme - E9
+# E6 - theme - E8
+# E8 - setting - E23
+# E10 - agent - T56
+# E11 - theme - E10
+# E11 - setting - E12
+# E12 - agent - T57
+# E12 - theme - T58
+# E13 - theme - E14
+# E13 - cause - T59
+# E13 - setting - E24
+# E15 - pivot - E24
+# E15 - theme - T60
+# E25 - pivot - T1
+# E25 - theme - E31
+# E28 - theme - E29
+# E29 - pivot - T2
+# E30 - agent - T1
+# E30 - theme - T3
+# E32 - theme - E26
+# E31 - setting - E32
+# E32 - theme - E27
+# E32 - theme - E28
+# T39 - objIdentity - T38
+# T38 - partOf - T40
+# T41 - objIdentity - T39
+# T42 - partOf - T41
+# T43 - objIdentity - T42
+# T47 - objIdentity - T41
+# T55 - objIdentity - T47
+# T56 - objIdentity - T55
+# T59 - objIdentity - T58
+# T62 - objIdentity - T61
+# T1 - objIdentity - T62
+# T3 - objIdentity - T58

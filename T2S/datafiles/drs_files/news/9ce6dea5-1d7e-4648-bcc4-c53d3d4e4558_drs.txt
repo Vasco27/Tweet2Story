@@ -1,0 +1,58 @@
+» EVENTS
+# E1 (has painstakingly hand-built) -> a
+# FOL:  exists a.(relationRole(agent,T6) & relationRole(theme,T7) & relationRole(theme,E5) & event(a))
+# DRS:  ([a],[relationRole(agent,T6), relationRole(theme,T7), relationRole(theme,E5), event(a)]) 
+
+# E2 (bought) -> b
+# FOL:  exists b.(relationRole(agent,T9) & relationRole(theme,T10) & relationRole(source,T11) & event(b))
+# DRS:  ([b],[relationRole(agent,T9), relationRole(theme,T10), relationRole(source,T11), event(b)]) 
+
+# E3 (spending) -> c
+# FOL:  exists c.(relationRole(agent,T9) & relationRole(theme,T12) & relationRole(theme,T13) & relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(agent,T9), relationRole(theme,T12), relationRole(theme,T13), relationRole(theme,E4), event(c)]) 
+
+# E4 (putting together) -> d
+# FOL:  exists d.(relationRole(agent,T14) & relationRole(theme,T15) & relationRole(location,T19) & relationRole(location,T17) & event(d))
+# DRS:  ([d],[relationRole(agent,T14), relationRole(theme,T15), relationRole(location,T19), relationRole(location,T17), event(d)]) 
+
+# E5 (in memory of) -> e
+# FOL:  exists e.(relationRole(theme,T8) & event(e))
+# DRS:  ([e],[relationRole(theme,T8), event(e)]) 
+
+» ACTORS
+# T10 -> parts
+# T14 -> his
+# T15 -> creation
+# T17 -> Coventry
+# T18 -> his
+# T19 -> home
+# T6 -> A cricket fan
+# T7 -> a plastic miniature stadium
+# T8 -> Australian batsman Phillip Hughes
+# T9 -> Shaminder Singh
+# T13 -> seven months
+# T12 -> nearly 3,000 pounds
+# T11 -> around the world
+
+» RELATIONS
+# E1 - agent - T6
+# E1 - theme - T7
+# E1 - theme - E5
+# E5 - theme - T8
+# E2 - agent - T9
+# E2 - theme - T10
+# E2 - source - T11
+# E3 - agent - T9
+# E3 - theme - T12
+# E3 - theme - T13
+# E3 - theme - E4
+# E4 - agent - T14
+# E4 - theme - T15
+# E4 - location - T19
+# E4 - location - T17
+# T9 - objIdentity - T6
+# T10 - partOf - T7
+# T14 - objIdentity - T9
+# T19 - partOf - T17
+# T18 - objIdentity - T14
+# T15 - objIdentity - T7

@@ -1,0 +1,22 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+night heritage light - creating - amerlux,night heritage light - sounds - fun,0.746,0.397,0.481,0.333
+night heritage light - will illuminate - unesco world heritage sites,night heritage light - will be revealed - night heritage light,0.805,0.691,0.668,0.524
+night heritage light - will illuminate - uk,night heritage light - will be revealed - night heritage light,0.735,0.58,0.484,0.429
+unesco world heritage sites - will illuminate - uk,night heritage light - will be revealed - night heritage light,0.645,0.408,0.335,0.19
+unesco world heritage sites - will spotlight - unesco world heritage sites,night heritage light - will be revealed - night heritage light,0.737,0.509,0.51,0.286
+unesco world heritage sites - additional recognition - unesco world heritage sites,night heritage light - will be revealed - night heritage light,0.682,0.383,0.457,0.19
+unesco world heritage sites - internationally acclaimed - unesco world heritage sites,night heritage light - will be revealed - night heritage light,0.688,0.388,0.509,0.19
+light - love - art,night heritage light - sounds - fun,0.699,0.368,0.475,0.167
+light - love - design teams,night heritage light - sounds - fun,0.694,0.366,0.475,0.167
+amerlux - delighted - amerlux,tweeps - wondering - earth,0.61,0.088,0.311,0.0
+amerlux - seeing - unesco world heritage sites,ironworks - will be lit - night heritage light,0.652,0.244,0.336,0.095
+amerlux - to be involved - amerlux,ironworks - will be lit - night heritage light,0.641,0.192,0.305,0.083
+one - has done - one,ironworks - will be lit - night heritage light,0.663,0.252,0.37,0.0
+president - says - president,night heritage light - sounds - fun,0.601,0.125,0.339,0.0
+william conquerors tower london - starting - night heritage light,electricians - help - night heritage light,0.752,0.513,0.495,0.333
+design teams - combining - design teams,iron bridge - lit - variety colours,0.682,0.221,0.29,0.0
+art - love - design teams,iron bridge - lit - variety colours,0.68,0.2,0.269,0.0
+design teams - will showcase - design teams,night heritage light - will be revealed - night heritage light,0.737,0.377,0.411,0.095
+lighting - practical applications - lighting,electricians - help - night heritage light,0.656,0.315,0.514,0.0
+lighting - improve - architecture,electricians - help - night heritage light,0.655,0.381,0.358,0.0
+lighting - enhance - architecture,night heritage light - sounds - fun,0.653,0.198,0.382,0.0

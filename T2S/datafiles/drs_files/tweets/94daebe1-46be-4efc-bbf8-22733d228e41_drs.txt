@@ -1,0 +1,222 @@
+» EVENTS
+# E1 (urges) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T59) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T59), Factuality(a,Factual)]) 
+
+# E2 (plans to build) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T3) & relationRole(theme,T60) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T3), relationRole(theme,T60), Factuality(b,Factual)]) 
+
+# E3 (says it goes) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T5) & relationRole(theme,T61) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T5), relationRole(theme,T61), Factuality(c,Factual)]) 
+
+# E4 (are preparing to take) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T6) & relationRole(theme,T62) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T6), relationRole(theme,T62), Factuality(d,Factual)]) 
+
+# E5 (blocked) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T7) & relationRole(theme,T42) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T7), relationRole(theme,T42), Factuality(e,Factual)]) 
+
+# E6 (head) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T65) & relationRole(theme,T8) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T65), relationRole(theme,T8), Factuality(f,Factual)]) 
+
+# E7 (to avoid) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T8) & relationRole(theme,T66) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T8), relationRole(theme,T66), Factuality(g,Factual)]) 
+
+# E8 (reaches) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T67) & relationRole(theme,T9) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T67), relationRole(theme,T9), Factuality(h,Factual)]) 
+
+# E9 (says) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T68) & relationRole(theme,T69) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T68), relationRole(theme,T69), Factuality(i,Factual)]) 
+
+# E10 (taking) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T71) & relationRole(theme,T72) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T71), relationRole(theme,T72), Factuality(j,Factual)]) 
+
+# E11 (night boarded) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(time,T74) & relationRole(theme,T75) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(time,T74), relationRole(theme,T75), Factuality(k,Factual)]) 
+
+# E12 (turn) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T76) & relationRole(path,T16) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T76), relationRole(path,T16), Factuality(l,Factual)]) 
+
+# E13 (closes) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T18) & relationRole(theme,T19) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T18), relationRole(theme,T19), Factuality(m,Factual)]) 
+
+# E14 (has become) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T20) & relationRole(theme,T21) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T20), relationRole(theme,T21), Factuality(n,Factual)]) 
+
+# E15 (were) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T48) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T48), Factuality(o,Factual)]) 
+
+# E16 (fast becoming) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T48) & relationRole(theme,T24) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T48), relationRole(theme,T24), Factuality(p,Factual)]) 
+
+# E17 (are entering) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T26) & relationRole(theme,T27) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T26), relationRole(theme,T27), Factuality(q,Factual)]) 
+
+# E18 (sealed off) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T29) & relationRole(theme,T30) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T29), relationRole(theme,T30), Factuality(r,Factual)]) 
+
+# E19 (walks) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T81) & relationRole(theme,T32) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T81), relationRole(theme,T32), Factuality(s,Factual)]) 
+
+» ACTORS
+# T10 -> croatia
+# T11 -> the european union
+# T14 -> croatia
+# T15 -> hungary
+# T16 -> croatia
+# T17 -> eu
+# T18 -> hungary
+# T19 -> serbia
+# T2 -> eu
+# T20 -> croatia
+# T24 -> eu
+# T25 -> hungary
+# T27 -> europe
+# T28 -> croatia
+# T29 -> hungary
+# T3 -> hungary
+# T30 -> serbia
+# T31 -> croatia
+# T35 -> its
+# T36 -> its
+# T37 -> hungary
+# T38 -> its
+# T4 -> romania
+# T41 -> its border with romania
+# T42 -> its frontier
+# T43 -> border with serbia
+# T44 -> its southern border with serbia
+# T45 -> the croatian border
+# T46 -> serbias border with croatia
+# T47 -> croatia border
+# T48 -> the serbia croatia border
+# T49 -> croatia
+# T5 -> romania
+# T50 -> the border with croatia
+# T51 -> serbias
+# T52 -> serbia
+# T53 -> serbia
+# T54 -> serbia
+# T55 -> sid on croatia border
+# T56 -> the serbian town of sid
+# T57 -> sid
+# T58 -> europes
+# T6 -> serbia
+# T7 -> hungary
+# T8 -> croatia
+# T71 -> bus companies
+# T65 -> migrants
+# T74 -> on tuesday
+# T81 -> a refugee family
+# T40 -> it
+# T62 -> refugees
+# T59 -> an emergency summit of eu leaders on the refugee crisis
+# T76 -> migrants
+# T26 -> thousands
+# T32 -> sid serbia
+# T67 -> first group of migrants
+# T39 -> plans
+# T72 -> people
+# T1 -> angela merkel
+# T69 -> refugees but
+# T66 -> hungarian fence
+# T75 -> buses
+# T9 -> serbias border
+# T61 -> against the spirit ‚Ä¶
+# T60 -> razor wire fence
+# T68 -> 2 400 at serbia hungary border
+# T21 -> europes latest transit country
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T59
+# E2 - theme - T3
+# E2 - theme - T60
+# E3 - theme - T5
+# E3 - theme - T61
+# E4 - theme - T6
+# E4 - theme - T62
+# E5 - theme - T7
+# E5 - theme - T42
+# E6 - theme - T65
+# E6 - theme - T8
+# E7 - theme - T8
+# E7 - theme - T66
+# E8 - theme - T67
+# E8 - theme - T9
+# E9 - theme - T68
+# E9 - theme - T69
+# E10 - theme - T71
+# E10 - theme - T72
+# E11 - time - T74
+# E11 - theme - T75
+# E12 - theme - T76
+# E12 - path - T16
+# E13 - theme - T18
+# E13 - theme - T19
+# E14 - theme - T20
+# E14 - theme - T21
+# E15 - theme - T48
+# E16 - theme - T48
+# E16 - theme - T24
+# E17 - theme - T26
+# E17 - theme - T27
+# E18 - theme - T29
+# E18 - theme - T30
+# E19 - theme - T81
+# E19 - theme - T32
+# T3 - objIdentity - T35
+# T35 - objIdentity - T7
+# T7 - objIdentity - T36
+# T36 - objIdentity - T37
+# T37 - objIdentity - T15
+# T15 - objIdentity - T18
+# T18 - objIdentity - T25
+# T25 - objIdentity - T29
+# T29 - objIdentity - T38
+# T4 - objIdentity - T5
+# T39 - objIdentity - T40
+# T41 - objIdentity - T42
+# T42 - objIdentity - T43
+# T43 - objIdentity - T44
+# T45 - objIdentity - T8
+# T8 - objIdentity - T46
+# T46 - objIdentity - T10
+# T10 - objIdentity - T47
+# T47 - objIdentity - T14
+# T14 - objIdentity - T16
+# T16 - objIdentity - T20
+# T20 - objIdentity - T48
+# T48 - objIdentity - T49
+# T49 - objIdentity - T28
+# T28 - objIdentity - T50
+# T50 - objIdentity - T31
+# T6 - objIdentity - T51
+# T51 - objIdentity - T52
+# T52 - objIdentity - T19
+# T19 - objIdentity - T53
+# T53 - objIdentity - T30
+# T30 - objIdentity - T54
+# T2 - objIdentity - T11
+# T11 - objIdentity - T17
+# T17 - objIdentity - T24
+# T55 - objIdentity - T56
+# T56 - objIdentity - T57
+# T58 - objIdentity - T27

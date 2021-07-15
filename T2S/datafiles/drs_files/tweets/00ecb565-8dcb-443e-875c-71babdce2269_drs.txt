@@ -1,0 +1,47 @@
+» EVENTS
+# E1 (arrested following) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T8) & relationRole(theme,T1) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T8), relationRole(theme,T1), Factuality(a,Factual)]) 
+
+# E2 (run hospitalized) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), Factuality(b,Factual)]) 
+
+# E3 (searching for fatal hit) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T9) & relationRole(theme,T4) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T9), relationRole(theme,T4), Factuality(c,Factual)]) 
+
+# E4 (have located) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T6) & relationRole(theme,T5) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T6), relationRole(theme,T5), Factuality(d,Factual)]) 
+
+# E5 (believe was involved) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T5) & relationRole(theme,T5) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T5), relationRole(theme,T5), Factuality(e,Factual)]) 
+
+# E6 (run) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T5) & relationRole(time,T5) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T5), relationRole(time,T5), Factuality(f,Factual)]) 
+
+» ACTORS
+# T4 -> fatal hit amp run driver
+# T5 -> a woman they believe was involved in a fatal hit and run early sunday morning
+# T6 -> police
+# T7 -> they
+# T8 -> drunk driver
+# T1 -> 204km h
+# T9 -> police
+
+» RELATIONS
+# E1 - theme - T8
+# E1 - theme - T1
+# E3 - theme - T9
+# E3 - theme - T4
+# E4 - theme - T6
+# E4 - theme - T5
+# E5 - theme - T5
+# E5 - theme - T5
+# E6 - theme - T5
+# E6 - time - T5
+# T4 - objIdentity - T5
+# T6 - objIdentity - T7

@@ -1,0 +1,75 @@
+» EVENTS
+# E1 (continues to weaken as it moves) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(path,T15) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(path,T15), Factuality(a,Factual)]) 
+
+# E2 (grace) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T7) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T7), Factuality(b,Factual)]) 
+
+# E3 (is strengthening) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T3) & relationRole(manner,T16) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T3), relationRole(manner,T16), Factuality(c,Factual)]) 
+
+# E4 (is expected to weaken) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T9) & relationRole(location,T18) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T9), relationRole(location,T18), Factuality(d,Factual)]) 
+
+# E5 (packing) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T10) & relationRole(theme,T5) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T10), relationRole(theme,T5), Factuality(e,Factual)]) 
+
+# E6 (will likely dissipate) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T11) & relationRole(location,T13) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T11), relationRole(location,T13), Factuality(f,Factual)]) 
+
+# E7 (is likely to weaken) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T12) & relationRole(theme,T19) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T12), relationRole(theme,T19), Factuality(g,Factual)]) 
+
+# E8 (reaching) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(time,T20) & relationRole(theme,T14) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(time,T20), relationRole(theme,T14), Factuality(h,Factual)]) 
+
+» ACTORS
+# T1 -> ts fred
+# T10 -> tropical storm grace
+# T11 -> tropical storm grace
+# T12 -> grace
+# T13 -> the lesser antilles
+# T14 -> the lesser antilles
+# T6 -> it
+# T7 -> tropical storm grace
+# T8 -> t s grace
+# T9 -> the system
+# T19 -> to a tropical rainstorm
+# T16 -> with 50 mph winds
+# T18 -> in the extended forecast
+# T15 -> away from the cape verde islands
+# T3 -> eastern atlantic
+# T20 -> prior to
+# T5 -> 58 mph
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - path - T15
+# E2 - theme - T7
+# E3 - theme - T3
+# E3 - manner - T16
+# E4 - theme - T9
+# E4 - location - T18
+# E5 - theme - T10
+# E5 - theme - T5
+# E6 - theme - T11
+# E6 - location - T13
+# E7 - theme - T12
+# E7 - theme - T19
+# E8 - time - T20
+# E8 - theme - T14
+# T1 - objIdentity - T6
+# T7 - objIdentity - T8
+# T8 - objIdentity - T9
+# T9 - objIdentity - T10
+# T10 - objIdentity - T11
+# T11 - objIdentity - T12
+# T13 - objIdentity - T14

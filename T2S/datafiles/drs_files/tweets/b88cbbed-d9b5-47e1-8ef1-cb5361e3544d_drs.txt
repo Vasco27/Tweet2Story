@@ -1,0 +1,46 @@
+» EVENTS
+# E1 (tells) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T14) & relationRole(theme,T16) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T14), relationRole(theme,T16), Factuality(a,Factual)]) 
+
+# E2 (tells) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T15) & relationRole(theme,T17) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T15), relationRole(theme,T17), Factuality(b,Factual)]) 
+
+# E3 (is) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T20) & relationRole(theme,T9) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T20), relationRole(theme,T9), Factuality(c,Factual)]) 
+
+# E4 (canad1rblx yes we will be expanding) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T19) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T19), Factuality(d,Factual)]) 
+
+» ACTORS
+# T1 -> airbus
+# T10 -> airbus
+# T14 -> ceo
+# T15 -> ceo
+# T16 -> paper
+# T17 -> paper
+# T18 -> we
+# T19 -> our
+# T7 -> airbus
+# T20 -> today
+# T13 -> france, germany
+# T12 -> france, germany
+# T9 -> pdt & ceo
+
+» RELATIONS
+# E1 - theme - T14
+# E1 - theme - T16
+# E2 - theme - T15
+# E2 - theme - T17
+# E3 - theme - T20
+# E3 - theme - T9
+# E4 - theme - T19
+# T12 - objIdentity - T13
+# T14 - objIdentity - T15
+# T16 - objIdentity - T17
+# T1 - objIdentity - T7
+# T7 - objIdentity - T10
+# T18 - objIdentity - T19

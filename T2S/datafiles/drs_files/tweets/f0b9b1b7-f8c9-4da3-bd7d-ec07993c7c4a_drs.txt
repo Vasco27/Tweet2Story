@@ -1,0 +1,44 @@
+» EVENTS
+# E1 (holds a campaign promoting) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T8) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T8), Factuality(a,Factual)]) 
+
+# E2 (is live as are) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T3) & relationRole(theme,T5) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T3), relationRole(theme,T5), Factuality(b,Factual)]) 
+
+# E3 (check) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T6) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T6), Factuality(c,Factual)]) 
+
+# E4 (will work together to ensure) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T7) & relationRole(theme,T11) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T7), relationRole(theme,T11), Factuality(d,Factual)]) 
+
+# E5 (will be improved) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T12) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T12), Factuality(e,Factual)]) 
+
+» ACTORS
+# T4 -> university of global health equity
+# T5 -> our
+# T6 -> us
+# T7 -> the nma
+# T3 -> the university of global health equity website
+# T12 -> primary healthcare delivery, rural healthcare, and medical funding
+# T1 -> army medical department
+# T11 -> that
+# T8 -> healthcare services
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T8
+# E2 - theme - T3
+# E2 - theme - T5
+# E3 - theme - T6
+# E4 - theme - T7
+# E4 - theme - T11
+# E5 - theme - T12
+# T4 - objIdentity - T5
+# T5 - objIdentity - T6
+# T6 - objIdentity - T7

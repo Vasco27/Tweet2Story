@@ -1,0 +1,150 @@
+» EVENTS
+# E1 (say their beliefs are) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T29) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T29), Factuality(a,Factual)]) 
+
+# E2 (say they are given that bill deals) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T16) & relationRole(theme,T30) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T16), relationRole(theme,T30), Factuality(b,Factual)]) 
+
+# E3 (has passed) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T31) & relationRole(theme,T2) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T31), relationRole(theme,T2), Factuality(c,Factual)]) 
+
+# E4 (was drafted) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T20) & relationRole(purpose,T33) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T20), relationRole(purpose,T33), Factuality(d,Factual)]) 
+
+# E5 (would be required) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T34) & relationRole(location,T3) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T34), relationRole(location,T3), Factuality(e,Factual)]) 
+
+# E6 (affected by todays proposed) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T35) & relationRole(theme,T36) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T35), relationRole(theme,T36), Factuality(f,Factual)]) 
+
+# E7 (are families that are) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T36) & relationRole(theme,T37) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T36), relationRole(theme,T37), Factuality(g,Factual)]) 
+
+# E8 (‚Äôm) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T25) & relationRole(theme,T38) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T25), relationRole(theme,T38), Factuality(h,Factual)]) 
+
+# E9 (unanimously passed) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T4) & relationRole(theme,T26) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T4), relationRole(theme,T26), Factuality(i,Factual)]) 
+
+# E10 (act) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T40) & relationRole(purpose,T41) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T40), relationRole(purpose,T41), Factuality(j,Factual)]) 
+
+# E11 (clears) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T5) & relationRole(theme,T7) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T5), relationRole(theme,T7), Factuality(k,Factual)]) 
+
+# E12 (would keep) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T43) & relationRole(theme,T44) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T43), relationRole(theme,T44), Factuality(l,Factual)]) 
+
+# E13 (passes) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T8) & relationRole(theme,T9) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T8), relationRole(theme,T9), Factuality(m,Factual)]) 
+
+# E14 (passes bill to avert government shutdown sends) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T10) & relationRole(theme,T27) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T10), relationRole(theme,T27), Factuality(n,Factual)]) 
+
+# E15 (approves) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T11) & relationRole(theme,T45) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T11), relationRole(theme,T45), Factuality(o,Factual)]) 
+
+# E16 (follow) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T45) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T45), Factuality(p,Factual)]) 
+
+» ACTORS
+# T10 -> senate
+# T16 -> dems
+# T17 -> they
+# T18 -> the bill
+# T19 -> that bill
+# T20 -> the bipartisan bill
+# T21 -> the senate
+# T22 -> the senate
+# T23 -> the senate
+# T24 -> u s senate
+# T25 -> i
+# T26 -> my
+# T27 -> house
+# T28 -> house
+# T36 -> cuts to tax credits
+# T45 -> temporary spending bill house to
+# T7 -> senate
+# T8 -> senate
+# T3 -> senate
+# T1 -> gop
+# T9 -> govt
+# T5 -> lankford
+# T31 -> tax and superannuation laws amendment 2015 measures no 2 bill
+# T41 -> for more transparency around gov settlements
+# T14 -> gop leggies
+# T37 -> in work
+# T38 -> glad
+# T34 -> 60 votes
+# T11 -> u s
+# T2 -> senate
+# T35 -> the only people
+# T30 -> with family planning funding
+# T44 -> the government
+# T4 -> senate
+# T33 -> so that
+# T43 -> that
+# T15 -> their
+# T29 -> not
+# T40 -> settlements
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T29
+# E2 - theme - T16
+# E2 - theme - T30
+# E3 - theme - T31
+# E3 - theme - T2
+# E4 - theme - T20
+# E4 - purpose - T33
+# E5 - theme - T34
+# E5 - location - T3
+# E6 - theme - T35
+# E6 - theme - T36
+# E7 - theme - T36
+# E7 - theme - T37
+# E8 - theme - T25
+# E8 - theme - T38
+# E9 - theme - T4
+# E9 - theme - T26
+# E10 - theme - T40
+# E10 - purpose - T41
+# E11 - theme - T5
+# E11 - theme - T7
+# E12 - theme - T43
+# E12 - theme - T44
+# E13 - theme - T8
+# E13 - theme - T9
+# E14 - theme - T10
+# E14 - theme - T27
+# E15 - theme - T11
+# E15 - theme - T45
+# E16 - theme - T45
+# T14 - objIdentity - T15
+# T16 - objIdentity - T17
+# T18 - objIdentity - T19
+# T19 - objIdentity - T20
+# T21 - objIdentity - T22
+# T22 - objIdentity - T23
+# T23 - objIdentity - T7
+# T7 - objIdentity - T8
+# T8 - objIdentity - T10
+# T10 - objIdentity - T24
+# T25 - objIdentity - T26
+# T27 - objIdentity - T28

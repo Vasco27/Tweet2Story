@@ -1,0 +1,86 @@
+» EVENTS
+# E1 (is) -> a
+# FOL:  exists a.(relationRole(theme,T1) & relationRole(location,T5) & relationRole(location,T7) & relationRole(time,T6) & event(a))
+# DRS:  ([a],[relationRole(theme,T1), relationRole(location,T5), relationRole(location,T7), relationRole(time,T6), event(a)]) 
+
+# E2 (said) -> b
+# FOL:  exists b.(relationRole(agent,T8) & relationRole(theme,E3) & event(b))
+# DRS:  ([b],[relationRole(agent,T8), relationRole(theme,E3), event(b)]) 
+
+# E3 (should strengthen) -> c
+# FOL:  exists c.(relationRole(experiencer,T10) & event(c))
+# DRS:  ([c],[relationRole(experiencer,T10), event(c)]) 
+
+# E4 (will run) -> d
+# FOL:  exists d.(relationRole(experiencer,T14) & relationRole(theme,T16) & event(d))
+# DRS:  ([d],[relationRole(experiencer,T14), relationRole(theme,T16), event(d)]) 
+
+# E5 (will cause) -> e
+# FOL:  exists e.(relationRole(instrument,T16) & relationRole(experiencer,T18) & relationRole(theme,E6) & relationRole(theme,E7) & event(e))
+# DRS:  ([e],[relationRole(instrument,T16), relationRole(experiencer,T18), relationRole(theme,E6), relationRole(theme,E7), event(e)]) 
+
+# E6 (to weaken) -> f
+# FOL:  exists f.event(f)
+# DRS:  ([f],[event(f)]) 
+
+# E7 (break up) -> g
+# FOL:  exists g.event(g)
+# DRS:  ([g],[event(g)]) 
+
+# E8 (will be adversely affected) -> h
+# FOL:  exists h.(relationRole(experiencer,T21) & relationRole(theme,T23) & event(h))
+# DRS:  ([h],[relationRole(experiencer,T21), relationRole(theme,T23), event(h)]) 
+
+# E9 (said) -> i
+# FOL:  exists i.(relationRole(agent,T24) & relationRole(theme,E8) & event(i))
+# DRS:  ([i],[relationRole(agent,T24), relationRole(theme,E8), event(i)]) 
+
+# E10 (is headed) -> j
+# FOL:  exists j.(relationRole(theme,T26) & relationRole(location,T28) & event(j))
+# DRS:  ([j],[relationRole(theme,T26), relationRole(location,T28), event(j)]) 
+
+» ACTORS
+# T1 -> Grace
+# T10 -> Grace
+# T14 -> the storm
+# T16 -> vertical winds
+# T18 -> it
+# T2 -> its
+# T21 -> It
+# T23 -> dry air
+# T24 -> the hurricane center
+# T26 -> Tropical Storm Grace
+# T8 -> Forecasters
+# T7 -> east of the Lesser Antilles
+# T5 -> about 285 miles southwest of the Cape Verde Islands
+# T6 -> at least five days
+# T28 -> west at 14 mph
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - location - T5
+# E1 - location - T7
+# E1 - time - T6
+# E2 - agent - T8
+# E2 - theme - E3
+# E3 - experiencer - T10
+# E4 - experiencer - T14
+# E4 - theme - T16
+# E5 - instrument - T16
+# E5 - experiencer - T18
+# E5 - theme - E6
+# E5 - theme - E7
+# E8 - experiencer - T21
+# E8 - theme - T23
+# E9 - agent - T24
+# E9 - theme - E8
+# E10 - theme - T26
+# E10 - location - T28
+# T2 - objIdentity - T1
+# T10 - objIdentity - T1
+# E9 - objIdentity - E2
+# T14 - objIdentity - T10
+# T18 - objIdentity - T14
+# T21 - objIdentity - T18
+# T8 - partOf - T24
+# T26 - objIdentity - T21

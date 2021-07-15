@@ -1,0 +1,127 @@
+» EVENTS
+# E1 (planning) -> a
+# FOL:  exists a.(relationRole(agent,T16) & relationRole(theme,E2) & event(a))
+# DRS:  ([a],[relationRole(agent,T16), relationRole(theme,E2), event(a)]) 
+
+# E2 (direct talks) -> b
+# FOL:  exists b.(relationRole(agent,T18) & relationRole(theme,E3) & event(b))
+# DRS:  ([b],[relationRole(agent,T18), relationRole(theme,E3), event(b)]) 
+
+# E3 (military buildup) -> c
+# FOL:  exists c.(relationRole(location,T20) & relationRole(agent,T19) & event(c))
+# DRS:  ([c],[relationRole(location,T20), relationRole(agent,T19), event(c)]) 
+
+# E4 (told) -> d
+# FOL:  exists d.(relationRole(agent,T21) & relationRole(goal,T22) & relationRole(location,T23) & relationRole(theme,E5) & event(d))
+# DRS:  ([d],[relationRole(agent,T21), relationRole(goal,T22), relationRole(location,T23), relationRole(theme,E5), event(d)]) 
+
+# E5 (believes) -> e
+# FOL:  exists e.(relationRole(pivot,T24) & relationRole(theme,E6) & event(e))
+# DRS:  ([e],[relationRole(pivot,T24), relationRole(theme,E6), event(e)]) 
+
+# E6 (military-to-military discussions) -> f
+# FOL:  exists f.(relationRole(partner,T25) & relationRole(agent,T27) & event(f))
+# DRS:  ([f],[relationRole(partner,T25), relationRole(agent,T27), event(f)]) 
+
+# E7 (are) -> g
+# FOL:  exists g.(relationRole(pivot,E6) & relationRole(theme,E15) & event(g))
+# DRS:  ([g],[relationRole(pivot,E6), relationRole(theme,E15), event(g)]) 
+
+# E8 (seek) -> h
+# FOL:  exists h.(relationRole(agent,T27) & relationRole(partner,T29) & relationRole(theme,E9) & event(h))
+# DRS:  ([h],[relationRole(agent,T27), relationRole(partner,T29), relationRole(theme,E9), event(h)]) 
+
+# E9 (to resolve) -> i
+# FOL:  exists i.(relationRole(theme,E16) & event(i))
+# DRS:  ([i],[relationRole(theme,E16), event(i)]) 
+
+# E10 (trying) -> j
+# FOL:  exists j.(relationRole(agent,T27) & relationRole(partner,T29) & relationRole(theme,E11) & event(j))
+# DRS:  ([j],[relationRole(agent,T27), relationRole(partner,T29), relationRole(theme,E11), event(j)]) 
+
+# E11 (to understand) -> k
+# FOL:  exists k.(relationRole(theme,E12) & event(k))
+# DRS:  ([k],[relationRole(theme,E12), event(k)]) 
+
+# E12 (burgeoning role) -> l
+# FOL:  exists l.(relationRole(agent,T32) & event(l))
+# DRS:  ([l],[relationRole(agent,T32), event(l)]) 
+
+# E13 (broached) -> m
+# FOL:  exists m.(relationRole(agent,T33) & relationRole(theme,T34) & relationRole(manner,E14) & event(m))
+# DRS:  ([m],[relationRole(agent,T33), relationRole(theme,T34), relationRole(manner,E14), event(m)]) 
+
+# E14 (phone call) -> n
+# FOL:  exists n.(relationRole(partner,T35) & relationRole(agent,T33) & event(n))
+# DRS:  ([n],[relationRole(partner,T35), relationRole(agent,T33), event(n)]) 
+
+# E15 (important next step) -> o
+# FOL:  exists o.event(o)
+# DRS:  ([o],[event(o)]) 
+
+# E16 (worsening crisis) -> p
+# FOL:  exists p.(relationRole(location,T31) & event(p))
+# DRS:  ([p],[relationRole(location,T31), event(p)]) 
+
+» ACTORS
+# T16 -> The Obama administration
+# T17 -> Russian
+# T18 -> military officials
+# T19 -> Russia
+# T20 -> Syria
+# T24 -> President Barack Obama
+# T25 -> Russia
+# T27 -> the US
+# T28 -> its
+# T29 -> allies
+# T31 -> Syria
+# T32 -> Russia
+# T33 -> Russian Foreign Minister Sergey Lavrov
+# T35 -> Kerry
+# T36 -> American
+# T21 -> Secretary of State John Kerry
+# T34 -> the idea
+# T23 -> London
+# T22 -> reporters
+
+» RELATIONS
+# E1 - agent - T16
+# E1 - theme - E2
+# E2 - agent - T18
+# E2 - theme - E3
+# E3 - location - T20
+# E3 - agent - T19
+# E4 - agent - T21
+# E4 - goal - T22
+# E4 - location - T23
+# E4 - theme - E5
+# E5 - pivot - T24
+# E5 - theme - E6
+# E6 - partner - T25
+# E6 - agent - T27
+# E7 - pivot - E6
+# E7 - theme - E15
+# E8 - agent - T27
+# E8 - partner - T29
+# E8 - theme - E9
+# E9 - theme - E16
+# E16 - location - T31
+# E10 - agent - T27
+# E10 - partner - T29
+# E10 - theme - E11
+# E11 - theme - E12
+# E12 - agent - T32
+# E13 - agent - T33
+# E13 - theme - T34
+# E13 - manner - E14
+# E14 - partner - T35
+# E14 - agent - T33
+# T36 - memberOf - T18
+# T17 - memberOf - T18
+# T25 - objIdentity - T19
+# T16 - partOf - T27
+# T28 - objIdentity - T27
+# T31 - objIdentity - T20
+# T32 - objIdentity - T25
+# T24 - partOf - T27
+# T33 - partOf - T32

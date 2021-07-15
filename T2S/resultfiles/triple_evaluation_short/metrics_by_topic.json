@@ -1,0 +1,114 @@
+[
+    {
+        "leven": 0.481,
+        "FastText": 0.453,
+        "BERT": 0.766,
+        "ROUGE1": 0.333,
+        "topic": "1478bf7b-1c23-4235-9ed2-b8c287fc952c",
+        "n_triples": 6
+    },
+    {
+        "leven": 0.497,
+        "FastText": 0.414,
+        "BERT": 0.722,
+        "ROUGE1": 0.206,
+        "topic": "4bc04c2f-2d01-42d5-8311-e4005950d20f",
+        "n_triples": 18
+    },
+    {
+        "leven": 0.544,
+        "FastText": 0.46,
+        "BERT": 0.71,
+        "ROUGE1": 0.224,
+        "topic": "4e74bbed-b449-48a8-a71c-f70499105289",
+        "n_triples": 6
+    },
+    {
+        "leven": 0.474,
+        "FastText": 0.316,
+        "BERT": 0.686,
+        "ROUGE1": 0.083,
+        "topic": "5d4e4fbf-b220-4f42-aed5-153725b27070",
+        "n_triples": 4
+    },
+    {
+        "leven": 0.487,
+        "FastText": 0.383,
+        "BERT": 0.715,
+        "ROUGE1": 0.197,
+        "topic": "86ffe840-0a6b-4e7d-9490-e24636a3a214",
+        "n_triples": 15
+    },
+    {
+        "leven": 0.642,
+        "FastText": 0.544,
+        "BERT": 0.783,
+        "ROUGE1": 0.343,
+        "topic": "9c2abfde-02c5-4342-8a24-7c929090a6f8",
+        "n_triples": 25
+    },
+    {
+        "leven": 0.509,
+        "FastText": 0.477,
+        "BERT": 0.754,
+        "ROUGE1": 0.292,
+        "topic": "9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "n_triples": 8
+    },
+    {
+        "leven": 0.482,
+        "FastText": 0.373,
+        "BERT": 0.696,
+        "ROUGE1": 0.132,
+        "topic": "b5a591aa-8dd0-43d2-9961-ab19510f87ac",
+        "n_triples": 6
+    },
+    {
+        "leven": 0.566,
+        "FastText": 0.507,
+        "BERT": 0.757,
+        "ROUGE1": 0.277,
+        "topic": "bb487a6c-0c13-4a30-a22b-bd865fef9f01",
+        "n_triples": 21
+    },
+    {
+        "leven": 0.474,
+        "FastText": 0.434,
+        "BERT": 0.718,
+        "ROUGE1": 0.194,
+        "topic": "bf88166e-76fe-4605-97df-bb63f5a1806c",
+        "n_triples": 24
+    },
+    {
+        "leven": 0.59,
+        "FastText": 0.529,
+        "BERT": 0.757,
+        "ROUGE1": 0.315,
+        "topic": "c24983f3-70bc-4e1e-b1ab-75d559adc338",
+        "n_triples": 8
+    },
+    {
+        "leven": 0.418,
+        "FastText": 0.343,
+        "BERT": 0.686,
+        "ROUGE1": 0.147,
+        "topic": "e7fc9f97-0952-4481-951b-583a3f17893e",
+        "n_triples": 10
+    },
+    {
+        "leven": 0.452,
+        "FastText": 0.261,
+        "BERT": 0.719,
+        "ROUGE1": 0.199,
+        "topic": "ef756748-9863-44d6-8cfc-66cbf0ccd975",
+        "n_triples": 18
+    },
+    {
+        "leven": 0.463,
+        "FastText": 0.376,
+        "BERT": 0.716,
+        "ROUGE1": 0.229,
+        "topic": "f853bd19-8f5b-468d-a261-a2cb9c7407bc",
+        "n_triples": 6
+    }
+]

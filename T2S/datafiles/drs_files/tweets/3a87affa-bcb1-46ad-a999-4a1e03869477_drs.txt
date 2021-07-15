@@ -1,0 +1,134 @@
+» EVENTS
+# E1 (save) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T18) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T18), Factuality(a,Factual)]) 
+
+# E2 (started) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T21) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T21), Factuality(b,Factual)]) 
+
+# E3 (make) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T22) & relationRole(theme,T7) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T22), relationRole(theme,T7), Factuality(c,Factual)]) 
+
+# E4 (‚Äôs) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T23) & relationRole(theme,T24) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T23), relationRole(theme,T24), Factuality(d,Factual)]) 
+
+# E5 (be) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T24) & relationRole(theme,T25) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T24), relationRole(theme,T25), Factuality(e,Factual)]) 
+
+# E6 (favorites cookbook submit) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(time,T26) & relationRole(theme,T27) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(time,T26), relationRole(theme,T27), Factuality(f,Factual)]) 
+
+# E7 (sunday cooking frm) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T30) & relationRole(theme,T1) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T30), relationRole(theme,T1), Factuality(g,Factual)]) 
+
+# E8 (cookbook really great recipes n some ingredients) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T1) & relationRole(event,E9) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T1), relationRole(event,E9), Factuality(h,Factual)]) 
+
+# E9 (are nt banned) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(time,T31) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(time,T31), Factuality(i,Factual)]) 
+
+# E10 (must bring) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T10) & relationRole(theme,T14) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T10), relationRole(theme,T14), Factuality(j,Factual)]) 
+
+# E11 (lack) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T11) & relationRole(theme,T34) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T11), relationRole(theme,T34), Factuality(k,Factual)]) 
+
+# E12 (cooking) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T35) & relationRole(theme,T15) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T35), relationRole(theme,T15), Factuality(l,Factual)]) 
+
+# E13 (do) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T12) & relationRole(theme,T37) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T12), relationRole(theme,T37), Factuality(m,Factual)]) 
+
+# E14 (seeing the effort is worth it means i close) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T39) & relationRole(theme,T40) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T39), relationRole(theme,T40), Factuality(n,Factual)]) 
+
+# E15 (cooking) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T9) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T9), Factuality(o,Factual)]) 
+
+# E16 (recipe you cooking up) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T41) & relationRole(time,T42) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T41), relationRole(time,T42), Factuality(p,Factual)]) 
+
+» ACTORS
+# T1 -> frm zarine khans cookbook
+# T10 -> i
+# T11 -> i
+# T12 -> my
+# T13 -> i
+# T14 -> a beef roast
+# T15 -> it
+# T16 -> zarine khans
+# T17 -> her
+# T24 -> your favorite game day recipe
+# T3 -> zarine khan
+# T31 -> as yet
+# T7 -> new cookbook
+# T8 -> zarine khans cookbook
+# T9 -> her new cookbook ‚Äî cooking secrets family and more
+# T21 -> your nyt cooking recipe box
+# T42 -> next
+# T40 -> the page
+# T26 -> game day
+# T22 -> sugar and warming spices
+# T37 -> 4 squirrels
+# T41 -> which
+# T18 -> recipes
+# T35 -> those with jewish moms
+# T25 -> a part of our annual
+# T39 -> food blogs and cooking sites
+# T27 -> your recipes
+# T23 -> what
+# T34 -> the wisdom of
+# T30 -> a non working
+
+» RELATIONS
+# E1 - theme - T18
+# E2 - theme - T21
+# E3 - theme - T22
+# E3 - theme - T7
+# E4 - theme - T23
+# E4 - theme - T24
+# E5 - theme - T24
+# E5 - theme - T25
+# E6 - time - T26
+# E6 - theme - T27
+# E7 - theme - T30
+# E7 - theme - T1
+# E8 - theme - T1
+# E8 - event - E9
+# E9 - time - T31
+# E10 - theme - T10
+# E10 - theme - T14
+# E11 - theme - T11
+# E11 - theme - T34
+# E12 - theme - T35
+# E12 - theme - T15
+# E13 - theme - T12
+# E13 - theme - T37
+# E14 - theme - T39
+# E14 - theme - T40
+# E15 - theme - T9
+# E16 - theme - T41
+# E16 - time - T42
+# T7 - objIdentity - T8
+# T8 - objIdentity - T9
+# T10 - objIdentity - T11
+# T11 - objIdentity - T12
+# T12 - objIdentity - T13
+# T14 - objIdentity - T15
+# T16 - objIdentity - T3
+# T3 - objIdentity - T17

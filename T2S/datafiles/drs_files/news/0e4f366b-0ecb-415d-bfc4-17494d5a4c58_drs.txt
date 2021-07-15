@@ -1,0 +1,149 @@
+» EVENTS
+# E1 (will take place) -> a
+# FOL:  exists a.(relationRole(location,T25) & relationRole(pivot,T24) & event(a))
+# DRS:  ([a],[relationRole(location,T25), relationRole(pivot,T24), event(a)]) 
+
+# E2 (putting on) -> b
+# FOL:  exists b.(relationRole(agent,T26) & relationRole(theme,E3) & event(b))
+# DRS:  ([b],[relationRole(agent,T26), relationRole(theme,E3), event(b)]) 
+
+# E3 (finishing touches) -> c
+# FOL:  exists c.(relationRole(patient,T27) & event(c))
+# DRS:  ([c],[relationRole(patient,T27), event(c)]) 
+
+# E4 (Held) -> d
+# FOL:  exists d.(relationRole(pivot,E5) & relationRole(location,T31) & event(d))
+# DRS:  ([d],[relationRole(pivot,E5), relationRole(location,T31), event(d)]) 
+
+# E5 (event) -> e
+# FOL:  exists e.event(e)
+# DRS:  ([e],[event(e)]) 
+
+# E6 (runs) -> f
+# FOL:  exists f.(relationRole(theme,E5) & event(f))
+# DRS:  ([f],[relationRole(theme,E5), event(f)]) 
+
+# E7 (are) -> g
+# FOL:  exists g.(relationRole(theme,T34) & relationRole(pivot,T35) & relationRole(pivot,T36) & relationRole(pivot,T37) & event(g))
+# DRS:  ([g],[relationRole(theme,T34), relationRole(pivot,T35), relationRole(pivot,T36), relationRole(pivot,T37), event(g)]) 
+
+# E8 (will present) -> h
+# FOL:  exists h.(relationRole(agent,T39) & relationRole(theme,T41) & event(h))
+# DRS:  ([h],[relationRole(agent,T39), relationRole(theme,T41), event(h)]) 
+
+# E9 (cooking demonstrations) -> i
+# FOL:  exists i.(relationRole(agent,T39) & event(i))
+# DRS:  ([i],[relationRole(agent,T39), event(i)]) 
+
+# E10 (will be available) -> j
+# FOL:  exists j.(relationRole(pivot,T44) & relationRole(purpose,E11) & relationRole(goal,T45) & relationRole(location,T46) & relationRole(pivot,T47) & event(j))
+# DRS:  ([j],[relationRole(pivot,T44), relationRole(purpose,E11), relationRole(goal,T45), relationRole(location,T46), relationRole(pivot,T47), event(j)]) 
+
+# E11 (sale) -> k
+# FOL:  exists k.event(k)
+# DRS:  ([k],[event(k)]) 
+
+# E12 (celebration) -> l
+# FOL:  exists l.(relationRole(theme,T28) & relationRole(setting,E17) & event(l))
+# DRS:  ([l],[relationRole(theme,T28), relationRole(setting,E17), event(l)]) 
+
+# E13 (will be) -> m
+# FOL:  exists m.(relationRole(pivot,E12) & relationRole(theme,E14) & event(m))
+# DRS:  ([m],[relationRole(pivot,E12), relationRole(theme,E14), event(m)]) 
+
+# E14 (main focus) -> n
+# FOL:  exists n.(relationRole(theme,E15) & event(n))
+# DRS:  ([n],[relationRole(theme,E15), event(n)]) 
+
+# E15 (festival) -> o
+# FOL:  exists o.event(o)
+# DRS:  ([o],[event(o)]) 
+
+# E16 (exclusively presented) -> p
+# FOL:  exists p.(relationRole(theme,E15) & relationRole(agent,T30) & event(p))
+# DRS:  ([p],[relationRole(theme,E15), relationRole(agent,T30), event(p)]) 
+
+# E17 (modern Asian cuisine) -> q
+# FOL:  exists q.event(q)
+# DRS:  ([q],[event(q)]) 
+
+# E18 (lunch) -> r
+# FOL:  exists r.(relationRole(theme,T41) & event(r))
+# DRS:  ([r],[relationRole(theme,T41), event(r)]) 
+
+# E19 (dinner) -> s
+# FOL:  exists s.(relationRole(theme,T41) & event(s))
+# DRS:  ([s],[relationRole(theme,T41), event(s)]) 
+
+# E20 (festival) -> t
+# FOL:  exists t.event(t)
+# DRS:  ([t],[event(t)]) 
+
+» ACTORS
+# T25 -> Bangkok
+# T26 -> the Riva Surya
+# T27 -> exquisite menus
+# T28 -> high-quality organic produce
+# T30 -> high-profile Asian chefs
+# T31 -> the Riva Surya
+# T32 -> the banks of the Chao Phraya River
+# T33 -> Bangkok
+# T34 -> Guest chefs
+# T35 -> Sompong Suksuwan (Four Seasons Bkk and the Berkeley)
+# T36 -> Satawat Kunarasai (Four Seasons, Shanghai, and the Pullman King Power)
+# T37 -> Surasing Viratsakul
+# T38 -> Chef "X"
+# T39 -> Guest chefs
+# T40 -> their
+# T41 -> 3- and 4-course organic menus
+# T47 -> organic farm produce
+# T48 -> Thailand's Royal Projects
+# T49 -> its
+# T46 -> the farmers' market
+# T45 -> all health-conscious visitors
+# T24 -> The annual Asian Organic Gourmet Festival
+# T44 -> Organic products
+
+» RELATIONS
+# E1 - location - T25
+# E2 - agent - T26
+# E2 - theme - E3
+# E3 - patient - T27
+# E1 - pivot - T24
+# E12 - theme - T28
+# E12 - setting - E17
+# E13 - pivot - E12
+# E13 - theme - E14
+# E14 - theme - E15
+# E16 - theme - E15
+# E16 - agent - T30
+# E4 - pivot - E5
+# E4 - location - T31
+# E6 - theme - E5
+# E7 - theme - T34
+# E7 - pivot - T35
+# E7 - pivot - T36
+# E7 - pivot - T37
+# E8 - agent - T39
+# E8 - theme - T41
+# E18 - theme - T41
+# E19 - theme - T41
+# E9 - agent - T39
+# E10 - pivot - T44
+# E10 - purpose - E11
+# E10 - goal - T45
+# E10 - location - T46
+# E10 - pivot - T47
+# T26 - partOf - T25
+# T49 - objIdentity - T26
+# T31 - objIdentity - T49
+# T31 - partOf - T32
+# T32 - partOf - T33
+# T34 - objIdentity - T30
+# T35 - memberOf - T34
+# T36 - memberOf - T34
+# T37 - memberOf - T34
+# T38 - objIdentity - T37
+# T39 - objIdentity - T34
+# T40 - objIdentity - T39
+# T47 - partOf - T48

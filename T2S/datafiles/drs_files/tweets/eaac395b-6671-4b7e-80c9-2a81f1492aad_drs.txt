@@ -1,0 +1,67 @@
+» EVENTS
+# E1 (probably has) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T2) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T2), Factuality(a,Factual)]) 
+
+# E2 (m) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T12) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T12), Factuality(b,Factual)]) 
+
+# E3 (releases) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T14) & relationRole(theme,T21) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T14), relationRole(theme,T21), Factuality(c,Factual)]) 
+
+# E4 (issues) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T16) & relationRole(theme,T23) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T16), relationRole(theme,T23), Factuality(d,Factual)]) 
+
+# E5 (iphone) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T23) & relationRole(theme,T19) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T23), relationRole(theme,T19), Factuality(e,Factual)]) 
+
+# E6 (is) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T6) & relationRole(time,T24) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T6), relationRole(time,T24), Factuality(f,Factual)]) 
+
+# E7 (can do) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T28) & relationRole(theme,T29) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T28), relationRole(theme,T29), Factuality(g,Factual)]) 
+
+» ACTORS
+# T12 -> ios 9 1
+# T13 -> ios 9 1
+# T14 -> apple
+# T15 -> apple
+# T16 -> apple
+# T19 -> iphone 6s
+# T20 -> the iphone 6s 6s plus
+# T23 -> second ios 9 1 public
+# T28 -> you
+# T21 -> second ios 9 1 public beta
+# T6 -> ios
+# T29 -> with 3d touch
+# T17 -> the public beta for ios 9 1
+# T24 -> now
+# T2 -> ios
+# T1 -> turnbull
+# T18 -> ios 9 1 public beta
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T2
+# E2 - theme - T12
+# E3 - theme - T14
+# E3 - theme - T21
+# E4 - theme - T16
+# E4 - theme - T23
+# E5 - theme - T23
+# E5 - theme - T19
+# E6 - theme - T6
+# E6 - time - T24
+# E7 - theme - T28
+# E7 - theme - T29
+# T12 - objIdentity - T13
+# T14 - objIdentity - T15
+# T15 - objIdentity - T16
+# T17 - objIdentity - T18
+# T19 - objIdentity - T20

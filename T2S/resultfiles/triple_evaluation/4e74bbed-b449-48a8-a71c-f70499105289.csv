@@ -1,0 +1,23 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+man - used - mop,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.727,0.596,0.625,0.333
+man - told - china central television,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.769,0.534,0.606,0.333
+man - heard - man,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.721,0.49,0.587,0.333
+man - walking - street,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.76,0.563,0.648,0.333
+man - noticed - man,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.715,0.488,0.559,0.333
+man - entered - building,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.749,0.496,0.573,0.333
+man - leaning out - nearby window,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.819,0.672,0.79,0.429
+man - make sure - man,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.753,0.558,0.6,0.333
+man - to hold - mop,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.749,0.629,0.685,0.4
+mop - used - man,toddler dangling 4th floor window - using - mop,0.656,0.413,0.326,0.0
+fourthfloor apartment window - dangling - fourthfloor apartment window,man - saves child hanging - fourthfloor apartment window,0.731,0.565,0.707,0.333
+video - has been released - video,china - was able to use - mop,0.627,0.179,0.353,0.0
+toddler - to save - man,toddler dangling 4th floor window - using - mop,0.683,0.363,0.467,0.111
+toddler - left - toddler,toddler dangling 4th floor window - using - mop,0.644,0.334,0.4,0.111
+video - showing - video,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.62,0.232,0.309,0.0
+toddler - screaming - toddler,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.673,0.394,0.433,0.111
+toddler - hanging - fourthfloor apartment window,man - saves child hanging - fourthfloor apartment window,0.797,0.627,0.633,0.444
+toddler - to support - toddler,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.696,0.406,0.585,0.178
+toddler - did not fall - toddler,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.676,0.4,0.419,0.111
+toddler - death - toddler,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.661,0.344,0.42,0.111
+childs parents - were able - childs parents,china - was able to use - mop,0.684,0.375,0.565,0.083
+back inside building - to pull - toddler,man - uses mop to save girl dangling - toddler dangling 4th floor window,0.707,0.463,0.685,0.178

@@ -1,0 +1,128 @@
+» EVENTS
+# E1 (says missing panchen lama is living) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T31) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T31), Factuality(a,Factual)]) 
+
+# E2 (says panchen lama living) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T3) & relationRole(theme,T32) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T3), relationRole(theme,T32), Factuality(b,Factual)]) 
+
+# E3 (mentioned does not wish to be disturbed) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T19) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T19), Factuality(c,Factual)]) 
+
+# E4 (chosen) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T6) & relationRole(theme,T20) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T6), relationRole(theme,T20), Factuality(d,Factual)]) 
+
+# E5 (is) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(time,T20) & relationRole(theme,T34) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(time,T20), relationRole(theme,T34), Factuality(e,Factual)]) 
+
+# E6 (now lives) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T21) & relationRole(theme,T35) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T21), relationRole(theme,T35), Factuality(f,Factual)]) 
+
+# E7 (says missing tibetan who vanished) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T7) & relationRole(time,T36) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T7), relationRole(time,T36), Factuality(g,Factual)]) 
+
+# E8 (is living) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(time,T36) & relationRole(theme,T37) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(time,T36), relationRole(theme,T37), Factuality(h,Factual)]) 
+
+# E9 (says missing panchen lama living) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T38) & relationRole(theme,T39) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T38), relationRole(theme,T39), Factuality(i,Factual)]) 
+
+# E10 (does not wish to be disturbed) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T39) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T39), Factuality(j,Factual)]) 
+
+# E11 (calls) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T10) & relationRole(theme,T23) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T10), relationRole(theme,T23), Factuality(k,Factual)]) 
+
+# E12 (says his friends have told) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T11) & relationRole(theme,T30) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T11), relationRole(theme,T30), Factuality(l,Factual)]) 
+
+# E13 (disappeared) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T24) & relationRole(time,T24) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T24), relationRole(time,T24), Factuality(m,Factual)]) 
+
+# E14 (has) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(time,T24) & relationRole(theme,T41) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(time,T24), relationRole(theme,T41), Factuality(n,Factual)]) 
+
+» ACTORS
+# T1 -> china
+# T17 -> missing panchen lama
+# T18 -> panchen lama
+# T19 -> the reincarnated child panchen lama you mentioned
+# T20 -> the panchen lama chosen by the dalailama 20 yrs ago
+# T21 -> he
+# T22 -> missing panchen lama
+# T23 -> panchen lama
+# T24 -> the panchen lama who disappeared 20 yrs ago
+# T27 -> dalai lama
+# T28 -> dalai lama
+# T29 -> his
+# T3 -> china
+# T30 -> him
+# T36 -> 2 decades ago
+# T39 -> a normal life and
+# T7 -> china
+# T25 -> disappearance
+# T26 -> 20 year disappearance of panchen lama
+# T31 -> a normal life
+# T32 -> a normal life
+# T38 -> chinese official
+# T10 -> lama
+# T35 -> normal life
+# T37 -> a normal life
+# T6 -> lama
+# T11 -> lama
+# T41 -> a family
+# T34 -> illegal invalid
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T31
+# E2 - theme - T3
+# E2 - theme - T32
+# E3 - theme - T19
+# E4 - theme - T6
+# E4 - theme - T20
+# E5 - time - T20
+# E5 - theme - T34
+# E6 - theme - T21
+# E6 - theme - T35
+# E7 - theme - T7
+# E7 - time - T36
+# E8 - time - T36
+# E8 - theme - T37
+# E9 - theme - T38
+# E9 - theme - T39
+# E10 - theme - T39
+# E11 - theme - T10
+# E11 - theme - T23
+# E12 - theme - T11
+# E12 - theme - T30
+# E13 - theme - T24
+# E13 - time - T24
+# E14 - time - T24
+# E14 - theme - T41
+# T1 - objIdentity - T3
+# T3 - objIdentity - T7
+# T17 - objIdentity - T18
+# T18 - objIdentity - T19
+# T19 - objIdentity - T20
+# T20 - objIdentity - T21
+# T21 - objIdentity - T22
+# T22 - objIdentity - T23
+# T23 - objIdentity - T24
+# T25 - objIdentity - T26
+# T27 - objIdentity - T28
+# T28 - objIdentity - T29
+# T29 - objIdentity - T30

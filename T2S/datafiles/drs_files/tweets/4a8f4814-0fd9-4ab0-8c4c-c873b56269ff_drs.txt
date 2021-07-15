@@ -1,0 +1,219 @@
+» EVENTS
+# E1 (will buffalobills fans react) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T52) & relationRole(theme,T53) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T52), relationRole(theme,T53), Factuality(a,Factual)]) 
+
+# E2 (calling them out should be) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T1) & relationRole(theme,T25) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T1), relationRole(theme,T25), Factuality(b,Factual)]) 
+
+# E3 (going) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T3) & relationRole(theme,T26) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T3), relationRole(theme,T26), Factuality(c,Factual)]) 
+
+# E4 (wins) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T4) & relationRole(theme,T27) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T4), relationRole(theme,T27), Factuality(d,Factual)]) 
+
+# E5 (welcome) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T55) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T55), Factuality(e,Factual)]) 
+
+# E6 (beat) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T6) & relationRole(theme,T56) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T6), relationRole(theme,T56), Factuality(f,Factual)]) 
+
+# E7 (lost) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T40) & relationRole(theme,T32) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T40), relationRole(theme,T32), Factuality(g,Factual)]) 
+
+# E8 (has) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T7) & relationRole(theme,T8) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T7), relationRole(theme,T8), Factuality(h,Factual)]) 
+
+# E9 (were excited to have) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T59) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T59), Factuality(i,Factual)]) 
+
+# E10 (makes) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T11) & relationRole(theme,T62) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T11), relationRole(theme,T62), Factuality(j,Factual)]) 
+
+# E11 (offensive play) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(time,T64) & relationRole(theme,T42) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(time,T64), relationRole(theme,T42), Factuality(k,Factual)]) 
+
+# E12 (leaving) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T42) & relationRole(theme,T12) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T42), relationRole(theme,T12), Factuality(l,Factual)]) 
+
+# E13 (left) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T65) & relationRole(time,T66) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T65), relationRole(time,T66), Factuality(m,Factual)]) 
+
+# E14 (have run) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T35) & relationRole(theme,T67) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T35), relationRole(theme,T67), Factuality(n,Factual)]) 
+
+# E15 (has) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T13) & relationRole(theme,T68) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T13), relationRole(theme,T68), Factuality(o,Factual)]) 
+
+# E16 (leads) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T68) & relationRole(theme,T69) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T68), relationRole(theme,T69), Factuality(p,Factual)]) 
+
+# E17 (flagged for knocking down) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T45) & relationRole(theme,T70) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T45), relationRole(theme,T70), Factuality(q,Factual)]) 
+
+# E18 (ve reached) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T73) & relationRole(theme,T74) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T73), relationRole(theme,T74), Factuality(r,Factual)]) 
+
+# E19 (trailing) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T48) & relationRole(theme,T37) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T48), relationRole(theme,T37), Factuality(s,Factual)]) 
+
+# E20 (peppered bills team crushing) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T16) & relationRole(theme,T18) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T16), relationRole(theme,T18), Factuality(t,Factual)]) 
+
+# E21 (blast) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T39) & relationRole(theme,T49) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T39), relationRole(theme,T49), Factuality(u,Factual)]) 
+
+» ACTORS
+# T1 -> rex ryan
+# T11 -> charles clay
+# T12 -> buffalo
+# T13 -> buffalo
+# T14 -> buffalo
+# T15 -> miami
+# T17 -> rex ryan
+# T18 -> miami
+# T22 -> buffalobills
+# T23 -> them
+# T24 -> the buffalobills‚Äô
+# T25 -> a great game this sunday at ralph wilson stadium
+# T26 -> the bills game
+# T27 -> his
+# T28 -> rex ryan
+# T29 -> his
+# T30 -> bills
+# T31 -> bills
+# T32 -> the team
+# T33 -> buffalo bills
+# T34 -> bills
+# T35 -> bills
+# T36 -> bills
+# T37 -> the bills
+# T38 -> his ex dolphins peppered bills team
+# T39 -> bills
+# T4 -> rex ryan
+# T40 -> the last 7 coaches
+# T41 -> their
+# T42 -> his
+# T43 -> dolphins
+# T44 -> dolphins
+# T45 -> dolphins
+# T46 -> dolphins
+# T47 -> miami dolphins
+# T48 -> the dolphins
+# T49 -> dolphins
+# T6 -> buffalo
+# T68 -> 113 more yards
+# T7 -> rex ryan
+# T8 -> buffalo
+# T53 -> to
+# T55 -> to the rex ryan era in
+# T67 -> the same number of plays 13
+# T56 -> colts
+# T64 -> first
+# T50 -> dolphins
+# T51 -> dolphins
+# T69 -> 14 0
+# T62 -> the catch on
+# T3 -> lukerussert
+# T74 -> the 2 minute warning in miami with
+# T52 -> how
+# T59 -> these three former canesfootball players
+# T16 -> dave hyde
+# T65 -> 03
+# T70 -> the punter
+# T73 -> we
+# T66 -> in the 1st quarter
+
+» RELATIONS
+# E1 - theme - T52
+# E1 - theme - T53
+# E2 - theme - T1
+# E2 - theme - T25
+# E3 - theme - T3
+# E3 - theme - T26
+# E4 - theme - T4
+# E4 - theme - T27
+# E5 - theme - T55
+# E6 - theme - T6
+# E6 - theme - T56
+# E7 - theme - T40
+# E7 - theme - T32
+# E8 - theme - T7
+# E8 - theme - T8
+# E9 - theme - T59
+# E10 - theme - T11
+# E10 - theme - T62
+# E11 - time - T64
+# E11 - theme - T42
+# E12 - theme - T42
+# E12 - theme - T12
+# E13 - theme - T65
+# E13 - time - T66
+# E14 - theme - T35
+# E14 - theme - T67
+# E15 - theme - T13
+# E15 - theme - T68
+# E16 - theme - T68
+# E16 - theme - T69
+# E17 - theme - T45
+# E17 - theme - T70
+# E18 - theme - T73
+# E18 - theme - T74
+# E19 - theme - T48
+# E19 - theme - T37
+# E20 - theme - T16
+# E20 - theme - T18
+# E21 - theme - T39
+# E21 - theme - T49
+# T22 - objIdentity - T23
+# T23 - objIdentity - T24
+# T25 - objIdentity - T26
+# T1 - objIdentity - T4
+# T4 - objIdentity - T27
+# T27 - objIdentity - T28
+# T28 - objIdentity - T7
+# T7 - objIdentity - T17
+# T17 - objIdentity - T29
+# T30 - objIdentity - T31
+# T31 - objIdentity - T32
+# T32 - objIdentity - T33
+# T33 - objIdentity - T34
+# T34 - objIdentity - T35
+# T35 - objIdentity - T36
+# T36 - objIdentity - T37
+# T37 - objIdentity - T38
+# T38 - objIdentity - T39
+# T40 - objIdentity - T41
+# T6 - objIdentity - T8
+# T8 - objIdentity - T12
+# T12 - objIdentity - T13
+# T13 - objIdentity - T14
+# T11 - objIdentity - T42
+# T43 - objIdentity - T44
+# T44 - objIdentity - T45
+# T45 - objIdentity - T46
+# T47 - objIdentity - T15
+# T15 - objIdentity - T48
+# T48 - objIdentity - T18
+# T18 - objIdentity - T49
+# T50 - objIdentity - T51

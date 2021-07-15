@@ -1,0 +1,129 @@
+» EVENTS
+# E1 (is) -> a
+# FOL:  exists a.(relationRole(agent,T1) & relationRole(theme,T29) & relationRole(theme,T30) & relationRole(theme,T33) & event(a))
+# DRS:  ([a],[relationRole(agent,T1), relationRole(theme,T29), relationRole(theme,T30), relationRole(theme,T33), event(a)]) 
+
+# E2 (announced) -> b
+# FOL:  exists b.(relationRole(agent,T36) & relationRole(theme,E3) & event(b))
+# DRS:  ([b],[relationRole(agent,T36), relationRole(theme,E3), event(b)]) 
+
+# E3 (was running) -> c
+# FOL:  exists c.(relationRole(agent,T37) & relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(agent,T37), relationRole(theme,E4), event(c)]) 
+
+# E4 (nomination) -> d
+# FOL:  exists d.(relationRole(source,T38) & relationRole(theme,E5) & event(d))
+# DRS:  ([d],[relationRole(source,T38), relationRole(theme,E5), event(d)]) 
+
+# E5 (presidential election) -> e
+# FOL:  exists e.event(e)
+# DRS:  ([e],[event(e)]) 
+
+# E6 (was) -> f
+# FOL:  exists f.(relationRole(theme,T12) & relationRole(agent,T10) & event(f))
+# DRS:  ([f],[relationRole(theme,T12), relationRole(agent,T10), event(f)]) 
+
+# E7 (to successfully separate) -> g
+# FOL:  exists g.(relationRole(agent,T12) & relationRole(theme,T14) & event(g))
+# DRS:  ([g],[relationRole(agent,T12), relationRole(theme,T14), event(g)]) 
+
+# E8 (was awarded) -> h
+# FOL:  exists h.(relationRole(theme,T10) & relationRole(theme,T18) & relationRole(agent,T19) & relationRole(theme,E10) & event(h))
+# DRS:  ([h],[relationRole(theme,T10), relationRole(theme,T18), relationRole(agent,T19), relationRole(theme,E10), event(h)]) 
+
+# E9 (joined) -> i
+# FOL:  exists i.(relationRole(theme,T14) & relationRole(location,T17) & event(i))
+# DRS:  ([i],[relationRole(theme,T14), relationRole(location,T17), event(i)]) 
+
+# E10 (work) -> j
+# FOL:  exists j.(relationRole(agent,T20) & event(j))
+# DRS:  ([j],[relationRole(agent,T20), event(j)]) 
+
+# E11 (views) -> k
+# FOL:  exists k.(relationRole(source,T22) & event(k))
+# DRS:  ([k],[relationRole(source,T22), event(k)]) 
+
+# E12 (speeches) -> l
+# FOL:  exists l.(relationRole(agent,T22) & event(l))
+# DRS:  ([l],[relationRole(agent,T22), event(l)]) 
+
+# E13 (have solidified) -> m
+# FOL:  exists m.(relationRole(theme,T26) & relationRole(theme,E12) & relationRole(theme,E11) & relationRole(theme,T27) & event(m))
+# DRS:  ([m],[relationRole(theme,T26), relationRole(theme,E12), relationRole(theme,E11), relationRole(theme,T27), event(m)]) 
+
+# E14 (politics) -> n
+# FOL:  exists n.(relationRole(location,T27) & event(n))
+# DRS:  ([n],[relationRole(location,T27), event(n)]) 
+
+# E15 (retired) -> o
+# FOL:  exists o.(relationRole(agent,T1) & relationRole(source,T32) & event(o))
+# DRS:  ([o],[relationRole(agent,T1), relationRole(source,T32), event(o)]) 
+
+# E16 (made) -> p
+# FOL:  exists p.(relationRole(agent,T3) & relationRole(theme,T35) & event(p))
+# DRS:  ([p],[relationRole(agent,T3), relationRole(theme,T35), event(p)]) 
+
+» ACTORS
+# T1 -> Benjamin Carson Sr
+# T10 -> Carson
+# T12 -> the first surgeon
+# T14 -> conjoined twins
+# T17 -> the head
+# T20 -> his
+# T22 -> His
+# T26 -> him
+# T27 -> a popular conservative figure
+# T3 -> he
+# T32 -> Johns Hopkins
+# T33 -> neurosurgeon
+# T36 -> he
+# T37 -> he
+# T38 -> Republican
+# T29 -> well-known politician
+# T18 -> the Presidential Medal of Freedom
+# T19 -> President George W. Bush
+# T30 -> author
+# T35 -> headlines
+
+» RELATIONS
+# E1 - agent - T1
+# E1 - theme - T29
+# E1 - theme - T30
+# E1 - theme - T33
+# E15 - agent - T1
+# E15 - source - T32
+# E16 - agent - T3
+# E16 - theme - T35
+# E2 - agent - T36
+# E2 - theme - E3
+# E3 - agent - T37
+# E3 - theme - E4
+# E4 - source - T38
+# E4 - theme - E5
+# E6 - theme - T12
+# E6 - agent - T10
+# E7 - agent - T12
+# E7 - theme - T14
+# E9 - theme - T14
+# E9 - location - T17
+# E8 - theme - T10
+# E8 - theme - T18
+# E8 - agent - T19
+# E8 - theme - E10
+# E10 - agent - T20
+# E11 - source - T22
+# E12 - agent - T22
+# E13 - theme - T26
+# E13 - theme - E12
+# E13 - theme - E11
+# E13 - theme - T27
+# E14 - location - T27
+# T33 - partOf - T32
+# T3 - objIdentity - T1
+# T36 - objIdentity - T3
+# T37 - objIdentity - T36
+# T10 - objIdentity - T37
+# T17 - partOf - T14
+# T20 - objIdentity - T10
+# T22 - objIdentity - T20
+# T26 - objIdentity - T10

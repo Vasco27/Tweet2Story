@@ -1,0 +1,158 @@
+» EVENTS
+# E1 (may need to change) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T32) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T32), Factuality(a,Factual)]) 
+
+# E2 (re form) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T33) & relationRole(theme,T20) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T33), relationRole(theme,T20), Factuality(b,Factual)]) 
+
+# E3 (please do not allow) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T34) & relationRole(theme,T2) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T34), relationRole(theme,T2), Factuality(c,Factual)]) 
+
+# E4 (refer) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T2) & relationRole(theme,T22) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T2), relationRole(theme,T22), Factuality(d,Factual)]) 
+
+# E5 (flaring da refers) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T37) & relationRole(theme,T26) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T37), relationRole(theme,T26), Factuality(e,Factual)]) 
+
+# E6 (calls) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T27) & relationRole(theme,T3) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T27), relationRole(theme,T3), Factuality(f,Factual)]) 
+
+# E7 (referring) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T4) & relationRole(theme,T28) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T4), relationRole(theme,T28), Factuality(g,Factual)]) 
+
+# E8 (calling) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T29) & relationRole(theme,T25) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T29), relationRole(theme,T25), Factuality(h,Factual)]) 
+
+# E9 (are) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T41) & relationRole(theme,T42) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T41), relationRole(theme,T42), Factuality(i,Factual)]) 
+
+# E10 (has become) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T7) & relationRole(theme,T46) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T7), relationRole(theme,T46), Factuality(j,Factual)]) 
+
+# E11 (holds) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T9) & relationRole(theme,T11) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T9), relationRole(theme,T11), Factuality(k,Factual)]) 
+
+# E12 (think as many do) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T47) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T47), Factuality(l,Factual)]) 
+
+# E13 (is) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T48) & relationRole(theme,T49) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T48), relationRole(theme,T49), Factuality(m,Factual)]) 
+
+# E14 (is) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T50) & relationRole(theme,T13) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T50), relationRole(theme,T13), Factuality(n,Factual)]) 
+
+# E15 (singhs) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T15) & relationRole(theme,T51) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T15), relationRole(theme,T51), Factuality(o,Factual)]) 
+
+# E16 (has changed) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T52) & relationRole(theme,T53) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T52), relationRole(theme,T53), Factuality(p,Factual)]) 
+
+# E17 (has since apologised) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T18) & relationRole(theme,T31) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T18), relationRole(theme,T31), Factuality(q,Factual)]) 
+
+# E18 (s bankrolling) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T31) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T31), Factuality(r,Factual)]) 
+
+» ACTORS
+# T16 -> bjp
+# T2 -> this racist party
+# T20 -> party
+# T21 -> this racist party the da
+# T22 -> us
+# T23 -> da
+# T24 -> the da
+# T25 -> the da
+# T26 -> eff
+# T27 -> eff
+# T28 -> the eff
+# T29 -> amp eff
+# T30 -> bjp
+# T31 -> the party hes
+# T9 -> bjp
+# T11 -> janata darbar
+# T52 -> money
+# T33 -> to
+# T32 -> their name
+# T47 -> that
+# T51 -> allegation that
+# T49 -> party y
+# T42 -> really
+# T3 -> da the racist party
+# T4 -> da
+# T46 -> in effect
+# T18 -> arron banks
+# T41 -> the gloves
+# T37 -> tempers
+# T7 -> the republican party
+# T48 -> the only alternative to party x
+# T1 -> reform party
+# T34 -> deputy speaker
+# T53 -> hands
+# T13 -> better party
+# T15 -> bjp ham rlsp
+# T50 -> the alternative
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T32
+# E2 - theme - T33
+# E2 - theme - T20
+# E3 - theme - T34
+# E3 - theme - T2
+# E4 - theme - T2
+# E4 - theme - T22
+# E5 - theme - T37
+# E5 - theme - T26
+# E6 - theme - T27
+# E6 - theme - T3
+# E7 - theme - T4
+# E7 - theme - T28
+# E8 - theme - T29
+# E8 - theme - T25
+# E9 - theme - T41
+# E9 - theme - T42
+# E10 - theme - T7
+# E10 - theme - T46
+# E11 - theme - T9
+# E11 - theme - T11
+# E12 - theme - T47
+# E13 - theme - T48
+# E13 - theme - T49
+# E14 - theme - T50
+# E14 - theme - T13
+# E15 - theme - T15
+# E15 - theme - T51
+# E16 - theme - T52
+# E16 - theme - T53
+# E17 - theme - T18
+# E17 - theme - T31
+# E18 - theme - T31
+# T20 - objIdentity - T21
+# T21 - objIdentity - T22
+# T22 - objIdentity - T23
+# T23 - objIdentity - T24
+# T24 - objIdentity - T25
+# T26 - objIdentity - T27
+# T27 - objIdentity - T28
+# T28 - objIdentity - T29
+# T9 - objIdentity - T30
+# T30 - objIdentity - T16
+# T16 - objIdentity - T31

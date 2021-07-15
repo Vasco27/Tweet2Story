@@ -1,0 +1,110 @@
+» EVENTS
+# E1 (officially announced) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T17) & relationRole(theme,T34) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T17), relationRole(theme,T34), Factuality(a,Factual)]) 
+
+# E2 (announces) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T2) & relationRole(theme,T4) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T2), relationRole(theme,T4), Factuality(b,Factual)]) 
+
+# E3 (unveils) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T6) & relationRole(theme,T7) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T6), relationRole(theme,T7), Factuality(c,Factual)]) 
+
+# E4 (unveils) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T23) & relationRole(theme,T10) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T23), relationRole(theme,T10), Factuality(d,Factual)]) 
+
+# E5 (ipad) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), Factuality(e,Factual)]) 
+
+# E6 (will) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T32) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T32), Factuality(f,Factual)]) 
+
+# E7 (blow) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T32) & relationRole(theme,T35) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T32), relationRole(theme,T35), Factuality(g,Factual)]) 
+
+# E8 (unveils) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T27) & relationRole(theme,T15) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T27), relationRole(theme,T15), Factuality(h,Factual)]) 
+
+# E9 (unveils) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T28) & relationRole(theme,T30) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T28), relationRole(theme,T30), Factuality(i,Factual)]) 
+
+# E10 (ipad pro) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T36) & relationRole(theme,T33) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T36), relationRole(theme,T33), Factuality(j,Factual)]) 
+
+# E11 (was) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T33) & relationRole(theme,T37) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T33), relationRole(theme,T37), Factuality(k,Factual)]) 
+
+» ACTORS
+# T15 -> ipad pro
+# T17 -> ipad pro
+# T18 -> ipad pro
+# T19 -> ipad pro
+# T20 -> ipad pro
+# T21 -> huge new ipad pro
+# T22 -> ipad pro
+# T23 -> apple
+# T24 -> apple
+# T25 -> apple
+# T26 -> apple
+# T27 -> apple
+# T28 -> apple
+# T29 -> iphone 6s iphone 6s plus
+# T3 -> apple
+# T30 -> iphone 6s 6s plus
+# T31 -> the new iphone 6s
+# T32 -> a new apple tv
+# T33 -> the new apple tv
+# T7 -> new iphone
+# T36 -> for all the excitement around the new iphone 6s and
+# T37 -> in
+# T34 -> the biggest ipad news since the ipad ‚Äù
+# T6 -> tim cook
+# T4 -> iphone
+# T10 -> 3d
+# T2 -> apple tv
+# T35 -> the streaming
+
+» RELATIONS
+# E1 - theme - T17
+# E1 - theme - T34
+# E2 - theme - T2
+# E2 - theme - T4
+# E3 - theme - T6
+# E3 - theme - T7
+# E4 - theme - T23
+# E4 - theme - T10
+# E6 - theme - T32
+# E7 - theme - T32
+# E7 - theme - T35
+# E8 - theme - T27
+# E8 - theme - T15
+# E9 - theme - T28
+# E9 - theme - T30
+# E10 - theme - T36
+# E10 - theme - T33
+# E11 - theme - T33
+# E11 - theme - T37
+# T17 - objIdentity - T18
+# T18 - objIdentity - T19
+# T19 - objIdentity - T20
+# T20 - objIdentity - T15
+# T15 - objIdentity - T21
+# T21 - objIdentity - T22
+# T3 - objIdentity - T23
+# T23 - objIdentity - T24
+# T24 - objIdentity - T25
+# T25 - objIdentity - T26
+# T26 - objIdentity - T27
+# T27 - objIdentity - T28
+# T29 - objIdentity - T30
+# T30 - objIdentity - T31
+# T32 - objIdentity - T33

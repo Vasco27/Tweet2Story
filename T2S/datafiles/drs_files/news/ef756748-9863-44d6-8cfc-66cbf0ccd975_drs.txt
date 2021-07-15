@@ -1,0 +1,227 @@
+» EVENTS
+# E1 (criticised) -> a
+# FOL:  exists a.(relationRole(setting,E19) & relationRole(agent,T21) & relationRole(patient,T22) & relationRole(reason,E2) & event(a))
+# DRS:  ([a],[relationRole(setting,E19), relationRole(agent,T21), relationRole(patient,T22), relationRole(reason,E2), event(a)]) 
+
+# E2 (inaccurate reporting) -> b
+# FOL:  exists b.(relationRole(agent,T22) & event(b))
+# DRS:  ([b],[relationRole(agent,T22), event(b)]) 
+
+# E3 (explained) -> c
+# FOL:  exists c.(relationRole(agent,T37) & relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(agent,T37), relationRole(theme,E4), event(c)]) 
+
+# E4 (lobbying) -> d
+# FOL:  exists d.(relationRole(pivot,T23) & relationRole(goal,T24) & relationRole(theme,E5) & event(d))
+# DRS:  ([d],[relationRole(pivot,T23), relationRole(goal,T24), relationRole(theme,E5), event(d)]) 
+
+# E5 (regulate) -> e
+# FOL:  exists e.(relationRole(agent,T24) & relationRole(theme,T25) & event(e))
+# DRS:  ([e],[relationRole(agent,T24), relationRole(theme,T25), event(e)]) 
+
+# E6 (asked) -> f
+# FOL:  exists f.(relationRole(patient,T29) & relationRole(theme,E7) & event(f))
+# DRS:  ([f],[relationRole(patient,T29), relationRole(theme,E7), event(f)]) 
+
+# E7 (balance) -> g
+# FOL:  exists g.(relationRole(theme,T26) & relationRole(theme,T27) & event(g))
+# DRS:  ([g],[relationRole(theme,T26), relationRole(theme,T27), event(g)]) 
+
+# E8 (reported) -> h
+# FOL:  exists h.(relationRole(patient,T27) & relationRole(patient,T26) & relationRole(agent,T28) & event(h))
+# DRS:  ([h],[relationRole(patient,T27), relationRole(patient,T26), relationRole(agent,T28), event(h)]) 
+
+# E9 (said) -> i
+# FOL:  exists i.(relationRole(agent,T29) & relationRole(theme,E10) & event(i))
+# DRS:  ([i],[relationRole(agent,T29), relationRole(theme,E10), event(i)]) 
+
+# E10 (need) -> j
+# FOL:  exists j.(relationRole(pivot,T38) & relationRole(theme,E11) & event(j))
+# DRS:  ([j],[relationRole(pivot,T38), relationRole(theme,E11), event(j)]) 
+
+# E11 (understand) -> k
+# FOL:  exists k.(relationRole(theme,E12) & relationRole(pivot,T38) & event(k))
+# DRS:  ([k],[relationRole(theme,E12), relationRole(pivot,T38), event(k)]) 
+
+# E12 (role) -> l
+# FOL:  exists l.(relationRole(pivot,T30) & event(l))
+# DRS:  ([l],[relationRole(pivot,T30), event(l)]) 
+
+# E13 (role) -> m
+# FOL:  exists m.(relationRole(pivot,T31) & event(m))
+# DRS:  ([m],[relationRole(pivot,T31), event(m)]) 
+
+# E14 (influence) -> n
+# FOL:  exists n.(relationRole(theme,T32) & event(n))
+# DRS:  ([n],[relationRole(theme,T32), event(n)]) 
+
+# E15 (began) -> o
+# FOL:  exists o.(relationRole(theme,E20) & relationRole(theme,E16) & event(o))
+# DRS:  ([o],[relationRole(theme,E20), relationRole(theme,E16), event(o)]) 
+
+# E16 (trending) -> p
+# FOL:  exists p.(relationRole(medium,T35) & event(p))
+# DRS:  ([p],[relationRole(medium,T35), event(p)]) 
+
+# E17 (weighing in) -> q
+# FOL:  exists q.(relationRole(agent,T40) & relationRole(theme,E18) & relationRole(manner,T36) & event(q))
+# DRS:  ([q],[relationRole(agent,T40), relationRole(theme,E18), relationRole(manner,T36), event(q)]) 
+
+# E18 (argument) -> r
+# FOL:  exists r.event(r)
+# DRS:  ([r],[event(r)]) 
+
+# E19 (interview) -> s
+# FOL:  exists s.(relationRole(location,T20) & event(s))
+# DRS:  ([s],[relationRole(location,T20), event(s)]) 
+
+# E20 (interview) -> t
+# FOL:  exists t.event(t)
+# DRS:  ([t],[event(t)]) 
+
+# E21 (is) -> u
+# FOL:  exists u.(relationRole(theme,E14) & relationRole(theme,E13) & event(u))
+# DRS:  ([u],[relationRole(theme,E14), relationRole(theme,E13), event(u)]) 
+
+# E22 (dont do) -> v
+# FOL:  exists v.(relationRole(agent,T41) & relationRole(theme,E23) & event(v))
+# DRS:  ([v],[relationRole(agent,T41), relationRole(theme,E23), event(v)]) 
+
+# E23 (are supposed) -> w
+# FOL:  exists w.(relationRole(pivot,T43) & relationRole(theme,E24) & event(w))
+# DRS:  ([w],[relationRole(pivot,T43), relationRole(theme,E24), event(w)]) 
+
+# E24 (do) -> x
+# FOL:  exists x.event(x)
+# DRS:  ([x],[event(x)]) 
+
+# E25 (put) -> y
+# FOL:  exists y.(relationRole(agent,T46) & relationRole(theme,E26) & relationRole(location,T49) & event(y))
+# DRS:  ([y],[relationRole(agent,T46), relationRole(theme,E26), relationRole(location,T49), event(y)]) 
+
+# E26 (crime) -> z
+# FOL:  exists z.event(z)
+# DRS:  ([z],[event(z)]) 
+
+# E27 (report) -> aa
+# FOL:  exists aa.(relationRole(agent,T50) & relationRole(theme,E28) & event(aa))
+# DRS:  ([aa],[relationRole(agent,T50), relationRole(theme,E28), event(aa)]) 
+
+# E28 (crime) -> ab
+# FOL:  exists ab.event(ab)
+# DRS:  ([ab],[event(ab)]) 
+
+# E29 (doing) -> ac
+# FOL:  exists ac.(relationRole(agent,T53) & relationRole(theme,E30) & event(ac))
+# DRS:  ([ac],[relationRole(agent,T53), relationRole(theme,E30), event(ac)]) 
+
+# E30 (encouraging) -> ad
+# FOL:  exists ad.(relationRole(agent,T55) & relationRole(goal,T57) & relationRole(theme,E31) & event(ad))
+# DRS:  ([ad],[relationRole(agent,T55), relationRole(goal,T57), relationRole(theme,E31), event(ad)]) 
+
+# E31 (commit) -> ae
+# FOL:  exists ae.(relationRole(agent,T57) & relationRole(theme,E32) & event(ae))
+# DRS:  ([ae],[relationRole(agent,T57), relationRole(theme,E32), event(ae)]) 
+
+# E32 (crime) -> af
+# FOL:  exists af.event(af)
+# DRS:  ([af],[event(af)]) 
+
+» ACTORS
+# T20 -> KykNets Insig
+# T21 -> Motsoeneng
+# T22 -> journalists
+# T23 -> he
+# T24 -> the country
+# T25 -> the media
+# T26 -> good news
+# T27 -> bad news
+# T28 -> the SABC
+# T29 -> Motsoeneng
+# T30 -> media
+# T31 -> media
+# T32 -> mindset
+# T33 -> people, young and old
+# T35 -> social media
+# T37 -> he
+# T38 -> we
+# T41 -> Journalists
+# T43 -> they
+# T46 -> you
+# T50 -> you
+# T53 -> you
+# T55 -> you
+# T57 -> young people
+# T36 -> different sides
+# T40 -> users
+# T49 -> media
+
+» RELATIONS
+# E1 - setting - E19
+# E1 - agent - T21
+# E19 - location - T20
+# E1 - patient - T22
+# E1 - reason - E2
+# E2 - agent - T22
+# E3 - agent - T37
+# E3 - theme - E4
+# E4 - pivot - T23
+# E4 - goal - T24
+# E5 - agent - T24
+# E4 - theme - E5
+# E5 - theme - T25
+# E6 - patient - T29
+# E6 - theme - E7
+# E7 - theme - T26
+# E7 - theme - T27
+# E8 - patient - T27
+# E8 - patient - T26
+# E8 - agent - T28
+# E9 - agent - T29
+# E9 - theme - E10
+# E10 - pivot - T38
+# E10 - theme - E11
+# E11 - theme - E12
+# E11 - pivot - T38
+# E12 - pivot - T30
+# E21 - theme - E14
+# E21 - theme - E13
+# E13 - pivot - T31
+# E14 - theme - T32
+# E15 - theme - E20
+# E15 - theme - E16
+# E16 - medium - T35
+# E17 - agent - T40
+# E17 - theme - E18
+# E17 - manner - T36
+# E22 - agent - T41
+# E22 - theme - E23
+# E23 - pivot - T43
+# E23 - theme - E24
+# E25 - agent - T46
+# E25 - theme - E26
+# E25 - location - T49
+# E27 - agent - T50
+# E27 - theme - E28
+# E29 - agent - T53
+# E29 - theme - E30
+# E30 - agent - T55
+# E30 - goal - T57
+# E30 - theme - E31
+# E31 - agent - T57
+# E31 - theme - E32
+# T32 - partOf - T33
+# T37 - objIdentity - T21
+# T23 - objIdentity - T37
+# T27 - refDisjunct - T26
+# T29 - objIdentity - T23
+# T22 - partOf - T25
+# T20 - partOf - T25
+# T28 - partOf - T25
+# T29 - memberOf - T38
+# T30 - objIdentity - T25
+# T31 - objIdentity - T30
+# T35 - partOf - T31
+# T41 - objIdentity - T22
+# T50 - objIdentity - T46
+# T53 - objIdentity - T50

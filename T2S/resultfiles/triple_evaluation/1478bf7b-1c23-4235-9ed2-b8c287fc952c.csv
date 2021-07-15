@@ -1,0 +1,4 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+ostro energy - is baked - actis,ostro energy - expect to complete - ostro energy,0.77,0.414,0.468,0.333
+100 mw - wind power project - ostro energy,100 mw - bagged - ostro energy,0.858,0.706,0.717,0.667
+funds - under management - 76 bln,ostro energy - expect to complete - ostro energy,0.67,0.239,0.258,0.0

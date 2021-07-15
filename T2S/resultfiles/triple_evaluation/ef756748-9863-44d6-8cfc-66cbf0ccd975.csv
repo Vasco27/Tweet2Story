@@ -1,0 +1,18 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+motsoeneng - criticised - journalists,motsoeneng - not report - crime,0.793,0.162,0.483,0.333
+motsoeneng - explained - motsoeneng,motsoeneng - not report - crime,0.742,0.076,0.492,0.333
+motsoeneng - lobbying - country,motsoeneng - not report - crime,0.758,0.143,0.481,0.333
+motsoeneng - asked - motsoeneng,motsoeneng - tells - waldimar,0.749,0.106,0.437,0.333
+motsoeneng - said - motsoeneng,motsoeneng - tells - waldimar,0.754,0.111,0.445,0.333
+media - role - media,media - encourage - young people,0.724,0.457,0.543,0.333
+media - role - media,media - encourage - young people,0.724,0.457,0.543,0.333
+social media - trending - social media,media - encourage - young people,0.737,0.385,0.501,0.222
+kyknets insig - interview - kyknets insig,crime smh ht‚ä¶ - reporting on crime encourages - crime smh ht‚ä¶,0.662,0.274,0.288,0.0
+country - regulate - media,country - regulate - journalists whole ‚äù,0.878,0.812,0.727,0.5
+good news - balance - bad news,media - encourage - young people,0.685,0.259,0.273,0.0
+bad news - reported - good news,crime reporting - inspires - youth,0.676,0.192,0.26,0.0
+bad news - reported - sabc,sabcs motsoeneng - do what they are supposed to do says sabcs - sabcs motsoeneng,0.647,0.08,0.562,0.0
+good news - reported - sabc,sabcs motsoeneng - do what they are supposed to do says sabcs - sabcs motsoeneng,0.645,0.08,0.583,0.0
+mindset - influence - mindset,crime reporting - inspires - youth,0.651,0.207,0.282,0.0
+users - weighing in - different sides,crime reporting - inspires - youth,0.659,0.116,0.285,0.0
+young people - commit - young people,media - encourage - young people,0.743,0.528,0.493,0.333

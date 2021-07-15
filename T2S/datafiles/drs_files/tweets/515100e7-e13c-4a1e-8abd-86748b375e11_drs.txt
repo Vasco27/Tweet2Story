@@ -1,0 +1,64 @@
+» EVENTS
+# E1 (has hinted that he has) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T13) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T13), Factuality(a,Factual)]) 
+
+# E2 (left in him) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T13) & relationRole(event,E3) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T13), relationRole(event,E3), Factuality(b,Factual)]) 
+
+# E3 (gt) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), Factuality(c,Factual)]) 
+
+# E4 (used a banned) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T2) & relationRole(theme,T14) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T2), relationRole(theme,T14), Factuality(d,Factual)]) 
+
+# E5 (fight) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T3) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T3), Factuality(e,Factual)]) 
+
+# E6 (throws) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T4) & relationRole(theme,T16) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T4), relationRole(theme,T16), Factuality(f,Factual)]) 
+
+# E7 (bored as mayweather retires) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T7) & relationRole(theme,T17) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T7), relationRole(theme,T17), Factuality(g,Factual)]) 
+
+» ACTORS
+# T1 -> manny pacquiao
+# T10 -> he
+# T11 -> him
+# T12 -> his
+# T13 -> several more fights
+# T2 -> floyd mayweather
+# T4 -> manny pacquiao
+# T5 -> floyd mayweather
+# T7 -> manny pacquiao
+# T8 -> mayweather
+# T16 -> shots
+# T17 -> unbeaten
+# T3 -> manny pacquiao
+# T14 -> iv
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T13
+# E2 - theme - T13
+# E2 - event - E3
+# E4 - theme - T2
+# E4 - theme - T14
+# E5 - theme - T3
+# E6 - theme - T4
+# E6 - theme - T16
+# E7 - theme - T7
+# E7 - theme - T17
+# T1 - objIdentity - T10
+# T10 - objIdentity - T11
+# T11 - objIdentity - T4
+# T4 - objIdentity - T7
+# T2 - objIdentity - T5
+# T5 - objIdentity - T12
+# T12 - objIdentity - T8

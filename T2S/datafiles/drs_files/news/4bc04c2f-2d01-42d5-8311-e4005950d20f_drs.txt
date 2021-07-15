@@ -1,0 +1,214 @@
+» EVENTS
+# E1 (hit) -> a
+# FOL:  exists a.(relationRole(agent,T60) & relationRole(theme,T61) & relationRole(reason,E18) & event(a))
+# DRS:  ([a],[relationRole(agent,T60), relationRole(theme,T61), relationRole(reason,E18), event(a)]) 
+
+# E2 (struggles) -> b
+# FOL:  exists b.(relationRole(theme,E3) & relationRole(agent,T24) & event(b))
+# DRS:  ([b],[relationRole(theme,E3), relationRole(agent,T24), event(b)]) 
+
+# E3 (to combat) -> c
+# FOL:  exists c.(relationRole(theme,E4) & event(c))
+# DRS:  ([c],[relationRole(theme,E4), event(c)]) 
+
+# E4 (derisive nomenclature) -> d
+# FOL:  exists d.event(d)
+# DRS:  ([d],[event(d)]) 
+
+# E5 (given) -> e
+# FOL:  exists e.(relationRole(theme,E4) & relationRole(agent,T25) & relationRole(setting,T26) & event(e))
+# DRS:  ([e],[relationRole(theme,E4), relationRole(agent,T25), relationRole(setting,T26), event(e)]) 
+
+# E6 (has come out) -> f
+# FOL:  exists f.(relationRole(agent,T28) & relationRole(theme,T29) & relationRole(goal,T30) & event(f))
+# DRS:  ([f],[relationRole(agent,T28), relationRole(theme,T29), relationRole(goal,T30), event(f)]) 
+
+# E7 (have called it) -> g
+# FOL:  exists g.(relationRole(agent,T35) & relationRole(theme,T36) & event(g))
+# DRS:  ([g],[relationRole(agent,T35), relationRole(theme,T36), event(g)]) 
+
+# E8 (arrival) -> h
+# FOL:  exists h.(relationRole(agent,T39) & relationRole(location,T43) & event(h))
+# DRS:  ([h],[relationRole(agent,T39), relationRole(location,T43), event(h)]) 
+
+# E9 (to lay) -> i
+# FOL:  exists i.(relationRole(agent,T40) & relationRole(theme,T42) & relationRole(goal,T66) & relationRole(location,T43) & event(i))
+# DRS:  ([i],[relationRole(agent,T40), relationRole(theme,T42), relationRole(goal,T66), relationRole(location,T43), event(i)]) 
+
+# E10 (were engaged) -> j
+# FOL:  exists j.(relationRole(pivot,T45) & relationRole(pivot,T47) & relationRole(setting,E11) & event(j))
+# DRS:  ([j],[relationRole(pivot,T45), relationRole(pivot,T47), relationRole(setting,E11), event(j)]) 
+
+# E11 (friendly repartee) -> k
+# FOL:  exists k.event(k)
+# DRS:  ([k],[event(k)]) 
+
+# E12 (said) -> l
+# FOL:  exists l.(relationRole(agent,T48) & relationRole(theme,E13) & event(l))
+# DRS:  ([l],[relationRole(agent,T48), relationRole(theme,E13), event(l)]) 
+
+# E13 (has marginalized) -> m
+# FOL:  exists m.(relationRole(agent,T49) & relationRole(patient,T50) & event(m))
+# DRS:  ([m],[relationRole(agent,T49), relationRole(patient,T50), event(m)]) 
+
+# E14 (made it) -> n
+# FOL:  exists n.(relationRole(agent,T49) & relationRole(theme,E26) & event(n))
+# DRS:  ([n],[relationRole(agent,T49), relationRole(theme,E26), event(n)]) 
+
+# E15 (embarrassment) -> o
+# FOL:  exists o.(relationRole(pivot,T55) & event(o))
+# DRS:  ([o],[relationRole(pivot,T55), event(o)]) 
+
+# E16 (including) -> p
+# FOL:  exists p.(relationRole(pivot,T56) & event(p))
+# DRS:  ([p],[relationRole(pivot,T56), event(p)]) 
+
+# E17 (replied) -> q
+# FOL:  exists q.(relationRole(agent,T54) & relationRole(theme,T58) & event(q))
+# DRS:  ([q],[relationRole(agent,T54), relationRole(theme,T58), event(q)]) 
+
+# E18 (practicing) -> r
+# FOL:  exists r.(relationRole(theme,E19) & event(r))
+# DRS:  ([r],[relationRole(theme,E19), event(r)]) 
+
+# E19 (quackery) -> s
+# FOL:  exists s.event(s)
+# DRS:  ([s],[event(s)]) 
+
+# E20 (being elected) -> t
+# FOL:  exists t.(relationRole(patient,T60) & relationRole(goal,T62) & relationRole(setting,E21) & event(t))
+# DRS:  ([t],[relationRole(patient,T60), relationRole(goal,T62), relationRole(setting,E21), event(t)]) 
+
+# E21 (2009 parliamentary election) -> u
+# FOL:  exists u.event(u)
+# DRS:  ([u],[event(u)]) 
+
+# E22 (entertained) -> v
+# FOL:  exists v.(relationRole(agent,T60) & relationRole(patient,T63) & event(v))
+# DRS:  ([v],[relationRole(agent,T60), relationRole(patient,T63), event(v)]) 
+
+# E23 (sitting) -> w
+# FOL:  exists w.(relationRole(pivot,T63) & relationRole(location,T64) & event(w))
+# DRS:  ([w],[relationRole(pivot,T63), relationRole(location,T64), event(w)]) 
+
+# E24 (prone) -> x
+# FOL:  exists x.(relationRole(theme,E25) & relationRole(pivot,T32) & event(x))
+# DRS:  ([x],[relationRole(theme,E25), relationRole(pivot,T32), event(x)]) 
+
+# E25 (craziness) -> y
+# FOL:  exists y.event(y)
+# DRS:  ([y],[event(y)]) 
+
+# E26 (campaign) -> z
+# FOL:  exists z.(relationRole(theme,T51) & event(z))
+# DRS:  ([z],[relationRole(theme,T51), event(z)]) 
+
+» ACTORS
+# T24 -> BJP
+# T27 -> partys Gaya
+# T28 -> MP Hari Manjhi
+# T29 -> damaging name
+# T31 -> Baura Jayewala Party
+# T32 -> a party
+# T35 -> Others
+# T36 -> Bharat Jalao Party
+# T37 -> Bharatiya Jumla Party
+# T38 -> Barka Jhuttha Party
+# T39 -> HRD minister
+# T40 -> Smriti Irani
+# T41 -> Union
+# T42 -> the stone
+# T43 -> the Magadh University campus
+# T45 -> Manjhi
+# T46 -> RLSP
+# T47 -> MLC Sanjeev Shyam Singh
+# T48 -> Singh
+# T49 -> the BJP
+# T50 -> the alliance partners
+# T51 -> a BJP
+# T54 -> Manjhi
+# T55 -> other party men
+# T56 -> MLA Surendra Sinha
+# T57 -> Gurua
+# T58 -> Baura Jayewala Party
+# T59 -> The MP
+# T60 -> who
+# T63 -> those
+# T64 -> the front row
+# T65 -> the Directorate of Distance Education Auditorium
+# T66 -> Central University of South Bihar
+# T26 -> the poll-bound Bihar
+# T30 -> the organization
+# T25 -> political rivals
+# T61 -> the headlines
+# T62 -> the Lok Sabha
+
+» RELATIONS
+# E2 - theme - E3
+# E2 - agent - T24
+# E3 - theme - E4
+# E5 - theme - E4
+# E5 - agent - T25
+# E5 - setting - T26
+# E6 - agent - T28
+# E6 - theme - T29
+# E6 - goal - T30
+# E24 - theme - E25
+# E24 - pivot - T32
+# E7 - agent - T35
+# E7 - theme - T36
+# T39 - agent - E8
+# E8 - location - T43
+# E9 - agent - T40
+# E9 - theme - T42
+# E9 - goal - T66
+# E9 - location - T43
+# E10 - pivot - T45
+# E10 - pivot - T47
+# E10 - setting - E11
+# E12 - agent - T48
+# E12 - theme - E13
+# E13 - agent - T49
+# E13 - patient - T50
+# E14 - agent - T49
+# E14 - theme - E26
+# E26 - theme - T51
+# E15 - pivot - T55
+# E16 - pivot - T56
+# E17 - agent - T54
+# E17 - theme - T58
+# E1 - agent - T60
+# E1 - theme - T61
+# E1 - reason - E18
+# E18 - theme - E19
+# E20 - patient - T60
+# E20 - goal - T62
+# E20 - setting - E21
+# E22 - agent - T60
+# E22 - patient - T63
+# E23 - pivot - T63
+# E23 - location - T64
+# T28 - partOf - T27
+# T31 - objIdentity - T24
+# T32 - objIdentity - T31
+# T35 - refDisjunct - T28
+# T36 - objIdentity - T32
+# T37 - objIdentity - T36
+# T38 - objIdentity - T37
+# T39 - partOf - T41
+# T40 - objIdentity - T39
+# T42 - partOf - T66
+# T66 - partOf - T43
+# T45 - objIdentity - T28
+# T47 - partOf - T46
+# T48 - objIdentity - T47
+# T49 - objIdentity - T24
+# T51 - objIdentity - T49
+# T54 - objIdentity - T45
+# T55 - refDisjunct - T54
+# T56 - partOf - T57
+# T58 - objIdentity - T31
+# T60 - objIdentity - T59
+# T64 - objIdentity - T65
+# T31 - objIdentity - T29
+# T56 - memberOf - T55

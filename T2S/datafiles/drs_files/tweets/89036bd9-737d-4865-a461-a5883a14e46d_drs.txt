@@ -1,0 +1,297 @@
+» EVENTS
+# E1 (will allow us to view) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T56) & relationRole(theme,T36) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T56), relationRole(theme,T36), Factuality(a,Factual)]) 
+
+# E2 (learn) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T36) & relationRole(theme,T57) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T36), relationRole(theme,T57), Factuality(b,Factual)]) 
+
+# E3 (coming) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T21) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T21), Factuality(c,Factual)]) 
+
+# E4 (coming) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T58) & relationRole(theme,T59) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T58), relationRole(theme,T59), Factuality(d,Factual)]) 
+
+# E5 (s) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T24) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T24), Factuality(e,Factual)]) 
+
+# E6 (amp) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T24) & relationRole(theme,T32) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T24), relationRole(theme,T32), Factuality(f,Factual)]) 
+
+# E7 (may make) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T33) & relationRole(theme,T60) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T33), relationRole(theme,T60), Factuality(g,Factual)]) 
+
+# E8 (see) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T60) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T60), Factuality(h,Factual)]) 
+
+# E9 (expect) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T37) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T37), Factuality(i,Factual)]) 
+
+# E10 (says) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T37) & relationRole(theme,T2) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T37), relationRole(theme,T2), Factuality(j,Factual)]) 
+
+# E11 (will continue) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T3) & relationRole(theme,T38) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T3), relationRole(theme,T38), Factuality(k,Factual)]) 
+
+# E12 (stay tuned) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T26) & relationRole(theme,T62) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T26), relationRole(theme,T62), Factuality(l,Factual)]) 
+
+# E13 (expected) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T63) & relationRole(location,T64) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T63), relationRole(location,T64), Factuality(m,Factual)]) 
+
+# E14 (air) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T6) & relationRole(theme,T39) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T6), relationRole(theme,T39), Factuality(n,Factual)]) 
+
+# E15 (‚Äôll be able to witness) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T65) & relationRole(theme,T66) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T65), relationRole(theme,T66), Factuality(o,Factual)]) 
+
+# E16 (starting) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T45) & relationRole(theme,T46) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T45), relationRole(theme,T46), Factuality(p,Factual)]) 
+
+# E17 (covered check) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T68) & relationRole(theme,T69) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T68), relationRole(theme,T69), Factuality(q,Factual)]) 
+
+# E18 (see) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T71) & relationRole(theme,T72) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T71), relationRole(theme,T72), Factuality(r,Factual)]) 
+
+# E19 (is) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T72) & relationRole(theme,T73) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T72), relationRole(theme,T73), Factuality(s,Factual)]) 
+
+# E20 (watching) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T74) & relationRole(theme,T28) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T74), relationRole(theme,T28), Factuality(t,Factual)]) 
+
+# E21 (rising supermoon coincides) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T75) & relationRole(theme,T76) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T75), relationRole(theme,T76), Factuality(u,Factual)]) 
+
+# E22 (s up watching) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T77) & relationRole(theme,T47) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T77), relationRole(theme,T47), Factuality(v,Factual)]) 
+
+# E23 (sees the earth move) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T48) & relationRole(manner,T79) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T48), relationRole(manner,T79), Factuality(w,Factual)]) 
+
+# E24 (giving) -> x
+# FOL:  exists Factual Occurrence Pos Pres x.(event(x) & eventClass(x,Occurrence) & Tense(x,Pres) & Polarity(x,Pos) & relationRole(location,T80) & relationRole(theme,T81) & Factuality(x,Factual))
+# DRS:  ([x],[event(x), eventClass(x,Occurrence), Tense(x,Pres), Polarity(x,Pos), relationRole(location,T80), relationRole(theme,T81), Factuality(x,Factual)]) 
+
+# E25 (captured) -> y
+# FOL:  exists Factual Occurrence Pos Pres y.(event(y) & eventClass(y,Occurrence) & Tense(y,Pres) & Polarity(y,Pos) & relationRole(theme,T29) & relationRole(theme,T10) & Factuality(y,Factual))
+# DRS:  ([y],[event(y), eventClass(y,Occurrence), Tense(y,Pres), Polarity(y,Pos), relationRole(theme,T29), relationRole(theme,T10), Factuality(y,Factual)]) 
+
+# E26 (over co) -> z
+# FOL:  exists Factual Occurrence Pos Pres z.(event(z) & eventClass(z,Occurrence) & Tense(z,Pres) & Polarity(z,Pos) & relationRole(theme,T10) & relationRole(theme,T10) & Factuality(z,Factual))
+# DRS:  ([z],[event(z), eventClass(z,Occurrence), Tense(z,Pres), Polarity(z,Pos), relationRole(theme,T10), relationRole(theme,T10), Factuality(z,Factual)]) 
+
+# E27 (were) -> aa
+# FOL:  exists Factual Occurrence Pos Pres aa.(event(aa) & eventClass(aa,Occurrence) & Tense(aa,Pres) & Polarity(aa,Pos) & relationRole(theme,T83) & relationRole(theme,T84) & Factuality(aa,Factual))
+# DRS:  ([aa],[event(aa), eventClass(aa,Occurrence), Tense(aa,Pres), Polarity(aa,Pos), relationRole(theme,T83), relationRole(theme,T84), Factuality(aa,Factual)]) 
+
+# E28 (see) -> ab
+# FOL:  exists Factual Occurrence Pos Pres ab.(event(ab) & eventClass(ab,Occurrence) & Tense(ab,Pres) & Polarity(ab,Pos) & relationRole(theme,T85) & relationRole(theme,T42) & Factuality(ab,Factual))
+# DRS:  ([ab],[event(ab), eventClass(ab,Occurrence), Tense(ab,Pres), Polarity(ab,Pos), relationRole(theme,T85), relationRole(theme,T42), Factuality(ab,Factual)]) 
+
+# E29 (last occurred) -> ac
+# FOL:  exists Factual Occurrence Pos Pres ac.(event(ac) & eventClass(ac,Occurrence) & Tense(ac,Pres) & Polarity(ac,Pos) & relationRole(theme,T87) & relationRole(time,T88) & Factuality(ac,Factual))
+# DRS:  ([ac],[event(ac), eventClass(ac,Occurrence), Tense(ac,Pres), Polarity(ac,Pos), relationRole(theme,T87), relationRole(time,T88), Factuality(ac,Factual)]) 
+
+# E30 (turned) -> ad
+# FOL:  exists Factual Occurrence Pos Pres ad.(event(ad) & eventClass(ad,Occurrence) & Tense(ad,Pres) & Polarity(ad,Pos) & relationRole(theme,T89) & relationRole(theme,T90) & Factuality(ad,Factual))
+# DRS:  ([ad],[event(ad), eventClass(ad,Occurrence), Tense(ad,Pres), Polarity(ad,Pos), relationRole(theme,T89), relationRole(theme,T90), Factuality(ad,Factual)]) 
+
+# E31 (coincides) -> ae
+# FOL:  exists Factual Occurrence Pos Pres ae.(event(ae) & eventClass(ae,Occurrence) & Tense(ae,Pres) & Polarity(ae,Pos) & relationRole(theme,T30) & relationRole(theme,T91) & Factuality(ae,Factual))
+# DRS:  ([ae],[event(ae), eventClass(ae,Occurrence), Tense(ae,Pres), Polarity(ae,Pos), relationRole(theme,T30), relationRole(theme,T91), Factuality(ae,Factual)]) 
+
+# E32 (did you see) -> af
+# FOL:  exists Factual Occurrence Pos Pres af.(event(af) & eventClass(af,Occurrence) & Tense(af,Pres) & Polarity(af,Pos) & relationRole(theme,T43) & Factuality(af,Factual))
+# DRS:  ([af],[event(af), eventClass(af,Occurrence), Tense(af,Pres), Polarity(af,Pos), relationRole(theme,T43), Factuality(af,Factual)]) 
+
+# E33 (send) -> ag
+# FOL:  exists Factual Occurrence Pos Pres ag.(event(ag) & eventClass(ag,Occurrence) & Tense(ag,Pres) & Polarity(ag,Pos) & relationRole(theme,T52) & relationRole(theme,T54) & Factuality(ag,Factual))
+# DRS:  ([ag],[event(ag), eventClass(ag,Occurrence), Tense(ag,Pres), Polarity(ag,Pos), relationRole(theme,T52), relationRole(theme,T54), Factuality(ag,Factual)]) 
+
+# E34 (saw) -> ah
+# FOL:  exists Factual Occurrence Pos Pres ah.(event(ah) & eventClass(ah,Occurrence) & Tense(ah,Pres) & Polarity(ah,Pos) & relationRole(theme,T93) & Factuality(ah,Factual))
+# DRS:  ([ah],[event(ah), eventClass(ah,Occurrence), Tense(ah,Pres), Polarity(ah,Pos), relationRole(theme,T93), Factuality(ah,Factual)]) 
+
+» ACTORS
+# T10 -> micmacsuibh over co wicklow
+# T21 -> supermoon harvest moon total lunar eclipse
+# T22 -> supermoon eclipse
+# T23 -> supermoon
+# T24 -> a supermoon
+# T25 -> supermoon
+# T26 -> supermoon
+# T27 -> supermoon
+# T28 -> the supermoon
+# T29 -> supermoon
+# T3 -> psm
+# T30 -> supermoon
+# T31 -> tonights
+# T32 -> tonight
+# T33 -> tonight
+# T34 -> tonight
+# T35 -> tonight
+# T36 -> a rare supermoon lunar eclipse
+# T37 -> supermoon eclipse
+# T38 -> the supermoon total lunar eclipse
+# T39 -> supermoon lunar eclipse
+# T40 -> supermoon lunar eclipse
+# T41 -> supermoon lunar eclipse tonight.
+# T42 -> the rare supermoon lunar eclipse
+# T43 -> the supermoon lunar eclipse
+# T44 -> its
+# T45 -> lunar eclipse
+# T46 -> its
+# T47 -> the lunar eclipse
+# T48 -> the supermoon eclipse
+# T51 -> some cloudy skies
+# T52 -> the cloudy skies
+# T53 -> us
+# T54 -> us
+# T60 -> it difficult to
+# T72 -> a supermoon total lunar eclipse
+# T71 -> we
+# T57 -> more
+# T87 -> the combination of a supermoon and total lunar eclipse
+# T63 -> partly cloudy skies
+# T62 -> to
+# T83 -> most northern nevadans
+# T49 -> blood moon
+# T76 -> with lunar eclipse
+# T75 -> red moon
+# T84 -> nt
+# T91 -> with lunar eclipse ntvatone
+# T88 -> in 198
+# T89 -> a total lunar eclipse
+# T80 -> between the sun and moon
+# T69 -> it
+# T59 -> to swedish skies
+# T85 -> able the
+# T73 -> in 2033 s‚Ä¶
+# T81 -> the lunar surface
+# T90 -> a supermoon blood red‚Äî
+# T79 -> directly
+# T64 -> here
+# T6 -> nasa tv
+# T77 -> who
+# T68 -> totally
+# T58 -> supermoon lunar eclipse
+# T56 -> partly cloudy skies
+# T66 -> a supermoon in combination with a lunar eclipse
+# T65 -> you
+# T74 -> supermoon total lunar eclipse
+# T2 -> kalin mitchell
+# T50 -> blood moon
+# T93 -> you
+
+» RELATIONS
+# E1 - theme - T56
+# E1 - theme - T36
+# E2 - theme - T36
+# E2 - theme - T57
+# E3 - theme - T21
+# E4 - theme - T58
+# E4 - theme - T59
+# E5 - theme - T24
+# E6 - theme - T24
+# E6 - theme - T32
+# E7 - theme - T33
+# E7 - theme - T60
+# E8 - theme - T60
+# E9 - theme - T37
+# E10 - theme - T37
+# E10 - theme - T2
+# E11 - theme - T3
+# E11 - theme - T38
+# E12 - theme - T26
+# E12 - theme - T62
+# E13 - theme - T63
+# E13 - location - T64
+# E14 - theme - T6
+# E14 - theme - T39
+# E15 - theme - T65
+# E15 - theme - T66
+# E16 - theme - T45
+# E16 - theme - T46
+# E17 - theme - T68
+# E17 - theme - T69
+# E18 - theme - T71
+# E18 - theme - T72
+# E19 - theme - T72
+# E19 - theme - T73
+# E20 - theme - T74
+# E20 - theme - T28
+# E21 - theme - T75
+# E21 - theme - T76
+# E22 - theme - T77
+# E22 - theme - T47
+# E23 - theme - T48
+# E23 - manner - T79
+# E24 - location - T80
+# E24 - theme - T81
+# E25 - theme - T29
+# E25 - theme - T10
+# E26 - theme - T10
+# E26 - theme - T10
+# E27 - theme - T83
+# E27 - theme - T84
+# E28 - theme - T85
+# E28 - theme - T42
+# E29 - theme - T87
+# E29 - time - T88
+# E30 - theme - T89
+# E30 - theme - T90
+# E31 - theme - T30
+# E31 - theme - T91
+# E32 - theme - T43
+# E33 - theme - T52
+# E33 - theme - T54
+# E34 - theme - T93
+# T21 - objIdentity - T22
+# T23 - objIdentity - T24
+# T24 - objIdentity - T25
+# T25 - objIdentity - T26
+# T26 - objIdentity - T27
+# T27 - objIdentity - T28
+# T28 - objIdentity - T29
+# T29 - objIdentity - T30
+# T31 - objIdentity - T32
+# T32 - objIdentity - T33
+# T33 - objIdentity - T34
+# T34 - objIdentity - T35
+# T36 - objIdentity - T37
+# T37 - objIdentity - T38
+# T38 - objIdentity - T39
+# T39 - objIdentity - T40
+# T40 - objIdentity - T41
+# T41 - objIdentity - T42
+# T42 - objIdentity - T43
+# T3 - objIdentity - T44
+# T45 - objIdentity - T46
+# T46 - objIdentity - T47
+# T47 - objIdentity - T48
+# T49 - objIdentity - T50
+# T51 - objIdentity - T52
+# T53 - objIdentity - T54

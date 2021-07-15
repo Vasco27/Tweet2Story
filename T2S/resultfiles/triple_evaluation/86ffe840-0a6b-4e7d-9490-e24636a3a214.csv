@@ -1,0 +1,27 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+adelaide - could host - adelaide,adelaide - says the crows will not copy - eagles tactics,0.777,0.531,0.597,0.333
+coach scott camporeale - doesnt feel - coach scott camporeale,crows - says - coach scott camporeale,0.78,0.483,0.528,0.333
+coach scott camporeale - says - coach scott camporeale,crows - says - coach scott camporeale,0.882,0.722,0.787,0.5
+coach scott camporeale - wouldnt deploy - coach scott camporeale,crows - says - coach scott camporeale,0.753,0.45,0.539,0.333
+coach scott camporeale - told - reporters,crows - says - coach scott camporeale,0.673,0.285,0.253,0.0
+coach scott camporeale - said - coach scott camporeale,crows - says - coach scott camporeale,0.839,0.611,0.62,0.333
+coach scott camporeale - placed - coach scott camporeale,crows - says - coach scott camporeale,0.76,0.424,0.528,0.333
+afl - final round fixture - richmond,afl - should be changed - afl,0.709,0.52,0.439,0.333
+crows - are sweating on - crows,crows - have questioned - whether,0.742,0.458,0.567,0.333
+crows - finals campaign - crows,crows - resting - players,0.717,0.437,0.535,0.333
+crows - costing - crows,crows - resting - players,0.761,0.419,0.683,0.333
+rules - are in place - rules,rules - resting - players,0.762,0.535,0.671,0.333
+rules - is - rules,rules - resting - players,0.749,0.481,0.65,0.333
+players - resting - coach scott camporeale,nmfcofficial - resting - players,0.685,0.438,0.529,0.167
+north melbournes - controversial tactic - north melbournes,best shape first week finals - were doing everything we can to be - best shape first week finals,0.638,0.214,0.345,0.0
+north melbournes - resting - players,crows - resting - players,0.868,0.734,0.787,0.5
+north melbournes - are resting - nine star players,crows - resting - players,0.762,0.568,0.72,0.3
+north melbournes - win - north melbournes,crows - says - coach scott camporeale,0.645,0.193,0.243,0.0
+north melbournes - has - north melbournes,crows - says - coach scott camporeale,0.659,0.252,0.433,0.0
+north melbournes - expected - north melbournes,crows - says - coach scott camporeale,0.645,0.209,0.243,0.0
+north melbournes - play - melbourne,decent crowd - is rolling - etihadstadiumau,0.639,0.139,0.27,0.0
+north melbournes - will deal with - rules,brad scott - says he has been vindicated for resting - players,0.685,0.293,0.382,0.0
+north melbournes - prepared - north melbournes,crows - says - coach scott camporeale,0.637,0.192,0.318,0.0
+geelong - travel - geelong,decent crowd - is rolling - etihadstadiumau,0.634,0.082,0.285,0.0
+cats - match - cats,decent crowd - is rolling - etihadstadiumau,0.594,0.061,0.36,0.0
+north melbournes - synergy - north melbournes,best shape first week finals - were doing everything we can to be - best shape first week finals,0.603,0.221,0.354,0.0

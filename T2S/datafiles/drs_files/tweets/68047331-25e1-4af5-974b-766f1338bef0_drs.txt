@@ -1,0 +1,107 @@
+» EVENTS
+# E1 (is) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T23) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T23), Factuality(a,Factual)]) 
+
+# E2 (feel) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T25) & relationRole(theme,T26) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T25), relationRole(theme,T26), Factuality(b,Factual)]) 
+
+# E3 (takes) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T3) & relationRole(theme,T4) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T3), relationRole(theme,T4), Factuality(c,Factual)]) 
+
+# E4 (faces) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T4) & relationRole(theme,T27) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T4), relationRole(theme,T27), Factuality(d,Factual)]) 
+
+# E5 (take victory faces) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T5) & relationRole(theme,T28) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T5), relationRole(theme,T28), Factuality(e,Factual)]) 
+
+# E6 (wins) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T7) & relationRole(theme,T10) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T7), relationRole(theme,T10), Factuality(f,Factual)]) 
+
+# E7 (pending) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T10) & relationRole(theme,T29) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T10), relationRole(theme,T29), Factuality(g,Factual)]) 
+
+# E8 (keeps) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T11) & relationRole(theme,T17) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T11), relationRole(theme,T17), Factuality(h,Factual)]) 
+
+# E9 (were cleared of breaching) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T12) & relationRole(theme,T31) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T12), relationRole(theme,T31), Factuality(i,Factual)]) 
+
+# E10 (wins) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T13) & relationRole(theme,T14) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T13), relationRole(theme,T14), Factuality(j,Factual)]) 
+
+# E11 (investigate) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T33) & relationRole(theme,T34) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T33), relationRole(theme,T34), Factuality(k,Factual)]) 
+
+» ACTORS
+# T10 -> italian
+# T11 -> lewis hamilton
+# T12 -> mercedes
+# T13 -> lewis hamilton
+# T16 -> italian grand prix winner lewis hamilton
+# T17 -> his
+# T18 -> italian grand prix
+# T19 -> italian grand prix
+# T20 -> italian grand prix
+# T21 -> italian grand prix
+# T22 -> mercedes team mat
+# T3 -> hamilton
+# T4 -> italian
+# T5 -> lewis hamilton
+# T9 -> hamilton
+# T26 -> the forceindiaf1 or something like that
+# T34 -> tyres
+# T1 -> george lucas
+# T23 -> in the paddock
+# T25 -> cue tenuous star wars links
+# T14 -> italian
+# T27 -> investigation over tyre infringement
+# T31 -> tyre rules amp regulations
+# T29 -> tyre investigation via
+# T28 -> stewards investigation
+# T7 -> lewis hamilton
+# T33 -> monza stewards
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T23
+# E2 - theme - T25
+# E2 - theme - T26
+# E3 - theme - T3
+# E3 - theme - T4
+# E4 - theme - T4
+# E4 - theme - T27
+# E5 - theme - T5
+# E5 - theme - T28
+# E6 - theme - T7
+# E6 - theme - T10
+# E7 - theme - T10
+# E7 - theme - T29
+# E8 - theme - T11
+# E8 - theme - T17
+# E9 - theme - T12
+# E9 - theme - T31
+# E10 - theme - T13
+# E10 - theme - T14
+# E11 - theme - T33
+# E11 - theme - T34
+# T3 - objIdentity - T5
+# T5 - objIdentity - T16
+# T16 - objIdentity - T9
+# T9 - objIdentity - T11
+# T11 - objIdentity - T17
+# T17 - objIdentity - T13
+# T18 - objIdentity - T19
+# T19 - objIdentity - T20
+# T20 - objIdentity - T21
+# T22 - objIdentity - T12

@@ -1,0 +1,73 @@
+» EVENTS
+# E1 (keeps) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T13) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T13), Factuality(a,Factual)]) 
+
+# E2 (leaves) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T9) & relationRole(theme,T11) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T9), relationRole(theme,T11), Factuality(b,Factual)]) 
+
+# E3 (explained) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T2) & relationRole(theme,T16) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T2), relationRole(theme,T16), Factuality(c,Factual)]) 
+
+# E4 (get it are further complicating) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T17) & relationRole(theme,T18) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T17), relationRole(theme,T18), Factuality(d,Factual)]) 
+
+# E5 (beware) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T19) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T19), Factuality(e,Factual)]) 
+
+# E6 (seen short lived with momentum going) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T5) & relationRole(path,T20) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T5), relationRole(path,T20), Factuality(f,Factual)]) 
+
+# E7 (has cut) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T6) & relationRole(theme,T21) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T6), relationRole(theme,T21), Factuality(g,Factual)]) 
+
+# E8 (will be shed) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T23) & relationRole(time,T24) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T23), relationRole(time,T24), Factuality(h,Factual)]) 
+
+» ACTORS
+# T1 -> brazils central bank
+# T10 -> brazils
+# T11 -> benchmark interest rate
+# T12 -> it
+# T2 -> brazils
+# T5 -> brazil
+# T6 -> brazil
+# T9 -> central bank
+# T18 -> matters ‚Ä¶
+# T17 -> you
+# T21 -> 500 000 jobs
+# T19 -> so
+# T23 -> another 2 5m
+# T16 -> even if
+# T20 -> against real
+# T13 -> key interest rate
+# T24 -> before the end of 2016
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T13
+# E2 - theme - T9
+# E2 - theme - T11
+# E3 - theme - T2
+# E3 - theme - T16
+# E4 - theme - T17
+# E4 - theme - T18
+# E5 - theme - T19
+# E6 - theme - T5
+# E6 - path - T20
+# E7 - theme - T6
+# E7 - theme - T21
+# E8 - theme - T23
+# E8 - time - T24
+# T1 - objIdentity - T9
+# T10 - objIdentity - T2
+# T2 - objIdentity - T5
+# T5 - objIdentity - T6
+# T11 - objIdentity - T12

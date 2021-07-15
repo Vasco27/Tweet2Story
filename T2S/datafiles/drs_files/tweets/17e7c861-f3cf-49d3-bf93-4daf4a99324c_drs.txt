@@ -1,0 +1,43 @@
+» EVENTS
+# E1 (tagged) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T8) & relationRole(theme,T12) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T8), relationRole(theme,T12), Factuality(a,Factual)]) 
+
+# E2 (will) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T2) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T2), Factuality(b,Factual)]) 
+
+# E3 (be) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T2) & relationRole(theme,T3) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T2), relationRole(theme,T3), Factuality(c,Factual)]) 
+
+# E4 (face) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T14) & relationRole(theme,T7) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T14), relationRole(theme,T7), Factuality(d,Factual)]) 
+
+» ACTORS
+# T10 -> his
+# T2 -> abad roxas
+# T3 -> revilla
+# T5 -> bong
+# T8 -> senators enrile bong revilla
+# T9 -> senator bong revilla
+# T12 -> new pdaf scam
+# T7 -> pdaf
+# T4 -> pdaf
+# T14 -> 50 more lawmakers
+# T11 -> pdaf
+
+» RELATIONS
+# E1 - theme - T8
+# E1 - theme - T12
+# E2 - theme - T2
+# E3 - theme - T2
+# E3 - theme - T3
+# E4 - theme - T14
+# E4 - theme - T7
+# T8 - objIdentity - T3
+# T3 - objIdentity - T5
+# T5 - objIdentity - T9
+# T9 - objIdentity - T10
+# T11 - objIdentity - T4

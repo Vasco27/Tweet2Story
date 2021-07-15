@@ -1,0 +1,92 @@
+» EVENTS
+# E1 (fall) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(time,T28) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(time,T28), Factuality(a,Factual)]) 
+
+# E2 (plunged) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T2) & relationRole(theme,T30) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T2), relationRole(theme,T30), Factuality(b,Factual)]) 
+
+# E3 (outperformed) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T32) & relationRole(theme,T4) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T32), relationRole(theme,T4), Factuality(c,Factual)]) 
+
+# E4 (export growth slows) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T5) & relationRole(time,T33) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T5), relationRole(time,T33), Factuality(d,Factual)]) 
+
+# E5 (plunge) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T6) & relationRole(theme,T7) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T6), relationRole(theme,T7), Factuality(e,Factual)]) 
+
+# E6 (fell) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T8) & relationRole(theme,T24) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T8), relationRole(theme,T24), Factuality(f,Factual)]) 
+
+# E7 (read) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T35) & relationRole(theme,T36) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T35), relationRole(theme,T36), Factuality(g,Factual)]) 
+
+# E8 (predict) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T37) & relationRole(theme,T38) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T37), relationRole(theme,T38), Factuality(h,Factual)]) 
+
+# E9 (fall) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T38) & relationRole(theme,T39) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T38), relationRole(theme,T39), Factuality(i,Factual)]) 
+
+» ACTORS
+# T20 -> august
+# T21 -> august
+# T22 -> august
+# T23 -> aug
+# T24 -> august
+# T25 -> china japan
+# T26 -> s
+# T27 -> japan‚Äôs
+# T38 -> s korean exports likely to
+# T5 -> japans
+# T36 -> aligarciaherrer at
+# T6 -> koreas farm exports
+# T35 -> from a year earlier
+# T37 -> economists
+# T33 -> for a second month
+# T19 -> south koreas exports
+# T18 -> south koreas exports
+# T7 -> 9 3 pct
+# T30 -> 14 7
+# T28 -> most since 2009
+# T2 -> south koreas
+# T1 -> south koreas
+# T8 -> japan
+# T39 -> 4 6
+# T4 -> japan
+# T32 -> s korean shipbuilders
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - time - T28
+# E2 - theme - T2
+# E2 - theme - T30
+# E3 - theme - T32
+# E3 - theme - T4
+# E4 - theme - T5
+# E4 - time - T33
+# E5 - theme - T6
+# E5 - theme - T7
+# E6 - theme - T8
+# E6 - theme - T24
+# E7 - theme - T35
+# E7 - theme - T36
+# E8 - theme - T37
+# E8 - theme - T38
+# E9 - theme - T38
+# E9 - theme - T39
+# T18 - objIdentity - T19
+# T20 - objIdentity - T21
+# T21 - objIdentity - T22
+# T22 - objIdentity - T23
+# T23 - objIdentity - T24
+# T25 - objIdentity - T5
+# T5 - objIdentity - T26
+# T26 - objIdentity - T27

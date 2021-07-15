@@ -1,0 +1,159 @@
+» EVENTS
+# E1 (always report) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T18) & relationRole(theme,T19) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T18), relationRole(theme,T19), Factuality(a,Factual)]) 
+
+# E2 (encourage) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T20) & relationRole(theme,T21) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T20), relationRole(theme,T21), Factuality(b,Factual)]) 
+
+# E3 (commit) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T22) & relationRole(theme,T23) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T22), relationRole(theme,T23), Factuality(c,Factual)]) 
+
+# E4 (tells) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T1) & relationRole(theme,T24) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T1), relationRole(theme,T24), Factuality(d,Factual)]) 
+
+# E5 (inspires) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T26) & relationRole(theme,T27) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T26), relationRole(theme,T27), Factuality(e,Factual)]) 
+
+# E6 (do) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T28) & relationRole(theme,T29) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T28), relationRole(theme,T29), Factuality(f,Factual)]) 
+
+# E7 (do what they are supposed to do says sabcs) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T3) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T3), Factuality(g,Factual)]) 
+
+# E8 (should test) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T31) & relationRole(theme,T4) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T31), relationRole(theme,T4), Factuality(h,Factual)]) 
+
+# E9 (not report) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T4) & relationRole(theme,T32) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T4), relationRole(theme,T32), Factuality(i,Factual)]) 
+
+# E10 (am lobbying) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T10) & relationRole(theme,T34) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T10), relationRole(theme,T34), Factuality(j,Factual)]) 
+
+# E11 (regulate) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T36) & relationRole(theme,T37) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T36), relationRole(theme,T37), Factuality(k,Factual)]) 
+
+# E12 (do nt do what they re supposed to do they are) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T11) & relationRole(theme,T38) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T11), relationRole(theme,T38), Factuality(l,Factual)]) 
+
+# E13 (accuses journalists of relying) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T6) & relationRole(theme,T40) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T6), relationRole(theme,T40), Factuality(m,Factual)]) 
+
+# E14 (not finding out) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T40) & relationRole(theme,T41) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T40), relationRole(theme,T41), Factuality(n,Factual)]) 
+
+# E15 (reporting on crime encourages) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T42) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T42), Factuality(o,Factual)]) 
+
+# E16 (says) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T7) & relationRole(theme,T43) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T7), relationRole(theme,T43), Factuality(p,Factual)]) 
+
+# E17 (encourage) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T43) & relationRole(theme,T44) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T43), relationRole(theme,T44), Factuality(q,Factual)]) 
+
+# E18 (commit) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T45) & relationRole(theme,T46) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T45), relationRole(theme,T46), Factuality(r,Factual)]) 
+
+» ACTORS
+# T1 -> hlaudi motsoeneng
+# T10 -> i
+# T11 -> journalists
+# T12 -> they
+# T13 -> they
+# T14 -> their
+# T3 -> sabcs motsoeneng
+# T4 -> hlaudi motsoenengs
+# T40 -> on each other amp
+# T43 -> media reports on crime
+# T5 -> hlaudi motsoeneng
+# T6 -> motsoeneng
+# T7 -> sabcs motsoeneng
+# T42 -> crime smh ht‚Ä¶
+# T9 -> they
+# T46 -> crime
+# T23 -> crime
+# T26 -> crime reporting
+# T19 -> on crime
+# T29 -> crime gt
+# T36 -> the country to
+# T20 -> you
+# T44 -> young people
+# T22 -> to
+# T24 -> waldimar
+# T31 -> we
+# T16 -> themselves
+# T15 -> journalists
+# T32 -> on crime
+# T34 -> big time
+# T27 -> the youth
+# T38 -> not
+# T21 -> young people
+# T2 -> ¬ìjournalists
+# T45 -> to
+# T28 -> to
+# T18 -> you
+# T37 -> journalists as a whole ‚Äù
+# T41 -> the facts for themselves sitholeexpress h‚Ä¶
+
+» RELATIONS
+# E1 - theme - T18
+# E1 - theme - T19
+# E2 - theme - T20
+# E2 - theme - T21
+# E3 - theme - T22
+# E3 - theme - T23
+# E4 - theme - T1
+# E4 - theme - T24
+# E5 - theme - T26
+# E5 - theme - T27
+# E6 - theme - T28
+# E6 - theme - T29
+# E7 - theme - T3
+# E8 - theme - T31
+# E8 - theme - T4
+# E9 - theme - T4
+# E9 - theme - T32
+# E10 - theme - T10
+# E10 - theme - T34
+# E11 - theme - T36
+# E11 - theme - T37
+# E12 - theme - T11
+# E12 - theme - T38
+# E13 - theme - T6
+# E13 - theme - T40
+# E14 - theme - T40
+# E14 - theme - T41
+# E15 - theme - T42
+# E16 - theme - T7
+# E16 - theme - T43
+# E17 - theme - T43
+# E17 - theme - T44
+# E18 - theme - T45
+# E18 - theme - T46
+# T2 - objIdentity - T9
+# T1 - objIdentity - T4
+# T4 - objIdentity - T5
+# T5 - objIdentity - T6
+# T3 - objIdentity - T10
+# T10 - objIdentity - T7
+# T11 - objIdentity - T12
+# T12 - objIdentity - T13
+# T13 - objIdentity - T14
+# T15 - objIdentity - T16

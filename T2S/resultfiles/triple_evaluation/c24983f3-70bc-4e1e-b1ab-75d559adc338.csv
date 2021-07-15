@@ -1,0 +1,14 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+grace - is - 285 miles southwest cape verde islands,grace - will likely dissipate - east lesser antilles,0.777,0.624,0.69,0.333
+grace - is - east lesser antilles,grace - will likely dissipate - east lesser antilles,0.869,0.774,0.867,0.667
+grace - is - least five days,grace - will likely dissipate - east lesser antilles,0.761,0.523,0.705,0.333
+grace - should strengthen - grace,grace - grace - grace,0.846,0.72,0.787,0.667
+grace - will run - vertical winds,grace - will likely dissipate - east lesser antilles,0.811,0.668,0.736,0.429
+grace - will be adversely affected - dry air,grace - is likely to weaken - tropical rainstorm,0.848,0.689,0.585,0.333
+grace - is headed - west 14 mph,grace - packing - west 14 mph,0.867,0.75,0.746,0.667
+285 miles southwest cape verde islands - is - east lesser antilles,ts fred - continues to weaken as it moves - 285 miles southwest cape verde islands,0.656,0.425,0.385,0.0
+285 miles southwest cape verde islands - is - least five days,ts fred - continues to weaken as it moves - 285 miles southwest cape verde islands,0.644,0.343,0.381,0.0
+east lesser antilles - is - least five days,prior - reaching - east lesser antilles,0.639,0.173,0.403,0.0
+forecasters - said - forecasters,grace - is expected to weaken - forecasters,0.759,0.438,0.533,0.333
+vertical winds - will cause - grace,grace - grace - grace,0.71,0.447,0.573,0.333
+hurricane center - said - hurricane center,eastern atlantic - is strengthening - 50 mph winds,0.658,0.299,0.284,0.0

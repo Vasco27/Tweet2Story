@@ -1,0 +1,189 @@
+» EVENTS
+# E1 (speak out) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T22) & relationRole(theme,T11) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T22), relationRole(theme,T11), Factuality(a,Factual)]) 
+
+# E2 (assisted dying bill is) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T11) & relationRole(theme,T23) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T11), relationRole(theme,T23), Factuality(b,Factual)]) 
+
+# E3 (let) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T24) & relationRole(theme,T25) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T24), relationRole(theme,T25), Factuality(c,Factual)]) 
+
+# E4 (have) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T25) & relationRole(theme,T26) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T25), relationRole(theme,T26), Factuality(d,Factual)]) 
+
+# E5 (assisted dying bill would be) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T12) & relationRole(theme,T27) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T12), relationRole(theme,T27), Factuality(e,Factual)]) 
+
+# E6 (to dying people and reducing) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T28) & relationRole(theme,T29) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T28), relationRole(theme,T29), Factuality(f,Factual)]) 
+
+# E7 (assisted dying bill will get) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T13) & relationRole(theme,T1) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T13), relationRole(theme,T1), Factuality(g,Factual)]) 
+
+# E8 (tomorrow should) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T1) & relationRole(theme,T30) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T1), relationRole(theme,T30), Factuality(h,Factual)]) 
+
+# E9 (be given) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T30) & relationRole(theme,T31) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T30), relationRole(theme,T31), Factuality(i,Factual)]) 
+
+# E10 (die) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T31) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T31), Factuality(j,Factual)]) 
+
+# E11 (die pro) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T32) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T32), Factuality(k,Factual)]) 
+
+# E12 (are debating) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T2) & relationRole(theme,T35) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T2), relationRole(theme,T35), Factuality(l,Factual)]) 
+
+# E13 (should be allowed to end) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T4) & relationRole(theme,T16) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T4), relationRole(theme,T16), Factuality(m,Factual)]) 
+
+# E14 (are debating) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T5) & relationRole(theme,T36) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T5), relationRole(theme,T36), Factuality(n,Factual)]) 
+
+# E15 (should be allowed to end) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T17) & relationRole(theme,T18) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T17), relationRole(theme,T18), Factuality(o,Factual)]) 
+
+# E16 (is) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T38) & relationRole(theme,T39) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T38), relationRole(theme,T39), Factuality(p,Factual)]) 
+
+# E17 (die is rejected) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T40) & relationRole(theme,T41) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T40), relationRole(theme,T41), Factuality(q,Factual)]) 
+
+# E18 (overwhelmingly vote to defeat) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T6) & relationRole(theme,T42) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T6), relationRole(theme,T42), Factuality(r,Factual)]) 
+
+# E19 (have rejected) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T7) & relationRole(theme,T43) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T7), relationRole(theme,T43), Factuality(s,Factual)]) 
+
+# E20 (die) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T44) & relationRole(manner,T45) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T44), relationRole(manner,T45), Factuality(t,Factual)]) 
+
+# E21 (want) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T48) & relationRole(theme,T8) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T48), relationRole(theme,T8), Factuality(u,Factual)]) 
+
+# E22 (note) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T8) & relationRole(theme,T9) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T8), relationRole(theme,T9), Factuality(v,Factual)]) 
+
+# E23 (assisted dying bill has been defeated) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T20) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T20), Factuality(w,Factual)]) 
+
+» ACTORS
+# T1 -> the house of commons
+# T11 -> the assisted dying bill
+# T12 -> the assisted dying bill
+# T13 -> the assisted dying bill
+# T14 -> its
+# T15 -> some terminally ill adults in england and wales
+# T16 -> their
+# T17 -> terminally ill people
+# T18 -> their
+# T19 -> vote
+# T2 -> mps
+# T20 -> the vote in the british house of commons where an assisted dying bill has been defeated
+# T25 -> the terminally ill
+# T30 -> terminally ill patients
+# T31 -> the right to
+# T5 -> mps
+# T6 -> mps
+# T7 -> mps
+# T8 -> nz mps
+# T9 -> the british house of commons
+# T22 -> religious leaders
+# T24 -> time to
+# T28 -> offering dignity
+# T40 -> the right to
+# T23 -> it
+# T38 -> what
+# T41 -> as
+# T39 -> your view
+# T26 -> some dignity in death
+# T43 -> the chance for
+# T48 -> right to life campaigners
+# T35 -> whether
+# T44 -> terminally ill people to
+# T29 -> suffering
+# T27 -> transformative
+# T42 -> a change in the law
+# T45 -> with dignity
+# T4 -> wales
+# T36 -> whether
+# T32 -> life
+
+» RELATIONS
+# E1 - theme - T22
+# E1 - theme - T11
+# E2 - theme - T11
+# E2 - theme - T23
+# E3 - theme - T24
+# E3 - theme - T25
+# E4 - theme - T25
+# E4 - theme - T26
+# E5 - theme - T12
+# E5 - theme - T27
+# E6 - theme - T28
+# E6 - theme - T29
+# E7 - theme - T13
+# E7 - theme - T1
+# E8 - theme - T1
+# E8 - theme - T30
+# E9 - theme - T30
+# E9 - theme - T31
+# E10 - theme - T31
+# E11 - theme - T32
+# E12 - theme - T2
+# E12 - theme - T35
+# E13 - theme - T4
+# E13 - theme - T16
+# E14 - theme - T5
+# E14 - theme - T36
+# E15 - theme - T17
+# E15 - theme - T18
+# E16 - theme - T38
+# E16 - theme - T39
+# E17 - theme - T40
+# E17 - theme - T41
+# E18 - theme - T6
+# E18 - theme - T42
+# E19 - theme - T7
+# E19 - theme - T43
+# E20 - theme - T44
+# E20 - manner - T45
+# E21 - theme - T48
+# E21 - theme - T8
+# E22 - theme - T8
+# E22 - theme - T9
+# E23 - theme - T20
+# T11 - objIdentity - T12
+# T12 - objIdentity - T13
+# T13 - objIdentity - T14
+# T15 - objIdentity - T16
+# T2 - objIdentity - T5
+# T5 - objIdentity - T6
+# T6 - objIdentity - T7
+# T17 - objIdentity - T18
+# T19 - objIdentity - T20
+# T1 - objIdentity - T9

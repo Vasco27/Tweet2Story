@@ -1,0 +1,120 @@
+» EVENTS
+# E1 (makes) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T6) & relationRole(theme,T16) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T6), relationRole(theme,T16), Factuality(a,Factual)]) 
+
+# E2 (s) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T7) & relationRole(theme,T17) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T7), relationRole(theme,T17), Factuality(b,Factual)]) 
+
+# E3 (used) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T18) & relationRole(manner,T19) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T18), relationRole(manner,T19), Factuality(c,Factual)]) 
+
+# E4 (1x1 open debate) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T20) & relationRole(event,E5) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T20), relationRole(event,E5), Factuality(d,Factual)]) 
+
+# E5 (worked) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), Factuality(e,Factual)]) 
+
+# E6 (deal) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T21) & relationRole(theme,T22) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T21), relationRole(theme,T22), Factuality(f,Factual)]) 
+
+# E7 (is to vote) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T22) & relationRole(theme,T1) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T22), relationRole(theme,T1), Factuality(g,Factual)]) 
+
+# E8 (replace) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(cause,T23) & relationRole(theme,T11) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(cause,T23), relationRole(theme,T11), Factuality(h,Factual)]) 
+
+# E9 (is) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T2) & relationRole(time,T25) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T2), relationRole(time,T25), Factuality(i,Factual)]) 
+
+# E10 (is) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T27) & relationRole(theme,T28) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T27), relationRole(theme,T28), Factuality(j,Factual)]) 
+
+# E11 (rethink) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T29) & relationRole(theme,T13) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T29), relationRole(theme,T13), Factuality(k,Factual)]) 
+
+# E12 (clears) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T30) & relationRole(theme,T31) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T30), relationRole(theme,T31), Factuality(l,Factual)]) 
+
+# E13 (also told) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T32) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T32), Factuality(m,Factual)]) 
+
+# E14 (looks to sweden to help his country can provide) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T8) & relationRole(location,T34) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T8), relationRole(location,T34), Factuality(n,Factual)]) 
+
+» ACTORS
+# T10 -> the anc
+# T11 -> it
+# T12 -> the country
+# T13 -> this countrys
+# T14 -> country
+# T15 -> his country
+# T22 -> with this problem
+# T6 -> ealboim
+# T7 -> he
+# T8 -> he
+# T9 -> his
+# T30 -> cabinet
+# T27 -> it
+# T28 -> not
+# T21 -> the only solution to
+# T1 -> anc
+# T2 -> plymouth
+# T34 -> in the energy sector
+# T16 -> perfect sense
+# T31 -> national offshore wind energy policy
+# T19 -> same format as
+# T23 -> out of power and
+# T32 -> the swedish pm
+# T25 -> now
+# T18 -> this debate
+# T29 -> too late to
+# T17 -> the best
+# T20 -> previous consortium debates
+
+» RELATIONS
+# E1 - theme - T6
+# E1 - theme - T16
+# E2 - theme - T7
+# E2 - theme - T17
+# E3 - theme - T18
+# E3 - manner - T19
+# E4 - theme - T20
+# E4 - event - E5
+# E6 - theme - T21
+# E6 - theme - T22
+# E7 - theme - T22
+# E7 - theme - T1
+# E8 - cause - T23
+# E8 - theme - T11
+# E9 - theme - T2
+# E9 - time - T25
+# E10 - theme - T27
+# E10 - theme - T28
+# E11 - theme - T29
+# E11 - theme - T13
+# E12 - theme - T30
+# E12 - theme - T31
+# E13 - theme - T32
+# E14 - theme - T8
+# E14 - location - T34
+# T6 - objIdentity - T7
+# T7 - objIdentity - T8
+# T8 - objIdentity - T9
+# T10 - objIdentity - T11
+# T12 - objIdentity - T13
+# T13 - objIdentity - T14
+# T14 - objIdentity - T15

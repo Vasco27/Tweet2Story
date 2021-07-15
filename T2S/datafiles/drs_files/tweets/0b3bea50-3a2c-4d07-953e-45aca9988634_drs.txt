@@ -1,0 +1,290 @@
+» EVENTS
+# E1 (is) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T63) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T63), Factuality(a,Factual)]) 
+
+# E2 (ever beat) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T63) & relationRole(theme,T2) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T63), relationRole(theme,T2), Factuality(b,Factual)]) 
+
+# E3 (pulls unbelievable comeback roaring back to beat) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T3) & relationRole(theme,T4) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T3), relationRole(theme,T4), Factuality(c,Factual)]) 
+
+# E4 (feels) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T68) & relationRole(theme,T69) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T68), relationRole(theme,T69), Factuality(d,Factual)]) 
+
+# E5 (crashed) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T5) & relationRole(path,T50) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T5), relationRole(path,T50), Factuality(e,Factual)]) 
+
+# E6 (loses) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T7) & relationRole(manner,T71) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T7), relationRole(manner,T71), Factuality(f,Factual)]) 
+
+# E7 (is) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T8) & relationRole(time,T72) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T8), relationRole(time,T72), Factuality(g,Factual)]) 
+
+# E8 (wins) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T44) & relationRole(theme,T76) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T44), relationRole(theme,T76), Factuality(h,Factual)]) 
+
+# E9 (ousts) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T9) & relationRole(theme,T10) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T9), relationRole(theme,T10), Factuality(i,Factual)]) 
+
+# E10 (5 set) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(location,T77) & relationRole(theme,T55) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(location,T77), relationRole(theme,T55), Factuality(j,Factual)]) 
+
+# E11 (is) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T11) & relationRole(theme,T51) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T11), relationRole(theme,T51), Factuality(k,Factual)]) 
+
+# E12 (after losing) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T51) & relationRole(theme,T78) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T51), relationRole(theme,T78), Factuality(l,Factual)]) 
+
+# E13 (is) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T14) & relationRole(theme,T52) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T14), relationRole(theme,T52), Factuality(m,Factual)]) 
+
+# E14 (beaten) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T52) & relationRole(theme,T80) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T52), relationRole(theme,T80), Factuality(n,Factual)]) 
+
+# E15 (blows) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T17) & relationRole(theme,T81) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T17), relationRole(theme,T81), Factuality(o,Factual)]) 
+
+# E16 (falls to rival) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T81) & relationRole(theme,T19) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T81), relationRole(theme,T19), Factuality(p,Factual)]) 
+
+# E17 (stunned) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T20) & relationRole(location,T21) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T20), relationRole(location,T21), Factuality(q,Factual)]) 
+
+# E18 (cedes two set) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T22) & relationRole(theme,T82) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T22), relationRole(theme,T82), Factuality(r,Factual)]) 
+
+# E19 (vows to fight) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T46) & relationRole(theme,T84) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T46), relationRole(theme,T84), Factuality(s,Factual)]) 
+
+# E20 (lost) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T24) & relationRole(theme,T87) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T24), relationRole(theme,T87), Factuality(t,Factual)]) 
+
+# E21 (has been knocked) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T25) & relationRole(theme,T56) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T25), relationRole(theme,T56), Factuality(u,Factual)]) 
+
+# E22 (beaten) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T56) & relationRole(theme,T88) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T56), relationRole(theme,T88), Factuality(v,Factual)]) 
+
+# E23 (falls) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T28) & relationRole(theme,T29) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T28), relationRole(theme,T29), Factuality(w,Factual)]) 
+
+# E24 (vows to fight) -> x
+# FOL:  exists Factual Occurrence Pos Pres x.(event(x) & eventClass(x,Occurrence) & Tense(x,Pres) & Polarity(x,Pos) & relationRole(theme,T30) & relationRole(theme,T89) & Factuality(x,Factual))
+# DRS:  ([x],[event(x), eventClass(x,Occurrence), Tense(x,Pres), Polarity(x,Pos), relationRole(theme,T30), relationRole(theme,T89), Factuality(x,Factual)]) 
+
+# E25 (vows to fight) -> y
+# FOL:  exists Factual Occurrence Pos Pres y.(event(y) & eventClass(y,Occurrence) & Tense(y,Pres) & Polarity(y,Pos) & relationRole(theme,T31) & relationRole(theme,T91) & Factuality(y,Factual))
+# DRS:  ([y],[event(y), eventClass(y,Occurrence), Tense(y,Pres), Polarity(y,Pos), relationRole(theme,T31), relationRole(theme,T91), Factuality(y,Factual)]) 
+
+# E26 (dumped) -> z
+# FOL:  exists Factual Occurrence Pos Pres z.(event(z) & eventClass(z,Occurrence) & Tense(z,Pres) & Polarity(z,Pos) & relationRole(theme,T32) & relationRole(path,T59) & Factuality(z,Factual))
+# DRS:  ([z],[event(z), eventClass(z,Occurrence), Tense(z,Pres), Polarity(z,Pos), relationRole(theme,T32), relationRole(path,T59), Factuality(z,Factual)]) 
+
+# E27 (loses) -> aa
+# FOL:  exists Factual Occurrence Pos Pres aa.(event(aa) & eventClass(aa,Occurrence) & Tense(aa,Pres) & Polarity(aa,Pos) & relationRole(theme,T34) & relationRole(theme,T35) & Factuality(aa,Factual))
+# DRS:  ([aa],[event(aa), eventClass(aa,Occurrence), Tense(aa,Pres), Polarity(aa,Pos), relationRole(theme,T34), relationRole(theme,T35), Factuality(aa,Factual)]) 
+
+# E28 (vows to carry on) -> ab
+# FOL:  exists Factual Occurrence Pos Pres ab.(event(ab) & eventClass(ab,Occurrence) & Tense(ab,Pres) & Polarity(ab,Pos) & relationRole(theme,T36) & Factuality(ab,Factual))
+# DRS:  ([ab],[event(ab), eventClass(ab,Occurrence), Tense(ab,Pres), Polarity(ab,Pos), relationRole(theme,T36), Factuality(ab,Factual)]) 
+
+» ACTORS
+# T1 -> fabio phenomenal fognini
+# T10 -> rafael nadal
+# T14 -> rafa nadal
+# T15 -> fabio fognini
+# T16 -> fabio fognini
+# T17 -> rafael nadal
+# T18 -> rafael nadal
+# T2 -> nadal
+# T20 -> rafael nadal
+# T21 -> fabio fognini
+# T22 -> rafael nadal
+# T23 -> fabio fognini
+# T24 -> rafael nadal
+# T25 -> rafael nadal
+# T27 -> italys fabio fognini
+# T29 -> fabio fognini
+# T3 -> fabio fognini
+# T30 -> nadal
+# T31 -> nadal
+# T32 -> rafael nadal
+# T33 -> fabio fognini
+# T34 -> rafael nadal
+# T35 -> fabio fognini
+# T39 -> fabio fognini
+# T4 -> nadal
+# T40 -> italian fabio fognini
+# T41 -> rival fabio fognini
+# T42 -> 2 time champion rafael nadal
+# T43 -> nadal
+# T44 -> he
+# T45 -> rafal nadal
+# T46 -> rafaelnadal
+# T47 -> his
+# T48 -> rafael nadal
+# T49 -> battered rafa nadal
+# T50 -> the usopen
+# T51 -> usopen
+# T52 -> the usopen
+# T53 -> usopen
+# T54 -> usopen
+# T55 -> us open
+# T56 -> the us open
+# T57 -> us open
+# T58 -> us open
+# T59 -> us open 2015
+# T6 -> fabio fognini
+# T60 -> third round
+# T61 -> third round
+# T62 -> third round
+# T63 -> the first man to
+# T7 -> rafael nadal
+# T81 -> two set lead
+# T9 -> fabio fognini
+# T88 -> 3 6 4 6 6 4 6 3 6 4
+# T28 -> rafael nadal falls
+# T80 -> by fabio fognini 3 6 4 6 6 4 6 3 and 6 4
+# T91 -> on
+# T84 -> on
+# T76 -> the first two sets
+# T8 -> fabio fognini nadal
+# T77 -> in
+# T78 -> 5 setter
+# T36 -> rafa nadal
+# T72 -> now
+# T68 -> 6 3 6 4
+# T89 -> on
+# T5 -> rafael nadal
+# T69 -> career changing‚Ä¶
+# T82 -> lead
+# T71 -> in 5 sets
+# T87 -> a‚Ä¶
+# T11 -> wow rafal nadal
+# T19 -> fabio fognini
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T63
+# E2 - theme - T63
+# E2 - theme - T2
+# E3 - theme - T3
+# E3 - theme - T4
+# E4 - theme - T68
+# E4 - theme - T69
+# E5 - theme - T5
+# E5 - path - T50
+# E6 - theme - T7
+# E6 - manner - T71
+# E7 - theme - T8
+# E7 - time - T72
+# E8 - theme - T44
+# E8 - theme - T76
+# E9 - theme - T9
+# E9 - theme - T10
+# E10 - location - T77
+# E10 - theme - T55
+# E11 - theme - T11
+# E11 - theme - T51
+# E12 - theme - T51
+# E12 - theme - T78
+# E13 - theme - T14
+# E13 - theme - T52
+# E14 - theme - T52
+# E14 - theme - T80
+# E15 - theme - T17
+# E15 - theme - T81
+# E16 - theme - T81
+# E16 - theme - T19
+# E17 - theme - T20
+# E17 - location - T21
+# E18 - theme - T22
+# E18 - theme - T82
+# E19 - theme - T46
+# E19 - theme - T84
+# E20 - theme - T24
+# E20 - theme - T87
+# E21 - theme - T25
+# E21 - theme - T56
+# E22 - theme - T56
+# E22 - theme - T88
+# E23 - theme - T28
+# E23 - theme - T29
+# E24 - theme - T30
+# E24 - theme - T89
+# E25 - theme - T31
+# E25 - theme - T91
+# E26 - theme - T32
+# E26 - path - T59
+# E27 - theme - T34
+# E27 - theme - T35
+# E28 - theme - T36
+# T1 - objIdentity - T3
+# T3 - objIdentity - T6
+# T6 - objIdentity - T39
+# T39 - objIdentity - T9
+# T9 - objIdentity - T40
+# T40 - objIdentity - T15
+# T15 - objIdentity - T16
+# T16 - objIdentity - T41
+# T41 - objIdentity - T21
+# T21 - objIdentity - T23
+# T23 - objIdentity - T27
+# T27 - objIdentity - T29
+# T29 - objIdentity - T33
+# T33 - objIdentity - T35
+# T2 - objIdentity - T4
+# T4 - objIdentity - T42
+# T42 - objIdentity - T7
+# T7 - objIdentity - T43
+# T43 - objIdentity - T44
+# T44 - objIdentity - T10
+# T10 - objIdentity - T45
+# T45 - objIdentity - T14
+# T14 - objIdentity - T17
+# T17 - objIdentity - T18
+# T18 - objIdentity - T20
+# T20 - objIdentity - T22
+# T22 - objIdentity - T46
+# T46 - objIdentity - T47
+# T47 - objIdentity - T24
+# T24 - objIdentity - T25
+# T25 - objIdentity - T48
+# T48 - objIdentity - T30
+# T30 - objIdentity - T31
+# T31 - objIdentity - T32
+# T32 - objIdentity - T34
+# T34 - objIdentity - T49
+# T50 - objIdentity - T51
+# T51 - objIdentity - T52
+# T52 - objIdentity - T53
+# T53 - objIdentity - T54
+# T55 - objIdentity - T56
+# T56 - objIdentity - T57
+# T57 - objIdentity - T58
+# T58 - objIdentity - T59
+# T60 - objIdentity - T61
+# T61 - objIdentity - T62

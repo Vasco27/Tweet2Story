@@ -1,0 +1,236 @@
+» EVENTS
+# E1 (raises) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T73) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T73), Factuality(a,Factual)]) 
+
+# E2 (enhanced) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T73) & relationRole(theme,T74) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T73), relationRole(theme,T74), Factuality(b,Factual)]) 
+
+# E3 (says) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T4) & relationRole(theme,T5) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T4), relationRole(theme,T5), Factuality(c,Factual)]) 
+
+# E4 (re open) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T5) & relationRole(theme,T75) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T5), relationRole(theme,T75), Factuality(d,Factual)]) 
+
+# E5 (to avoid) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T75) & relationRole(theme,T76) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T75), relationRole(theme,T76), Factuality(e,Factual)]) 
+
+# E6 (says russia has proposed) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T8) & relationRole(theme,T10) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T8), relationRole(theme,T10), Factuality(f,Factual)]) 
+
+# E7 (says russia has proposed) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T11) & relationRole(theme,T15) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T11), relationRole(theme,T15), Factuality(g,Factual)]) 
+
+# E8 (says russia has proposed) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T16) & relationRole(theme,T20) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T16), relationRole(theme,T20), Factuality(h,Factual)]) 
+
+# E9 (has proposed) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T21) & relationRole(theme,T24) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T21), relationRole(theme,T24), Factuality(i,Factual)]) 
+
+# E10 (says russia has proposed) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T25) & relationRole(theme,T29) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T25), relationRole(theme,T29), Factuality(j,Factual)]) 
+
+# E11 (says russia proposed) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T30) & relationRole(theme,T33) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T30), relationRole(theme,T33), Factuality(k,Factual)]) 
+
+# E12 (says russia proposed) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T34) & relationRole(theme,T70) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T34), relationRole(theme,T70), Factuality(l,Factual)]) 
+
+# E13 (could take) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T38) & relationRole(theme,T77) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T38), relationRole(theme,T77), Factuality(m,Factual)]) 
+
+# E14 (says) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T40) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T40), Factuality(n,Factual)]) 
+
+# E15 (plans) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T41) & relationRole(theme,T43) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T41), relationRole(theme,T43), Factuality(o,Factual)]) 
+
+# E16 (talks to begin) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T79) & relationRole(time,T80) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T79), relationRole(time,T80), Factuality(p,Factual)]) 
+
+# E17 (believes) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T46) & relationRole(theme,T48) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T46), relationRole(theme,T48), Factuality(q,Factual)]) 
+
+# E18 (is) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T48) & relationRole(theme,T81) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T48), relationRole(theme,T81), Factuality(r,Factual)]) 
+
+# E19 (plans to engage) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T71) & relationRole(theme,T50) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T71), relationRole(theme,T50), Factuality(s,Factual)]) 
+
+# E20 (have) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T82) & relationRole(theme,T83) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T82), relationRole(theme,T83), Factuality(t,Factual)]) 
+
+# E21 (will hold) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T72) & relationRole(theme,T51) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T72), relationRole(theme,T51), Factuality(u,Factual)]) 
+
+» ACTORS
+# T1 -> johnkerry
+# T10 -> syria
+# T14 -> russia
+# T15 -> syria
+# T19 -> russia
+# T2 -> russia
+# T20 -> syria
+# T25 -> washington
+# T28 -> russia
+# T29 -> syria
+# T30 -> kerry
+# T31 -> russia
+# T33 -> syria
+# T34 -> kerry
+# T35 -> russia
+# T37 -> syria
+# T38 -> syria
+# T4 -> lavrov
+# T42 -> russia
+# T43 -> syria
+# T45 -> syria
+# T47 -> syria
+# T48 -> russia
+# T49 -> russia
+# T5 -> russia
+# T50 -> syria
+# T51 -> russia
+# T52 -> russia fm lavrov
+# T53 -> russia
+# T54 -> secretary of state kerry
+# T55 -> ap secretary of state kerry
+# T56 -> ap secretary of state kerry
+# T57 -> sec of state kerry
+# T58 -> washington secretary of state kerry
+# T59 -> secretary of state john kerry
+# T60 -> us
+# T61 -> us
+# T62 -> us
+# T63 -> us
+# T64 -> us
+# T65 -> syria
+# T68 -> washington
+# T69 -> u s russia
+# T70 -> u s russia
+# T71 -> u s
+# T72 -> we
+# T73 -> concern with russia fm lavrov about reports of an imminent
+# T75 -> coordination between russian and us military
+# T9 -> russia
+# T76 -> unintended incidents over
+# T82 -> the worlds 2 largest democracies
+# T79 -> military
+# T24 -> syria cavuto
+# T67 -> military to military talks with us on syria
+# T74 -> russian military buildup in
+# T46 -> obama
+# T66 -> military to military talks with us on syria
+# T83 -> common principles‚Äô
+# T41 -> us
+# T16 -> washington ap
+# T81 -> important
+# T80 -> soon
+# T40 -> john kerry
+# T11 -> ap
+# T21 -> sec
+# T77 -> place
+# T8 -> kerry
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T73
+# E2 - theme - T73
+# E2 - theme - T74
+# E3 - theme - T4
+# E3 - theme - T5
+# E4 - theme - T5
+# E4 - theme - T75
+# E5 - theme - T75
+# E5 - theme - T76
+# E6 - theme - T8
+# E6 - theme - T10
+# E7 - theme - T11
+# E7 - theme - T15
+# E8 - theme - T16
+# E8 - theme - T20
+# E9 - theme - T21
+# E9 - theme - T24
+# E10 - theme - T25
+# E10 - theme - T29
+# E11 - theme - T30
+# E11 - theme - T33
+# E12 - theme - T34
+# E12 - theme - T70
+# E13 - theme - T38
+# E13 - theme - T77
+# E14 - theme - T40
+# E15 - theme - T41
+# E15 - theme - T43
+# E16 - theme - T79
+# E16 - time - T80
+# E17 - theme - T46
+# E17 - theme - T48
+# E18 - theme - T48
+# E18 - theme - T81
+# E19 - theme - T71
+# E19 - theme - T50
+# E20 - theme - T82
+# E20 - theme - T83
+# E21 - theme - T72
+# E21 - theme - T51
+# T52 - objIdentity - T4
+# T2 - objIdentity - T5
+# T5 - objIdentity - T9
+# T9 - objIdentity - T14
+# T14 - objIdentity - T19
+# T19 - objIdentity - T53
+# T53 - objIdentity - T28
+# T28 - objIdentity - T31
+# T31 - objIdentity - T35
+# T35 - objIdentity - T42
+# T42 - objIdentity - T48
+# T48 - objIdentity - T49
+# T49 - objIdentity - T51
+# T1 - objIdentity - T54
+# T54 - objIdentity - T55
+# T55 - objIdentity - T56
+# T56 - objIdentity - T57
+# T57 - objIdentity - T58
+# T58 - objIdentity - T30
+# T30 - objIdentity - T34
+# T34 - objIdentity - T59
+# T60 - objIdentity - T61
+# T61 - objIdentity - T62
+# T62 - objIdentity - T63
+# T63 - objIdentity - T64
+# T10 - objIdentity - T15
+# T15 - objIdentity - T20
+# T20 - objIdentity - T65
+# T65 - objIdentity - T29
+# T29 - objIdentity - T33
+# T33 - objIdentity - T37
+# T37 - objIdentity - T38
+# T38 - objIdentity - T43
+# T43 - objIdentity - T45
+# T45 - objIdentity - T47
+# T47 - objIdentity - T50
+# T66 - objIdentity - T67
+# T68 - objIdentity - T25
+# T69 - objIdentity - T70
+# T71 - objIdentity - T72

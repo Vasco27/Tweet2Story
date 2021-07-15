@@ -1,0 +1,163 @@
+» EVENTS
+# E1 (rejected) -> a
+# FOL:  exists a.(relationRole(agent,T29) & relationRole(theme,T30) & event(a))
+# DRS:  ([a],[relationRole(agent,T29), relationRole(theme,T30), event(a)]) 
+
+# E2 (would have allowed) -> b
+# FOL:  exists b.(relationRole(goal,T31) & relationRole(cause,T30) & relationRole(theme,E3) & event(b))
+# DRS:  ([b],[relationRole(goal,T31), relationRole(cause,T30), relationRole(theme,E3), event(b)]) 
+
+# E3 (to end) -> c
+# FOL:  exists c.(relationRole(theme,E4) & relationRole(agent,T32) & relationRole(manner,E5) & event(c))
+# DRS:  ([c],[relationRole(theme,E4), relationRole(agent,T32), relationRole(manner,E5), event(c)]) 
+
+# E4 (lives) -> d
+# FOL:  exists d.(relationRole(pivot,T32) & event(d))
+# DRS:  ([d],[relationRole(pivot,T32), event(d)]) 
+
+# E5 (medical supervision) -> e
+# FOL:  exists e.event(e)
+# DRS:  ([e],[event(e)]) 
+
+# E6 (free vote) -> f
+# FOL:  exists f.event(f)
+# DRS:  ([f],[event(f)]) 
+
+# E7 (voted in favor) -> g
+# FOL:  exists g.(relationRole(setting,E6) & relationRole(agent,T38) & relationRole(theme,T39) & event(g))
+# DRS:  ([g],[relationRole(setting,E6), relationRole(agent,T38), relationRole(theme,T39), event(g)]) 
+
+# E8 (voted against) -> h
+# FOL:  exists h.(relationRole(setting,E6) & relationRole(agent,T40) & relationRole(theme,T39) & event(h))
+# DRS:  ([h],[relationRole(setting,E6), relationRole(agent,T40), relationRole(theme,T39), event(h)]) 
+
+# E9 (is against) -> i
+# FOL:  exists i.(relationRole(pivot,T41) & relationRole(theme,E10) & event(i))
+# DRS:  ([i],[relationRole(pivot,T41), relationRole(theme,E10), event(i)]) 
+
+# E10 (any move) -> j
+# FOL:  exists j.(relationRole(purpose,E11) & event(j))
+# DRS:  ([j],[relationRole(purpose,E11), event(j)]) 
+
+# E11 (to legalize) -> k
+# FOL:  exists k.(relationRole(theme,E12) & event(k))
+# DRS:  ([k],[relationRole(theme,E12), event(k)]) 
+
+# E12 (assisted dying) -> l
+# FOL:  exists l.event(l)
+# DRS:  ([l],[event(l)]) 
+
+# E13 (was debated) -> m
+# FOL:  exists m.(relationRole(patient,T42) & relationRole(location,T44) & event(m))
+# DRS:  ([m],[relationRole(patient,T42), relationRole(location,T44), event(m)]) 
+
+# E14 (was) -> n
+# FOL:  exists n.event(n)
+# DRS:  ([n],[event(n)]) 
+
+# E15 (attempt) -> o
+# FOL:  exists o.event(o)
+# DRS:  ([o],[event(o)]) 
+
+# E16 (to push) -> p
+# FOL:  exists p.(relationRole(patient,T45) & relationRole(theme,E15) & relationRole(goal,T46) & event(p))
+# DRS:  ([p],[relationRole(patient,T45), relationRole(theme,E15), relationRole(goal,T46), event(p)]) 
+
+# E17 (ran out of time) -> q
+# FOL:  exists q.(relationRole(theme,E15) & event(q))
+# DRS:  ([q],[relationRole(theme,E15), event(q)]) 
+
+# E18 (general election) -> r
+# FOL:  exists r.event(r)
+# DRS:  ([r],[event(r)]) 
+
+# E19 (marks) -> s
+# FOL:  exists s.(relationRole(theme,E20) & relationRole(cause,E1) & event(s))
+# DRS:  ([s],[relationRole(theme,E20), relationRole(cause,E1), event(s)]) 
+
+# E20 (blow) -> t
+# FOL:  exists t.(relationRole(beneficiary,E25) & event(t))
+# DRS:  ([t],[relationRole(beneficiary,E25), event(t)]) 
+
+# E21 (to introduce) -> u
+# FOL:  exists u.(relationRole(theme,T33) & relationRole(goal,T34) & event(u))
+# DRS:  ([u],[relationRole(theme,T33), relationRole(goal,T34), event(u)]) 
+
+# E22 (has attracted) -> v
+# FOL:  exists v.(relationRole(theme,E23) & relationRole(cause,E25) & event(v))
+# DRS:  ([v],[relationRole(theme,E23), relationRole(cause,E25), event(v)]) 
+
+# E23 (support) -> w
+# FOL:  exists w.(relationRole(pivot,T35) & event(w))
+# DRS:  ([w],[relationRole(pivot,T35), event(w)]) 
+
+# E24 (diverse) -> x
+# FOL:  exists x.(relationRole(pivot,T36) & relationRole(pivot,T37) & relationRole(pivot,T35) & event(x))
+# DRS:  ([x],[relationRole(pivot,T36), relationRole(pivot,T37), relationRole(pivot,T35), event(x)]) 
+
+# E25 (long campaign) -> y
+# FOL:  exists y.(relationRole(purpose,E21) & event(y))
+# DRS:  ([y],[relationRole(purpose,E21), event(y)]) 
+
+» ACTORS
+# T29 -> British lawmakers
+# T30 -> a right to die bill
+# T32 -> their
+# T33 -> such legislation
+# T34 -> Britain
+# T35 -> figures
+# T36 -> the late fantasy author Terry Pratchett
+# T37 -> billionaire entrepreneur Richard Branson
+# T39 -> the bill
+# T42 -> the issue
+# T43 -> Britain
+# T44 -> House of Commons
+# T45 -> legislation
+# T38 -> 118 Members of Parliament
+# T41 -> Prime Minister David Cameron
+# T46 -> the House of Lords
+# T31 -> terminally ill adults
+# T40 -> 330
+
+» RELATIONS
+# E1 - agent - T29
+# E1 - theme - T30
+# E2 - goal - T31
+# E2 - cause - T30
+# E2 - theme - E3
+# E3 - theme - E4
+# E3 - agent - T32
+# E4 - pivot - T32
+# E3 - manner - E5
+# E19 - theme - E20
+# E19 - cause - E1
+# E20 - beneficiary - E25
+# E25 - purpose - E21
+# E21 - theme - T33
+# E21 - goal - T34
+# E22 - theme - E23
+# E22 - cause - E25
+# E23 - pivot - T35
+# T36 - pivot - E24
+# T37 - pivot - E24
+# E24 - pivot - T35
+# E7 - setting - E6
+# E8 - setting - E6
+# E7 - agent - T38
+# E7 - theme - T39
+# E8 - agent - T40
+# E8 - theme - T39
+# E9 - pivot - T41
+# E9 - theme - E10
+# E10 - purpose - E11
+# E11 - theme - E12
+# E13 - patient - T42
+# E13 - location - T44
+# E16 - patient - T45
+# E16 - theme - E15
+# E16 - goal - T46
+# E17 - theme - E15
+# T36 - memberOf - T35
+# T37 - memberOf - T35
+# T44 - partOf - T43
+# T42 - objIdentity - T30

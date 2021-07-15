@@ -1,0 +1,52 @@
+» EVENTS
+# E1 (Has bagged) -> a
+# FOL:  exists a.(relationRole(agent,T1) & relationRole(theme,E2) & relationRole(location,T4) & event(a))
+# DRS:  ([a],[relationRole(agent,T1), relationRole(theme,E2), relationRole(location,T4), event(a)]) 
+
+# E2 (order) -> b
+# FOL:  exists b.(relationRole(theme,E3) & event(b))
+# DRS:  ([b],[relationRole(theme,E3), event(b)]) 
+
+# E3 (wind power project) -> c
+# FOL:  exists c.(relationRole(amount,T9) & relationRole(agent,T6) & event(c))
+# DRS:  ([c],[relationRole(amount,T9), relationRole(agent,T6), event(c)]) 
+
+# E4 (Says) -> d
+# FOL:  exists d.(relationRole(agent,T1) & relationRole(theme,E5) & event(d))
+# DRS:  ([d],[relationRole(agent,T1), relationRole(theme,E5), event(d)]) 
+
+# E5 (is baked) -> e
+# FOL:  exists e.(relationRole(pivot,T7) & relationRole(agent,T8) & event(e))
+# DRS:  ([e],[relationRole(pivot,T7), relationRole(agent,T8), event(e)]) 
+
+# E6 (under management) -> f
+# FOL:  exists f.(relationRole(theme,T16) & relationRole(amount,T14) & event(f))
+# DRS:  ([f],[relationRole(theme,T16), relationRole(amount,T14), event(f)]) 
+
+» ACTORS
+# T1 -> Inox Wind Ltd
+# T13 -> a global pan-emerging maket private equity frim
+# T4 -> Lahori
+# T5 -> the state of Madhya Pradesh
+# T6 -> Ostro Energy
+# T7 -> Ostro Energy
+# T8 -> Actis
+# T9 -> 100 MW
+# T16 -> funds
+# T14 -> $7.6 bln
+
+» RELATIONS
+# E1 - agent - T1
+# E1 - theme - E2
+# E3 - amount - T9
+# E1 - location - T4
+# E2 - theme - E3
+# E3 - agent - T6
+# E4 - agent - T1
+# E4 - theme - E5
+# E5 - pivot - T7
+# E5 - agent - T8
+# E6 - theme - T16
+# E6 - amount - T14
+# T4 - partOf - T5
+# T13 - objIdentity - T8

@@ -1,0 +1,143 @@
+» EVENTS
+# E1 (will spotlight) -> a
+# FOL:  exists a.(relationRole(theme,E19) & relationRole(patient,T37) & relationRole(purpose,E2) & event(a))
+# DRS:  ([a],[relationRole(theme,E19), relationRole(patient,T37), relationRole(purpose,E2), event(a)]) 
+
+# E2 (to bring) -> b
+# FOL:  exists b.(relationRole(theme,E3) & event(b))
+# DRS:  ([b],[relationRole(theme,E3), event(b)]) 
+
+# E3 (additional recognition) -> c
+# FOL:  exists c.(relationRole(beneficiary,T38) & event(c))
+# DRS:  ([c],[relationRole(beneficiary,T38), event(c)]) 
+
+# E4 (internationally acclaimed) -> d
+# FOL:  exists d.(relationRole(pivot,T38) & event(d))
+# DRS:  ([d],[relationRole(pivot,T38), event(d)]) 
+
+# E5 (to be involved) -> e
+# FOL:  exists e.(relationRole(theme,E6) & relationRole(pivot,T20) & event(e))
+# DRS:  ([e],[relationRole(theme,E6), relationRole(pivot,T20), event(e)]) 
+
+# E6 (creating) -> f
+# FOL:  exists f.(relationRole(theme,T21) & relationRole(agent,T20) & event(f))
+# DRS:  ([f],[relationRole(theme,T21), relationRole(agent,T20), event(f)]) 
+
+# E7 (seeing) -> g
+# FOL:  exists g.(relationRole(agent,T20) & relationRole(theme,T22) & event(g))
+# DRS:  ([g],[relationRole(agent,T20), relationRole(theme,T22), event(g)]) 
+
+# E8 (has done) -> h
+# FOL:  exists h.(relationRole(agent,T36) & event(h))
+# DRS:  ([h],[relationRole(agent,T36), event(h)]) 
+
+# E9 (says) -> i
+# FOL:  exists i.(relationRole(agent,T25) & relationRole(theme,E12) & event(i))
+# DRS:  ([i],[relationRole(agent,T25), relationRole(theme,E12), event(i)]) 
+
+# E10 (will illuminate) -> j
+# FOL:  exists j.(relationRole(cause,T26) & relationRole(theme,T27) & relationRole(location,T28) & event(j))
+# DRS:  ([j],[relationRole(cause,T26), relationRole(theme,T27), relationRole(location,T28), event(j)]) 
+
+# E11 (Starting) -> k
+# FOL:  exists k.(relationRole(location,T29) & relationRole(theme,T26) & event(k))
+# DRS:  ([k],[relationRole(location,T29), relationRole(theme,T26), event(k)]) 
+
+# E12 (delighted) -> l
+# FOL:  exists l.(relationRole(pivot,T20) & relationRole(theme,E5) & event(l))
+# DRS:  ([l],[relationRole(pivot,T20), relationRole(theme,E5), event(l)]) 
+
+# E13 (Combining) -> m
+# FOL:  exists m.(relationRole(agent,T32) & relationRole(theme,E14) & event(m))
+# DRS:  ([m],[relationRole(agent,T32), relationRole(theme,E14), event(m)]) 
+
+# E14 (love) -> n
+# FOL:  exists n.(relationRole(theme,T30) & relationRole(theme,T31) & relationRole(pivot,T32) & event(n))
+# DRS:  ([n],[relationRole(theme,T30), relationRole(theme,T31), relationRole(pivot,T32), event(n)]) 
+
+# E15 (will showcase) -> o
+# FOL:  exists o.(relationRole(agent,T32) & relationRole(theme,E16) & event(o))
+# DRS:  ([o],[relationRole(agent,T32), relationRole(theme,E16), event(o)]) 
+
+# E16 (practical applications) -> p
+# FOL:  exists p.(relationRole(theme,T33) & event(p))
+# DRS:  ([p],[relationRole(theme,T33), event(p)]) 
+
+# E17 (improve) -> q
+# FOL:  exists q.(relationRole(cause,T34) & relationRole(theme,T35) & event(q))
+# DRS:  ([q],[relationRole(cause,T34), relationRole(theme,T35), event(q)]) 
+
+# E18 (enhance) -> r
+# FOL:  exists r.(relationRole(cause,T34) & relationRole(theme,T35) & event(r))
+# DRS:  ([r],[relationRole(cause,T34), relationRole(theme,T35), event(r)]) 
+
+# E19 (event) -> s
+# FOL:  exists s.event(s)
+# DRS:  ([s],[event(s)]) 
+
+» ACTORS
+# T20 -> Amerlux
+# T21 -> the Night of Heritage Light
+# T22 -> these World Heritage sites
+# T23 -> Amerlux
+# T24 -> CEO Chuck Campagna
+# T25 -> President
+# T26 -> The Night of Heritage Light
+# T27 -> 10 World Heritage Sites
+# T28 -> the UK
+# T29 -> William the Conquerors Tower of London
+# T30 -> light
+# T31 -> art
+# T32 -> design teams
+# T33 -> lighting
+# T34 -> it
+# T35 -> architecture
+# T37 -> UNESCO World Heritage Sites
+# T38 -> these locations
+# T36 -> no one
+
+» RELATIONS
+# E12 - pivot - T20
+# E12 - theme - E5
+# E5 - theme - E6
+# E6 - theme - T21
+# E6 - agent - T20
+# E7 - agent - T20
+# E7 - theme - T22
+# E5 - pivot - T20
+# E8 - agent - T36
+# E9 - agent - T25
+# E9 - theme - E12
+# E10 - cause - T26
+# E10 - theme - T27
+# E10 - location - T28
+# E11 - location - T29
+# E11 - theme - T26
+# E13 - agent - T32
+# E13 - theme - E14
+# E14 - theme - T30
+# E14 - theme - T31
+# E14 - pivot - T32
+# E15 - agent - T32
+# E15 - theme - E16
+# E16 - theme - T33
+# E17 - cause - T34
+# E17 - theme - T35
+# E18 - cause - T34
+# E18 - theme - T35
+# E1 - theme - E19
+# E1 - patient - T37
+# E1 - purpose - E2
+# E2 - theme - E3
+# E3 - beneficiary - T38
+# E4 - pivot - T38
+# T23 - objIdentity - T20
+# T25 - partOf - T23
+# T24 - objIdentity - T25
+# T26 - objIdentity - T21
+# T27 - objIdentity - T22
+# T27 - partOf - T28
+# T29 - memberOf - T27
+# T34 - objIdentity - T33
+# T38 - objIdentity - T37
+# T37 - objIdentity - T27

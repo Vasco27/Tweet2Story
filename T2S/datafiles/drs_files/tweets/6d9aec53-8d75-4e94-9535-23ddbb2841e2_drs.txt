@@ -1,0 +1,350 @@
+» EVENTS
+# E1 (addresses) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T1) & relationRole(theme,T82) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T1), relationRole(theme,T82), Factuality(a,Factual)]) 
+
+# E2 (is) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T70) & relationRole(theme,T83) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T70), relationRole(theme,T83), Factuality(b,Factual)]) 
+
+# E3 (needs) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T85) & relationRole(theme,T2) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T85), relationRole(theme,T2), Factuality(c,Factual)]) 
+
+# E4 (needs boxing) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T44) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T44), Factuality(d,Factual)]) 
+
+# E5 (insists) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T3) & relationRole(theme,T4) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T3), relationRole(theme,T4), Factuality(e,Factual)]) 
+
+# E6 (is) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T4) & relationRole(theme,T46) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T4), relationRole(theme,T46), Factuality(f,Factual)]) 
+
+# E7 (wants) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T5) & relationRole(theme,T86) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T5), relationRole(theme,T86), Factuality(g,Factual)]) 
+
+# E8 (seems) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T6) & relationRole(theme,T88) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T6), relationRole(theme,T88), Factuality(h,Factual)]) 
+
+# E9 (insists andreberto is) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T49) & relationRole(theme,T89) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T49), relationRole(theme,T89), Factuality(i,Factual)]) 
+
+# E10 (is) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T74) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T74), Factuality(j,Factual)]) 
+
+# E11 (follow) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T7) & relationRole(path,T92) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T7), relationRole(path,T92), Factuality(k,Factual)]) 
+
+# E12 (fight) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(time,T75) & relationRole(location,T75) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(time,T75), relationRole(location,T75), Factuality(l,Factual)]) 
+
+# E13 (is underway mayweather has not won) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T8) & relationRole(theme,T94) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T8), relationRole(theme,T94), Factuality(m,Factual)]) 
+
+# E14 (improves) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T14) & relationRole(theme,T97) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T14), relationRole(theme,T97), Factuality(n,Factual)]) 
+
+# E15 (beating) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T98) & relationRole(theme,T15) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T98), relationRole(theme,T15), Factuality(o,Factual)]) 
+
+# E16 (can find) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T101) & relationRole(theme,T19) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T101), relationRole(theme,T19), Factuality(p,Factual)]) 
+
+# E17 (has defeated) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T20) & relationRole(theme,T21) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T20), relationRole(theme,T21), Factuality(q,Factual)]) 
+
+# E18 (says is) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T22) & relationRole(theme,T55) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T22), relationRole(theme,T55), Factuality(r,Factual)]) 
+
+# E19 (wins) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T23) & relationRole(location,T77) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T23), relationRole(location,T77), Factuality(s,Factual)]) 
+
+# E20 (remains) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(location,T77) & relationRole(theme,T103) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(location,T77), relationRole(theme,T103), Factuality(t,Factual)]) 
+
+# E21 (ve accomplished everything he said i ve done) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T59) & relationRole(theme,T104) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T59), relationRole(theme,T104), Factuality(u,Factual)]) 
+
+# E22 (cemented) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T25) & relationRole(theme,T64) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T25), relationRole(theme,T64), Factuality(v,Factual)]) 
+
+# E23 (ends) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T65) & relationRole(manner,T106) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T65), relationRole(manner,T106), Factuality(w,Factual)]) 
+
+# E24 (berto) -> x
+# FOL:  exists Factual Occurrence Pos Pres x.(event(x) & eventClass(x,Occurrence) & Tense(x,Pres) & Polarity(x,Pos) & Factuality(x,Factual))
+# DRS:  ([x],[event(x), eventClass(x,Occurrence), Tense(x,Pres), Polarity(x,Pos), Factuality(x,Factual)]) 
+
+# E25 (where does) -> y
+# FOL:  exists Factual Occurrence Pos Pres y.(event(y) & eventClass(y,Occurrence) & Tense(y,Pres) & Polarity(y,Pos) & relationRole(theme,T31) & Factuality(y,Factual))
+# DRS:  ([y],[event(y), eventClass(y,Occurrence), Tense(y,Pres), Polarity(y,Pos), relationRole(theme,T31), Factuality(y,Factual)]) 
+
+# E26 (stand) -> z
+# FOL:  exists Factual Occurrence Pos Pres z.(event(z) & eventClass(z,Occurrence) & Tense(z,Pres) & Polarity(z,Pos) & relationRole(theme,T31) & relationRole(theme,T107) & Factuality(z,Factual))
+# DRS:  ([z],[event(z), eventClass(z,Occurrence), Tense(z,Pres), Polarity(z,Pos), relationRole(theme,T31), relationRole(theme,T107), Factuality(z,Factual)]) 
+
+# E27 (greats) -> aa
+# FOL:  exists Factual Occurrence Pos Pres aa.(event(aa) & eventClass(aa,Occurrence) & Tense(aa,Pres) & Polarity(aa,Pos) & relationRole(theme,T107) & relationRole(theme,T67) & Factuality(aa,Factual))
+# DRS:  ([aa],[event(aa), eventClass(aa,Occurrence), Tense(aa,Pres), Polarity(aa,Pos), relationRole(theme,T107), relationRole(theme,T67), Factuality(aa,Factual)]) 
+
+# E28 (49 fights 49 wins) -> ab
+# FOL:  exists Factual Occurrence Pos Pres ab.(event(ab) & eventClass(ab,Occurrence) & Tense(ab,Pres) & Polarity(ab,Pos) & relationRole(theme,T108) & Factuality(ab,Factual))
+# DRS:  ([ab],[event(ab), eventClass(ab,Occurrence), Tense(ab,Pres), Polarity(ab,Pos), relationRole(theme,T108), Factuality(ab,Factual)]) 
+
+# E29 (says my career is over after moving) -> ac
+# FOL:  exists Factual Occurrence Pos Pres ac.(event(ac) & eventClass(ac,Occurrence) & Tense(ac,Pres) & Polarity(ac,Pos) & relationRole(theme,T32) & relationRole(theme,T109) & Factuality(ac,Factual))
+# DRS:  ([ac],[event(ac), eventClass(ac,Occurrence), Tense(ac,Pres), Polarity(ac,Pos), relationRole(theme,T32), relationRole(theme,T109), Factuality(ac,Factual)]) 
+
+# E30 (retires) -> ad
+# FOL:  exists Factual Occurrence Pos Pres ad.(event(ad) & eventClass(ad,Occurrence) & Tense(ad,Pres) & Polarity(ad,Pos) & relationRole(theme,T33) & relationRole(time,T110) & Factuality(ad,Factual))
+# DRS:  ([ad],[event(ad), eventClass(ad,Occurrence), Tense(ad,Pres), Polarity(ad,Pos), relationRole(theme,T33), relationRole(time,T110), Factuality(ad,Factual)]) 
+
+# E31 (beat) -> ae
+# FOL:  exists Factual Occurrence Pos Pres ae.(event(ae) & eventClass(ae,Occurrence) & Tense(ae,Pres) & Polarity(ae,Pos) & relationRole(theme,T35) & relationRole(theme,T36) & Factuality(ae,Factual))
+# DRS:  ([ae],[event(ae), eventClass(ae,Occurrence), Tense(ae,Pres), Polarity(ae,Pos), relationRole(theme,T35), relationRole(theme,T36), Factuality(ae,Factual)]) 
+
+# E32 (said it was) -> af
+# FOL:  exists Factual Occurrence Pos Pres af.(event(af) & eventClass(af,Occurrence) & Tense(af,Pres) & Polarity(af,Pos) & relationRole(theme,T37) & relationRole(theme,T69) & Factuality(af,Factual))
+# DRS:  ([af],[event(af), eventClass(af,Occurrence), Tense(af,Pres), Polarity(af,Pos), relationRole(theme,T37), relationRole(theme,T69), Factuality(af,Factual)]) 
+
+# E33 (does anyone really believe) -> ag
+# FOL:  exists Factual Occurrence Pos Pres ag.(event(ag) & eventClass(ag,Occurrence) & Tense(ag,Pres) & Polarity(ag,Pos) & relationRole(theme,T112) & Factuality(ag,Factual))
+# DRS:  ([ag],[event(ag), eventClass(ag,Occurrence), Tense(ag,Pres), Polarity(ag,Pos), relationRole(theme,T112), Factuality(ag,Factual)]) 
+
+# E34 (is retiring) -> ah
+# FOL:  exists Factual Occurrence Pos Pres ah.(event(ah) & eventClass(ah,Occurrence) & Tense(ah,Pres) & Polarity(ah,Pos) & relationRole(theme,T38) & Factuality(ah,Factual))
+# DRS:  ([ah],[event(ah), eventClass(ah,Occurrence), Tense(ah,Pres), Polarity(ah,Pos), relationRole(theme,T38), Factuality(ah,Factual)]) 
+
+» ACTORS
+# T1 -> floyd mayweather
+# T107 -> in the list of all time boxing
+# T11 -> las vegas
+# T15 -> andre berto
+# T17 -> las vegas
+# T18 -> floyd mayweather
+# T19 -> floyd mayweather
+# T21 -> andre berto
+# T22 -> mayweather
+# T26 -> floyd mayweather
+# T27 -> andre berto
+# T28 -> floyd mayweather
+# T29 -> berto
+# T3 -> floyd mayweather
+# T31 -> floyd mayweather jr stand
+# T32 -> floyd mayweather jr
+# T33 -> floyd mayweather
+# T34 -> las vegas
+# T35 -> floyd mayweather
+# T36 -> andre berto
+# T37 -> mayweather
+# T38 -> floyd mayweather jr
+# T4 -> andre berto
+# T42 -> his
+# T43 -> floyd mayweather jr
+# T44 -> he
+# T45 -> his
+# T46 -> his
+# T47 -> his
+# T48 -> floyd mayweather‚Äôs
+# T49 -> floydmayweather
+# T5 -> floyd mayweather jr
+# T50 -> mayweathers
+# T51 -> floyd mayweather jr
+# T52 -> mayweather
+# T53 -> floyd mayweather jr
+# T54 -> floyd mayweather jr
+# T55 -> his
+# T56 -> boxer floyd mayweather
+# T57 -> his
+# T58 -> floyd mayweather jr
+# T59 -> i
+# T60 -> he
+# T61 -> i
+# T62 -> my
+# T63 -> floyd mayweather jr
+# T64 -> his
+# T65 -> his
+# T66 -> floyd mayweather jr
+# T67 -> his
+# T68 -> my
+# T69 -> his
+# T70 -> this
+# T71 -> his fight with andre berto
+# T72 -> his last fight
+# T73 -> mayweathers last fight
+# T74 -> this
+# T75 -> tonights fight at
+# T76 -> his final fight
+# T77 -> his last fight
+# T78 -> his final fight
+# T79 -> it
+# T8 -> floyd mayweather
+# T9 -> andre berto
+# T82 -> the comments that
+# T6 -> floyd mayweather
+# T109 -> to 49 0
+# T97 -> record
+# T7 -> floyd mayweather jr follow
+# T101 -> we
+# T2 -> floyd mayweather jr more
+# T110 -> after another win in las vegas chimplyf
+# T106 -> career unbeaten
+# T86 -> healthy post boxing life
+# T20 -> floyd mayweather jr has
+# T92 -> along
+# T14 -> floyd mayweather jr improves
+# T85 -> boxing
+# T88 -> more‚Ä¶
+# T112 -> that
+# T103 -> undefeated
+# T25 -> las vegas reuters floyd mayweather jr cemented
+# T80 -> mgm grand in las vegas
+# T23 -> floyd mayweather
+# T104 -> everything
+# T89 -> last fight of perfect career
+# T98 -> to 49 0
+# T108 -> record
+# T81 -> mgm grand garden arena in las vegas
+# T94 -> a fight
+# T83 -> n‚Äôt
+
+» RELATIONS
+# E1 - theme - T1
+# E1 - theme - T82
+# E2 - theme - T70
+# E2 - theme - T83
+# E3 - theme - T85
+# E3 - theme - T2
+# E4 - theme - T44
+# E5 - theme - T3
+# E5 - theme - T4
+# E6 - theme - T4
+# E6 - theme - T46
+# E7 - theme - T5
+# E7 - theme - T86
+# E8 - theme - T6
+# E8 - theme - T88
+# E9 - theme - T49
+# E9 - theme - T89
+# E10 - theme - T74
+# E11 - theme - T7
+# E11 - path - T92
+# E12 - time - T75
+# E12 - location - T75
+# E13 - theme - T8
+# E13 - theme - T94
+# E14 - theme - T14
+# E14 - theme - T97
+# E15 - theme - T98
+# E15 - theme - T15
+# E16 - theme - T101
+# E16 - theme - T19
+# E17 - theme - T20
+# E17 - theme - T21
+# E18 - theme - T22
+# E18 - theme - T55
+# E19 - theme - T23
+# E19 - location - T77
+# E20 - location - T77
+# E20 - theme - T103
+# E21 - theme - T59
+# E21 - theme - T104
+# E22 - theme - T25
+# E22 - theme - T64
+# E23 - theme - T65
+# E23 - manner - T106
+# E25 - theme - T31
+# E26 - theme - T31
+# E26 - theme - T107
+# E27 - theme - T107
+# E27 - theme - T67
+# E28 - theme - T108
+# E29 - theme - T32
+# E29 - theme - T109
+# E30 - theme - T33
+# E30 - time - T110
+# E31 - theme - T35
+# E31 - theme - T36
+# E32 - theme - T37
+# E32 - theme - T69
+# E33 - theme - T112
+# E34 - theme - T38
+# T1 - objIdentity - T42
+# T42 - objIdentity - T43
+# T43 - objIdentity - T44
+# T44 - objIdentity - T3
+# T3 - objIdentity - T45
+# T45 - objIdentity - T46
+# T46 - objIdentity - T5
+# T5 - objIdentity - T47
+# T47 - objIdentity - T48
+# T48 - objIdentity - T49
+# T49 - objIdentity - T50
+# T50 - objIdentity - T51
+# T51 - objIdentity - T8
+# T8 - objIdentity - T52
+# T52 - objIdentity - T53
+# T53 - objIdentity - T18
+# T18 - objIdentity - T19
+# T19 - objIdentity - T54
+# T54 - objIdentity - T22
+# T22 - objIdentity - T55
+# T55 - objIdentity - T56
+# T56 - objIdentity - T57
+# T57 - objIdentity - T58
+# T58 - objIdentity - T59
+# T59 - objIdentity - T60
+# T60 - objIdentity - T61
+# T61 - objIdentity - T62
+# T62 - objIdentity - T63
+# T63 - objIdentity - T64
+# T64 - objIdentity - T26
+# T26 - objIdentity - T65
+# T65 - objIdentity - T28
+# T28 - objIdentity - T66
+# T66 - objIdentity - T67
+# T67 - objIdentity - T32
+# T32 - objIdentity - T68
+# T68 - objIdentity - T33
+# T33 - objIdentity - T35
+# T35 - objIdentity - T37
+# T37 - objIdentity - T69
+# T69 - objIdentity - T38
+# T70 - objIdentity - T71
+# T71 - objIdentity - T72
+# T72 - objIdentity - T73
+# T73 - objIdentity - T74
+# T74 - objIdentity - T75
+# T75 - objIdentity - T76
+# T76 - objIdentity - T77
+# T77 - objIdentity - T78
+# T78 - objIdentity - T79
+# T4 - objIdentity - T9
+# T9 - objIdentity - T15
+# T15 - objIdentity - T21
+# T21 - objIdentity - T27
+# T27 - objIdentity - T29
+# T29 - objIdentity - T36
+# T80 - objIdentity - T81
+# T11 - objIdentity - T17
+# T17 - objIdentity - T34

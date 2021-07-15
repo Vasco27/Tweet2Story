@@ -1,0 +1,213 @@
+» EVENTS
+# E1 (will chelsea sign) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T5) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T5), Factuality(a,Factual)]) 
+
+# E2 (sign) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T6) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T6), Factuality(b,Factual)]) 
+
+# E3 (now looking) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T6) & relationRole(theme,T7) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T6), relationRole(theme,T7), Factuality(c,Factual)]) 
+
+# E4 (chelsea pedro man) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T9) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T9), Factuality(d,Factual)]) 
+
+# E5 (failed) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T50) & relationRole(theme,T51) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T50), relationRole(theme,T51), Factuality(e,Factual)]) 
+
+# E6 (happen) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T51) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T51), Factuality(f,Factual)]) 
+
+# E7 (could be) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T10) & relationRole(theme,T52) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T10), relationRole(theme,T52), Factuality(g,Factual)]) 
+
+# E8 (bid) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T11) & relationRole(theme,T12) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T11), relationRole(theme,T12), Factuality(h,Factual)]) 
+
+# E9 (closed must now wait) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T54) & relationRole(time,T55) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T54), relationRole(time,T55), Factuality(i,Factual)]) 
+
+# E10 (is still preparing) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T14) & relationRole(theme,T37) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T14), relationRole(theme,T37), Factuality(j,Factual)]) 
+
+# E11 (keeping) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T45) & relationRole(theme,T57) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T45), relationRole(theme,T57), Factuality(k,Factual)]) 
+
+# E12 (might stay) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T38) & relationRole(theme,T47) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T38), relationRole(theme,T47), Factuality(l,Factual)]) 
+
+# E13 (was) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(time,T58) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(time,T58), Factuality(m,Factual)]) 
+
+# E14 (would leave s) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T39) & relationRole(theme,T61) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T39), relationRole(theme,T61), Factuality(n,Factual)]) 
+
+# E15 (ca nt continue) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T40) & relationRole(location,T62) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T40), relationRole(location,T62), Factuality(o,Factual)]) 
+
+# E16 (is) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T18) & relationRole(theme,T64) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T18), relationRole(theme,T64), Factuality(p,Factual)]) 
+
+# E17 (is) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(theme,T19) & relationRole(theme,T65) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(theme,T19), relationRole(theme,T65), Factuality(q,Factual)]) 
+
+# E18 (continue) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T41) & relationRole(theme,T66) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T41), relationRole(theme,T66), Factuality(r,Factual)]) 
+
+# E19 (set to sign) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T20) & relationRole(theme,T67) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T20), relationRole(theme,T67), Factuality(s,Factual)]) 
+
+# E20 (are set to miss out) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T22) & relationRole(theme,T42) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T22), relationRole(theme,T42), Factuality(t,Factual)]) 
+
+# E21 (says he s poised to join) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T68) & relationRole(theme,T69) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T68), relationRole(theme,T69), Factuality(u,Factual)]) 
+
+# E22 (pogba) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T24) & relationRole(location,T25) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T24), relationRole(location,T25), Factuality(v,Factual)]) 
+
+# E23 (got) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T72) & relationRole(path,T73) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T72), relationRole(path,T73), Factuality(w,Factual)]) 
+
+» ACTORS
+# T1 -> david de gea
+# T11 -> chelsea
+# T13 -> paul pogba
+# T14 -> juventus
+# T16 -> chelsea
+# T18 -> manchester united
+# T20 -> de gea
+# T21 -> united
+# T22 -> manchester city
+# T24 -> paul pogba
+# T3 -> manchester united
+# T33 -> chelsea
+# T34 -> pogba
+# T35 -> midfielder paul pogba
+# T36 -> juventus midfielder paul pogba
+# T37 -> himself
+# T38 -> i
+# T39 -> i
+# T4 -> chelsea
+# T40 -> i
+# T41 -> me
+# T42 -> summer transfer target paul pogba
+# T43 -> he
+# T44 -> man utd
+# T45 -> man city
+# T46 -> united
+# T47 -> juventus pogba
+# T5 -> paul pogba
+# T51 -> to
+# T6 -> chelsea
+# T25 -> manchester
+# T50 -> that
+# T9 -> utd
+# T52 -> worth
+# T73 -> away from both united and city
+# T68 -> sunday express
+# T55 -> until
+# T65 -> an ideal place for
+# T57 -> tabs on the frenc‚Ä¶
+# T54 -> the transfer window
+# T61 -> no reason
+# T7 -> west ham
+# T69 -> barcelona ne‚Ä¶
+# T19 -> trafford
+# T10 -> paul pogba
+# T67 -> ¬£200 000 per week deal
+# T58 -> never
+# T64 -> a special club
+# T12 -> billion rand
+# T62 -> here
+# T72 -> that
+# T66 -> ‚Ä¶
+
+» RELATIONS
+# E1 - theme - T5
+# E2 - theme - T6
+# E3 - theme - T6
+# E3 - theme - T7
+# E4 - theme - T9
+# E5 - theme - T50
+# E5 - theme - T51
+# E6 - theme - T51
+# E7 - theme - T10
+# E7 - theme - T52
+# E8 - theme - T11
+# E8 - theme - T12
+# E9 - theme - T54
+# E9 - time - T55
+# E10 - theme - T14
+# E10 - theme - T37
+# E11 - theme - T45
+# E11 - theme - T57
+# E12 - theme - T38
+# E12 - theme - T47
+# E13 - time - T58
+# E14 - theme - T39
+# E14 - theme - T61
+# E15 - theme - T40
+# E15 - location - T62
+# E16 - theme - T18
+# E16 - theme - T64
+# E17 - theme - T19
+# E17 - theme - T65
+# E18 - theme - T41
+# E18 - theme - T66
+# E19 - theme - T20
+# E19 - theme - T67
+# E20 - theme - T22
+# E20 - theme - T42
+# E21 - theme - T68
+# E21 - theme - T69
+# E22 - theme - T24
+# E22 - location - T25
+# E23 - theme - T72
+# E23 - path - T73
+# T4 - objIdentity - T6
+# T6 - objIdentity - T33
+# T33 - objIdentity - T11
+# T11 - objIdentity - T16
+# T5 - objIdentity - T34
+# T34 - objIdentity - T35
+# T35 - objIdentity - T13
+# T13 - objIdentity - T36
+# T36 - objIdentity - T37
+# T37 - objIdentity - T38
+# T38 - objIdentity - T39
+# T39 - objIdentity - T40
+# T40 - objIdentity - T41
+# T41 - objIdentity - T42
+# T42 - objIdentity - T43
+# T43 - objIdentity - T24
+# T3 - objIdentity - T44
+# T44 - objIdentity - T45
+# T45 - objIdentity - T18
+# T18 - objIdentity - T21
+# T21 - objIdentity - T22
+# T22 - objIdentity - T46
+# T14 - objIdentity - T47
+# T1 - objIdentity - T20

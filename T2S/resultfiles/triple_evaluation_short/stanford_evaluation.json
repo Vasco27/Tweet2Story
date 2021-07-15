@@ -1,0 +1,106 @@
+[
+    {
+        "leven": 0.372,
+        "FastText": 0.325,
+        "BERT": 0.695,
+        "ROUGE1": 0.133,
+        "topic": "1478bf7b-1c23-4235-9ed2-b8c287fc952c",
+        "n_triples": 3
+    },
+    {
+        "leven": 0.457,
+        "FastText": 0.382,
+        "BERT": 0.701,
+        "ROUGE1": 0.178,
+        "topic": "4bc04c2f-2d01-42d5-8311-e4005950d20f",
+        "n_triples": 9
+    },
+    {
+        "leven": 0.472,
+        "FastText": 0.43,
+        "BERT": 0.728,
+        "ROUGE1": 0.273,
+        "topic": "4e74bbed-b449-48a8-a71c-f70499105289",
+        "n_triples": 3
+    },
+    {
+        "leven": 0.404,
+        "FastText": 0.283,
+        "BERT": 0.65,
+        "ROUGE1": 0.083,
+        "topic": "5d4e4fbf-b220-4f42-aed5-153725b27070",
+        "n_triples": 2
+    },
+    {
+        "leven": 0.449,
+        "FastText": 0.371,
+        "BERT": 0.683,
+        "ROUGE1": 0.175,
+        "topic": "86ffe840-0a6b-4e7d-9490-e24636a3a214",
+        "n_triples": 6
+    },
+    {
+        "leven": 0.505,
+        "FastText": 0.411,
+        "BERT": 0.72,
+        "ROUGE1": 0.266,
+        "topic": "9c2abfde-02c5-4342-8a24-7c929090a6f8",
+        "n_triples": 14
+    },
+    {
+        "leven": 0.427,
+        "FastText": 0.382,
+        "BERT": 0.722,
+        "ROUGE1": 0.2,
+        "topic": "9ce6dea5-1d7e-4648-bcc4-c53d3d4e4558",
+        "n_triples": 3
+    },
+    {
+        "leven": 0.463,
+        "FastText": 0.419,
+        "BERT": 0.712,
+        "ROUGE1": 0.184,
+        "topic": "bb487a6c-0c13-4a30-a22b-bd865fef9f01",
+        "n_triples": 12
+    },
+    {
+        "leven": 0.466,
+        "FastText": 0.435,
+        "BERT": 0.729,
+        "ROUGE1": 0.227,
+        "topic": "bf88166e-76fe-4605-97df-bb63f5a1806c",
+        "n_triples": 14
+    },
+    {
+        "leven": 0.65,
+        "FastText": 0.554,
+        "BERT": 0.78,
+        "ROUGE1": 0.316,
+        "topic": "c24983f3-70bc-4e1e-b1ab-75d559adc338",
+        "n_triples": 5
+    },
+    {
+        "leven": 0.39,
+        "FastText": 0.271,
+        "BERT": 0.647,
+        "ROUGE1": 0.036,
+        "topic": "e7fc9f97-0952-4481-951b-583a3f17893e",
+        "n_triples": 4
+    },
+    {
+        "leven": 0.412,
+        "FastText": 0.215,
+        "BERT": 0.69,
+        "ROUGE1": 0.167,
+        "topic": "ef756748-9863-44d6-8cfc-66cbf0ccd975",
+        "n_triples": 8
+    },
+    {
+        "leven": 0.372,
+        "FastText": 0.32,
+        "BERT": 0.687,
+        "ROUGE1": 0.107,
+        "topic": "ef972152-a7fb-4823-9895-62be487d9eaa",
+        "n_triples": 15
+    }
+]

@@ -1,0 +1,57 @@
+» EVENTS
+# E1 (uses mop to save girl dangling) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T6) & relationRole(theme,T2) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T6), relationRole(theme,T2), Factuality(a,Factual)]) 
+
+# E2 (saves toddler dangling) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T8) & relationRole(theme,T3) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T8), relationRole(theme,T3), Factuality(b,Factual)]) 
+
+# E3 (using) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T3) & relationRole(theme,T9) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T3), relationRole(theme,T9), Factuality(c,Factual)]) 
+
+# E4 (was able to use) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T1) & relationRole(theme,T10) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T1), relationRole(theme,T10), Factuality(d,Factual)]) 
+
+# E5 (help save) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T11) & relationRole(theme,T12) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T11), relationRole(theme,T12), Factuality(e,Factual)]) 
+
+# E6 (saves child hanging) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T13) & relationRole(theme,T14) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T13), relationRole(theme,T14), Factuality(f,Factual)]) 
+
+» ACTORS
+# T2 -> girl dangling from 4th floor window
+# T3 -> toddler dangling from 4th floor window
+# T6 -> man
+# T7 -> a man in china
+# T5 -> 4th floor window
+# T1 -> china
+# T8 -> hero
+# T9 -> only a mop
+# T13 -> man
+# T4 -> 4th floor window
+# T14 -> from apartment window
+# T12 -> a girl‚Ä¶
+# T11 -> to
+# T10 -> a mop
+
+» RELATIONS
+# E1 - theme - T6
+# E1 - theme - T2
+# E2 - theme - T8
+# E2 - theme - T3
+# E3 - theme - T3
+# E3 - theme - T9
+# E4 - theme - T1
+# E4 - theme - T10
+# E5 - theme - T11
+# E5 - theme - T12
+# E6 - theme - T13
+# E6 - theme - T14
+# T2 - objIdentity - T3
+# T4 - objIdentity - T5
+# T6 - objIdentity - T7

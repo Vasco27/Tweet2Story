@@ -1,0 +1,205 @@
+» EVENTS
+# E1 (ca nt afford to turn) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T20) & relationRole(theme,T21) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T20), relationRole(theme,T21), Factuality(a,Factual)]) 
+
+# E2 (apprenticeships) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T33) & relationRole(theme,T1) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T33), relationRole(theme,T1), Factuality(b,Factual)]) 
+
+# E3 (would bring) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T1) & relationRole(theme,T2) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T1), relationRole(theme,T2), Factuality(c,Factual)]) 
+
+# E4 (are now running) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T34) & relationRole(manner,T35) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T34), relationRole(manner,T35), Factuality(d,Factual)]) 
+
+# E5 (airport following) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(location,T4) & relationRole(theme,T36) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(location,T4), relationRole(theme,T36), Factuality(e,Factual)]) 
+
+# E6 (claims the government wo nt give) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T5) & relationRole(theme,T37) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T5), relationRole(theme,T37), Factuality(f,Factual)]) 
+
+# E7 (heathrow) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T38) & relationRole(theme,T25) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T38), relationRole(theme,T25), Factuality(g,Factual)]) 
+
+# E8 (might disagree) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T7) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T7), Factuality(h,Factual)]) 
+
+# E9 (will fail) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T8) & relationRole(manner,T39) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T8), relationRole(manner,T39), Factuality(i,Factual)]) 
+
+# E10 (says) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(manner,T39) & relationRole(theme,T9) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(manner,T39), relationRole(theme,T9), Factuality(j,Factual)]) 
+
+# E11 (there s) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T40) & relationRole(theme,T41) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T40), relationRole(theme,T41), Factuality(k,Factual)]) 
+
+# E12 (will always take) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T29) & relationRole(theme,T42) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T29), relationRole(theme,T42), Factuality(l,Factual)]) 
+
+# E13 (benefits) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T43) & relationRole(theme,T10) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T43), relationRole(theme,T10), Factuality(m,Factual)]) 
+
+# E14 (take) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T44) & relationRole(theme,T45) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T44), relationRole(theme,T45), Factuality(n,Factual)]) 
+
+# E15 (being suspended) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T13) & relationRole(theme,T30) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T13), relationRole(theme,T30), Factuality(o,Factual)]) 
+
+# E16 (after losing) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T30) & relationRole(theme,T31) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T30), relationRole(theme,T31), Factuality(p,Factual)]) 
+
+# E17 (could corbyns election as labour leader) -> q
+# FOL:  exists Factual Occurrence Pos Pres q.(event(q) & eventClass(q,Occurrence) & Tense(q,Pres) & Polarity(q,Pos) & relationRole(event,E18) & Factuality(q,Factual))
+# DRS:  ([q],[event(q), eventClass(q,Occurrence), Tense(q,Pres), Polarity(q,Pos), relationRole(event,E18), Factuality(q,Factual)]) 
+
+# E18 (mean) -> r
+# FOL:  exists Factual Occurrence Pos Pres r.(event(r) & eventClass(r,Occurrence) & Tense(r,Pres) & Polarity(r,Pos) & relationRole(theme,T27) & Factuality(r,Factual))
+# DRS:  ([r],[event(r), eventClass(r,Occurrence), Tense(r,Pres), Polarity(r,Pos), relationRole(theme,T27), Factuality(r,Factual)]) 
+
+# E19 (opposing) -> s
+# FOL:  exists Factual Occurrence Pos Pres s.(event(s) & eventClass(s,Occurrence) & Tense(s,Pres) & Polarity(s,Pos) & relationRole(theme,T15) & Factuality(s,Factual))
+# DRS:  ([s],[event(s), eventClass(s,Occurrence), Tense(s,Pres), Polarity(s,Pos), relationRole(theme,T15), Factuality(s,Factual)]) 
+
+# E20 (is) -> t
+# FOL:  exists Factual Occurrence Pos Pres t.(event(t) & eventClass(t,Occurrence) & Tense(t,Pres) & Polarity(t,Pos) & relationRole(theme,T15) & relationRole(theme,T48) & Factuality(t,Factual))
+# DRS:  ([t],[event(t), eventClass(t,Occurrence), Tense(t,Pres), Polarity(t,Pos), relationRole(theme,T15), relationRole(theme,T48), Factuality(t,Factual)]) 
+
+# E21 (need to back) -> u
+# FOL:  exists Factual Occurrence Pos Pres u.(event(u) & eventClass(u,Occurrence) & Tense(u,Pres) & Polarity(u,Pos) & relationRole(theme,T50) & relationRole(theme,T51) & Factuality(u,Factual))
+# DRS:  ([u],[event(u), eventClass(u,Occurrence), Tense(u,Pres), Polarity(u,Pos), relationRole(theme,T50), relationRole(theme,T51), Factuality(u,Factual)]) 
+
+# E22 (shows) -> v
+# FOL:  exists Factual Occurrence Pos Pres v.(event(v) & eventClass(v,Occurrence) & Tense(v,Pres) & Polarity(v,Pos) & relationRole(theme,T52) & relationRole(theme,T53) & Factuality(v,Factual))
+# DRS:  ([v],[event(v), eventClass(v,Occurrence), Tense(v,Pres), Polarity(v,Pos), relationRole(theme,T52), relationRole(theme,T53), Factuality(v,Factual)]) 
+
+# E23 (working together to stop) -> w
+# FOL:  exists Factual Occurrence Pos Pres w.(event(w) & eventClass(w,Occurrence) & Tense(w,Pres) & Polarity(w,Pos) & relationRole(theme,T53) & relationRole(theme,T17) & Factuality(w,Factual))
+# DRS:  ([w],[event(w), eventClass(w,Occurrence), Tense(w,Pres), Polarity(w,Pos), relationRole(theme,T53), relationRole(theme,T17), Factuality(w,Factual)]) 
+
+# E24 (has shifted) -> x
+# FOL:  exists Factual Occurrence Pos Pres x.(event(x) & eventClass(x,Occurrence) & Tense(x,Pres) & Polarity(x,Pos) & relationRole(theme,T54) & relationRole(theme,T55) & Factuality(x,Factual))
+# DRS:  ([x],[event(x), eventClass(x,Occurrence), Tense(x,Pres), Polarity(x,Pos), relationRole(theme,T54), relationRole(theme,T55), Factuality(x,Factual)]) 
+
+» ACTORS
+# T1 -> heathrow
+# T12 -> heathrow
+# T14 -> heathrow
+# T15 -> heathrow
+# T17 -> heathrow
+# T20 -> we
+# T21 -> our
+# T22 -> heathrow
+# T23 -> heathrow
+# T24 -> a 3rd runway at heathrow
+# T25 -> heathrow third runway
+# T26 -> new runway at heathrow
+# T27 -> heathrows third runway
+# T28 -> london mayor
+# T29 -> i
+# T30 -> the house
+# T31 -> it
+# T39 -> on every level
+# T4 -> heathrow airport
+# T53 -> direct action group planestupid amp locals
+# T6 -> heathrow
+# T8 -> heathrow
+# T5 -> zac
+# T43 -> who
+# T2 -> ht
+# T33 -> 10 000
+# T13 -> heres john mcdonnell
+# T51 -> an alternative
+# T54 -> labours heathrow third runway policy
+# T48 -> not
+# T36 -> a signalling problem
+# T41 -> a direct threat to british people
+# T9 -> london
+# T7 -> george osborne
+# T44 -> protesters
+# T35 -> normally
+# T34 -> ealingbroadway trains
+# T50 -> we
+# T40 -> if
+# T52 -> inside out
+# T10 -> heathrow the duty free shop darrenjohnsonam
+# T55 -> from support
+# T37 -> the green light
+# T45 -> direct action against the executives in charge of heathrow expansion
+# T38 -> to
+# T42 -> action
+
+» RELATIONS
+# E1 - theme - T20
+# E1 - theme - T21
+# E2 - theme - T33
+# E2 - theme - T1
+# E3 - theme - T1
+# E3 - theme - T2
+# E4 - theme - T34
+# E4 - manner - T35
+# E5 - location - T4
+# E5 - theme - T36
+# E6 - theme - T5
+# E6 - theme - T37
+# E7 - theme - T38
+# E7 - theme - T25
+# E8 - theme - T7
+# E9 - theme - T8
+# E9 - manner - T39
+# E10 - manner - T39
+# E10 - theme - T9
+# E11 - theme - T40
+# E11 - theme - T41
+# E12 - theme - T29
+# E12 - theme - T42
+# E13 - theme - T43
+# E13 - theme - T10
+# E14 - theme - T44
+# E14 - theme - T45
+# E15 - theme - T13
+# E15 - theme - T30
+# E16 - theme - T30
+# E16 - theme - T31
+# E17 - event - E18
+# E18 - theme - T27
+# E19 - theme - T15
+# E20 - theme - T15
+# E20 - theme - T48
+# E21 - theme - T50
+# E21 - theme - T51
+# E22 - theme - T52
+# E22 - theme - T53
+# E23 - theme - T53
+# E23 - theme - T17
+# E24 - theme - T54
+# E24 - theme - T55
+# T20 - objIdentity - T21
+# T1 - objIdentity - T4
+# T4 - objIdentity - T6
+# T6 - objIdentity - T8
+# T8 - objIdentity - T22
+# T22 - objIdentity - T12
+# T12 - objIdentity - T14
+# T14 - objIdentity - T15
+# T15 - objIdentity - T17
+# T17 - objIdentity - T23
+# T24 - objIdentity - T25
+# T25 - objIdentity - T26
+# T26 - objIdentity - T27
+# T28 - objIdentity - T29
+# T30 - objIdentity - T31

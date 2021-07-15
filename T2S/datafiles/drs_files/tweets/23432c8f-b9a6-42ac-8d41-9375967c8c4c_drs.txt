@@ -1,0 +1,138 @@
+» EVENTS
+# E1 (has been charged) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T4) & relationRole(theme,T19) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T4), relationRole(theme,T19), Factuality(a,Factual)]) 
+
+# E2 (murder) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T19) & relationRole(purpose,T11) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T19), relationRole(purpose,T11), Factuality(b,Factual)]) 
+
+# E3 (charges) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T1) & relationRole(theme,T6) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T1), relationRole(theme,T6), Factuality(c,Factual)]) 
+
+# E4 (charged) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T7) & relationRole(theme,T20) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T7), relationRole(theme,T20), Factuality(d,Factual)]) 
+
+# E5 (being) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T20) & relationRole(theme,T20) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T20), relationRole(theme,T20), Factuality(e,Factual)]) 
+
+# E6 (murder) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T20) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T20), Factuality(f,Factual)]) 
+
+# E7 (accused) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T22) & relationRole(theme,T2) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T22), relationRole(theme,T2), Factuality(g,Factual)]) 
+
+# E8 (charged) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T23) & relationRole(theme,T24) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T23), relationRole(theme,T24), Factuality(h,Factual)]) 
+
+# E9 (is facing) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T25) & relationRole(theme,T26) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T25), relationRole(theme,T26), Factuality(i,Factual)]) 
+
+# E10 (has been charged) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T8) & relationRole(theme,T27) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T8), relationRole(theme,T27), Factuality(j,Factual)]) 
+
+# E11 (charged with aiding) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T9) & relationRole(theme,T28) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T9), relationRole(theme,T28), Factuality(k,Factual)]) 
+
+# E12 (charged) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T10) & relationRole(theme,T21) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T10), relationRole(theme,T21), Factuality(l,Factual)]) 
+
+# E13 (murder) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T21) & relationRole(location,T16) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T21), relationRole(location,T16), Factuality(m,Factual)]) 
+
+# E14 (charged) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T29) & relationRole(theme,T30) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T29), relationRole(theme,T30), Factuality(n,Factual)]) 
+
+# E15 (accused) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T31) & relationRole(theme,T32) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T31), relationRole(theme,T32), Factuality(o,Factual)]) 
+
+» ACTORS
+# T10 -> 91 year old german woman
+# T11 -> her role in auschwitz
+# T12 -> role at auschwitz
+# T13 -> auschwitz
+# T14 -> auschwitz
+# T15 -> auschwitz
+# T16 -> auschwitz
+# T17 -> auschwitz
+# T18 -> auschwitz
+# T19 -> 260 000 counts of accessory to murder
+# T20 -> 260 000 counts of being an accessory to murder
+# T21 -> 260 000 counts of accessory to murder at auschwitz
+# T4 -> a 91 year old german woman
+# T5 -> her
+# T6 -> 91 year old woman
+# T7 -> 91 year old
+# T8 -> a 91 year old german woman
+# T9 -> 91 year old woman
+# T1 -> germany
+# T23 -> woman 91
+# T2 -> jews
+# T28 -> in nazi death camp murders
+# T22 -> woman 91
+# T31 -> woman 91
+# T29 -> woman 91
+# T32 -> of 200k auschwitz deaths
+# T27 -> with
+# T25 -> a 91 year old woman
+# T30 -> in 260 000 auschwitz deaths
+# T24 -> over 260 000 auschwitz deaths
+# T26 -> charges of 260 000 counts of nazi crimes
+
+» RELATIONS
+# E1 - theme - T4
+# E1 - theme - T19
+# E2 - theme - T19
+# E2 - purpose - T11
+# E3 - theme - T1
+# E3 - theme - T6
+# E4 - theme - T7
+# E4 - theme - T20
+# E5 - theme - T20
+# E5 - theme - T20
+# E6 - theme - T20
+# E7 - theme - T22
+# E7 - theme - T2
+# E8 - theme - T23
+# E8 - theme - T24
+# E9 - theme - T25
+# E9 - theme - T26
+# E10 - theme - T8
+# E10 - theme - T27
+# E11 - theme - T9
+# E11 - theme - T28
+# E12 - theme - T10
+# E12 - theme - T21
+# E13 - theme - T21
+# E13 - location - T16
+# E14 - theme - T29
+# E14 - theme - T30
+# E15 - theme - T31
+# E15 - theme - T32
+# T4 - objIdentity - T5
+# T5 - objIdentity - T6
+# T6 - objIdentity - T7
+# T7 - objIdentity - T8
+# T8 - objIdentity - T9
+# T9 - objIdentity - T10
+# T11 - objIdentity - T12
+# T13 - objIdentity - T14
+# T14 - objIdentity - T15
+# T15 - objIdentity - T16
+# T16 - objIdentity - T17
+# T17 - objIdentity - T18
+# T19 - objIdentity - T20
+# T20 - objIdentity - T21

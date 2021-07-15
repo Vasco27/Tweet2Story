@@ -1,0 +1,53 @@
+» EVENTS
+# E1 (rejects right to die) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T7) & relationRole(theme,T9) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T7), relationRole(theme,T9), Factuality(a,Factual)]) 
+
+# E2 (rejects) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T8) & relationRole(theme,T10) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T8), relationRole(theme,T10), Factuality(b,Factual)]) 
+
+# E3 (legalise assisted dying in wales and england) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T12) & relationRole(event,E4) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T12), relationRole(event,E4), Factuality(c,Factual)]) 
+
+# E4 (has been overwhelmingly rejected) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T3) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T3), Factuality(d,Factual)]) 
+
+# E5 (have rejected) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T4) & relationRole(theme,T13) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T4), relationRole(theme,T13), Factuality(e,Factual)]) 
+
+# E6 (die legislation in england and wales) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T13) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T13), Factuality(f,Factual)]) 
+
+» ACTORS
+# T13 -> a right to
+# T3 -> mps
+# T7 -> british parliament
+# T8 -> bulgarian parliament
+# T10 -> anti corruption bill
+# T5 -> england
+# T1 -> wales
+# T6 -> wales
+# T9 -> law
+# T4 -> mps
+# T2 -> england
+# T12 -> a bill to
+
+» RELATIONS
+# E1 - theme - T7
+# E1 - theme - T9
+# E2 - theme - T8
+# E2 - theme - T10
+# E3 - theme - T12
+# E3 - event - E4
+# E4 - theme - T3
+# E5 - theme - T4
+# E5 - theme - T13
+# E6 - theme - T13
+# T7 - objIdentity - T8
+# T2 - objIdentity - T5
+# T1 - objIdentity - T6

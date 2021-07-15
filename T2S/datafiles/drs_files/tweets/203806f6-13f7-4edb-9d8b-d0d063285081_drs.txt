@@ -1,0 +1,221 @@
+» EVENTS
+# E1 (will have wear) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T47) & relationRole(theme,T2) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T47), relationRole(theme,T2), Factuality(a,Factual)]) 
+
+# E2 (endures) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & relationRole(theme,T49) & relationRole(theme,T78) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), relationRole(theme,T49), relationRole(theme,T78), Factuality(b,Factual)]) 
+
+# E3 (eventually beat) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T78) & relationRole(theme,T62) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T78), relationRole(theme,T62), Factuality(c,Factual)]) 
+
+# E4 (keep) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T6) & relationRole(theme,T79) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T6), relationRole(theme,T79), Factuality(d,Factual)]) 
+
+# E5 (speaks to stevescott) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T9) & relationRole(theme,T10) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T9), relationRole(theme,T10), Factuality(e,Factual)]) 
+
+# E6 (face) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T14) & relationRole(theme,T15) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T14), relationRole(theme,T15), Factuality(f,Factual)]) 
+
+# E7 (take) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T80) & relationRole(theme,T22) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T80), relationRole(theme,T22), Factuality(g,Factual)]) 
+
+# E8 (will kick) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T53) & relationRole(theme,T24) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T53), relationRole(theme,T24), Factuality(h,Factual)]) 
+
+# E9 (take on) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T54) & relationRole(theme,T25) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T54), relationRole(theme,T25), Factuality(i,Factual)]) 
+
+# E10 (opening) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T75) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T75), Factuality(j,Factual)]) 
+
+# E11 (was englands 100th try) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T83) & relationRole(location,T31) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T83), relationRole(location,T31), Factuality(k,Factual)]) 
+
+# E12 (knocked) -> l
+# FOL:  exists Factual Occurrence Pos Pres l.(event(l) & eventClass(l,Occurrence) & Tense(l,Pres) & Polarity(l,Pos) & relationRole(theme,T32) & relationRole(theme,T73) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Pres), Polarity(l,Pos), relationRole(theme,T32), relationRole(theme,T73), Factuality(l,Factual)]) 
+
+# E13 (planted) -> m
+# FOL:  exists Factual Occurrence Pos Pres m.(event(m) & eventClass(m,Occurrence) & Tense(m,Pres) & Polarity(m,Pos) & relationRole(theme,T72) & relationRole(theme,T74) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Pres), Polarity(m,Pos), relationRole(theme,T72), relationRole(theme,T74), Factuality(m,Factual)]) 
+
+# E14 (have beaten) -> n
+# FOL:  exists Factual Occurrence Pos Pres n.(event(n) & eventClass(n,Occurrence) & Tense(n,Pres) & Polarity(n,Pos) & relationRole(theme,T60) & relationRole(theme,T36) & Factuality(n,Factual))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,Pres), Polarity(n,Pos), relationRole(theme,T60), relationRole(theme,T36), Factuality(n,Factual)]) 
+
+# E15 (rated) -> o
+# FOL:  exists Factual Occurrence Pos Pres o.(event(o) & eventClass(o,Occurrence) & Tense(o,Pres) & Polarity(o,Pos) & relationRole(theme,T88) & relationRole(theme,T39) & Factuality(o,Factual))
+# DRS:  ([o],[event(o), eventClass(o,Occurrence), Tense(o,Pres), Polarity(o,Pos), relationRole(theme,T88), relationRole(theme,T39), Factuality(o,Factual)]) 
+
+# E16 (urges england to improve despite winning) -> p
+# FOL:  exists Factual Occurrence Pos Pres p.(event(p) & eventClass(p,Occurrence) & Tense(p,Pres) & Polarity(p,Pos) & relationRole(theme,T40) & relationRole(theme,T45) & Factuality(p,Factual))
+# DRS:  ([p],[event(p), eventClass(p,Occurrence), Tense(p,Pres), Polarity(p,Pos), relationRole(theme,T40), relationRole(theme,T45), Factuality(p,Factual)]) 
+
+» ACTORS
+# T12 -> fiji
+# T13 -> stuart lancaster
+# T15 -> fiji
+# T16 -> world cup
+# T17 -> twickenham
+# T18 -> fiji
+# T19 -> twickenham
+# T2 -> fiji
+# T21 -> fiji
+# T22 -> england
+# T23 -> twickenham
+# T25 -> fiji
+# T26 -> twickenham
+# T27 -> fiji
+# T28 -> rugby world cup
+# T3 -> twickenham
+# T33 -> fiji
+# T34 -> matawalu
+# T36 -> fiji
+# T37 -> twickenham
+# T38 -> rugby world cup
+# T39 -> twickenham
+# T40 -> stuart lancaster
+# T42 -> fiji
+# T43 -> stuart lancaster
+# T44 -> england
+# T45 -> rugby world cup
+# T47 -> host nation england
+# T48 -> their
+# T49 -> england
+# T5 -> twickenham
+# T50 -> the guardianengland
+# T51 -> englands
+# T52 -> england
+# T53 -> england
+# T54 -> they
+# T55 -> england
+# T56 -> englands
+# T57 -> england
+# T58 -> england
+# T59 -> england
+# T6 -> stuart lancaster
+# T60 -> england
+# T61 -> englands
+# T62 -> brave fiji
+# T63 -> fiji
+# T64 -> fiji
+# T65 -> coach stuart lancaster
+# T66 -> stuart lancaster
+# T69 -> world cup
+# T7 -> fiji
+# T70 -> the rugby world cup
+# T71 -> matawalu
+# T72 -> he
+# T73 -> the ball
+# T74 -> it
+# T75 -> opening match of rugby world cup
+# T76 -> the opening match of the rugby world cup at twickenham
+# T78 -> uncomfortable rwc2015 opener to
+# T14 -> england xv
+# T24 -> rugby world cup
+# T9 -> stuart lancaster
+# T80 -> team
+# T88 -> they
+# T32 -> matawalu england
+# T10 -> stevescott itv
+# T67 -> englands game against fiji
+# T79 -> faith in tel
+# T83 -> that try
+# T68 -> england world cup opener
+# T31 -> 0 fiji
+
+» RELATIONS
+# E1 - theme - T47
+# E1 - theme - T2
+# E2 - theme - T49
+# E2 - theme - T78
+# E3 - theme - T78
+# E3 - theme - T62
+# E4 - theme - T6
+# E4 - theme - T79
+# E5 - theme - T9
+# E5 - theme - T10
+# E6 - theme - T14
+# E6 - theme - T15
+# E7 - theme - T80
+# E7 - theme - T22
+# E8 - theme - T53
+# E8 - theme - T24
+# E9 - theme - T54
+# E9 - theme - T25
+# E10 - theme - T75
+# E11 - theme - T83
+# E11 - location - T31
+# E12 - theme - T32
+# E12 - theme - T73
+# E13 - theme - T72
+# E13 - theme - T74
+# E14 - theme - T60
+# E14 - theme - T36
+# E15 - theme - T88
+# E15 - theme - T39
+# E16 - theme - T40
+# E16 - theme - T45
+# T47 - objIdentity - T48
+# T48 - objIdentity - T49
+# T49 - objIdentity - T50
+# T50 - objIdentity - T51
+# T51 - objIdentity - T52
+# T52 - objIdentity - T22
+# T22 - objIdentity - T53
+# T53 - objIdentity - T54
+# T54 - objIdentity - T55
+# T55 - objIdentity - T56
+# T56 - objIdentity - T57
+# T57 - objIdentity - T58
+# T58 - objIdentity - T59
+# T59 - objIdentity - T60
+# T60 - objIdentity - T61
+# T61 - objIdentity - T44
+# T2 - objIdentity - T62
+# T62 - objIdentity - T7
+# T7 - objIdentity - T12
+# T12 - objIdentity - T15
+# T15 - objIdentity - T18
+# T18 - objIdentity - T21
+# T21 - objIdentity - T25
+# T25 - objIdentity - T27
+# T27 - objIdentity - T63
+# T63 - objIdentity - T33
+# T33 - objIdentity - T64
+# T64 - objIdentity - T36
+# T36 - objIdentity - T42
+# T3 - objIdentity - T5
+# T5 - objIdentity - T17
+# T17 - objIdentity - T19
+# T19 - objIdentity - T23
+# T23 - objIdentity - T26
+# T26 - objIdentity - T37
+# T37 - objIdentity - T39
+# T6 - objIdentity - T65
+# T65 - objIdentity - T13
+# T13 - objIdentity - T66
+# T66 - objIdentity - T40
+# T40 - objIdentity - T43
+# T67 - objIdentity - T68
+# T16 - objIdentity - T69
+# T69 - objIdentity - T28
+# T28 - objIdentity - T70
+# T70 - objIdentity - T38
+# T38 - objIdentity - T45
+# T71 - objIdentity - T34
+# T34 - objIdentity - T72
+# T73 - objIdentity - T74
+# T75 - objIdentity - T76

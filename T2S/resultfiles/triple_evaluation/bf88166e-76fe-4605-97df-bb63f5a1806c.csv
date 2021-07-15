@@ -1,0 +1,33 @@
+news_triple,best_tweets_triple,BERT,FastText,leven,rouge1
+migrants - died - coast,migrants - arrive - greek island lesbos,0.75,0.517,0.655,0.333
+migrants - carrying - greece,migrants - arrive - greek island lesbos,0.799,0.608,0.724,0.333
+migrants - accident - migrants,migrants - arrive - greek island lesbos,0.771,0.459,0.6,0.333
+inflatable dinghy - carrying - migrants,four children - hits - inflatable dinghy,0.608,0.229,0.276,0.0
+inflatable dinghy - carrying - greece,four children - hits - inflatable dinghy,0.599,0.223,0.231,0.0
+inflatable dinghy - collided - ferry,four children - hits - inflatable dinghy,0.566,0.285,0.255,0.0
+inflatable dinghy - involving - inflatable dinghy,four children - hits - inflatable dinghy,0.741,0.471,0.497,0.333
+inflatable dinghy - carrying - migrants,four children - hits - inflatable dinghy,0.608,0.229,0.276,0.0
+inflatable dinghy - carrying - northwestern turkish port canakkale,four children - hits - inflatable dinghy,0.626,0.222,0.284,0.0
+inflatable dinghy - carrying - greek island lesbos,four children - hits - inflatable dinghy,0.629,0.255,0.287,0.0
+turkish media - reported - turkish media,greek coastguard - die - coast,0.606,0.247,0.373,0.0
+four children - were - migrants,four children - hits - inflatable dinghy,0.746,0.425,0.446,0.333
+migrants - carrying - northwestern turkish port canakkale,migrants - arrive - greek island lesbos,0.785,0.577,0.647,0.333
+migrants - carrying - greek island lesbos,migrants - arrive - greek island lesbos,0.87,0.736,0.857,0.667
+northwestern turkish port canakkale - carrying - greek island lesbos,greek coastguard - die - coast,0.649,0.315,0.381,0.0
+13 people - were missing - 13 people,13 people - have been rescued - 13 people,0.934,0.815,0.776,0.667
+aegean sea - was the second - aegean sea,greek island lesbos - after crossing - aegean sea,0.787,0.651,0.65,0.333
+aegean sea - spotted - helicopter,greek island lesbos - after crossing - aegean sea,0.648,0.357,0.302,0.0
+greek coastguard - reporting - two dozen,greek coastguard - die - coast,0.735,0.401,0.493,0.333
+greek coastguard - said - greek coastguard,greek coastguard - die - coast,0.814,0.503,0.729,0.333
+greek coastguard - rescued - 20 people,greek coastguard - die - coast,0.733,0.486,0.543,0.333
+20 people - spotted - aegean sea,13 people - have been rescued - 13 people,0.717,0.501,0.499,0.167
+20 people - spotted - helicopter,13 people - have been rescued - 13 people,0.721,0.489,0.55,0.167
+20 people - said - 20 people,13 people - have been rescued - 13 people,0.837,0.71,0.594,0.333
+26 people - had been - boat,26 people - went missing - 26 people,0.776,0.518,0.496,0.333
+turkey - attempted crossing - greece,thirteen migrants - trying to reach greece drown - turkey,0.642,0.307,0.378,0.0
+dogan news agency - reported - dogan news agency,turkish media - say - turkish media,0.715,0.295,0.211,0.0
+twenty people - rescued - twenty people,13 people - have been rescued - 13 people,0.843,0.694,0.807,0.444
+nationalities - no information - nationalities,migrants - arrive - greek island lesbos,0.62,0.273,0.34,0.0
+two dozen - feared missing - boat,26 people - went missing - 26 people,0.727,0.422,0.419,0.111
+helicopter - deployed - eu border agency frontex,dinghy carrying - carrying them sank - greek island lesbos,0.684,0.317,0.25,0.0
+fiveyearold syrian girl - died - fiveyearold syrian girl,dinghy carrying - carrying them sank - greek island lesbos,0.695,0.339,0.342,0.0

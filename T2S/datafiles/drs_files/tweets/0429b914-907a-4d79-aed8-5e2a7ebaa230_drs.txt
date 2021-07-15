@@ -1,0 +1,137 @@
+» EVENTS
+# E1 (starting xv face) -> a
+# FOL:  exists Factual Occurrence Pos Pres a.(event(a) & eventClass(a,Occurrence) & Tense(a,Pres) & Polarity(a,Pos) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Pres), Polarity(a,Pos), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E2 (looking slick i have say leading) -> b
+# FOL:  exists Factual Occurrence Pos Pres b.(event(b) & eventClass(b,Occurrence) & Tense(b,Pres) & Polarity(b,Pos) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Pres), Polarity(b,Pos), Factuality(b,Factual)]) 
+
+# E3 (picked) -> c
+# FOL:  exists Factual Occurrence Pos Pres c.(event(c) & eventClass(c,Occurrence) & Tense(c,Pres) & Polarity(c,Pos) & relationRole(theme,T53) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Pres), Polarity(c,Pos), relationRole(theme,T53), Factuality(c,Factual)]) 
+
+# E4 (recorded) -> d
+# FOL:  exists Factual Occurrence Pos Pres d.(event(d) & eventClass(d,Occurrence) & Tense(d,Pres) & Polarity(d,Pos) & relationRole(theme,T47) & relationRole(theme,T17) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Pres), Polarity(d,Pos), relationRole(theme,T47), relationRole(theme,T17), Factuality(d,Factual)]) 
+
+# E5 (make) -> e
+# FOL:  exists Factual Occurrence Pos Pres e.(event(e) & eventClass(e,Occurrence) & Tense(e,Pres) & Polarity(e,Pos) & relationRole(theme,T18) & relationRole(theme,T54) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Pres), Polarity(e,Pos), relationRole(theme,T18), relationRole(theme,T54), Factuality(e,Factual)]) 
+
+# E6 (will go) -> f
+# FOL:  exists Factual Occurrence Pos Pres f.(event(f) & eventClass(f,Occurrence) & Tense(f,Pres) & Polarity(f,Pos) & relationRole(theme,T20) & relationRole(theme,T21) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Pres), Polarity(f,Pos), relationRole(theme,T20), relationRole(theme,T21), Factuality(f,Factual)]) 
+
+# E7 (calls) -> g
+# FOL:  exists Factual Occurrence Pos Pres g.(event(g) & eventClass(g,Occurrence) & Tense(g,Pres) & Polarity(g,Pos) & relationRole(theme,T22) & relationRole(theme,T57) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Pres), Polarity(g,Pos), relationRole(theme,T22), relationRole(theme,T57), Factuality(g,Factual)]) 
+
+# E8 (talking) -> h
+# FOL:  exists Factual Occurrence Pos Pres h.(event(h) & eventClass(h,Occurrence) & Tense(h,Pres) & Polarity(h,Pos) & relationRole(theme,T59) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Pres), Polarity(h,Pos), relationRole(theme,T59), Factuality(h,Factual)]) 
+
+# E9 (goes) -> i
+# FOL:  exists Factual Occurrence Pos Pres i.(event(i) & eventClass(i,Occurrence) & Tense(i,Pres) & Polarity(i,Pos) & relationRole(theme,T60) & relationRole(path,T61) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Pres), Polarity(i,Pos), relationRole(theme,T60), relationRole(path,T61), Factuality(i,Factual)]) 
+
+# E10 (are awarded) -> j
+# FOL:  exists Factual Occurrence Pos Pres j.(event(j) & eventClass(j,Occurrence) & Tense(j,Pres) & Polarity(j,Pos) & relationRole(theme,T32) & relationRole(theme,T62) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Pres), Polarity(j,Pos), relationRole(theme,T32), relationRole(theme,T62), Factuality(j,Factual)]) 
+
+# E11 (may ford kicks to touch) -> k
+# FOL:  exists Factual Occurrence Pos Pres k.(event(k) & eventClass(k,Occurrence) & Tense(k,Pres) & Polarity(k,Pos) & relationRole(theme,T33) & relationRole(purpose,T63) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Pres), Polarity(k,Pos), relationRole(theme,T33), relationRole(purpose,T63), Factuality(k,Factual)]) 
+
+» ACTORS
+# T15 -> ireland
+# T16 -> ireland
+# T17 -> twickenham
+# T2 -> ireland
+# T20 -> ireland
+# T21 -> the world cup
+# T24 -> england
+# T29 -> twickenham
+# T3 -> england
+# T32 -> england
+# T36 -> twickenham
+# T38 -> ireland
+# T39 -> ireland
+# T4 -> twickenham
+# T40 -> ireland
+# T41 -> ireland
+# T42 -> england
+# T43 -> england
+# T44 -> england
+# T45 -> eng
+# T46 -> england
+# T47 -> england
+# T48 -> clinical england
+# T49 -> england
+# T5 -> ireland
+# T52 -> world cup
+# T8 -> ireland
+# T9 -> england
+# T23 -> fiji
+# T62 -> a penalty for a tip tackle on
+# T51 -> final warm up against england
+# T50 -> england world cup warm up
+# T53 -> plenty of knocks
+# T1 -> healy
+# T6 -> healy kearney
+# T54 -> a significant statement
+# T22 -> stuart lancaster
+# T35 -> fiji
+# T61 -> upstairs
+# T59 -> points
+# T33 -> jonny
+# T18 -> england
+# T60 -> 11 jaco peyper
+# T57 -> for fiji focus
+# T63 -> for a lineout
+
+» RELATIONS
+# E1 - theme - T3
+# E3 - theme - T53
+# E4 - theme - T47
+# E4 - theme - T17
+# E5 - theme - T18
+# E5 - theme - T54
+# E6 - theme - T20
+# E6 - theme - T21
+# E7 - theme - T22
+# E7 - theme - T57
+# E8 - theme - T59
+# E9 - theme - T60
+# E9 - path - T61
+# E10 - theme - T32
+# E10 - theme - T62
+# E11 - theme - T33
+# E11 - purpose - T63
+# T2 - objIdentity - T5
+# T5 - objIdentity - T8
+# T8 - objIdentity - T38
+# T38 - objIdentity - T39
+# T39 - objIdentity - T15
+# T15 - objIdentity - T16
+# T16 - objIdentity - T20
+# T20 - objIdentity - T40
+# T40 - objIdentity - T41
+# T1 - objIdentity - T6
+# T3 - objIdentity - T42
+# T42 - objIdentity - T9
+# T9 - objIdentity - T43
+# T43 - objIdentity - T44
+# T44 - objIdentity - T45
+# T45 - objIdentity - T46
+# T46 - objIdentity - T47
+# T47 - objIdentity - T48
+# T48 - objIdentity - T24
+# T24 - objIdentity - T32
+# T32 - objIdentity - T49
+# T50 - objIdentity - T51
+# T4 - objIdentity - T17
+# T17 - objIdentity - T29
+# T29 - objIdentity - T36
+# T52 - objIdentity - T21
+# T23 - objIdentity - T35
