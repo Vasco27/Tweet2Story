@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T15:27:20.049Z" agent="5.0 (Windows)" etag="ZDHFksXdKBuwJMW3dT9a" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T15:32:37.012Z" agent="5.0 (Windows)" etag="eTu-8fdMYMH4vz9U4G1L" version="14.9.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,12 +8,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-0" value="news actors" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="80" y="120" width="120" height="50" as="geometry" />
+          <mxGeometry x="60" y="120" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#826FFC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-1" target="CVYTd-x3_azDUV4iMZor-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CVYTd-x3_azDUV4iMZor-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.408;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#826FFC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-1" target="CVYTd-x3_azDUV4iMZor-23">
+        <mxCell id="CVYTd-x3_azDUV4iMZor-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#826FFC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-1" target="CVYTd-x3_azDUV4iMZor-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-1" value="&lt;div&gt;news triples&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -26,14 +26,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-2" value="tweets actors" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="120" width="120" height="50" as="geometry" />
+          <mxGeometry x="190" y="120" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-4" target="CVYTd-x3_azDUV4iMZor-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CVYTd-x3_azDUV4iMZor-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.6;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFD966;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-4" target="CVYTd-x3_azDUV4iMZor-23">
+        <mxCell id="CVYTd-x3_azDUV4iMZor-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFD966;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-4" target="CVYTd-x3_azDUV4iMZor-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-4" value="tweets triples" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -43,13 +43,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-6" value="cluster_similarity" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A35200;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-11" target="CVYTd-x3_azDUV4iMZor-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-11" value="&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;BERT&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;similarity&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="225" width="50" height="50" as="geometry" />
+          <mxGeometry x="30" y="225" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-14" target="CVYTd-x3_azDUV4iMZor-16">
           <mxGeometry relative="1" as="geometry" />
@@ -58,7 +58,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-14" value="&lt;div&gt;similarity &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt; 0.8&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#A50040;fontColor=#ffffff;fillColor=#AD2A63;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="140" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-16" target="CVYTd-x3_azDUV4iMZor-19">
           <mxGeometry relative="1" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-21" value="&lt;div&gt;similarity &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;= 0.8&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#A50040;fontColor=#ffffff;fillColor=#AD2A63;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="475" width="80" height="80" as="geometry" />
+          <mxGeometry x="140" y="475" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CVYTd-x3_azDUV4iMZor-23" target="CVYTd-x3_azDUV4iMZor-25">
           <mxGeometry relative="1" as="geometry" />
@@ -109,6 +109,12 @@
         </mxCell>
         <mxCell id="CVYTd-x3_azDUV4iMZor-43" value="&lt;div&gt;Total triples&lt;/div&gt;&lt;div&gt;&lt;b&gt;metrics&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#82b366;fillColor=#C5E8C8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="740" y="410" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CVYTd-x3_azDUV4iMZor-46" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Use representative for both news and tweets&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="340" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CVYTd-x3_azDUV4iMZor-49" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Search entire KG for most similar triple&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="495" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
